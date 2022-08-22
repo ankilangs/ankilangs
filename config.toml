@@ -1,0 +1,7 @@
+baseURL = 'https://www.anki-langs.org/'
+languageCode = 'en-us'
+title = 'AnkiLangs'
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
