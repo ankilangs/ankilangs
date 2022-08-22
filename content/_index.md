@@ -22,17 +22,20 @@ deck must come from this project.
 Motivation:
 
 * Many languages decks are unstructured, incomplete or even contain errors
-* Collaboration (sending in improvements) is frequently not possible or
-  cumbersome (e.g. send an e-mail with suggestions)
+* Collaboration (sending in corrections) is frequently not possible or
+  cumbersome (via e-mail)
+* The origin of the content is frequently unclear and may violate copyright
+  laws, making it unsuitable for investing more work.
 
 Goals:
 
-* Prioritize quality over quantity. Incorrect information or errors are a no
-  go.
+* Prioritize quality over quantity. Incorrect information or errors are a
+  no-go.
 * Encourage and simplify collaboration to involve many people around the world
   to create and continously improve these decks
-* Make the decks a growing project for learning any language of the world
 * Create content with permissive open source licenses for easy use and re-use.
+
+If you would like to help, please get in touch!
 
 Contact: info@anki-langs.org
 
