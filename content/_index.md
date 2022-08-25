@@ -38,7 +38,7 @@ Goals:
   to create and continously improve these decks
 * Create content with permissive open source licenses for easy use and re-use.
 
-If you would like to help, please get in touch!
+If you would like to help, please get in touch or [get started]({{< ref "docs/contributing" >}})!
 
 Contact: info@anki-langs.org
 
