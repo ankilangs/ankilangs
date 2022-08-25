@@ -216,11 +216,11 @@
             "fields": [
                 "bieten",
                 "[sound:bieten.mp3]",
-                "<rt>ˈbiːtn̩</rt>",
+                "ˈbiːtn̩",
                 "to offer",
                 "bitten",
                 "[sound:bitten.mp3]",
-                "<rt>ˈbɪtn̩</rt>",
+                "ˈbɪtn̩",
                 "to ask for"
             ],
             "flags": 0,
@@ -234,11 +234,11 @@
             "fields": [
                 "vieler",
                 "[sound:vieler.mp3]",
-                "<rt>ˈfiːlɐ</rt>",
+                "ˈfiːlɐ",
                 "of many",
                 "Filla",
                 "[sound:Filla.mp3]",
-                "<rt>ˈfɪlaː</rt>",
+                "ˈfɪlaː",
                 "(made up)"
             ],
             "flags": 0,
