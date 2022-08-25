@@ -12,9 +12,11 @@ description: "The goal of AnkiLangs is collaborating in the creation of high qua
 
 # Welcome to AnkiLangs!
 
-The aim of this project is to provide high quality
-[Anki](https://apps.ankiweb.net/) (spaced repetition / flashcard software)
-decks for learning languages.
+The aim of this project is collaborating in the creation of high quality, free
+and open source [Anki](https://apps.ankiweb.net/) decks for language learning.
+
+Anki is open source spaced repetition software meant for creating and
+memorizing _flashcards_.
 
 This project is not affiliated in any way with Anki nor is it necessarily
 endorsed by the Anki team. We do not mean to imply that any language learning
