@@ -58,18 +58,18 @@
     "extendNew": 0,
     "extendRev": 0,
     "media_files": [
-        "Filla.mp3",
-        "Wiege.mp3",
-        "Wigge.mp3",
-        "bieten.mp3",
-        "bitten.mp3",
-        "ihn.mp3",
-        "in.mp3",
-        "riet.mp3",
-        "ritt.mp3",
-        "stiehlt.mp3",
-        "stillt.mp3",
-        "vieler.mp3"
+        "al_de_bieten.mp3",
+        "al_de_bitten.mp3",
+        "al_de_filla.mp3",
+        "al_de_ihn.mp3",
+        "al_de_in.mp3",
+        "al_de_riet.mp3",
+        "al_de_ritt.mp3",
+        "al_de_stiehlt.mp3",
+        "al_de_stillt.mp3",
+        "al_de_vieler.mp3",
+        "al_de_wiege.mp3",
+        "al_de_wigge.mp3"
     ],
     "name": "AnkiLangs | EN to DE | Minimal Pairs",
     "note_models": [
@@ -215,11 +215,11 @@
             "data": "",
             "fields": [
                 "bieten",
-                "[sound:bieten.mp3]",
+                "[sound:al_de_bieten.mp3]",
                 "ˈbiːtn̩",
                 "to offer",
                 "bitten",
-                "[sound:bitten.mp3]",
+                "[sound:al_de_bitten.mp3]",
                 "ˈbɪtn̩",
                 "to ask for"
             ],
@@ -233,11 +233,11 @@
             "data": "",
             "fields": [
                 "vieler",
-                "[sound:vieler.mp3]",
+                "[sound:al_de_vieler.mp3]",
                 "ˈfiːlɐ",
                 "of many",
                 "Filla",
-                "[sound:Filla.mp3]",
+                "[sound:al_de_filla.mp3]",
                 "ˈfɪlaː",
                 "(made up)"
             ],
@@ -251,11 +251,11 @@
             "data": "",
             "fields": [
                 "Wiege",
-                "[sound:Wiege.mp3]",
+                "[sound:al_de_wiege.mp3]",
                 "ˈviːɡə",
                 "cradle",
                 "Wigge",
-                "[sound:Wigge.mp3]",
+                "[sound:al_de_wigge.mp3]",
                 "ˈvɪɡə",
                 "(made up)"
             ],
@@ -269,11 +269,11 @@
             "data": "",
             "fields": [
                 "stiehlt",
-                "[sound:stiehlt.mp3]",
+                "[sound:al_de_stiehlt.mp3]",
                 "ʃtiːlt",
                 "(he) steals",
                 "stillt",
-                "[sound:stillt.mp3]",
+                "[sound:al_de_stillt.mp3]",
                 "ʃtɪlt",
                 "(she) breastfeeds"
             ],
@@ -287,11 +287,11 @@
             "data": "",
             "fields": [
                 "riet",
-                "[sound:riet.mp3]",
+                "[sound:al_de_riet.mp3]",
                 "ʁiːt",
                 "(I) guessed",
                 "ritt",
-                "[sound:ritt.mp3]",
+                "[sound:al_de_ritt.mp3]",
                 "ʁɪt",
                 "(I) rode (a horse)"
             ],
@@ -305,11 +305,11 @@
             "data": "",
             "fields": [
                 "ihn",
-                "[sound:ihn.mp3]",
+                "[sound:al_de_ihn.mp3]",
                 "iːn",
                 "him",
                 "in",
-                "[sound:in.mp3]",
+                "[sound:al_de_in.mp3]",
                 "ɪn",
                 "in"
             ],
