@@ -41,7 +41,10 @@ deck_configurations:
     perDay: 500
   reviewOrder: 0
   timer: 0
-desc: ''
+desc: >
+  Learn to distinguish German phonemes as an English speaker.<br><br>Check
+  <a href="https://www.anki-langs.org">www.anki-langs.org</a> for more decks
+  and for contributing.
 dyn: 0
 extendNew: 0
 extendRev: 0
