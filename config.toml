@@ -2,6 +2,12 @@ baseURL = 'https://www.anki-langs.org/'
 languageCode = 'en-us'
 title = 'AnkiLangs'
 
+enableGitInfo = true
+
 [module]
 [[module.imports]]
 path = 'github.com/alex-shpak/hugo-book'
+
+[params]
+  BookRepo = 'https://github.com/anki-langs/anki-langs.org'
+  BookEditPath = 'edit/main'
