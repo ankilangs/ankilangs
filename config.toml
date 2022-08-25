@@ -1,4 +1,4 @@
-baseURL = 'https://www.anki-langs.org/'
+baseURL = 'https://anki-langs.org/'
 languageCode = 'en-us'
 title = 'AnkiLangs'
 

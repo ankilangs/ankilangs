@@ -1,2 +1,2 @@
 # anki-langs.org
-Website https://www.anki-langs.org
+Website https://anki-langs.org
