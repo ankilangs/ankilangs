@@ -9,5 +9,6 @@ enableGitInfo = true
 path = 'github.com/alex-shpak/hugo-book'
 
 [params]
+  BookLogo = 'logo.png'
   BookRepo = 'https://github.com/anki-langs/anki-langs.org'
   BookEditPath = 'edit/main'
