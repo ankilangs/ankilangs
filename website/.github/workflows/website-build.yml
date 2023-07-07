@@ -1,16 +1,23 @@
-name: github pages
+name: Website Build
 
 on:
   push:
     branches:
       - main  # Set a branch to deploy
+    paths:
+      - .github/workflows/**
+      - website/**
   pull_request:
+    paths:
+      - .github/workflows/**
+      - website/**
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -23,10 +30,11 @@ jobs:
 
       - name: Build
         run: hugo --minify
+        working-directory: website
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./website/public
