@@ -13,5 +13,5 @@ weight: 1
 
 Currently there is only one very small deck for learning German [minimal
 pairs](https://en.wikipedia.org/wiki/Minimal_pair). Have a look at the
-[repository](https://github.com/anki-langs/de-german) and consider
+[repository](https://github.com/ankilangs/ankilangs) and consider
 contributing.

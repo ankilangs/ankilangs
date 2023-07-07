@@ -1,4 +1,4 @@
-module github.com/anki-langs/anki-langs.org
+module github.com/ankilangs/ankilangs/website
 
 go 1.19
 

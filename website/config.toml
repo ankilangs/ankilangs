@@ -1,4 +1,4 @@
-baseURL = 'https://anki-langs.org/'
+baseURL = 'https://ankilangs.org/'
 languageCode = 'en-us'
 title = 'AnkiLangs'
 
@@ -10,5 +10,5 @@ path = 'github.com/alex-shpak/hugo-book'
 
 [params]
   BookLogo = 'logo.png'
-  BookRepo = 'https://github.com/anki-langs/anki-langs.org'
+  BookRepo = 'https://github.com/ankilangs/ankilangs/website'
   BookEditPath = 'edit/main'

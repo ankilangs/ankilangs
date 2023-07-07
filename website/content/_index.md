@@ -40,6 +40,6 @@ Goals:
 
 If you would like to help, please get in touch or [get started]({{< ref "docs/contributing" >}})!
 
-Contact: info@anki-langs.org
+Contact: info@ankilangs.org
 
-GitHub: https://github.com/anki-langs
+GitHub: https://github.com/ankilangs/ankilangs
