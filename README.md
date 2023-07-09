@@ -27,7 +27,7 @@ Then you may review them like any deck.
 
 ### Edit in Anki
 
-TODO Does not work currently.
+Does not work currently. [#1](https://github.com/ankilangs/ankilangs/issues/1).
 
 ### Edit as CSV
 
