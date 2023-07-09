@@ -1,6 +1,11 @@
 crowdanki_uuid: 76740ce2-079f-44e5-a7ac-3c1a55713fcd
 deck_config_uuid: 495b7494-1b0b-11ee-8ac9-c5d2cf109b08
 deck_configurations:
+
+  # WARNING: The below DeckConfig is used by all decks in this repository. It
+  # does not currently seem to be possible to import multiple header files so
+  # the config is duplicated into every deck header. If you want to edit it,
+  # you need to do it everywhere!
 - __type__: DeckConfig
   autoplay: true
   buryInterdayLearning: false
