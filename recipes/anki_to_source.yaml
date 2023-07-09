@@ -20,7 +20,7 @@
 - generate_csvs:
     notes: deck_notes
     file_mappings:
-    - file: src/data/AnkiLangs EN to DE.csv
+    - file: src/data/EN to DE - 625 Words.csv
       note_model: AnkiLangs EN to DE
     note_model_mappings:
     - note_models:
