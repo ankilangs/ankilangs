@@ -1,0 +1,322 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "6e7eb760-247e-11ed-b28f-9db35ba9b07a",
+    "deck_config_uuid": "6e7eb761-247e-11ed-b28f-9db35ba9b07a",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "6e7eb761-247e-11ed-b28f-9db35ba9b07a",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    30.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 30,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    25.0,
+                    1440.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    3,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 15
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 500
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "Learn to distinguish German phonemes as an English speaker.<br><br>Check <a href=\"https://www.anki-langs.org\">www.anki-langs.org</a> for more decks and for contributing.\n",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "al_de_bieten.mp3",
+        "al_de_bitten.mp3",
+        "al_de_filla.mp3",
+        "al_de_ihn.mp3",
+        "al_de_in.mp3",
+        "al_de_riet.mp3",
+        "al_de_ritt.mp3",
+        "al_de_stiehlt.mp3",
+        "al_de_stillt.mp3",
+        "al_de_vieler.mp3",
+        "al_de_wiege.mp3",
+        "al_de_wigge.mp3"
+    ],
+    "name": "AnkiLangs | EN to DE | Minimal Pairs",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "6e7eb764-247e-11ed-b28f-9db35ba9b07a",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Text1",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Audio1",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "IPA1",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Meaning1",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Text2",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Audio2",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "IPA2",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Meaning2",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "AnkiLangs | EN to DE | Minimal Pair",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        2,
+                        5
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1,
+                        4,
+                        5,
+                        6
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "Yes.\n<br>\n<hr>\n{{Audio1}}\n<br>\n{{Text1}}\n<br>\n<i>/{{IPA1}}/</i>\n<br>\n<small>{{Meaning1}}</small>\n<br>\n<br>\n{{Audio2}}\n<br>\n{{Text2}}\n<br>\n<i>/{{IPA2}}/</i>\n<br>\n<small>{{Meaning2}}</small>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Test1",
+                    "ord": 0,
+                    "qfmt": "{{Text1}}\n<br>\n<i>/{{IPA1}}/</i>\n<br><br>\nDo you hear the above word <b>first</b>? Yes/No\n<br><br>\n{{Audio1}}\n{{Audio2}}",
+                    "scratchPad": 0
+                },
+                {
+                    "afmt": "No.\n<br>\n<hr>\n{{Audio1}}\n<br>\n{{Text1}}\n<br>\n<i>/{{IPA1}}/</i>\n<br>\n<small>{{Meaning1}}</small>\n<br>\n<br>\n{{Audio2}}\n<br>\n{{Text2}}\n<br>\n<i>/{{IPA2}}/</i>\n<br>\n<small>{{Meaning2}}</small>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Test2",
+                    "ord": 1,
+                    "qfmt": "{{Text2}}\n<br>\n<i>/{{IPA2}}/</i>\n<br><br>\nDo you hear the above word <b>first</b>? Yes/No\n<br><br>\n{{Audio1}}\n{{Audio2}}",
+                    "scratchPad": 0
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "bieten",
+                "[sound:al_de_bieten.mp3]",
+                "ˈbiːtn̩",
+                "to offer",
+                "bitten",
+                "[sound:al_de_bitten.mp3]",
+                "ˈbɪtn̩",
+                "to ask for"
+            ],
+            "flags": 0,
+            "guid": "DXRhSITCXQ",
+            "note_model_uuid": "6e7eb764-247e-11ed-b28f-9db35ba9b07a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "vieler",
+                "[sound:al_de_vieler.mp3]",
+                "ˈfiːlɐ",
+                "of many",
+                "Filla",
+                "[sound:al_de_filla.mp3]",
+                "ˈfɪlaː",
+                "(made up)"
+            ],
+            "flags": 0,
+            "guid": "BA7lDDu[z7",
+            "note_model_uuid": "6e7eb764-247e-11ed-b28f-9db35ba9b07a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wiege",
+                "[sound:al_de_wiege.mp3]",
+                "ˈviːɡə",
+                "cradle",
+                "Wigge",
+                "[sound:al_de_wigge.mp3]",
+                "ˈvɪɡə",
+                "(made up)"
+            ],
+            "flags": 0,
+            "guid": "xD*nHinVA-",
+            "note_model_uuid": "6e7eb764-247e-11ed-b28f-9db35ba9b07a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "stiehlt",
+                "[sound:al_de_stiehlt.mp3]",
+                "ʃtiːlt",
+                "(he) steals",
+                "stillt",
+                "[sound:al_de_stillt.mp3]",
+                "ʃtɪlt",
+                "(she) breastfeeds"
+            ],
+            "flags": 0,
+            "guid": "FX=WXYjuB^",
+            "note_model_uuid": "6e7eb764-247e-11ed-b28f-9db35ba9b07a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "riet",
+                "[sound:al_de_riet.mp3]",
+                "ʁiːt",
+                "(I) guessed",
+                "ritt",
+                "[sound:al_de_ritt.mp3]",
+                "ʁɪt",
+                "(I) rode (a horse)"
+            ],
+            "flags": 0,
+            "guid": "y!_1e4=ab`",
+            "note_model_uuid": "6e7eb764-247e-11ed-b28f-9db35ba9b07a",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ihn",
+                "[sound:al_de_ihn.mp3]",
+                "iːn",
+                "him",
+                "in",
+                "[sound:al_de_in.mp3]",
+                "ɪn",
+                "in"
+            ],
+            "flags": 0,
+            "guid": "io?GhwPo_M",
+            "note_model_uuid": "6e7eb764-247e-11ed-b28f-9db35ba9b07a",
+            "tags": []
+        }
+    ]
+}
