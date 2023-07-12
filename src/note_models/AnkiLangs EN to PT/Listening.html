@@ -1,24 +1,26 @@
-<div class="value value--top">?</div>
-{{#Picture}}
-  <div class="value value--image">
-    <svg
-      class="placeholder"
-      xmlns="http://www.w3.org/2000/svg"
-      width="225"
-      height="150"
-      viewBox="0 0 225 150"
-    >
-      <rect width="225" height="150" />
-    </svg>
-  </div>
-{{/Picture}}
+{{#Target Audio}}
+  <div class="value value--top">?</div>
+  {{#Picture}}
+    <div class="value value--image">
+      <svg
+        class="placeholder"
+        xmlns="http://www.w3.org/2000/svg"
+        width="225"
+        height="150"
+        viewBox="0 0 225 150"
+      >
+        <rect width="225" height="150" />
+      </svg>
+    </div>
+  {{/Picture}}
 
-{{#Listening Hint}}<div class="info">{{Listening Hint}}</div>{{/Listening Hint}}
+  {{#Listening Hint}}<div class="info">{{Listening Hint}}</div>{{/Listening Hint}}
 
-<hr>
+  <hr>
 
-<div class="type">Portuguese | Listening</div>
-<div class="value">{{Target Audio}}</div>
+  <div class="type">Portuguese | Listening</div>
+  <div class="value">{{Target Audio}}</div>
+{{/Target Audio}}
 
 --
 
