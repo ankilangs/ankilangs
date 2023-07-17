@@ -4,6 +4,8 @@ The aim of this project is collaborating in the creation of high quality, free
 and open source Anki decks for language learning. Check the website for more
 details [AnkiLangs.org](https://ankilangs.org).
 
+AnkiLangs is not part of nor necessarily endorsed by Anki (https://apps.ankiweb.net/).
+
 This is a monorepo containing everything.
 
 
