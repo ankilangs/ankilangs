@@ -9,6 +9,14 @@ AnkiLangs is not part of nor necessarily endorsed by Anki (https://apps.ankiweb.
 This is a monorepo containing everything.
 
 
+## Try it out
+
+Download decks from ankiweb.net
+
+* [AnkiLangs | EN to DE | 625 Words (Beta)](https://ankiweb.net/shared/info/2024801126)
+* [AnkiLangs | EN to PT | 625 Words (Beta)](https://ankiweb.net/shared/info/1172900677)
+
+
 ## Build
 
 ```bash
