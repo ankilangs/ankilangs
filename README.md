@@ -63,3 +63,38 @@ Open Anki and via `File / CrowdAnki: Import from disk` import any of the `build/
 Git repository.
 
 Then you may review them like any deck.
+
+
+### To create a new deck
+
+Copy existing files:
+
+```bash
+cp "src/headers/Header EN to PT - 625 Words.yaml" "src/headers/Header DE to ES - 625 Words.yaml"
+cp -r "src/note_models/AnkiLangs EN to PT" "src/note_models/AnkiLangs DE to ES"
+```
+
+Edit those new files.
+
+Generate new UUIDs using the command:
+
+```bash
+python3 -c "import uuid; print(uuid.uuid4())"
+```
+
+* header file (`src/headers/Header DE to ES - 625 Words.yaml`)
+  * `crowdanki_uuid`
+  * `desc`
+  * `name`
+* note models (`src/note_models/AnkiLangs DE to ES`)
+  * Rename the .yaml file
+  * Search and replace `EN to PT` with `DE to ES` everywhere
+  * `id` in the .yaml file
+  * Search and replace `Portuguese` with `Spanisch` in the .html files
+  * Search and replace `| Listening` and similar in the .html files
+
+Create a file in `src/data` with at least one entry. Copy the format of one of
+the existing files. Note that the first column (guid) is generated
+automatically so leave it blank.
+
+Edit `recipes/source_to_anki.yaml` and copy and edit multiple blocks in there.
