@@ -97,3 +97,7 @@
 hr {
   margin: 1.5em 0;
 }
+
+pre {
+  text-align: center;
+}
