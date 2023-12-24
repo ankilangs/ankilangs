@@ -25,10 +25,10 @@ deck must come from this project.
 
 ## Try it out
 
-Download decks from ankiweb.net
+Download decks:
 
-* [AnkiLangs | EN to DE | 625 Words (Beta)](https://ankiweb.net/shared/info/2024801126) to learn German.
-* [AnkiLangs | EN to PT | 625 Words (Beta)](https://ankiweb.net/shared/info/1172900677) to learn Portuguese.
+* [AnkiLangs | EN to DE | 625 Words (Beta)](https://github.com/ankilangs/ankilangs/releases/download/EN_to_DE_625_Words%2F0.0.1-beta/AnkiLangs._.EN.to.DE._.625.Words.apkg)
+* [AnkiLangs | EN to PT | 625 Words (Beta)](https://github.com/ankilangs/ankilangs/releases/download/EN_to_PT_625_Words%2F0.0.1-beta/AnkiLangs._.EN.to.PT._.625.Words.apkg)
 
 
 ## Motivation
