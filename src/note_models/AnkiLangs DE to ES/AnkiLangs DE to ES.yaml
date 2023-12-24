@@ -1,0 +1,62 @@
+name: AnkiLangs DE to ES
+id: a9bd348c-ad3f-4309-86ee-3dd4e092848a
+css_file: src/note_models/AnkiLangs DE to ES/style.css
+latex_pre: "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\
+  \\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\
+  \\begin{document}\n"
+fields:
+- name: Source Text
+- name: Target Text
+  font: Arial
+- name: Target IPA
+  font: Arial
+- name: Target Audio
+  font: Arial
+- name: Picture
+  font: Arial
+- name: Notes
+  font: Arial
+  font_size: 15
+- name: Pronunciation Hint
+  font: Arial
+  font_size: 15
+- name: Spelling Hint
+  font: Arial
+  font_size: 15
+- name: Reading Hint
+  font: Arial
+  font_size: 15
+- name: Listening Hint
+  font: Arial
+  font_size: 15
+- name: Source & License
+  font: Arial
+  font_size: 15
+templates:
+- name: Pronunciation
+  html_file: src/note_models/AnkiLangs DE to ES/Pronunciation.html
+- name: Spelling
+  html_file: src/note_models/AnkiLangs DE to ES/Spelling.html
+- name: Listening
+  html_file: src/note_models/AnkiLangs DE to ES/Listening.html
+- name: Reading
+  html_file: src/note_models/AnkiLangs DE to ES/Reading.html
+required_fields_per_template:
+- - 0
+  - any
+  - - 0
+    - 4
+    - 6
+- - 1
+  - any
+  - - 0
+    - 4
+    - 7
+- - 2
+  - any
+  - - 3
+    - 9
+- - 3
+  - any
+  - - 1
+    - 8
