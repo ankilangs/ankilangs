@@ -11,4 +11,6 @@ weight: 1
 
 # Credits
 
+* Gentium font for IPA text (https://software.sil.org/gentium/)
+* Ultimate Geography for the basis of the card templates (https://github.com/anki-geo/ultimate-geography)
 * Logo free with attribution from [flaticon.com](https://www.flaticon.com/free-icon/languages_3898082)

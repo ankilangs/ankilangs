@@ -98,6 +98,12 @@ hr {
   margin: 1.5em 0;
 }
 
+@font-face {
+  font-family: Gentium;
+  src: url("_GentiumPlus-Regular.ttf");
+}
+
 pre {
   text-align: center;
+  font-family: Gentium, "Times New Roman", Arial;
 }
