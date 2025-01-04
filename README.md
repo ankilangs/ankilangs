@@ -49,14 +49,14 @@ you can stick to the "Contribute changes" section above and leave the complicate
 To build the decks you need the following:
 
 * Python 3 ([Installation](https://wiki.python.org/moin/BeginnersGuide/Download)).
-* Pipenv ([Installation](https://pipenv.pypa.io/en/latest/installation/)).
+* Poetry ([Installation](https://python-poetry.org/docs/#installation)).
 * Anki ([Installation](https://apps.ankiweb.net/#download)).
 * Within Anki the [CrowdAnki add-on](https://ankiweb.net/shared/info/1788670778) (code 1788670778).
   [Add-on installation](https://docs.ankiweb.net/addons.html).
 
 ```bash
-pipenv sync
-pipenv run brainbrew run recipes/source_to_anki.yaml
+poetry install
+poetry run brainbrew run recipes/source_to_anki.yaml
 ```
 
 Open Anki and via `File / CrowdAnki: Import from disk` import any of the `build/` subdirectories of this
