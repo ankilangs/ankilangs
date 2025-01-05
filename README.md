@@ -70,31 +70,85 @@ Then you may review them like any deck.
 Copy existing files:
 
 ```bash
-cp "src/headers/Header EN to PT - 625 Words.yaml" "src/headers/Header DE to ES - 625 Words.yaml"
-cp -r "src/note_models/AnkiLangs EN to PT" "src/note_models/AnkiLangs DE to ES"
+# Probably leave the following unchanged
+export AL_SRC_NAME="EN to PT"
+export AL_SRC_LANG_NAME="Portuguese"
+export AL_SRC_LISTENING="Listening"
+export AL_SRC_PRONUNCIATION="Pronunciation"
+export AL_SRC_READING="Reading"
+export AL_SRC_SPELLING="Spelling"
+
+# CHANGE ME!
+export AL_DST_NAME="DE to ES"
+export AL_DST_LANG_NAME="Spanisch"
+export AL_DST_LISTENING="Listening"
+export AL_DST_PRONUNCIATION="Pronunciation"
+export AL_DST_READING="Reading"
+export AL_DST_SPELLING="Spelling"
+## Use the following if the source language is not EN
+#export AL_DST_LISTENING="Hörverständnis"
+#export AL_DST_PRONUNCIATION="Aussprache"
+#export AL_DST_READING="Leseverständnis"
+#export AL_DST_SPELLING="Rechtschreibung"
+
+
+cp "src/headers/Description ${AL_SRC_NAME} - 625 Words.yaml" \
+  "src/headers/Description ${AL_DST_NAME} - 625 Words.yaml"
+
+cp -r "src/note_models/AnkiLangs ${AL_SRC_NAME}" \
+  "src/note_models/AnkiLangs ${AL_DST_NAME}"
+
+mv "src/note_models/AnkiLangs ${AL_DST_NAME}/AnkiLangs ${AL_SRC_NAME}.yaml" \
+  "src/note_models/AnkiLangs ${AL_DST_NAME}/AnkiLangs ${AL_DST_NAME}.yaml"
+
+sed -i "s/id: .*/id: `python3 -c "import uuid; print(uuid.uuid4())"`/" \
+  "src/note_models/AnkiLangs ${AL_DST_NAME}/AnkiLangs ${AL_DST_NAME}.yaml"
+
+find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+  -exec sed -i "s/${AL_SRC_NAME}/${AL_DST_NAME}/g" {} +
+
+find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+  -exec sed -i "s/${AL_SRC_LANG_NAME}/${AL_DST_LANG_NAME}/g" {} +
+
+find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+  -exec sed -i "s/| ${AL_SRC_LISTENING}/| ${AL_DST_LISTENING}/g" {} +
+
+find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+  -exec sed -i "s/| ${AL_SRC_PRONUNCIATION}/| ${AL_DST_PRONUNCIATION}/g" {} +
+
+find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+  -exec sed -i "s/| ${AL_SRC_READING}/| ${AL_DST_READING}/g" {} +
+
+find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+  -exec sed -i "s/| ${AL_SRC_SPELLING}/| ${AL_DST_SPELLING}/g" {} +
 ```
 
-Edit those new files.
+Edit the deck description file:
 
-Generate new UUIDs using the command:
+```bash
+vim "src/headers/Description ${AL_DST_NAME} - 625 Words.html"
+```
+
+To generate new UUIDs you can use this command:
 
 ```bash
 python3 -c "import uuid; print(uuid.uuid4())"
 ```
 
-* header file (`src/headers/Header DE to ES - 625 Words.yaml`)
-  * `crowdanki_uuid`
-  * `desc`
-  * `name`
-* note models (`src/note_models/AnkiLangs DE to ES`)
-  * Rename the .yaml file
-  * Search and replace `EN to PT` with `DE to ES` everywhere
-  * `id` in the .yaml file
-  * Search and replace `Portuguese` with `Spanisch` in the .html files
-  * Search and replace `| Listening` and similar in the .html files
+Edit `recipes/source_to_anki.yaml`:
+* Add a source file under `generate_guids_in_csvs`
+* Copy a block under `note_models_from_yaml_part` and:
+  * Edit the `part_id` and `file`
+* In the `headers_from_yaml_part` section copy a block and:
+  * Edit the `part_id`
+  * Edit the `name`
+  * Replace `crowdanki_uuid` with a new UUID
+  * Set the path of the `deck_description_html_file`
+* In the `notes_from_csvs` section copy a block and:
+  * Replace four instances e.g. `EN to PT` with `DE to ES`
+* Copy a `generate_crowd_anki` section and replace four instance e.g.
+  `EN to PT` with `DE to ES`.
 
-Create a file in `src/data` with at least one entry. Copy the format of one of
+Create a file in `src/data/` with at least one entry. Copy the format of one of
 the existing files. Note that the first column (guid) is generated
 automatically so leave it blank.
-
-Edit `recipes/source_to_anki.yaml` and copy and edit multiple blocks in there.
