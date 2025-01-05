@@ -92,8 +92,8 @@ export AL_DST_SPELLING="Spelling"
 #export AL_DST_SPELLING="Rechtschreibung"
 
 
-cp "src/headers/Description ${AL_SRC_NAME} - 625 Words.yaml" \
-  "src/headers/Description ${AL_DST_NAME} - 625 Words.yaml"
+cp "src/headers/Description ${AL_SRC_NAME} - 625 Words.html" \
+  "src/headers/Description ${AL_DST_NAME} - 625 Words.html"
 
 cp -r "src/note_models/AnkiLangs ${AL_SRC_NAME}" \
   "src/note_models/AnkiLangs ${AL_DST_NAME}"
