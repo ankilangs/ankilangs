@@ -2,7 +2,7 @@ deck_config_uuid: 495b7494-1b0b-11ee-8ac9-c5d2cf109b08
 deck_configurations:
 - __type__: DeckConfig
   autoplay: true
-  buryInterdayLearning: false
+  buryInterdayLearning: true
   crowdanki_uuid: 495b7494-1b0b-11ee-8ac9-c5d2cf109b08
   dyn: false
   interdayLearningMix: 0
@@ -16,7 +16,7 @@ deck_configurations:
   maxTaken: 60
   name: AnkiLangs
   new:
-    bury: false
+    bury: true
     delays:
     - 1.0
     - 10.0
@@ -33,7 +33,7 @@ deck_configurations:
   newSortOrder: 0
   replayq: true
   rev:
-    bury: false
+    bury: true
     ease4: 1.3
     hardFactor: 1.2
     ivlFct: 1.0
