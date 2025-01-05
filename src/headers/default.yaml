@@ -1,4 +1,3 @@
-crowdanki_uuid: 0c1ce29f-0e8f-4c9f-8867-386f406942e9
 deck_config_uuid: 495b7494-1b0b-11ee-8ac9-c5d2cf109b08
 deck_configurations:
 
@@ -47,14 +46,10 @@ deck_configurations:
     perDay: 200
   reviewOrder: 0
   timer: 0
-desc: "Lerne die 625 wichtigsten Spanischen Wörter wenn du schon Deutsch sprichst.<br>\n
-  Beachte, dass dies eine unfertige Version dieses Stapels ist.<br>\n
-  Siehe <a href=\"https://ankilangs.org\">AnkiLangs.org</a> für mehr Info."
 dyn: 0
 extendNew: 0
 extendRev: 0
 md: true
-name: AnkiLangs | DE to ES | 625 Wörter
 newLimit: null
 newLimitToday: null
 reviewLimit: null

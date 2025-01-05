@@ -19,17 +19,43 @@
           file: src/note_models/AnkiLangs DE to EN/AnkiLangs DE to EN.yaml
         - part_id: AnkiLangs | EN to DE | Minimal Pair
           file: src/note_models/AnkiLangs | EN to DE | Minimal Pair/AnkiLangs | EN to DE | Minimal Pair.yaml
+
     - headers_from_yaml_part:
         - part_id: Header EN to DE - 625 Words
-          file: src/headers/Header EN to DE - 625 Words.yaml
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | EN to DE | 625 Words
+            crowdanki_uuid: 495b6e0e-1b0b-11ee-8ac9-c5d2cf109b08
+            deck_description_html_file: src/headers/Description EN to DE - 625 Words.html
+
         - part_id: Header EN to PT - 625 Words
-          file: src/headers/Header EN to PT - 625 Words.yaml
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | EN to PT | 625 Words
+            crowdanki_uuid: 76740ce2-079f-44e5-a7ac-3c1a55713fcd
+            deck_description_html_file: src/headers/Description EN to PT - 625 Words.html
+
         - part_id: Header DE to ES - 625 Words
-          file: src/headers/Header DE to ES - 625 Words.yaml
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | DE to ES | 625 Words
+            crowdanki_uuid: 0c1ce29f-0e8f-4c9f-8867-386f406942e9
+            deck_description_html_file: src/headers/Description DE to ES - 625 Words.html
+
         - part_id: Header DE to EN - 625 Words
-          file: src/headers/Header DE to EN - 625 Words.yaml
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | DE to EN | 625 Words
+            crowdanki_uuid: e3f80a80-9efc-471a-9793-00a83b266b4f
+            deck_description_html_file: src/headers/Description DE to EN - 625 Words.html
+
         - part_id: Header EN to DE - Minimal Pairs
-          file: src/headers/Header EN to DE - Minimal Pairs.yaml
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | EN to DE | Minimal Pairs
+            crowdanki_uuid: 6e7eb760-247e-11ed-b28f-9db35ba9b07a
+            deck_description_html_file: src/headers/Description EN to DE - Minimal Pairs.html
+
     - notes_from_csvs:
         - part_id: Deck Notes EN to DE - 625 Words
           save_to_file: null
