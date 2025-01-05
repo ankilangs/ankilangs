@@ -31,7 +31,7 @@
           file: src/headers/default.yaml
           override:
             name: AnkiLangs | EN to DE | 625 Words
-            crowdanki_uuid: 495b6e0e-1b0b-11ee-8ac9-c5d2cf109b08
+            crowdanki_uuid: 6c6cb87c-cef4-4750-a76f-e13793b7da6e
             deck_description_html_file: src/headers/Description EN to DE - 625 Words.html
 
         - part_id: Header EN to PT - 625 Words
