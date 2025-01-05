@@ -18,6 +18,10 @@ templates:
   html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pair/Test1.html
 - name: Test2
   html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pair/Test2.html
+- name: Test3
+  html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pair/Test3.html
+- name: Test4
+  html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pair/Test4.html
 required_fields_per_template:
 - - 0
   - any
