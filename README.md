@@ -152,3 +152,20 @@ Edit `recipes/source_to_anki.yaml`:
 Create a file in `src/data/` with at least one entry. Copy the format of one of
 the existing files. Note that the first column (guid) is generated
 automatically so leave it blank.
+
+
+## Release
+
+To release a deck do the following:
+
+* Update the version in the `src/headers/Description` file
+* Build as described above
+* Update the version in the `src/headers/Description` file to the next dev version
+* Import the deck into Anki
+* Export from Anki:
+  * Include media
+  * Support older Anki versions
+* Rename the exported deck so it ends with the version e.g. `- 0.0.1`
+* Add a new Git tag
+* Create a release on GitHub with the exported deck
+* Update the README and website with download links
