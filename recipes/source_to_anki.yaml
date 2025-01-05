@@ -38,14 +38,14 @@
         - part_id: Header DE to ES - 625 Words
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | DE to ES | 625 Words
+            name: AnkiLangs | DE zu ES | 625 Wörter
             crowdanki_uuid: 0c1ce29f-0e8f-4c9f-8867-386f406942e9
             deck_description_html_file: src/headers/Description DE to ES - 625 Words.html
 
         - part_id: Header DE to EN - 625 Words
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | DE to EN | 625 Words
+            name: AnkiLangs | DE zu EN | 625 Wörter
             crowdanki_uuid: e3f80a80-9efc-471a-9793-00a83b266b4f
             deck_description_html_file: src/headers/Description DE to EN - 625 Words.html
 
