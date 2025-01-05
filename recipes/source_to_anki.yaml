@@ -23,8 +23,8 @@
           file: src/note_models/AnkiLangs DE to ES/AnkiLangs DE to ES.yaml
         - part_id: AnkiLangs DE to EN
           file: src/note_models/AnkiLangs DE to EN/AnkiLangs DE to EN.yaml
-        - part_id: AnkiLangs | EN to DE | Minimal Pair
-          file: src/note_models/AnkiLangs | EN to DE | Minimal Pair/AnkiLangs | EN to DE | Minimal Pair.yaml
+        - part_id: AnkiLangs | EN to DE | Minimal Pairs
+          file: src/note_models/AnkiLangs | EN to DE | Minimal Pairs/AnkiLangs | EN to DE | Minimal Pairs.yaml
 
     - headers_from_yaml_part:
         - part_id: Header EN to DE - 625 Words
@@ -129,10 +129,10 @@
           save_to_file: null
           file_mappings:
             - file: src/data/EN to DE - Minimal Pairs.csv
-              note_model: AnkiLangs | EN to DE | Minimal Pair
+              note_model: AnkiLangs | EN to DE | Minimal Pairs
           note_model_mappings:
             - note_models:
-                - AnkiLangs | EN to DE | Minimal Pair
+                - AnkiLangs | EN to DE | Minimal Pairs
     - media_group_from_folder:
         part_id: All Media
         source: src/media/
@@ -216,7 +216,7 @@
       part_id: Deck Notes EN to DE - Minimal Pairs
     note_models:
       parts:
-        - part_id: AnkiLangs | EN to DE | Minimal Pair
+        - part_id: AnkiLangs | EN to DE | Minimal Pairs
     headers: Header EN to DE - Minimal Pairs
     media:
       parts:

@@ -1,6 +1,6 @@
-name: AnkiLangs | EN to DE | Minimal Pair
+name: AnkiLangs | EN to DE | Minimal Pairs
 id: 6e7eb764-247e-11ed-b28f-9db35ba9b07a
-css_file: src/note_models/AnkiLangs | EN to DE | Minimal Pair/style.css
+css_file: src/note_models/AnkiLangs | EN to DE | Minimal Pairs/style.css
 latex_pre: "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\
   \\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\
   \\begin{document}\n"
@@ -15,13 +15,13 @@ fields:
 - name: Meaning2
 templates:
 - name: Test1
-  html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pair/Test1.html
+  html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pairs/Test1.html
 - name: Test2
-  html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pair/Test2.html
+  html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pairs/Test2.html
 - name: Test3
-  html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pair/Test3.html
+  html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pairs/Test3.html
 - name: Test4
-  html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pair/Test4.html
+  html_file: src/note_models/AnkiLangs | EN to DE | Minimal Pairs/Test4.html
 required_fields_per_template:
 - - 0
   - any
