@@ -158,9 +158,9 @@ automatically so leave it blank.
 
 To release a deck do the following:
 
-* Update the version in the `src/headers/Description` file
+* Update the version in the `src/headers/Description*` file
 * Build as described above
-* Update the version in the `src/headers/Description` file to the next dev version
+* Update the version in the `src/headers/Description*` file to the next dev version
 * Import the deck into Anki
 * Export from Anki:
   * Include media
