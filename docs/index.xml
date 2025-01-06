@@ -1,3 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on AnkiLangs</title><link>https://ankilangs.org/docs/</link><description>Recent content in Docs on AnkiLangs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://ankilangs.org/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Contributing</title><link>https://ankilangs.org/docs/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ankilangs.org/docs/contributing/</guid><description>Contributing # Currently there is only one very small deck for learning German minimal pairs. Have a look at the repository and consider contributing.</description></item><item><title>Credits</title><link>https://ankilangs.org/docs/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ankilangs.org/docs/credits/</guid><description> Credits # Gentium font for IPA text (https://software.sil.org/gentium/) Ultimate Geography for the basis of the card templates (https://github.com/anki-geo/ultimate-geography) Logo free with attribution from flaticon.com</description></item><item><title>Inspiration &amp; Resources</title><link>https://ankilangs.org/docs/inspiration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ankilangs.org/docs/inspiration/</guid><description> Inspiration &amp;amp; Resources # Projects, ideas and resources that influenced the creation of this project and that may come in handy.
-forvo.com download audio in multiple languages Ultimate Geography, a fantastic Anki deck that successfully demonstrates how to collaborate on multiple Anki decks 625 words from Gabriel Wyner&amp;rsquo;s Fluent Forever The &amp;ldquo;Fluent Forever&amp;rdquo; book by Gabriel Wyner Xefjord&amp;rsquo;s language decks Antimoon, with many valuable resources, for example why it&amp;rsquo;s important to prioritize pronunciation</description></item><item><title>Roadmap</title><link>https://ankilangs.org/docs/roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ankilangs.org/docs/roadmap/</guid><description>Roadmap # A rough sketch where this could be going.
-Allow learning from many language to many other languages (e.g. enable a native French speaker to learn Swahili) Create minimal pair decks to learn pronunciation Create language specific IPA (International Phonetic Alphabet) decks for learning what the IPA symbols mean and what sounds they encode to enable learners to efficiently use a dictionary Create decks for learning the 625 basic words in any language Create cards for learning vocabulary and grammatical structures according to levels (e.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on AnkiLangs</title><link>https://ankilangs.org/docs/</link><description>Recent content in Docs on AnkiLangs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://ankilangs.org/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Contributing</title><link>https://ankilangs.org/docs/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ankilangs.org/docs/contributing/</guid><description>&lt;h1 id="contributing">
+ Contributing
+ &lt;a class="anchor" href="#contributing">#&lt;/a>
+&lt;/h1>
+&lt;p>Currently there is only one very small deck for learning German &lt;a href="https://en.wikipedia.org/wiki/Minimal_pair">minimal
+pairs&lt;/a>. Have a look at the
+&lt;a href="https://github.com/ankilangs/ankilangs">repository&lt;/a> and consider
+contributing.&lt;/p></description></item><item><title>Credits</title><link>https://ankilangs.org/docs/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ankilangs.org/docs/credits/</guid><description>&lt;h1 id="credits">
+ Credits
+ &lt;a class="anchor" href="#credits">#&lt;/a>
+&lt;/h1>
+&lt;ul>
+&lt;li>Gentium font for IPA text (&lt;a href="https://software.sil.org/gentium/">https://software.sil.org/gentium/&lt;/a>)&lt;/li>
+&lt;li>Ultimate Geography for the basis of the card templates (&lt;a href="https://github.com/anki-geo/ultimate-geography">https://github.com/anki-geo/ultimate-geography&lt;/a>)&lt;/li>
+&lt;li>Logo free with attribution from &lt;a href="https://www.flaticon.com/free-icon/languages_3898082">flaticon.com&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Inspiration &amp; Resources</title><link>https://ankilangs.org/docs/inspiration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ankilangs.org/docs/inspiration/</guid><description>&lt;h1 id="inspiration--resources">
+ Inspiration &amp;amp; Resources
+ &lt;a class="anchor" href="#inspiration--resources">#&lt;/a>
+&lt;/h1>
+&lt;p>Projects, ideas and resources that influenced the creation of this project and that may come in handy.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.forvo.com">forvo.com&lt;/a> download audio in multiple languages&lt;/li>
+&lt;li>&lt;a href="https://github.com/anki-geo/ultimate-geography">Ultimate Geography&lt;/a>, a
+fantastic Anki deck that successfully demonstrates how to collaborate on
+multiple Anki decks&lt;/li>
+&lt;li>&lt;a href="https://method.fluent-forever.com/base-vocabulary-list/">625 words&lt;/a> from Gabriel Wyner&amp;rsquo;s Fluent Forever&lt;/li>
+&lt;li>The &amp;ldquo;Fluent Forever&amp;rdquo; book by Gabriel Wyner&lt;/li>
+&lt;li>&lt;a href="https://xefjord.wixsite.com/xefscompletelangs/courses">Xefjord&amp;rsquo;s&lt;/a> language decks&lt;/li>
+&lt;li>&lt;a href="https://www.antimoon.com/">Antimoon&lt;/a>, with many valuable resources, for
+example why it&amp;rsquo;s important to &lt;a href="https://www.antimoon.com/how/pronunc-sounds-why.htm">prioritize
+pronunciation&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Roadmap</title><link>https://ankilangs.org/docs/roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ankilangs.org/docs/roadmap/</guid><description>&lt;h1 id="roadmap">
+ Roadmap
+ &lt;a class="anchor" href="#roadmap">#&lt;/a>
+&lt;/h1>
+&lt;p>A rough sketch where this &lt;em>could&lt;/em> be going.&lt;/p>
+&lt;ul>
+&lt;li>Allow learning from many language to many other languages (e.g. enable a native French speaker to learn Swahili)&lt;/li>
+&lt;li>Create minimal pair decks to learn pronunciation&lt;/li>
+&lt;li>Create language specific IPA (International Phonetic Alphabet) decks for learning what the IPA symbols mean and what sounds they encode to enable learners to efficiently use a dictionary&lt;/li>
+&lt;li>Create decks for learning the 625 basic words in any language&lt;/li>
+&lt;li>Create cards for learning vocabulary and grammatical structures according to levels (e.g. A1, A2, B1, &amp;hellip;)&lt;/li>
+&lt;li>Create advanced monolingual decks e.g. for learning what &lt;em>pecuniary&lt;/em> or &lt;em>peevish&lt;/em> mean in English&lt;/li>
+&lt;/ul></description></item></channel></rss>
