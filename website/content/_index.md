@@ -25,10 +25,28 @@ deck must come from this project.
 
 ## Try it out
 
-Download decks:
+You need to have Anki installed. Check the [official instructions](https://apps.ankiweb.net/)
+for installing on Windows, macOS, Linux, Android or iOS.
 
-* [AnkiLangs | EN to DE | 625 Words (Beta)](https://github.com/ankilangs/ankilangs/releases/download/EN_to_DE_625_Words%2F0.0.1-beta/AnkiLangs._.EN.to.DE._.625.Words.apkg)
-* [AnkiLangs | EN to PT | 625 Words (Beta)](https://github.com/ankilangs/ankilangs/releases/download/EN_to_PT_625_Words%2F0.0.1-beta/AnkiLangs._.EN.to.PT._.625.Words.apkg)
+Then you can import one or more of the following decks. Note that all of these
+decks are in development and therefore incomplete (e.g. they do **NOT** yet
+contain 625 words). Please see the **Contributing** section to change this! 
+
+* If you speak **English** and ...
+  * want to learn **German**
+    * [EN to DE - Minimal Pairs | Version 0.0.2](https://github.com/ankilangs/ankilangs/releases/download/EN_to_DE_Minimal_Pairs%2F0.0.2/AnkiLangs._.EN.to.DE._.Minimal.Pairs.-.0.0.2.apkg)
+    * [EN to DE - 625 Words | Version 0.0.1 ](https://github.com/ankilangs/ankilangs/releases/download/EN_to_DE_625_Words%2F0.0.1/AnkiLangs._.EN.to.DE._.625.Words.-.0.0.1.apkg)
+  * want to learn **Portuguese**
+    * [EN to PT - 625 Words | Version 0.0.1](https://github.com/ankilangs/ankilangs/releases/download/EN_to_PT_625_Words%2F0.0.1/AnkiLangs._.EN.to.PT._.625.Words.-.0.0.1.apkg)
+  * want to learn **Italian**
+    * [EN to IT - 625 Words | Version 0.0.1 ](https://github.com/ankilangs/ankilangs/releases/download/EN_to_IT_625_Words%2F0.0.1/AnkiLangs._.EN.to.IT._.625.Words.-.0.0.1.apkg)
+  * want to learn **French**
+    * [EN to FR - 625 Words | Version 0.0.1](https://github.com/ankilangs/ankilangs/releases/download/EN_to_FR_625_Words%2F0.0.1/AnkiLangs._.EN.to.FR._.625.Words.-.0.0.1.apkg)
+* Wenn du **Deutsch** sprichts und ...
+  * **Englisch** lernen möchtest
+    * [DE zu EN - 625 Wörter | Version 0.0.1 ](https://github.com/ankilangs/ankilangs/releases/download/DE_to_EN_625_Words%2F0.0.1/AnkiLangs._.DE.zu.EN._.625.Worter.-.0.0.1.apkg)
+  * **Spanisch** lernen möchtest
+    * [DE zu ES - 625 Wörter | Version 0.0.1](https://github.com/ankilangs/ankilangs/releases/download/DE_to_ES_625_Words%2F0.0.1/AnkiLangs._.DE.zu.ES._.625.Worter.-.0.0.1.apkg)
 
 
 ## Motivation
