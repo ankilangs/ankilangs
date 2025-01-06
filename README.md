@@ -37,6 +37,10 @@ is very frustrating.
 In order for you modification to become part of the project you must send a PR (pull request) as documented
 [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
+If you have no experience whatsoever with Git, GitHub, pull requests etc. then
+you can send your edits to the CSV files via e-mail. For audio recordings we
+can use a file sharing service. Please get in touch info@ankilangs.org .
+
 
 ## Build
 
