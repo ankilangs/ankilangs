@@ -1,9 +1,9 @@
-deck_config_uuid: 495b7494-1b0b-11ee-8ac9-c5d2cf109b08
+deck_config_uuid: 8f4be292-7dfd-4555-b6f7-a0bc9932560f
 deck_configurations:
 - __type__: DeckConfig
   autoplay: true
   buryInterdayLearning: true
-  crowdanki_uuid: 495b7494-1b0b-11ee-8ac9-c5d2cf109b08
+  crowdanki_uuid: 8f4be292-7dfd-4555-b6f7-a0bc9932560f
   dyn: false
   interdayLearningMix: 0
   lapse:
