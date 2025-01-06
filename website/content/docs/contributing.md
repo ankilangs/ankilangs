@@ -11,7 +11,4 @@ weight: 1
 
 # Contributing
 
-Currently there is only one very small deck for learning German [minimal
-pairs](https://en.wikipedia.org/wiki/Minimal_pair). Have a look at the
-[repository](https://github.com/ankilangs/ankilangs) and consider
-contributing.
+See [here](https://github.com/ankilangs/ankilangs?tab=readme-ov-file#contribute-changes).

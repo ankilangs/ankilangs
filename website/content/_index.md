@@ -69,7 +69,8 @@ contain 625 words). Please see the **Contributing** section to change this!
 
 ## Contributing
 
-If you would like to help, please get in touch or [get started]({{< ref "docs/contributing" >}})!
+If you would like to help, please get in touch or [get
+started](https://github.com/ankilangs/ankilangs?tab=readme-ov-file#contribute-changes)!
 
 Contact: info@ankilangs.org
 
