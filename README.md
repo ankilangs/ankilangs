@@ -59,6 +59,7 @@ To build the decks you need the following:
 ```bash
 poetry install
 poetry run brainbrew run recipes/source_to_anki.yaml
+poetry run brainbrew run recipes/source_to_anki_625_words.yaml
 ```
 
 Open Anki and via `File / CrowdAnki: Import from disk` import any of the `build/` subdirectories of this

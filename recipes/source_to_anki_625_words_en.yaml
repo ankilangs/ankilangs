@@ -1,0 +1,338 @@
+- generate_guids_in_csv:
+    source:
+      - src/data/625_words-from-de_de-to-en_us.csv
+      - src/data/625_words-from-de_de-to-es_es.csv
+      - src/data/625_words-from-en_us-to-de_de.csv
+      - src/data/625_words-from-en_us-to-es_es.csv
+      - src/data/625_words-from-es_es-to-de_de.csv
+      - src/data/625_words-from-es_es-to-en_us.csv
+    columns:
+      - guid
+
+- build_parts:
+    - note_model_from_yaml_part:
+        part_id: vocabulary_de_to_en
+        file: src/note_models/vocabulary_de_to_en/note.yaml
+
+    - note_model_from_yaml_part:
+        part_id: vocabulary_de_to_es
+        file: src/note_models/vocabulary_de_to_es/note.yaml
+
+    - note_model_from_yaml_part:
+        part_id: vocabulary_en_to_de
+        file: src/note_models/vocabulary_en_to_de/note.yaml
+
+    - note_model_from_yaml_part:
+        part_id: vocabulary_en_to_es
+        file: src/note_models/vocabulary_en_to_es/note.yaml
+
+    - note_model_from_yaml_part:
+        part_id: vocabulary_es_to_de
+        file: src/note_models/vocabulary_es_to_de/note.yaml
+
+    - note_model_from_yaml_part:
+        part_id: vocabulary_es_to_en
+        file: src/note_models/vocabulary_es_to_en/note.yaml
+
+
+    - headers_from_yaml_part:
+        - part_id: header_de_to_en
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | DE zu EN | 625 Wörter
+            crowdanki_uuid: e3f80a80-9efc-471a-9793-00a83b266b4f
+            deck_description_html_file: src/headers/description_de_to_en-625_words.html
+
+        - part_id: header_de_to_es
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | DE zu ES | 625 Wörter
+            crowdanki_uuid: 0c1ce29f-0e8f-4c9f-8867-386f406942e9
+            deck_description_html_file: src/headers/description_de_to_es-625_words.html
+
+        - part_id: header_en_to_de
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | EN to DE | 625 Words
+            crowdanki_uuid: 6c6cb87c-cef4-4750-a76f-e13793b7da6e
+            deck_description_html_file: src/headers/description_en_to_de-625_words.html
+
+        - part_id: header_en_to_es
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | EN to ES | 625 Words
+            crowdanki_uuid: f9534636-57c4-4c8c-8b48-9733d696d49a
+            deck_description_html_file: src/headers/description_en_to_es-625_words.html
+
+        - part_id: header_es_to_de
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | ES a DE | 625 Words
+            crowdanki_uuid: 862c1860-7277-4c40-8914-33fb36db3184
+            deck_description_html_file: src/headers/description_es_to_de-625_words.html
+
+        - part_id: header_es_to_en
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | ES a EN | 625 Words
+            crowdanki_uuid: 8aa008b4-4929-466a-8c82-892c7c899a02
+            deck_description_html_file: src/headers/description_es_to_en-625_words.html
+
+
+    - media_group_from_folder:
+        part_id: all_media
+        source: src/media/
+        recursive: true
+
+
+    - notes_from_csvs:
+        part_id: notes_de_to_en
+
+        note_model_mappings:
+          - note_models:
+              - vocabulary_de_to_en
+            columns_to_fields:
+              guid: guid
+              text:de: Source Text
+              text:en: Target Text
+              ipa:en: Target IPA
+              audio:en: Target Audio
+              picture: Picture
+              notes: Notes
+              pronunciation hint: Pronunciation Hint
+              spelling hint: Spelling Hint
+              reading hint: Reading Hint
+              listening hint: Listening Hint
+              source: Source & License
+              tags:en: tags
+
+        file_mappings:
+          - file: src/data/625_words-from-de_de-to-en_us.csv
+            note_model: vocabulary_de_to_en
+            derivatives:
+              - file: src/data/625_words-base-de_de.csv
+              - file: src/data/625_words-base-en_us.csv
+              - file: src/data/625_words-pictures.csv
+              - file: src/data/generated/625_words-from-de_de-to-en_us.csv
+
+    - notes_from_csvs:
+        part_id: notes_de_to_es
+
+        note_model_mappings:
+          - note_models:
+              - vocabulary_de_to_es
+            columns_to_fields:
+              guid: guid
+              text:de: Source Text
+              text:es: Target Text
+              ipa:es: Target IPA
+              audio:es: Target Audio
+              picture: Picture
+              notes: Notes
+              pronunciation hint: Pronunciation Hint
+              spelling hint: Spelling Hint
+              reading hint: Reading Hint
+              listening hint: Listening Hint
+              source: Source & License
+              tags:es: tags
+
+        file_mappings:
+          - file: src/data/625_words-from-de_de-to-es_es.csv
+            note_model: vocabulary_de_to_es
+            derivatives:
+              - file: src/data/625_words-base-de_de.csv
+              - file: src/data/625_words-base-es_es.csv
+              - file: src/data/625_words-pictures.csv
+              - file: src/data/generated/625_words-from-de_de-to-es_es.csv
+
+    - notes_from_csvs:
+        part_id: notes_en_to_de
+
+        note_model_mappings:
+          - note_models:
+              - vocabulary_en_to_de
+            columns_to_fields:
+              guid: guid
+              text:en: Source Text
+              text:de: Target Text
+              ipa:de: Target IPA
+              audio:de: Target Audio
+              picture: Picture
+              notes: Notes
+              pronunciation hint: Pronunciation Hint
+              spelling hint: Spelling Hint
+              reading hint: Reading Hint
+              listening hint: Listening Hint
+              source: Source & License
+              tags:de: tags
+
+        file_mappings:
+          - file: src/data/625_words-from-en_us-to-de_de.csv
+            note_model: vocabulary_en_to_de
+            derivatives:
+              - file: src/data/625_words-base-de_de.csv
+              - file: src/data/625_words-base-en_us.csv
+              - file: src/data/625_words-pictures.csv
+              - file: src/data/generated/625_words-from-en_us-to-de_de.csv
+
+    - notes_from_csvs:
+        part_id: notes_en_to_es
+
+        note_model_mappings:
+          - note_models:
+              - vocabulary_en_to_es
+            columns_to_fields:
+              guid: guid
+              text:en: Source Text
+              text:es: Target Text
+              ipa:es: Target IPA
+              audio:es: Target Audio
+              picture: Picture
+              notes: Notes
+              pronunciation hint: Pronunciation Hint
+              spelling hint: Spelling Hint
+              reading hint: Reading Hint
+              listening hint: Listening Hint
+              source: Source & License
+              tags:es: tags
+
+        file_mappings:
+          - file: src/data/625_words-from-en_us-to-es_es.csv
+            note_model: vocabulary_en_to_es
+            derivatives:
+              - file: src/data/625_words-base-en_us.csv
+              - file: src/data/625_words-base-es_es.csv
+              - file: src/data/625_words-pictures.csv
+              - file: src/data/generated/625_words-from-en_us-to-es_es.csv
+
+    - notes_from_csvs:
+        part_id: notes_es_to_de
+
+        note_model_mappings:
+          - note_models:
+              - vocabulary_es_to_de
+            columns_to_fields:
+              guid: guid
+              text:es: Source Text
+              text:de: Target Text
+              ipa:de: Target IPA
+              audio:de: Target Audio
+              picture: Picture
+              notes: Notes
+              pronunciation hint: Pronunciation Hint
+              spelling hint: Spelling Hint
+              reading hint: Reading Hint
+              listening hint: Listening Hint
+              source: Source & License
+              tags:de: tags
+
+        file_mappings:
+          - file: src/data/625_words-from-es_es-to-de_de.csv
+            note_model: vocabulary_es_to_de
+            derivatives:
+              - file: src/data/625_words-base-de_de.csv
+              - file: src/data/625_words-base-es_es.csv
+              - file: src/data/625_words-pictures.csv
+              - file: src/data/generated/625_words-from-es_es-to-de_de.csv
+
+    - notes_from_csvs:
+        part_id: notes_es_to_en
+
+        note_model_mappings:
+          - note_models:
+              - vocabulary_es_to_en
+            columns_to_fields:
+              guid: guid
+              text:es: Source Text
+              text:en: Target Text
+              ipa:en: Target IPA
+              audio:en: Target Audio
+              picture: Picture
+              notes: Notes
+              pronunciation hint: Pronunciation Hint
+              spelling hint: Spelling Hint
+              reading hint: Reading Hint
+              listening hint: Listening Hint
+              source: Source & License
+              tags:en: tags
+
+        file_mappings:
+          - file: src/data/625_words-from-es_es-to-en_us.csv
+            note_model: vocabulary_es_to_en
+            derivatives:
+              - file: src/data/625_words-base-en_us.csv
+              - file: src/data/625_words-base-es_es.csv
+              - file: src/data/625_words-pictures.csv
+              - file: src/data/generated/625_words-from-es_es-to-en_us.csv
+
+- generate_crowd_anki:
+    folder: build/AnkiLangs___DE_to_EN___625_Words
+    notes:
+      part_id: notes_de_to_en
+    note_models:
+      parts:
+        - part_id: vocabulary_de_to_en
+    headers: header_de_to_en
+    media:
+      parts:
+        - all_media
+
+- generate_crowd_anki:
+    folder: build/AnkiLangs___DE_to_ES___625_Words
+    notes:
+      part_id: notes_de_to_es
+    note_models:
+      parts:
+        - part_id: vocabulary_de_to_es
+    headers: header_de_to_es
+    media:
+      parts:
+        - all_media
+
+- generate_crowd_anki:
+    folder: build/AnkiLangs___EN_to_DE___625_Words
+    notes:
+      part_id: notes_en_to_de
+    note_models:
+      parts:
+        - part_id: vocabulary_en_to_de
+    headers: header_en_to_de
+    media:
+      parts:
+        - all_media
+
+- generate_crowd_anki:
+    folder: build/AnkiLangs___EN_to_ES___625_Words
+    notes:
+      part_id: notes_en_to_es
+    note_models:
+      parts:
+        - part_id: vocabulary_en_to_es
+    headers: header_en_to_es
+    media:
+      parts:
+        - all_media
+
+- generate_crowd_anki:
+    folder: build/AnkiLangs___ES_to_DE___625_Words
+    notes:
+      part_id: notes_es_to_de
+    note_models:
+      parts:
+        - part_id: vocabulary_es_to_de
+    headers: header_es_to_de
+    media:
+      parts:
+        - all_media
+
+- generate_crowd_anki:
+    folder: build/AnkiLangs___ES_to_EN___625_Words
+    notes:
+      part_id: notes_es_to_en
+    note_models:
+      parts:
+        - part_id: vocabulary_es_to_en
+    headers: header_es_to_en
+    media:
+      parts:
+        - all_media
