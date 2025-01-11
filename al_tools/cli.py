@@ -1,7 +1,11 @@
 import argparse
 from pathlib import Path
 
-from al_tools.core import generate_audio, AudioExistsAction
+from al_tools.core import (
+    generate_audio,
+    AudioExistsAction,
+    generate_joined_source_fields,
+)
 
 
 def cli():
@@ -26,6 +30,13 @@ def cli():
         choices=["skip", "overwrite", "raise"],
     )
 
+    generate_parser = subparsers.add_parser(
+        "generate", help="Generate files in 'generated' folder"
+    )
+    generate_parser.add_argument(
+        "-i", "--input", type=str, required=True, help="Input folder"
+    )
+
     args = parser.parse_args()
 
     if args.command == "audio":
@@ -34,5 +45,7 @@ def cli():
             Path(args.output),
             AudioExistsAction(args.action),
         )
+    elif args.command == "generate":
+        generate_joined_source_fields(Path(args.input))
     else:
         parser.print_help()

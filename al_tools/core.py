@@ -178,3 +178,51 @@ def generate_audio(
         print(f"Audio content written to file '{audio_file}'")
 
     df.to_csv(csv_path, index=False)
+
+
+def _format_source(picture_source, audio_source):
+    picture_part = (
+        f"Picture:<br>{picture_source}"
+        if pd.notna(picture_source) and picture_source != ""
+        else ""
+    )
+    audio_part = (
+        f"Audio:<br>{audio_source}"
+        if pd.notna(audio_source) and audio_source != ""
+        else ""
+    )
+    separator = "<br><br>" if picture_part and audio_part else ""
+    return f"{picture_part}{separator}{audio_part}"
+
+
+def generate_joined_source_fields(folder_path: Path):
+    """
+    Generate CSV files that contain the joint source and license information
+    from other 625 words CSV files.
+    """
+    langs = set()
+    for csv_path in folder_path.glob("625_words-base-*.csv"):
+        langs.add(csv_path.stem.split("-")[-1])
+
+    pictures_df = pd.read_csv(folder_path / "625_words-pictures.csv", sep=",")
+
+    for lang in langs:
+        base_lang_df = pd.read_csv(folder_path / f"625_words-base-{lang}.csv", sep=",")
+        for csv_path in folder_path.glob(f"625_words-from-*-to-{lang}.csv"):
+            csv_path_generated = folder_path / "generated" / csv_path.name
+            joined_df = pd.merge(
+                base_lang_df,
+                pictures_df,
+                how="left",
+                on="key",
+            )
+            joined_df["source"] = joined_df.apply(
+                lambda row: _format_source(
+                    row["picture source"], row[f"audio source:{lang.split('_')[0]}"]
+                ),
+                axis=1,
+            )
+            # keep 'key' and 'source' columns and only if 'source' is not empty
+            joined_df = joined_df[["key", "source"]][joined_df["source"] != ""]
+            joined_df.to_csv(csv_path_generated, index=False)
+            print(f"CSV file '{csv_path_generated}' written")
