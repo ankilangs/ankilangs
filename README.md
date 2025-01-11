@@ -159,6 +159,18 @@ existing files. Note that the `guid` columns must stay empty since they have
 to be unique and will automatically be generated during build.
 
 
+### Generate Audio files
+
+You need a Google Cloud account and need to be
+[authenticated](https://cloud.google.com/docs/authentication/set-up-adc-local-dev-environment).
+
+Then execute, for example:
+
+```bash
+poetry run al-tools audio -i src/data/625_words-base-de_de.csv -o src/media/audio/de_DE/
+```
+
+
 ## Release
 
 To release a deck do the following:
