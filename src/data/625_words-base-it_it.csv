@@ -1,69 +1,69 @@
 key,text:it,ipa:it,audio:it,audio source:it,tags:it
-the car,,,,,AnkiLangs::IT
-Earth,,,,,AnkiLangs::IT
-the dog,,,,,AnkiLangs::IT
-the cat,,,,,AnkiLangs::IT
-the fish,,,,,AnkiLangs::IT
-the bird,,,,,AnkiLangs::IT
-the cow,,,,,AnkiLangs::IT
-the pig,,,,,AnkiLangs::IT
-the mouse,,,,,AnkiLangs::IT
-the horse,,,,,AnkiLangs::IT
-the wing,,,,,AnkiLangs::IT
-the animal,,,,,AnkiLangs::IT
-the train,,,,,AnkiLangs::IT
-the plane,,,,,AnkiLangs::IT
-the truck,,,,,AnkiLangs::IT
-the bicycle,,,,,AnkiLangs::IT
-the bus,,,,,AnkiLangs::IT
-the boat,,,,,AnkiLangs::IT
-the ship,,,,,AnkiLangs::IT
-the tire,,,,,AnkiLangs::IT
-the gasoline,,,,,AnkiLangs::IT
-the engine,,,,,AnkiLangs::IT
-the (train) ticket,,,,,AnkiLangs::IT
-transportation,,,,,AnkiLangs::IT
-the city,,,,,AnkiLangs::IT
-the house,,,,,AnkiLangs::IT
-the apartment,,,,,AnkiLangs::IT
-the street/road,,,,,AnkiLangs::IT
-the airport,,,,,AnkiLangs::IT
-the train station,,,,,AnkiLangs::IT
-the bridge,,,,,AnkiLangs::IT
-the hotel,,,,,AnkiLangs::IT
-the restaurant,,,,,AnkiLangs::IT
-the farm,,,,,AnkiLangs::IT
-the court,,,,,AnkiLangs::IT
-the school,,,,,AnkiLangs::IT
-the office,,,,,AnkiLangs::IT
-the room,,,,,AnkiLangs::IT
-the town,,,,,AnkiLangs::IT
-the university,,,,,AnkiLangs::IT
-the club,,,,,AnkiLangs::IT
-the bar,,,,,AnkiLangs::IT
-the park,,,,,AnkiLangs::IT
-the camp,,,,,AnkiLangs::IT
-the store/shop,,,,,AnkiLangs::IT
-the theater,,,,,AnkiLangs::IT
-the library,,,,,AnkiLangs::IT
-the hospital,,,,,AnkiLangs::IT
-the church,,,,,AnkiLangs::IT
-the market,,,,,AnkiLangs::IT
-"the country (USA, France, etc.)",,,,,AnkiLangs::IT
-the building,,,,,AnkiLangs::IT
-the ground,,,,,AnkiLangs::IT
-space (outer space),,,,,AnkiLangs::IT
-the bank,,,,,AnkiLangs::IT
-the location,,,,,AnkiLangs::IT
-the hat,,,,,AnkiLangs::IT
-the dress,,,,,AnkiLangs::IT
-the suit,,,,,AnkiLangs::IT
-the skirt,,,,,AnkiLangs::IT
-the shirt,,,,,AnkiLangs::IT
-the T-shirt,,,,,AnkiLangs::IT
-the pants,,,,,AnkiLangs::IT
-the shoes,,,,,AnkiLangs::IT
-the pocket,,,,,AnkiLangs::IT
-the coat,,,,,AnkiLangs::IT
-the stain,,,,,AnkiLangs::IT
-the clothing,,,,,AnkiLangs::IT
+the car,la macchina,/la ˈmakːina/,,,AnkiLangs::IT
+Earth,la Terra,/la ˈtɛrra/,,,AnkiLangs::IT
+the dog,il cane,/il ˈkane/,,,AnkiLangs::IT
+the cat,il gatto,/il ˈɡatto/,,,AnkiLangs::IT
+the fish,il pesce,/il ˈpeʃe/,,,AnkiLangs::IT
+the bird,l'uccello,/luˈtʃɛllo/,,,AnkiLangs::IT
+the cow,la mucca,/la ˈmukka/,,,AnkiLangs::IT
+the pig,il maiale,/il maˈjale/,,,AnkiLangs::IT
+the mouse,il topo,/il ˈtopo/,,,AnkiLangs::IT
+the horse,il cavallo,/il kaˈvallo/,,,AnkiLangs::IT
+the wing,l'ala,/ˈlala/,,,AnkiLangs::IT
+the animal,l'animale,/laniˈmale/,,,AnkiLangs::IT
+the train,il treno,/il ˈtreno/,,,AnkiLangs::IT
+the plane,l'aereo,/laˈɛːreo/,,,AnkiLangs::IT
+the truck,il camion,/il ˈkamjon/,,,AnkiLangs::IT
+the bicycle,la bicicletta,/la bitʃiˈkletta/,,,AnkiLangs::IT
+the bus,l'autobus,/ˈlautoˌbus/,,,AnkiLangs::IT
+the boat,la barca,/la ˈbarka/,,,AnkiLangs::IT
+the ship,la nave,/la ˈnave/,,,AnkiLangs::IT
+the tire,la gomma,/la ˈɡomːa/,,,AnkiLangs::IT
+the gasoline,la benzina,/la benˈdziːna/,,,AnkiLangs::IT
+the engine,il motore,/il moˈtoːre/,,,AnkiLangs::IT
+the (train) ticket,il biglietto (del treno),/il biʎˈʎetto (del ˈtreno)/,,,AnkiLangs::IT
+transportation,il trasporto,/il trasˈporːto/,,,AnkiLangs::IT
+the city,la città,/la tʃitˈta/,,,AnkiLangs::IT
+the house,la casa,/la ˈkasa/,,,AnkiLangs::IT
+the apartment,l'appartamento,/lapːartaˈmento/,,,AnkiLangs::IT
+the street/road,la strada,/la ˈstraːda/,,,AnkiLangs::IT
+the airport,l'aeroporto,/laeroˈpɔrto/,,,AnkiLangs::IT
+the train station,la stazione dei treni,/la statˈtsjoːne dei ˈtrɛni/,,,AnkiLangs::IT
+the bridge,il ponte,/il ˈponte/,,,AnkiLangs::IT
+the hotel,l'hotel,/loˈtel/,,,AnkiLangs::IT
+the restaurant,il ristorante,/il ristoˈrante/,,,AnkiLangs::IT
+the farm,la fattoria,/la fattoˈria/,,,AnkiLangs::IT
+the court,il tribunale,/il tribuˈnale/,,,AnkiLangs::IT
+the school,la scuola,/la ˈskwɔːla/,,,AnkiLangs::IT
+the office,l'ufficio,/lufˈfiːtʃo/,,,AnkiLangs::IT
+the room,la stanza,/la ˈstantsa/,,,AnkiLangs::IT
+the town,il paese,/il paˈɛze/,,,AnkiLangs::IT
+the university,l'università,/luniˈversiˌta/,,,AnkiLangs::IT
+the club,il club,/il ˈklub/,,,AnkiLangs::IT
+the bar,il bar,/il ˈbar/,,,AnkiLangs::IT
+the park,il parco,/il ˈparko/,,,AnkiLangs::IT
+the camp,il campeggio,/il kamˈpedʒːo/,,,AnkiLangs::IT
+the store/shop,il negozio,/il neˈɡɔttsjo/,,,AnkiLangs::IT
+the theater,il teatro,/il teˈaːtro/,,,AnkiLangs::IT
+the library,la biblioteca,/la bibʎoˈteːka/,,,AnkiLangs::IT
+the hospital,l'ospedale,/lospeˈdaːle/,,,AnkiLangs::IT
+the church,la chiesa,/la ˈkjɛːza/,,,AnkiLangs::IT
+the market,il mercato,/il merˈkaːto/,,,AnkiLangs::IT
+"the country (USA, France, etc.)",il paese,/il paˈɛze/,,,AnkiLangs::IT
+the building,l'edificio,/lediˈfiːtʃo/,,,AnkiLangs::IT
+the ground,il terreno,/il terˈreːno/,,,AnkiLangs::IT
+space (outer space),lo spazio,/lo ˈspatt͡sjo/,,,AnkiLangs::IT
+the bank,la banca,/la ˈbanka/,,,AnkiLangs::IT
+the location,la posizione,/la poˈtsiːtsjoːne/,,,AnkiLangs::IT
+the hat,il cappello,/il kapˈpɛllo/,,,AnkiLangs::IT
+the dress,il vestito,/il vesˈtiːto/,,,AnkiLangs::IT
+the suit,il completo,/il komˈpleːto/,,,AnkiLangs::IT
+the skirt,la gonna,/la ˈɡonːa/,,,AnkiLangs::IT
+the shirt,la camicia,/la kaˈmiːtʃa/,,,AnkiLangs::IT
+the T-shirt,la maglietta,/la maʎˈʎetːta/,,,AnkiLangs::IT
+the pants,i pantaloni,/i pantaˈloːni/,,,AnkiLangs::IT
+the shoes,le scarpe,/le ˈskarpe/,,,AnkiLangs::IT
+the pocket,la tasca,/la ˈtaska/,,,AnkiLangs::IT
+the coat,il cappotto,/il kapˈpɔtːto/,,,AnkiLangs::IT
+the stain,la macchia,/la ˈmakːkja/,,,AnkiLangs::IT
+the clothing,l'abbigliamento,/labbiʎʎaˈmento/,,,AnkiLangs::IT
