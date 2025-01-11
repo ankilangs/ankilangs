@@ -1,4 +1,4 @@
-name: AnkiLangs EN to ES
+name: AnkiLangs EN to FR
 id: f793299f-ae1e-4582-8edf-e8df16c9b8c7
 css_file: src/note_models/vocabulary_en_to_fr/style.css
 latex_pre: "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\
