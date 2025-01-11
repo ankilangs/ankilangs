@@ -1,6 +1,7 @@
 from enum import Enum
 from pathlib import Path
 import random
+import time
 import pandas as pd
 import os
 import re
@@ -162,6 +163,9 @@ def generate_audio(
             name=voice_name,
         )
         synthesis_input = tts.SynthesisInput(text=row[text_col])
+
+        # Avoid rate limit
+        time.sleep(1)
 
         response = client.synthesize_speech(
             input=synthesis_input,
