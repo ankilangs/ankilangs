@@ -1,6 +1,9 @@
 [tool.poetry]
+name = "al-tools"
+version = "0.1.0"
+description = "Tooling for AnkiLangs.org"
+authors = ["Omar Kohl <omarkohl@posteo.net>"]
 readme = "README.md"
-package-mode = false
 
 
 [tool.poetry.dependencies]
