@@ -2,6 +2,7 @@
     source:
       - src/data/625_words-from-de_de-to-en_us.csv
       - src/data/625_words-from-de_de-to-es_es.csv
+      - src/data/625_words-from-de_de-to-fr_fr.csv
       - src/data/625_words-from-en_us-to-de_de.csv
       - src/data/625_words-from-en_us-to-es_es.csv
       - src/data/625_words-from-en_us-to-fr_fr.csv
@@ -20,6 +21,10 @@
     - note_model_from_yaml_part:
         part_id: vocabulary_de_to_es
         file: src/note_models/vocabulary_de_to_es/note.yaml
+
+    - note_model_from_yaml_part:
+        part_id: vocabulary_de_to_fr
+        file: src/note_models/vocabulary_de_to_fr/note.yaml
 
     - note_model_from_yaml_part:
         part_id: vocabulary_en_to_de
@@ -64,6 +69,13 @@
             name: AnkiLangs | DE zu ES | 625 Wörter
             crowdanki_uuid: 0c1ce29f-0e8f-4c9f-8867-386f406942e9
             deck_description_html_file: src/headers/description_de_to_es-625_words.html
+
+        - part_id: header_de_to_fr
+          file: src/headers/default.yaml
+          override:
+            name: AnkiLangs | DE zu FR | 625 Wörter
+            crowdanki_uuid: 1f682ac7-cfda-4bc3-82cd-7fd148522732
+            deck_description_html_file: src/headers/description_de_to_fr-625_words.html
 
         - part_id: header_en_to_de
           file: src/headers/default.yaml
@@ -180,6 +192,36 @@
               - file: src/data/625_words-base-es_es.csv
               - file: src/data/625_words-pictures.csv
               - file: src/data/generated/625_words-from-de_de-to-es_es.csv
+
+    - notes_from_csvs:
+        part_id: notes_de_to_fr
+
+        note_model_mappings:
+          - note_models:
+              - vocabulary_de_to_fr
+            columns_to_fields:
+              guid: guid
+              text:de: Source Text
+              text:fr: Target Text
+              ipa:fr: Target IPA
+              audio:fr: Target Audio
+              picture: Picture
+              notes: Notes
+              pronunciation hint: Pronunciation Hint
+              spelling hint: Spelling Hint
+              reading hint: Reading Hint
+              listening hint: Listening Hint
+              source: Source & License
+              tags:fr: tags
+
+        file_mappings:
+          - file: src/data/625_words-from-de_de-to-fr_fr.csv
+            note_model: vocabulary_de_to_fr
+            derivatives:
+              - file: src/data/625_words-base-de_de.csv
+              - file: src/data/625_words-base-fr_fr.csv
+              - file: src/data/625_words-pictures.csv
+              - file: src/data/generated/625_words-from-de_de-to-fr_fr.csv
 
     - notes_from_csvs:
         part_id: notes_en_to_de
@@ -411,6 +453,18 @@
       parts:
         - part_id: vocabulary_de_to_es
     headers: header_de_to_es
+    media:
+      parts:
+        - all_media
+
+- generate_crowd_anki:
+    folder: build/AnkiLangs___DE_to_FR___625_Words
+    notes:
+      part_id: notes_de_to_fr
+    note_models:
+      parts:
+        - part_id: vocabulary_de_to_fr
+    headers: header_de_to_fr
     media:
       parts:
         - all_media
