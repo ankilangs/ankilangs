@@ -9,6 +9,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 brain-brew = "^0.3.11"
+pandas = "^2.2.3"
+google-cloud-texttospeech = "^2.23.0"
 
 
 [tool.poetry.group.dev.dependencies]
