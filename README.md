@@ -23,7 +23,7 @@ Calc in order to edit them.
 If you want to add or modify media files (e.g. audio) you must do so in the `src/media/` directory.
 
 For example:
-* The "Portuguese 625 words" deck contains a typo → you should edit `src/data/EN to PT - 625 Words.csv`.
+* The "Portuguese 625 words" deck contains a typo → you should edit `src/data/625_words-base-pt_pt.csv`.
 * A German audio recording for the word "Flugzeug" is incorrect → you should replace the file `src/media/audio/de_DE/al_de_de_das_flugzeug.ogg`
 
 If there are any large structural changes you want to make or anything else that involves a lot of
@@ -68,13 +68,14 @@ Git repository.
 Then you may review them like any deck.
 
 
-### To create a new deck
+### To create a new 625 words deck
 
-Copy existing files:
+* Copy and adapt one of the directories in `src/note_models/`
 
 ```bash
 # Probably leave the following unchanged
-export AL_SRC_NAME="EN to PT"
+export AL_SRC_NAME="en_to_pt"
+export AL_SRC_NAME_2="EN to PT"
 export AL_SRC_LANG_NAME="Portuguese"
 export AL_SRC_LISTENING="Listening"
 export AL_SRC_PRONUNCIATION="Pronunciation"
@@ -82,8 +83,9 @@ export AL_SRC_READING="Reading"
 export AL_SRC_SPELLING="Spelling"
 
 # CHANGE ME!
-export AL_DST_NAME="DE to ES"
-export AL_DST_LANG_NAME="Spanisch"
+export AL_DST_NAME="de_to_fr"
+export AL_DST_NAME_2="DE to FR"
+export AL_DST_LANG_NAME="Französisch"
 export AL_DST_LISTENING="Listening"
 export AL_DST_PRONUNCIATION="Pronunciation"
 export AL_DST_READING="Reading"
@@ -95,41 +97,41 @@ export AL_DST_SPELLING="Spelling"
 #export AL_DST_SPELLING="Rechtschreibung"
 
 
-cp "src/headers/Description ${AL_SRC_NAME} - 625 Words.html" \
-  "src/headers/Description ${AL_DST_NAME} - 625 Words.html"
+cp "src/headers/description_${AL_SRC_NAME}-625_words.html" \
+  "src/headers/description_${AL_DST_NAME}-625_words.html"
 
-cp -r "src/note_models/AnkiLangs ${AL_SRC_NAME}" \
-  "src/note_models/AnkiLangs ${AL_DST_NAME}"
-
-mv "src/note_models/AnkiLangs ${AL_DST_NAME}/AnkiLangs ${AL_SRC_NAME}.yaml" \
-  "src/note_models/AnkiLangs ${AL_DST_NAME}/AnkiLangs ${AL_DST_NAME}.yaml"
+cp -r "src/note_models/vocabulary_${AL_SRC_NAME}" \
+  "src/note_models/vocabulary_${AL_DST_NAME}"
 
 sed -i "s/id: .*/id: `python3 -c "import uuid; print(uuid.uuid4())"`/" \
-  "src/note_models/AnkiLangs ${AL_DST_NAME}/AnkiLangs ${AL_DST_NAME}.yaml"
+  "src/note_models/vocabulary_${AL_DST_NAME}/note.yaml"
 
-find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
   -exec sed -i "s/${AL_SRC_NAME}/${AL_DST_NAME}/g" {} +
 
-find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
+  -exec sed -i "s/${AL_SRC_NAME_2}/${AL_DST_NAME_2}/g" {} +
+
+find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
   -exec sed -i "s/${AL_SRC_LANG_NAME}/${AL_DST_LANG_NAME}/g" {} +
 
-find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
   -exec sed -i "s/| ${AL_SRC_LISTENING}/| ${AL_DST_LISTENING}/g" {} +
 
-find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
   -exec sed -i "s/| ${AL_SRC_PRONUNCIATION}/| ${AL_DST_PRONUNCIATION}/g" {} +
 
-find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
   -exec sed -i "s/| ${AL_SRC_READING}/| ${AL_DST_READING}/g" {} +
 
-find "src/note_models/AnkiLangs ${AL_DST_NAME}/" -type f \
+find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
   -exec sed -i "s/| ${AL_SRC_SPELLING}/| ${AL_DST_SPELLING}/g" {} +
 ```
 
 Edit the deck description file:
 
 ```bash
-vim "src/headers/Description ${AL_DST_NAME} - 625 Words.html"
+vim "src/headers/description_${AL_DST_NAME}-625_words.html"
 ```
 
 To generate new UUIDs you can use this command:
@@ -138,8 +140,8 @@ To generate new UUIDs you can use this command:
 python3 -c "import uuid; print(uuid.uuid4())"
 ```
 
-Edit `recipes/source_to_anki.yaml`:
-* Add a source file under `generate_guids_in_csvs`
+Edit `recipes/source_to_anki_625_words.yaml`:
+* Add the new source files under `generate_guids_in_csvs`
 * Copy a block under `note_models_from_yaml_part` and:
   * Edit the `part_id` and `file`
 * In the `headers_from_yaml_part` section copy a block and:
@@ -148,22 +150,22 @@ Edit `recipes/source_to_anki.yaml`:
   * Replace `crowdanki_uuid` with a new UUID
   * Set the path of the `deck_description_html_file`
 * In the `notes_from_csvs` section copy a block and:
-  * Replace four instances e.g. `EN to PT` with `DE to ES`
-* Copy a `generate_crowd_anki` section and replace four instance e.g.
-  `EN to PT` with `DE to ES`.
+  * Adapt all strings to the new language
+* Copy a `generate_crowd_anki` section and replace all strings with the new
+  language
 
-Create a file in `src/data/` with at least one entry. Copy the format of one of
-the existing files. Note that the first column (guid) is generated
-automatically so leave it blank.
+Create the new CSV files you need under `src/data/` by copying and adapting
+existing files. Note that the `guid` columns must stay empty since they have
+to be unique and will automatically be generated during build.
 
 
 ## Release
 
 To release a deck do the following:
 
-* Update the version in the `src/headers/Description*` file
+* Update the version in the `src/headers/description*` file
 * Build as described above
-* Update the version in the `src/headers/Description*` file to the next dev version
+* Update the version in the `src/headers/description*` file to the next dev version
 * Import the deck into Anki
 * Export from Anki:
   * Include media
