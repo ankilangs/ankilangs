@@ -1,3 +1,69 @@
 key,source
-the car,"Picture:&nbsp;<a href=""https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/"">https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/</a>"
-Earth,"Picture:&nbsp;<a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a>"
+the car,"Picture:<br>Picture:&nbsp;<a href=""https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/"">https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/</a><br><br>Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A"
+Earth,"Picture:<br>Picture:&nbsp;<a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a><br><br>Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A"
+the dog,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the cat,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the fish,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the bird,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the cow,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the pig,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the mouse,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the horse,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the wing,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the animal,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the train,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the plane,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the truck,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the bicycle,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the bus,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the boat,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the ship,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the tire,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the gasoline,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the engine,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the (train) ticket,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+transportation,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the city,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the house,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the apartment,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the street/road,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the airport,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the train station,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the bridge,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the hotel,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the restaurant,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the farm,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the court,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the school,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the office,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the room,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the town,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the university,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the club,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the bar,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the park,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the camp,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the store/shop,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the theater,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the library,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the hospital,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the church,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the market,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+"the country (USA, France, etc.)",Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the building,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the ground,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+space (outer space),Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the bank,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the location,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the hat,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the dress,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the suit,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the skirt,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the shirt,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the T-shirt,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the pants,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the shoes,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
+the pocket,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the coat,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the stain,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D
+the clothing,Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A
