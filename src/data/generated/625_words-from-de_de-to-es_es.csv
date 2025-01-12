@@ -1,6 +1,6 @@
 key,source
-the car,"Picture:<br>Picture:&nbsp;<a href=""https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/"">https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/</a><br><br>Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C"
-Earth,"Picture:<br>Picture:&nbsp;<a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a><br><br>Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C"
+the car,"Picture:<br><a href=""https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/"">https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/</a><br><br>Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C"
+Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a><br><br>Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C"
 the dog,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the cat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the fish,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
