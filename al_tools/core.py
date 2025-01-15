@@ -195,6 +195,66 @@ def _format_source(picture_source, audio_source):
     return f"{picture_part}{separator}{audio_part}"
 
 
+def fix_625_words_files(folder_path: Path):
+    """
+    Verify all files contain the same keys and add missing words.
+    """
+    # Verify the "key" column is the same in all files. If the only difference is that some files have
+    # more keys than others, add the missing keys to the files that are missing them.
+    # Maintain the order of the keys in all files. If the order is different, raise an error.
+    keys: pd.DataSeries = None
+    file_most_keys = None
+
+    # First figure out which files has the most keys
+    for csv_path in folder_path.glob("625_words-base-*.csv"):
+        df = pd.read_csv(csv_path, sep=",")
+        if keys is None:
+            keys = df["key"]
+            file_most_keys = csv_path
+        elif len(keys) < len(df["key"]):
+            keys = df["key"]
+            file_most_keys = csv_path
+
+    for csv_path in folder_path.glob("625_words-base-*.csv"):
+        df = pd.read_csv(csv_path, sep=",")
+        if not keys.equals(df["key"]):
+            # Check if the keys are the same but in a different order
+            if (
+                keys.sort_values()
+                .reset_index(drop=True)
+                .equals(df["key"].sort_values().reset_index(drop=True))
+            ):
+                raise ValueError(
+                    f"Keys in '{csv_path}' are in a different order than in '{file_most_keys}'"
+                )
+            # Add missing keys in the same order as the original keys
+            missing_keys = keys[~keys.isin(df["key"])]
+            df = pd.concat([df, pd.DataFrame({"key": missing_keys})], ignore_index=True)
+
+        # Ensure that "tags:*" is set, for example tags:fr should be set to AnkiLangs::FR
+        for column in df.columns:
+            if column.startswith("tags:"):
+                df[column] = "AnkiLangs::" + column.split(":")[1].upper()
+        df.to_csv(csv_path, index=False)
+
+    # Add all keys to the from-to files
+    for csv_path in folder_path.glob("625_words-from-*-to-*.csv"):
+        df = pd.read_csv(csv_path, sep=",")
+        if not keys.equals(df["key"]):
+            # Check if the keys are the same but in a different order
+            if (
+                keys.sort_values()
+                .reset_index(drop=True)
+                .equals(df["key"].sort_values().reset_index(drop=True))
+            ):
+                raise ValueError(
+                    f"Keys in '{csv_path}' are in a different order than in '{file_most_keys}'"
+                )
+            missing_keys = keys[~keys.isin(df["key"])]
+            df = pd.concat([df, pd.DataFrame({"key": missing_keys})], ignore_index=True)
+        df.to_csv(csv_path, index=False)
+
+
 def generate_joined_source_fields(folder_path: Path):
     """
     Generate CSV files that contain the joint source and license information

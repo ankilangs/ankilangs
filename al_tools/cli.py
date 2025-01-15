@@ -5,6 +5,7 @@ from al_tools.core import (
     generate_audio,
     AudioExistsAction,
     generate_joined_source_fields,
+    fix_625_words_files,
 )
 
 
@@ -46,6 +47,7 @@ def cli():
             AudioExistsAction(args.action),
         )
     elif args.command == "generate":
+        fix_625_words_files(Path(args.input))
         generate_joined_source_fields(Path(args.input))
     else:
         parser.print_help()
