@@ -167,11 +167,15 @@ def generate_audio(
         # Avoid rate limit
         time.sleep(1)
 
-        response = client.synthesize_speech(
-            input=synthesis_input,
-            voice=voice,
-            audio_config=audio_config,
-        )
+        try:
+            response = client.synthesize_speech(
+                input=synthesis_input,
+                voice=voice,
+                audio_config=audio_config,
+            )
+        except Exception as e:
+            print(f"Error for '{row[text_col]}': {e}")
+            break
         audio_file.write_bytes(response.audio_content)
         df.at[rowindex, audio_col] = f"[sound:{audio_file.name}]"
         df.at[rowindex, audio_source_col] = f"Google Cloud TTS<br>Voice: {voice_name}"
