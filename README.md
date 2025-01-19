@@ -170,6 +170,11 @@ Then execute, for example:
 
 ```bash
 poetry run al-tools audio -i src/data/625_words-base-de_de.csv -o src/media/audio/de_DE/
+poetry run al-tools audio -i src/data/625_words-base-pt_pt.csv -o src/media/audio/pt_PT/
+poetry run al-tools audio -i src/data/625_words-base-it_it.csv -o src/media/audio/it_IT/
+poetry run al-tools audio -i src/data/625_words-base-fr_fr.csv -o src/media/audio/fr_FR/
+poetry run al-tools audio -i src/data/625_words-base-en_us.csv -o src/media/audio/en_US/
+poetry run al-tools audio -i src/data/625_words-base-es_es.csv -o src/media/audio/es_ES/
 ```
 
 
