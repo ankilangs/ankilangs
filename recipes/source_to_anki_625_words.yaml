@@ -115,14 +115,14 @@
         - part_id: header_es_to_de
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | ES a DE | 625 Words
+            name: AnkiLangs | ES a DE | 625 palabras
             crowdanki_uuid: 862c1860-7277-4c40-8914-33fb36db3184
             deck_description_html_file: src/headers/description_es_to_de-625_words.html
 
         - part_id: header_es_to_en
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | ES a EN | 625 Words
+            name: AnkiLangs | ES a EN | 625 palabras
             crowdanki_uuid: 8aa008b4-4929-466a-8c82-892c7c899a02
             deck_description_html_file: src/headers/description_es_to_en-625_words.html
 
