@@ -59,6 +59,7 @@ To build the decks you need the following:
 ```bash
 poetry install
 poetry run al-tools generate -i src/data/
+poetry run al-tools check -i src/data/
 poetry run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
 poetry run brainbrew run recipes/source_to_anki_625_words.yaml
 ```

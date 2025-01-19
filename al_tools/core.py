@@ -2,6 +2,8 @@ from enum import Enum
 from pathlib import Path
 import random
 import time
+from typing import List, Tuple, Dict
+
 import pandas as pd
 import os
 import re
@@ -290,3 +292,79 @@ def generate_joined_source_fields(folder_path: Path):
             joined_df = joined_df[["key", "source"]][joined_df["source"] != ""]
             joined_df.to_csv(csv_path_generated, index=False)
             print(f"CSV file '{csv_path_generated}' written")
+
+
+class _AmbiguousWords:
+    def __init__(self, filename: str):
+        self.filename = filename
+        # key is the word, value is a tuple of keys and empty columns
+        self.ambiguous_words: Dict[str, Tuple[Tuple, Tuple]] = dict()
+
+    def add(self, word: str, keys: Tuple, empty_columns: Tuple):
+        self.ambiguous_words[word] = (keys, empty_columns)
+
+    def __repr__(self):
+        return f"{self.filename}: {self.ambiguous_words}"
+
+
+def ambiguity_detection(folder_path: Path) -> str:
+    """
+    Detect ambiguous words in the given folder.
+    """
+    aw_list: List[_AmbiguousWords] = []
+    for csv_path in folder_path.glob("625_words-from-*-to-*.csv"):
+        aw_obj = _AmbiguousWords(csv_path.name)
+        re_result = re.search(r"625_words-from-(.*)-to-(.*)", csv_path.stem).groups()
+        from_lang = re_result[0]
+        from_lang_short = from_lang.split("_")[0]
+        to_lang = re_result[1]
+        to_lang_short = to_lang.split("_")[0]
+
+        # join with the two base files
+        df = pd.read_csv(csv_path, sep=",")
+        from_df = pd.read_csv(folder_path / f"625_words-base-{from_lang}.csv", sep=",")
+        to_df = pd.read_csv(folder_path / f"625_words-base-{to_lang}.csv", sep=",")
+        df = pd.merge(df, from_df, how="left", on="key")
+        df = pd.merge(df, to_df, how="left", on="key")
+
+        for rowindex, row in df[df.duplicated(f"text:{from_lang_short}")].iterrows():
+            duplicate_rows = df[
+                df[f"text:{from_lang_short}"] == row[f"text:{from_lang_short}"]
+            ]
+            columns = []
+            if duplicate_rows["pronunciation hint"].isnull().all():
+                columns.append("pronunciation hint")
+            if duplicate_rows["spelling hint"].isnull().all():
+                columns.append("spelling hint")
+            if columns:
+                aw_obj.add(
+                    row[f"text:{from_lang_short}"],
+                    tuple(duplicate_rows["key"]),
+                    tuple(columns),
+                )
+
+        for rowindex, row in df[df.duplicated(f"text:{to_lang_short}")].iterrows():
+            duplicate_rows = df[
+                df[f"text:{to_lang_short}"] == row[f"text:{to_lang_short}"]
+            ]
+            columns = []
+            if duplicate_rows["reading hint"].isnull().all():
+                columns.append("reading hint")
+            if duplicate_rows["listening hint"].isnull().all():
+                columns.append("listening hint")
+            if columns:
+                aw_obj.add(
+                    row[f"text:{to_lang_short}"],
+                    tuple(duplicate_rows["key"]),
+                    tuple(columns),
+                )
+
+        aw_list.append(aw_obj)
+
+    output = ""
+    for aw_obj in aw_list:
+        if aw_obj.ambiguous_words:
+            output += f"The following ambiguous words were found in the file '{aw_obj.filename}':\n"
+            for word, (keys, empty_columns) in aw_obj.ambiguous_words.items():
+                output += f"  - '{word}' has the key(s) {keys} and missing column(s) {empty_columns}\n"
+    return output

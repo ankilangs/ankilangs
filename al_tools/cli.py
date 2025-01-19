@@ -6,6 +6,7 @@ from al_tools.core import (
     AudioExistsAction,
     generate_joined_source_fields,
     fix_625_words_files,
+    ambiguity_detection,
 )
 
 
@@ -38,6 +39,11 @@ def cli():
         "-i", "--input", type=str, required=True, help="Input folder"
     )
 
+    check_parser = subparsers.add_parser("check")
+    check_parser.add_argument(
+        "-i", "--input", type=str, required=True, help="Input folder"
+    )
+
     args = parser.parse_args()
 
     if args.command == "audio":
@@ -49,5 +55,8 @@ def cli():
     elif args.command == "generate":
         fix_625_words_files(Path(args.input))
         generate_joined_source_fields(Path(args.input))
+    elif args.command == "check":
+        output = ambiguity_detection(Path(args.input))
+        print(output)
     else:
         parser.print_help()
