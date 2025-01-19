@@ -37,7 +37,7 @@ the court,Audio:<br>Google Cloud TTS
 the school,Audio:<br>Google Cloud TTS
 the office,Audio:<br>Google Cloud TTS
 the room,Audio:<br>Google Cloud TTS
-the town,Audio:<br>Google Cloud TTS
+the town,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 the university,Audio:<br>Google Cloud TTS
 the club,Audio:<br>Google Cloud TTS
 the bar,Audio:<br>Google Cloud TTS
@@ -49,7 +49,7 @@ the library,Audio:<br>Google Cloud TTS
 the hospital,Audio:<br>Google Cloud TTS
 the church,Audio:<br>Google Cloud TTS
 the market,Audio:<br>Google Cloud TTS
-"the country (USA, France, etc.)",Audio:<br>Google Cloud TTS
+"the country (USA, France, etc.)",Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 the building,Audio:<br>Google Cloud TTS
 the ground,Audio:<br>Google Cloud TTS
 space (outer space),Audio:<br>Google Cloud TTS
@@ -67,3 +67,46 @@ the pocket,Audio:<br>Google Cloud TTS
 the coat,Audio:<br>Google Cloud TTS
 the stain,Audio:<br>Google Cloud TTS
 the clothing,Audio:<br>Google Cloud TTS
+red,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+green,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+blue,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+light blue,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+dark blue,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
+yellow,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+brown,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+pink,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+orange,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+black,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+white,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+gray,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the color,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the son,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the daughter,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the mother,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
+the father,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the parent,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the baby,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the man,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the woman,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the brother,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the sister,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the family,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the grandfather,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the grandmother,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the husband,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the wife,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the king,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the queen,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the president,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
+the neighbor,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the boy,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the girl,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the child,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the adult,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the human,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
+the friend,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the victim,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the player,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the fan,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+the crowd,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the person,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O

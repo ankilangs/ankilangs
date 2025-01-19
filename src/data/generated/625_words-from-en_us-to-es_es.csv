@@ -16,7 +16,7 @@ the plane,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the truck,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the bicycle,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the bus,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-the boat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the boat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the ship,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the tire,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the gasoline,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
@@ -67,3 +67,46 @@ the pocket,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the coat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the stain,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the clothing,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+red,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+green,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+blue,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+light blue,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+dark blue,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+yellow,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+brown,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+pink,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+orange,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+black,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+white,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+gray,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the color,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the son,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the daughter,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the mother,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the father,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the parent,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the baby,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the man,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the woman,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the brother,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the sister,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the family,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the grandfather,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the grandmother,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the husband,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the wife,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the king,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the queen,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the president,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the neighbor,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the boy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the girl,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the child,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the adult,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the human,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the friend,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the victim,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the player,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the fan,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the crowd,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the person,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
