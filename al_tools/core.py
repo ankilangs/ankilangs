@@ -140,50 +140,51 @@ def generate_audio(
 
     client = tts.TextToSpeechClient()
     audio_config = tts.AudioConfig(audio_encoding=tts.AudioEncoding.MP3)
-    for rowindex, row in df.iterrows():
-        if pd.notna(row[audio_col]):
-            audio_file = audio_folder_path / re.search(
-                r"\[sound:(.+)\]", row[audio_col]
-            ).group(1)
-        else:
-            audio_file = audio_folder_path / _create_mp3_filename(
-                row[text_col], prefix=f"al_{language}_"
-            )
-        if audio_file.exists():
-            if audio_exists_action == AudioExistsAction.SKIP:
-                print(f"Skipping existing audio file '{audio_file}'")
-                continue
-            elif audio_exists_action == AudioExistsAction.OVERWRITE:
-                print(f"Overwriting existing audio file '{audio_file}'")
-                os.remove(audio_file)
+    try:
+        for rowindex, row in df.iterrows():
+            if pd.notna(row[audio_col]):
+                audio_file = audio_folder_path / re.search(
+                    r"\[sound:(.+)\]", row[audio_col]
+                ).group(1)
             else:
-                raise FileExistsError(f"Audio file {audio_file} already exists")
+                audio_file = audio_folder_path / _create_mp3_filename(
+                    row[text_col], prefix=f"al_{language}_"
+                )
+            if audio_file.exists():
+                if audio_exists_action == AudioExistsAction.SKIP:
+                    print(f"Skipping existing audio file '{audio_file}'")
+                    continue
+                elif audio_exists_action == AudioExistsAction.OVERWRITE:
+                    print(f"Overwriting existing audio file '{audio_file}'")
+                    os.remove(audio_file)
+                else:
+                    raise FileExistsError(f"Audio file {audio_file} already exists")
 
-        voice_name = random.choice(_VOICE_MAP[language])
-        voice = tts.VoiceSelectionParams(
-            language_code=f"{language.split('_')[0]}-{language.split('_')[1].upper()}",
-            name=voice_name,
-        )
-        synthesis_input = tts.SynthesisInput(text=row[text_col])
-
-        # Avoid rate limit
-        time.sleep(1)
-
-        try:
-            response = client.synthesize_speech(
-                input=synthesis_input,
-                voice=voice,
-                audio_config=audio_config,
+            voice_name = random.choice(_VOICE_MAP[language])
+            voice = tts.VoiceSelectionParams(
+                language_code=f"{language.split('_')[0]}-{language.split('_')[1].upper()}",
+                name=voice_name,
             )
-        except Exception as e:
-            print(f"Error for '{row[text_col]}': {e}")
-            break
-        audio_file.write_bytes(response.audio_content)
-        df.at[rowindex, audio_col] = f"[sound:{audio_file.name}]"
-        df.at[rowindex, audio_source_col] = f"Google Cloud TTS<br>Voice: {voice_name}"
-        print(f"Audio content written to file '{audio_file}'")
+            synthesis_input = tts.SynthesisInput(text=row[text_col])
 
-    df.to_csv(csv_path, index=False)
+            # Avoid rate limit
+            time.sleep(1)
+
+            try:
+                response = client.synthesize_speech(
+                    input=synthesis_input,
+                    voice=voice,
+                    audio_config=audio_config,
+                )
+            except Exception as e:
+                raise Exception(f"Error for '{row[text_col]}': {e}") from e
+            audio_file.write_bytes(response.audio_content)
+            df.at[rowindex, audio_col] = f"[sound:{audio_file.name}]"
+            df.at[rowindex, audio_source_col] = f"Google Cloud TTS<br>Voice: {voice_name}"
+            print(f"Audio content written to file '{audio_file}'")
+    finally:
+        # Save the updated DataFrame
+        df.to_csv(csv_path, index=False)
 
 
 def _format_source(picture_source, audio_source):
