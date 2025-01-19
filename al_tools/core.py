@@ -153,6 +153,14 @@ def generate_audio(
             if audio_file.exists():
                 if audio_exists_action == AudioExistsAction.SKIP:
                     print(f"Skipping existing audio file '{audio_file}'")
+                    if pd.isna(row[audio_col]):
+                        df.at[rowindex, audio_col] = f"[sound:{audio_file.name}]"
+                        # find the source of that audio
+                        audio_source = df[df[audio_col] == f"[sound:{audio_file.name}]"][
+                            audio_source_col
+                        ].values[0]
+                        df.at[rowindex, audio_source_col] = audio_source
+                        print(f"  ** Setting audio of '{row[text_col]}' to '{audio_file.name}'")
                     continue
                 elif audio_exists_action == AudioExistsAction.OVERWRITE:
                     print(f"Overwriting existing audio file '{audio_file}'")
@@ -180,7 +188,9 @@ def generate_audio(
                 raise Exception(f"Error for '{row[text_col]}': {e}") from e
             audio_file.write_bytes(response.audio_content)
             df.at[rowindex, audio_col] = f"[sound:{audio_file.name}]"
-            df.at[rowindex, audio_source_col] = f"Google Cloud TTS<br>Voice: {voice_name}"
+            df.at[rowindex, audio_source_col] = (
+                f"Google Cloud TTS<br>Voice: {voice_name}"
+            )
             print(f"Audio content written to file '{audio_file}'")
     finally:
         # Save the updated DataFrame
