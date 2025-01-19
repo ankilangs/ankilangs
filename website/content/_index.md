@@ -19,8 +19,7 @@ Anki is open source spaced repetition software meant for creating and
 memorizing _flashcards_.
 
 This project is not affiliated in any way with Anki nor is it necessarily
-endorsed by the Anki team. We do not mean to imply that any language learning
-deck must come from this project.
+endorsed by the Anki team.
 
 
 ## Try it out
