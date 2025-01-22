@@ -1,4 +1,4 @@
-name: AnkiLangs EN to PT
+name: EN to PT | Basic | AnkiLangs.org
 id: 205e79a8-8be5-40ca-bc71-45317b68e192
 css_file: src/note_models/vocabulary_en_to_pt/style.css
 latex_pre: "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\

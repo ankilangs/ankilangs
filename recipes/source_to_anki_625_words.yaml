@@ -59,70 +59,70 @@
         - part_id: header_de_to_en
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | DE zu EN | 625 Wörter
+            name: Englisch (DE zu EN) | 625 Wörter | AnkiLangs.org
             crowdanki_uuid: e3f80a80-9efc-471a-9793-00a83b266b4f
             deck_description_html_file: src/headers/description_de_to_en-625_words.html
 
         - part_id: header_de_to_es
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | DE zu ES | 625 Wörter
+            name: Spanisch (DE zu ES) | 625 Wörter | AnkiLangs.org
             crowdanki_uuid: 0c1ce29f-0e8f-4c9f-8867-386f406942e9
             deck_description_html_file: src/headers/description_de_to_es-625_words.html
 
         - part_id: header_de_to_fr
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | DE zu FR | 625 Wörter
+            name: Französisch (DE zu FR) | 625 Wörter | AnkiLangs.org
             crowdanki_uuid: 1f682ac7-cfda-4bc3-82cd-7fd148522732
             deck_description_html_file: src/headers/description_de_to_fr-625_words.html
 
         - part_id: header_en_to_de
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | EN to DE | 625 Words
+            name: German (EN to DE) | 625 Words | AnkiLangs.org
             crowdanki_uuid: 6c6cb87c-cef4-4750-a76f-e13793b7da6e
             deck_description_html_file: src/headers/description_en_to_de-625_words.html
 
         - part_id: header_en_to_es
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | EN to ES | 625 Words
+            name: Spanish (EN to ES) | 625 Words | AnkiLangs.org
             crowdanki_uuid: f9534636-57c4-4c8c-8b48-9733d696d49a
             deck_description_html_file: src/headers/description_en_to_es-625_words.html
 
         - part_id: header_en_to_fr
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | EN to FR | 625 Words
+            name: French (EN to FR) | 625 Words | AnkiLangs.org
             crowdanki_uuid: 8fb8cc5e-018d-44a5-afd0-798091d9fa39
             deck_description_html_file: src/headers/description_en_to_fr-625_words.html
 
         - part_id: header_en_to_it
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | EN to IT | 625 Words
+            name: Italian (EN to IT) | 625 Words | AnkiLangs.org
             crowdanki_uuid: 20ff5ec0-abd6-49f8-8c17-79fd5e1d532c
             deck_description_html_file: src/headers/description_en_to_it-625_words.html
 
         - part_id: header_en_to_pt
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | EN to PT | 625 Words
+            name: Portuguese (EN to PT) | 625 Words | AnkiLangs.org
             crowdanki_uuid: 76740ce2-079f-44e5-a7ac-3c1a55713fcd
             deck_description_html_file: src/headers/description_en_to_pt-625_words.html
 
         - part_id: header_es_to_de
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | ES a DE | 625 palabras
+            name: Alemán (ES a DE) | 625 palabras | AnkiLangs.org
             crowdanki_uuid: 862c1860-7277-4c40-8914-33fb36db3184
             deck_description_html_file: src/headers/description_es_to_de-625_words.html
 
         - part_id: header_es_to_en
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | ES a EN | 625 palabras
+            name: Inglés (ES a EN) | 625 palabras | AnkiLangs.org
             crowdanki_uuid: 8aa008b4-4929-466a-8c82-892c7c899a02
             deck_description_html_file: src/headers/description_es_to_en-625_words.html
 
@@ -434,7 +434,7 @@
               - file: src/data/generated/625_words-from-es_es-to-en_us.csv
 
 - generate_crowd_anki:
-    folder: build/AnkiLangs___DE_to_EN___625_Words
+    folder: build/DE_to_EN_625_Words
     notes:
       part_id: notes_de_to_en
     note_models:
@@ -446,7 +446,7 @@
         - all_media
 
 - generate_crowd_anki:
-    folder: build/AnkiLangs___DE_to_ES___625_Words
+    folder: build/DE_to_ES_625_Words
     notes:
       part_id: notes_de_to_es
     note_models:
@@ -458,7 +458,7 @@
         - all_media
 
 - generate_crowd_anki:
-    folder: build/AnkiLangs___DE_to_FR___625_Words
+    folder: build/DE_to_FR_625_Words
     notes:
       part_id: notes_de_to_fr
     note_models:
@@ -470,7 +470,7 @@
         - all_media
 
 - generate_crowd_anki:
-    folder: build/AnkiLangs___EN_to_DE___625_Words
+    folder: build/EN_to_DE_625_Words
     notes:
       part_id: notes_en_to_de
     note_models:
@@ -482,7 +482,7 @@
         - all_media
 
 - generate_crowd_anki:
-    folder: build/AnkiLangs___EN_to_ES___625_Words
+    folder: build/EN_to_ES_625_Words
     notes:
       part_id: notes_en_to_es
     note_models:
@@ -494,7 +494,7 @@
         - all_media
 
 - generate_crowd_anki:
-    folder: build/AnkiLangs___EN_to_FR___625_Words
+    folder: build/EN_to_FR_625_Words
     notes:
       part_id: notes_en_to_fr
     note_models:
@@ -506,7 +506,7 @@
         - all_media
 
 - generate_crowd_anki:
-    folder: build/AnkiLangs___EN_to_IT___625_Words
+    folder: build/EN_to_IT_625_Words
     notes:
       part_id: notes_en_to_it
     note_models:
@@ -518,7 +518,7 @@
         - all_media
 
 - generate_crowd_anki:
-    folder: build/AnkiLangs___EN_to_PT___625_Words
+    folder: build/EN_to_PT_625_Words
     notes:
       part_id: notes_en_to_pt
     note_models:
@@ -530,7 +530,7 @@
         - all_media
 
 - generate_crowd_anki:
-    folder: build/AnkiLangs___ES_to_DE___625_Words
+    folder: build/ES_to_DE_625_Words
     notes:
       part_id: notes_es_to_de
     note_models:
@@ -542,7 +542,7 @@
         - all_media
 
 - generate_crowd_anki:
-    folder: build/AnkiLangs___ES_to_EN___625_Words
+    folder: build/ES_to_EN_625_Words
     notes:
       part_id: notes_es_to_en
     note_models:

@@ -1,4 +1,4 @@
-name: AnkiLangs DE to FR
+name: DE to FR | Basic | AnkiLangs.org
 id: 60413e8d-b645-401e-bf72-a3f8103d544e
 css_file: src/note_models/vocabulary_de_to_fr/style.css
 latex_pre: "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\

@@ -1,4 +1,4 @@
-name: AnkiLangs DE to ES
+name: DE to ES | Basic | AnkiLangs.org
 id: a9bd348c-ad3f-4309-86ee-3dd4e092848a
 css_file: src/note_models/vocabulary_de_to_es/style.css
 latex_pre: "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\

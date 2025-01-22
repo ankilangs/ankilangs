@@ -1,4 +1,4 @@
-name: AnkiLangs | EN to DE | Minimal Pairs
+name: EN to DE | Minimal Pairs | AnkiLangs.org
 id: 6e7eb764-247e-11ed-b28f-9db35ba9b07a
 css_file: src/note_models/minimal_pairs_en_to_de/style.css
 latex_pre: "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\

@@ -13,7 +13,7 @@
         - part_id: headers_en_us_to_de_de
           file: src/headers/default.yaml
           override:
-            name: AnkiLangs | EN to DE | Minimal Pairs
+            name: German (EN to DE) | Minimal Pairs | AnkiLangs.org
             crowdanki_uuid: 6e7eb760-247e-11ed-b28f-9db35ba9b07a
             deck_description_html_file: src/headers/description_en_to_de-minimal_pairs.html
 
@@ -33,7 +33,7 @@
         recursive: true
 
 - generate_crowd_anki:
-    folder: build/AnkiLangs___EN_to_DE___Minimal_Pairs
+    folder: build/EN_to_DE_Minimal_Pairs
     notes:
       part_id: notes_en_us_to_de_de
     note_models:
