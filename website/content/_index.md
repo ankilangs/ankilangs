@@ -31,21 +31,20 @@ Then you can import one or more of the following decks. Note that all of these
 decks are in development and therefore incomplete (e.g. they do **NOT** yet
 contain 625 words). Please see the **Contributing** section to change this! 
 
-* If you speak **English** and ...
-  * want to learn **German**
-    * [EN to DE - Minimal Pairs | Version 0.0.2](https://github.com/ankilangs/ankilangs/releases/download/EN_to_DE_Minimal_Pairs%2F0.0.2/AnkiLangs._.EN.to.DE._.Minimal.Pairs.-.0.0.2.apkg)
-    * [EN to DE - 625 Words | Version 0.0.1 ](https://github.com/ankilangs/ankilangs/releases/download/EN_to_DE_625_Words%2F0.0.1/AnkiLangs._.EN.to.DE._.625.Words.-.0.0.1.apkg)
-  * want to learn **Portuguese**
-    * [EN to PT - 625 Words | Version 0.0.1](https://github.com/ankilangs/ankilangs/releases/download/EN_to_PT_625_Words%2F0.0.1/AnkiLangs._.EN.to.PT._.625.Words.-.0.0.1.apkg)
-  * want to learn **Italian**
-    * [EN to IT - 625 Words | Version 0.0.1 ](https://github.com/ankilangs/ankilangs/releases/download/EN_to_IT_625_Words%2F0.0.1/AnkiLangs._.EN.to.IT._.625.Words.-.0.0.1.apkg)
-  * want to learn **French**
-    * [EN to FR - 625 Words | Version 0.0.1](https://github.com/ankilangs/ankilangs/releases/download/EN_to_FR_625_Words%2F0.0.1/AnkiLangs._.EN.to.FR._.625.Words.-.0.0.1.apkg)
-* Wenn du **Deutsch** sprichts und ...
-  * **Englisch** lernen möchtest
-    * [DE zu EN - 625 Wörter | Version 0.0.1 ](https://github.com/ankilangs/ankilangs/releases/download/DE_to_EN_625_Words%2F0.0.1/AnkiLangs._.DE.zu.EN._.625.Worter.-.0.0.1.apkg)
-  * **Spanisch** lernen möchtest
-    * [DE zu ES - 625 Wörter | Version 0.0.1](https://github.com/ankilangs/ankilangs/releases/download/DE_to_ES_625_Words%2F0.0.1/AnkiLangs._.DE.zu.ES._.625.Worter.-.0.0.1.apkg)
+* If you speak **English** and want to learn ...
+  * [French | 625 Words](https://github.com/ankilangs/ankilangs/releases/download/EN_to_FR_625_Words%2F0.2.0/French.EN.to.FR.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
+  * [German | 625 Words](https://github.com/ankilangs/ankilangs/releases/download/EN_to_DE_625_Words%2F0.2.0/German.EN.to.DE.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
+  * [German | Minimal Pairs](https://github.com/ankilangs/ankilangs/releases/download/EN_to_DE_Minimal_Pairs%2F0.2.1/German.EN.to.DE.-.Minimal.Pairs.-.AnkiLangs.org.-.v0.2.1.apkg) (Version 0.2.1)
+  * [Italian| 625 Words](https://github.com/ankilangs/ankilangs/releases/download/EN_to_IT_625_Words%2F0.2.0/Italian.EN.to.IT.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
+  * [Portuguese | 625 Words](https://github.com/ankilangs/ankilangs/releases/download/EN_to_PT_625_Words%2F0.2.0/Portuguese.EN.to.PT.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
+  * [Spanish | 625 Words](https://github.com/ankilangs/ankilangs/releases/download/EN_to_ES_625_Words%2F0.2.0/Spanish.EN.to.ES.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
+* Wenn du **Deutsch** sprichst und ... lernen möchtest:
+  * [Englisch | 625 Wörter](https://github.com/ankilangs/ankilangs/releases/download/DE_to_EN_625_Words%2F0.2.0/Englisch.DE.zu.EN.-.625.Worter.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
+  * [Französisch | 625 Wörter](https://github.com/ankilangs/ankilangs/releases/download/DE_to_FR_625_Words%2F0.2.0/Franzosisch.DE.zu.FR.-.625.Worter.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
+  * [Spanisch | 625 Wörter](https://github.com/ankilangs/ankilangs/releases/download/DE_to_ES_625_Words%2F0.2.1/Spanisch.DE.zu.ES.-.625.Worter.-.AnkiLangs.org.-.v0.2.1.apkg) (Version 0.2.1)
+* Si hablas **español** y quieres aprender ...
+  * [Alemán | 625 palabras](https://github.com/ankilangs/ankilangs/releases/download/ES_to_DE_625_Words%2F0.2.0/Aleman.ES.a.DE.-.625.palabras.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
+  * [Inglés | 625 palabras](https://github.com/ankilangs/ankilangs/releases/download/ES_to_EN_625_Words%2F0.2.0/Ingles.ES.a.EN.-.625.palabras.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
 
 
 ## Motivation
