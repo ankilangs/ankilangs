@@ -46,6 +46,8 @@ contain 625 words). Please see the **Contributing** section to change this!
   * [Alemán | 625 palabras](https://github.com/ankilangs/ankilangs/releases/download/ES_to_DE_625_Words%2F0.2.0/Aleman.ES.a.DE.-.625.palabras.-.AnkiLangs.org.-.v0.2.0.apkg) (Versión 0.2.0)
   * [Inglés | 625 palabras](https://github.com/ankilangs/ankilangs/releases/download/ES_to_EN_625_Words%2F0.2.0/Ingles.ES.a.EN.-.625.palabras.-.AnkiLangs.org.-.v0.2.0.apkg) (Versión 0.2.0)
 
+You can also find all these decks on [AnkiWeb](https://ankiweb.net/shared/by-author/1019288307) (author 1019288307).
+
 
 ## Motivation
 
