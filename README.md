@@ -8,6 +8,13 @@ AnkiLangs is not part of nor necessarily endorsed by Anki (https://apps.ankiweb.
 
 This is a [monorepo](https://en.wikipedia.org/wiki/Monorepo) containing everything.
 
+![Spanish question](website/content/es_pronunciation_q_small.png)
+![Spanish answer](website/content/es_pronunciation_a_small.png)
+
+_Example card to learn Spanish as an English speaker. Question side and answer side._
+
+Find more [screenshots](https://ankilangs.org/docs/screenshots/) on the website.
+
 
 ## Try it out
 
