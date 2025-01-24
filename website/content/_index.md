@@ -24,7 +24,10 @@ endorsed by the Anki team.
 ![Spanish pronunciation question](es_pronunciation_q_small.png)
 ![Spanish pronunciation answer](es_pronunciation_a_small.png)
 
-_Example card to learn Spanish as an English speaker. Question side and answer side._
+_Example card to learn Spanish as an English speaker. Question side and answer
+side._
+
+More [screenshots]({{< ref "/docs/screenshots/" >}} "screenshots").
 
 
 ## Try it out
