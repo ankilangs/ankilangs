@@ -110,3 +110,521 @@ the player,il giocatore,/il dʒokaˈto.re/,[sound:al_it_it_il_giocatore.mp3],Goo
 the fan [person],il tifoso,/il tiˈfo.so/,[sound:al_it_it_il_tifoso.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the crowd,la folla,/la ˈfol.la/,[sound:al_it_it_la_folla.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the person,la persona,/la perˈso.na/,[sound:al_it_it_la_persona.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the teacher,,,,,AnkiLangs::IT
+the student,,,,,AnkiLangs::IT
+the lawyer,,,,,AnkiLangs::IT
+the doctor,,,,,AnkiLangs::IT
+the patient,,,,,AnkiLangs::IT
+the waiter,,,,,AnkiLangs::IT
+the secretary,,,,,AnkiLangs::IT
+the priest,,,,,AnkiLangs::IT
+the police,,,,,AnkiLangs::IT
+the army,,,,,AnkiLangs::IT
+the soldier,,,,,AnkiLangs::IT
+the artist,,,,,AnkiLangs::IT
+the author,,,,,AnkiLangs::IT
+the manager,,,,,AnkiLangs::IT
+the reporter,,,,,AnkiLangs::IT
+the actor,,,,,AnkiLangs::IT
+the job,,,,,AnkiLangs::IT
+religion,,,,,AnkiLangs::IT
+heaven,,,,,AnkiLangs::IT
+hell,,,,,AnkiLangs::IT
+death,,,,,AnkiLangs::IT
+medicine,,,,,AnkiLangs::IT
+money,,,,,AnkiLangs::IT
+the dollar,,,,,AnkiLangs::IT
+the bill [bank note],,,,,AnkiLangs::IT
+marriage,,,,,AnkiLangs::IT
+wedding,,,,,AnkiLangs::IT
+the team,,,,,AnkiLangs::IT
+relationship,,,,,AnkiLangs::IT
+race [ethnicity],,,,,AnkiLangs::IT
+sex [the act],,,,,AnkiLangs::IT
+sex [gender],,,,,AnkiLangs::IT
+murder,,,,,AnkiLangs::IT
+prison,,,,,AnkiLangs::IT
+technology,,,,,AnkiLangs::IT
+energy,,,,,AnkiLangs::IT
+war,,,,,AnkiLangs::IT
+peace,,,,,AnkiLangs::IT
+the attack,,,,,AnkiLangs::IT
+the election,,,,,AnkiLangs::IT
+the magazine,,,,,AnkiLangs::IT
+the newspaper,,,,,AnkiLangs::IT
+poison,,,,,AnkiLangs::IT
+the gun,,,,,AnkiLangs::IT
+sport,,,,,AnkiLangs::IT
+race [sport],,,,,AnkiLangs::IT
+exercise,,,,,AnkiLangs::IT
+the ball,,,,,AnkiLangs::IT
+the game,,,,,AnkiLangs::IT
+the price,,,,,AnkiLangs::IT
+the contract,,,,,AnkiLangs::IT
+the drug,,,,,AnkiLangs::IT
+the sign,,,,,AnkiLangs::IT
+science,,,,,AnkiLangs::IT
+God,,,,,AnkiLangs::IT
+the band [music],,,,,AnkiLangs::IT
+the song,,,,,AnkiLangs::IT
+the instrument,,,,,AnkiLangs::IT
+music,,,,,AnkiLangs::IT
+the movie,,,,,AnkiLangs::IT
+art,,,,,AnkiLangs::IT
+coffee,,,,,AnkiLangs::IT
+tea,,,,,AnkiLangs::IT
+wine,,,,,AnkiLangs::IT
+beer,,,,,AnkiLangs::IT
+juice,,,,,AnkiLangs::IT
+water,,,,,AnkiLangs::IT
+milk,,,,,AnkiLangs::IT
+the beverage,,,,,AnkiLangs::IT
+the egg,,,,,AnkiLangs::IT
+the cheese,,,,,AnkiLangs::IT
+the bread,,,,,AnkiLangs::IT
+the soup,,,,,AnkiLangs::IT
+the cake,,,,,AnkiLangs::IT
+the chicken,,,,,AnkiLangs::IT
+the pork,,,,,AnkiLangs::IT
+the beef,,,,,AnkiLangs::IT
+the apple,,,,,AnkiLangs::IT
+the banana,,,,,AnkiLangs::IT
+the orange,,,,,AnkiLangs::IT
+the lemon,,,,,AnkiLangs::IT
+the corn,,,,,AnkiLangs::IT
+rice,,,,,AnkiLangs::IT
+oil,,,,,AnkiLangs::IT
+the seed,,,,,AnkiLangs::IT
+the knife,,,,,AnkiLangs::IT
+the spoon,,,,,AnkiLangs::IT
+the fork,,,,,AnkiLangs::IT
+the plate,,,,,AnkiLangs::IT
+the cup,,,,,AnkiLangs::IT
+breakfast,,,,,AnkiLangs::IT
+lunch,,,,,AnkiLangs::IT
+dinner,,,,,AnkiLangs::IT
+sugar,,,,,AnkiLangs::IT
+salt,,,,,AnkiLangs::IT
+the bottle,,,,,AnkiLangs::IT
+food,,,,,AnkiLangs::IT
+the table,,,,,AnkiLangs::IT
+the chair,,,,,AnkiLangs::IT
+the bed,,,,,AnkiLangs::IT
+the dream,,,,,AnkiLangs::IT
+the window,,,,,AnkiLangs::IT
+the door,,,,,AnkiLangs::IT
+the bedroom,,,,,AnkiLangs::IT
+the kitchen,,,,,AnkiLangs::IT
+the bathroom,,,,,AnkiLangs::IT
+the pencil,,,,,AnkiLangs::IT
+the pen,,,,,AnkiLangs::IT
+the photograph,,,,,AnkiLangs::IT
+the soap,,,,,AnkiLangs::IT
+the book,,,,,AnkiLangs::IT
+the page,,,,,AnkiLangs::IT
+the key,,,,,AnkiLangs::IT
+the paint,,,,,AnkiLangs::IT
+the letter,,,,,AnkiLangs::IT
+the note,,,,,AnkiLangs::IT
+the wall,,,,,AnkiLangs::IT
+the paper,,,,,AnkiLangs::IT
+the floor,,,,,AnkiLangs::IT
+the ceiling,,,,,AnkiLangs::IT
+the roof,,,,,AnkiLangs::IT
+the pool,,,,,AnkiLangs::IT
+the lock,,,,,AnkiLangs::IT
+the telephone,,,,,AnkiLangs::IT
+the garden,,,,,AnkiLangs::IT
+the yard,,,,,AnkiLangs::IT
+the needle,,,,,AnkiLangs::IT
+the bag,,,,,AnkiLangs::IT
+the box,,,,,AnkiLangs::IT
+the gift,,,,,AnkiLangs::IT
+the card,,,,,AnkiLangs::IT
+the ring,,,,,AnkiLangs::IT
+the tool,,,,,AnkiLangs::IT
+the clock,,,,,AnkiLangs::IT
+the lamp,,,,,AnkiLangs::IT
+the fan [appliance],,,,,AnkiLangs::IT
+the cell phone,,,,,AnkiLangs::IT
+the network,,,,,AnkiLangs::IT
+the computer,,,,,AnkiLangs::IT
+the program,,,,,AnkiLangs::IT
+the laptop,,,,,AnkiLangs::IT
+the screen,,,,,AnkiLangs::IT
+the camera,,,,,AnkiLangs::IT
+the television,,,,,AnkiLangs::IT
+the radio,,,,,AnkiLangs::IT
+the head,,,,,AnkiLangs::IT
+the neck,,,,,AnkiLangs::IT
+the face,,,,,AnkiLangs::IT
+the beard,,,,,AnkiLangs::IT
+the hair,,,,,AnkiLangs::IT
+the eye,,,,,AnkiLangs::IT
+the mouth,,,,,AnkiLangs::IT
+the lip,,,,,AnkiLangs::IT
+the nose,,,,,AnkiLangs::IT
+the tooth,,,,,AnkiLangs::IT
+the ear,,,,,AnkiLangs::IT
+the tear,,,,,AnkiLangs::IT
+the tongue,,,,,AnkiLangs::IT
+the back [anatomy],,,,,AnkiLangs::IT
+the toe,,,,,AnkiLangs::IT
+the finger,,,,,AnkiLangs::IT
+the foot,,,,,AnkiLangs::IT
+the hand,,,,,AnkiLangs::IT
+the leg,,,,,AnkiLangs::IT
+the arm,,,,,AnkiLangs::IT
+the shoulder,,,,,AnkiLangs::IT
+the heart,,,,,AnkiLangs::IT
+blood,,,,,AnkiLangs::IT
+the brain,,,,,AnkiLangs::IT
+the knee,,,,,AnkiLangs::IT
+sweat,,,,,AnkiLangs::IT
+disease,,,,,AnkiLangs::IT
+the bone,,,,,AnkiLangs::IT
+the voice,,,,,AnkiLangs::IT
+the skin,,,,,AnkiLangs::IT
+the body,,,,,AnkiLangs::IT
+the sea,,,,,AnkiLangs::IT
+the ocean,,,,,AnkiLangs::IT
+the river,,,,,AnkiLangs::IT
+the mountain,,,,,AnkiLangs::IT
+the rain,,,,,AnkiLangs::IT
+the snow,,,,,AnkiLangs::IT
+the tree,,,,,AnkiLangs::IT
+the sun,,,,,AnkiLangs::IT
+the moon,,,,,AnkiLangs::IT
+the world,,,,,AnkiLangs::IT
+the forest,,,,,AnkiLangs::IT
+the sky,,,,,AnkiLangs::IT
+the plant,,,,,AnkiLangs::IT
+the wind,,,,,AnkiLangs::IT
+soil/earth [ground],,,,,AnkiLangs::IT
+the flower,,,,,AnkiLangs::IT
+the valley,,,,,AnkiLangs::IT
+the root,,,,,AnkiLangs::IT
+the lake,,,,,AnkiLangs::IT
+the star,,,,,AnkiLangs::IT
+the grass,,,,,AnkiLangs::IT
+the leaf,,,,,AnkiLangs::IT
+the air,,,,,AnkiLangs::IT
+the sand,,,,,AnkiLangs::IT
+the beach,,,,,AnkiLangs::IT
+the wave,,,,,AnkiLangs::IT
+the fire,,,,,AnkiLangs::IT
+the ice,,,,,AnkiLangs::IT
+the island,,,,,AnkiLangs::IT
+the hill,,,,,AnkiLangs::IT
+the heat,,,,,AnkiLangs::IT
+nature,,,,,AnkiLangs::IT
+glass,,,,,AnkiLangs::IT
+metal,,,,,AnkiLangs::IT
+plastic,,,,,AnkiLangs::IT
+wood,,,,,AnkiLangs::IT
+stone,,,,,AnkiLangs::IT
+diamond,,,,,AnkiLangs::IT
+clay,,,,,AnkiLangs::IT
+dust,,,,,AnkiLangs::IT
+gold,,,,,AnkiLangs::IT
+copper,,,,,AnkiLangs::IT
+silver,,,,,AnkiLangs::IT
+material,,,,,AnkiLangs::IT
+the meter,,,,,AnkiLangs::IT
+the centimeter,,,,,AnkiLangs::IT
+the kilogram,,,,,AnkiLangs::IT
+the inch,,,,,AnkiLangs::IT
+the foot [measurement],,,,,AnkiLangs::IT
+the pound,,,,,AnkiLangs::IT
+the half,,,,,AnkiLangs::IT
+the circle,,,,,AnkiLangs::IT
+the square,,,,,AnkiLangs::IT
+temperature,,,,,AnkiLangs::IT
+the date,,,,,AnkiLangs::IT
+weight,,,,,AnkiLangs::IT
+the edge,,,,,AnkiLangs::IT
+the corner,,,,,AnkiLangs::IT
+the map,,,,,AnkiLangs::IT
+the dot,,,,,AnkiLangs::IT
+the consonant,,,,,AnkiLangs::IT
+the vowel,,,,,AnkiLangs::IT
+the light,,,,,AnkiLangs::IT
+the sound,,,,,AnkiLangs::IT
+yes,,,,,AnkiLangs::IT
+no,,,,,AnkiLangs::IT
+the piece,,,,,AnkiLangs::IT
+pain,,,,,AnkiLangs::IT
+the injury,,,,,AnkiLangs::IT
+the hole,,,,,AnkiLangs::IT
+the image,,,,,AnkiLangs::IT
+the pattern,,,,,AnkiLangs::IT
+the noun,,,,,AnkiLangs::IT
+the verb,,,,,AnkiLangs::IT
+the adjective,,,,,AnkiLangs::IT
+the top,,,,,AnkiLangs::IT
+the bottom,,,,,AnkiLangs::IT
+the side,,,,,AnkiLangs::IT
+the front,,,,,AnkiLangs::IT
+the back [location],,,,,AnkiLangs::IT
+the outside,,,,,AnkiLangs::IT
+the inside,,,,,AnkiLangs::IT
+up,,,,,AnkiLangs::IT
+down,,,,,AnkiLangs::IT
+left,,,,,AnkiLangs::IT
+right,,,,,AnkiLangs::IT
+straight,,,,,AnkiLangs::IT
+the north,,,,,AnkiLangs::IT
+the south,,,,,AnkiLangs::IT
+the east,,,,,AnkiLangs::IT
+the west,,,,,AnkiLangs::IT
+the direction,,,,,AnkiLangs::IT
+the Summer,,,,,AnkiLangs::IT
+the Spring,,,,,AnkiLangs::IT
+the Winter,,,,,AnkiLangs::IT
+the Fall,,,,,AnkiLangs::IT
+the season,,,,,AnkiLangs::IT
+one (1),,,,,AnkiLangs::IT
+two (2),,,,,AnkiLangs::IT
+three (3),,,,,AnkiLangs::IT
+four (4),,,,,AnkiLangs::IT
+five (5),,,,,AnkiLangs::IT
+six (6),,,,,AnkiLangs::IT
+seven (7),,,,,AnkiLangs::IT
+eight (8),,,,,AnkiLangs::IT
+nine (9),,,,,AnkiLangs::IT
+ten (10),,,,,AnkiLangs::IT
+eleven (11),,,,,AnkiLangs::IT
+twelve (12),,,,,AnkiLangs::IT
+thirteen (13),,,,,AnkiLangs::IT
+fourteen (14),,,,,AnkiLangs::IT
+fifteen (15),,,,,AnkiLangs::IT
+sixteen (16),,,,,AnkiLangs::IT
+seventeen (17),,,,,AnkiLangs::IT
+eighteen (18),,,,,AnkiLangs::IT
+nineteen (19),,,,,AnkiLangs::IT
+twenty (20),,,,,AnkiLangs::IT
+twenty-one (21),,,,,AnkiLangs::IT
+twenty-two (22),,,,,AnkiLangs::IT
+thirty (30),,,,,AnkiLangs::IT
+thirty-one (31),,,,,AnkiLangs::IT
+thirty-two (32),,,,,AnkiLangs::IT
+forty (40),,,,,AnkiLangs::IT
+forty-one (41),,,,,AnkiLangs::IT
+forty-two (42),,,,,AnkiLangs::IT
+fifty (50),,,,,AnkiLangs::IT
+fifty-one (51),,,,,AnkiLangs::IT
+fifty-two (52),,,,,AnkiLangs::IT
+sixty (60),,,,,AnkiLangs::IT
+sixty-one (61),,,,,AnkiLangs::IT
+sixty-two (62),,,,,AnkiLangs::IT
+seventy (70),,,,,AnkiLangs::IT
+seventy-one (71),,,,,AnkiLangs::IT
+seventy-two (72),,,,,AnkiLangs::IT
+eighty (80),,,,,AnkiLangs::IT
+eighty-one (81),,,,,AnkiLangs::IT
+eighty-two (82),,,,,AnkiLangs::IT
+ninety (90),,,,,AnkiLangs::IT
+ninety-one (91),,,,,AnkiLangs::IT
+ninety-two (92),,,,,AnkiLangs::IT
+one hundred (100),,,,,AnkiLangs::IT
+one hundred one (101),,,,,AnkiLangs::IT
+one hundred two (102),,,,,AnkiLangs::IT
+one hundred ten (110),,,,,AnkiLangs::IT
+one hundred eleven (111),,,,,AnkiLangs::IT
+one thousand (1000),,,,,AnkiLangs::IT
+one thousand one (1001),,,,,AnkiLangs::IT
+"ten thousand (10,000)",,,,,AnkiLangs::IT
+"one hundred thousand (100,000)",,,,,AnkiLangs::IT
+"one million (1,000,000)",,,,,AnkiLangs::IT
+"one billion (1,000,000,000)",,,,,AnkiLangs::IT
+first (1st),,,,,AnkiLangs::IT
+second (2nd),,,,,AnkiLangs::IT
+third (3rd),,,,,AnkiLangs::IT
+fourth (4th),,,,,AnkiLangs::IT
+fifth (5th),,,,,AnkiLangs::IT
+the number,,,,,AnkiLangs::IT
+January,,,,,AnkiLangs::IT
+February,,,,,AnkiLangs::IT
+March,,,,,AnkiLangs::IT
+April,,,,,AnkiLangs::IT
+May,,,,,AnkiLangs::IT
+June,,,,,AnkiLangs::IT
+July,,,,,AnkiLangs::IT
+August,,,,,AnkiLangs::IT
+September,,,,,AnkiLangs::IT
+October,,,,,AnkiLangs::IT
+November,,,,,AnkiLangs::IT
+December,,,,,AnkiLangs::IT
+Monday,,,,,AnkiLangs::IT
+Tuesday,,,,,AnkiLangs::IT
+Wednesday,,,,,AnkiLangs::IT
+Thursday,,,,,AnkiLangs::IT
+Friday,,,,,AnkiLangs::IT
+Saturday,,,,,AnkiLangs::IT
+Sunday,,,,,AnkiLangs::IT
+the year,,,,,AnkiLangs::IT
+the month,,,,,AnkiLangs::IT
+the week,,,,,AnkiLangs::IT
+the day,,,,,AnkiLangs::IT
+the hour,,,,,AnkiLangs::IT
+the minute,,,,,AnkiLangs::IT
+the second,,,,,AnkiLangs::IT
+the morning,,,,,AnkiLangs::IT
+the afternoon,,,,,AnkiLangs::IT
+the evening,,,,,AnkiLangs::IT
+the night,,,,,AnkiLangs::IT
+the time,,,,,AnkiLangs::IT
+to work,,,,,AnkiLangs::IT
+to play,,,,,AnkiLangs::IT
+to walk,,,,,AnkiLangs::IT
+to run,,,,,AnkiLangs::IT
+to drive,,,,,AnkiLangs::IT
+to fly,,,,,AnkiLangs::IT
+to swim,,,,,AnkiLangs::IT
+to go,,,,,AnkiLangs::IT
+to stop,,,,,AnkiLangs::IT
+to follow,,,,,AnkiLangs::IT
+to think,,,,,AnkiLangs::IT
+to speak / to say,,,,,AnkiLangs::IT
+to eat,,,,,AnkiLangs::IT
+to drink,,,,,AnkiLangs::IT
+to kill,,,,,AnkiLangs::IT
+to die,,,,,AnkiLangs::IT
+to smile,,,,,AnkiLangs::IT
+to laugh,,,,,AnkiLangs::IT
+to cry,,,,,AnkiLangs::IT
+to buy,,,,,AnkiLangs::IT
+to pay,,,,,AnkiLangs::IT
+to sell,,,,,AnkiLangs::IT
+to shoot (a gun),,,,,AnkiLangs::IT
+to learn,,,,,AnkiLangs::IT
+to jump,,,,,AnkiLangs::IT
+to smell,,,,,AnkiLangs::IT
+to hear,,,,,AnkiLangs::IT
+to listen,,,,,AnkiLangs::IT
+to taste,,,,,AnkiLangs::IT
+to touch,,,,,AnkiLangs::IT
+to see,,,,,AnkiLangs::IT
+to watch,,,,,AnkiLangs::IT
+to kiss,,,,,AnkiLangs::IT
+to burn,,,,,AnkiLangs::IT
+to melt,,,,,AnkiLangs::IT
+to dig,,,,,AnkiLangs::IT
+to explode,,,,,AnkiLangs::IT
+to sit,,,,,AnkiLangs::IT
+to stand,,,,,AnkiLangs::IT
+to love,,,,,AnkiLangs::IT
+to pass by,,,,,AnkiLangs::IT
+to cut,,,,,AnkiLangs::IT
+to fight,,,,,AnkiLangs::IT
+to lie down,,,,,AnkiLangs::IT
+to dance,,,,,AnkiLangs::IT
+to sleep,,,,,AnkiLangs::IT
+to wake up,,,,,AnkiLangs::IT
+to sing,,,,,AnkiLangs::IT
+to count,,,,,AnkiLangs::IT
+to marry,,,,,AnkiLangs::IT
+to pray,,,,,AnkiLangs::IT
+to win,,,,,AnkiLangs::IT
+to lose,,,,,AnkiLangs::IT
+to mix / to stir,,,,,AnkiLangs::IT
+to bend,,,,,AnkiLangs::IT
+to wash,,,,,AnkiLangs::IT
+to cook,,,,,AnkiLangs::IT
+to open,,,,,AnkiLangs::IT
+to close,,,,,AnkiLangs::IT
+to write,,,,,AnkiLangs::IT
+to call,,,,,AnkiLangs::IT
+to turn,,,,,AnkiLangs::IT
+to build,,,,,AnkiLangs::IT
+to teach,,,,,AnkiLangs::IT
+to grow,,,,,AnkiLangs::IT
+to draw,,,,,AnkiLangs::IT
+to feed,,,,,AnkiLangs::IT
+to catch,,,,,AnkiLangs::IT
+to throw,,,,,AnkiLangs::IT
+to clean,,,,,AnkiLangs::IT
+to find,,,,,AnkiLangs::IT
+to fall,,,,,AnkiLangs::IT
+to push,,,,,AnkiLangs::IT
+to pull,,,,,AnkiLangs::IT
+to carry,,,,,AnkiLangs::IT
+to break,,,,,AnkiLangs::IT
+to wear,,,,,AnkiLangs::IT
+to hang,,,,,AnkiLangs::IT
+to shake,,,,,AnkiLangs::IT
+to sign,,,,,AnkiLangs::IT
+to beat,,,,,AnkiLangs::IT
+to lift,,,,,AnkiLangs::IT
+long,,,,,AnkiLangs::IT
+"short [opposite of ""long""]",,,,,AnkiLangs::IT
+tall,,,,,AnkiLangs::IT
+"short [opposite of ""tall""]",,,,,AnkiLangs::IT
+wide,,,,,AnkiLangs::IT
+narrow,,,,,AnkiLangs::IT
+big / large,,,,,AnkiLangs::IT
+small / little,,,,,AnkiLangs::IT
+slow,,,,,AnkiLangs::IT
+fast,,,,,AnkiLangs::IT
+hot,,,,,AnkiLangs::IT
+cold,,,,,AnkiLangs::IT
+warm,,,,,AnkiLangs::IT
+cool,,,,,AnkiLangs::IT
+new,,,,,AnkiLangs::IT
+"old [opposite of ""new""]",,,,,AnkiLangs::IT
+young,,,,,AnkiLangs::IT
+"old [opposite of ""young""]",,,,,AnkiLangs::IT
+good,,,,,AnkiLangs::IT
+bad,,,,,AnkiLangs::IT
+wet,,,,,AnkiLangs::IT
+dry,,,,,AnkiLangs::IT
+sick,,,,,AnkiLangs::IT
+healthy,,,,,AnkiLangs::IT
+loud,,,,,AnkiLangs::IT
+quiet,,,,,AnkiLangs::IT
+happy,,,,,AnkiLangs::IT
+sad,,,,,AnkiLangs::IT
+beautiful,,,,,AnkiLangs::IT
+ugly,,,,,AnkiLangs::IT
+deaf,,,,,AnkiLangs::IT
+blind,,,,,AnkiLangs::IT
+nice,,,,,AnkiLangs::IT
+mean,,,,,AnkiLangs::IT
+rich,,,,,AnkiLangs::IT
+poor,,,,,AnkiLangs::IT
+thick,,,,,AnkiLangs::IT
+thin,,,,,AnkiLangs::IT
+expensive,,,,,AnkiLangs::IT
+cheap,,,,,AnkiLangs::IT
+flat,,,,,AnkiLangs::IT
+curved,,,,,AnkiLangs::IT
+male,,,,,AnkiLangs::IT
+female,,,,,AnkiLangs::IT
+tight,,,,,AnkiLangs::IT
+loose,,,,,AnkiLangs::IT
+high,,,,,AnkiLangs::IT
+low,,,,,AnkiLangs::IT
+soft,,,,,AnkiLangs::IT
+hard,,,,,AnkiLangs::IT
+deep,,,,,AnkiLangs::IT
+shallow,,,,,AnkiLangs::IT
+clean,,,,,AnkiLangs::IT
+dirty,,,,,AnkiLangs::IT
+strong,,,,,AnkiLangs::IT
+weak,,,,,AnkiLangs::IT
+dead,,,,,AnkiLangs::IT
+alive,,,,,AnkiLangs::IT
+heavy,,,,,AnkiLangs::IT
+"light [opposite of ""heavy""]",,,,,AnkiLangs::IT
+dark,,,,,AnkiLangs::IT
+"light [opposite of ""dark""]",,,,,AnkiLangs::IT
+nuclear,,,,,AnkiLangs::IT
+famous,,,,,AnkiLangs::IT
+I,,,,,AnkiLangs::IT
+you [singular],,,,,AnkiLangs::IT
+he,,,,,AnkiLangs::IT
+she,,,,,AnkiLangs::IT
+it,,,,,AnkiLangs::IT
+we,,,,,AnkiLangs::IT
+"you [plural, y'all]",,,,,AnkiLangs::IT
+they,,,,,AnkiLangs::IT
