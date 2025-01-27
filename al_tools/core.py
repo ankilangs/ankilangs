@@ -225,6 +225,9 @@ def fix_625_words_files(folder_path: Path):
     # First figure out which files has the most keys
     for csv_path in folder_path.glob("625_words-base-*.csv"):
         df = pd.read_csv(csv_path, sep=",")
+        # If keys are non-unique, raise an error
+        if df["key"].duplicated().any():
+            raise ValueError(f"Duplicate keys found in '{csv_path.name}': {df[df['key'].duplicated()]}")
         if keys is None:
             keys = df["key"]
             file_most_keys = csv_path
