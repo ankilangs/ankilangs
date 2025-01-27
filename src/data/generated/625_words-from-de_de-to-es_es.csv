@@ -107,6 +107,6 @@ the human,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the friend,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the victim,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the player,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-the fan,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the fan [person],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the crowd,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the person,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C

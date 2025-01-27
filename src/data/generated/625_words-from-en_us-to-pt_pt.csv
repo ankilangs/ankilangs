@@ -48,6 +48,6 @@ the human,Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-F
 the friend,Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D
 the victim,Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-F
 the player,Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D
-the fan,Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-F
+the fan [person],Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-F
 the crowd,Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-F
 the person,Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D
