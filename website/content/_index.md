@@ -37,7 +37,9 @@ for installing on Windows, macOS, Linux, Android or iOS.
 
 Then you can import one or more of the following decks. Note that all of these
 decks are in development and therefore incomplete (e.g. they do **NOT** yet
-contain 625 words). Please see the **Contributing** section to change this! 
+contain 625 words). Please see the
+[contributing](https://github.com/ankilangs/ankilangs?tab=readme-ov-file#contribute-changes)
+link to change this! 
 
 * If you speak **English** and want to learn ...
   * [French | 625 Words](https://github.com/ankilangs/ankilangs/releases/download/EN_to_FR_625_Words%2F0.2.0/French.EN.to.FR.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
