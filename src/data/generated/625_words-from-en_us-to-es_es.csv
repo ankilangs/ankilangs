@@ -110,3 +110,521 @@ the player,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the fan [person],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the crowd,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the person,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the teacher,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the student,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the lawyer,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the doctor,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the patient,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the waiter,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the secretary,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the priest,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the police,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the army,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the soldier,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the artist,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the author,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the manager,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the reporter,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the actor,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the job,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+religion,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+heaven,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+hell,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+death,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+medicine,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+money,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the dollar,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the bill [bank note],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+marriage,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+wedding,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the team,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+relationship,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+race [ethnicity],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+sex [the act],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+sex [gender],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+murder,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+prison,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+technology,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+energy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+war,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+peace,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the attack,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the election,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the magazine,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the newspaper,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+poison,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the gun,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+sport,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+race [sport],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+exercise,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the ball,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the game,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the price,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the contract,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the drug,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the sign,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+science,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+God,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the band [music],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the song,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the instrument,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+music,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the movie,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+art,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+coffee,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+tea,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+wine,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+beer,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+juice,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+water,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+milk,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the beverage,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the egg,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the cheese,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the bread,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the soup,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the cake,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the chicken,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the pork,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the beef,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the apple,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the banana,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the orange,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the lemon,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the corn,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+rice,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+oil,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the seed,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the knife,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the spoon,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the fork,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the plate,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the cup,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+breakfast,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+lunch,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+dinner,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+sugar,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+salt,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the bottle,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+food,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the table,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the chair,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the bed,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the dream,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the window,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the door,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the bedroom,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the kitchen,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the bathroom,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the pencil,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the pen,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the photograph,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the soap,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the book,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the page,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the key,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the paint,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the letter,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the note,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the wall,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the paper,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the floor,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the ceiling,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the roof,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the pool,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the lock,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the telephone,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the garden,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the yard,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the needle,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the bag,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the box,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the gift,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the card,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the ring,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the tool,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the clock,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the lamp,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the fan [appliance],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the cell phone,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the network,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the computer,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the program,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the laptop,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the screen,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the camera,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the television,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the radio,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the head,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the neck,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the face,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the beard,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the hair,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the eye,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the mouth,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the lip,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the nose,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the tooth,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the ear,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the tear,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the tongue,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the back [anatomy],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the toe,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the finger,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the foot,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the hand,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the leg,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the arm,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the shoulder,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the heart,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+blood,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the brain,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the knee,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+sweat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+disease,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the bone,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the voice,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the skin,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the body,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the sea,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the ocean,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the river,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the mountain,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the rain,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the snow,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the tree,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the sun,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the moon,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the world,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the forest,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the sky,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the plant,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the wind,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+soil/earth [ground],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the flower,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the valley,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the root,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the lake,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the star,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the grass,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the leaf,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the air,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the sand,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the beach,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the wave,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the fire,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the ice,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the island,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the hill,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the heat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+nature,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+glass,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+metal,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+plastic,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+wood,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+stone,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+diamond,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+clay,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+dust,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+gold,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+copper,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+silver,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+material,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the meter,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the centimeter,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the kilogram,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the inch,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the foot [measurement],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the pound,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the half,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the circle,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the square,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+temperature,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the date,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+weight,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the edge,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the corner,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the map,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the dot,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the consonant,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the vowel,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the light,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the sound,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+yes,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+no,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the piece,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+pain,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the injury,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the hole,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the image,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the pattern,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the noun,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the verb,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the adjective,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the top,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the bottom,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the side,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the front,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the back [location],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the outside,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the inside,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+up,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+down,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+left,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+right,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+straight,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the north,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the south,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the east,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the west,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the direction,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the Summer,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the Spring,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the Winter,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the Fall,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the season,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+one (1),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+two (2),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+three (3),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+four (4),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+five (5),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+six (6),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+seven (7),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+eight (8),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+nine (9),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+ten (10),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+eleven (11),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+twelve (12),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+thirteen (13),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+fifteen (15),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+sixteen (16),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+eighteen (18),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+nineteen (19),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+twenty (20),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+twenty-one (21),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+twenty-two (22),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+thirty (30),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+thirty-one (31),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+thirty-two (32),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+forty (40),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+forty-one (41),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+forty-two (42),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+fifty (50),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+fifty-one (51),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+fifty-two (52),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+sixty (60),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+sixty-one (61),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+sixty-two (62),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+seventy (70),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+eighty (80),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+eighty-one (81),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+eighty-two (82),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+ninety (90),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+ninety-one (91),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+ninety-two (92),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+one hundred (100),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+one hundred one (101),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+one hundred two (102),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+one hundred ten (110),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+one hundred eleven (111),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+one thousand (1000),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+one thousand one (1001),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+"ten thousand (10,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+"one hundred thousand (100,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+"one billion (1,000,000,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+first (1st),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+second (2nd),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+third (3rd),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+fifth (5th),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the number,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+January,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+February,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+March,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+April,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+May,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+June,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+July,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+August,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+September,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+October,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+November,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+December,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+Monday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+Tuesday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+Wednesday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+Thursday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+Friday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+Saturday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+Sunday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the year,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the month,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the week,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the day,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the hour,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the minute,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the second,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the morning,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the afternoon,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the evening,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the night,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the time,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to work,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to play,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to walk,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to run,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to drive,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to fly,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to swim,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to go,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to stop,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to follow,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to think,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to speak / to say,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to eat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to drink,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to kill,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to die,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to smile,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to laugh,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to cry,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to buy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to pay,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to sell,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to shoot (a gun),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to learn,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to jump,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to smell,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to hear,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to listen,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to taste,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to touch,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to see,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to watch,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to kiss,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to burn,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to melt,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to dig,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to explode,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to sit,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to stand,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to love,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to pass by,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to cut,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to fight,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to lie down,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to dance,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to sleep,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to wake up,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to sing,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to count,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to marry,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to pray,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to win,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to lose,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to mix / to stir,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to bend,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to wash,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to cook,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to open,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to close,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to write,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to call,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to turn,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to build,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to teach,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to grow,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to draw,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to feed,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to catch,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to throw,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to clean,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to find,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to fall,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to push,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to pull,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to carry,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to break,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to wear,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to hang,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to shake,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to sign,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to beat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to lift,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+long,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+"short [opposite of ""long""]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+tall,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+"short [opposite of ""tall""]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+wide,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+narrow,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+big / large,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+small / little,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+slow,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+fast,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+hot,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+cold,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+warm,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+cool,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+new,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+"old [opposite of ""new""]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+young,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+"old [opposite of ""young""]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+good,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+bad,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+wet,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+dry,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+sick,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+healthy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+loud,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+quiet,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+happy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+sad,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+beautiful,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+ugly,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+deaf,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+blind,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+nice,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+mean,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+rich,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+poor,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+thick,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+thin,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+expensive,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+cheap,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+flat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+curved,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+male,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+female,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+tight,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+loose,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+high,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+low,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+soft,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+hard,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+deep,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+shallow,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+clean,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+dirty,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+strong,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+weak,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+dead,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+alive,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+heavy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+"light [opposite of ""heavy""]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+dark,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+"light [opposite of ""dark""]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+nuclear,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+famous,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+I,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+you [singular],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+he,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+she,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+it,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+we,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+"you [plural, y'all]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+they,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
