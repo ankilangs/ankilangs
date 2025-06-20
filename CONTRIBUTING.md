@@ -34,7 +34,7 @@ Not sure what that means? Have a look at ???
 	- Audio saved as FLAC, WAV, OGG Vorbis, MP3 (in that order of preference)
 
 For audio recordings we can use a file sharing service.
-Please get in touch [e-mail](mailto:info@ankilangs.org).
+Please get in touch over [e-mail](mailto:info@ankilangs.org).
 
 ## Code changes
 If there are any large structural changes you want to make
@@ -48,4 +48,4 @@ In order for you modification to become part of the project you must send a PR (
 [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
 If you have no experience whatsoever with Git, GitHub, pull requests etc.
-then you can send your edits to the CSV files via [e-mail](mailto:info@ankilangs.org).
+you can send your edits to the CSV files via [e-mail](mailto:info@ankilangs.org).
