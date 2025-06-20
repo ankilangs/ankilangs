@@ -13,6 +13,26 @@ For example: A German audio recording for the word "Flugzeug" is incorrect → r
 If you want to add or modify media files (e.g. audio)
 you must do so in the `src/media/` directory.
 
+### Licencing
+Any audio contributions to AnkiLangs have to be licensed as ???.
+Not sure what that means? Have a look at ???
+
+### Physical setup
+- Use the best microphone you have available
+- Find a noise-free environment
+
+### Recording
+- Record a bit of silence at the beginning (for removing background noise)
+- Speak slowly, but pronounce words naturally.
+- Leave breaks between words and sentences for (so the audio can be cut automatically etc.)
+
+### Mastering
+- Try to reserve the quality of the microphone output signal
+- If possible, aim for:
+	- 44100 Hz sample rate
+	- 16 bit bit depth
+	- Audio saved as FLAC, WAV, OGG Vorbis, MP3 (in that order of preference)
+
 For audio recordings we can use a file sharing service.
 Please get in touch info@ankilangs.org.
 
