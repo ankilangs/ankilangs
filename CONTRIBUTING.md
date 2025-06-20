@@ -5,7 +5,7 @@ For example: The "Portuguese 625 words" deck contains a typo → edit `src/data/
 CSV files can be imported into Microsoft Excel or LibreOffice Calc in order to edit them.
 They can be found under `src/data/`.
 
-See below for how to send your changes back to AnkiLangs.
+See [below](#send-a-pull-request) for how to send your changes back to AnkiLangs.
 
 ## Contributing audio
 For example: A German audio recording for the word "Flugzeug" is incorrect → replace the file `src/media/audio/de_DE/al_de_de_das_flugzeug.ogg`
