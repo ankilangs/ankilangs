@@ -33,7 +33,7 @@ Not sure what that means? Have a look at ???
 	- 16 bit bit depth
 	- Audio saved as FLAC, WAV, OGG Vorbis, MP3 (in that order of preference)
 
-For audio recordings we can use a file sharing service.
+For audio recordings we can use a file sharing service instead of PRs.
 Please get in touch over [e-mail](mailto:info@ankilangs.org).
 
 ## Code changes
