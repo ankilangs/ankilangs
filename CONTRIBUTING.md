@@ -18,20 +18,20 @@ Any audio contributions to AnkiLangs have to be licensed as ???.
 Not sure what that means? Have a look at ???
 
 ### Physical setup
-- Use the best microphone you have available
-- Find a noise-free environment
+* Use the best microphone you have available
+* Find a noise-free environment
 
 ### Recording
-- Record a bit of silence at the beginning (so we can remove background noise)
-- Speak slowly, but pronounce words naturally.
-- Leave breaks between words and sentences for (to help us cut the audio automatically etc.)
+* Record a bit of silence at the beginning (so we can remove background noise)
+* Speak slowly, but pronounce words naturally.
+* Leave breaks between words and sentences for (to help us cut the audio automatically etc.)
 
 ### Mastering
-- Try to reserve the quality of the microphone output signal
-- If possible, aim for:
-	- 44100 Hz sample rate
-	- 16 bit bit depth
-	- Audio saved as FLAC, WAV, OGG Vorbis, MP3 (in that order of preference)
+* Try to reserve the quality of the microphone output signal
+* If possible, aim for:
+	* 44100 Hz sample rate
+	* 16 bit bit depth
+	* Audio saved as FLAC, WAV, OGG Vorbis, MP3 (in that order of preference)
 
 For audio recordings we can use a file sharing service instead of PRs.
 Please get in touch over [e-mail](mailto:info@ankilangs.org).
