@@ -2,8 +2,8 @@
 ## Error corrections
 For example: The "Portuguese 625 words" deck contains a typo → edit `src/data/625_words-base-pt_pt.csv`.
 
-Edit the CSV files under `src/data/`.
 CSV files can be imported into Microsoft Excel or LibreOffice Calc in order to edit them.
+They can be found under `src/data/`.
 
 See below for how to send your changes back to AnkiLangs.
 
