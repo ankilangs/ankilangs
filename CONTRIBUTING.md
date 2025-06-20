@@ -22,9 +22,9 @@ Not sure what that means? Have a look at ???
 - Find a noise-free environment
 
 ### Recording
-- Record a bit of silence at the beginning (for removing background noise)
+- Record a bit of silence at the beginning (so we can remove background noise)
 - Speak slowly, but pronounce words naturally.
-- Leave breaks between words and sentences for (so the audio can be cut automatically etc.)
+- Leave breaks between words and sentences for (to help us cut the audio automatically etc.)
 
 ### Mastering
 - Try to reserve the quality of the microphone output signal
