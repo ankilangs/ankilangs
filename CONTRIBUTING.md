@@ -13,7 +13,7 @@ For example: A German audio recording for the word "Flugzeug" is incorrect → r
 If you want to add or modify media files (e.g. audio)
 you must do so in the `src/media/` directory.
 
-### Licencing
+### Licensing
 Any content you contribute needs to be licensed under a compatible open source license,
 for instance [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 You need to either be the original author of the content or clearly communicate the original source and licensing terms.
@@ -28,17 +28,17 @@ Not sure what all of that means? Have a look at https://choosealicense.com/
 ### Recording
 * Record a bit of silence at the beginning (so we can remove background noise)
 * Speak slowly, but pronounce words naturally.
-* Leave breaks between words and sentences for (to help us cut the audio automatically etc.)
+* Leave breaks between words and sentences to help us cut the audio automatically etc.
 
 ### Mastering
-* Try to reserve the quality of the microphone output signal
+* Try to preserve the quality of the microphone output signal
 * If possible, aim for:
-	* 44100 Hz sample rate
-	* 16 bit bit depth
-	* Audio saved as FLAC, WAV, OGG Vorbis, MP3 (in that order of preference)
+  * 44100 Hz sample rate
+  * 16 bit bit depth
+  * Audio saved as FLAC, WAV, OGG Vorbis, MP3 (in that order of preference)
 
 For audio recordings we can use a file sharing service instead of PRs.
-Please get in touch over [e-mail](mailto:info@ankilangs.org).
+Please get in touch via [e-mail](mailto:info@ankilangs.org).
 
 ## Code changes
 If there are any large structural changes you want to make
