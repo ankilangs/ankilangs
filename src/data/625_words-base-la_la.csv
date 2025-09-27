@@ -1,0 +1,672 @@
+key,text:la,ipa:la,audio:la,audio source:la,tags:la
+the car,currus,/ˈkurrus/,,,AnkiLangs::LA
+Earth,Terra,/ˈterra/,,,AnkiLangs::LA
+the dog,canis,/ˈkanis/,,,AnkiLangs::LA
+the cat,feles,/ˈfeles/,,,AnkiLangs::LA
+the fish,piscis,/ˈpiskis/,,,AnkiLangs::LA
+the bird,avis,/ˈavis/,,,AnkiLangs::LA
+the cow,vacca,/ˈwakka/,,,AnkiLangs::LA
+the pig,sus,/sus/,,,AnkiLangs::LA
+the mouse,mus,/mus/,,,AnkiLangs::LA
+the horse,equus,/ˈekwus/,,,AnkiLangs::LA
+water,aqua,/ˈakwa/,,,AnkiLangs::LA
+fire,ignis,/ˈiɡnis/,,,AnkiLangs::LA
+air,aer,/aer/,,,AnkiLangs::LA
+earth,terra,/ˈterra/,,,AnkiLangs::LA
+sea,mare,/ˈmare/,,,AnkiLangs::LA
+river,flumen,/ˈfluːmen/,,,AnkiLangs::LA
+mountain,mons,/mons/,,,AnkiLangs::LA
+tree,arbor,/ˈarbor/,,,AnkiLangs::LA
+flower,flos,/floːs/,,,AnkiLangs::LA
+sun,sol,/soːl/,,,AnkiLangs::LA
+moon,luna,/ˈluːna/,,,AnkiLangs::LA
+star,stella,/ˈstella/,,,AnkiLangs::LA
+day,dies,/ˈdieːs/,,,AnkiLangs::LA
+night,nox,/noːks/,,,AnkiLangs::LA
+morning,mane,/ˈmaːne/,,,AnkiLangs::LA
+evening,vesper,/ˈwesper/,,,AnkiLangs::LA
+house,domus,/ˈdomus/,,,AnkiLangs::LA
+door,porta,/ˈporta/,,,AnkiLangs::LA
+window,fenestra,/feˈnestra/,,,AnkiLangs::LA
+wall,murus,/ˈmuːrus/,,,AnkiLangs::LA
+roof,tectum,/ˈtektum/,,,AnkiLangs::LA
+garden,hortus,/ˈhortus/,,,AnkiLangs::LA
+field,ager,/ˈaɡer/,,,AnkiLangs::LA
+forest,silva,/ˈsilwa/,,,AnkiLangs::LA
+path,semita,/ˈsemita/,,,AnkiLangs::LA
+road,via,/ˈwia/,,,AnkiLangs::LA
+city,urbs,/urbs/,,,AnkiLangs::LA
+village,vicus,/ˈwiːkus/,,,AnkiLangs::LA
+temple,templum,/ˈtemplum/,,,AnkiLangs::LA
+church,ecclesia,/ekˈkleːsia/,,,AnkiLangs::LA
+school,schola,/ˈskoːla/,,,AnkiLangs::LA
+book,liber,/ˈliːber/,,,AnkiLangs::LA
+letter,epistula,/eˈpistula/,,,AnkiLangs::LA
+word,verbum,/ˈwerbum/,,,AnkiLangs::LA
+name,nomen,/ˈnoːmen/,,,AnkiLangs::LA
+number,numerus,/ˈnuːmerus/,,,AnkiLangs::LA
+time,tempus,/ˈtempus/,,,AnkiLangs::LA
+year,annus,/ˈannus/,,,AnkiLangs::LA
+month,mensis,/ˈmensis/,,,AnkiLangs::LA
+week,septimana,/sepˈtimaːna/,,,AnkiLangs::LA
+hour,hora,/ˈhoːra/,,,AnkiLangs::LA
+minute,momentum,/moˈmentum/,,,AnkiLangs::LA
+second,secundum,/seˈkundum/,,,AnkiLangs::LA
+the wing,,,,,AnkiLangs::LA
+the animal,,,,,AnkiLangs::LA
+the train,,,,,AnkiLangs::LA
+the plane,,,,,AnkiLangs::LA
+the truck,,,,,AnkiLangs::LA
+the bicycle,,,,,AnkiLangs::LA
+the bus,,,,,AnkiLangs::LA
+the boat,,,,,AnkiLangs::LA
+the ship,,,,,AnkiLangs::LA
+the tire,,,,,AnkiLangs::LA
+the gasoline,,,,,AnkiLangs::LA
+the engine,,,,,AnkiLangs::LA
+the (train) ticket,,,,,AnkiLangs::LA
+transportation,,,,,AnkiLangs::LA
+the city,,,,,AnkiLangs::LA
+the house,,,,,AnkiLangs::LA
+the apartment,,,,,AnkiLangs::LA
+the street/road,,,,,AnkiLangs::LA
+the airport,,,,,AnkiLangs::LA
+the train station,,,,,AnkiLangs::LA
+the bridge,,,,,AnkiLangs::LA
+the hotel,,,,,AnkiLangs::LA
+the restaurant,,,,,AnkiLangs::LA
+the farm,,,,,AnkiLangs::LA
+the court,,,,,AnkiLangs::LA
+the school,,,,,AnkiLangs::LA
+the office,,,,,AnkiLangs::LA
+the room,,,,,AnkiLangs::LA
+the town,,,,,AnkiLangs::LA
+the university,,,,,AnkiLangs::LA
+the club,,,,,AnkiLangs::LA
+the bar,,,,,AnkiLangs::LA
+the park,,,,,AnkiLangs::LA
+the camp,,,,,AnkiLangs::LA
+the store/shop,,,,,AnkiLangs::LA
+the theater,,,,,AnkiLangs::LA
+the library,,,,,AnkiLangs::LA
+the hospital,,,,,AnkiLangs::LA
+the church,,,,,AnkiLangs::LA
+the market,,,,,AnkiLangs::LA
+"the country (USA, France, etc.)",,,,,AnkiLangs::LA
+the building,,,,,AnkiLangs::LA
+the ground,,,,,AnkiLangs::LA
+space (outer space),,,,,AnkiLangs::LA
+the bank,,,,,AnkiLangs::LA
+the location,,,,,AnkiLangs::LA
+the hat,,,,,AnkiLangs::LA
+the dress,,,,,AnkiLangs::LA
+the suit,,,,,AnkiLangs::LA
+the skirt,,,,,AnkiLangs::LA
+the shirt,,,,,AnkiLangs::LA
+the T-shirt,,,,,AnkiLangs::LA
+the pants,,,,,AnkiLangs::LA
+the shoes,,,,,AnkiLangs::LA
+the pocket,,,,,AnkiLangs::LA
+the coat,,,,,AnkiLangs::LA
+the stain,,,,,AnkiLangs::LA
+the clothing,,,,,AnkiLangs::LA
+red,,,,,AnkiLangs::LA
+green,,,,,AnkiLangs::LA
+blue,,,,,AnkiLangs::LA
+light blue,,,,,AnkiLangs::LA
+dark blue,,,,,AnkiLangs::LA
+yellow,,,,,AnkiLangs::LA
+brown,,,,,AnkiLangs::LA
+pink,,,,,AnkiLangs::LA
+orange,,,,,AnkiLangs::LA
+black,,,,,AnkiLangs::LA
+white,,,,,AnkiLangs::LA
+gray,,,,,AnkiLangs::LA
+the color,,,,,AnkiLangs::LA
+the son,,,,,AnkiLangs::LA
+the daughter,,,,,AnkiLangs::LA
+the mother,,,,,AnkiLangs::LA
+the father,,,,,AnkiLangs::LA
+the parent,,,,,AnkiLangs::LA
+the baby,,,,,AnkiLangs::LA
+the man,,,,,AnkiLangs::LA
+the woman,,,,,AnkiLangs::LA
+the brother,,,,,AnkiLangs::LA
+the sister,,,,,AnkiLangs::LA
+the family,,,,,AnkiLangs::LA
+the grandfather,,,,,AnkiLangs::LA
+the grandmother,,,,,AnkiLangs::LA
+the husband,,,,,AnkiLangs::LA
+the wife,,,,,AnkiLangs::LA
+the king,,,,,AnkiLangs::LA
+the queen,,,,,AnkiLangs::LA
+the president,,,,,AnkiLangs::LA
+the neighbor,,,,,AnkiLangs::LA
+the boy,,,,,AnkiLangs::LA
+the girl,,,,,AnkiLangs::LA
+the child,,,,,AnkiLangs::LA
+the adult,,,,,AnkiLangs::LA
+the human,,,,,AnkiLangs::LA
+the friend,,,,,AnkiLangs::LA
+the victim,,,,,AnkiLangs::LA
+the player,,,,,AnkiLangs::LA
+the fan [person],,,,,AnkiLangs::LA
+the crowd,,,,,AnkiLangs::LA
+the person,,,,,AnkiLangs::LA
+the teacher,,,,,AnkiLangs::LA
+the student,,,,,AnkiLangs::LA
+the lawyer,,,,,AnkiLangs::LA
+the doctor,,,,,AnkiLangs::LA
+the patient,,,,,AnkiLangs::LA
+the waiter,,,,,AnkiLangs::LA
+the secretary,,,,,AnkiLangs::LA
+the priest,,,,,AnkiLangs::LA
+the police,,,,,AnkiLangs::LA
+the army,,,,,AnkiLangs::LA
+the soldier,,,,,AnkiLangs::LA
+the artist,,,,,AnkiLangs::LA
+the author,,,,,AnkiLangs::LA
+the manager,,,,,AnkiLangs::LA
+the reporter,,,,,AnkiLangs::LA
+the actor,,,,,AnkiLangs::LA
+the job,,,,,AnkiLangs::LA
+religion,,,,,AnkiLangs::LA
+heaven,,,,,AnkiLangs::LA
+hell,,,,,AnkiLangs::LA
+death,,,,,AnkiLangs::LA
+medicine,,,,,AnkiLangs::LA
+money,,,,,AnkiLangs::LA
+the dollar,,,,,AnkiLangs::LA
+the bill [bank note],,,,,AnkiLangs::LA
+marriage,,,,,AnkiLangs::LA
+wedding,,,,,AnkiLangs::LA
+the team,,,,,AnkiLangs::LA
+relationship,,,,,AnkiLangs::LA
+race [ethnicity],,,,,AnkiLangs::LA
+sex [the act],,,,,AnkiLangs::LA
+sex [gender],,,,,AnkiLangs::LA
+murder,,,,,AnkiLangs::LA
+prison,,,,,AnkiLangs::LA
+technology,,,,,AnkiLangs::LA
+energy,,,,,AnkiLangs::LA
+war,,,,,AnkiLangs::LA
+peace,,,,,AnkiLangs::LA
+the attack,,,,,AnkiLangs::LA
+the election,,,,,AnkiLangs::LA
+the magazine,,,,,AnkiLangs::LA
+the newspaper,,,,,AnkiLangs::LA
+poison,,,,,AnkiLangs::LA
+the gun,,,,,AnkiLangs::LA
+sport,,,,,AnkiLangs::LA
+race [sport],,,,,AnkiLangs::LA
+exercise,,,,,AnkiLangs::LA
+the ball,,,,,AnkiLangs::LA
+the game,,,,,AnkiLangs::LA
+the price,,,,,AnkiLangs::LA
+the contract,,,,,AnkiLangs::LA
+the drug,,,,,AnkiLangs::LA
+the sign,,,,,AnkiLangs::LA
+science,,,,,AnkiLangs::LA
+God,,,,,AnkiLangs::LA
+the band [music],,,,,AnkiLangs::LA
+the song,,,,,AnkiLangs::LA
+the instrument,,,,,AnkiLangs::LA
+music,,,,,AnkiLangs::LA
+the movie,,,,,AnkiLangs::LA
+art,,,,,AnkiLangs::LA
+coffee,,,,,AnkiLangs::LA
+tea,,,,,AnkiLangs::LA
+wine,,,,,AnkiLangs::LA
+beer,,,,,AnkiLangs::LA
+juice,,,,,AnkiLangs::LA
+milk,,,,,AnkiLangs::LA
+the beverage,,,,,AnkiLangs::LA
+the egg,,,,,AnkiLangs::LA
+the cheese,,,,,AnkiLangs::LA
+the bread,,,,,AnkiLangs::LA
+the soup,,,,,AnkiLangs::LA
+the cake,,,,,AnkiLangs::LA
+the chicken,,,,,AnkiLangs::LA
+the pork,,,,,AnkiLangs::LA
+the beef,,,,,AnkiLangs::LA
+the apple,,,,,AnkiLangs::LA
+the banana,,,,,AnkiLangs::LA
+the orange,,,,,AnkiLangs::LA
+the lemon,,,,,AnkiLangs::LA
+the corn,,,,,AnkiLangs::LA
+rice,,,,,AnkiLangs::LA
+oil,,,,,AnkiLangs::LA
+the seed,,,,,AnkiLangs::LA
+the knife,,,,,AnkiLangs::LA
+the spoon,,,,,AnkiLangs::LA
+the fork,,,,,AnkiLangs::LA
+the plate,,,,,AnkiLangs::LA
+the cup,,,,,AnkiLangs::LA
+breakfast,,,,,AnkiLangs::LA
+lunch,,,,,AnkiLangs::LA
+dinner,,,,,AnkiLangs::LA
+sugar,,,,,AnkiLangs::LA
+salt,,,,,AnkiLangs::LA
+the bottle,,,,,AnkiLangs::LA
+food,,,,,AnkiLangs::LA
+the table,,,,,AnkiLangs::LA
+the chair,,,,,AnkiLangs::LA
+the bed,,,,,AnkiLangs::LA
+the dream,,,,,AnkiLangs::LA
+the window,,,,,AnkiLangs::LA
+the door,,,,,AnkiLangs::LA
+the bedroom,,,,,AnkiLangs::LA
+the kitchen,,,,,AnkiLangs::LA
+the bathroom,,,,,AnkiLangs::LA
+the pencil,,,,,AnkiLangs::LA
+the pen,,,,,AnkiLangs::LA
+the photograph,,,,,AnkiLangs::LA
+the soap,,,,,AnkiLangs::LA
+the book,,,,,AnkiLangs::LA
+the page,,,,,AnkiLangs::LA
+the key,,,,,AnkiLangs::LA
+the paint,,,,,AnkiLangs::LA
+the letter,,,,,AnkiLangs::LA
+the note,,,,,AnkiLangs::LA
+the wall,,,,,AnkiLangs::LA
+the paper,,,,,AnkiLangs::LA
+the floor,,,,,AnkiLangs::LA
+the ceiling,,,,,AnkiLangs::LA
+the roof,,,,,AnkiLangs::LA
+the pool,,,,,AnkiLangs::LA
+the lock,,,,,AnkiLangs::LA
+the telephone,,,,,AnkiLangs::LA
+the garden,,,,,AnkiLangs::LA
+the yard,,,,,AnkiLangs::LA
+the needle,,,,,AnkiLangs::LA
+the bag,,,,,AnkiLangs::LA
+the box,,,,,AnkiLangs::LA
+the gift,,,,,AnkiLangs::LA
+the card,,,,,AnkiLangs::LA
+the ring,,,,,AnkiLangs::LA
+the tool,,,,,AnkiLangs::LA
+the clock,,,,,AnkiLangs::LA
+the lamp,,,,,AnkiLangs::LA
+the fan [appliance],,,,,AnkiLangs::LA
+the cell phone,,,,,AnkiLangs::LA
+the network,,,,,AnkiLangs::LA
+the computer,,,,,AnkiLangs::LA
+the program,,,,,AnkiLangs::LA
+the laptop,,,,,AnkiLangs::LA
+the screen,,,,,AnkiLangs::LA
+the camera,,,,,AnkiLangs::LA
+the television,,,,,AnkiLangs::LA
+the radio,,,,,AnkiLangs::LA
+the head,,,,,AnkiLangs::LA
+the neck,,,,,AnkiLangs::LA
+the face,,,,,AnkiLangs::LA
+the beard,,,,,AnkiLangs::LA
+the hair,,,,,AnkiLangs::LA
+the eye,,,,,AnkiLangs::LA
+the mouth,,,,,AnkiLangs::LA
+the lip,,,,,AnkiLangs::LA
+the nose,,,,,AnkiLangs::LA
+the tooth,,,,,AnkiLangs::LA
+the ear,,,,,AnkiLangs::LA
+the tear,,,,,AnkiLangs::LA
+the tongue,,,,,AnkiLangs::LA
+the back [anatomy],,,,,AnkiLangs::LA
+the toe,,,,,AnkiLangs::LA
+the finger,,,,,AnkiLangs::LA
+the foot,,,,,AnkiLangs::LA
+the hand,,,,,AnkiLangs::LA
+the leg,,,,,AnkiLangs::LA
+the arm,,,,,AnkiLangs::LA
+the shoulder,,,,,AnkiLangs::LA
+the heart,,,,,AnkiLangs::LA
+blood,,,,,AnkiLangs::LA
+the brain,,,,,AnkiLangs::LA
+the knee,,,,,AnkiLangs::LA
+sweat,,,,,AnkiLangs::LA
+disease,,,,,AnkiLangs::LA
+the bone,,,,,AnkiLangs::LA
+the voice,,,,,AnkiLangs::LA
+the skin,,,,,AnkiLangs::LA
+the body,,,,,AnkiLangs::LA
+the sea,,,,,AnkiLangs::LA
+the ocean,,,,,AnkiLangs::LA
+the river,,,,,AnkiLangs::LA
+the mountain,,,,,AnkiLangs::LA
+the rain,,,,,AnkiLangs::LA
+the snow,,,,,AnkiLangs::LA
+the tree,,,,,AnkiLangs::LA
+the sun,,,,,AnkiLangs::LA
+the moon,,,,,AnkiLangs::LA
+the world,,,,,AnkiLangs::LA
+the forest,,,,,AnkiLangs::LA
+the sky,,,,,AnkiLangs::LA
+the plant,,,,,AnkiLangs::LA
+the wind,,,,,AnkiLangs::LA
+soil/earth [ground],,,,,AnkiLangs::LA
+the flower,,,,,AnkiLangs::LA
+the valley,,,,,AnkiLangs::LA
+the root,,,,,AnkiLangs::LA
+the lake,,,,,AnkiLangs::LA
+the star,,,,,AnkiLangs::LA
+the grass,,,,,AnkiLangs::LA
+the leaf,,,,,AnkiLangs::LA
+the air,,,,,AnkiLangs::LA
+the sand,,,,,AnkiLangs::LA
+the beach,,,,,AnkiLangs::LA
+the wave,,,,,AnkiLangs::LA
+the fire,,,,,AnkiLangs::LA
+the ice,,,,,AnkiLangs::LA
+the island,,,,,AnkiLangs::LA
+the hill,,,,,AnkiLangs::LA
+the heat,,,,,AnkiLangs::LA
+nature,,,,,AnkiLangs::LA
+glass,,,,,AnkiLangs::LA
+metal,,,,,AnkiLangs::LA
+plastic,,,,,AnkiLangs::LA
+wood,,,,,AnkiLangs::LA
+stone,,,,,AnkiLangs::LA
+diamond,,,,,AnkiLangs::LA
+clay,,,,,AnkiLangs::LA
+dust,,,,,AnkiLangs::LA
+gold,,,,,AnkiLangs::LA
+copper,,,,,AnkiLangs::LA
+silver,,,,,AnkiLangs::LA
+material,,,,,AnkiLangs::LA
+the meter,,,,,AnkiLangs::LA
+the centimeter,,,,,AnkiLangs::LA
+the kilogram,,,,,AnkiLangs::LA
+the inch,,,,,AnkiLangs::LA
+the foot [measurement],,,,,AnkiLangs::LA
+the pound,,,,,AnkiLangs::LA
+the half,,,,,AnkiLangs::LA
+the circle,,,,,AnkiLangs::LA
+the square,,,,,AnkiLangs::LA
+temperature,,,,,AnkiLangs::LA
+the date,,,,,AnkiLangs::LA
+weight,,,,,AnkiLangs::LA
+the edge,,,,,AnkiLangs::LA
+the corner,,,,,AnkiLangs::LA
+the map,,,,,AnkiLangs::LA
+the dot,,,,,AnkiLangs::LA
+the consonant,,,,,AnkiLangs::LA
+the vowel,,,,,AnkiLangs::LA
+the light,,,,,AnkiLangs::LA
+the sound,,,,,AnkiLangs::LA
+yes,,,,,AnkiLangs::LA
+no,,,,,AnkiLangs::LA
+the piece,,,,,AnkiLangs::LA
+pain,,,,,AnkiLangs::LA
+the injury,,,,,AnkiLangs::LA
+the hole,,,,,AnkiLangs::LA
+the image,,,,,AnkiLangs::LA
+the pattern,,,,,AnkiLangs::LA
+the noun,,,,,AnkiLangs::LA
+the verb,,,,,AnkiLangs::LA
+the adjective,,,,,AnkiLangs::LA
+the top,,,,,AnkiLangs::LA
+the bottom,,,,,AnkiLangs::LA
+the side,,,,,AnkiLangs::LA
+the front,,,,,AnkiLangs::LA
+the back [location],,,,,AnkiLangs::LA
+the outside,,,,,AnkiLangs::LA
+the inside,,,,,AnkiLangs::LA
+up,,,,,AnkiLangs::LA
+down,,,,,AnkiLangs::LA
+left,,,,,AnkiLangs::LA
+right,,,,,AnkiLangs::LA
+straight,,,,,AnkiLangs::LA
+the north,,,,,AnkiLangs::LA
+the south,,,,,AnkiLangs::LA
+the east,,,,,AnkiLangs::LA
+the west,,,,,AnkiLangs::LA
+the direction,,,,,AnkiLangs::LA
+the Summer,,,,,AnkiLangs::LA
+the Spring,,,,,AnkiLangs::LA
+the Winter,,,,,AnkiLangs::LA
+the Fall,,,,,AnkiLangs::LA
+the season,,,,,AnkiLangs::LA
+one (1),,,,,AnkiLangs::LA
+two (2),,,,,AnkiLangs::LA
+three (3),,,,,AnkiLangs::LA
+four (4),,,,,AnkiLangs::LA
+five (5),,,,,AnkiLangs::LA
+six (6),,,,,AnkiLangs::LA
+seven (7),,,,,AnkiLangs::LA
+eight (8),,,,,AnkiLangs::LA
+nine (9),,,,,AnkiLangs::LA
+ten (10),,,,,AnkiLangs::LA
+eleven (11),,,,,AnkiLangs::LA
+twelve (12),,,,,AnkiLangs::LA
+thirteen (13),,,,,AnkiLangs::LA
+fourteen (14),,,,,AnkiLangs::LA
+fifteen (15),,,,,AnkiLangs::LA
+sixteen (16),,,,,AnkiLangs::LA
+seventeen (17),,,,,AnkiLangs::LA
+eighteen (18),,,,,AnkiLangs::LA
+nineteen (19),,,,,AnkiLangs::LA
+twenty (20),,,,,AnkiLangs::LA
+twenty-one (21),,,,,AnkiLangs::LA
+twenty-two (22),,,,,AnkiLangs::LA
+thirty (30),,,,,AnkiLangs::LA
+thirty-one (31),,,,,AnkiLangs::LA
+thirty-two (32),,,,,AnkiLangs::LA
+forty (40),,,,,AnkiLangs::LA
+forty-one (41),,,,,AnkiLangs::LA
+forty-two (42),,,,,AnkiLangs::LA
+fifty (50),,,,,AnkiLangs::LA
+fifty-one (51),,,,,AnkiLangs::LA
+fifty-two (52),,,,,AnkiLangs::LA
+sixty (60),,,,,AnkiLangs::LA
+sixty-one (61),,,,,AnkiLangs::LA
+sixty-two (62),,,,,AnkiLangs::LA
+seventy (70),,,,,AnkiLangs::LA
+seventy-one (71),,,,,AnkiLangs::LA
+seventy-two (72),,,,,AnkiLangs::LA
+eighty (80),,,,,AnkiLangs::LA
+eighty-one (81),,,,,AnkiLangs::LA
+eighty-two (82),,,,,AnkiLangs::LA
+ninety (90),,,,,AnkiLangs::LA
+ninety-one (91),,,,,AnkiLangs::LA
+ninety-two (92),,,,,AnkiLangs::LA
+one hundred (100),,,,,AnkiLangs::LA
+one hundred one (101),,,,,AnkiLangs::LA
+one hundred two (102),,,,,AnkiLangs::LA
+one hundred ten (110),,,,,AnkiLangs::LA
+one hundred eleven (111),,,,,AnkiLangs::LA
+one thousand (1000),,,,,AnkiLangs::LA
+one thousand one (1001),,,,,AnkiLangs::LA
+"ten thousand (10,000)",,,,,AnkiLangs::LA
+"one hundred thousand (100,000)",,,,,AnkiLangs::LA
+"one million (1,000,000)",,,,,AnkiLangs::LA
+"one billion (1,000,000,000)",,,,,AnkiLangs::LA
+first (1st),,,,,AnkiLangs::LA
+second (2nd),,,,,AnkiLangs::LA
+third (3rd),,,,,AnkiLangs::LA
+fourth (4th),,,,,AnkiLangs::LA
+fifth (5th),,,,,AnkiLangs::LA
+the number,,,,,AnkiLangs::LA
+January,,,,,AnkiLangs::LA
+February,,,,,AnkiLangs::LA
+March,,,,,AnkiLangs::LA
+April,,,,,AnkiLangs::LA
+May,,,,,AnkiLangs::LA
+June,,,,,AnkiLangs::LA
+July,,,,,AnkiLangs::LA
+August,,,,,AnkiLangs::LA
+September,,,,,AnkiLangs::LA
+October,,,,,AnkiLangs::LA
+November,,,,,AnkiLangs::LA
+December,,,,,AnkiLangs::LA
+Monday,,,,,AnkiLangs::LA
+Tuesday,,,,,AnkiLangs::LA
+Wednesday,,,,,AnkiLangs::LA
+Thursday,,,,,AnkiLangs::LA
+Friday,,,,,AnkiLangs::LA
+Saturday,,,,,AnkiLangs::LA
+Sunday,,,,,AnkiLangs::LA
+the year,,,,,AnkiLangs::LA
+the month,,,,,AnkiLangs::LA
+the week,,,,,AnkiLangs::LA
+the day,,,,,AnkiLangs::LA
+the hour,,,,,AnkiLangs::LA
+the minute,,,,,AnkiLangs::LA
+the second,,,,,AnkiLangs::LA
+the morning,,,,,AnkiLangs::LA
+the afternoon,,,,,AnkiLangs::LA
+the evening,,,,,AnkiLangs::LA
+the night,,,,,AnkiLangs::LA
+the time,,,,,AnkiLangs::LA
+to work,,,,,AnkiLangs::LA
+to play,,,,,AnkiLangs::LA
+to walk,,,,,AnkiLangs::LA
+to run,,,,,AnkiLangs::LA
+to drive,,,,,AnkiLangs::LA
+to fly,,,,,AnkiLangs::LA
+to swim,,,,,AnkiLangs::LA
+to go,,,,,AnkiLangs::LA
+to stop,,,,,AnkiLangs::LA
+to follow,,,,,AnkiLangs::LA
+to think,,,,,AnkiLangs::LA
+to speak / to say,,,,,AnkiLangs::LA
+to eat,,,,,AnkiLangs::LA
+to drink,,,,,AnkiLangs::LA
+to kill,,,,,AnkiLangs::LA
+to die,,,,,AnkiLangs::LA
+to smile,,,,,AnkiLangs::LA
+to laugh,,,,,AnkiLangs::LA
+to cry,,,,,AnkiLangs::LA
+to buy,,,,,AnkiLangs::LA
+to pay,,,,,AnkiLangs::LA
+to sell,,,,,AnkiLangs::LA
+to shoot (a gun),,,,,AnkiLangs::LA
+to learn,,,,,AnkiLangs::LA
+to jump,,,,,AnkiLangs::LA
+to smell,,,,,AnkiLangs::LA
+to hear,,,,,AnkiLangs::LA
+to listen,,,,,AnkiLangs::LA
+to taste,,,,,AnkiLangs::LA
+to touch,,,,,AnkiLangs::LA
+to see,,,,,AnkiLangs::LA
+to watch,,,,,AnkiLangs::LA
+to kiss,,,,,AnkiLangs::LA
+to burn,,,,,AnkiLangs::LA
+to melt,,,,,AnkiLangs::LA
+to dig,,,,,AnkiLangs::LA
+to explode,,,,,AnkiLangs::LA
+to sit,,,,,AnkiLangs::LA
+to stand,,,,,AnkiLangs::LA
+to love,,,,,AnkiLangs::LA
+to pass by,,,,,AnkiLangs::LA
+to cut,,,,,AnkiLangs::LA
+to fight,,,,,AnkiLangs::LA
+to lie down,,,,,AnkiLangs::LA
+to dance,,,,,AnkiLangs::LA
+to sleep,,,,,AnkiLangs::LA
+to wake up,,,,,AnkiLangs::LA
+to sing,,,,,AnkiLangs::LA
+to count,,,,,AnkiLangs::LA
+to marry,,,,,AnkiLangs::LA
+to pray,,,,,AnkiLangs::LA
+to win,,,,,AnkiLangs::LA
+to lose,,,,,AnkiLangs::LA
+to mix / to stir,,,,,AnkiLangs::LA
+to bend,,,,,AnkiLangs::LA
+to wash,,,,,AnkiLangs::LA
+to cook,,,,,AnkiLangs::LA
+to open,,,,,AnkiLangs::LA
+to close,,,,,AnkiLangs::LA
+to write,,,,,AnkiLangs::LA
+to call,,,,,AnkiLangs::LA
+to turn,,,,,AnkiLangs::LA
+to build,,,,,AnkiLangs::LA
+to teach,,,,,AnkiLangs::LA
+to grow,,,,,AnkiLangs::LA
+to draw,,,,,AnkiLangs::LA
+to feed,,,,,AnkiLangs::LA
+to catch,,,,,AnkiLangs::LA
+to throw,,,,,AnkiLangs::LA
+to clean,,,,,AnkiLangs::LA
+to find,,,,,AnkiLangs::LA
+to fall,,,,,AnkiLangs::LA
+to push,,,,,AnkiLangs::LA
+to pull,,,,,AnkiLangs::LA
+to carry,,,,,AnkiLangs::LA
+to break,,,,,AnkiLangs::LA
+to wear,,,,,AnkiLangs::LA
+to hang,,,,,AnkiLangs::LA
+to shake,,,,,AnkiLangs::LA
+to sign,,,,,AnkiLangs::LA
+to beat,,,,,AnkiLangs::LA
+to lift,,,,,AnkiLangs::LA
+long,,,,,AnkiLangs::LA
+"short [opposite of ""long""]",,,,,AnkiLangs::LA
+tall,,,,,AnkiLangs::LA
+"short [opposite of ""tall""]",,,,,AnkiLangs::LA
+wide,,,,,AnkiLangs::LA
+narrow,,,,,AnkiLangs::LA
+big / large,,,,,AnkiLangs::LA
+small / little,,,,,AnkiLangs::LA
+slow,,,,,AnkiLangs::LA
+fast,,,,,AnkiLangs::LA
+hot,,,,,AnkiLangs::LA
+cold,,,,,AnkiLangs::LA
+warm,,,,,AnkiLangs::LA
+cool,,,,,AnkiLangs::LA
+new,,,,,AnkiLangs::LA
+"old [opposite of ""new""]",,,,,AnkiLangs::LA
+young,,,,,AnkiLangs::LA
+"old [opposite of ""young""]",,,,,AnkiLangs::LA
+good,,,,,AnkiLangs::LA
+bad,,,,,AnkiLangs::LA
+wet,,,,,AnkiLangs::LA
+dry,,,,,AnkiLangs::LA
+sick,,,,,AnkiLangs::LA
+healthy,,,,,AnkiLangs::LA
+loud,,,,,AnkiLangs::LA
+quiet,,,,,AnkiLangs::LA
+happy,,,,,AnkiLangs::LA
+sad,,,,,AnkiLangs::LA
+beautiful,,,,,AnkiLangs::LA
+ugly,,,,,AnkiLangs::LA
+deaf,,,,,AnkiLangs::LA
+blind,,,,,AnkiLangs::LA
+nice,,,,,AnkiLangs::LA
+mean,,,,,AnkiLangs::LA
+rich,,,,,AnkiLangs::LA
+poor,,,,,AnkiLangs::LA
+thick,,,,,AnkiLangs::LA
+thin,,,,,AnkiLangs::LA
+expensive,,,,,AnkiLangs::LA
+cheap,,,,,AnkiLangs::LA
+flat,,,,,AnkiLangs::LA
+curved,,,,,AnkiLangs::LA
+male,,,,,AnkiLangs::LA
+female,,,,,AnkiLangs::LA
+tight,,,,,AnkiLangs::LA
+loose,,,,,AnkiLangs::LA
+high,,,,,AnkiLangs::LA
+low,,,,,AnkiLangs::LA
+soft,,,,,AnkiLangs::LA
+hard,,,,,AnkiLangs::LA
+deep,,,,,AnkiLangs::LA
+shallow,,,,,AnkiLangs::LA
+clean,,,,,AnkiLangs::LA
+dirty,,,,,AnkiLangs::LA
+strong,,,,,AnkiLangs::LA
+weak,,,,,AnkiLangs::LA
+dead,,,,,AnkiLangs::LA
+alive,,,,,AnkiLangs::LA
+heavy,,,,,AnkiLangs::LA
+"light [opposite of ""heavy""]",,,,,AnkiLangs::LA
+dark,,,,,AnkiLangs::LA
+"light [opposite of ""dark""]",,,,,AnkiLangs::LA
+nuclear,,,,,AnkiLangs::LA
+famous,,,,,AnkiLangs::LA
+I,,,,,AnkiLangs::LA
+you [singular],,,,,AnkiLangs::LA
+he,,,,,AnkiLangs::LA
+she,,,,,AnkiLangs::LA
+it,,,,,AnkiLangs::LA
+we,,,,,AnkiLangs::LA
+"you [plural, y'all]",,,,,AnkiLangs::LA
+they,,,,,AnkiLangs::LA

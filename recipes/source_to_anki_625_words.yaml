@@ -3,6 +3,7 @@
       - src/data/625_words-from-de_de-to-en_us.csv
       - src/data/625_words-from-de_de-to-es_es.csv
       - src/data/625_words-from-de_de-to-fr_fr.csv
+      - src/data/625_words-from-de_de-to-la_la.csv
       - src/data/625_words-from-en_us-to-de_de.csv
       - src/data/625_words-from-en_us-to-es_es.csv
       - src/data/625_words-from-en_us-to-fr_fr.csv
@@ -25,6 +26,10 @@
     - note_model_from_yaml_part:
         part_id: vocabulary_de_to_fr
         file: src/note_models/vocabulary_de_to_fr/note.yaml
+
+    - note_model_from_yaml_part:
+        part_id: vocabulary_de_to_la
+        file: src/note_models/vocabulary_de_to_la/note.yaml
 
     - note_model_from_yaml_part:
         part_id: vocabulary_en_to_de
@@ -76,6 +81,13 @@
             name: Französisch (DE zu FR) | 625 Wörter | AnkiLangs.org
             crowdanki_uuid: 1f682ac7-cfda-4bc3-82cd-7fd148522732
             deck_description_html_file: src/headers/description_de_to_fr-625_words.html
+
+        - part_id: header_de_to_la
+          file: src/headers/default.yaml
+          override:
+            name: Latein (DE zu LA) | 625 Wörter | AnkiLangs.org
+            crowdanki_uuid: b3e37b7b-e9b2-4ada-bc6d-912dbaa4a28f
+            deck_description_html_file: src/headers/description_de_to_la-625_words.html
 
         - part_id: header_en_to_de
           file: src/headers/default.yaml
@@ -222,6 +234,36 @@
               - file: src/data/625_words-base-fr_fr.csv
               - file: src/data/625_words-pictures.csv
               - file: src/data/generated/625_words-from-de_de-to-fr_fr.csv
+
+    - notes_from_csvs:
+        part_id: notes_de_to_la
+
+        note_model_mappings:
+          - note_models:
+              - vocabulary_de_to_la
+            columns_to_fields:
+              guid: guid
+              text:de: Source Text
+              text:la: Target Text
+              ipa:la: Target IPA
+              audio:la: Target Audio
+              picture: Picture
+              notes: Notes
+              pronunciation hint: Pronunciation Hint
+              spelling hint: Spelling Hint
+              reading hint: Reading Hint
+              listening hint: Listening Hint
+              source: Source & License
+              tags:la: tags
+
+        file_mappings:
+          - file: src/data/625_words-from-de_de-to-la_la.csv
+            note_model: vocabulary_de_to_la
+            derivatives:
+              - file: src/data/625_words-base-de_de.csv
+              - file: src/data/625_words-base-la_la.csv
+              - file: src/data/625_words-pictures.csv
+              - file: src/data/generated/625_words-from-de_de-to-la_la.csv
 
     - notes_from_csvs:
         part_id: notes_en_to_de
@@ -465,6 +507,18 @@
       parts:
         - part_id: vocabulary_de_to_fr
     headers: header_de_to_fr
+    media:
+      parts:
+        - all_media
+
+- generate_crowd_anki:
+    folder: build/DE_to_LA_625_Words
+    notes:
+      part_id: notes_de_to_la
+    note_models:
+      parts:
+        - part_id: vocabulary_de_to_la
+    headers: header_de_to_la
     media:
       parts:
         - all_media
