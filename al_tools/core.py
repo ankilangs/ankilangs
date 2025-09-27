@@ -156,11 +156,13 @@ def generate_audio(
                     if pd.isna(row[audio_col]):
                         df.at[rowindex, audio_col] = f"[sound:{audio_file.name}]"
                         # find the source of that audio
-                        audio_source = df[df[audio_col] == f"[sound:{audio_file.name}]"][
-                            audio_source_col
-                        ].values[0]
+                        audio_source = df[
+                            df[audio_col] == f"[sound:{audio_file.name}]"
+                        ][audio_source_col].values[0]
                         df.at[rowindex, audio_source_col] = audio_source
-                        print(f"  ** Setting audio of '{row[text_col]}' to '{audio_file.name}'")
+                        print(
+                            f"  ** Setting audio of '{row[text_col]}' to '{audio_file.name}'"
+                        )
                     continue
                 elif audio_exists_action == AudioExistsAction.OVERWRITE:
                     print(f"Overwriting existing audio file '{audio_file}'")
@@ -227,7 +229,9 @@ def fix_625_words_files(folder_path: Path):
         df = pd.read_csv(csv_path, sep=",")
         # If keys are non-unique, raise an error
         if df["key"].duplicated().any():
-            raise ValueError(f"Duplicate keys found in '{csv_path.name}': {df[df['key'].duplicated()]}")
+            raise ValueError(
+                f"Duplicate keys found in '{csv_path.name}': {df[df['key'].duplicated()]}"
+            )
         if keys is None:
             keys = df["key"]
             file_most_keys = csv_path
