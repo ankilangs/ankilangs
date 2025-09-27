@@ -37,17 +37,17 @@ you can stick to the "Contribute changes" section above and leave the complicate
 To build the decks you need the following:
 
 * Python 3 ([Installation](https://wiki.python.org/moin/BeginnersGuide/Download)).
-* Poetry ([Installation](https://python-poetry.org/docs/#installation)).
+* uv ([Installation](https://docs.astral.sh/uv/getting-started/installation/)).
 * Anki ([Installation](https://apps.ankiweb.net/#download)).
 * Within Anki the [CrowdAnki add-on](https://ankiweb.net/shared/info/1788670778) (code 1788670778).
   [Add-on installation](https://docs.ankiweb.net/addons.html).
 
 ```bash
-poetry install
-poetry run al-tools generate -i src/data/
-poetry run al-tools check -i src/data/
-poetry run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
-poetry run brainbrew run recipes/source_to_anki_625_words.yaml
+uv sync
+uv run al-tools generate -i src/data/
+uv run al-tools check -i src/data/
+uv run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
+uv run brainbrew run recipes/source_to_anki_625_words.yaml
 ```
 
 Open Anki and via `File / CrowdAnki: Import from disk` import any of the `build/` subdirectories of this
@@ -91,7 +91,7 @@ cp "src/headers/description_${AL_SRC_NAME}-625_words.html" \
 cp -r "src/note_models/vocabulary_${AL_SRC_NAME}" \
   "src/note_models/vocabulary_${AL_DST_NAME}"
 
-sed -i "s/id: .*/id: `python3 -c "import uuid; print(uuid.uuid4())"`/" \
+sed -i "s/id: .*/id: `uv run python -c "import uuid; print(uuid.uuid4())"`/" \
   "src/note_models/vocabulary_${AL_DST_NAME}/note.yaml"
 
 find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
@@ -125,7 +125,7 @@ vim "src/headers/description_${AL_DST_NAME}-625_words.html"
 To generate new UUIDs you can use this command:
 
 ```bash
-python3 -c "import uuid; print(uuid.uuid4())"
+uv run python -c "import uuid; print(uuid.uuid4())"
 ```
 
 Edit `recipes/source_to_anki_625_words.yaml`:
@@ -155,12 +155,12 @@ You need a Google Cloud account and need to be
 Then execute, for example:
 
 ```bash
-poetry run al-tools audio -i src/data/625_words-base-de_de.csv -o src/media/audio/de_DE/
-poetry run al-tools audio -i src/data/625_words-base-pt_pt.csv -o src/media/audio/pt_PT/
-poetry run al-tools audio -i src/data/625_words-base-it_it.csv -o src/media/audio/it_IT/
-poetry run al-tools audio -i src/data/625_words-base-fr_fr.csv -o src/media/audio/fr_FR/
-poetry run al-tools audio -i src/data/625_words-base-en_us.csv -o src/media/audio/en_US/
-poetry run al-tools audio -i src/data/625_words-base-es_es.csv -o src/media/audio/es_ES/
+uv run al-tools audio -i src/data/625_words-base-de_de.csv -o src/media/audio/de_DE/
+uv run al-tools audio -i src/data/625_words-base-pt_pt.csv -o src/media/audio/pt_PT/
+uv run al-tools audio -i src/data/625_words-base-it_it.csv -o src/media/audio/it_IT/
+uv run al-tools audio -i src/data/625_words-base-fr_fr.csv -o src/media/audio/fr_FR/
+uv run al-tools audio -i src/data/625_words-base-en_us.csv -o src/media/audio/en_US/
+uv run al-tools audio -i src/data/625_words-base-es_es.csv -o src/media/audio/es_ES/
 ```
 
 

@@ -1,27 +1,27 @@
-[tool.poetry]
+[project]
 name = "al-tools"
 version = "0.1.0"
 description = "Tooling for AnkiLangs.org"
-authors = ["Omar Kohl <omarkohl@posteo.net>"]
+authors = [
+    { name = "Omar Kohl", email = "omarkohl@posteo.net" }
+]
 readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "brain-brew>=0.3.11",
+    "pandas>=2.3.1",
+    "google-cloud-texttospeech>=2.27.0",
+]
 
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.12.7",
+    "pytest>=8.4.1",
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-brain-brew = "^0.3.11"
-pandas = "^2.3.1"
-google-cloud-texttospeech = "^2.27.0"
-
-
-[tool.poetry.group.dev.dependencies]
-ruff = "^0.12.7"
-pytest = "^8.4.1"
-
+[project.scripts]
+al-tools = "al_tools.cli:cli"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-
-[tool.poetry.scripts]
-al-tools = "al_tools.cli:cli"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
