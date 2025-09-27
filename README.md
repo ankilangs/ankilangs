@@ -56,6 +56,34 @@ Git repository.
 Then you may review them like any deck.
 
 
+### Code Quality
+
+To maintain code quality, this project uses [Ruff](https://docs.astral.sh/ruff/) for both linting and formatting Python code.
+
+To check for linting issues:
+```bash
+uv run ruff check .
+```
+
+To automatically format all Python files:
+```bash
+uv run ruff format .
+```
+
+### Testing
+
+This project uses [pytest](https://docs.pytest.org/) for testing. To run the test suite:
+
+```bash
+uv run pytest
+```
+
+The tests are located in the `tests/` directory and cover core functionality including:
+- Ambiguity detection algorithms
+- Data processing and validation
+- CSV file handling and transformations
+
+
 ### To create a new 625 words deck
 
 * Copy and adapt one of the directories in `src/note_models/`
