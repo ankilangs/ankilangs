@@ -21,7 +21,12 @@ def _create_mp3_filename(text: str, prefix: str = "") -> str:
     """
     Create a valid filename for the given text.
     """
-    clean_name = re.sub(r"[^a-z0-9]+", "_", text.lower()).strip("_")
+    clean_name = text
+
+    clean_name = clean_name.lower()
+    clean_name = re.sub(r"[^a-z0-9]+", "_", clean_name)
+    clean_name = clean_name.strip("_")
+
     if not clean_name:
         raise ValueError(f"Invalid text '{text}'")
     return f"{prefix}{clean_name}.mp3"
