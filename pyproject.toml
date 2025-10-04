@@ -13,7 +13,7 @@ dependencies = [
     "google-cloud-texttospeech>=2.27.0",
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
     "ruff>=0.12.7",
     "pytest>=8.4.1",

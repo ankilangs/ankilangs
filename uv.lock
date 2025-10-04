@@ -18,7 +18,7 @@ dependencies = [
     { name = "pandas" },
 ]
 
-[package.optional-dependencies]
+[package.dev-dependencies]
 dev = [
     { name = "pytest" },
     { name = "ruff" },
@@ -29,10 +29,13 @@ requires-dist = [
     { name = "brain-brew", specifier = ">=0.3.11" },
     { name = "google-cloud-texttospeech", specifier = ">=2.27.0" },
     { name = "pandas", specifier = ">=2.3.1" },
-    { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.4.1" },
-    { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.12.7" },
 ]
-provides-extras = ["dev"]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "pytest", specifier = ">=8.4.1" },
+    { name = "ruff", specifier = ">=0.12.7" },
+]
 
 [[package]]
 name = "brain-brew"
