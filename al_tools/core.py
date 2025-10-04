@@ -330,7 +330,7 @@ def ambiguity_detection(folder_path: Path) -> str:
     Detect ambiguous words in the given folder.
     """
     aw_list: List[_AmbiguousWords] = []
-    for csv_path in folder_path.glob("625_words-from-*-to-*.csv"):
+    for csv_path in sorted(folder_path.glob("625_words-from-*-to-*.csv")):
         aw_obj = _AmbiguousWords(csv_path.name)
         re_result = re.search(r"625_words-from-(.*)-to-(.*)", csv_path.stem).groups()
         from_lang = re_result[0]
