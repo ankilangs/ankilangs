@@ -28,13 +28,9 @@ Both code contributions
 and audio from (as good as) native speakers are highly appreciated!
 Have a look at our [instructions for contributors](CONTRIBUTING.md).
 
-## Build
+## Development
 
-If you want you can build the decks (i.e. convert the CSV files into Anki decks).
-Note that you do not need to do this in order to make a contribution. If you want to improve a deck
-you can stick to the "Contribute changes" section above and leave the complicated stuff to us 🙂.
-
-To build the decks you need the following:
+### Setup
 
 * Python 3 ([Installation](https://wiki.python.org/moin/BeginnersGuide/Download)).
 * uv ([Installation](https://docs.astral.sh/uv/getting-started/installation/)).
@@ -43,7 +39,18 @@ To build the decks you need the following:
   [Add-on installation](https://docs.ankiweb.net/addons.html).
 
 ```bash
+git clone https://github.com/ankilangs/ankilangs
+cd ankilangs
 uv sync
+```
+
+### Build the decks
+
+If you want you can build the decks (i.e. convert the CSV files into Anki decks).
+Note that you do not need to do this in order to make a contribution. If you want to improve a deck
+you can stick to the "Contribute changes" section above and leave the complicated stuff to us 🙂.
+
+```bash
 uv run al-tools generate -i src/data/
 uv run al-tools check -i src/data/
 uv run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
