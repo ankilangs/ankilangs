@@ -3,6 +3,7 @@ from pathlib import Path
 import random
 import time
 from typing import List, Tuple, Dict
+import unicodedata
 
 import pandas as pd
 import os
@@ -17,11 +18,27 @@ class AudioExistsAction(Enum):
     RAISE = "raise"
 
 
-def _create_mp3_filename(text: str, prefix: str = "") -> str:
+def _remove_diacritics(s: str) -> str:
+    # Convert fancy characters to their most basic form and then split up all
+    # combining parts.
+    decomposed = unicodedata.normalize("NFKD", s)
+
+    # Keep only the base characters, except if the combining ones are their own
+    # letters (Mc) (which do not occur in European languages).
+    return "".join(x for x in decomposed if not unicodedata.category(x) in ["Mn", "Me"])
+
+
+def create_mp3_filename(text: str, prefix: str = "") -> str:
     """
     Create a valid filename for the given text.
     """
-    clean_name = re.sub(r"[^a-z0-9]+", "_", text.lower()).strip("_")
+    clean_name = text
+
+    clean_name = _remove_diacritics(clean_name)
+    clean_name = clean_name.lower()
+    clean_name = re.sub(r"[^a-z0-9]+", "_", clean_name)
+    clean_name = clean_name.strip("_")
+
     if not clean_name:
         raise ValueError(f"Invalid text '{text}'")
     return f"{prefix}{clean_name}.mp3"
