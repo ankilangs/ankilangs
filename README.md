@@ -40,8 +40,7 @@ Have a look at our [instructions for contributors](CONTRIBUTING.md).
 
 ```bash
 git clone https://github.com/ankilangs/ankilangs
-cd ankilangs
-uv sync
+cd ankilangs/
 ```
 
 ### Build the decks
