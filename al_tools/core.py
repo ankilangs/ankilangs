@@ -25,7 +25,7 @@ def _remove_diacritics(s: str) -> str:
 
     # Keep only the base characters, except if the combining ones are their own
     # letters (Mc) (which do not occur in European languages).
-    return "".join(x for x in decomposed if not unicodedata.category(x) in ["Mn", "Me"])
+    return "".join(x for x in decomposed if unicodedata.category(x) not in ["Mn", "Me"])
 
 
 def create_mp3_filename(text: str, prefix: str = "") -> str:
@@ -164,7 +164,7 @@ def generate_audio(
                     r"\[sound:(.+)\]", row[audio_col]
                 ).group(1)
             else:
-                audio_file = audio_folder_path / _create_mp3_filename(
+                audio_file = audio_folder_path / create_mp3_filename(
                     row[text_col], prefix=f"al_{language}_"
                 )
             if audio_file.exists():
