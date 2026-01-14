@@ -362,7 +362,10 @@ def ambiguity_detection(folder_path: Path) -> str:
         df = pd.merge(df, from_df, how="left", on="key")
         df = pd.merge(df, to_df, how="left", on="key")
 
-        for rowindex, row in df[df.duplicated(f"text:{from_lang_short}")].iterrows():
+        for rowindex, row in df[
+            df.duplicated(f"text:{from_lang_short}")
+            & df[f"text:{from_lang_short}"].notna()
+        ].iterrows():
             duplicate_rows = df[
                 df[f"text:{from_lang_short}"] == row[f"text:{from_lang_short}"]
             ]
@@ -378,7 +381,9 @@ def ambiguity_detection(folder_path: Path) -> str:
                     tuple(columns),
                 )
 
-        for rowindex, row in df[df.duplicated(f"text:{to_lang_short}")].iterrows():
+        for rowindex, row in df[
+            df.duplicated(f"text:{to_lang_short}") & df[f"text:{to_lang_short}"].notna()
+        ].iterrows():
             duplicate_rows = df[
                 df[f"text:{to_lang_short}"] == row[f"text:{to_lang_short}"]
             ]
