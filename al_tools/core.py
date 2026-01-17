@@ -7,12 +7,54 @@ import unicodedata
 import csv
 import sqlite3
 from datetime import datetime
+import sys
 
 import pandas as pd
 import os
 import re
 
 from google.cloud import texttospeech as tts
+
+
+def _ensure_db_exists(db_path: Path, data_dir: Path = Path("src/data")):
+    """Check if database exists, abort with clear message if not."""
+    if not db_path.exists():
+        print(f"Error: Database '{db_path}' not found.")
+        print(f"Create it with: uv run al-tools csv2sqlite -i {data_dir} -d {db_path}")
+        sys.exit(1)
+
+
+def _check_db_freshness(db_path: Path, data_dir: Path, force: bool = False):
+    """Check if database is up to date with CSV files."""
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    cursor.execute("SELECT value FROM _meta WHERE key = 'import_timestamp'")
+    result = cursor.fetchone()
+    conn.close()
+
+    if not result:
+        print("Warning: Database has no import timestamp.")
+        return
+
+    import_time = datetime.fromisoformat(result[0])
+
+    # Check all CSV files
+    csv_files = list(data_dir.glob("*.csv"))
+    for csv_file in csv_files:
+        mtime = datetime.fromtimestamp(csv_file.stat().st_mtime)
+        if mtime > import_time:
+            if force:
+                return
+            response = input(
+                "Warning: CSV files have been modified after the database was last updated.\n"
+                "The database may be out of sync. Continue anyway? (y/n): "
+            )
+            if response.lower() != "y":
+                print(
+                    f"Aborting. Update the database with: uv run al-tools csv2sqlite -i {data_dir} -d {db_path}"
+                )
+                sys.exit(1)
+            return
 
 
 class AudioExistsAction(Enum):
@@ -139,22 +181,43 @@ _VOICE_MAP = {
 
 
 def generate_audio(
-    csv_path: Path,
+    db_path: Path,
+    locale: str,
     audio_folder_path: Path,
     audio_exists_action: AudioExistsAction,
+    data_dir: Path = Path("src/data"),
     seed: int = 42,
 ):
     """
     Generate audio via the Google Cloud TTS API.
-    As input it expects a CSV file in the correct format.
+    Reads from SQLite database and updates it with generated audio.
     If the directory does not exist it will be created.
     """
+    _ensure_db_exists(db_path, data_dir)
+    _check_db_freshness(db_path, data_dir)
+
     random.seed(seed)
+    lang_short = locale.split("_")[0]
 
-    # csv_path is something like src/data/625_words-base-es_es.csv
-    language = csv_path.stem.split("-")[-1].lower()
+    # Read from SQLite
+    conn = sqlite3.connect(db_path)
+    query = """
+        SELECT key, text, audio, audio_source
+        FROM base_language
+        WHERE locale = ?
+        ORDER BY key
+    """
+    df = pd.read_sql_query(query, conn, params=(locale,))
 
-    df = pd.read_csv(csv_path, sep=",")
+    # Rename columns to match expected format
+    df = df.rename(
+        columns={
+            "text": f"text:{lang_short}",
+            "audio": f"audio:{lang_short}",
+            "audio_source": f"audio source:{lang_short}",
+        }
+    )
+
     os.makedirs(audio_folder_path, exist_ok=True)
 
     text_col = _get_text_col(df)
@@ -163,15 +226,17 @@ def generate_audio(
 
     client = tts.TextToSpeechClient()
     audio_config = tts.AudioConfig(audio_encoding=tts.AudioEncoding.MP3)
+
+    cursor = conn.cursor()
     try:
         for rowindex, row in df.iterrows():
-            if pd.notna(row[audio_col]):
+            if pd.notna(row[audio_col]) and row[audio_col]:
                 audio_file = audio_folder_path / re.search(
                     r"\[sound:(.+)\]", row[audio_col]
                 ).group(1)
             else:
                 audio_file = audio_folder_path / create_mp3_filename(
-                    row[text_col], prefix=f"al_{language}_"
+                    row[text_col], prefix=f"al_{locale}_"
                 )
             if audio_file.exists():
                 if audio_exists_action == AudioExistsAction.SKIP:
@@ -193,9 +258,9 @@ def generate_audio(
                 else:
                     raise FileExistsError(f"Audio file {audio_file} already exists")
 
-            voice_name = random.choice(_VOICE_MAP[language])
+            voice_name = random.choice(_VOICE_MAP[locale])
             voice = tts.VoiceSelectionParams(
-                language_code=f"{language.split('_')[0]}-{language.split('_')[1].upper()}",
+                language_code=f"{locale.split('_')[0]}-{locale.split('_')[1].upper()}",
                 name=voice_name,
             )
             synthesis_input = tts.SynthesisInput(text=row[text_col])
@@ -217,9 +282,20 @@ def generate_audio(
                 f"Google Cloud TTS<br>Voice: {voice_name}"
             )
             print(f"Audio content written to file '{audio_file}'")
+
+        # Update SQLite with the changes
+        for rowindex, row in df.iterrows():
+            cursor.execute(
+                """
+                UPDATE base_language
+                SET audio = ?, audio_source = ?
+                WHERE key = ? AND locale = ?
+                """,
+                (row[audio_col] or "", row[audio_source_col] or "", row["key"], locale),
+            )
+        conn.commit()
     finally:
-        # Save the updated DataFrame
-        df.to_csv(csv_path, index=False)
+        conn.close()
 
 
 def _format_source(picture_source, audio_source):
@@ -302,37 +378,62 @@ def fix_625_words_files(folder_path: Path):
         df.to_csv(csv_path, index=False)
 
 
-def generate_joined_source_fields(folder_path: Path):
+def generate_joined_source_fields(
+    db_path: Path, output_dir: Path, data_dir: Path = Path("src/data")
+):
     """
     Generate CSV files that contain the joint source and license information
-    from other 625 words CSV files.
+    from the SQLite database.
     """
-    langs = set()
-    for csv_path in folder_path.glob("625_words-base-*.csv"):
-        langs.add(csv_path.stem.split("-")[-1])
+    _ensure_db_exists(db_path, data_dir)
+    _check_db_freshness(db_path, data_dir)
 
-    pictures_df = pd.read_csv(folder_path / "625_words-pictures.csv", sep=",")
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
 
-    for lang in langs:
-        base_lang_df = pd.read_csv(folder_path / f"625_words-base-{lang}.csv", sep=",")
-        for csv_path in folder_path.glob(f"625_words-from-*-to-{lang}.csv"):
-            csv_path_generated = folder_path / "generated" / csv_path.name
-            joined_df = pd.merge(
-                base_lang_df,
-                pictures_df,
-                how="left",
-                on="key",
-            )
-            joined_df["source"] = joined_df.apply(
-                lambda row: _format_source(
-                    row["picture source"], row[f"audio source:{lang.split('_')[0]}"]
-                ),
-                axis=1,
-            )
-            # keep 'key' and 'source' columns and only if 'source' is not empty
-            joined_df = joined_df[["key", "source"]][joined_df["source"] != ""]
-            joined_df.to_csv(csv_path_generated, index=False)
-            print(f"CSV file '{csv_path_generated}' written")
+    # Get all locales
+    cursor.execute("SELECT DISTINCT locale FROM base_language ORDER BY locale")
+    locales = [row[0] for row in cursor.fetchall()]
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    for locale in locales:
+        # Get translation pairs that have this locale as target
+        cursor.execute(
+            "SELECT DISTINCT source_locale FROM translation_pair WHERE target_locale = ? ORDER BY source_locale",
+            (locale,),
+        )
+        source_locales = [row[0] for row in cursor.fetchall()]
+
+        for source_locale in source_locales:
+            # Query with joins to get key and source field
+            query = """
+                SELECT
+                    bl.key,
+                    CASE
+                        WHEN p.picture_source IS NOT NULL AND p.picture_source != ''
+                             AND bl.audio_source IS NOT NULL AND bl.audio_source != ''
+                        THEN 'Picture:<br>' || p.picture_source || '<br><br>Audio:<br>' || bl.audio_source
+                        WHEN p.picture_source IS NOT NULL AND p.picture_source != ''
+                        THEN 'Picture:<br>' || p.picture_source
+                        WHEN bl.audio_source IS NOT NULL AND bl.audio_source != ''
+                        THEN 'Audio:<br>' || bl.audio_source
+                        ELSE ''
+                    END as source
+                FROM base_language bl
+                LEFT JOIN pictures p ON bl.key = p.key
+                WHERE bl.locale = ?
+                ORDER BY bl.key COLLATE NOCASE
+            """
+
+            df = pd.read_sql_query(query, conn, params=(locale,))
+            df = df[df["source"] != ""]  # Only keep rows with source
+
+            output_file = output_dir / f"625_words-from-{source_locale}-to-{locale}.csv"
+            df.to_csv(output_file, index=False, lineterminator="\n")
+            print(f"CSV file '{output_file}' written")
+
+    conn.close()
 
 
 class _AmbiguousWords:
@@ -348,64 +449,135 @@ class _AmbiguousWords:
         return f"{self.filename}: {self.ambiguous_words}"
 
 
-def ambiguity_detection(folder_path: Path) -> str:
+def ambiguity_detection(db_path: Path, data_dir: Path = Path("src/data")) -> str:
     """
-    Detect ambiguous words in the given folder.
+    Detect ambiguous words in the database.
     """
+    _ensure_db_exists(db_path, data_dir)
+    _check_db_freshness(db_path, data_dir)
+
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+
+    # Get all translation pairs
+    cursor.execute("""
+        SELECT DISTINCT source_locale, target_locale
+        FROM translation_pair
+        ORDER BY source_locale, target_locale
+    """)
+    pairs = cursor.fetchall()
+
     aw_list: List[_AmbiguousWords] = []
-    for csv_path in sorted(folder_path.glob("625_words-from-*-to-*.csv")):
-        aw_obj = _AmbiguousWords(csv_path.name)
-        re_result = re.search(r"625_words-from-(.*)-to-(.*)", csv_path.stem).groups()
-        from_lang = re_result[0]
-        from_lang_short = from_lang.split("_")[0]
-        to_lang = re_result[1]
-        to_lang_short = to_lang.split("_")[0]
 
-        # join with the two base files
-        df = pd.read_csv(csv_path, sep=",")
-        from_df = pd.read_csv(folder_path / f"625_words-base-{from_lang}.csv", sep=",")
-        to_df = pd.read_csv(folder_path / f"625_words-base-{to_lang}.csv", sep=",")
-        df = pd.merge(df, from_df, how="left", on="key")
-        df = pd.merge(df, to_df, how="left", on="key")
+    for source_locale, target_locale in pairs:
+        filename = f"625_words-from-{source_locale}-to-{target_locale}.csv"
+        aw_obj = _AmbiguousWords(filename)
 
-        for rowindex, row in df[
-            df.duplicated(f"text:{from_lang_short}")
-            & df[f"text:{from_lang_short}"].notna()
-        ].iterrows():
-            duplicate_rows = df[
-                df[f"text:{from_lang_short}"] == row[f"text:{from_lang_short}"]
-            ]
+        # Find duplicate source texts
+        cursor.execute(
+            """
+            SELECT
+                bl_from.text as word,
+                GROUP_CONCAT(tp.key) as keys,
+                MAX(CASE WHEN tp.pronunciation_hint IS NULL OR tp.pronunciation_hint = '' THEN 1 ELSE 0 END) as missing_pronunciation,
+                MAX(CASE WHEN tp.spelling_hint IS NULL OR tp.spelling_hint = '' THEN 1 ELSE 0 END) as missing_spelling
+            FROM translation_pair tp
+            JOIN base_language bl_from ON tp.key = bl_from.key AND bl_from.locale = tp.source_locale
+            WHERE tp.source_locale = ? AND tp.target_locale = ?
+                AND bl_from.text IS NOT NULL AND bl_from.text != ''
+            GROUP BY bl_from.text
+            HAVING COUNT(*) > 1
+        """,
+            (source_locale, target_locale),
+        )
+
+        for row in cursor.fetchall():
+            word, keys_str, missing_pronunciation, missing_spelling = row
+            keys = tuple(keys_str.split(","))
             columns = []
-            if duplicate_rows["pronunciation hint"].isnull().all():
-                columns.append("pronunciation hint")
-            if duplicate_rows["spelling hint"].isnull().all():
-                columns.append("spelling hint")
-            if columns:
-                aw_obj.add(
-                    row[f"text:{from_lang_short}"],
-                    tuple(duplicate_rows["key"]),
-                    tuple(columns),
-                )
 
-        for rowindex, row in df[
-            df.duplicated(f"text:{to_lang_short}") & df[f"text:{to_lang_short}"].notna()
-        ].iterrows():
-            duplicate_rows = df[
-                df[f"text:{to_lang_short}"] == row[f"text:{to_lang_short}"]
-            ]
-            columns = []
-            if duplicate_rows["reading hint"].isnull().all():
-                columns.append("reading hint")
-            if duplicate_rows["listening hint"].isnull().all():
-                columns.append("listening hint")
-            if columns:
-                aw_obj.add(
-                    row[f"text:{to_lang_short}"],
-                    tuple(duplicate_rows["key"]),
-                    tuple(columns),
+            # Check if all rows are missing the hints (all must be missing)
+            if missing_pronunciation:
+                # Verify all rows have missing pronunciation hint
+                cursor.execute(
+                    """
+                    SELECT COUNT(*) FROM translation_pair
+                    WHERE key IN ({}) AND source_locale = ? AND target_locale = ?
+                        AND (pronunciation_hint IS NULL OR pronunciation_hint = '')
+                """.format(",".join("?" * len(keys))),
+                    (*keys, source_locale, target_locale),
                 )
+                if cursor.fetchone()[0] == len(keys):
+                    columns.append("pronunciation hint")
+
+            if missing_spelling:
+                cursor.execute(
+                    """
+                    SELECT COUNT(*) FROM translation_pair
+                    WHERE key IN ({}) AND source_locale = ? AND target_locale = ?
+                        AND (spelling_hint IS NULL OR spelling_hint = '')
+                """.format(",".join("?" * len(keys))),
+                    (*keys, source_locale, target_locale),
+                )
+                if cursor.fetchone()[0] == len(keys):
+                    columns.append("spelling hint")
+
+            if columns:
+                aw_obj.add(word, keys, tuple(columns))
+
+        # Find duplicate target texts
+        cursor.execute(
+            """
+            SELECT
+                bl_to.text as word,
+                GROUP_CONCAT(tp.key) as keys,
+                MAX(CASE WHEN tp.reading_hint IS NULL OR tp.reading_hint = '' THEN 1 ELSE 0 END) as missing_reading,
+                MAX(CASE WHEN tp.listening_hint IS NULL OR tp.listening_hint = '' THEN 1 ELSE 0 END) as missing_listening
+            FROM translation_pair tp
+            JOIN base_language bl_to ON tp.key = bl_to.key AND bl_to.locale = tp.target_locale
+            WHERE tp.source_locale = ? AND tp.target_locale = ?
+                AND bl_to.text IS NOT NULL AND bl_to.text != ''
+            GROUP BY bl_to.text
+            HAVING COUNT(*) > 1
+        """,
+            (source_locale, target_locale),
+        )
+
+        for row in cursor.fetchall():
+            word, keys_str, missing_reading, missing_listening = row
+            keys = tuple(keys_str.split(","))
+            columns = []
+
+            if missing_reading:
+                cursor.execute(
+                    """
+                    SELECT COUNT(*) FROM translation_pair
+                    WHERE key IN ({}) AND source_locale = ? AND target_locale = ?
+                        AND (reading_hint IS NULL OR reading_hint = '')
+                """.format(",".join("?" * len(keys))),
+                    (*keys, source_locale, target_locale),
+                )
+                if cursor.fetchone()[0] == len(keys):
+                    columns.append("reading hint")
+
+            if missing_listening:
+                cursor.execute(
+                    """
+                    SELECT COUNT(*) FROM translation_pair
+                    WHERE key IN ({}) AND source_locale = ? AND target_locale = ?
+                        AND (listening_hint IS NULL OR listening_hint = '')
+                """.format(",".join("?" * len(keys))),
+                    (*keys, source_locale, target_locale),
+                )
+                if cursor.fetchone()[0] == len(keys):
+                    columns.append("listening hint")
+
+            if columns:
+                aw_obj.add(word, keys, tuple(columns))
 
         aw_list.append(aw_obj)
+
+    conn.close()
 
     output = ""
     for aw_obj in aw_list:

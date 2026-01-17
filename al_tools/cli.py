@@ -5,7 +5,6 @@ from al_tools.core import (
     generate_audio,
     AudioExistsAction,
     generate_joined_source_fields,
-    fix_625_words_files,
     ambiguity_detection,
     sort_csv_files,
     csv2sqlite,
@@ -22,10 +21,16 @@ def cli():
 
     audio_parser = subparsers.add_parser("audio")
     audio_parser.add_argument(
-        "-i", "--input", type=str, required=True, help="Input CSV file"
+        "-l", "--locale", type=str, required=True, help="Locale (e.g., en_us, es_es)"
     )
     audio_parser.add_argument(
         "-o", "--output", type=str, required=True, help="Output audio folder"
+    )
+    audio_parser.add_argument(
+        "-d", "--database", type=str, default="data.db", help="Database file path"
+    )
+    audio_parser.add_argument(
+        "--data-dir", type=str, default="src/data", help="Data folder with CSV files"
     )
     audio_parser.add_argument(
         "-a",
@@ -36,15 +41,30 @@ def cli():
     )
 
     generate_parser = subparsers.add_parser(
-        "generate", help="Generate files in 'generated' folder"
+        "generate", help="Generate files in 'generated' folder from SQLite"
     )
     generate_parser.add_argument(
-        "-i", "--input", type=str, required=True, help="Input folder"
+        "-o",
+        "--output",
+        type=str,
+        required=True,
+        help="Output folder for generated files",
+    )
+    generate_parser.add_argument(
+        "-d", "--database", type=str, default="data.db", help="Database file path"
+    )
+    generate_parser.add_argument(
+        "--data-dir", type=str, default="src/data", help="Data folder with CSV files"
     )
 
-    check_parser = subparsers.add_parser("check")
+    check_parser = subparsers.add_parser(
+        "check", help="Check for ambiguous words in SQLite"
+    )
     check_parser.add_argument(
-        "-i", "--input", type=str, required=True, help="Input folder"
+        "-d", "--database", type=str, default="data.db", help="Database file path"
+    )
+    check_parser.add_argument(
+        "--data-dir", type=str, default="src/data", help="Data folder with CSV files"
     )
 
     sort_csv_parser = subparsers.add_parser(
@@ -83,15 +103,18 @@ def cli():
 
     if args.command == "audio":
         generate_audio(
-            Path(args.input),
+            Path(args.database),
+            args.locale,
             Path(args.output),
             AudioExistsAction(args.action),
+            Path(args.data_dir),
         )
     elif args.command == "generate":
-        fix_625_words_files(Path(args.input))
-        generate_joined_source_fields(Path(args.input))
+        generate_joined_source_fields(
+            Path(args.database), Path(args.output), Path(args.data_dir)
+        )
     elif args.command == "check":
-        output = ambiguity_detection(Path(args.input))
+        output = ambiguity_detection(Path(args.database), Path(args.data_dir))
         print(output)
     elif args.command == "sort-csv":
         sort_csv_files(Path(args.input))

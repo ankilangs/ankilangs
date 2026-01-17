@@ -1,7 +1,9 @@
 def test_basic_french_fille(testdata_dir, tmpdir, golden_dir):
-    from al_tools.core import ambiguity_detection
+    from al_tools.core import ambiguity_detection, csv2sqlite
 
-    output = ambiguity_detection(testdata_dir)
+    db_path = tmpdir / "test.db"
+    csv2sqlite(testdata_dir, db_path, force=True)
+    output = ambiguity_detection(db_path, testdata_dir)
 
     assert (
         output
@@ -14,16 +16,20 @@ The following ambiguous words were found in the file '625_words-from-fr_fr-to-de
 
 
 def test_basic_french_fille_fixed(testdata_dir, tmpdir, golden_dir):
-    from al_tools.core import ambiguity_detection
+    from al_tools.core import ambiguity_detection, csv2sqlite
 
-    output = ambiguity_detection(testdata_dir)
+    db_path = tmpdir / "test.db"
+    csv2sqlite(testdata_dir, db_path, force=True)
+    output = ambiguity_detection(db_path, testdata_dir)
 
     assert output == ""
 
 
 def test_basic_french_no_ambiguity(testdata_dir, tmpdir, golden_dir):
-    from al_tools.core import ambiguity_detection
+    from al_tools.core import ambiguity_detection, csv2sqlite
 
-    output = ambiguity_detection(testdata_dir)
+    db_path = tmpdir / "test.db"
+    csv2sqlite(testdata_dir, db_path, force=True)
+    output = ambiguity_detection(db_path, testdata_dir)
 
     assert output == ""
