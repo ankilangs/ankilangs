@@ -202,10 +202,17 @@ def generate_audio(
     # Read from SQLite
     conn = sqlite3.connect(db_path)
     query = """
-        SELECT key, text, audio, audio_source
-        FROM base_language
-        WHERE locale = ?
-        ORDER BY key
+        SELECT
+            bl.key,
+            bl.text,
+            bl.audio,
+            bl.audio_source,
+            COALESCE(tts.tts_text, bl.text) as tts_text,
+            COALESCE(tts.is_ssml, 0) as is_ssml
+        FROM base_language bl
+        LEFT JOIN tts_overrides tts ON bl.key = tts.key AND bl.locale = tts.locale
+        WHERE bl.locale = ?
+        ORDER BY bl.key
     """
     df = pd.read_sql_query(query, conn, params=(locale,))
 
@@ -263,7 +270,15 @@ def generate_audio(
                 language_code=f"{locale.split('_')[0]}-{locale.split('_')[1].upper()}",
                 name=voice_name,
             )
-            synthesis_input = tts.SynthesisInput(text=row[text_col])
+
+            # Use TTS override if available, otherwise use regular text
+            tts_text = row["tts_text"]
+            is_ssml = row["is_ssml"]
+
+            if is_ssml:
+                synthesis_input = tts.SynthesisInput(ssml=tts_text)
+            else:
+                synthesis_input = tts.SynthesisInput(text=tts_text)
 
             # Avoid rate limit
             time.sleep(1)
@@ -275,7 +290,9 @@ def generate_audio(
                     audio_config=audio_config,
                 )
             except Exception as e:
-                raise Exception(f"Error for '{row[text_col]}': {e}") from e
+                raise Exception(
+                    f"Error for '{row[text_col]}' (TTS text: '{tts_text}'): {e}"
+                ) from e
             audio_file.write_bytes(response.audio_content)
             df.at[rowindex, audio_col] = f"[sound:{audio_file.name}]"
             df.at[rowindex, audio_source_col] = (
@@ -690,6 +707,18 @@ def csv2sqlite(data_dir: Path, db_path: Path, force: bool = False):
     """)
 
     cursor.execute("""
+        CREATE TABLE IF NOT EXISTS tts_overrides (
+            key TEXT NOT NULL,
+            locale TEXT NOT NULL,
+            tts_text TEXT NOT NULL,
+            is_ssml BOOLEAN DEFAULT 0,
+            notes TEXT,
+            PRIMARY KEY (key, locale),
+            FOREIGN KEY (key) REFERENCES vocabulary(key)
+        )
+    """)
+
+    cursor.execute("""
         CREATE TABLE IF NOT EXISTS _meta (
             key TEXT PRIMARY KEY,
             value TEXT
@@ -701,6 +730,7 @@ def csv2sqlite(data_dir: Path, db_path: Path, force: bool = False):
     cursor.execute("DELETE FROM translation_pair")
     cursor.execute("DELETE FROM pictures")
     cursor.execute("DELETE FROM minimal_pairs")
+    cursor.execute("DELETE FROM tts_overrides")
     cursor.execute("DELETE FROM vocabulary")
     cursor.execute("DELETE FROM _meta")
 
@@ -786,6 +816,34 @@ def csv2sqlite(data_dir: Path, db_path: Path, force: bool = False):
                         (key, row.get("picture", ""), row.get("picture source", "")),
                     )
         print(f"Imported {pictures_file.name}")
+
+    # Import TTS overrides
+    tts_overrides_file = data_dir / "tts_overrides.csv"
+    if tts_overrides_file.exists():
+        with open(tts_overrides_file, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                key = row.get("key", "")
+                locale = row.get("locale", "")
+                tts_text = row.get("tts_text", "")
+                if key and locale and tts_text:
+                    cursor.execute(
+                        "INSERT OR IGNORE INTO vocabulary (key) VALUES (?)", (key,)
+                    )
+                    cursor.execute(
+                        """
+                        INSERT OR REPLACE INTO tts_overrides (key, locale, tts_text, is_ssml, notes)
+                        VALUES (?, ?, ?, ?, ?)
+                    """,
+                        (
+                            key,
+                            locale,
+                            tts_text,
+                            1 if row.get("is_ssml", "0") == "1" else 0,
+                            row.get("notes", ""),
+                        ),
+                    )
+        print(f"Imported {tts_overrides_file.name}")
 
     # Import minimal pairs
     for csv_file in sorted(data_dir.glob("minimal_pairs-*.csv")):
@@ -955,6 +1013,32 @@ def sqlite2csv(db_path: Path, data_dir: Path):
                     "key": row["key"],
                     "picture": row["picture"] or "",
                     "picture source": row["picture_source"] or "",
+                }
+            )
+    print(f"Exported {csv_file.name} ({len(rows)} rows)")
+
+    # Export TTS overrides
+    cursor.execute(
+        "SELECT key, locale, tts_text, is_ssml, notes FROM tts_overrides ORDER BY key COLLATE NOCASE, locale"
+    )
+    rows = cursor.fetchall()
+
+    csv_file = data_dir / "tts_overrides.csv"
+    with open(csv_file, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=["key", "locale", "tts_text", "is_ssml", "notes"],
+            lineterminator="\n",
+        )
+        writer.writeheader()
+        for row in rows:
+            writer.writerow(
+                {
+                    "key": row["key"],
+                    "locale": row["locale"],
+                    "tts_text": row["tts_text"] or "",
+                    "is_ssml": "1" if row["is_ssml"] else "0",
+                    "notes": row["notes"] or "",
                 }
             )
     print(f"Exported {csv_file.name} ({len(rows)} rows)")
