@@ -1,54 +1,54 @@
 key,source
-the car,"Picture:<br><a href=""https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/"">https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/</a>"
-Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a>"
-the town,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the T-shirt,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the pants,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the shoes,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the pocket,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the coat,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the stain,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the clothing,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-red,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-green,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-blue,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-light blue,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-dark blue,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-yellow,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-brown,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-pink,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-orange,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 black,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-white,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+blue,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+brown,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+dark blue,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a>"
 gray,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the color,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the son,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the daughter,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the mother,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the father,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the parent,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+green,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+light blue,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+orange,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+pink,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+red,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the adult,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the baby,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the man,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the woman,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the boy,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the brother,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the sister,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the car,"Picture:<br><a href=""https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/"">https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/</a>"
+the child,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the clothing,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the coat,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the color,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the crowd,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the daughter,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the family,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the fan [person],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the father,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the friend,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the girl,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the grandfather,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the grandmother,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the husband,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the wife,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the king,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the queen,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the president,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the neighbor,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the boy,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the girl,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the child,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the adult,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the human,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the friend,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the victim,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the player,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-the fan [person],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-the crowd,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the husband,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the king,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the man,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the mother,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the neighbor,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the pants,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the parent,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the person,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the player,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the pocket,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the president,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the queen,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the shoes,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the sister,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the son,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the stain,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the T-shirt,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the town,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the victim,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the wife,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the woman,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+white,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+yellow,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B

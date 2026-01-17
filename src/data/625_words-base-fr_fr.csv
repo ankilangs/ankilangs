@@ -1,630 +1,630 @@
 key,text:fr,ipa:fr,audio:fr,audio source:fr,tags:fr
-the car,la voiture,/la vwa.tyʁ/,[sound:al_fr_fr_la_voiture.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-Earth,la Terre,/la tɛʁ/,[sound:al_fr_fr_la_terre.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the dog,le chien,/lə ʃjɛ̃/,[sound:al_fr_fr_le_chien.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the cat,le chat,/lə ʃa/,[sound:al_fr_fr_le_chat.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the fish,le poisson,/lə pwa.sɔ̃/,[sound:al_fr_fr_le_poisson.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the bird,l'oiseau,/lwa.zo/,[sound:al_fr_fr_l_oiseau.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the cow,la vache,/la vaʃ/,[sound:al_fr_fr_la_vache.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the pig,le cochon,/lə kɔ.ʃɔ̃/,[sound:al_fr_fr_le_cochon.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the mouse,la souris,/la su.ʁi/,[sound:al_fr_fr_la_souris.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the horse,le cheval,/lə ʃə.val/,[sound:al_fr_fr_le_cheval.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the wing,l'aile,/l‿ɛl/,[sound:al_fr_fr_l_aile.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the animal,l'animal,/la.ni.mal/,[sound:al_fr_fr_l_animal.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the train,le train,/lə tʁɛ̃/,[sound:al_fr_fr_le_train.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the plane,l'avion,/la.vjɔ̃/,[sound:al_fr_fr_l_avion.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the truck,le camion,/lə ka.mjɔ̃/,[sound:al_fr_fr_le_camion.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the bicycle,le vélo,/lə ve.lo/,[sound:al_fr_fr_le_v_lo.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the bus,le bus,/lə bys/,[sound:al_fr_fr_le_bus.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the boat,le bateau,/lə ba.to/,[sound:al_fr_fr_le_bateau.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the ship,le navire,/lə na.viʁ/,[sound:al_fr_fr_le_navire.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the tire,le pneu,/lə pnø/,[sound:al_fr_fr_le_pneu.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the gasoline,l'essence,/le.sɑ̃s/,[sound:al_fr_fr_l_essence.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the engine,le moteur,/lə mɔ.tœʁ/,[sound:al_fr_fr_le_moteur.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the (train) ticket,le billet (de train),/lə bi.je (də tʁɛ̃)/,[sound:al_fr_fr_le_billet_de_train.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-transportation,le transport,/lə tʁɑ̃s.pɔʁ/,[sound:al_fr_fr_le_transport.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the city,la ville,/la vil/,[sound:al_fr_fr_la_ville.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the house,la maison,/la mɛ.zɔ̃/,[sound:al_fr_fr_la_maison.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the apartment,l'appartement,/la.paʁ.tə.mɑ̃/,[sound:al_fr_fr_l_appartement.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the street/road,la rue,/la ʁy/,[sound:al_fr_fr_la_rue.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the airport,l'aéroport,/la.e.ʁɔ.pɔʁ/,[sound:al_fr_fr_l_a_roport.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the train station,la gare,/la ɡaʁ/,[sound:al_fr_fr_la_gare.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the bridge,le pont,/lə pɔ̃/,[sound:al_fr_fr_le_pont.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the hotel,l'hôtel,/lo.tɛl/,[sound:al_fr_fr_l_h_tel.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the restaurant,le restaurant,/lə ʁɛs.to.ʁɑ̃/,[sound:al_fr_fr_le_restaurant.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the farm,la ferme,/la fɛʁm/,[sound:al_fr_fr_la_ferme.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the court,le tribunal,/lə tʁi.by.nal/,[sound:al_fr_fr_le_tribunal.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the school,l'école,/le.kɔl/,[sound:al_fr_fr_l_cole.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the office,le bureau,/lə by.ʁo/,[sound:al_fr_fr_le_bureau.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the room,la pièce,/la pjɛs/,[sound:al_fr_fr_la_pi_ce.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the town,la petite ville,/la pə.tit vil/,[sound:al_fr_fr_la_petite_ville.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the university,l'université,/ly.ni.vɛʁ.si.te/,[sound:al_fr_fr_l_universit.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the club,le club,/lə klœb/,[sound:al_fr_fr_le_club.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the bar,le bar,/lə baʁ/,[sound:al_fr_fr_le_bar.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the park,le parc,/lə paʁk/,[sound:al_fr_fr_le_parc.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the camp,le campement,/lə kɑ̃.mɑ̃/,[sound:al_fr_fr_le_campement.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the store/shop,le magasin,/lə ma.ɡa.zɛ̃/,[sound:al_fr_fr_le_magasin.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the theater,le théâtre,/lə te.ɑtʁ/,[sound:al_fr_fr_le_th_tre.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the library,la bibliothèque,/la bi.bli.ɔ.tɛk/,[sound:al_fr_fr_la_biblioth_que.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the hospital,l'hôpital,/lo.pi.tal/,[sound:al_fr_fr_l_h_pital.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the church,l'église,/le.ɡliz/,[sound:al_fr_fr_l_glise.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the market,le marché,/lə maʁ.ʃe/,[sound:al_fr_fr_le_march.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-"the country (USA, France, etc.)",le pays,/lə pe.i/,[sound:al_fr_fr_le_pays.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the building,le bâtiment,/lə ba.ti.mɑ̃/,[sound:al_fr_fr_le_b_timent.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the ground,le sol,/lə sɔl/,[sound:al_fr_fr_le_sol.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-space (outer space),l'espace,/l‿ɛs.pas/,[sound:al_fr_fr_l_espace.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the bank,la banque,/la bɑ̃k/,[sound:al_fr_fr_la_banque.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the location,l'emplacement,/lɑ̃.plas.mɑ̃/,[sound:al_fr_fr_l_emplacement.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the hat,le chapeau,/lə ʃa.po/,[sound:al_fr_fr_le_chapeau.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the dress,la robe,/la ʁɔb/,[sound:al_fr_fr_la_robe.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the suit,le costume,/lə kɔs.tym/,[sound:al_fr_fr_le_costume.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the skirt,la jupe,/la ʒyp/,[sound:al_fr_fr_la_jupe.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the shirt,la chemise,/la ʃə.miz/,[sound:al_fr_fr_la_chemise.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the T-shirt,le T-shirt,/lə ti.ʃœʁt/,[sound:al_fr_fr_le_t_shirt.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the pants,le pantalon,/lə pɑ̃.ta.lɔ̃/,[sound:al_fr_fr_le_pantalon.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the shoes,les chaussures,/le ʃo.syʁ/,[sound:al_fr_fr_les_chaussures.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the pocket,la poche,/la pɔʃ/,[sound:al_fr_fr_la_poche.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the coat,le manteau,/lə mɑ̃.to/,[sound:al_fr_fr_le_manteau.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the stain,la tache,/la taʃ/,[sound:al_fr_fr_la_tache.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the clothing,les vêtements,/le vɛt.mɑ̃/,[sound:al_fr_fr_les_v_tements.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-red,rouge,/ʁuʒ/,[sound:al_fr_fr_rouge.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-green,vert,/vɛʁ/,[sound:al_fr_fr_vert.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-blue,bleu,/blø/,[sound:al_fr_fr_bleu.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-light blue,bleu clair,/blø klɛʁ/,[sound:al_fr_fr_bleu_clair.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-dark blue,bleu foncé,/blø fɔ̃se/,[sound:al_fr_fr_bleu_fonc.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-yellow,jaune,/ʒon/,[sound:al_fr_fr_jaune.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-brown,marron,/maʁɔ̃/,[sound:al_fr_fr_marron.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-pink,rose,/ʁoz/,[sound:al_fr_fr_rose.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-orange,orange,/ɔʁɑ̃ʒ/,[sound:al_fr_fr_orange.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-black,noir,/nwaʁ/,[sound:al_fr_fr_noir.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-white,blanc,/blɑ̃/,[sound:al_fr_fr_blanc.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-gray,gris,/ɡʁi/,[sound:al_fr_fr_gris.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the color,la couleur,/la ku.lœʁ/,[sound:al_fr_fr_la_couleur.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the son,le fils,/lə fis/,[sound:al_fr_fr_le_fils.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the daughter,la fille,/la fij/,[sound:al_fr_fr_la_fille.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the mother,la mère,/la mɛʁ/,[sound:al_fr_fr_la_m_re.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the father,le père,/lə pɛʁ/,[sound:al_fr_fr_le_p_re.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the parent,le parent,/lə paʁɑ̃/,[sound:al_fr_fr_le_parent.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the baby,le bébé,/lə bebe/,[sound:al_fr_fr_le_b_b.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the man,l'homme,/l‿ɔm/,[sound:al_fr_fr_l_homme.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the woman,la femme,/la fam/,[sound:al_fr_fr_la_femme.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the brother,le frère,/lə fʁɛʁ/,[sound:al_fr_fr_le_fr_re.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the sister,la sœur,/la sœʁ/,[sound:al_fr_fr_la_s_ur.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the family,la famille,/la faˈmij/,[sound:al_fr_fr_la_famille.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the grandfather,le grand-père,/lə ɡʁɑ̃.pɛʁ/,[sound:al_fr_fr_le_grand_p_re.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the grandmother,la grand-mère,/la ɡʁɑ̃.mɛʁ/,[sound:al_fr_fr_la_grand_m_re.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the husband,le mari,/lə maʁi/,[sound:al_fr_fr_le_mari.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the wife,la femme,/la fam/,[sound:al_fr_fr_la_femme.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the king,le roi,/lə ʁwa/,[sound:al_fr_fr_le_roi.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the queen,la reine,/la ʁɛn/,[sound:al_fr_fr_la_reine.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the president,le président,/lə pʁe.ziˈdɑ̃/,[sound:al_fr_fr_le_pr_sident.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the neighbor,le voisin,/lə vwazɛ̃/,[sound:al_fr_fr_le_voisin.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the boy,le garçon,/lə ɡaʁ.sɔ̃/,[sound:al_fr_fr_le_gar_on.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the girl,la fille,/la fij/,[sound:al_fr_fr_la_fille.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the child,l'enfant,/l‿ɑ̃.fɑ̃/,[sound:al_fr_fr_l_enfant.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the adult,l'adulte,/la.dylt/,[sound:al_fr_fr_l_adulte.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the human,l'humain,/ly.mɛ̃/,[sound:al_fr_fr_l_humain.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the friend,l'ami,/la.mi/,[sound:al_fr_fr_l_ami.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the victim,la victime,/la vik.tim/,[sound:al_fr_fr_la_victime.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the player,le joueur,/lə ʒwaʁ/,[sound:al_fr_fr_le_joueur.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the fan [person],le fan,/lə fan/,[sound:al_fr_fr_le_fan.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the crowd,la foule,/la ful/,[sound:al_fr_fr_la_foule.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-the person,la personne,/la pɛʁ.sɔn/,[sound:al_fr_fr_la_personne.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-the teacher,,,,,AnkiLangs::FR
-the student,,,,,AnkiLangs::FR
-the lawyer,,,,,AnkiLangs::FR
-the doctor,,,,,AnkiLangs::FR
-the patient,,,,,AnkiLangs::FR
-the waiter,,,,,AnkiLangs::FR
-the secretary,,,,,AnkiLangs::FR
-the priest,,,,,AnkiLangs::FR
-the police,,,,,AnkiLangs::FR
-the army,,,,,AnkiLangs::FR
-the soldier,,,,,AnkiLangs::FR
-the artist,,,,,AnkiLangs::FR
-the author,,,,,AnkiLangs::FR
-the manager,,,,,AnkiLangs::FR
-the reporter,,,,,AnkiLangs::FR
-the actor,,,,,AnkiLangs::FR
-the job,,,,,AnkiLangs::FR
-religion,,,,,AnkiLangs::FR
-heaven,,,,,AnkiLangs::FR
-hell,,,,,AnkiLangs::FR
-death,,,,,AnkiLangs::FR
-medicine,,,,,AnkiLangs::FR
-money,,,,,AnkiLangs::FR
-the dollar,,,,,AnkiLangs::FR
-the bill [bank note],,,,,AnkiLangs::FR
-marriage,,,,,AnkiLangs::FR
-wedding,,,,,AnkiLangs::FR
-the team,,,,,AnkiLangs::FR
-relationship,,,,,AnkiLangs::FR
-race [ethnicity],,,,,AnkiLangs::FR
-sex [the act],,,,,AnkiLangs::FR
-sex [gender],,,,,AnkiLangs::FR
-murder,,,,,AnkiLangs::FR
-prison,,,,,AnkiLangs::FR
-technology,,,,,AnkiLangs::FR
-energy,,,,,AnkiLangs::FR
-war,,,,,AnkiLangs::FR
-peace,,,,,AnkiLangs::FR
-the attack,,,,,AnkiLangs::FR
-the election,,,,,AnkiLangs::FR
-the magazine,,,,,AnkiLangs::FR
-the newspaper,,,,,AnkiLangs::FR
-poison,,,,,AnkiLangs::FR
-the gun,,,,,AnkiLangs::FR
-sport,,,,,AnkiLangs::FR
-race [sport],,,,,AnkiLangs::FR
-exercise,,,,,AnkiLangs::FR
-the ball,,,,,AnkiLangs::FR
-the game,,,,,AnkiLangs::FR
-the price,,,,,AnkiLangs::FR
-the contract,,,,,AnkiLangs::FR
-the drug,,,,,AnkiLangs::FR
-the sign,,,,,AnkiLangs::FR
-science,,,,,AnkiLangs::FR
-God,,,,,AnkiLangs::FR
-the band [music],,,,,AnkiLangs::FR
-the song,,,,,AnkiLangs::FR
-the instrument,,,,,AnkiLangs::FR
-music,,,,,AnkiLangs::FR
-the movie,,,,,AnkiLangs::FR
+alive,,,,,AnkiLangs::FR
+April,,,,,AnkiLangs::FR
 art,,,,,AnkiLangs::FR
-coffee,,,,,AnkiLangs::FR
-tea,,,,,AnkiLangs::FR
-wine,,,,,AnkiLangs::FR
+August,,,,,AnkiLangs::FR
+bad,,,,,AnkiLangs::FR
+beautiful,,,,,AnkiLangs::FR
 beer,,,,,AnkiLangs::FR
-juice,,,,,AnkiLangs::FR
-water,,,,,AnkiLangs::FR
-milk,,,,,AnkiLangs::FR
-the beverage,,,,,AnkiLangs::FR
-the egg,,,,,AnkiLangs::FR
-the cheese,,,,,AnkiLangs::FR
-the bread,,,,,AnkiLangs::FR
-the soup,,,,,AnkiLangs::FR
-the cake,,,,,AnkiLangs::FR
-the chicken,,,,,AnkiLangs::FR
-the pork,,,,,AnkiLangs::FR
-the beef,,,,,AnkiLangs::FR
-the apple,,,,,AnkiLangs::FR
-the banana,,,,,AnkiLangs::FR
-the orange,,,,,AnkiLangs::FR
-the lemon,,,,,AnkiLangs::FR
-the corn,,,,,AnkiLangs::FR
-rice,,,,,AnkiLangs::FR
-oil,,,,,AnkiLangs::FR
-the seed,,,,,AnkiLangs::FR
-the knife,,,,,AnkiLangs::FR
-the spoon,,,,,AnkiLangs::FR
-the fork,,,,,AnkiLangs::FR
-the plate,,,,,AnkiLangs::FR
-the cup,,,,,AnkiLangs::FR
-breakfast,,,,,AnkiLangs::FR
-lunch,,,,,AnkiLangs::FR
-dinner,,,,,AnkiLangs::FR
-sugar,,,,,AnkiLangs::FR
-salt,,,,,AnkiLangs::FR
-the bottle,,,,,AnkiLangs::FR
-food,,,,,AnkiLangs::FR
-the table,,,,,AnkiLangs::FR
-the chair,,,,,AnkiLangs::FR
-the bed,,,,,AnkiLangs::FR
-the dream,,,,,AnkiLangs::FR
-the window,,,,,AnkiLangs::FR
-the door,,,,,AnkiLangs::FR
-the bedroom,,,,,AnkiLangs::FR
-the kitchen,,,,,AnkiLangs::FR
-the bathroom,,,,,AnkiLangs::FR
-the pencil,,,,,AnkiLangs::FR
-the pen,,,,,AnkiLangs::FR
-the photograph,,,,,AnkiLangs::FR
-the soap,,,,,AnkiLangs::FR
-the book,,,,,AnkiLangs::FR
-the page,,,,,AnkiLangs::FR
-the key,,,,,AnkiLangs::FR
-the paint,,,,,AnkiLangs::FR
-the letter,,,,,AnkiLangs::FR
-the note,,,,,AnkiLangs::FR
-the wall,,,,,AnkiLangs::FR
-the paper,,,,,AnkiLangs::FR
-the floor,,,,,AnkiLangs::FR
-the ceiling,,,,,AnkiLangs::FR
-the roof,,,,,AnkiLangs::FR
-the pool,,,,,AnkiLangs::FR
-the lock,,,,,AnkiLangs::FR
-the telephone,,,,,AnkiLangs::FR
-the garden,,,,,AnkiLangs::FR
-the yard,,,,,AnkiLangs::FR
-the needle,,,,,AnkiLangs::FR
-the bag,,,,,AnkiLangs::FR
-the box,,,,,AnkiLangs::FR
-the gift,,,,,AnkiLangs::FR
-the card,,,,,AnkiLangs::FR
-the ring,,,,,AnkiLangs::FR
-the tool,,,,,AnkiLangs::FR
-the clock,,,,,AnkiLangs::FR
-the lamp,,,,,AnkiLangs::FR
-the fan [appliance],,,,,AnkiLangs::FR
-the cell phone,,,,,AnkiLangs::FR
-the network,,,,,AnkiLangs::FR
-the computer,,,,,AnkiLangs::FR
-the program,,,,,AnkiLangs::FR
-the laptop,,,,,AnkiLangs::FR
-the screen,,,,,AnkiLangs::FR
-the camera,,,,,AnkiLangs::FR
-the television,,,,,AnkiLangs::FR
-the radio,,,,,AnkiLangs::FR
-the head,,,,,AnkiLangs::FR
-the neck,,,,,AnkiLangs::FR
-the face,,,,,AnkiLangs::FR
-the beard,,,,,AnkiLangs::FR
-the hair,,,,,AnkiLangs::FR
-the eye,,,,,AnkiLangs::FR
-the mouth,,,,,AnkiLangs::FR
-the lip,,,,,AnkiLangs::FR
-the nose,,,,,AnkiLangs::FR
-the tooth,,,,,AnkiLangs::FR
-the ear,,,,,AnkiLangs::FR
-the tear,,,,,AnkiLangs::FR
-the tongue,,,,,AnkiLangs::FR
-the back [anatomy],,,,,AnkiLangs::FR
-the toe,,,,,AnkiLangs::FR
-the finger,,,,,AnkiLangs::FR
-the foot,,,,,AnkiLangs::FR
-the hand,,,,,AnkiLangs::FR
-the leg,,,,,AnkiLangs::FR
-the arm,,,,,AnkiLangs::FR
-the shoulder,,,,,AnkiLangs::FR
-the heart,,,,,AnkiLangs::FR
+big / large,,,,,AnkiLangs::FR
+black,noir,/nwaʁ/,[sound:al_fr_fr_noir.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+blind,,,,,AnkiLangs::FR
 blood,,,,,AnkiLangs::FR
-the brain,,,,,AnkiLangs::FR
-the knee,,,,,AnkiLangs::FR
-sweat,,,,,AnkiLangs::FR
-disease,,,,,AnkiLangs::FR
-the bone,,,,,AnkiLangs::FR
-the voice,,,,,AnkiLangs::FR
-the skin,,,,,AnkiLangs::FR
-the body,,,,,AnkiLangs::FR
-the sea,,,,,AnkiLangs::FR
-the ocean,,,,,AnkiLangs::FR
-the river,,,,,AnkiLangs::FR
-the mountain,,,,,AnkiLangs::FR
-the rain,,,,,AnkiLangs::FR
-the snow,,,,,AnkiLangs::FR
-the tree,,,,,AnkiLangs::FR
-the sun,,,,,AnkiLangs::FR
-the moon,,,,,AnkiLangs::FR
-the world,,,,,AnkiLangs::FR
-the forest,,,,,AnkiLangs::FR
-the sky,,,,,AnkiLangs::FR
-the plant,,,,,AnkiLangs::FR
-the wind,,,,,AnkiLangs::FR
-soil/earth [ground],,,,,AnkiLangs::FR
-the flower,,,,,AnkiLangs::FR
-the valley,,,,,AnkiLangs::FR
-the root,,,,,AnkiLangs::FR
-the lake,,,,,AnkiLangs::FR
-the star,,,,,AnkiLangs::FR
-the grass,,,,,AnkiLangs::FR
-the leaf,,,,,AnkiLangs::FR
-the air,,,,,AnkiLangs::FR
-the sand,,,,,AnkiLangs::FR
-the beach,,,,,AnkiLangs::FR
-the wave,,,,,AnkiLangs::FR
-the fire,,,,,AnkiLangs::FR
-the ice,,,,,AnkiLangs::FR
-the island,,,,,AnkiLangs::FR
-the hill,,,,,AnkiLangs::FR
-the heat,,,,,AnkiLangs::FR
-nature,,,,,AnkiLangs::FR
-glass,,,,,AnkiLangs::FR
-metal,,,,,AnkiLangs::FR
-plastic,,,,,AnkiLangs::FR
-wood,,,,,AnkiLangs::FR
-stone,,,,,AnkiLangs::FR
-diamond,,,,,AnkiLangs::FR
+blue,bleu,/blø/,[sound:al_fr_fr_bleu.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+breakfast,,,,,AnkiLangs::FR
+brown,marron,/maʁɔ̃/,[sound:al_fr_fr_marron.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+cheap,,,,,AnkiLangs::FR
 clay,,,,,AnkiLangs::FR
-dust,,,,,AnkiLangs::FR
-gold,,,,,AnkiLangs::FR
+clean,,,,,AnkiLangs::FR
+coffee,,,,,AnkiLangs::FR
+cold,,,,,AnkiLangs::FR
+cool,,,,,AnkiLangs::FR
 copper,,,,,AnkiLangs::FR
-silver,,,,,AnkiLangs::FR
-material,,,,,AnkiLangs::FR
-the meter,,,,,AnkiLangs::FR
-the centimeter,,,,,AnkiLangs::FR
-the kilogram,,,,,AnkiLangs::FR
-the inch,,,,,AnkiLangs::FR
-the foot [measurement],,,,,AnkiLangs::FR
-the pound,,,,,AnkiLangs::FR
-the half,,,,,AnkiLangs::FR
-the circle,,,,,AnkiLangs::FR
-the square,,,,,AnkiLangs::FR
-temperature,,,,,AnkiLangs::FR
-the date,,,,,AnkiLangs::FR
-weight,,,,,AnkiLangs::FR
-the edge,,,,,AnkiLangs::FR
-the corner,,,,,AnkiLangs::FR
-the map,,,,,AnkiLangs::FR
-the dot,,,,,AnkiLangs::FR
-the consonant,,,,,AnkiLangs::FR
-the vowel,,,,,AnkiLangs::FR
-the light,,,,,AnkiLangs::FR
-the sound,,,,,AnkiLangs::FR
-yes,,,,,AnkiLangs::FR
-no,,,,,AnkiLangs::FR
-the piece,,,,,AnkiLangs::FR
-pain,,,,,AnkiLangs::FR
-the injury,,,,,AnkiLangs::FR
-the hole,,,,,AnkiLangs::FR
-the image,,,,,AnkiLangs::FR
-the pattern,,,,,AnkiLangs::FR
-the noun,,,,,AnkiLangs::FR
-the verb,,,,,AnkiLangs::FR
-the adjective,,,,,AnkiLangs::FR
-the top,,,,,AnkiLangs::FR
-the bottom,,,,,AnkiLangs::FR
-the side,,,,,AnkiLangs::FR
-the front,,,,,AnkiLangs::FR
-the back [location],,,,,AnkiLangs::FR
-the outside,,,,,AnkiLangs::FR
-the inside,,,,,AnkiLangs::FR
-up,,,,,AnkiLangs::FR
+curved,,,,,AnkiLangs::FR
+dark,,,,,AnkiLangs::FR
+dark blue,bleu foncé,/blø fɔ̃se/,[sound:al_fr_fr_bleu_fonc.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+dead,,,,,AnkiLangs::FR
+deaf,,,,,AnkiLangs::FR
+death,,,,,AnkiLangs::FR
+December,,,,,AnkiLangs::FR
+deep,,,,,AnkiLangs::FR
+diamond,,,,,AnkiLangs::FR
+dinner,,,,,AnkiLangs::FR
+dirty,,,,,AnkiLangs::FR
+disease,,,,,AnkiLangs::FR
 down,,,,,AnkiLangs::FR
-left,,,,,AnkiLangs::FR
-right,,,,,AnkiLangs::FR
-straight,,,,,AnkiLangs::FR
-the north,,,,,AnkiLangs::FR
-the south,,,,,AnkiLangs::FR
-the east,,,,,AnkiLangs::FR
-the west,,,,,AnkiLangs::FR
-the direction,,,,,AnkiLangs::FR
-the Summer,,,,,AnkiLangs::FR
-the Spring,,,,,AnkiLangs::FR
-the Winter,,,,,AnkiLangs::FR
-the Fall,,,,,AnkiLangs::FR
-the season,,,,,AnkiLangs::FR
-one (1),,,,,AnkiLangs::FR
-two (2),,,,,AnkiLangs::FR
-three (3),,,,,AnkiLangs::FR
-four (4),,,,,AnkiLangs::FR
-five (5),,,,,AnkiLangs::FR
-six (6),,,,,AnkiLangs::FR
-seven (7),,,,,AnkiLangs::FR
+dry,,,,,AnkiLangs::FR
+dust,,,,,AnkiLangs::FR
+Earth,la Terre,/la tɛʁ/,[sound:al_fr_fr_la_terre.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
 eight (8),,,,,AnkiLangs::FR
-nine (9),,,,,AnkiLangs::FR
-ten (10),,,,,AnkiLangs::FR
-eleven (11),,,,,AnkiLangs::FR
-twelve (12),,,,,AnkiLangs::FR
-thirteen (13),,,,,AnkiLangs::FR
-fourteen (14),,,,,AnkiLangs::FR
-fifteen (15),,,,,AnkiLangs::FR
-sixteen (16),,,,,AnkiLangs::FR
-seventeen (17),,,,,AnkiLangs::FR
 eighteen (18),,,,,AnkiLangs::FR
-nineteen (19),,,,,AnkiLangs::FR
-twenty (20),,,,,AnkiLangs::FR
-twenty-one (21),,,,,AnkiLangs::FR
-twenty-two (22),,,,,AnkiLangs::FR
-thirty (30),,,,,AnkiLangs::FR
-thirty-one (31),,,,,AnkiLangs::FR
-thirty-two (32),,,,,AnkiLangs::FR
-forty (40),,,,,AnkiLangs::FR
-forty-one (41),,,,,AnkiLangs::FR
-forty-two (42),,,,,AnkiLangs::FR
-fifty (50),,,,,AnkiLangs::FR
-fifty-one (51),,,,,AnkiLangs::FR
-fifty-two (52),,,,,AnkiLangs::FR
-sixty (60),,,,,AnkiLangs::FR
-sixty-one (61),,,,,AnkiLangs::FR
-sixty-two (62),,,,,AnkiLangs::FR
-seventy (70),,,,,AnkiLangs::FR
-seventy-one (71),,,,,AnkiLangs::FR
-seventy-two (72),,,,,AnkiLangs::FR
 eighty (80),,,,,AnkiLangs::FR
 eighty-one (81),,,,,AnkiLangs::FR
 eighty-two (82),,,,,AnkiLangs::FR
+eleven (11),,,,,AnkiLangs::FR
+energy,,,,,AnkiLangs::FR
+exercise,,,,,AnkiLangs::FR
+expensive,,,,,AnkiLangs::FR
+famous,,,,,AnkiLangs::FR
+fast,,,,,AnkiLangs::FR
+February,,,,,AnkiLangs::FR
+female,,,,,AnkiLangs::FR
+fifteen (15),,,,,AnkiLangs::FR
+fifth (5th),,,,,AnkiLangs::FR
+fifty (50),,,,,AnkiLangs::FR
+fifty-one (51),,,,,AnkiLangs::FR
+fifty-two (52),,,,,AnkiLangs::FR
+first (1st),,,,,AnkiLangs::FR
+five (5),,,,,AnkiLangs::FR
+flat,,,,,AnkiLangs::FR
+food,,,,,AnkiLangs::FR
+forty (40),,,,,AnkiLangs::FR
+forty-one (41),,,,,AnkiLangs::FR
+forty-two (42),,,,,AnkiLangs::FR
+four (4),,,,,AnkiLangs::FR
+fourteen (14),,,,,AnkiLangs::FR
+fourth (4th),,,,,AnkiLangs::FR
+Friday,,,,,AnkiLangs::FR
+glass,,,,,AnkiLangs::FR
+God,,,,,AnkiLangs::FR
+gold,,,,,AnkiLangs::FR
+good,,,,,AnkiLangs::FR
+gray,gris,/ɡʁi/,[sound:al_fr_fr_gris.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+green,vert,/vɛʁ/,[sound:al_fr_fr_vert.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+happy,,,,,AnkiLangs::FR
+hard,,,,,AnkiLangs::FR
+he,,,,,AnkiLangs::FR
+healthy,,,,,AnkiLangs::FR
+heaven,,,,,AnkiLangs::FR
+heavy,,,,,AnkiLangs::FR
+hell,,,,,AnkiLangs::FR
+high,,,,,AnkiLangs::FR
+hot,,,,,AnkiLangs::FR
+I,,,,,AnkiLangs::FR
+it,,,,,AnkiLangs::FR
+January,,,,,AnkiLangs::FR
+juice,,,,,AnkiLangs::FR
+July,,,,,AnkiLangs::FR
+June,,,,,AnkiLangs::FR
+left,,,,,AnkiLangs::FR
+"light [opposite of ""dark""]",,,,,AnkiLangs::FR
+"light [opposite of ""heavy""]",,,,,AnkiLangs::FR
+light blue,bleu clair,/blø klɛʁ/,[sound:al_fr_fr_bleu_clair.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+long,,,,,AnkiLangs::FR
+loose,,,,,AnkiLangs::FR
+loud,,,,,AnkiLangs::FR
+low,,,,,AnkiLangs::FR
+lunch,,,,,AnkiLangs::FR
+male,,,,,AnkiLangs::FR
+March,,,,,AnkiLangs::FR
+marriage,,,,,AnkiLangs::FR
+material,,,,,AnkiLangs::FR
+May,,,,,AnkiLangs::FR
+mean,,,,,AnkiLangs::FR
+medicine,,,,,AnkiLangs::FR
+metal,,,,,AnkiLangs::FR
+milk,,,,,AnkiLangs::FR
+Monday,,,,,AnkiLangs::FR
+money,,,,,AnkiLangs::FR
+murder,,,,,AnkiLangs::FR
+music,,,,,AnkiLangs::FR
+narrow,,,,,AnkiLangs::FR
+nature,,,,,AnkiLangs::FR
+new,,,,,AnkiLangs::FR
+nice,,,,,AnkiLangs::FR
+nine (9),,,,,AnkiLangs::FR
+nineteen (19),,,,,AnkiLangs::FR
 ninety (90),,,,,AnkiLangs::FR
 ninety-one (91),,,,,AnkiLangs::FR
 ninety-two (92),,,,,AnkiLangs::FR
+no,,,,,AnkiLangs::FR
+November,,,,,AnkiLangs::FR
+nuclear,,,,,AnkiLangs::FR
+October,,,,,AnkiLangs::FR
+oil,,,,,AnkiLangs::FR
+"old [opposite of ""new""]",,,,,AnkiLangs::FR
+"old [opposite of ""young""]",,,,,AnkiLangs::FR
+one (1),,,,,AnkiLangs::FR
+"one billion (1,000,000,000)",,,,,AnkiLangs::FR
 one hundred (100),,,,,AnkiLangs::FR
-one hundred one (101),,,,,AnkiLangs::FR
-one hundred two (102),,,,,AnkiLangs::FR
-one hundred ten (110),,,,,AnkiLangs::FR
 one hundred eleven (111),,,,,AnkiLangs::FR
+one hundred one (101),,,,,AnkiLangs::FR
+one hundred ten (110),,,,,AnkiLangs::FR
+"one hundred thousand (100,000)",,,,,AnkiLangs::FR
+one hundred two (102),,,,,AnkiLangs::FR
+"one million (1,000,000)",,,,,AnkiLangs::FR
 one thousand (1000),,,,,AnkiLangs::FR
 one thousand one (1001),,,,,AnkiLangs::FR
-"ten thousand (10,000)",,,,,AnkiLangs::FR
-"one hundred thousand (100,000)",,,,,AnkiLangs::FR
-"one million (1,000,000)",,,,,AnkiLangs::FR
-"one billion (1,000,000,000)",,,,,AnkiLangs::FR
-first (1st),,,,,AnkiLangs::FR
-second (2nd),,,,,AnkiLangs::FR
-third (3rd),,,,,AnkiLangs::FR
-fourth (4th),,,,,AnkiLangs::FR
-fifth (5th),,,,,AnkiLangs::FR
-the number,,,,,AnkiLangs::FR
-January,,,,,AnkiLangs::FR
-February,,,,,AnkiLangs::FR
-March,,,,,AnkiLangs::FR
-April,,,,,AnkiLangs::FR
-May,,,,,AnkiLangs::FR
-June,,,,,AnkiLangs::FR
-July,,,,,AnkiLangs::FR
-August,,,,,AnkiLangs::FR
-September,,,,,AnkiLangs::FR
-October,,,,,AnkiLangs::FR
-November,,,,,AnkiLangs::FR
-December,,,,,AnkiLangs::FR
-Monday,,,,,AnkiLangs::FR
-Tuesday,,,,,AnkiLangs::FR
-Wednesday,,,,,AnkiLangs::FR
-Thursday,,,,,AnkiLangs::FR
-Friday,,,,,AnkiLangs::FR
-Saturday,,,,,AnkiLangs::FR
-Sunday,,,,,AnkiLangs::FR
-the year,,,,,AnkiLangs::FR
-the month,,,,,AnkiLangs::FR
-the week,,,,,AnkiLangs::FR
-the day,,,,,AnkiLangs::FR
-the hour,,,,,AnkiLangs::FR
-the minute,,,,,AnkiLangs::FR
-the second,,,,,AnkiLangs::FR
-the morning,,,,,AnkiLangs::FR
-the afternoon,,,,,AnkiLangs::FR
-the evening,,,,,AnkiLangs::FR
-the night,,,,,AnkiLangs::FR
-the time,,,,,AnkiLangs::FR
-to work,,,,,AnkiLangs::FR
-to play,,,,,AnkiLangs::FR
-to walk,,,,,AnkiLangs::FR
-to run,,,,,AnkiLangs::FR
-to drive,,,,,AnkiLangs::FR
-to fly,,,,,AnkiLangs::FR
-to swim,,,,,AnkiLangs::FR
-to go,,,,,AnkiLangs::FR
-to stop,,,,,AnkiLangs::FR
-to follow,,,,,AnkiLangs::FR
-to think,,,,,AnkiLangs::FR
-to speak / to say,,,,,AnkiLangs::FR
-to eat,,,,,AnkiLangs::FR
-to drink,,,,,AnkiLangs::FR
-to kill,,,,,AnkiLangs::FR
-to die,,,,,AnkiLangs::FR
-to smile,,,,,AnkiLangs::FR
-to laugh,,,,,AnkiLangs::FR
-to cry,,,,,AnkiLangs::FR
-to buy,,,,,AnkiLangs::FR
-to pay,,,,,AnkiLangs::FR
-to sell,,,,,AnkiLangs::FR
-to shoot (a gun),,,,,AnkiLangs::FR
-to learn,,,,,AnkiLangs::FR
-to jump,,,,,AnkiLangs::FR
-to smell,,,,,AnkiLangs::FR
-to hear,,,,,AnkiLangs::FR
-to listen,,,,,AnkiLangs::FR
-to taste,,,,,AnkiLangs::FR
-to touch,,,,,AnkiLangs::FR
-to see,,,,,AnkiLangs::FR
-to watch,,,,,AnkiLangs::FR
-to kiss,,,,,AnkiLangs::FR
-to burn,,,,,AnkiLangs::FR
-to melt,,,,,AnkiLangs::FR
-to dig,,,,,AnkiLangs::FR
-to explode,,,,,AnkiLangs::FR
-to sit,,,,,AnkiLangs::FR
-to stand,,,,,AnkiLangs::FR
-to love,,,,,AnkiLangs::FR
-to pass by,,,,,AnkiLangs::FR
-to cut,,,,,AnkiLangs::FR
-to fight,,,,,AnkiLangs::FR
-to lie down,,,,,AnkiLangs::FR
-to dance,,,,,AnkiLangs::FR
-to sleep,,,,,AnkiLangs::FR
-to wake up,,,,,AnkiLangs::FR
-to sing,,,,,AnkiLangs::FR
-to count,,,,,AnkiLangs::FR
-to marry,,,,,AnkiLangs::FR
-to pray,,,,,AnkiLangs::FR
-to win,,,,,AnkiLangs::FR
-to lose,,,,,AnkiLangs::FR
-to mix / to stir,,,,,AnkiLangs::FR
-to bend,,,,,AnkiLangs::FR
-to wash,,,,,AnkiLangs::FR
-to cook,,,,,AnkiLangs::FR
-to open,,,,,AnkiLangs::FR
-to close,,,,,AnkiLangs::FR
-to write,,,,,AnkiLangs::FR
-to call,,,,,AnkiLangs::FR
-to turn,,,,,AnkiLangs::FR
-to build,,,,,AnkiLangs::FR
-to teach,,,,,AnkiLangs::FR
-to grow,,,,,AnkiLangs::FR
-to draw,,,,,AnkiLangs::FR
-to feed,,,,,AnkiLangs::FR
-to catch,,,,,AnkiLangs::FR
-to throw,,,,,AnkiLangs::FR
-to clean,,,,,AnkiLangs::FR
-to find,,,,,AnkiLangs::FR
-to fall,,,,,AnkiLangs::FR
-to push,,,,,AnkiLangs::FR
-to pull,,,,,AnkiLangs::FR
-to carry,,,,,AnkiLangs::FR
-to break,,,,,AnkiLangs::FR
-to wear,,,,,AnkiLangs::FR
-to hang,,,,,AnkiLangs::FR
-to shake,,,,,AnkiLangs::FR
-to sign,,,,,AnkiLangs::FR
-to beat,,,,,AnkiLangs::FR
-to lift,,,,,AnkiLangs::FR
-long,,,,,AnkiLangs::FR
-"short [opposite of ""long""]",,,,,AnkiLangs::FR
-tall,,,,,AnkiLangs::FR
-"short [opposite of ""tall""]",,,,,AnkiLangs::FR
-wide,,,,,AnkiLangs::FR
-narrow,,,,,AnkiLangs::FR
-big / large,,,,,AnkiLangs::FR
-small / little,,,,,AnkiLangs::FR
-slow,,,,,AnkiLangs::FR
-fast,,,,,AnkiLangs::FR
-hot,,,,,AnkiLangs::FR
-cold,,,,,AnkiLangs::FR
-warm,,,,,AnkiLangs::FR
-cool,,,,,AnkiLangs::FR
-new,,,,,AnkiLangs::FR
-"old [opposite of ""new""]",,,,,AnkiLangs::FR
-young,,,,,AnkiLangs::FR
-"old [opposite of ""young""]",,,,,AnkiLangs::FR
-good,,,,,AnkiLangs::FR
-bad,,,,,AnkiLangs::FR
-wet,,,,,AnkiLangs::FR
-dry,,,,,AnkiLangs::FR
-sick,,,,,AnkiLangs::FR
-healthy,,,,,AnkiLangs::FR
-loud,,,,,AnkiLangs::FR
-quiet,,,,,AnkiLangs::FR
-happy,,,,,AnkiLangs::FR
-sad,,,,,AnkiLangs::FR
-beautiful,,,,,AnkiLangs::FR
-ugly,,,,,AnkiLangs::FR
-deaf,,,,,AnkiLangs::FR
-blind,,,,,AnkiLangs::FR
-nice,,,,,AnkiLangs::FR
-mean,,,,,AnkiLangs::FR
-rich,,,,,AnkiLangs::FR
+orange,orange,/ɔʁɑ̃ʒ/,[sound:al_fr_fr_orange.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+pain,,,,,AnkiLangs::FR
+peace,,,,,AnkiLangs::FR
+pink,rose,/ʁoz/,[sound:al_fr_fr_rose.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+plastic,,,,,AnkiLangs::FR
+poison,,,,,AnkiLangs::FR
 poor,,,,,AnkiLangs::FR
+prison,,,,,AnkiLangs::FR
+quiet,,,,,AnkiLangs::FR
+race [ethnicity],,,,,AnkiLangs::FR
+race [sport],,,,,AnkiLangs::FR
+red,rouge,/ʁuʒ/,[sound:al_fr_fr_rouge.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+relationship,,,,,AnkiLangs::FR
+religion,,,,,AnkiLangs::FR
+rice,,,,,AnkiLangs::FR
+rich,,,,,AnkiLangs::FR
+right,,,,,AnkiLangs::FR
+sad,,,,,AnkiLangs::FR
+salt,,,,,AnkiLangs::FR
+Saturday,,,,,AnkiLangs::FR
+science,,,,,AnkiLangs::FR
+second (2nd),,,,,AnkiLangs::FR
+September,,,,,AnkiLangs::FR
+seven (7),,,,,AnkiLangs::FR
+seventeen (17),,,,,AnkiLangs::FR
+seventy (70),,,,,AnkiLangs::FR
+seventy-one (71),,,,,AnkiLangs::FR
+seventy-two (72),,,,,AnkiLangs::FR
+sex [gender],,,,,AnkiLangs::FR
+sex [the act],,,,,AnkiLangs::FR
+shallow,,,,,AnkiLangs::FR
+she,,,,,AnkiLangs::FR
+"short [opposite of ""long""]",,,,,AnkiLangs::FR
+"short [opposite of ""tall""]",,,,,AnkiLangs::FR
+sick,,,,,AnkiLangs::FR
+silver,,,,,AnkiLangs::FR
+six (6),,,,,AnkiLangs::FR
+sixteen (16),,,,,AnkiLangs::FR
+sixty (60),,,,,AnkiLangs::FR
+sixty-one (61),,,,,AnkiLangs::FR
+sixty-two (62),,,,,AnkiLangs::FR
+slow,,,,,AnkiLangs::FR
+small / little,,,,,AnkiLangs::FR
+soft,,,,,AnkiLangs::FR
+soil/earth [ground],,,,,AnkiLangs::FR
+space (outer space),l'espace,/l‿ɛs.pas/,[sound:al_fr_fr_l_espace.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+sport,,,,,AnkiLangs::FR
+stone,,,,,AnkiLangs::FR
+straight,,,,,AnkiLangs::FR
+strong,,,,,AnkiLangs::FR
+sugar,,,,,AnkiLangs::FR
+Sunday,,,,,AnkiLangs::FR
+sweat,,,,,AnkiLangs::FR
+tall,,,,,AnkiLangs::FR
+tea,,,,,AnkiLangs::FR
+technology,,,,,AnkiLangs::FR
+temperature,,,,,AnkiLangs::FR
+ten (10),,,,,AnkiLangs::FR
+"ten thousand (10,000)",,,,,AnkiLangs::FR
+the (train) ticket,le billet (de train),/lə bi.je (də tʁɛ̃)/,[sound:al_fr_fr_le_billet_de_train.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the actor,,,,,AnkiLangs::FR
+the adjective,,,,,AnkiLangs::FR
+the adult,l'adulte,/la.dylt/,[sound:al_fr_fr_l_adulte.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the afternoon,,,,,AnkiLangs::FR
+the air,,,,,AnkiLangs::FR
+the airport,l'aéroport,/la.e.ʁɔ.pɔʁ/,[sound:al_fr_fr_l_a_roport.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the animal,l'animal,/la.ni.mal/,[sound:al_fr_fr_l_animal.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the apartment,l'appartement,/la.paʁ.tə.mɑ̃/,[sound:al_fr_fr_l_appartement.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the apple,,,,,AnkiLangs::FR
+the arm,,,,,AnkiLangs::FR
+the army,,,,,AnkiLangs::FR
+the artist,,,,,AnkiLangs::FR
+the attack,,,,,AnkiLangs::FR
+the author,,,,,AnkiLangs::FR
+the baby,le bébé,/lə bebe/,[sound:al_fr_fr_le_b_b.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the back [anatomy],,,,,AnkiLangs::FR
+the back [location],,,,,AnkiLangs::FR
+the bag,,,,,AnkiLangs::FR
+the ball,,,,,AnkiLangs::FR
+the banana,,,,,AnkiLangs::FR
+the band [music],,,,,AnkiLangs::FR
+the bank,la banque,/la bɑ̃k/,[sound:al_fr_fr_la_banque.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the bar,le bar,/lə baʁ/,[sound:al_fr_fr_le_bar.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the bathroom,,,,,AnkiLangs::FR
+the beach,,,,,AnkiLangs::FR
+the beard,,,,,AnkiLangs::FR
+the bed,,,,,AnkiLangs::FR
+the bedroom,,,,,AnkiLangs::FR
+the beef,,,,,AnkiLangs::FR
+the beverage,,,,,AnkiLangs::FR
+the bicycle,le vélo,/lə ve.lo/,[sound:al_fr_fr_le_v_lo.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the bill [bank note],,,,,AnkiLangs::FR
+the bird,l'oiseau,/lwa.zo/,[sound:al_fr_fr_l_oiseau.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the boat,le bateau,/lə ba.to/,[sound:al_fr_fr_le_bateau.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the body,,,,,AnkiLangs::FR
+the bone,,,,,AnkiLangs::FR
+the book,,,,,AnkiLangs::FR
+the bottle,,,,,AnkiLangs::FR
+the bottom,,,,,AnkiLangs::FR
+the box,,,,,AnkiLangs::FR
+the boy,le garçon,/lə ɡaʁ.sɔ̃/,[sound:al_fr_fr_le_gar_on.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the brain,,,,,AnkiLangs::FR
+the bread,,,,,AnkiLangs::FR
+the bridge,le pont,/lə pɔ̃/,[sound:al_fr_fr_le_pont.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the brother,le frère,/lə fʁɛʁ/,[sound:al_fr_fr_le_fr_re.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the building,le bâtiment,/lə ba.ti.mɑ̃/,[sound:al_fr_fr_le_b_timent.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the bus,le bus,/lə bys/,[sound:al_fr_fr_le_bus.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the cake,,,,,AnkiLangs::FR
+the camera,,,,,AnkiLangs::FR
+the camp,le campement,/lə kɑ̃.mɑ̃/,[sound:al_fr_fr_le_campement.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the car,la voiture,/la vwa.tyʁ/,[sound:al_fr_fr_la_voiture.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the card,,,,,AnkiLangs::FR
+the cat,le chat,/lə ʃa/,[sound:al_fr_fr_le_chat.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the ceiling,,,,,AnkiLangs::FR
+the cell phone,,,,,AnkiLangs::FR
+the centimeter,,,,,AnkiLangs::FR
+the chair,,,,,AnkiLangs::FR
+the cheese,,,,,AnkiLangs::FR
+the chicken,,,,,AnkiLangs::FR
+the child,l'enfant,/l‿ɑ̃.fɑ̃/,[sound:al_fr_fr_l_enfant.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the church,l'église,/le.ɡliz/,[sound:al_fr_fr_l_glise.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the circle,,,,,AnkiLangs::FR
+the city,la ville,/la vil/,[sound:al_fr_fr_la_ville.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the clock,,,,,AnkiLangs::FR
+the clothing,les vêtements,/le vɛt.mɑ̃/,[sound:al_fr_fr_les_v_tements.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the club,le club,/lə klœb/,[sound:al_fr_fr_le_club.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the coat,le manteau,/lə mɑ̃.to/,[sound:al_fr_fr_le_manteau.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the color,la couleur,/la ku.lœʁ/,[sound:al_fr_fr_la_couleur.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the computer,,,,,AnkiLangs::FR
+the consonant,,,,,AnkiLangs::FR
+the contract,,,,,AnkiLangs::FR
+the corn,,,,,AnkiLangs::FR
+the corner,,,,,AnkiLangs::FR
+"the country (USA, France, etc.)",le pays,/lə pe.i/,[sound:al_fr_fr_le_pays.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the court,le tribunal,/lə tʁi.by.nal/,[sound:al_fr_fr_le_tribunal.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the cow,la vache,/la vaʃ/,[sound:al_fr_fr_la_vache.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the crowd,la foule,/la ful/,[sound:al_fr_fr_la_foule.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the cup,,,,,AnkiLangs::FR
+the date,,,,,AnkiLangs::FR
+the daughter,la fille,/la fij/,[sound:al_fr_fr_la_fille.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the day,,,,,AnkiLangs::FR
+the direction,,,,,AnkiLangs::FR
+the doctor,,,,,AnkiLangs::FR
+the dog,le chien,/lə ʃjɛ̃/,[sound:al_fr_fr_le_chien.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the dollar,,,,,AnkiLangs::FR
+the door,,,,,AnkiLangs::FR
+the dot,,,,,AnkiLangs::FR
+the dream,,,,,AnkiLangs::FR
+the dress,la robe,/la ʁɔb/,[sound:al_fr_fr_la_robe.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the drug,,,,,AnkiLangs::FR
+the ear,,,,,AnkiLangs::FR
+the east,,,,,AnkiLangs::FR
+the edge,,,,,AnkiLangs::FR
+the egg,,,,,AnkiLangs::FR
+the election,,,,,AnkiLangs::FR
+the engine,le moteur,/lə mɔ.tœʁ/,[sound:al_fr_fr_le_moteur.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the evening,,,,,AnkiLangs::FR
+the eye,,,,,AnkiLangs::FR
+the face,,,,,AnkiLangs::FR
+the Fall,,,,,AnkiLangs::FR
+the family,la famille,/la faˈmij/,[sound:al_fr_fr_la_famille.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the fan [appliance],,,,,AnkiLangs::FR
+the fan [person],le fan,/lə fan/,[sound:al_fr_fr_le_fan.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the farm,la ferme,/la fɛʁm/,[sound:al_fr_fr_la_ferme.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the father,le père,/lə pɛʁ/,[sound:al_fr_fr_le_p_re.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the finger,,,,,AnkiLangs::FR
+the fire,,,,,AnkiLangs::FR
+the fish,le poisson,/lə pwa.sɔ̃/,[sound:al_fr_fr_le_poisson.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the floor,,,,,AnkiLangs::FR
+the flower,,,,,AnkiLangs::FR
+the foot,,,,,AnkiLangs::FR
+the foot [measurement],,,,,AnkiLangs::FR
+the forest,,,,,AnkiLangs::FR
+the fork,,,,,AnkiLangs::FR
+the friend,l'ami,/la.mi/,[sound:al_fr_fr_l_ami.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the front,,,,,AnkiLangs::FR
+the game,,,,,AnkiLangs::FR
+the garden,,,,,AnkiLangs::FR
+the gasoline,l'essence,/le.sɑ̃s/,[sound:al_fr_fr_l_essence.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the gift,,,,,AnkiLangs::FR
+the girl,la fille,/la fij/,[sound:al_fr_fr_la_fille.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the grandfather,le grand-père,/lə ɡʁɑ̃.pɛʁ/,[sound:al_fr_fr_le_grand_p_re.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the grandmother,la grand-mère,/la ɡʁɑ̃.mɛʁ/,[sound:al_fr_fr_la_grand_m_re.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the grass,,,,,AnkiLangs::FR
+the ground,le sol,/lə sɔl/,[sound:al_fr_fr_le_sol.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the gun,,,,,AnkiLangs::FR
+the hair,,,,,AnkiLangs::FR
+the half,,,,,AnkiLangs::FR
+the hand,,,,,AnkiLangs::FR
+the hat,le chapeau,/lə ʃa.po/,[sound:al_fr_fr_le_chapeau.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the head,,,,,AnkiLangs::FR
+the heart,,,,,AnkiLangs::FR
+the heat,,,,,AnkiLangs::FR
+the hill,,,,,AnkiLangs::FR
+the hole,,,,,AnkiLangs::FR
+the horse,le cheval,/lə ʃə.val/,[sound:al_fr_fr_le_cheval.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the hospital,l'hôpital,/lo.pi.tal/,[sound:al_fr_fr_l_h_pital.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the hotel,l'hôtel,/lo.tɛl/,[sound:al_fr_fr_l_h_tel.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the hour,,,,,AnkiLangs::FR
+the house,la maison,/la mɛ.zɔ̃/,[sound:al_fr_fr_la_maison.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the human,l'humain,/ly.mɛ̃/,[sound:al_fr_fr_l_humain.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the husband,le mari,/lə maʁi/,[sound:al_fr_fr_le_mari.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the ice,,,,,AnkiLangs::FR
+the image,,,,,AnkiLangs::FR
+the inch,,,,,AnkiLangs::FR
+the injury,,,,,AnkiLangs::FR
+the inside,,,,,AnkiLangs::FR
+the instrument,,,,,AnkiLangs::FR
+the island,,,,,AnkiLangs::FR
+the job,,,,,AnkiLangs::FR
+the key,,,,,AnkiLangs::FR
+the kilogram,,,,,AnkiLangs::FR
+the king,le roi,/lə ʁwa/,[sound:al_fr_fr_le_roi.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the kitchen,,,,,AnkiLangs::FR
+the knee,,,,,AnkiLangs::FR
+the knife,,,,,AnkiLangs::FR
+the lake,,,,,AnkiLangs::FR
+the lamp,,,,,AnkiLangs::FR
+the laptop,,,,,AnkiLangs::FR
+the lawyer,,,,,AnkiLangs::FR
+the leaf,,,,,AnkiLangs::FR
+the leg,,,,,AnkiLangs::FR
+the lemon,,,,,AnkiLangs::FR
+the letter,,,,,AnkiLangs::FR
+the library,la bibliothèque,/la bi.bli.ɔ.tɛk/,[sound:al_fr_fr_la_biblioth_que.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the light,,,,,AnkiLangs::FR
+the lip,,,,,AnkiLangs::FR
+the location,l'emplacement,/lɑ̃.plas.mɑ̃/,[sound:al_fr_fr_l_emplacement.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the lock,,,,,AnkiLangs::FR
+the magazine,,,,,AnkiLangs::FR
+the man,l'homme,/l‿ɔm/,[sound:al_fr_fr_l_homme.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the manager,,,,,AnkiLangs::FR
+the map,,,,,AnkiLangs::FR
+the market,le marché,/lə maʁ.ʃe/,[sound:al_fr_fr_le_march.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the meter,,,,,AnkiLangs::FR
+the minute,,,,,AnkiLangs::FR
+the month,,,,,AnkiLangs::FR
+the moon,,,,,AnkiLangs::FR
+the morning,,,,,AnkiLangs::FR
+the mother,la mère,/la mɛʁ/,[sound:al_fr_fr_la_m_re.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the mountain,,,,,AnkiLangs::FR
+the mouse,la souris,/la su.ʁi/,[sound:al_fr_fr_la_souris.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the mouth,,,,,AnkiLangs::FR
+the movie,,,,,AnkiLangs::FR
+the neck,,,,,AnkiLangs::FR
+the needle,,,,,AnkiLangs::FR
+the neighbor,le voisin,/lə vwazɛ̃/,[sound:al_fr_fr_le_voisin.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the network,,,,,AnkiLangs::FR
+the newspaper,,,,,AnkiLangs::FR
+the night,,,,,AnkiLangs::FR
+the north,,,,,AnkiLangs::FR
+the nose,,,,,AnkiLangs::FR
+the note,,,,,AnkiLangs::FR
+the noun,,,,,AnkiLangs::FR
+the number,,,,,AnkiLangs::FR
+the ocean,,,,,AnkiLangs::FR
+the office,le bureau,/lə by.ʁo/,[sound:al_fr_fr_le_bureau.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the orange,,,,,AnkiLangs::FR
+the outside,,,,,AnkiLangs::FR
+the page,,,,,AnkiLangs::FR
+the paint,,,,,AnkiLangs::FR
+the pants,le pantalon,/lə pɑ̃.ta.lɔ̃/,[sound:al_fr_fr_le_pantalon.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the paper,,,,,AnkiLangs::FR
+the parent,le parent,/lə paʁɑ̃/,[sound:al_fr_fr_le_parent.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the park,le parc,/lə paʁk/,[sound:al_fr_fr_le_parc.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the patient,,,,,AnkiLangs::FR
+the pattern,,,,,AnkiLangs::FR
+the pen,,,,,AnkiLangs::FR
+the pencil,,,,,AnkiLangs::FR
+the person,la personne,/la pɛʁ.sɔn/,[sound:al_fr_fr_la_personne.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the photograph,,,,,AnkiLangs::FR
+the piece,,,,,AnkiLangs::FR
+the pig,le cochon,/lə kɔ.ʃɔ̃/,[sound:al_fr_fr_le_cochon.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the plane,l'avion,/la.vjɔ̃/,[sound:al_fr_fr_l_avion.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the plant,,,,,AnkiLangs::FR
+the plate,,,,,AnkiLangs::FR
+the player,le joueur,/lə ʒwaʁ/,[sound:al_fr_fr_le_joueur.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the pocket,la poche,/la pɔʃ/,[sound:al_fr_fr_la_poche.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the police,,,,,AnkiLangs::FR
+the pool,,,,,AnkiLangs::FR
+the pork,,,,,AnkiLangs::FR
+the pound,,,,,AnkiLangs::FR
+the president,le président,/lə pʁe.ziˈdɑ̃/,[sound:al_fr_fr_le_pr_sident.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the price,,,,,AnkiLangs::FR
+the priest,,,,,AnkiLangs::FR
+the program,,,,,AnkiLangs::FR
+the queen,la reine,/la ʁɛn/,[sound:al_fr_fr_la_reine.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the radio,,,,,AnkiLangs::FR
+the rain,,,,,AnkiLangs::FR
+the reporter,,,,,AnkiLangs::FR
+the restaurant,le restaurant,/lə ʁɛs.to.ʁɑ̃/,[sound:al_fr_fr_le_restaurant.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the ring,,,,,AnkiLangs::FR
+the river,,,,,AnkiLangs::FR
+the roof,,,,,AnkiLangs::FR
+the room,la pièce,/la pjɛs/,[sound:al_fr_fr_la_pi_ce.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the root,,,,,AnkiLangs::FR
+the sand,,,,,AnkiLangs::FR
+the school,l'école,/le.kɔl/,[sound:al_fr_fr_l_cole.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the screen,,,,,AnkiLangs::FR
+the sea,,,,,AnkiLangs::FR
+the season,,,,,AnkiLangs::FR
+the second,,,,,AnkiLangs::FR
+the secretary,,,,,AnkiLangs::FR
+the seed,,,,,AnkiLangs::FR
+the ship,le navire,/lə na.viʁ/,[sound:al_fr_fr_le_navire.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the shirt,la chemise,/la ʃə.miz/,[sound:al_fr_fr_la_chemise.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the shoes,les chaussures,/le ʃo.syʁ/,[sound:al_fr_fr_les_chaussures.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the shoulder,,,,,AnkiLangs::FR
+the side,,,,,AnkiLangs::FR
+the sign,,,,,AnkiLangs::FR
+the sister,la sœur,/la sœʁ/,[sound:al_fr_fr_la_s_ur.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the skin,,,,,AnkiLangs::FR
+the skirt,la jupe,/la ʒyp/,[sound:al_fr_fr_la_jupe.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the sky,,,,,AnkiLangs::FR
+the snow,,,,,AnkiLangs::FR
+the soap,,,,,AnkiLangs::FR
+the soldier,,,,,AnkiLangs::FR
+the son,le fils,/lə fis/,[sound:al_fr_fr_le_fils.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the song,,,,,AnkiLangs::FR
+the sound,,,,,AnkiLangs::FR
+the soup,,,,,AnkiLangs::FR
+the south,,,,,AnkiLangs::FR
+the spoon,,,,,AnkiLangs::FR
+the Spring,,,,,AnkiLangs::FR
+the square,,,,,AnkiLangs::FR
+the stain,la tache,/la taʃ/,[sound:al_fr_fr_la_tache.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the star,,,,,AnkiLangs::FR
+the store/shop,le magasin,/lə ma.ɡa.zɛ̃/,[sound:al_fr_fr_le_magasin.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the street/road,la rue,/la ʁy/,[sound:al_fr_fr_la_rue.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the student,,,,,AnkiLangs::FR
+the suit,le costume,/lə kɔs.tym/,[sound:al_fr_fr_le_costume.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the Summer,,,,,AnkiLangs::FR
+the sun,,,,,AnkiLangs::FR
+the T-shirt,le T-shirt,/lə ti.ʃœʁt/,[sound:al_fr_fr_le_t_shirt.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the table,,,,,AnkiLangs::FR
+the teacher,,,,,AnkiLangs::FR
+the team,,,,,AnkiLangs::FR
+the tear,,,,,AnkiLangs::FR
+the telephone,,,,,AnkiLangs::FR
+the television,,,,,AnkiLangs::FR
+the theater,le théâtre,/lə te.ɑtʁ/,[sound:al_fr_fr_le_th_tre.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the time,,,,,AnkiLangs::FR
+the tire,le pneu,/lə pnø/,[sound:al_fr_fr_le_pneu.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the toe,,,,,AnkiLangs::FR
+the tongue,,,,,AnkiLangs::FR
+the tool,,,,,AnkiLangs::FR
+the tooth,,,,,AnkiLangs::FR
+the top,,,,,AnkiLangs::FR
+the town,la petite ville,/la pə.tit vil/,[sound:al_fr_fr_la_petite_ville.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the train,le train,/lə tʁɛ̃/,[sound:al_fr_fr_le_train.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the train station,la gare,/la ɡaʁ/,[sound:al_fr_fr_la_gare.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the tree,,,,,AnkiLangs::FR
+the truck,le camion,/lə ka.mjɔ̃/,[sound:al_fr_fr_le_camion.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the university,l'université,/ly.ni.vɛʁ.si.te/,[sound:al_fr_fr_l_universit.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the valley,,,,,AnkiLangs::FR
+the verb,,,,,AnkiLangs::FR
+the victim,la victime,/la vik.tim/,[sound:al_fr_fr_la_victime.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+the voice,,,,,AnkiLangs::FR
+the vowel,,,,,AnkiLangs::FR
+the waiter,,,,,AnkiLangs::FR
+the wall,,,,,AnkiLangs::FR
+the wave,,,,,AnkiLangs::FR
+the week,,,,,AnkiLangs::FR
+the west,,,,,AnkiLangs::FR
+the wife,la femme,/la fam/,[sound:al_fr_fr_la_femme.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the wind,,,,,AnkiLangs::FR
+the window,,,,,AnkiLangs::FR
+the wing,l'aile,/l‿ɛl/,[sound:al_fr_fr_l_aile.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the Winter,,,,,AnkiLangs::FR
+the woman,la femme,/la fam/,[sound:al_fr_fr_la_femme.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+the world,,,,,AnkiLangs::FR
+the yard,,,,,AnkiLangs::FR
+the year,,,,,AnkiLangs::FR
+they,,,,,AnkiLangs::FR
 thick,,,,,AnkiLangs::FR
 thin,,,,,AnkiLangs::FR
-expensive,,,,,AnkiLangs::FR
-cheap,,,,,AnkiLangs::FR
-flat,,,,,AnkiLangs::FR
-curved,,,,,AnkiLangs::FR
-male,,,,,AnkiLangs::FR
-female,,,,,AnkiLangs::FR
+third (3rd),,,,,AnkiLangs::FR
+thirteen (13),,,,,AnkiLangs::FR
+thirty (30),,,,,AnkiLangs::FR
+thirty-one (31),,,,,AnkiLangs::FR
+thirty-two (32),,,,,AnkiLangs::FR
+three (3),,,,,AnkiLangs::FR
+Thursday,,,,,AnkiLangs::FR
 tight,,,,,AnkiLangs::FR
-loose,,,,,AnkiLangs::FR
-high,,,,,AnkiLangs::FR
-low,,,,,AnkiLangs::FR
-soft,,,,,AnkiLangs::FR
-hard,,,,,AnkiLangs::FR
-deep,,,,,AnkiLangs::FR
-shallow,,,,,AnkiLangs::FR
-clean,,,,,AnkiLangs::FR
-dirty,,,,,AnkiLangs::FR
-strong,,,,,AnkiLangs::FR
-weak,,,,,AnkiLangs::FR
-dead,,,,,AnkiLangs::FR
-alive,,,,,AnkiLangs::FR
-heavy,,,,,AnkiLangs::FR
-"light [opposite of ""heavy""]",,,,,AnkiLangs::FR
-dark,,,,,AnkiLangs::FR
-"light [opposite of ""dark""]",,,,,AnkiLangs::FR
-nuclear,,,,,AnkiLangs::FR
-famous,,,,,AnkiLangs::FR
-I,,,,,AnkiLangs::FR
-you [singular],,,,,AnkiLangs::FR
-he,,,,,AnkiLangs::FR
-she,,,,,AnkiLangs::FR
-it,,,,,AnkiLangs::FR
+to beat,,,,,AnkiLangs::FR
+to bend,,,,,AnkiLangs::FR
+to break,,,,,AnkiLangs::FR
+to build,,,,,AnkiLangs::FR
+to burn,,,,,AnkiLangs::FR
+to buy,,,,,AnkiLangs::FR
+to call,,,,,AnkiLangs::FR
+to carry,,,,,AnkiLangs::FR
+to catch,,,,,AnkiLangs::FR
+to clean,,,,,AnkiLangs::FR
+to close,,,,,AnkiLangs::FR
+to cook,,,,,AnkiLangs::FR
+to count,,,,,AnkiLangs::FR
+to cry,,,,,AnkiLangs::FR
+to cut,,,,,AnkiLangs::FR
+to dance,,,,,AnkiLangs::FR
+to die,,,,,AnkiLangs::FR
+to dig,,,,,AnkiLangs::FR
+to draw,,,,,AnkiLangs::FR
+to drink,,,,,AnkiLangs::FR
+to drive,,,,,AnkiLangs::FR
+to eat,,,,,AnkiLangs::FR
+to explode,,,,,AnkiLangs::FR
+to fall,,,,,AnkiLangs::FR
+to feed,,,,,AnkiLangs::FR
+to fight,,,,,AnkiLangs::FR
+to find,,,,,AnkiLangs::FR
+to fly,,,,,AnkiLangs::FR
+to follow,,,,,AnkiLangs::FR
+to go,,,,,AnkiLangs::FR
+to grow,,,,,AnkiLangs::FR
+to hang,,,,,AnkiLangs::FR
+to hear,,,,,AnkiLangs::FR
+to jump,,,,,AnkiLangs::FR
+to kill,,,,,AnkiLangs::FR
+to kiss,,,,,AnkiLangs::FR
+to laugh,,,,,AnkiLangs::FR
+to learn,,,,,AnkiLangs::FR
+to lie down,,,,,AnkiLangs::FR
+to lift,,,,,AnkiLangs::FR
+to listen,,,,,AnkiLangs::FR
+to lose,,,,,AnkiLangs::FR
+to love,,,,,AnkiLangs::FR
+to marry,,,,,AnkiLangs::FR
+to melt,,,,,AnkiLangs::FR
+to mix / to stir,,,,,AnkiLangs::FR
+to open,,,,,AnkiLangs::FR
+to pass by,,,,,AnkiLangs::FR
+to pay,,,,,AnkiLangs::FR
+to play,,,,,AnkiLangs::FR
+to pray,,,,,AnkiLangs::FR
+to pull,,,,,AnkiLangs::FR
+to push,,,,,AnkiLangs::FR
+to run,,,,,AnkiLangs::FR
+to see,,,,,AnkiLangs::FR
+to sell,,,,,AnkiLangs::FR
+to shake,,,,,AnkiLangs::FR
+to shoot (a gun),,,,,AnkiLangs::FR
+to sign,,,,,AnkiLangs::FR
+to sing,,,,,AnkiLangs::FR
+to sit,,,,,AnkiLangs::FR
+to sleep,,,,,AnkiLangs::FR
+to smell,,,,,AnkiLangs::FR
+to smile,,,,,AnkiLangs::FR
+to speak / to say,,,,,AnkiLangs::FR
+to stand,,,,,AnkiLangs::FR
+to stop,,,,,AnkiLangs::FR
+to swim,,,,,AnkiLangs::FR
+to taste,,,,,AnkiLangs::FR
+to teach,,,,,AnkiLangs::FR
+to think,,,,,AnkiLangs::FR
+to throw,,,,,AnkiLangs::FR
+to touch,,,,,AnkiLangs::FR
+to turn,,,,,AnkiLangs::FR
+to wake up,,,,,AnkiLangs::FR
+to walk,,,,,AnkiLangs::FR
+to wash,,,,,AnkiLangs::FR
+to watch,,,,,AnkiLangs::FR
+to wear,,,,,AnkiLangs::FR
+to win,,,,,AnkiLangs::FR
+to work,,,,,AnkiLangs::FR
+to write,,,,,AnkiLangs::FR
+transportation,le transport,/lə tʁɑ̃s.pɔʁ/,[sound:al_fr_fr_le_transport.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+Tuesday,,,,,AnkiLangs::FR
+twelve (12),,,,,AnkiLangs::FR
+twenty (20),,,,,AnkiLangs::FR
+twenty-one (21),,,,,AnkiLangs::FR
+twenty-two (22),,,,,AnkiLangs::FR
+two (2),,,,,AnkiLangs::FR
+ugly,,,,,AnkiLangs::FR
+up,,,,,AnkiLangs::FR
+war,,,,,AnkiLangs::FR
+warm,,,,,AnkiLangs::FR
+water,,,,,AnkiLangs::FR
 we,,,,,AnkiLangs::FR
+weak,,,,,AnkiLangs::FR
+wedding,,,,,AnkiLangs::FR
+Wednesday,,,,,AnkiLangs::FR
+weight,,,,,AnkiLangs::FR
+wet,,,,,AnkiLangs::FR
+white,blanc,/blɑ̃/,[sound:al_fr_fr_blanc.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+wide,,,,,AnkiLangs::FR
+wine,,,,,AnkiLangs::FR
+wood,,,,,AnkiLangs::FR
+yellow,jaune,/ʒon/,[sound:al_fr_fr_jaune.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+yes,,,,,AnkiLangs::FR
 "you [plural, y'all]",,,,,AnkiLangs::FR
-they,,,,,AnkiLangs::FR
+you [singular],,,,,AnkiLangs::FR
+young,,,,,AnkiLangs::FR
