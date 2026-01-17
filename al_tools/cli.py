@@ -7,6 +7,9 @@ from al_tools.core import (
     generate_joined_source_fields,
     fix_625_words_files,
     ambiguity_detection,
+    sort_csv_files,
+    csv2sqlite,
+    sqlite2csv,
 )
 
 
@@ -44,6 +47,38 @@ def cli():
         "-i", "--input", type=str, required=True, help="Input folder"
     )
 
+    sort_csv_parser = subparsers.add_parser(
+        "sort-csv", help="Sort CSV files alphabetically by key"
+    )
+    sort_csv_parser.add_argument(
+        "-i", "--input", type=str, required=True, help="Data folder"
+    )
+
+    csv2sqlite_parser = subparsers.add_parser(
+        "csv2sqlite", help="Import CSV files to SQLite"
+    )
+    csv2sqlite_parser.add_argument(
+        "-i", "--input", type=str, required=True, help="Data folder"
+    )
+    csv2sqlite_parser.add_argument(
+        "-d", "--database", type=str, default="data.db", help="Database file path"
+    )
+    csv2sqlite_parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Overwrite existing database without confirmation",
+    )
+
+    sqlite2csv_parser = subparsers.add_parser(
+        "sqlite2csv", help="Export SQLite to CSV files"
+    )
+    sqlite2csv_parser.add_argument(
+        "-d", "--database", type=str, required=True, help="Database file path"
+    )
+    sqlite2csv_parser.add_argument(
+        "-o", "--output", type=str, required=True, help="Output data folder"
+    )
+
     args = parser.parse_args()
 
     if args.command == "audio":
@@ -58,5 +93,11 @@ def cli():
     elif args.command == "check":
         output = ambiguity_detection(Path(args.input))
         print(output)
+    elif args.command == "sort-csv":
+        sort_csv_files(Path(args.input))
+    elif args.command == "csv2sqlite":
+        csv2sqlite(Path(args.input), Path(args.database), force=args.force)
+    elif args.command == "sqlite2csv":
+        sqlite2csv(Path(args.database), Path(args.output))
     else:
         parser.print_help()

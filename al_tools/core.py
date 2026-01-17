@@ -4,6 +4,9 @@ import random
 import time
 from typing import List, Tuple, Dict
 import unicodedata
+import csv
+import sqlite3
+from datetime import datetime
 
 import pandas as pd
 import os
@@ -411,3 +414,444 @@ def ambiguity_detection(folder_path: Path) -> str:
             for word, (keys, empty_columns) in aw_obj.ambiguous_words.items():
                 output += f"  - '{word}' has the key(s) {keys} and missing column(s) {empty_columns}\n"
     return output
+
+
+def sort_csv_files(data_dir: Path):
+    """Sort all CSV files alphabetically by first column (key or guid), case-insensitive."""
+    csv_files = sorted(data_dir.glob("*.csv"))
+
+    for csv_file in csv_files:
+        with open(csv_file, "r", encoding="utf-8", newline="") as f:
+            reader = csv.DictReader(f)
+            fieldnames = reader.fieldnames
+            rows = list(reader)
+
+        if not rows:
+            continue
+
+        first_col = fieldnames[0]
+        rows.sort(key=lambda row: (row[first_col].lower(), row[first_col]))
+
+        with open(csv_file, "w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+            writer.writeheader()
+            writer.writerows(rows)
+
+        print(f"Sorted {csv_file.name} ({len(rows)} rows)")
+
+
+def csv2sqlite(data_dir: Path, db_path: Path, force: bool = False):
+    """Import all CSV files from data_dir into SQLite database."""
+    # Check if database already exists and warn user
+    if db_path.exists() and not force:
+        response = input(
+            f"Warning: Database '{db_path}' already exists and will be overwritten.\n"
+            "All data will be replaced with CSV contents. Continue? (y/n): "
+        )
+        if response.lower() != "y":
+            print("Aborting import.")
+            sys.exit(1)
+
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+
+    # Create schema
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS vocabulary (
+            key TEXT PRIMARY KEY
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS base_language (
+            key TEXT NOT NULL,
+            locale TEXT NOT NULL,
+            text TEXT,
+            ipa TEXT,
+            audio TEXT,
+            audio_source TEXT,
+            PRIMARY KEY (key, locale),
+            FOREIGN KEY (key) REFERENCES vocabulary(key)
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS translation_pair (
+            key TEXT NOT NULL,
+            source_locale TEXT NOT NULL,
+            target_locale TEXT NOT NULL,
+            guid TEXT,
+            pronunciation_hint TEXT,
+            spelling_hint TEXT,
+            reading_hint TEXT,
+            listening_hint TEXT,
+            notes TEXT,
+            PRIMARY KEY (key, source_locale, target_locale),
+            FOREIGN KEY (key) REFERENCES vocabulary(key)
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS pictures (
+            key TEXT PRIMARY KEY,
+            picture TEXT,
+            picture_source TEXT,
+            FOREIGN KEY (key) REFERENCES vocabulary(key)
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS minimal_pairs (
+            guid TEXT PRIMARY KEY,
+            source_locale TEXT NOT NULL,
+            target_locale TEXT NOT NULL,
+            text1 TEXT,
+            audio1 TEXT,
+            ipa1 TEXT,
+            meaning1 TEXT,
+            text2 TEXT,
+            audio2 TEXT,
+            ipa2 TEXT,
+            meaning2 TEXT,
+            tags TEXT
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS _meta (
+            key TEXT PRIMARY KEY,
+            value TEXT
+        )
+    """)
+
+    # Clear existing data for idempotency
+    cursor.execute("DELETE FROM base_language")
+    cursor.execute("DELETE FROM translation_pair")
+    cursor.execute("DELETE FROM pictures")
+    cursor.execute("DELETE FROM minimal_pairs")
+    cursor.execute("DELETE FROM vocabulary")
+    cursor.execute("DELETE FROM _meta")
+
+    # Import base language files
+    for csv_file in sorted(data_dir.glob("625_words-base-*.csv")):
+        locale = csv_file.stem.split("-")[-1]
+        lang_short = locale.split("_")[0]
+
+        with open(csv_file, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                key = row["key"]
+                cursor.execute(
+                    "INSERT OR IGNORE INTO vocabulary (key) VALUES (?)", (key,)
+                )
+                cursor.execute(
+                    """
+                    INSERT OR REPLACE INTO base_language
+                    (key, locale, text, ipa, audio, audio_source)
+                    VALUES (?, ?, ?, ?, ?, ?)
+                """,
+                    (
+                        key,
+                        locale,
+                        row.get(f"text:{lang_short}", ""),
+                        row.get(f"ipa:{lang_short}", ""),
+                        row.get(f"audio:{lang_short}", ""),
+                        row.get(f"audio source:{lang_short}", ""),
+                    ),
+                )
+        print(f"Imported {csv_file.name}")
+
+    # Import translation pair files
+    for csv_file in sorted(data_dir.glob("625_words-from-*-to-*.csv")):
+        match = re.match(r"625_words-from-(.+)-to-(.+)\.csv", csv_file.name)
+        if match:
+            source_locale, target_locale = match.groups()
+
+            with open(csv_file, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    key = row["key"]
+                    cursor.execute(
+                        "INSERT OR IGNORE INTO vocabulary (key) VALUES (?)", (key,)
+                    )
+                    cursor.execute(
+                        """
+                        INSERT OR REPLACE INTO translation_pair
+                        (key, source_locale, target_locale, guid, pronunciation_hint,
+                         spelling_hint, reading_hint, listening_hint, notes)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    """,
+                        (
+                            key,
+                            source_locale,
+                            target_locale,
+                            row.get("guid", ""),
+                            row.get("pronunciation hint", ""),
+                            row.get("spelling hint", ""),
+                            row.get("reading hint", ""),
+                            row.get("listening hint", ""),
+                            row.get("notes", ""),
+                        ),
+                    )
+            print(f"Imported {csv_file.name}")
+
+    # Import pictures
+    pictures_file = data_dir / "625_words-pictures.csv"
+    if pictures_file.exists():
+        with open(pictures_file, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                key = row["key"]
+                if key:
+                    cursor.execute(
+                        "INSERT OR IGNORE INTO vocabulary (key) VALUES (?)", (key,)
+                    )
+                    cursor.execute(
+                        """
+                        INSERT OR REPLACE INTO pictures (key, picture, picture_source)
+                        VALUES (?, ?, ?)
+                    """,
+                        (key, row.get("picture", ""), row.get("picture source", "")),
+                    )
+        print(f"Imported {pictures_file.name}")
+
+    # Import minimal pairs
+    for csv_file in sorted(data_dir.glob("minimal_pairs-*.csv")):
+        match = re.match(r"minimal_pairs-from-(.+)_to_(.+)\.csv", csv_file.name)
+        if match:
+            source_locale, target_locale = match.groups()
+
+            with open(csv_file, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    if row.get("guid"):
+                        cursor.execute(
+                            """
+                            INSERT OR REPLACE INTO minimal_pairs
+                            (guid, source_locale, target_locale, text1, audio1, ipa1, meaning1,
+                             text2, audio2, ipa2, meaning2, tags)
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        """,
+                            (
+                                row["guid"],
+                                source_locale,
+                                target_locale,
+                                row.get("text1", ""),
+                                row.get("audio1", ""),
+                                row.get("ipa1", ""),
+                                row.get("meaning1", ""),
+                                row.get("text2", ""),
+                                row.get("audio2", ""),
+                                row.get("ipa2", ""),
+                                row.get("meaning2", ""),
+                                row.get("tags", ""),
+                            ),
+                        )
+            print(f"Imported {csv_file.name}")
+
+    # Save metadata
+    cursor.execute(
+        "INSERT OR REPLACE INTO _meta (key, value) VALUES (?, ?)",
+        ("import_timestamp", datetime.now().isoformat()),
+    )
+
+    conn.commit()
+    conn.close()
+    print(f"\nDatabase saved to {db_path}")
+
+
+def sqlite2csv(db_path: Path, data_dir: Path):
+    """Export SQLite database back to CSV files with deterministic formatting."""
+    if not db_path.exists():
+        raise FileNotFoundError(f"Database not found: {db_path}")
+
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+
+    # Get all locales
+    cursor = conn.cursor()
+    cursor.execute("SELECT DISTINCT locale FROM base_language ORDER BY locale")
+    locales = [row["locale"] for row in cursor.fetchall()]
+
+    # Export base language files
+    for locale in locales:
+        lang_short = locale.split("_")[0]
+        cursor.execute(
+            """
+            SELECT key, text, ipa, audio, audio_source
+            FROM base_language
+            WHERE locale = ?
+            ORDER BY key COLLATE NOCASE
+        """,
+            (locale,),
+        )
+
+        rows = cursor.fetchall()
+        fieldnames = [
+            "key",
+            f"text:{lang_short}",
+            f"ipa:{lang_short}",
+            f"audio:{lang_short}",
+            f"audio source:{lang_short}",
+            f"tags:{lang_short}",
+        ]
+
+        csv_file = data_dir / f"625_words-base-{locale}.csv"
+        with open(csv_file, "w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+            writer.writeheader()
+            for row in rows:
+                writer.writerow(
+                    {
+                        "key": row["key"],
+                        f"text:{lang_short}": row["text"] or "",
+                        f"ipa:{lang_short}": row["ipa"] or "",
+                        f"audio:{lang_short}": row["audio"] or "",
+                        f"audio source:{lang_short}": row["audio_source"] or "",
+                        f"tags:{lang_short}": f"AnkiLangs::{lang_short.upper()}",
+                    }
+                )
+        print(f"Exported {csv_file.name} ({len(rows)} rows)")
+
+    # Export translation pair files
+    cursor.execute("""
+        SELECT DISTINCT source_locale, target_locale
+        FROM translation_pair
+        ORDER BY source_locale, target_locale
+    """)
+    pairs = cursor.fetchall()
+
+    for pair in pairs:
+        source_locale = pair["source_locale"]
+        target_locale = pair["target_locale"]
+
+        cursor.execute(
+            """
+            SELECT key, guid, pronunciation_hint, spelling_hint, reading_hint,
+                   listening_hint, notes
+            FROM translation_pair
+            WHERE source_locale = ? AND target_locale = ?
+            ORDER BY key COLLATE NOCASE
+        """,
+            (source_locale, target_locale),
+        )
+
+        rows = cursor.fetchall()
+        fieldnames = [
+            "key",
+            "guid",
+            "pronunciation hint",
+            "spelling hint",
+            "reading hint",
+            "listening hint",
+            "notes",
+        ]
+
+        csv_file = data_dir / f"625_words-from-{source_locale}-to-{target_locale}.csv"
+        with open(csv_file, "w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+            writer.writeheader()
+            for row in rows:
+                writer.writerow(
+                    {
+                        "key": row["key"],
+                        "guid": row["guid"] or "",
+                        "pronunciation hint": row["pronunciation_hint"] or "",
+                        "spelling hint": row["spelling_hint"] or "",
+                        "reading hint": row["reading_hint"] or "",
+                        "listening hint": row["listening_hint"] or "",
+                        "notes": row["notes"] or "",
+                    }
+                )
+        print(f"Exported {csv_file.name} ({len(rows)} rows)")
+
+    # Export pictures
+    cursor.execute(
+        "SELECT key, picture, picture_source FROM pictures ORDER BY key COLLATE NOCASE"
+    )
+    rows = cursor.fetchall()
+
+    csv_file = data_dir / "625_words-pictures.csv"
+    with open(csv_file, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(
+            f, fieldnames=["key", "picture", "picture source"], lineterminator="\n"
+        )
+        writer.writeheader()
+        for row in rows:
+            writer.writerow(
+                {
+                    "key": row["key"],
+                    "picture": row["picture"] or "",
+                    "picture source": row["picture_source"] or "",
+                }
+            )
+    print(f"Exported {csv_file.name} ({len(rows)} rows)")
+
+    # Export minimal pairs
+    cursor.execute("""
+        SELECT DISTINCT source_locale, target_locale
+        FROM minimal_pairs
+        ORDER BY source_locale, target_locale
+    """)
+    mp_pairs = cursor.fetchall()
+
+    for pair in mp_pairs:
+        source_locale = pair["source_locale"]
+        target_locale = pair["target_locale"]
+
+        cursor.execute(
+            """
+            SELECT guid, text1, audio1, ipa1, meaning1, text2, audio2, ipa2, meaning2, tags
+            FROM minimal_pairs
+            WHERE source_locale = ? AND target_locale = ?
+            ORDER BY guid COLLATE NOCASE
+        """,
+            (source_locale, target_locale),
+        )
+
+        rows = cursor.fetchall()
+        fieldnames = [
+            "guid",
+            "text1",
+            "audio1",
+            "ipa1",
+            "meaning1",
+            "text2",
+            "audio2",
+            "ipa2",
+            "meaning2",
+            "tags",
+        ]
+
+        csv_file = (
+            data_dir / f"minimal_pairs-from-{source_locale}_to_{target_locale}.csv"
+        )
+        with open(csv_file, "w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+            writer.writeheader()
+            for row in rows:
+                writer.writerow(
+                    {
+                        "guid": row["guid"],
+                        "text1": row["text1"] or "",
+                        "audio1": row["audio1"] or "",
+                        "ipa1": row["ipa1"] or "",
+                        "meaning1": row["meaning1"] or "",
+                        "text2": row["text2"] or "",
+                        "audio2": row["audio2"] or "",
+                        "ipa2": row["ipa2"] or "",
+                        "meaning2": row["meaning2"] or "",
+                        "tags": row["tags"] or "",
+                    }
+                )
+        print(f"Exported {csv_file.name} ({len(rows)} rows)")
+
+    # Update timestamp to reflect that DB and CSV files are now in sync
+    cursor.execute(
+        "INSERT OR REPLACE INTO _meta (key, value) VALUES (?, ?)",
+        ("import_timestamp", datetime.now().isoformat()),
+    )
+    conn.commit()
+
+    conn.close()
+    print(f"\nAll files exported from {db_path}")
