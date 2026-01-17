@@ -237,6 +237,11 @@ def generate_audio(
     cursor = conn.cursor()
     try:
         for rowindex, row in df.iterrows():
+            # Skip rows with empty text
+            if pd.isna(row[text_col]) or not row[text_col]:
+                print(f"Skipping row with key '{row['key']}' - empty text")
+                continue
+
             if pd.notna(row[audio_col]) and row[audio_col]:
                 audio_file = audio_folder_path / re.search(
                     r"\[sound:(.+)\]", row[audio_col]
