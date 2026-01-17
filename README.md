@@ -43,15 +43,29 @@ git clone https://github.com/ankilangs/ankilangs
 cd ankilangs/
 ```
 
-### Build the decks
+### Working with the Data
+
+The project uses CSV files as the source of truth, but tools work with a SQLite database for efficiency.
+
+#### Initial Setup
+
+First, import the CSV files into SQLite:
+
+```bash
+uv run al-tools csv2sqlite -i src/data
+```
+
+This creates `data.db` (which is gitignored).
+
+#### Build the decks
 
 If you want you can build the decks (i.e. convert the CSV files into Anki decks).
 Note that you do not need to do this in order to make a contribution. If you want to improve a deck
 you can stick to the "Contribute changes" section above and leave the complicated stuff to us 🙂.
 
 ```bash
-uv run al-tools generate -i src/data/
-uv run al-tools check -i src/data/
+uv run al-tools generate -o src/data/generated
+uv run al-tools check
 uv run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
 uv run brainbrew run recipes/source_to_anki_625_words.yaml
 ```
@@ -60,6 +74,17 @@ Open Anki and via `File / CrowdAnki: Import from disk` import any of the `build/
 Git repository.
 
 Then you may review them like any deck.
+
+#### Workflow for Editing Data
+
+1. **Import CSV to SQLite** (if not done already): `uv run al-tools csv2sqlite -i src/data`
+2. **Edit data**: Use SQL tools (sqlite3, DB Browser, DBeaver, etc.) to query/update `data.db`
+3. **Export back to CSV**: `uv run al-tools sqlite2csv -d data.db -o src/data`
+4. **Commit changes**: `jj commit` the modified CSV files
+
+The database includes safety checks:
+- Aborts if database doesn't exist (tells you how to create it)
+- Warns if CSV files are newer than the database (may be out of sync)
 
 
 ### Code Quality
@@ -186,15 +211,27 @@ to be unique and will automatically be generated during build.
 You need a Google Cloud account and need to be
 [authenticated](https://cloud.google.com/docs/authentication/set-up-adc-local-dev-environment).
 
+Make sure you have imported the CSV files to SQLite first:
+
+```bash
+uv run al-tools csv2sqlite -i src/data
+```
+
 Then execute, for example:
 
 ```bash
-uv run al-tools audio -i src/data/625_words-base-de_de.csv -o src/media/audio/de_DE/
-uv run al-tools audio -i src/data/625_words-base-pt_pt.csv -o src/media/audio/pt_PT/
-uv run al-tools audio -i src/data/625_words-base-it_it.csv -o src/media/audio/it_IT/
-uv run al-tools audio -i src/data/625_words-base-fr_fr.csv -o src/media/audio/fr_FR/
-uv run al-tools audio -i src/data/625_words-base-en_us.csv -o src/media/audio/en_US/
-uv run al-tools audio -i src/data/625_words-base-es_es.csv -o src/media/audio/es_ES/
+uv run al-tools audio -l de_de -o src/media/audio/de_DE/
+uv run al-tools audio -l pt_pt -o src/media/audio/pt_PT/
+uv run al-tools audio -l it_it -o src/media/audio/it_IT/
+uv run al-tools audio -l fr_fr -o src/media/audio/fr_FR/
+uv run al-tools audio -l en_us -o src/media/audio/en_US/
+uv run al-tools audio -l es_es -o src/media/audio/es_ES/
+```
+
+After audio generation, export the updated database back to CSV:
+
+```bash
+uv run al-tools sqlite2csv -d data.db -o src/data
 ```
 
 
