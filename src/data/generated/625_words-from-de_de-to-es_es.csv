@@ -36,12 +36,12 @@ down,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 dry,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 dust,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a><br><br>Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C"
-eight (8),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-eighteen (18),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-eighty (80),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-eighty-one (81),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-eighty-two (82),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-eleven (11),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+eight (8),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+eighteen (18),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+eighty (80),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+eighty-one (81),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+eighty-two (82),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+eleven (11),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 energy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 exercise,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 expensive,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
@@ -49,31 +49,31 @@ famous,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 fast,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 February,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 female,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-fifteen (15),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-fifth (5th),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-fifty (50),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-fifty-one (51),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-fifty-two (52),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-first (1st),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-five (5),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+fifteen (15),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+fifth (5th),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+fifty (50),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+fifty-one (51),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+fifty-two (52),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+first (1st),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+five (5),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 flat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 food,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-forty (40),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-forty-one (41),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-forty-two (42),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-four (4),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+forty (40),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+forty-one (41),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+forty-two (42),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+four (4),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 Friday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 glass,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 God,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 gold,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 good,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-gray,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+gray,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 green,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-happy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+happy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
 hard,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-he,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+he,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
 healthy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 heaven,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 heavy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
@@ -86,6 +86,7 @@ January,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 juice,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 July,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 June,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+left,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
 "light [opposite of ""dark""]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 "light [opposite of ""heavy""]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 light blue,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
@@ -111,11 +112,11 @@ narrow,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 nature,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 new,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 nice,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-nine (9),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-nineteen (19),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-ninety (90),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-ninety-one (91),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-ninety-two (92),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+nine (9),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+nineteen (19),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+ninety (90),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+ninety-one (91),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+ninety-two (92),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
 no,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 November,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 nuclear,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
@@ -123,17 +124,17 @@ October,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 oil,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 "old [opposite of ""new""]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 "old [opposite of ""young""]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-one (1),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-"one billion (1,000,000,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-one hundred (100),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-one hundred eleven (111),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-one hundred one (101),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-one hundred ten (110),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-"one hundred thousand (100,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-one hundred two (102),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-one thousand (1000),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-one thousand one (1001),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+one (1),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+"one billion (1,000,000,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+one hundred (100),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+one hundred eleven (111),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+one hundred one (101),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+one hundred ten (110),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+"one hundred thousand (100,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+one hundred two (102),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+one thousand (1000),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+one thousand one (1001),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
 orange,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 pain,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 peace,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
@@ -145,7 +146,7 @@ prison,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 quiet,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 race [ethnicity],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 race [sport],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-red,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+red,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
 relationship,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 religion,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 rice,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
@@ -155,13 +156,13 @@ sad,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 salt,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 Saturday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 science,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-second (2nd),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+second (2nd),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 September,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-seven (7),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-seventy (70),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+seven (7),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+seventy (70),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 sex [gender],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 sex [the act],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 shallow,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
@@ -170,11 +171,11 @@ she,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 "short [opposite of ""tall""]",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 sick,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 silver,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-six (6),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-sixteen (16),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-sixty (60),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-sixty-one (61),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-sixty-two (62),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+six (6),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+sixteen (16),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+sixty (60),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+sixty-one (61),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+sixty-two (62),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 slow,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 small / little,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 soft,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
@@ -191,14 +192,14 @@ tall,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 tea,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 technology,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 temperature,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-ten (10),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-"ten thousand (10,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+ten (10),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+"ten thousand (10,000)",Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
 the (train) ticket,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the actor,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the adjective,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the adult,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the afternoon,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-the air,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the air,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 the airport,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the animal,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the apartment,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
@@ -379,7 +380,7 @@ the mouse,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the mouth,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the movie,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the neck,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-the needle,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the needle,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 the neighbor,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the network,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the newspaper,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
@@ -441,7 +442,7 @@ the seed,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the ship,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the shirt,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the shoes,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-the shoulder,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+the shoulder,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 the side,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the sign,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the sister,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
@@ -470,7 +471,7 @@ the sun,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the T-shirt,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the table,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the teacher,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-the team,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+the team,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
 the tear,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the telephone,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the television,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
@@ -508,21 +509,21 @@ the world,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 the yard,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 the year,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 they,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-thick,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+thick,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 thin,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-third (3rd),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-thirteen (13),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-thirty (30),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-thirty-one (31),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-thirty-two (32),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-three (3),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+third (3rd),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+thirteen (13),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+thirty (30),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+thirty-one (31),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+thirty-two (32),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+three (3),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
 Thursday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 tight,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-to beat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to beat,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 to bend,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 to break,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to build,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-to burn,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to burn,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
 to buy,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to call,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to carry,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
@@ -533,7 +534,7 @@ to cook,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to count,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 to cry,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to cut,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-to dance,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+to dance,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 to die,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 to dig,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to draw,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
@@ -554,7 +555,7 @@ to hear,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 to jump,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to kill,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to kiss,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-to laugh,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to laugh,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 to learn,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 to lie down,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to lift,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
@@ -581,7 +582,7 @@ to sing,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 to sit,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to sleep,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 to smell,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-to smile,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+to smile,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 to speak / to say,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to stand,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 to stop,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
@@ -602,11 +603,11 @@ to work,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 to write,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 transportation,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 Tuesday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-twelve (12),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-twenty (20),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
-twenty-one (21),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-twenty-two (22),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-two (2),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
+twelve (12),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+twenty (20),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
+twenty-one (21),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+twenty-two (22),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
+two (2),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 ugly,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 up,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 war,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
