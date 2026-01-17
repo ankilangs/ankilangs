@@ -168,9 +168,11 @@ _VOICE_MAP = {
         "it-IT-Chirp3-HD-Vindemiatrix",
     ],
     "de_de": [
-        "de-DE-Chirp3-HD-Erinome",
+        "de-DE-Chirp3-HD-Charon",
+        #"de-DE-Chirp3-HD-Erinome",
         "de-DE-Chirp3-HD-Rasalgethi",
-        "de-DE-Chirp3-HD-Umbriel",
+        #"de-DE-Chirp3-HD-Umbriel",
+        "de-DE-Chirp3-HD-Vindemiatrix",
     ],
     "pt_pt": [
         "pt-PT-Chirp3-HD-Fenrir",
