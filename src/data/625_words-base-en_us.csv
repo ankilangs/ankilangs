@@ -36,12 +36,12 @@ down,down,,,,AnkiLangs::EN
 dry,dry,,,,AnkiLangs::EN
 dust,dust,,,,AnkiLangs::EN
 Earth,Earth,/ɜrθ/,[sound:al_en_us_earth.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-eight (8),eight (8),,,,AnkiLangs::EN
-eighteen (18),eighteen (18),,,,AnkiLangs::EN
-eighty (80),eighty (80),,,,AnkiLangs::EN
-eighty-one (81),eighty-one (81),,,,AnkiLangs::EN
-eighty-two (82),eighty-two (82),,,,AnkiLangs::EN
-eleven (11),eleven (11),,,,AnkiLangs::EN
+eight (8),eight,,,,AnkiLangs::EN
+eighteen (18),eighteen,,,,AnkiLangs::EN
+eighty (80),eighty,,,,AnkiLangs::EN
+eighty-one (81),eighty-one,,,,AnkiLangs::EN
+eighty-two (82),eighty-two,,,,AnkiLangs::EN
+eleven (11),eleven,,,,AnkiLangs::EN
 energy,energy,,,,AnkiLangs::EN
 exercise,exercise,,,,AnkiLangs::EN
 expensive,expensive,,,,AnkiLangs::EN
@@ -49,21 +49,21 @@ famous,famous,,,,AnkiLangs::EN
 fast,fast,,,,AnkiLangs::EN
 February,February,,,,AnkiLangs::EN
 female,female,,,,AnkiLangs::EN
-fifteen (15),fifteen (15),,,,AnkiLangs::EN
-fifth (5th),fifth (5th),,,,AnkiLangs::EN
-fifty (50),fifty (50),,,,AnkiLangs::EN
-fifty-one (51),fifty-one (51),,,,AnkiLangs::EN
-fifty-two (52),fifty-two (52),,,,AnkiLangs::EN
-first (1st),first (1st),,,,AnkiLangs::EN
-five (5),five (5),,,,AnkiLangs::EN
+fifteen (15),fifteen,,,,AnkiLangs::EN
+fifth (5th),fifth,,,,AnkiLangs::EN
+fifty (50),fifty,,,,AnkiLangs::EN
+fifty-one (51),fifty-one,,,,AnkiLangs::EN
+fifty-two (52),fifty-two,,,,AnkiLangs::EN
+first (1st),first,,,,AnkiLangs::EN
+five (5),five,,,,AnkiLangs::EN
 flat,flat,,,,AnkiLangs::EN
 food,food,,,,AnkiLangs::EN
-forty (40),forty (40),,,,AnkiLangs::EN
-forty-one (41),forty-one (41),,,,AnkiLangs::EN
-forty-two (42),forty-two (42),,,,AnkiLangs::EN
-four (4),four (4),,,,AnkiLangs::EN
-fourteen (14),fourteen (14),,,,AnkiLangs::EN
-fourth (4th),fourth (4th),,,,AnkiLangs::EN
+forty (40),forty,,,,AnkiLangs::EN
+forty-one (41),forty-one,,,,AnkiLangs::EN
+forty-two (42),forty-two,,,,AnkiLangs::EN
+four (4),four,,,,AnkiLangs::EN
+fourteen (14),fourteen,,,,AnkiLangs::EN
+fourth (4th),fourth,,,,AnkiLangs::EN
 Friday,Friday,,,,AnkiLangs::EN
 glass,glass,,,,AnkiLangs::EN
 God,God,,,,AnkiLangs::EN
@@ -112,11 +112,11 @@ narrow,narrow,,,,AnkiLangs::EN
 nature,nature,,,,AnkiLangs::EN
 new,new,,,,AnkiLangs::EN
 nice,nice,,,,AnkiLangs::EN
-nine (9),nine (9),,,,AnkiLangs::EN
-nineteen (19),nineteen (19),,,,AnkiLangs::EN
-ninety (90),ninety (90),,,,AnkiLangs::EN
-ninety-one (91),ninety-one (91),,,,AnkiLangs::EN
-ninety-two (92),ninety-two (92),,,,AnkiLangs::EN
+nine (9),nine,,,,AnkiLangs::EN
+nineteen (19),nineteen,,,,AnkiLangs::EN
+ninety (90),ninety,,,,AnkiLangs::EN
+ninety-one (91),ninety-one,,,,AnkiLangs::EN
+ninety-two (92),ninety-two,,,,AnkiLangs::EN
 no,no,,,,AnkiLangs::EN
 November,November,,,,AnkiLangs::EN
 nuclear,nuclear,,,,AnkiLangs::EN
@@ -124,17 +124,17 @@ October,October,,,,AnkiLangs::EN
 oil,oil,,,,AnkiLangs::EN
 "old [opposite of ""new""]","old [opposite of ""new""]",,,,AnkiLangs::EN
 "old [opposite of ""young""]","old [opposite of ""young""]",,,,AnkiLangs::EN
-one (1),one (1),,,,AnkiLangs::EN
-"one billion (1,000,000,000)","one billion (1,000,000,000)",,,,AnkiLangs::EN
-one hundred (100),one hundred (100),,,,AnkiLangs::EN
-one hundred eleven (111),one hundred eleven (111),,,,AnkiLangs::EN
-one hundred one (101),one hundred one (101),,,,AnkiLangs::EN
-one hundred ten (110),one hundred ten (110),,,,AnkiLangs::EN
-"one hundred thousand (100,000)","one hundred thousand (100,000)",,,,AnkiLangs::EN
-one hundred two (102),one hundred two (102),,,,AnkiLangs::EN
-"one million (1,000,000)","one million (1,000,000)",,,,AnkiLangs::EN
-one thousand (1000),one thousand (1000),,,,AnkiLangs::EN
-one thousand one (1001),one thousand one (1001),,,,AnkiLangs::EN
+one (1),one,,,,AnkiLangs::EN
+"one billion (1,000,000,000)",one billion,,,,AnkiLangs::EN
+one hundred (100),one hundred,,,,AnkiLangs::EN
+one hundred eleven (111),one hundred eleven,,,,AnkiLangs::EN
+one hundred one (101),one hundred one,,,,AnkiLangs::EN
+one hundred ten (110),one hundred ten,,,,AnkiLangs::EN
+"one hundred thousand (100,000)",one hundred thousand,,,,AnkiLangs::EN
+one hundred two (102),one hundred two,,,,AnkiLangs::EN
+"one million (1,000,000)",one million,,,,AnkiLangs::EN
+one thousand (1000),one thousand,,,,AnkiLangs::EN
+one thousand one (1001),one thousand one,,,,AnkiLangs::EN
 orange,orange,/ˈɔrɪndʒ/,[sound:al_en_us_orange.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 pain,pain,,,,AnkiLangs::EN
 peace,peace,,,,AnkiLangs::EN
@@ -156,13 +156,13 @@ sad,sad,,,,AnkiLangs::EN
 salt,salt,,,,AnkiLangs::EN
 Saturday,Saturday,,,,AnkiLangs::EN
 science,science,,,,AnkiLangs::EN
-second (2nd),second (2nd),,,,AnkiLangs::EN
+second (2nd),second,,,,AnkiLangs::EN
 September,September,,,,AnkiLangs::EN
-seven (7),seven (7),,,,AnkiLangs::EN
-seventeen (17),seventeen (17),,,,AnkiLangs::EN
-seventy (70),seventy (70),,,,AnkiLangs::EN
-seventy-one (71),seventy-one (71),,,,AnkiLangs::EN
-seventy-two (72),seventy-two (72),,,,AnkiLangs::EN
+seven (7),seven,,,,AnkiLangs::EN
+seventeen (17),seventeen,,,,AnkiLangs::EN
+seventy (70),seventy,,,,AnkiLangs::EN
+seventy-one (71),seventy-one,,,,AnkiLangs::EN
+seventy-two (72),seventy-two,,,,AnkiLangs::EN
 sex [gender],sex [gender],,,,AnkiLangs::EN
 sex [the act],sex [the act],,,,AnkiLangs::EN
 shallow,shallow,,,,AnkiLangs::EN
@@ -171,11 +171,11 @@ she,she,,,,AnkiLangs::EN
 "short [opposite of ""tall""]","short [opposite of ""tall""]",,,,AnkiLangs::EN
 sick,sick,,,,AnkiLangs::EN
 silver,silver,,,,AnkiLangs::EN
-six (6),six (6),,,,AnkiLangs::EN
-sixteen (16),sixteen (16),,,,AnkiLangs::EN
-sixty (60),sixty (60),,,,AnkiLangs::EN
-sixty-one (61),sixty-one (61),,,,AnkiLangs::EN
-sixty-two (62),sixty-two (62),,,,AnkiLangs::EN
+six (6),six,,,,AnkiLangs::EN
+sixteen (16),sixteen,,,,AnkiLangs::EN
+sixty (60),sixty,,,,AnkiLangs::EN
+sixty-one (61),sixty-one,,,,AnkiLangs::EN
+sixty-two (62),sixty-two,,,,AnkiLangs::EN
 slow,slow,,,,AnkiLangs::EN
 small / little,small / little,,,,AnkiLangs::EN
 soft,soft,,,,AnkiLangs::EN
@@ -192,8 +192,8 @@ tall,tall,,,,AnkiLangs::EN
 tea,tea,,,,AnkiLangs::EN
 technology,technology,,,,AnkiLangs::EN
 temperature,temperature,,,,AnkiLangs::EN
-ten (10),ten (10),,,,AnkiLangs::EN
-"ten thousand (10,000)","ten thousand (10,000)",,,,AnkiLangs::EN
+ten (10),ten,,,,AnkiLangs::EN
+"ten thousand (10,000)",ten thousand,,,,AnkiLangs::EN
 the (train) ticket,the (train) ticket,/ðə ˈtɪkɪt/,[sound:al_en_us_the_train_ticket.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 the actor,the actor,,,,AnkiLangs::EN
 the adjective,the adjective,,,,AnkiLangs::EN
@@ -511,12 +511,12 @@ the year,the year,,,,AnkiLangs::EN
 they,they,,,,AnkiLangs::EN
 thick,thick,,,,AnkiLangs::EN
 thin,thin,,,,AnkiLangs::EN
-third (3rd),third (3rd),,,,AnkiLangs::EN
-thirteen (13),thirteen (13),,,,AnkiLangs::EN
-thirty (30),thirty (30),,,,AnkiLangs::EN
-thirty-one (31),thirty-one (31),,,,AnkiLangs::EN
-thirty-two (32),thirty-two (32),,,,AnkiLangs::EN
-three (3),three (3),,,,AnkiLangs::EN
+third (3rd),third,,,,AnkiLangs::EN
+thirteen (13),thirteen,,,,AnkiLangs::EN
+thirty (30),thirty,,,,AnkiLangs::EN
+thirty-one (31),thirty-one,,,,AnkiLangs::EN
+thirty-two (32),thirty-two,,,,AnkiLangs::EN
+three (3),three,,,,AnkiLangs::EN
 Thursday,Thursday,,,,AnkiLangs::EN
 tight,tight,,,,AnkiLangs::EN
 to beat,to beat,,,,AnkiLangs::EN
@@ -603,11 +603,11 @@ to work,to work,,,,AnkiLangs::EN
 to write,to write,,,,AnkiLangs::EN
 transportation,transportation,/ˌtrænspərˈteɪʃən/,[sound:al_en_us_transportation.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 Tuesday,Tuesday,,,,AnkiLangs::EN
-twelve (12),twelve (12),,,,AnkiLangs::EN
-twenty (20),twenty (20),,,,AnkiLangs::EN
-twenty-one (21),twenty-one (21),,,,AnkiLangs::EN
-twenty-two (22),twenty-two (22),,,,AnkiLangs::EN
-two (2),two (2),,,,AnkiLangs::EN
+twelve (12),twelve,,,,AnkiLangs::EN
+twenty (20),twenty,,,,AnkiLangs::EN
+twenty-one (21),twenty-one,,,,AnkiLangs::EN
+twenty-two (22),twenty-two,,,,AnkiLangs::EN
+two (2),two,,,,AnkiLangs::EN
 ugly,ugly,,,,AnkiLangs::EN
 up,up,,,,AnkiLangs::EN
 war,war,,,,AnkiLangs::EN
