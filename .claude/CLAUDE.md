@@ -33,6 +33,44 @@ Before committing language data changes, always:
 
 **Supported locales**: `de_de`, `en_us`, `es_es`, `fr_fr`, `it_it`, `la_la`, `pt_pt`, `sq_sq`
 
+## Hints System
+Hints disambiguate ambiguous words without revealing the translation. There are 4 card types, each with its own hint column:
+
+**Reading hint** - User reads target word, produces source meaning
+- EN→ES example: User sees "el banco" and doesn't know if it means "bank" (financial) or "bench" (sitting). Hint: `for money`
+
+**Listening hint** - User hears target word, produces source meaning
+- EN→ES example: User hears "el banco" and doesn't know if it means "bank" or "bench". Hint: `for money`
+
+**Pronunciation hint** - User sees source word, pronounces target word
+- EN→ES example: User sees "the bank" and doesn't know whether to say "el banco" (financial) or "la orilla" (river). Hint: `financial institution`
+
+**Spelling hint** - User sees source word AND hears target word, spells target word
+- Hardly ever needed: the combination of seeing meaning and hearing pronunciation removes almost all ambiguity. Only needed for target language homophones where the source language meaning is also ambiguous.
+
+**Key insight:** Reading/Listening hints address **target language** ambiguity (what the user sees/hears). Pronunciation/Spelling hints address **source language** ambiguity (what the user must produce). These may require *different* hints for the same entry.
+
+**Complete example - EN→ES entry for "the bank" → "el banco" (financial):**
+- `pronunciation hint`: `financial institution` — EN "bank" is ambiguous (financial vs river)
+- `spelling hint`: (not needed — user sees meaning and hears pronunciation)
+- `reading hint`: `for money` — ES "banco" is ambiguous (bank vs bench)
+- `listening hint`: `for money` — same reason
+
+**When hints are NOT required:**
+- Unambiguous words in both languages: `cat`/`gato`, `dog`/`perro`, `house`/`casa`
+- When neither source nor target word has multiple common meanings
+
+**Negative examples (DON'T do this):**
+- ❌ `banco` as hint (reveals translation)
+- ❌ `one meaning of bank` (too vague, useless)
+- ❌ `where you put your savings` (gives away the meaning)
+- ❌ `the animal` on `cat` (unnecessary, unambiguous word)
+
+**Guidelines:**
+- Only add hints when source OR target word has multiple distinct meanings
+- Shorter is better, but hints can be longer if necessary
+- Run `just check-data` to detect ambiguous words missing hints
+
 ## Common Commands
 - `just generate`: Generate derived CSV files
 - `just check-data`: Detect ambiguous words missing hints
