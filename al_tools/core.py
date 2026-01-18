@@ -496,10 +496,79 @@ class _AmbiguousWords:
 
 def ambiguity_detection(db_path: Path, data_dir: Path = Path("src/data")) -> str:
     """
-    Detect ambiguous words in the database.
+    Detect ambiguous words and duplicate keys in the database.
     """
     _ensure_db_exists(db_path, data_dir)
     _check_db_freshness(db_path, data_dir)
+
+    output = ""
+
+    # Check for duplicate keys in CSV files
+    duplicate_errors = []
+
+    # Check base language files
+    for csv_file in sorted(data_dir.glob("625_words-base-*.csv")):
+        df = pd.read_csv(csv_file, sep=",")
+        if df["key"].duplicated().any():
+            duplicates = df[df["key"].duplicated(keep=False)].sort_values("key")
+            duplicate_errors.append(
+                f"Duplicate keys in '{csv_file.name}':\n"
+                + "\n".join(f"  - '{key}'" for key in duplicates["key"].unique())
+            )
+
+    # Check translation pair files
+    for csv_file in sorted(data_dir.glob("625_words-from-*-to-*.csv")):
+        df = pd.read_csv(csv_file, sep=",")
+        if df["key"].duplicated().any():
+            duplicates = df[df["key"].duplicated(keep=False)].sort_values("key")
+            duplicate_errors.append(
+                f"Duplicate keys in '{csv_file.name}':\n"
+                + "\n".join(f"  - '{key}'" for key in duplicates["key"].unique())
+            )
+
+    # Check pictures file
+    pictures_file = data_dir / "625_words-pictures.csv"
+    if pictures_file.exists():
+        df = pd.read_csv(pictures_file, sep=",")
+        if df["key"].duplicated().any():
+            duplicates = df[df["key"].duplicated(keep=False)].sort_values("key")
+            duplicate_errors.append(
+                f"Duplicate keys in '{pictures_file.name}':\n"
+                + "\n".join(f"  - '{key}'" for key in duplicates["key"].unique())
+            )
+
+    # Check tts_overrides file for duplicate (key, locale) pairs
+    tts_file = data_dir / "tts_overrides.csv"
+    if tts_file.exists():
+        df = pd.read_csv(tts_file, sep=",")
+        if df[["key", "locale"]].duplicated().any():
+            duplicates = df[df[["key", "locale"]].duplicated(keep=False)].sort_values(
+                ["key", "locale"]
+            )
+            duplicate_errors.append(
+                f"Duplicate (key, locale) pairs in '{tts_file.name}':\n"
+                + "\n".join(
+                    f"  - ('{row['key']}', '{row['locale']}')"
+                    for _, row in duplicates[["key", "locale"]]
+                    .drop_duplicates()
+                    .iterrows()
+                )
+            )
+
+    # Check minimal pairs files for duplicate guids
+    for csv_file in sorted(data_dir.glob("minimal_pairs-*.csv")):
+        df = pd.read_csv(csv_file, sep=",")
+        if "guid" in df.columns and df["guid"].duplicated().any():
+            duplicates = df[df["guid"].duplicated(keep=False)].sort_values("guid")
+            duplicate_errors.append(
+                f"Duplicate GUIDs in '{csv_file.name}':\n"
+                + "\n".join(f"  - '{guid}'" for guid in duplicates["guid"].unique())
+            )
+
+    if duplicate_errors:
+        output += "DUPLICATE KEY ERRORS FOUND:\n"
+        output += "\n\n".join(duplicate_errors)
+        output += "\n\n"
 
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
@@ -614,7 +683,6 @@ def ambiguity_detection(db_path: Path, data_dir: Path = Path("src/data")) -> str
 
     conn.close()
 
-    output = ""
     for aw_obj in aw_list:
         if aw_obj.ambiguous_words:
             output += f"The following ambiguous words were found in the file '{aw_obj.filename}':\n"
