@@ -82,6 +82,149 @@ Hints disambiguate ambiguous words without revealing the translation. There are 
 - `just verify-data`: Run all data verification and builds
 - `just verify`: Full verification (code + data)
 
+## Useful SQLite Queries
+
+### Database Schema Summary
+- `vocabulary`: Primary keys for all words
+- `base_language`: Language-specific data (key, locale, text, ipa, audio, audio_source)
+- `translation_pair`: Translation metadata (key, source_locale, target_locale, hints, notes)
+- `pictures`: Picture references (sparse)
+- `minimal_pairs`: Minimal pair exercises
+
+**IMPORTANT**: SQLite uses `<>` or `!=` for not-equal, but `<>` is more standard. Use `IS NULL OR column = ''` to check for empty values.
+
+### Finding Missing Data
+
+```sql
+-- Find entries missing IPA for a specific locale
+SELECT key, text
+FROM base_language
+WHERE locale = 'en_us'
+  AND (ipa IS NULL OR ipa = '');
+
+-- Count missing IPA by locale
+SELECT locale, COUNT(*) as missing_ipa
+FROM base_language
+WHERE ipa IS NULL OR ipa = ''
+GROUP BY locale;
+
+-- Find entries missing audio for a specific locale
+SELECT key, text
+FROM base_language
+WHERE locale = 'es_es'
+  AND (audio IS NULL OR audio = '');
+
+-- Count missing audio by locale
+SELECT locale, COUNT(*) as missing_audio
+FROM base_language
+WHERE audio IS NULL OR audio = ''
+GROUP BY locale;
+
+-- Find keys missing entirely from a locale (data integrity check)
+SELECT v.key
+FROM vocabulary v
+LEFT JOIN base_language bl ON v.key = bl.key AND bl.locale = 'it_it'
+WHERE bl.key IS NULL;
+```
+
+### Statistics and Counts
+
+```sql
+-- Count total entries per locale
+SELECT locale, COUNT(*) as entries
+FROM base_language
+GROUP BY locale
+ORDER BY locale;
+
+-- Count translation pairs by direction
+SELECT source_locale, target_locale, COUNT(*) as pairs
+FROM translation_pair
+GROUP BY source_locale, target_locale
+ORDER BY source_locale, target_locale;
+
+-- Count entries with any type of hint
+SELECT COUNT(*) as entries_with_hints
+FROM translation_pair
+WHERE (pronunciation_hint IS NOT NULL AND pronunciation_hint <> '')
+   OR (reading_hint IS NOT NULL AND reading_hint <> '')
+   OR (spelling_hint IS NOT NULL AND spelling_hint <> '')
+   OR (listening_hint IS NOT NULL AND listening_hint <> '');
+
+-- Count hints by type for a language pair
+SELECT
+  COUNT(CASE WHEN pronunciation_hint <> '' THEN 1 END) as pronunciation_hints,
+  COUNT(CASE WHEN reading_hint <> '' THEN 1 END) as reading_hints,
+  COUNT(CASE WHEN spelling_hint <> '' THEN 1 END) as spelling_hints,
+  COUNT(CASE WHEN listening_hint <> '' THEN 1 END) as listening_hints
+FROM translation_pair
+WHERE source_locale = 'en_us' AND target_locale = 'es_es';
+```
+
+### Cross-Language Comparisons
+
+```sql
+-- Compare translations across two languages
+SELECT
+  bl_en.key,
+  bl_en.text as english,
+  bl_es.text as spanish,
+  bl_en.ipa as en_ipa,
+  bl_es.ipa as es_ipa
+FROM base_language bl_en
+JOIN base_language bl_es ON bl_en.key = bl_es.key
+WHERE bl_en.locale = 'en_us' AND bl_es.locale = 'es_es'
+ORDER BY bl_en.key;
+
+-- Find words with same text in different languages (cognates)
+SELECT bl1.locale, bl2.locale, bl1.text, COUNT(*) as count
+FROM base_language bl1
+JOIN base_language bl2 ON bl1.key = bl2.key AND bl1.text = bl2.text
+WHERE bl1.locale < bl2.locale
+GROUP BY bl1.locale, bl2.locale, bl1.text
+HAVING count > 5;
+```
+
+### Working with Hints
+
+```sql
+-- Find all entries with pronunciation hints for a language pair
+SELECT key, pronunciation_hint
+FROM translation_pair
+WHERE source_locale = 'en_us'
+  AND target_locale = 'es_es'
+  AND pronunciation_hint IS NOT NULL
+  AND pronunciation_hint <> '';
+
+-- Find entries with reading hints
+SELECT key, reading_hint
+FROM translation_pair
+WHERE source_locale = 'en_us'
+  AND target_locale = 'es_es'
+  AND reading_hint IS NOT NULL
+  AND reading_hint <> '';
+```
+
+### Bulk Updates
+
+```sql
+-- Update IPA for multiple entries
+UPDATE base_language
+SET ipa = '/newipa/'
+WHERE locale = 'en_us' AND key IN ('word1', 'word2', 'word3');
+
+-- Update audio source for a locale
+UPDATE base_language
+SET audio_source = 'Google TTS'
+WHERE locale = 'es_es' AND (audio IS NOT NULL AND audio <> '');
+
+-- Add a pronunciation hint
+UPDATE translation_pair
+SET pronunciation_hint = 'financial institution'
+WHERE key = 'the bank'
+  AND source_locale = 'en_us'
+  AND target_locale = 'es_es';
+```
+
 ## Documentation
 - `docs/adr-001-sqlite-cache.md`: SQLite schema and design
 - `README.md`: Full development setup and workflows
