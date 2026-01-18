@@ -17,11 +17,12 @@ from google.cloud import texttospeech as tts
 
 
 def _ensure_db_exists(db_path: Path, data_dir: Path = Path("src/data")):
-    """Check if database exists, abort with clear message if not."""
+    """Check if database exists, create automatically from CSV if not."""
     if not db_path.exists():
-        print(f"Error: Database '{db_path}' not found.")
-        print(f"Create it with: uv run al-tools csv2sqlite -i {data_dir} -d {db_path}")
-        sys.exit(1)
+        print(f"Database '{db_path}' not found.")
+        print(f"Creating database from CSV files in '{data_dir}'...")
+        csv2sqlite(data_dir, db_path, force=True)
+        print(f"Database created successfully at '{db_path}'.")
 
 
 def _check_db_freshness(db_path: Path, data_dir: Path, force: bool = False):
@@ -45,16 +46,36 @@ def _check_db_freshness(db_path: Path, data_dir: Path, force: bool = False):
         if mtime > import_time:
             if force:
                 return
-            response = input(
-                "Warning: CSV files have been modified after the database was last updated.\n"
-                "The database may be out of sync. Continue anyway? (y/n): "
+
+            print("━" * 70)
+            print("⚠️  DATABASE OUT OF DATE")
+            print("━" * 70)
+            print(f"CSV files in '{data_dir}' have been modified since the database")
+            print(f"'{db_path}' was last updated.")
+            print()
+            print("What would you like to do?")
+            print()
+            print("  [o] Overwrite - Regenerate database from CSV files")
+            print(
+                "  [i] Ignore    - Continue with the current database (may be inconsistent)"
             )
-            if response.lower() != "y":
-                print(
-                    f"Aborting. Update the database with: uv run al-tools csv2sqlite -i {data_dir} -d {db_path}"
-                )
+            print("  [c] Cancel    - Exit to fix manually (default)")
+            print()
+
+            response = input("Enter your choice [o/i/c] (default: c): ").strip().lower()
+
+            if response == "o" or response == "overwrite":
+                print(f"Regenerating database from '{data_dir}'...")
+                csv2sqlite(data_dir, db_path, force=True)
+                print(f"Database successfully updated at '{db_path}'.")
+                return
+            elif response == "i" or response == "ignore":
+                print("⚠️  Proceeding with potentially out-of-date database.")
+                return
+            else:
+                print("Operation cancelled. Update manually with:")
+                print(f"  uv run al-tools csv2sqlite -i {data_dir} -d {db_path}")
                 sys.exit(1)
-            return
 
 
 class AudioExistsAction(Enum):
