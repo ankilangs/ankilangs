@@ -524,8 +524,7 @@ def ambiguity_detection(db_path: Path, data_dir: Path = Path("src/data")) -> str
             SELECT
                 bl_from.text as word,
                 GROUP_CONCAT(tp.key) as keys,
-                MAX(CASE WHEN tp.pronunciation_hint IS NULL OR tp.pronunciation_hint = '' THEN 1 ELSE 0 END) as missing_pronunciation,
-                MAX(CASE WHEN tp.spelling_hint IS NULL OR tp.spelling_hint = '' THEN 1 ELSE 0 END) as missing_spelling
+                MAX(CASE WHEN tp.pronunciation_hint IS NULL OR tp.pronunciation_hint = '' THEN 1 ELSE 0 END) as missing_pronunciation
             FROM translation_pair tp
             JOIN base_language bl_from ON tp.key = bl_from.key AND bl_from.locale = tp.source_locale
             WHERE tp.source_locale = ? AND tp.target_locale = ?
@@ -537,7 +536,7 @@ def ambiguity_detection(db_path: Path, data_dir: Path = Path("src/data")) -> str
         )
 
         for row in cursor.fetchall():
-            word, keys_str, missing_pronunciation, missing_spelling = row
+            word, keys_str, missing_pronunciation = row
             keys = tuple(keys_str.split(","))
             columns = []
 
@@ -555,17 +554,8 @@ def ambiguity_detection(db_path: Path, data_dir: Path = Path("src/data")) -> str
                 if cursor.fetchone()[0] == len(keys):
                     columns.append("pronunciation hint")
 
-            if missing_spelling:
-                cursor.execute(
-                    """
-                    SELECT COUNT(*) FROM translation_pair
-                    WHERE key IN ({}) AND source_locale = ? AND target_locale = ?
-                        AND (spelling_hint IS NULL OR spelling_hint = '')
-                """.format(",".join("?" * len(keys))),
-                    (*keys, source_locale, target_locale),
-                )
-                if cursor.fetchone()[0] == len(keys):
-                    columns.append("spelling hint")
+            # Note: spelling hints are rarely needed (only for target language
+            # homophones with ambiguous source meanings), so we don't check for them
 
             if columns:
                 aw_obj.add(word, keys, tuple(columns))
