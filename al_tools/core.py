@@ -169,9 +169,9 @@ _VOICE_MAP = {
     ],
     "de_de": [
         "de-DE-Chirp3-HD-Charon",
-        #"de-DE-Chirp3-HD-Erinome",
+        # "de-DE-Chirp3-HD-Erinome",
         "de-DE-Chirp3-HD-Rasalgethi",
-        #"de-DE-Chirp3-HD-Umbriel",
+        # "de-DE-Chirp3-HD-Umbriel",
         "de-DE-Chirp3-HD-Vindemiatrix",
     ],
     "pt_pt": [
