@@ -32,11 +32,15 @@ Have a look at our [instructions for contributors](CONTRIBUTING.md).
 
 ### Setup
 
+**Required:**
 * Python 3 ([Installation](https://wiki.python.org/moin/BeginnersGuide/Download)).
 * uv ([Installation](https://docs.astral.sh/uv/getting-started/installation/)).
 * Anki ([Installation](https://apps.ankiweb.net/#download)).
 * Within Anki the [CrowdAnki add-on](https://ankiweb.net/shared/info/1788670778) (code 1788670778).
   [Add-on installation](https://docs.ankiweb.net/addons.html).
+
+**Optional:**
+* Just - Task runner for simplified commands ([Installation](https://github.com/casey/just#installation)).
 
 ```bash
 git clone https://github.com/ankilangs/ankilangs
@@ -53,6 +57,7 @@ First, import the CSV files into SQLite:
 
 ```bash
 uv run al-tools csv2sqlite -i src/data
+# Or: just csv2sqlite
 ```
 
 This creates `data.db` (which is gitignored).
@@ -70,6 +75,11 @@ uv run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
 uv run brainbrew run recipes/source_to_anki_625_words.yaml
 ```
 
+Or with Just:
+```bash
+just build-all
+```
+
 Open Anki and via `File / CrowdAnki: Import from disk` import any of the `build/` subdirectories of this
 Git repository.
 
@@ -77,14 +87,25 @@ Then you may review them like any deck.
 
 #### Workflow for Editing Data
 
-1. **Import CSV to SQLite** (if not done already): `uv run al-tools csv2sqlite -i src/data`
+1. **Import CSV to SQLite** (if not done already):
+   ```bash
+   uv run al-tools csv2sqlite -i src/data
+   # Or: just csv2sqlite
+   ```
+
 2. **Edit data**: Use SQL tools (sqlite3, DB Browser, DBeaver, etc.) to query/update `data.db`
-3. **Export back to CSV**: `uv run al-tools sqlite2csv -d data.db -o src/data`
+
+3. **Export back to CSV**:
+   ```bash
+   uv run al-tools sqlite2csv -d data.db -o src/data
+   # Or: just sqlite2csv
+   ```
+
 4. **Commit changes**: `jj commit` the modified CSV files
 
 The database includes safety checks:
-- Aborts if database doesn't exist (tells you how to create it)
-- Warns if CSV files are newer than the database (may be out of sync)
+- Auto-creates database from CSV files if it doesn't exist
+- Prompts with options if CSV files are newer than the database (overwrite/ignore/cancel)
 
 
 ### Code Quality
@@ -94,11 +115,18 @@ To maintain code quality, this project uses [Ruff](https://docs.astral.sh/ruff/)
 To check for linting issues:
 ```bash
 uv run ruff check .
+# Or: just check
 ```
 
 To automatically format all Python files:
 ```bash
 uv run ruff format .
+# Or: just format
+```
+
+To run all code quality checks (format + check + test):
+```bash
+just verify-code
 ```
 
 ### Testing
@@ -107,12 +135,41 @@ This project uses [pytest](https://docs.pytest.org/) for testing. To run the tes
 
 ```bash
 uv run pytest
+# Or: just test
 ```
 
 The tests are located in the `tests/` directory and cover core functionality including:
 - Ambiguity detection algorithms
 - Data processing and validation
 - CSV file handling and transformations
+
+
+### Task Runner (Optional)
+
+This project includes a [`Justfile`](https://github.com/casey/just) for common tasks. If you have Just installed, you can use simplified commands:
+
+```bash
+# See all available commands
+just
+
+# Run tests
+just test
+
+# Format and check code
+just format
+just check
+
+# Run all code quality checks
+just verify-code
+
+# Build all decks
+just build-all
+
+# Full verification (code + data)
+just verify
+```
+
+All recipes in the Justfile are optional shortcuts. You can always use the direct `uv run` commands shown throughout this document instead.
 
 
 ### To create a new 625 words deck
