@@ -289,7 +289,7 @@ def generate_audio(
                 ).group(1)
             else:
                 audio_file = audio_folder_path / create_mp3_filename(
-                    row[text_col], prefix=f"al_{locale}_"
+                    row["key"], prefix=f"al_{locale}_"
                 )
             if audio_file.exists():
                 if audio_exists_action == AudioExistsAction.SKIP:
