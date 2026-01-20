@@ -10,6 +10,7 @@
       - src/data/625_words-from-en_us-to-it_it.csv
       - src/data/625_words-from-en_us-to-pt_pt.csv
       - src/data/625_words-from-en_us-to-sq_sq.csv
+      - src/data/625_words-from-en_us-to-fa_ir.csv
       - src/data/625_words-from-es_es-to-de_de.csv
       - src/data/625_words-from-es_es-to-en_us.csv
     columns:
@@ -55,6 +56,10 @@
     - note_model_from_yaml_part:
         part_id: vocabulary_en_to_sq
         file: src/note_models/vocabulary_en_to_sq/note.yaml
+
+    - note_model_from_yaml_part:
+        part_id: vocabulary_en_to_fa
+        file: src/note_models/vocabulary_en_to_fa/note.yaml
 
     - note_model_from_yaml_part:
         part_id: vocabulary_es_to_de
@@ -135,6 +140,13 @@
             name: Albanian (EN to SQ) | 625 Words | AnkiLangs.org
             crowdanki_uuid: a142f035-5102-45b8-bd05-5eb91187379e
             deck_description_html_file: src/headers/description_en_to_sq-625_words.html
+
+        - part_id: header_en_to_fa
+          file: src/headers/default.yaml
+          override:
+            name: Farsi (EN to FA) | 625 Words | AnkiLangs.org
+            crowdanki_uuid: 2e9d58bd-bef8-4fe9-880a-e44a021ac760
+            deck_description_html_file: src/headers/description_en_to_fa-625_words.html
 
         - part_id: header_es_to_de
           file: src/headers/default.yaml
@@ -458,6 +470,36 @@
               - file: src/data/generated/625_words-from-en_us-to-sq_sq.csv
 
     - notes_from_csvs:
+        part_id: notes_en_to_fa
+
+        note_model_mappings:
+          - note_models:
+              - vocabulary_en_to_fa
+            columns_to_fields:
+              guid: guid
+              text:en: Source Text
+              text:fa: Target Text
+              ipa:fa: Target IPA
+              audio:fa: Target Audio
+              picture: Picture
+              notes: Notes
+              pronunciation hint: Pronunciation Hint
+              spelling hint: Spelling Hint
+              reading hint: Reading Hint
+              listening hint: Listening Hint
+              source: Source & License
+              tags:fa: tags
+
+        file_mappings:
+          - file: src/data/625_words-from-en_us-to-fa_ir.csv
+            note_model: vocabulary_en_to_fa
+            derivatives:
+              - file: src/data/625_words-base-en_us.csv
+              - file: src/data/625_words-base-fa_ir.csv
+              - file: src/data/625_words-pictures.csv
+              - file: src/data/generated/625_words-from-en_us-to-fa_ir.csv
+
+    - notes_from_csvs:
         part_id: notes_es_to_de
 
         note_model_mappings:
@@ -633,6 +675,18 @@
       parts:
         - part_id: vocabulary_en_to_sq
     headers: header_en_to_sq
+    media:
+      parts:
+        - all_media
+
+- generate_crowd_anki:
+    folder: build/EN_to_FA_625_Words
+    notes:
+      part_id: notes_en_to_fa
+    note_models:
+      parts:
+        - part_id: vocabulary_en_to_fa
+    headers: header_en_to_fa
     media:
       parts:
         - all_media
