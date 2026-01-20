@@ -10,6 +10,7 @@ from al_tools.core import (
     csv2sqlite,
     sqlite2csv,
 )
+from al_tools.registry import DeckRegistry
 
 
 def cli():
@@ -105,6 +106,19 @@ def cli():
         "-o", "--output", type=str, required=True, help="Output data folder"
     )
 
+    release_parser = subparsers.add_parser(
+        "release", help="Release management commands"
+    )
+    release_parser.add_argument(
+        "--list", action="store_true", help="List all decks and their status"
+    )
+    release_parser.add_argument(
+        "--registry",
+        type=str,
+        default="decks.yaml",
+        help="Path to deck registry file",
+    )
+
     args = parser.parse_args()
 
     if args.command == "audio":
@@ -129,5 +143,44 @@ def cli():
         csv2sqlite(Path(args.input), Path(args.database), force=args.force)
     elif args.command == "sqlite2csv":
         sqlite2csv(Path(args.database), Path(args.output))
+    elif args.command == "release":
+        if args.list:
+            registry = DeckRegistry(Path(args.registry))
+            print_deck_list(registry)
+        else:
+            release_parser.print_help()
     else:
         parser.print_help()
+
+
+def print_deck_list(registry: DeckRegistry):
+    """Print a formatted list of all decks and their status."""
+    decks = sorted(registry.all(), key=lambda d: d.deck_id)
+
+    if not decks:
+        print("No decks found in registry.")
+        return
+
+    # Calculate column widths
+    max_id_len = max(len(d.deck_id) for d in decks)
+    max_version_len = max(len(d.version) for d in decks)
+
+    # Print header
+    print()
+    print(
+        f"{'DECK':<{max_id_len}}  {'VERSION':<{max_version_len}}  {'LAST RELEASE':<13}  ANKIWEB"
+    )
+    print("-" * (max_id_len + max_version_len + 13 + 20))
+
+    # Print each deck
+    for deck in decks:
+        last_release = registry.get_latest_release_version(deck.deck_id)
+        last_release_str = last_release if last_release else "-"
+
+        ankiweb_str = f"✓ {deck.ankiweb_id}" if deck.ankiweb_id else "✗ (not uploaded)"
+
+        print(
+            f"{deck.deck_id:<{max_id_len}}  {deck.version:<{max_version_len}}  {last_release_str:<13}  {ankiweb_str}"
+        )
+
+    print()
