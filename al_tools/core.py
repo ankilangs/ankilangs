@@ -163,7 +163,12 @@ def _get_audio_source_col(df: pd.DataFrame) -> str:
     return audio_source_columns[0]
 
 
+# See: https://docs.cloud.google.com/text-to-speech/docs/list-voices-and-types
 _VOICE_MAP = {
+    "ar_xa": [
+        "ar-XA-Standard-C",
+        "ar-XA-Standard-D",
+    ],
     "en_gb": [
         "en-GB-Studio-B",
         "en-GB-Studio-C",
@@ -175,6 +180,10 @@ _VOICE_MAP = {
     "es_es": [
         "es-ES-Studio-C",
         "es-ES-Studio-F",
+    ],
+    "fa_ir": [
+        "Achernar",
+        "Achird",
     ],
     "fr_fr": [
         "fr-FR-Studio-A",
@@ -194,6 +203,10 @@ _VOICE_MAP = {
     "pt_pt": [
         "pt-PT-Standard-D",
         "pt-PT-Standard-F",
+    ],
+    "sq_al": [
+        "Achernar",
+        "Achird",
     ],
 }
 
@@ -299,10 +312,17 @@ def generate_audio(
                     raise FileExistsError(f"Audio file {audio_file} already exists")
 
             voice_name = random.choice(_VOICE_MAP[locale])
-            voice = tts.VoiceSelectionParams(
-                language_code=f"{locale.split('_')[0]}-{locale.split('_')[1].upper()}",
-                name=voice_name,
-            )
+            if locale in ("sq_al", "fa_ir"):
+                voice = tts.VoiceSelectionParams(
+                    language_code=f"{locale.split('_')[0]}-{locale.split('_')[1].upper()}",
+                    name=voice_name,
+                    model_name="gemini-2.5-pro-tts",
+                )
+            else:
+                voice = tts.VoiceSelectionParams(
+                    language_code=f"{locale.split('_')[0]}-{locale.split('_')[1].upper()}",
+                    name=voice_name,
+                )
 
             # Use TTS override if available, otherwise use regular text
             tts_text = row["tts_text"]
