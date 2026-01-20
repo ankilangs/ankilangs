@@ -7,12 +7,12 @@ bad,mau,/ˈmau/,,,AnkiLangs::PT
 beautiful,bonito,/buˈnitu/,,,AnkiLangs::PT
 beer,a cerveja,/ɐ sɨɾˈvɐjʒɐ/,,,AnkiLangs::PT
 big / large,grande,/ˈɡɾɐ̃dɨ/,,,AnkiLangs::PT
-black,preto,/ˈpɾetu/,[sound:al_pt_pt_preto.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+black,preto,/ˈpɾetu/,[sound:al_pt_pt_black.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 blind,cego,/ˈseɣu/,,,AnkiLangs::PT
 blood,o sangue,/u ˈsɐ̃ɡɨ/,,,AnkiLangs::PT
-blue,azul,/ɐˈzul/,[sound:al_pt_pt_azul.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+blue,azul,/ɐˈzul/,[sound:al_pt_pt_blue.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 breakfast,o pequeno-almoço,/u pɨˈkenu ɐɫˈmosu/,,,AnkiLangs::PT
-brown,castanho,/kɐʃˈtɐɲu/,[sound:al_pt_pt_castanho.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+brown,castanho,/kɐʃˈtɐɲu/,[sound:al_pt_pt_brown.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 cheap,barato,/bɐˈɾatu/,,,AnkiLangs::PT
 clay,a argila,/ɐ ɐɾˈʒilɐ/,,,AnkiLangs::PT
 clean,limpo,/ˈlĩpu/,,,AnkiLangs::PT
@@ -22,7 +22,7 @@ cool,fresco,/ˈfɾɛʃku/,,,AnkiLangs::PT
 copper,o cobre,/u ˈkɔβɾɨ/,,,AnkiLangs::PT
 curved,curvo,/ˈkuɾvu/,,,AnkiLangs::PT
 dark,escuro,/ɨʃˈkuɾu/,,,AnkiLangs::PT
-dark blue,azul escuro,/ɐˈzul ʃˈkuɾu/,[sound:al_pt_pt_azul_escuro.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+dark blue,azul escuro,/ɐˈzul ʃˈkuɾu/,[sound:al_pt_pt_dark_blue.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 dead,morto,/ˈmoɾtu/,,,AnkiLangs::PT
 deaf,surdo,/ˈsuɾdu/,,,AnkiLangs::PT
 death,a morte,/ɐ ˈmɔɾtɨ/,,,AnkiLangs::PT
@@ -35,7 +35,7 @@ disease,a doença,/ɐ duˈẽsɐ/,,,AnkiLangs::PT
 down,baixo,/ˈbajʃu/,,,AnkiLangs::PT
 dry,seco,/ˈseku/,,,AnkiLangs::PT
 dust,o pó,/u ˈpɔ/,,,AnkiLangs::PT
-Earth,Terra,/'tɛʁɐ/,[sound:al_pt_pt_terra.mp3],,AnkiLangs::PT
+Earth,Terra,/'tɛʁɐ/,[sound:al_pt_pt_earth.mp3],,AnkiLangs::PT
 eight (8),oito,/ˈojtu/,,,AnkiLangs::PT
 eighteen (18),dezoito,/dɨˈzojtu/,,,AnkiLangs::PT
 eighty (80),oitenta,/ojˈtẽtɐ/,,,AnkiLangs::PT
@@ -69,8 +69,8 @@ glass,o vidro,/u ˈvidɾu/,,,AnkiLangs::PT
 God,Deus,/ˈdewʃ/,,,AnkiLangs::PT
 gold,o ouro,/u ˈoɾu/,,,AnkiLangs::PT
 good,bom,/bõ/,,,AnkiLangs::PT
-gray,cinzento,/sĩˈzẽtu/,[sound:al_pt_pt_cinzento.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
-green,verde,/ˈveɾðɨ/,[sound:al_pt_pt_verde.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+gray,cinzento,/sĩˈzẽtu/,[sound:al_pt_pt_gray.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+green,verde,/ˈveɾðɨ/,[sound:al_pt_pt_green.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 happy,feliz,/fɨˈliʃ/,,,AnkiLangs::PT
 hard,duro,/ˈduɾu/,,,AnkiLangs::PT
 he,ele,/ˈelɨ/,,,AnkiLangs::PT
@@ -89,7 +89,7 @@ June,junho,/ˈʒuɲu/,,,AnkiLangs::PT
 left,esquerda,/ɨʃˈkɛɾdɐ/,,,AnkiLangs::PT
 "light [opposite of ""dark""]",claro,/ˈklaɾu/,,,AnkiLangs::PT
 "light [opposite of ""heavy""]",leve,/ˈlɛvɨ/,,,AnkiLangs::PT
-light blue,azul claro,/ɐˈzul ˈklaɾu/,[sound:al_pt_pt_azul_claro.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+light blue,azul claro,/ɐˈzul ˈklaɾu/,[sound:al_pt_pt_light_blue.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 long,comprido,/kõˈpɾidu/,,,AnkiLangs::PT
 loose,solto,/ˈsoltu/,,,AnkiLangs::PT
 loud,alto,/ˈaltu/,,,AnkiLangs::PT
@@ -135,10 +135,10 @@ one hundred two (102),cento e dois,/ˈsẽtu i ˈdojʃ/,,,AnkiLangs::PT
 "one million (1,000,000)",um milhão,/ˈũ miˈʎɐ̃w̃/,,,AnkiLangs::PT
 one thousand (1000),mil,/ˈmiɫ/,,,AnkiLangs::PT
 one thousand one (1001),mil e um,/ˈmiɫ i ˈũ/,,,AnkiLangs::PT
-orange,laranja,/lɐˈɾɐ̃ʒɐ/,[sound:al_pt_pt_laranja.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+orange,laranja,/lɐˈɾɐ̃ʒɐ/,[sound:al_pt_pt_orange.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 pain,a dor,/ɐ ˈdoɾ/,,,AnkiLangs::PT
 peace,a paz,/ɐ ˈpaʃ/,,,AnkiLangs::PT
-pink,cor-de-rosa,/ˈkoɾ dɨ ˈʁɔzɐ/,[sound:al_pt_pt_cor_de_rosa.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+pink,cor-de-rosa,/ˈkoɾ dɨ ˈʁɔzɐ/,[sound:al_pt_pt_pink.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 plastic,o plástico,/u ˈplaʃtiku/,,,AnkiLangs::PT
 poison,o veneno,/u vɨˈnenu/,,,AnkiLangs::PT
 poor,pobre,/ˈpɔβɾɨ/,,,AnkiLangs::PT
@@ -146,7 +146,7 @@ prison,a prisão,/ɐ pɾiˈzɐ̃w̃/,,,AnkiLangs::PT
 quiet,quieto,/kiˈetu/,,,AnkiLangs::PT
 race [ethnicity],a raça,/ɐ ˈʁasɐ/,,,AnkiLangs::PT
 race [sport],a corrida,/ɐ kuˈʁidɐ/,,,AnkiLangs::PT
-red,vermelho,/vɨɾˈmeʎu/,[sound:al_pt_pt_vermelho.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+red,vermelho,/vɨɾˈmeʎu/,[sound:al_pt_pt_red.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 relationship,o relacionamento,/u ʁɨlɐsjunɐˈmẽtu/,,,AnkiLangs::PT
 religion,a religião,/ɐ ʁɨliʒiˈɐ̃w̃/,,,AnkiLangs::PT
 rice,o arroz,/u ɐˈʁoʃ/,,,AnkiLangs::PT
@@ -180,7 +180,7 @@ slow,lento,/ˈlẽtu/,,,AnkiLangs::PT
 small / little,pequeno,/pɨˈkenu/,,,AnkiLangs::PT
 soft,suave,/ˈswavɨ/,,,AnkiLangs::PT
 soil/earth [ground],a terra,/ɐ ˈtɛʁɐ/,,,AnkiLangs::PT
-space (outer space),o espaço,/u ˈɛʃpasu/,[sound:al_pt_pt_o_espaco.mp3],,AnkiLangs::PT
+space (outer space),o espaço,/u ˈɛʃpasu/,[sound:al_pt_pt_space_outer_space.mp3],,AnkiLangs::PT
 sport,o desporto,/u dɨʃˈpoɾtu/,,,AnkiLangs::PT
 stone,a pedra,/ɐ ˈpɛdɾɐ/,,,AnkiLangs::PT
 straight,direito,/diˈɾɐjtu/,,,AnkiLangs::PT
@@ -194,30 +194,30 @@ technology,a tecnologia,/ɐ tɛknuluˈʒiɐ/,,,AnkiLangs::PT
 temperature,a temperatura,/ɐ tẽpɨɾɐˈtuɾɐ/,,,AnkiLangs::PT
 ten (10),dez,/dɛʃ/,,,AnkiLangs::PT
 "ten thousand (10,000)",dez mil,/dɛʃ mil/,,,AnkiLangs::PT
-the (train) ticket,o bilhete,/u biˈʎɛt(ɨ)/,[sound:al_pt_pt_o_bilhete.mp3],,AnkiLangs::PT
+the (train) ticket,o bilhete,/u biˈʎɛt(ɨ)/,[sound:al_pt_pt_the_train_ticket.mp3],,AnkiLangs::PT
 the actor,o ator,/u ɐˈtoɾ/,,,AnkiLangs::PT
 the adjective,o adjetivo,/u ɐdʒɨˈtivu/,,,AnkiLangs::PT
-the adult,o adulto,/u ɐˈduɫtu/,[sound:al_pt_pt_o_adulto.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the adult,o adulto,/u ɐˈduɫtu/,[sound:al_pt_pt_the_adult.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the afternoon,a tarde,/ɐ ˈtaɾdɨ/,,,AnkiLangs::PT
 the air,o ar,/u aɾ/,,,AnkiLangs::PT
-the airport,o aeroporto,/u ɐjɾuˈpoɾtu/,[sound:al_pt_pt_o_aeroporto.mp3],,AnkiLangs::PT
-the animal,o animal,/u ɐniˈmaɫ/,[sound:al_pt_pt_o_animal.mp3],,AnkiLangs::PT
-the apartment,o apartamento,/u ɐpɐɾtɐˈmẽtu/,[sound:al_pt_pt_o_apartamento.mp3],,AnkiLangs::PT
+the airport,o aeroporto,/u ɐjɾuˈpoɾtu/,[sound:al_pt_pt_the_airport.mp3],,AnkiLangs::PT
+the animal,o animal,/u ɐniˈmaɫ/,[sound:al_pt_pt_the_animal.mp3],,AnkiLangs::PT
+the apartment,o apartamento,/u ɐpɐɾtɐˈmẽtu/,[sound:al_pt_pt_the_apartment.mp3],,AnkiLangs::PT
 the apple,a maçã,/ɐ mɐˈsɐ̃/,,,AnkiLangs::PT
 the arm,o braço,/u ˈbɾasu/,,,AnkiLangs::PT
 the army,o exército,/u ɨzˈɛɾsitu/,,,AnkiLangs::PT
 the artist,o artista,/u ɐɾˈtiʃtɐ/,,,AnkiLangs::PT
 the attack,o ataque,/u ɐˈtakɨ/,,,AnkiLangs::PT
 the author,o autor,/u ɐwˈtoɾ/,,,AnkiLangs::PT
-the baby,o bebé,/u bɛˈbɛ/,[sound:al_pt_pt_o_beb.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the baby,o bebé,/u bɛˈbɛ/,[sound:al_pt_pt_the_baby.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 the back [anatomy],as costas,/ɐʃ ˈkɔʃtɐʃ/,,,AnkiLangs::PT
 the back [location],as traseiras,/ɐʃ tɾɐˈzɐjɾɐʃ/,,,AnkiLangs::PT
 the bag,o saco,/u ˈsaku/,,,AnkiLangs::PT
 the ball,a bola,/ɐ ˈbɔlɐ/,,,AnkiLangs::PT
 the banana,a banana,/ɐ bɐˈnɐnɐ/,,,AnkiLangs::PT
 the band [music],a banda,/ɐ ˈbɐ̃dɐ/,,,AnkiLangs::PT
-the bank,o banco,/u ˈbɐ̃ku/,[sound:al_pt_pt_o_banco.mp3],,AnkiLangs::PT
-the bar,o bar,/u ˈbaɾ/,[sound:al_pt_pt_o_bar.mp3],,AnkiLangs::PT
+the bank,o banco,/u ˈbɐ̃ku/,[sound:al_pt_pt_the_bank.mp3],,AnkiLangs::PT
+the bar,o bar,/u ˈbaɾ/,[sound:al_pt_pt_the_bar.mp3],,AnkiLangs::PT
 the bathroom,a casa de banho,/ɐ ˈkazɐ dɨ ˈbɐɲu/,,,AnkiLangs::PT
 the beach,a praia,/ɐ ˈpɾajɐ/,,,AnkiLangs::PT
 the beard,a barba,/ɐ ˈbaɾβɐ/,,,AnkiLangs::PT
@@ -225,118 +225,118 @@ the bed,a cama,/ɐ ˈkɐmɐ/,,,AnkiLangs::PT
 the bedroom,o quarto,/u ˈkwaɾtu/,,,AnkiLangs::PT
 the beef,a carne de vaca,/ɐ ˈkaɾnɨ dɨ ˈvakɐ/,,,AnkiLangs::PT
 the beverage,a bebida,/ɐ bɨˈβiðɐ/,,,AnkiLangs::PT
-the bicycle,a bicicleta,/ɐ bisiˈkletɐ/,[sound:al_pt_pt_a_bicicleta.mp3],,AnkiLangs::PT
+the bicycle,a bicicleta,/ɐ bisiˈkletɐ/,[sound:al_pt_pt_the_bicycle.mp3],,AnkiLangs::PT
 the bill [bank note],a nota,/ɐ ˈnɔtɐ/,,,AnkiLangs::PT
-the bird,o pássaro,/u ˈpasaru/,[sound:al_pt_pt_o_passaro.mp3],,AnkiLangs::PT
-the boat,o barco,/u ˈbaɾku/,[sound:al_pt_pt_o_barco.mp3],,AnkiLangs::PT
+the bird,o pássaro,/u ˈpasaru/,[sound:al_pt_pt_the_bird.mp3],,AnkiLangs::PT
+the boat,o barco,/u ˈbaɾku/,[sound:al_pt_pt_the_boat.mp3],,AnkiLangs::PT
 the body,o corpo,/u ˈkoɾpu/,,,AnkiLangs::PT
 the bone,o osso,/u ˈosu/,,,AnkiLangs::PT
 the book,o livro,/u ˈlivɾu/,,,AnkiLangs::PT
 the bottle,a garrafa,/ɐ ɡɐˈʁafɐ/,,,AnkiLangs::PT
 the bottom,o fundo,/u ˈfũdu/,,,AnkiLangs::PT
 the box,a caixa,/ɐ ˈkajʃɐ/,,,AnkiLangs::PT
-the boy,o rapaz,/u ʁɐˈpaʃ/,[sound:al_pt_pt_o_rapaz.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the boy,o rapaz,/u ʁɐˈpaʃ/,[sound:al_pt_pt_the_boy.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 the brain,o cérebro,/u ˈsɛɾɨβɾu/,,,AnkiLangs::PT
 the bread,o pão,/u ˈpɐ̃w̃/,,,AnkiLangs::PT
-the bridge,a ponte,/ɐ ˈpõt(ɨ)/,[sound:al_pt_pt_a_ponte.mp3],,AnkiLangs::PT
-the brother,o irmão,/u iɾˈmɐ̃w̃/,[sound:al_pt_pt_o_irm_o.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
-the building,o edifício,/u ɨðiˈfisiu/,[sound:al_pt_pt_o_edificio.mp3],,AnkiLangs::PT
-the bus,o autocarro,/u awtoˈkaʁu/,[sound:al_pt_pt_o_autocarro.mp3],,AnkiLangs::PT
+the bridge,a ponte,/ɐ ˈpõt(ɨ)/,[sound:al_pt_pt_the_bridge.mp3],,AnkiLangs::PT
+the brother,o irmão,/u iɾˈmɐ̃w̃/,[sound:al_pt_pt_the_brother.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the building,o edifício,/u ɨðiˈfisiu/,[sound:al_pt_pt_the_building.mp3],,AnkiLangs::PT
+the bus,o autocarro,/u awtoˈkaʁu/,[sound:al_pt_pt_the_bus.mp3],,AnkiLangs::PT
 the cake,o bolo,/u ˈbolu/,,,AnkiLangs::PT
 the camera,a câmara,/ɐ ˈkɐmɐɾɐ/,,,AnkiLangs::PT
-the camp,o acampamento,/u ɐkɐ̃pɐˈmẽtu/,[sound:al_pt_pt_o_acampamento.mp3],,AnkiLangs::PT
-the car,o carro,/u ˈkaʁu/,[sound:al_pt_pt_o_carro.mp3],,AnkiLangs::PT
+the camp,o acampamento,/u ɐkɐ̃pɐˈmẽtu/,[sound:al_pt_pt_the_camp.mp3],,AnkiLangs::PT
+the car,o carro,/u ˈkaʁu/,[sound:al_pt_pt_the_car.mp3],,AnkiLangs::PT
 the card,o cartão,/u kɐɾˈtɐ̃w̃/,,,AnkiLangs::PT
-the cat,o gato,/u ˈɡatu/,[sound:al_pt_pt_o_gato.mp3],,AnkiLangs::PT
+the cat,o gato,/u ˈɡatu/,[sound:al_pt_pt_the_cat.mp3],,AnkiLangs::PT
 the ceiling,o teto,/u ˈtetu/,,,AnkiLangs::PT
 the cell phone,o telemóvel,/u tɨlɨˈmɔvɛɫ/,,,AnkiLangs::PT
 the centimeter,o centímetro,/u sẽˈtimɨtɾu/,,,AnkiLangs::PT
 the chair,a cadeira,/ɐ kɐˈdɐjɾɐ/,,,AnkiLangs::PT
 the cheese,o queijo,/u ˈkɐjʒu/,,,AnkiLangs::PT
 the chicken,o frango,/u ˈfɾɐ̃ɡu/,,,AnkiLangs::PT
-the child,a criança,/a kɾiˈɐ̃sɐ/,[sound:al_pt_pt_a_crian_a.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
-the church,a igreja,/ɐ iˈɡɾeʒɐ/,[sound:al_pt_pt_a_igreja.mp3],,AnkiLangs::PT
+the child,a criança,/a kɾiˈɐ̃sɐ/,[sound:al_pt_pt_the_child.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the church,a igreja,/ɐ iˈɡɾeʒɐ/,[sound:al_pt_pt_the_church.mp3],,AnkiLangs::PT
 the circle,o círculo,/u ˈsiɾkulu/,,,AnkiLangs::PT
-the city,a cidade,/ɐ siˈdad(ɨ)/,[sound:al_pt_pt_a_cidade.mp3],,AnkiLangs::PT
+the city,a cidade,/ɐ siˈdad(ɨ)/,[sound:al_pt_pt_the_city.mp3],,AnkiLangs::PT
 the clock,o relógio,/u ʁɨˈlɔʒju/,,,AnkiLangs::PT
-the clothing,a roupa,/ɐ ˈʁopɐ/,[sound:al_pt_pt_a_roupa.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
-the club,o clube,/u ˈkɫub(ɨ)/,[sound:al_pt_pt_o_clube.mp3],,AnkiLangs::PT
-the coat,o casaco,/u kɐˈzaku/,[sound:al_pt_pt_o_casaco.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
-the color,a cor,/ɐ ˈkoɾ/,[sound:al_pt_pt_a_cor.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the clothing,a roupa,/ɐ ˈʁopɐ/,[sound:al_pt_pt_the_clothing.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the club,o clube,/u ˈkɫub(ɨ)/,[sound:al_pt_pt_the_club.mp3],,AnkiLangs::PT
+the coat,o casaco,/u kɐˈzaku/,[sound:al_pt_pt_the_coat.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the color,a cor,/ɐ ˈkoɾ/,[sound:al_pt_pt_the_color.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the computer,o computador,/u kõputɐˈdoɾ/,,,AnkiLangs::PT
 the consonant,a consoante,/ɐ kõsuˈɐ̃tɨ/,,,AnkiLangs::PT
 the contract,o contrato,/u kõˈtɾatu/,,,AnkiLangs::PT
 the corn,o milho,/u ˈmiʎu/,,,AnkiLangs::PT
 the corner,o canto,/u ˈkɐ̃tu/,,,AnkiLangs::PT
-"the country (USA, France, etc.)",o país,/u paˈiz/,[sound:al_pt_pt_o_pais.mp3],,AnkiLangs::PT
-the court,o tribunal,/u tɾiˈbunaɫ/,[sound:al_pt_pt_o_tribunal.mp3],,AnkiLangs::PT
-the cow,a vaca,/ɐ ˈvakɐ/,[sound:al_pt_pt_a_vaca.mp3],,AnkiLangs::PT
-the crowd,a multidão,/a ˌmuɫtiˈdɐ̃w̃/,[sound:al_pt_pt_a_multid_o.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+"the country (USA, France, etc.)",o país,/u paˈiz/,[sound:al_pt_pt_the_country_usa_france_etc.mp3],,AnkiLangs::PT
+the court,o tribunal,/u tɾiˈbunaɫ/,[sound:al_pt_pt_the_court.mp3],,AnkiLangs::PT
+the cow,a vaca,/ɐ ˈvakɐ/,[sound:al_pt_pt_the_cow.mp3],,AnkiLangs::PT
+the crowd,a multidão,/a ˌmuɫtiˈdɐ̃w̃/,[sound:al_pt_pt_the_crowd.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 the cup,a chávena,/ɐ ˈʃavɨnɐ/,,,AnkiLangs::PT
 the date,a data,/ɐ ˈdatɐ/,,,AnkiLangs::PT
-the daughter,a filha,/a ˈfiʎɐ/,[sound:al_pt_pt_a_filha.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the daughter,a filha,/a ˈfiʎɐ/,[sound:al_pt_pt_the_daughter.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the day,o dia,/u ˈdiɐ/,,,AnkiLangs::PT
 the direction,a direção,/ɐ diɾɛˈsɐ̃w̃/,,,AnkiLangs::PT
 the doctor,o médico,/u ˈmɛdiku/,,,AnkiLangs::PT
-the dog,o cão,/u ˈkɐ̃w̃/,[sound:al_pt_pt_o_cao.mp3],,AnkiLangs::PT
+the dog,o cão,/u ˈkɐ̃w̃/,[sound:al_pt_pt_the_dog.mp3],,AnkiLangs::PT
 the dollar,o dólar,/u ˈdɔlɐɾ/,,,AnkiLangs::PT
 the door,a porta,/ɐ ˈpɔɾtɐ/,,,AnkiLangs::PT
 the dot,o ponto,/u ˈpõtu/,,,AnkiLangs::PT
 the dream,o sonho,/u ˈsoɲu/,,,AnkiLangs::PT
-the dress,o vestido,/u vɨˈstiðu/,[sound:al_pt_pt_o_vestido.mp3],,AnkiLangs::PT
+the dress,o vestido,/u vɨˈstiðu/,[sound:al_pt_pt_the_dress.mp3],,AnkiLangs::PT
 the drug,a droga,/ɐ ˈdɾɔɡɐ/,,,AnkiLangs::PT
 the ear,o ouvido,/u oˈviðu/,,,AnkiLangs::PT
 the east,o este,/u ˈɛʃtɨ/,,,AnkiLangs::PT
 the edge,a borda,/ɐ ˈbɔɾðɐ/,,,AnkiLangs::PT
 the egg,o ovo,/u ˈovu/,,,AnkiLangs::PT
 the election,a eleição,/ɐ ɨlɐjˈsɐ̃w̃/,,,AnkiLangs::PT
-the engine,o motor,/u ˈmɔtoɾ/,[sound:al_pt_pt_o_motor.mp3],,AnkiLangs::PT
+the engine,o motor,/u ˈmɔtoɾ/,[sound:al_pt_pt_the_engine.mp3],,AnkiLangs::PT
 the evening,a tarde,/ɐ ˈtaɾdɨ/,,,AnkiLangs::PT
 the eye,o olho,/u ˈoʎu/,,,AnkiLangs::PT
 the face,a cara,/ɐ ˈkaɾɐ/,,,AnkiLangs::PT
 the Fall,o outono,/u oˈtonu/,,,AnkiLangs::PT
-the family,a família,/a fɐˈmiʎɐ/,[sound:al_pt_pt_a_fam_lia.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the family,a família,/a fɐˈmiʎɐ/,[sound:al_pt_pt_the_family.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 the fan [appliance],a ventoinha,/ɐ vẽˈtɔjɲɐ/,,,AnkiLangs::PT
-the fan [person],o fã,/u ˈfɐ̃/,[sound:al_pt_pt_o_f.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
-the farm,a quinta,/ɐ ˈkĩtɐ/,[sound:al_pt_pt_a_quinta.mp3],,AnkiLangs::PT
-the father,o pai,/u ˈpaj/,[sound:al_pt_pt_o_pai.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the fan [person],o fã,/u ˈfɐ̃/,[sound:al_pt_pt_the_fan_person.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the farm,a quinta,/ɐ ˈkĩtɐ/,[sound:al_pt_pt_the_farm.mp3],,AnkiLangs::PT
+the father,o pai,/u ˈpaj/,[sound:al_pt_pt_the_father.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 the finger,o dedo,/u ˈdedu/,,,AnkiLangs::PT
 the fire,o fogo,/u ˈfoɡu/,,,AnkiLangs::PT
-the fish,o peixe,/u ˈpejʃi/,[sound:al_pt_pt_o_peixe.mp3],,AnkiLangs::PT
+the fish,o peixe,/u ˈpejʃi/,[sound:al_pt_pt_the_fish.mp3],,AnkiLangs::PT
 the floor,o chão,/u ʃɐ̃w/,,,AnkiLangs::PT
 the flower,a flor,/ɐ flɔɾ/,,,AnkiLangs::PT
 the foot,o pé,/u pɛ/,,,AnkiLangs::PT
 the foot [measurement],o pé,/u pɛ/,,,AnkiLangs::PT
 the forest,a floresta,/ɐ fluˈɾɛʃtɐ/,,,AnkiLangs::PT
 the fork,o garfo,/u ˈɡaɾfu/,,,AnkiLangs::PT
-the friend,o amigo,/u ɐˈmiɣu/,[sound:al_pt_pt_o_amigo.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the friend,o amigo,/u ɐˈmiɣu/,[sound:al_pt_pt_the_friend.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the front,a frente,/ɐ ˈfɾẽtɨ/,,,AnkiLangs::PT
 the game,o jogo,/u ˈʒoɡu/,,,AnkiLangs::PT
 the garden,o jardim,/u ʒɐɾˈdĩ/,,,AnkiLangs::PT
-the gasoline,a gasolina,/ɐ ɡazɔˈlinɐ/,[sound:al_pt_pt_a_gasolina.mp3],,AnkiLangs::PT
+the gasoline,a gasolina,/ɐ ɡazɔˈlinɐ/,[sound:al_pt_pt_the_gasoline.mp3],,AnkiLangs::PT
 the gift,o presente,/u pɾɨˈzẽtɨ/,,,AnkiLangs::PT
-the girl,a rapariga,/a ʁɐpɐˈɾiɣɐ/,[sound:al_pt_pt_a_rapariga.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
-the grandfather,o avô,/u ɐˈvo/,[sound:al_pt_pt_o_av.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
-the grandmother,a avó,/a ɐˈvɔ/,[sound:al_pt_pt_a_av.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the girl,a rapariga,/a ʁɐpɐˈɾiɣɐ/,[sound:al_pt_pt_the_girl.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the grandfather,o avô,/u ɐˈvo/,[sound:al_pt_pt_the_grandfather.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the grandmother,a avó,/a ɐˈvɔ/,[sound:al_pt_pt_the_grandmother.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the grass,a erva,/ˈɛɾvɐ/,,,AnkiLangs::PT
-the ground,o chão,/u ˈʃɐ̃w̃/,[sound:al_pt_pt_o_chao.mp3],,AnkiLangs::PT
+the ground,o chão,/u ˈʃɐ̃w̃/,[sound:al_pt_pt_the_ground.mp3],,AnkiLangs::PT
 the gun,a arma,/ˈaɾmɐ/,,,AnkiLangs::PT
 the hair,o cabelo,/u kɐˈbelu/,,,AnkiLangs::PT
 the half,a metade,/ɐ mɨˈtadɨ/,,,AnkiLangs::PT
 the hand,a mão,/ɐ mɐ̃w/,,,AnkiLangs::PT
-the hat,o chapéu,/u ʃɐˈpew/,[sound:al_pt_pt_o_chapeu.mp3],,AnkiLangs::PT
+the hat,o chapéu,/u ʃɐˈpew/,[sound:al_pt_pt_the_hat.mp3],,AnkiLangs::PT
 the head,a cabeça,/ɐ kɐˈbesɐ/,,,AnkiLangs::PT
 the heart,o coração,/u kuɾɐˈsɐ̃w/,,,AnkiLangs::PT
 the heat,o calor,/u kɐˈloɾ/,,,AnkiLangs::PT
 the hill,a colina,/ɐ kuˈlinɐ/,,,AnkiLangs::PT
 the hole,o buraco,/u buˈɾaku/,,,AnkiLangs::PT
-the horse,o cavalo,/u kɐˈvalu/,[sound:al_pt_pt_o_cavalo.mp3],,AnkiLangs::PT
-the hospital,o hospital,/u ɔspiˈtaɫ/,[sound:al_pt_pt_o_hospital.mp3],,AnkiLangs::PT
-the hotel,o hotel,/u oˈtɛɫ/,[sound:al_pt_pt_o_hotel.mp3],,AnkiLangs::PT
+the horse,o cavalo,/u kɐˈvalu/,[sound:al_pt_pt_the_horse.mp3],,AnkiLangs::PT
+the hospital,o hospital,/u ɔspiˈtaɫ/,[sound:al_pt_pt_the_hospital.mp3],,AnkiLangs::PT
+the hotel,o hotel,/u oˈtɛɫ/,[sound:al_pt_pt_the_hotel.mp3],,AnkiLangs::PT
 the hour,a hora,/ˈɔɾɐ/,,,AnkiLangs::PT
-the house,a casa,/ɐ ˈkazɐ/,[sound:al_pt_pt_a_casa.mp3],,AnkiLangs::PT
-the human,o humano,/u uˈmɐnu/,[sound:al_pt_pt_o_humano.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
-the husband,o marido,/u mɐˈɾiðu/,[sound:al_pt_pt_o_marido.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the house,a casa,/ɐ ˈkazɐ/,[sound:al_pt_pt_the_house.mp3],,AnkiLangs::PT
+the human,o humano,/u uˈmɐnu/,[sound:al_pt_pt_the_human.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the husband,o marido,/u mɐˈɾiðu/,[sound:al_pt_pt_the_husband.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the ice,o gelo,/u ˈʒelu/,,,AnkiLangs::PT
 the image,a imagem,/ɐ iˈmaʒɐ̃j/,,,AnkiLangs::PT
 the inch,a polegada,/ɐ pulɨˈɡadɐ/,,,AnkiLangs::PT
@@ -347,7 +347,7 @@ the island,a ilha,/ˈiʎɐ/,,,AnkiLangs::PT
 the job,o emprego,/u ẽˈpɾeɡu/,,,AnkiLangs::PT
 the key,a chave,/ɐ ˈʃavɨ/,,,AnkiLangs::PT
 the kilogram,o quilograma,/u kiluˈɡɾɐmɐ/,,,AnkiLangs::PT
-the king,o rei,/u ˈʁej/,[sound:al_pt_pt_o_rei.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the king,o rei,/u ˈʁej/,[sound:al_pt_pt_the_king.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the kitchen,a cozinha,/ɐ kuˈziɲɐ/,,,AnkiLangs::PT
 the knee,o joelho,/u ʒuˈeʎu/,,,AnkiLangs::PT
 the knife,a faca,/ɐ ˈfakɐ/,,,AnkiLangs::PT
@@ -359,29 +359,29 @@ the leaf,a folha,/ɐ ˈfoʎɐ/,,,AnkiLangs::PT
 the leg,a perna,/ɐ ˈpɛɾnɐ/,,,AnkiLangs::PT
 the lemon,o limão,/u liˈmɐ̃w/,,,AnkiLangs::PT
 the letter,a carta,/ɐ ˈkaɾtɐ/,,,AnkiLangs::PT
-the library,a biblioteca,/ɐ biβɫiutɛˈka/,[sound:al_pt_pt_a_biblioteca.mp3],,AnkiLangs::PT
+the library,a biblioteca,/ɐ biβɫiutɛˈka/,[sound:al_pt_pt_the_library.mp3],,AnkiLangs::PT
 the light,a luz,/ɐ luʃ/,,,AnkiLangs::PT
 the lip,o lábio,/u ˈlaβju/,,,AnkiLangs::PT
-the location,o local,/u ˈlɔkaɫ/,[sound:al_pt_pt_o_local.mp3],,AnkiLangs::PT
+the location,o local,/u ˈlɔkaɫ/,[sound:al_pt_pt_the_location.mp3],,AnkiLangs::PT
 the lock,a fechadura,/ɐ fɨʃɐˈduɾɐ/,,,AnkiLangs::PT
 the magazine,a revista,/ɐ ʁɨˈviʃtɐ/,,,AnkiLangs::PT
-the man,o homem,/u ˈɔmẽj/,[sound:al_pt_pt_o_homem.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the man,o homem,/u ˈɔmẽj/,[sound:al_pt_pt_the_man.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 the manager,o gerente,/u ʒɨˈɾẽtɨ/,,,AnkiLangs::PT
 the map,o mapa,/u ˈmapɐ/,,,AnkiLangs::PT
-the market,o mercado,/u mɨɾˈkaðu/,[sound:al_pt_pt_o_mercado.mp3],,AnkiLangs::PT
+the market,o mercado,/u mɨɾˈkaðu/,[sound:al_pt_pt_the_market.mp3],,AnkiLangs::PT
 the meter,o metro,/u ˈmɛtɾu/,,,AnkiLangs::PT
 the minute,o minuto,/u miˈnutu/,,,AnkiLangs::PT
 the month,o mês,/u ˈmeʃ/,,,AnkiLangs::PT
 the moon,a lua,/ɐ ˈluɐ/,,,AnkiLangs::PT
 the morning,a manhã,/ɐ mɐˈɲɐ̃/,,,AnkiLangs::PT
-the mother,a mãe,/a ˈmɐ̃j/,[sound:al_pt_pt_a_m_e.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the mother,a mãe,/a ˈmɐ̃j/,[sound:al_pt_pt_the_mother.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the mountain,a montanha,/ɐ mõˈtɐɲɐ/,,,AnkiLangs::PT
-the mouse,o rato,/u ˈʁatu/,[sound:al_pt_pt_o_rato.mp3],,AnkiLangs::PT
+the mouse,o rato,/u ˈʁatu/,[sound:al_pt_pt_the_mouse.mp3],,AnkiLangs::PT
 the mouth,a boca,/ɐ ˈbokɐ/,,,AnkiLangs::PT
 the movie,o filme,/u ˈfiɫmɨ/,,,AnkiLangs::PT
 the neck,o pescoço,/u pɨʃˈkosu/,,,AnkiLangs::PT
 the needle,a agulha,/ɐ ɐˈɡuʎɐ/,,,AnkiLangs::PT
-the neighbor,o vizinho,/u viˈziɲu/,[sound:al_pt_pt_o_vizinho.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the neighbor,o vizinho,/u viˈziɲu/,[sound:al_pt_pt_the_neighbor.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the network,a rede,/ɐ ˈʁɛdɨ/,,,AnkiLangs::PT
 the newspaper,o jornal,/u ʒuɾˈnaɫ/,,,AnkiLangs::PT
 the night,a noite,/ɐ ˈnojtɨ/,,,AnkiLangs::PT
@@ -391,68 +391,68 @@ the note,a nota,/ɐ ˈnɔtɐ/,,,AnkiLangs::PT
 the noun,o substantivo,/u subʃtɐ̃ˈtivu/,,,AnkiLangs::PT
 the number,o número,/u ˈnumɨɾu/,,,AnkiLangs::PT
 the ocean,o oceano,/u osiˈɐnu/,,,AnkiLangs::PT
-the office,o escritório,/u ɨʃkɾiˈtoɾju/,[sound:al_pt_pt_o_escritorio.mp3],,AnkiLangs::PT
+the office,o escritório,/u ɨʃkɾiˈtoɾju/,[sound:al_pt_pt_the_office.mp3],,AnkiLangs::PT
 the orange,a laranja,/ɐ lɐˈɾɐ̃ʒɐ/,,,AnkiLangs::PT
 the outside,o exterior,/u ɨʃtɨɾiˈoɾ/,,,AnkiLangs::PT
 the page,a página,/ɐ ˈpaʒinɐ/,,,AnkiLangs::PT
 the paint,a tinta,/ɐ ˈtĩtɐ/,,,AnkiLangs::PT
-the pants,as calças,/aʃ ˈkaɫsɐʃ/,[sound:al_pt_pt_as_cal_as.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the pants,as calças,/aʃ ˈkaɫsɐʃ/,[sound:al_pt_pt_the_pants.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the paper,o papel,/u pɐˈpɛɫ/,,,AnkiLangs::PT
-the parent,o progenitor,/u ˌpɾoʒəniˈtoɾ/,[sound:al_pt_pt_o_progenitor.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
-the park,o parque,/u ˈpaɾk(ɨ)/,[sound:al_pt_pt_o_parque.mp3],,AnkiLangs::PT
+the parent,o progenitor,/u ˌpɾoʒəniˈtoɾ/,[sound:al_pt_pt_the_parent.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the park,o parque,/u ˈpaɾk(ɨ)/,[sound:al_pt_pt_the_park.mp3],,AnkiLangs::PT
 the patient,o paciente,/u pɐsiˈẽtɨ/,,,AnkiLangs::PT
 the pattern,o padrão,/u pɐˈdɾɐ̃w̃/,,,AnkiLangs::PT
 the pen,a caneta,/ɐ kɐˈnɛtɐ/,,,AnkiLangs::PT
 the pencil,o lápis,/u ˈlapiʃ/,,,AnkiLangs::PT
-the person,a pessoa,/a pɨˈsoɐ/,[sound:al_pt_pt_a_pessoa.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the person,a pessoa,/a pɨˈsoɐ/,[sound:al_pt_pt_the_person.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the photograph,a fotografia,/ɐ futuɡɾɐˈfiɐ/,,,AnkiLangs::PT
 the piece,o pedaço,/u pɨˈdasu/,,,AnkiLangs::PT
-the pig,o porco,/u ˈpɔɾku/,[sound:al_pt_pt_o_porco.mp3],,AnkiLangs::PT
-the plane,o avião,/u ɐviˈɐ̃w̃/,[sound:al_pt_pt_o_aviao.mp3],,AnkiLangs::PT
+the pig,o porco,/u ˈpɔɾku/,[sound:al_pt_pt_the_pig.mp3],,AnkiLangs::PT
+the plane,o avião,/u ɐviˈɐ̃w̃/,[sound:al_pt_pt_the_plane.mp3],,AnkiLangs::PT
 the plant,a planta,/ɐ ˈplɐ̃tɐ/,,,AnkiLangs::PT
 the plate,o prato,/u ˈpɾatu/,,,AnkiLangs::PT
-the player,o jogador,/u ʒuɡɐˈdoɾ/,[sound:al_pt_pt_o_jogador.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
-the pocket,o bolso,/u ˈboɫsu/,[sound:al_pt_pt_o_bolso.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the player,o jogador,/u ʒuɡɐˈdoɾ/,[sound:al_pt_pt_the_player.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the pocket,o bolso,/u ˈboɫsu/,[sound:al_pt_pt_the_pocket.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the police,a polícia,/ɐ puˈlisiɐ/,,,AnkiLangs::PT
 the pool,a piscina,/ɐ piʃˈsinɐ/,,,AnkiLangs::PT
 the pork,a carne de porco,/ɐ ˈkaɾnɨ dɨ ˈpoɾku/,,,AnkiLangs::PT
 the pound,a libra,/ɐ ˈlibɾɐ/,,,AnkiLangs::PT
-the president,o presidente,/u pɾeziˈdẽtɨ/,[sound:al_pt_pt_o_presidente.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the president,o presidente,/u pɾeziˈdẽtɨ/,[sound:al_pt_pt_the_president.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 the price,o preço,/u ˈpɾesu/,,,AnkiLangs::PT
 the priest,o padre,/u ˈpadɾɨ/,,,AnkiLangs::PT
 the program,o programa,/u pɾuˈɡɾɐmɐ/,,,AnkiLangs::PT
-the queen,a rainha,/a ʁɐˈiɲɐ/,[sound:al_pt_pt_a_rainha.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the queen,a rainha,/a ʁɐˈiɲɐ/,[sound:al_pt_pt_the_queen.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the radio,o rádio,/u ˈʁadju/,,,AnkiLangs::PT
 the rain,a chuva,/ɐ ˈʃuvɐ/,,,AnkiLangs::PT
 the reporter,o repórter,/u ʁɨˈpɔɾtɛɾ/,,,AnkiLangs::PT
-the restaurant,o restaurante,/u ʁɛstɐuˈɾɐ̃t(ɨ)/,[sound:al_pt_pt_o_restaurante.mp3],,AnkiLangs::PT
+the restaurant,o restaurante,/u ʁɛstɐuˈɾɐ̃t(ɨ)/,[sound:al_pt_pt_the_restaurant.mp3],,AnkiLangs::PT
 the ring,o anel,/u ɐˈnɛɫ/,,,AnkiLangs::PT
 the river,o rio,/u ˈʁiu/,,,AnkiLangs::PT
 the roof,o telhado,/u tɨˈʎadu/,,,AnkiLangs::PT
-the room,o quarto,/u ˈkwɐɾtu/,[sound:al_pt_pt_o_quarto.mp3],,AnkiLangs::PT
+the room,o quarto,/u ˈkwɐɾtu/,[sound:al_pt_pt_the_room.mp3],,AnkiLangs::PT
 the root,a raiz,/ɐ ʁɐˈiʃ/,,,AnkiLangs::PT
 the sand,a areia,/ɐ ɐˈɾɐjɐ/,,,AnkiLangs::PT
-the school,a escola,/ɐ iʃˈkol(ɐ)/,[sound:al_pt_pt_a_escola.mp3],,AnkiLangs::PT
+the school,a escola,/ɐ iʃˈkol(ɐ)/,[sound:al_pt_pt_the_school.mp3],,AnkiLangs::PT
 the screen,o ecrã,/u ˈɛkɾɐ̃/,,,AnkiLangs::PT
 the sea,o mar,/u ˈmaɾ/,,,AnkiLangs::PT
 the season,a estação,/ɐ ɨʃtɐˈsɐ̃w/,,,AnkiLangs::PT
 the second,o segundo,/u sɨˈɡũdu/,,,AnkiLangs::PT
 the secretary,a secretária,/ɐ sɨkɾɨˈtaɾjɐ/,,,AnkiLangs::PT
 the seed,a semente,/ɐ sɨˈmẽtɨ/,,,AnkiLangs::PT
-the ship,o navio,/u ˈnavju/,[sound:al_pt_pt_o_navio.mp3],,AnkiLangs::PT
-the shirt,a camisa,/ɐ kɐˈmizɐ/,[sound:al_pt_pt_a_camisa.mp3],,AnkiLangs::PT
-the shoes,os sapatos,/uʃ sɐˈpatuʃ/,[sound:al_pt_pt_os_sapatos.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the ship,o navio,/u ˈnavju/,[sound:al_pt_pt_the_ship.mp3],,AnkiLangs::PT
+the shirt,a camisa,/ɐ kɐˈmizɐ/,[sound:al_pt_pt_the_shirt.mp3],,AnkiLangs::PT
+the shoes,os sapatos,/uʃ sɐˈpatuʃ/,[sound:al_pt_pt_the_shoes.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 the shoulder,o ombro,/u ˈõbɾu/,,,AnkiLangs::PT
 the side,o lado,/u ˈladu/,,,AnkiLangs::PT
 the sign,o sinal,/u siˈnal/,,,AnkiLangs::PT
-the sister,a irmã,/a iɾˈmɐ̃/,[sound:al_pt_pt_a_irm.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the sister,a irmã,/a iɾˈmɐ̃/,[sound:al_pt_pt_the_sister.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 the skin,a pele,/ɐ ˈpɛlɨ/,,,AnkiLangs::PT
-the skirt,a saia,/ɐ ˈsajɐ/,[sound:al_pt_pt_a_saia.mp3],,AnkiLangs::PT
+the skirt,a saia,/ɐ ˈsajɐ/,[sound:al_pt_pt_the_skirt.mp3],,AnkiLangs::PT
 the sky,o céu,/u ˈsɛw/,,,AnkiLangs::PT
 the snow,a neve,/ɐ ˈnɛvɨ/,,,AnkiLangs::PT
 the soap,o sabão,/u sɐˈbɐ̃w/,,,AnkiLangs::PT
 the soldier,o soldado,/u solˈdadu/,,,AnkiLangs::PT
-the son,o filho,/u ˈfiʎu/,[sound:al_pt_pt_o_filho.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the son,o filho,/u ˈfiʎu/,[sound:al_pt_pt_the_son.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the song,a canção,/ɐ kɐ̃ˈsɐ̃w/,,,AnkiLangs::PT
 the sound,o som,/u sõ/,,,AnkiLangs::PT
 the soup,a sopa,/ɐ ˈsɔpɐ/,,,AnkiLangs::PT
@@ -460,38 +460,38 @@ the south,o sul,/u sul/,,,AnkiLangs::PT
 the spoon,a colher,/ɐ kuˈʎeɾ/,,,AnkiLangs::PT
 the Spring,a primavera,/ɐ pɾimɐˈveɾɐ/,,,AnkiLangs::PT
 the square,a praça,/ɐ ˈpɾasɐ/,,,AnkiLangs::PT
-the stain,a mancha,/ɐ ˈmɐ̃ʃɐ/,[sound:al_pt_pt_a_mancha.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the stain,a mancha,/ɐ ˈmɐ̃ʃɐ/,[sound:al_pt_pt_the_stain.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the star,a estrela,/ɐ ɨʃˈtɾelɐ/,,,AnkiLangs::PT
-the store/shop,a loja,/ɐ ˈlɔʒɐ/,[sound:al_pt_pt_a_loja.mp3],,AnkiLangs::PT
-the street/road,a rua,/ɐ ˈʁu.ɐ/,[sound:al_pt_pt_a_rua.mp3],,AnkiLangs::PT
+the store/shop,a loja,/ɐ ˈlɔʒɐ/,[sound:al_pt_pt_the_store_shop.mp3],,AnkiLangs::PT
+the street/road,a rua,/ɐ ˈʁu.ɐ/,[sound:al_pt_pt_the_street_road.mp3],,AnkiLangs::PT
 the student,o estudante,/u ɨʃtuˈdɐ̃tɨ/,,,AnkiLangs::PT
-the suit,o fato,/u ˈfatu/,[sound:al_pt_pt_o_fato.mp3],,AnkiLangs::PT
+the suit,o fato,/u ˈfatu/,[sound:al_pt_pt_the_suit.mp3],,AnkiLangs::PT
 the Summer,o verão,/u vɨˈɾɐ̃w/,,,AnkiLangs::PT
 the sun,o sol,/u sɔl/,,,AnkiLangs::PT
-the T-shirt,a T-shirt,/ɐ ˈtiʃɨɾt/,[sound:al_pt_pt_a_t_shirt.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the T-shirt,a T-shirt,/ɐ ˈtiʃɨɾt/,[sound:al_pt_pt_the_t_shirt.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the table,a mesa,/ɐ ˈmezɐ/,,,AnkiLangs::PT
 the teacher,o professor,/u pɾufɨˈsoɾ/,,,AnkiLangs::PT
 the team,a equipa,/ɐ ɨˈkipɐ/,,,AnkiLangs::PT
 the tear,a lágrima,/ɐ ˈlaɡɾimɐ/,,,AnkiLangs::PT
 the telephone,o telefone,/u tɨlɨˈfɔnɨ/,,,AnkiLangs::PT
 the television,a televisão,/ɐ tɨlɨviˈzɐ̃w/,,,AnkiLangs::PT
-the theater,o teatro,/u tiˈatɾu/,[sound:al_pt_pt_o_teatro.mp3],,AnkiLangs::PT
+the theater,o teatro,/u tiˈatɾu/,[sound:al_pt_pt_the_theater.mp3],,AnkiLangs::PT
 the time,o tempo,/u ˈtẽpu/,,,AnkiLangs::PT
-the tire,o pneu,/u ˈpnew/,[sound:al_pt_pt_o_pneu.mp3],,AnkiLangs::PT
+the tire,o pneu,/u ˈpnew/,[sound:al_pt_pt_the_tire.mp3],,AnkiLangs::PT
 the toe,o dedo do pé,/u ˈdedu du pɛ/,,,AnkiLangs::PT
 the tongue,a língua,/ɐ ˈlĩɡwɐ/,,,AnkiLangs::PT
 the tool,a ferramenta,/ɐ fɨʁɐˈmẽtɐ/,,,AnkiLangs::PT
 the tooth,o dente,/u ˈdẽtɨ/,,,AnkiLangs::PT
 the top,o topo,/u ˈtɔpu/,,,AnkiLangs::PT
-the town,a vila,/ɐ ˈvilɐ/,[sound:al_pt_pt_a_vila.mp3],,AnkiLangs::PT
-the train,o comboio,/u kũˈbɔj.u/,[sound:al_pt_pt_o_comboio.mp3],,AnkiLangs::PT
-the train station,a estação de comboios,/ɐ iʃtɐˈsɐ̃w̃ ðɨ kũˈbɔj.uʃ/,[sound:al_pt_pt_a_estacao_de_comboios.mp3],,AnkiLangs::PT
+the town,a vila,/ɐ ˈvilɐ/,[sound:al_pt_pt_the_town.mp3],,AnkiLangs::PT
+the train,o comboio,/u kũˈbɔj.u/,[sound:al_pt_pt_the_train.mp3],,AnkiLangs::PT
+the train station,a estação de comboios,/ɐ iʃtɐˈsɐ̃w̃ ðɨ kũˈbɔj.uʃ/,[sound:al_pt_pt_the_train_station.mp3],,AnkiLangs::PT
 the tree,a árvore,/ˈaɾvuɾɨ/,,,AnkiLangs::PT
-the truck,o camião,/u kɐˈmĩw̃/,[sound:al_pt_pt_o_camiao.mp3],,AnkiLangs::PT
-the university,a universidade,/ɐ uɲiˌvɛɾsiˈðað(ɨ)/,[sound:al_pt_pt_a_universidade.mp3],,AnkiLangs::PT
+the truck,o camião,/u kɐˈmĩw̃/,[sound:al_pt_pt_the_truck.mp3],,AnkiLangs::PT
+the university,a universidade,/ɐ uɲiˌvɛɾsiˈðað(ɨ)/,[sound:al_pt_pt_the_university.mp3],,AnkiLangs::PT
 the valley,o vale,/u ˈvalɨ/,,,AnkiLangs::PT
 the verb,o verbo,/u ˈvɛɾbu/,,,AnkiLangs::PT
-the victim,a vítima,/a ˈvitimɐ/,[sound:al_pt_pt_a_v_tima.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the victim,a vítima,/a ˈvitimɐ/,[sound:al_pt_pt_the_victim.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 the voice,a voz,/ɐ vɔʃ/,,,AnkiLangs::PT
 the vowel,a vogal,/ɐ vuˈɡal/,,,AnkiLangs::PT
 the waiter,o empregado de mesa,/u ẽpɾɨˈɡadu dɨ ˈmezɐ/,,,AnkiLangs::PT
@@ -499,12 +499,12 @@ the wall,a parede,/ɐ pɐˈɾedɨ/,,,AnkiLangs::PT
 the wave,a onda,/ˈõdɐ/,,,AnkiLangs::PT
 the week,a semana,/ɐ sɨˈmɐnɐ/,,,AnkiLangs::PT
 the west,o oeste,/u uˈɛʃtɨ/,,,AnkiLangs::PT
-the wife,a esposa,/a iʃˈpozɐ/,[sound:al_pt_pt_a_esposa.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+the wife,a esposa,/a iʃˈpozɐ/,[sound:al_pt_pt_the_wife.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 the wind,o vento,/u ˈvẽtu/,,,AnkiLangs::PT
 the window,a janela,/ɐ ʒɐˈnɛlɐ/,,,AnkiLangs::PT
-the wing,a asa,/ɐ ˈazɐ/,[sound:al_pt_pt_a_asa.mp3],,AnkiLangs::PT
+the wing,a asa,/ɐ ˈazɐ/,[sound:al_pt_pt_the_wing.mp3],,AnkiLangs::PT
 the Winter,o inverno,/u ĩˈvɛɾnu/,,,AnkiLangs::PT
-the woman,a mulher,/a muˈʎɛɾ/,[sound:al_pt_pt_a_mulher.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+the woman,a mulher,/a muˈʎɛɾ/,[sound:al_pt_pt_the_woman.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 the world,o mundo,/u ˈmũdu/,,,AnkiLangs::PT
 the yard,o quintal,/u kĩˈtal/,,,AnkiLangs::PT
 the year,o ano,/u ˈɐnu/,,,AnkiLangs::PT
@@ -601,7 +601,7 @@ to wear,usar,/uˈzaɾ/,,,AnkiLangs::PT
 to win,ganhar,/ɡɐˈɲaɾ/,,,AnkiLangs::PT
 to work,trabalhar,/tɾɐbɐˈʎaɾ/,,,AnkiLangs::PT
 to write,escrever,/ɨʃkɾɨˈveɾ/,,,AnkiLangs::PT
-transportation,o transporte,/u tɾɐ̃spuɾˈtɨ/,[sound:al_pt_pt_o_transporte.mp3],,AnkiLangs::PT
+transportation,o transporte,/u tɾɐ̃spuɾˈtɨ/,[sound:al_pt_pt_transportation.mp3],,AnkiLangs::PT
 Tuesday,terça-feira,/ˈtɛɾsɐ ˈfɐjɾɐ/,,,AnkiLangs::PT
 twelve (12),doze,/ˈdozɨ/,,,AnkiLangs::PT
 twenty (20),vinte,/ˈvĩtɨ/,,,AnkiLangs::PT
@@ -619,11 +619,11 @@ wedding,o casamento,/u kɐzɐˈmẽtu/,,,AnkiLangs::PT
 Wednesday,quarta-feira,/ˈkwaɾtɐ ˈfɐjɾɐ/,,,AnkiLangs::PT
 weight,o peso,/u ˈpezu/,,,AnkiLangs::PT
 wet,molhado,/muˈʎadu/,,,AnkiLangs::PT
-white,branco,/ˈbɾɐ̃ku/,[sound:al_pt_pt_branco.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+white,branco,/ˈbɾɐ̃ku/,[sound:al_pt_pt_white.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 wide,largo,/ˈlaɾɡu/,,,AnkiLangs::PT
 wine,o vinho,/u ˈviɲu/,,,AnkiLangs::PT
 wood,a madeira,/ɐ mɐˈdɐjɾɐ/,,,AnkiLangs::PT
-yellow,amarelo,/ɐmɐˈɾɛlu/,[sound:al_pt_pt_amarelo.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+yellow,amarelo,/ɐmɐˈɾɛlu/,[sound:al_pt_pt_yellow.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 yes,sim,/sĩ/,,,AnkiLangs::PT
 "you [plural, y'all]",vós,/vɔʃ/,,,AnkiLangs::PT
 you [singular],tu,/tu/,,,AnkiLangs::PT

@@ -7,12 +7,12 @@ bad,cattivo,/katˈtivo/,,,AnkiLangs::IT
 beautiful,bello,/ˈbɛllo/,,,AnkiLangs::IT
 beer,la birra,/la ˈbirra/,,,AnkiLangs::IT
 big / large,grande,/ˈɡrande/,,,AnkiLangs::IT
-black,nero,/ˈnero/,[sound:al_it_it_nero.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+black,nero,/ˈnero/,[sound:al_it_it_black.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 blind,cieco,/ˈtʃɛko/,,,AnkiLangs::IT
 blood,il sangue,/il ˈsaŋɡwe/,,,AnkiLangs::IT
-blue,blu,/blu/,[sound:al_it_it_blu.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+blue,blu,/blu/,[sound:al_it_it_blue.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 breakfast,la colazione,/la kolatˈtsjone/,,,AnkiLangs::IT
-brown,marrone,/marˈrone/,[sound:al_it_it_marrone.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+brown,marrone,/marˈrone/,[sound:al_it_it_brown.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 cheap,economico,/ekoˈnɔmiko/,,,AnkiLangs::IT
 clay,l'argilla,/larˈdʒilla/,,,AnkiLangs::IT
 clean,pulito,/puˈlito/,,,AnkiLangs::IT
@@ -22,7 +22,7 @@ cool,fresco,/ˈfresko/,,,AnkiLangs::IT
 copper,il rame,/il ˈrame/,,,AnkiLangs::IT
 curved,curvo,/ˈkurvo/,,,AnkiLangs::IT
 dark,scuro,/ˈskuːro/,,,AnkiLangs::IT
-dark blue,azzurro scuro,/adˈdzurro ˈskuːro/,[sound:al_it_it_azzurro_scuro.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+dark blue,azzurro scuro,/adˈdzurro ˈskuːro/,[sound:al_it_it_dark_blue.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 dead,morto,/ˈmɔrto/,,,AnkiLangs::IT
 deaf,sordo,/ˈsordo/,,,AnkiLangs::IT
 death,la morte,/la ˈmɔrte/,,,AnkiLangs::IT
@@ -35,7 +35,7 @@ disease,la malattia,/la malatˈtia/,,,AnkiLangs::IT
 down,giù,/dʒu/,,,AnkiLangs::IT
 dry,asciutto,/aʃˈʃutto/,,,AnkiLangs::IT
 dust,la polvere,/la ˈpolvere/,,,AnkiLangs::IT
-Earth,la Terra,/la ˈtɛrra/,[sound:al_it_it_la_terra.mp3],Google Cloud TTS,AnkiLangs::IT
+Earth,la Terra,/la ˈtɛrra/,[sound:al_it_it_earth.mp3],Google Cloud TTS,AnkiLangs::IT
 eight (8),otto,/ˈɔtto/,,,AnkiLangs::IT
 eighteen (18),diciotto,/diˈtʃɔtto/,,,AnkiLangs::IT
 eighty (80),ottanta,/otˈtanta/,,,AnkiLangs::IT
@@ -69,8 +69,8 @@ glass,il vetro,/il ˈvetro/,,,AnkiLangs::IT
 God,Dio,/ˈdio/,,,AnkiLangs::IT
 gold,l'oro,/ˈlɔro/,,,AnkiLangs::IT
 good,buono,/ˈbwɔno/,,,AnkiLangs::IT
-gray,grigio,/ˈɡriːdʒo/,[sound:al_it_it_grigio.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-green,verde,/ˈverde/,[sound:al_it_it_verde.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+gray,grigio,/ˈɡriːdʒo/,[sound:al_it_it_gray.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+green,verde,/ˈverde/,[sound:al_it_it_green.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 happy,felice,/feˈlitʃe/,,,AnkiLangs::IT
 hard,duro,/ˈduːro/,,,AnkiLangs::IT
 he,lui,/ˈlui/,,,AnkiLangs::IT
@@ -89,7 +89,7 @@ June,giugno,/ˈdʒuɲɲo/,,,AnkiLangs::IT
 left,sinistra,/siˈnistra/,,,AnkiLangs::IT
 "light [opposite of ""dark""]",chiaro,/ˈkjaro/,,,AnkiLangs::IT
 "light [opposite of ""heavy""]",leggero,/ledˈdʒɛro/,,,AnkiLangs::IT
-light blue,azzurro chiaro,/adˈdzurro ˈkjaro/,[sound:al_it_it_azzurro_chiaro.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+light blue,azzurro chiaro,/adˈdzurro ˈkjaro/,[sound:al_it_it_light_blue.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 long,lungo,/ˈluŋɡo/,,,AnkiLangs::IT
 loose,largo,/ˈlarɡo/,,,AnkiLangs::IT
 loud,forte,/ˈfɔrte/,,,AnkiLangs::IT
@@ -135,10 +135,10 @@ one hundred two (102),centodue,/tʃɛntoˈduːe/,,,AnkiLangs::IT
 "one million (1,000,000)",un milione,/un miˈljone/,,,AnkiLangs::IT
 one thousand (1000),mille,/ˈmille/,,,AnkiLangs::IT
 one thousand one (1001),milleuno,/milleˈuːno/,,,AnkiLangs::IT
-orange,arancione,/aranˈtʃone/,[sound:al_it_it_arancione.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+orange,arancione,/aranˈtʃone/,[sound:al_it_it_orange.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 pain,il dolore,/il doˈlore/,,,AnkiLangs::IT
 peace,la pace,/la ˈpatʃe/,,,AnkiLangs::IT
-pink,rosa,/ˈroza/,[sound:al_it_it_rosa.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+pink,rosa,/ˈroza/,[sound:al_it_it_pink.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 plastic,la plastica,/la ˈplastika/,,,AnkiLangs::IT
 poison,il veleno,/il veˈleno/,,,AnkiLangs::IT
 poor,povero,/ˈpɔvero/,,,AnkiLangs::IT
@@ -146,7 +146,7 @@ prison,la prigione,/la priˈdʒone/,,,AnkiLangs::IT
 quiet,silenzioso,/silentˈsjoso/,,,AnkiLangs::IT
 race [ethnicity],la razza,/la ˈrattsa/,,,AnkiLangs::IT
 race [sport],la gara,/la ˈɡara/,,,AnkiLangs::IT
-red,rosso,/ˈrosso/,[sound:al_it_it_rosso.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+red,rosso,/ˈrosso/,[sound:al_it_it_red.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 relationship,la relazione,/la relatˈtsjone/,,,AnkiLangs::IT
 religion,la religione,/la reliˈdʒone/,,,AnkiLangs::IT
 rice,il riso,/il ˈrizo/,,,AnkiLangs::IT
@@ -180,7 +180,7 @@ slow,lento,/ˈlɛnto/,,,AnkiLangs::IT
 small / little,piccolo,/ˈpikkolo/,,,AnkiLangs::IT
 soft,morbido,/ˈmɔrbido/,,,AnkiLangs::IT
 soil/earth [ground],la terra,/la ˈtɛrra/,,,AnkiLangs::IT
-space (outer space),lo spazio,/lo ˈspatt͡sjo/,[sound:al_it_it_lo_spazio.mp3],Google Cloud TTS,AnkiLangs::IT
+space (outer space),lo spazio,/lo ˈspatt͡sjo/,[sound:al_it_it_space_outer_space.mp3],Google Cloud TTS,AnkiLangs::IT
 sport,lo sport,/lo ˈspɔrt/,,,AnkiLangs::IT
 stone,la pietra,/la ˈpjetra/,,,AnkiLangs::IT
 straight,dritto,/ˈdritto/,,,AnkiLangs::IT
@@ -194,30 +194,30 @@ technology,la tecnologia,/la teknoloˈdʒia/,,,AnkiLangs::IT
 temperature,la temperatura,/la temperatuˈra/,,,AnkiLangs::IT
 ten (10),dieci,/ˈdjɛtʃi/,,,AnkiLangs::IT
 "ten thousand (10,000)",diecimila,/djɛtʃiˈmila/,,,AnkiLangs::IT
-the (train) ticket,il biglietto (del treno),/il biʎˈʎetto (del ˈtreno)/,[sound:al_it_it_il_biglietto_del_treno.mp3],Google Cloud TTS,AnkiLangs::IT
+the (train) ticket,il biglietto (del treno),/il biʎˈʎetto (del ˈtreno)/,[sound:al_it_it_the_train_ticket.mp3],Google Cloud TTS,AnkiLangs::IT
 the actor,l'attore,/latˈtore/,,,AnkiLangs::IT
 the adjective,l'aggettivo,/ladːʒetˈtivo/,,,AnkiLangs::IT
-the adult,l'adulto,/laˈdul.to/,[sound:al_it_it_l_adulto.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the adult,l'adulto,/laˈdul.to/,[sound:al_it_it_the_adult.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the afternoon,il pomeriggio,/il pomeˈridːʒo/,,,AnkiLangs::IT
 the air,l'aria,/ˈlarja/,,,AnkiLangs::IT
-the airport,l'aeroporto,/laeroˈpɔrto/,[sound:al_it_it_l_aeroporto.mp3],Google Cloud TTS,AnkiLangs::IT
-the animal,l'animale,/laniˈmale/,[sound:al_it_it_l_animale.mp3],Google Cloud TTS,AnkiLangs::IT
-the apartment,l'appartamento,/lapːartaˈmento/,[sound:al_it_it_l_appartamento.mp3],Google Cloud TTS,AnkiLangs::IT
+the airport,l'aeroporto,/laeroˈpɔrto/,[sound:al_it_it_the_airport.mp3],Google Cloud TTS,AnkiLangs::IT
+the animal,l'animale,/laniˈmale/,[sound:al_it_it_the_animal.mp3],Google Cloud TTS,AnkiLangs::IT
+the apartment,l'appartamento,/lapːartaˈmento/,[sound:al_it_it_the_apartment.mp3],Google Cloud TTS,AnkiLangs::IT
 the apple,la mela,/la ˈmela/,,,AnkiLangs::IT
 the arm,il braccio,/il ˈbrattʃo/,,,AnkiLangs::IT
 the army,l'esercito,/leˈzɛrtʃito/,,,AnkiLangs::IT
 the artist,l'artista,/larˈtista/,,,AnkiLangs::IT
 the attack,l'attacco,/latˈtakko/,,,AnkiLangs::IT
 the author,l'autore,/lauˈtore/,,,AnkiLangs::IT
-the baby,il bebè,/il beˈbɛ/,[sound:al_it_it_il_beb.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the baby,il bebè,/il beˈbɛ/,[sound:al_it_it_the_baby.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the back [anatomy],la schiena,/la ˈskjɛna/,,,AnkiLangs::IT
 the back [location],il retro,/il ˈrɛtro/,,,AnkiLangs::IT
 the bag,la borsa,/la ˈborsa/,,,AnkiLangs::IT
 the ball,la palla,/la ˈpalla/,,,AnkiLangs::IT
 the banana,la banana,/la baˈnana/,,,AnkiLangs::IT
 the band [music],la banda,/la ˈbanda/,,,AnkiLangs::IT
-the bank,la banca,/la ˈbanka/,[sound:al_it_it_la_banca.mp3],Google Cloud TTS,AnkiLangs::IT
-the bar,il bar,/il ˈbar/,[sound:al_it_it_il_bar.mp3],Google Cloud TTS,AnkiLangs::IT
+the bank,la banca,/la ˈbanka/,[sound:al_it_it_the_bank.mp3],Google Cloud TTS,AnkiLangs::IT
+the bar,il bar,/il ˈbar/,[sound:al_it_it_the_bar.mp3],Google Cloud TTS,AnkiLangs::IT
 the bathroom,il bagno,/il ˈbaɲɲo/,,,AnkiLangs::IT
 the beach,la spiaggia,/la ˈspjaddʒa/,,,AnkiLangs::IT
 the beard,la barba,/la ˈbarba/,,,AnkiLangs::IT
@@ -225,118 +225,118 @@ the bed,il letto,/il ˈletto/,,,AnkiLangs::IT
 the bedroom,la camera da letto,/la ˈkamera da ˈletto/,,,AnkiLangs::IT
 the beef,il manzo,/il ˈmantso/,,,AnkiLangs::IT
 the beverage,la bevanda,/la beˈvanda/,,,AnkiLangs::IT
-the bicycle,la bicicletta,/la bitʃiˈkletta/,[sound:al_it_it_la_bicicletta.mp3],Google Cloud TTS,AnkiLangs::IT
+the bicycle,la bicicletta,/la bitʃiˈkletta/,[sound:al_it_it_the_bicycle.mp3],Google Cloud TTS,AnkiLangs::IT
 the bill [bank note],la banconota,/la baŋkoˈnɔta/,,,AnkiLangs::IT
-the bird,l'uccello,/luˈtʃɛllo/,[sound:al_it_it_l_uccello.mp3],Google Cloud TTS,AnkiLangs::IT
-the boat,la barca,/la ˈbarka/,[sound:al_it_it_la_barca.mp3],Google Cloud TTS,AnkiLangs::IT
+the bird,l'uccello,/luˈtʃɛllo/,[sound:al_it_it_the_bird.mp3],Google Cloud TTS,AnkiLangs::IT
+the boat,la barca,/la ˈbarka/,[sound:al_it_it_the_boat.mp3],Google Cloud TTS,AnkiLangs::IT
 the body,il corpo,/il ˈkɔrpo/,,,AnkiLangs::IT
 the bone,l'osso,/ˈlɔsso/,,,AnkiLangs::IT
 the book,il libro,/il ˈlibro/,,,AnkiLangs::IT
 the bottle,la bottiglia,/la botˈtiʎʎa/,,,AnkiLangs::IT
 the bottom,il fondo,/il ˈfondo/,,,AnkiLangs::IT
 the box,la scatola,/la ˈskatola/,,,AnkiLangs::IT
-the boy,il ragazzo,/il raˈɡat.tso/,[sound:al_it_it_il_ragazzo.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the boy,il ragazzo,/il raˈɡat.tso/,[sound:al_it_it_the_boy.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the brain,il cervello,/il tʃerˈvɛllo/,,,AnkiLangs::IT
 the bread,il pane,/il ˈpane/,,,AnkiLangs::IT
-the bridge,il ponte,/il ˈponte/,[sound:al_it_it_il_ponte.mp3],Google Cloud TTS,AnkiLangs::IT
-the brother,il fratello,/il fraˈtɛl.lo/,[sound:al_it_it_il_fratello.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-the building,l'edificio,/lediˈfiːtʃo/,[sound:al_it_it_l_edificio.mp3],Google Cloud TTS,AnkiLangs::IT
-the bus,l'autobus,/ˈlautoˌbus/,[sound:al_it_it_l_autobus.mp3],Google Cloud TTS,AnkiLangs::IT
+the bridge,il ponte,/il ˈponte/,[sound:al_it_it_the_bridge.mp3],Google Cloud TTS,AnkiLangs::IT
+the brother,il fratello,/il fraˈtɛl.lo/,[sound:al_it_it_the_brother.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the building,l'edificio,/lediˈfiːtʃo/,[sound:al_it_it_the_building.mp3],Google Cloud TTS,AnkiLangs::IT
+the bus,l'autobus,/ˈlautoˌbus/,[sound:al_it_it_the_bus.mp3],Google Cloud TTS,AnkiLangs::IT
 the cake,la torta,/la ˈtɔrta/,,,AnkiLangs::IT
 the camera,la macchina fotografica,/la ˈmakkina fotoˈɡrafika/,,,AnkiLangs::IT
-the camp,il campeggio,/il kamˈpedʒːo/,[sound:al_it_it_il_campeggio.mp3],Google Cloud TTS,AnkiLangs::IT
-the car,la macchina,/la ˈmakːina/,[sound:al_it_it_la_macchina.mp3],Google Cloud TTS,AnkiLangs::IT
+the camp,il campeggio,/il kamˈpedʒːo/,[sound:al_it_it_the_camp.mp3],Google Cloud TTS,AnkiLangs::IT
+the car,la macchina,/la ˈmakːina/,[sound:al_it_it_the_car.mp3],Google Cloud TTS,AnkiLangs::IT
 the card,la carta,/la ˈkarta/,,,AnkiLangs::IT
-the cat,il gatto,/il ˈɡatto/,[sound:al_it_it_il_gatto.mp3],Google Cloud TTS,AnkiLangs::IT
+the cat,il gatto,/il ˈɡatto/,[sound:al_it_it_the_cat.mp3],Google Cloud TTS,AnkiLangs::IT
 the ceiling,il soffitto,/il sofˈfitto/,,,AnkiLangs::IT
 the cell phone,il cellulare,/il tʃelluˈlare/,,,AnkiLangs::IT
 the centimeter,il centimetro,/il tʃenˈtimetro/,,,AnkiLangs::IT
 the chair,la sedia,/la ˈsɛdja/,,,AnkiLangs::IT
 the cheese,il formaggio,/il forˈmaddʒo/,,,AnkiLangs::IT
 the chicken,il pollo,/il ˈpollo/,,,AnkiLangs::IT
-the child,il bambino,/il bamˈbi.no/,[sound:al_it_it_il_bambino.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-the church,la chiesa,/la ˈkjɛːza/,[sound:al_it_it_la_chiesa.mp3],Google Cloud TTS,AnkiLangs::IT
+the child,il bambino,/il bamˈbi.no/,[sound:al_it_it_the_child.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the church,la chiesa,/la ˈkjɛːza/,[sound:al_it_it_the_church.mp3],Google Cloud TTS,AnkiLangs::IT
 the circle,il cerchio,/il ˈtʃɛrkjo/,,,AnkiLangs::IT
-the city,la città,/la tʃitˈta/,[sound:al_it_it_la_citt.mp3],Google Cloud TTS,AnkiLangs::IT
+the city,la città,/la tʃitˈta/,[sound:al_it_it_the_city.mp3],Google Cloud TTS,AnkiLangs::IT
 the clock,l'orologio,/loroˈlɔdʒo/,,,AnkiLangs::IT
-the clothing,l'abbigliamento,/labbiʎʎaˈmento/,[sound:al_it_it_l_abbigliamento.mp3],Google Cloud TTS,AnkiLangs::IT
-the club,il club,/il ˈklub/,[sound:al_it_it_il_club.mp3],Google Cloud TTS,AnkiLangs::IT
-the coat,il cappotto,/il kapˈpɔtːto/,[sound:al_it_it_il_cappotto.mp3],Google Cloud TTS,AnkiLangs::IT
-the color,il colore,/il koˈloːre/,[sound:al_it_it_il_colore.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the clothing,l'abbigliamento,/labbiʎʎaˈmento/,[sound:al_it_it_the_clothing.mp3],Google Cloud TTS,AnkiLangs::IT
+the club,il club,/il ˈklub/,[sound:al_it_it_the_club.mp3],Google Cloud TTS,AnkiLangs::IT
+the coat,il cappotto,/il kapˈpɔtːto/,[sound:al_it_it_the_coat.mp3],Google Cloud TTS,AnkiLangs::IT
+the color,il colore,/il koˈloːre/,[sound:al_it_it_the_color.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the computer,il computer,/il komˈpjuter/,,,AnkiLangs::IT
 the consonant,la consonante,/la konsoˈnante/,,,AnkiLangs::IT
 the contract,il contratto,/il konˈtratto/,,,AnkiLangs::IT
 the corn,il mais,/il ˈmais/,,,AnkiLangs::IT
 the corner,l'angolo,/ˈlaŋɡolo/,,,AnkiLangs::IT
-"the country (USA, France, etc.)",il paese; la nazione,/il paˈɛze/ /la natˈt͡sjo.ne/,[sound:al_it_it_il_paese_la_nazione.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-the court,il tribunale,/il tribuˈnale/,[sound:al_it_it_il_tribunale.mp3],Google Cloud TTS,AnkiLangs::IT
-the cow,la mucca,/la ˈmukka/,[sound:al_it_it_la_mucca.mp3],Google Cloud TTS,AnkiLangs::IT
-the crowd,la folla,/la ˈfol.la/,[sound:al_it_it_la_folla.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+"the country (USA, France, etc.)",il paese; la nazione,/il paˈɛze/ /la natˈt͡sjo.ne/,[sound:al_it_it_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the court,il tribunale,/il tribuˈnale/,[sound:al_it_it_the_court.mp3],Google Cloud TTS,AnkiLangs::IT
+the cow,la mucca,/la ˈmukka/,[sound:al_it_it_the_cow.mp3],Google Cloud TTS,AnkiLangs::IT
+the crowd,la folla,/la ˈfol.la/,[sound:al_it_it_the_crowd.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the cup,la tazza,/la ˈtattsa/,,,AnkiLangs::IT
 the date,la data,/la ˈdata/,,,AnkiLangs::IT
-the daughter,la figlia,/la ˈfiʎ.ʎa/,[sound:al_it_it_la_figlia.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the daughter,la figlia,/la ˈfiʎ.ʎa/,[sound:al_it_it_the_daughter.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the day,il giorno,/il ˈdʒorno/,,,AnkiLangs::IT
 the direction,la direzione,/la diretˈtsjone/,,,AnkiLangs::IT
 the doctor,il dottore,/il dotˈtore/,,,AnkiLangs::IT
-the dog,il cane,/il ˈkane/,[sound:al_it_it_il_cane.mp3],Google Cloud TTS,AnkiLangs::IT
+the dog,il cane,/il ˈkane/,[sound:al_it_it_the_dog.mp3],Google Cloud TTS,AnkiLangs::IT
 the dollar,il dollaro,/il ˈdɔllaro/,,,AnkiLangs::IT
 the door,la porta,/la ˈpɔrta/,,,AnkiLangs::IT
 the dot,il punto,/il ˈpunto/,,,AnkiLangs::IT
 the dream,il sogno,/il ˈsoɲɲo/,,,AnkiLangs::IT
-the dress,il vestito,/il vesˈtiːto/,[sound:al_it_it_il_vestito.mp3],Google Cloud TTS,AnkiLangs::IT
+the dress,il vestito,/il vesˈtiːto/,[sound:al_it_it_the_dress.mp3],Google Cloud TTS,AnkiLangs::IT
 the drug,la droga,/la ˈdrɔɡa/,,,AnkiLangs::IT
 the ear,l'orecchio,/loreˈkkjo/,,,AnkiLangs::IT
 the east,l'est,/ˈlɛst/,,,AnkiLangs::IT
 the edge,il bordo,/il ˈbɔrdo/,,,AnkiLangs::IT
 the egg,l'uovo,/ˈlwɔvo/,,,AnkiLangs::IT
 the election,l'elezione,/leletˈtsjone/,,,AnkiLangs::IT
-the engine,il motore,/il moˈtoːre/,[sound:al_it_it_il_motore.mp3],Google Cloud TTS,AnkiLangs::IT
+the engine,il motore,/il moˈtoːre/,[sound:al_it_it_the_engine.mp3],Google Cloud TTS,AnkiLangs::IT
 the evening,la sera,/la ˈsera/,,,AnkiLangs::IT
 the eye,l'occhio,/ˈlɔkkjo/,,,AnkiLangs::IT
 the face,la faccia,/la ˈfattʃa/,,,AnkiLangs::IT
 the Fall,l'autunno,/lauˈtunno/,,,AnkiLangs::IT
-the family,la famiglia,/la faˈmiʎ.ʎa/,[sound:al_it_it_la_famiglia.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the family,la famiglia,/la faˈmiʎ.ʎa/,[sound:al_it_it_the_family.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the fan [appliance],il ventilatore,/il ventilaˈtore/,,,AnkiLangs::IT
-the fan [person],il tifoso,/il tiˈfo.so/,[sound:al_it_it_il_tifoso.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-the farm,la fattoria,/la fattoˈria/,[sound:al_it_it_la_fattoria.mp3],Google Cloud TTS,AnkiLangs::IT
-the father,il padre,/il ˈpa.dre/,[sound:al_it_it_il_padre.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the fan [person],il tifoso,/il tiˈfo.so/,[sound:al_it_it_the_fan_person.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the farm,la fattoria,/la fattoˈria/,[sound:al_it_it_the_farm.mp3],Google Cloud TTS,AnkiLangs::IT
+the father,il padre,/il ˈpa.dre/,[sound:al_it_it_the_father.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the finger,il dito,/il ˈdito/,,,AnkiLangs::IT
 the fire,il fuoco,/il ˈfwɔko/,,,AnkiLangs::IT
-the fish,il pesce,/il ˈpeʃe/,[sound:al_it_it_il_pesce.mp3],Google Cloud TTS,AnkiLangs::IT
+the fish,il pesce,/il ˈpeʃe/,[sound:al_it_it_the_fish.mp3],Google Cloud TTS,AnkiLangs::IT
 the floor,il pavimento,/il paviˈmento/,,,AnkiLangs::IT
 the flower,il fiore,/il ˈfjore/,,,AnkiLangs::IT
 the foot,il piede,/il ˈpjɛde/,,,AnkiLangs::IT
 the foot [measurement],il piede,/il ˈpjɛde/,,,AnkiLangs::IT
 the forest,la foresta,/la foˈrɛsta/,,,AnkiLangs::IT
 the fork,la forchetta,/la forˈketta/,,,AnkiLangs::IT
-the friend,l'amico,/laˈmi.ko/,[sound:al_it_it_l_amico.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the friend,l'amico,/laˈmi.ko/,[sound:al_it_it_the_friend.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the front,il davanti,/il daˈvanti/,,,AnkiLangs::IT
 the game,il gioco,/il ˈdʒɔko/,,,AnkiLangs::IT
 the garden,il giardino,/il dʒarˈdino/,,,AnkiLangs::IT
-the gasoline,la benzina,/la benˈdziːna/,[sound:al_it_it_la_benzina.mp3],Google Cloud TTS,AnkiLangs::IT
+the gasoline,la benzina,/la benˈdziːna/,[sound:al_it_it_the_gasoline.mp3],Google Cloud TTS,AnkiLangs::IT
 the gift,il regalo,/il reˈɡalo/,,,AnkiLangs::IT
-the girl,la ragazza,/la raˈɡat.tsa/,[sound:al_it_it_la_ragazza.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-the grandfather,il nonno,/il ˈnon.no/,[sound:al_it_it_il_nonno.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-the grandmother,la nonna,/la ˈnon.na/,[sound:al_it_it_la_nonna.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the girl,la ragazza,/la raˈɡat.tsa/,[sound:al_it_it_the_girl.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the grandfather,il nonno,/il ˈnon.no/,[sound:al_it_it_the_grandfather.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the grandmother,la nonna,/la ˈnon.na/,[sound:al_it_it_the_grandmother.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the grass,l'erba,/ˈlɛrba/,,,AnkiLangs::IT
-the ground,il terreno,/il terˈreːno/,[sound:al_it_it_il_terreno.mp3],Google Cloud TTS,AnkiLangs::IT
+the ground,il terreno,/il terˈreːno/,[sound:al_it_it_the_ground.mp3],Google Cloud TTS,AnkiLangs::IT
 the gun,la pistola,/la pisˈtɔla/,,,AnkiLangs::IT
 the hair,i capelli,/i kaˈpɛlli/,,,AnkiLangs::IT
 the half,la metà,/la meˈta/,,,AnkiLangs::IT
 the hand,la mano,/la ˈmano/,,,AnkiLangs::IT
-the hat,il cappello,/il kapˈpɛllo/,[sound:al_it_it_il_cappello.mp3],Google Cloud TTS,AnkiLangs::IT
+the hat,il cappello,/il kapˈpɛllo/,[sound:al_it_it_the_hat.mp3],Google Cloud TTS,AnkiLangs::IT
 the head,la testa,/la ˈtɛsta/,,,AnkiLangs::IT
 the heart,il cuore,/il ˈkwɔre/,,,AnkiLangs::IT
 the heat,il calore,/il kaˈlore/,,,AnkiLangs::IT
 the hill,la collina,/la kolˈlina/,,,AnkiLangs::IT
 the hole,il buco,/il ˈbuko/,,,AnkiLangs::IT
-the horse,il cavallo,/il kaˈvallo/,[sound:al_it_it_il_cavallo.mp3],Google Cloud TTS,AnkiLangs::IT
-the hospital,l'ospedale,/lospeˈdaːle/,[sound:al_it_it_l_ospedale.mp3],Google Cloud TTS,AnkiLangs::IT
-the hotel,l'hotel,/loˈtel/,[sound:al_it_it_l_hotel.mp3],Google Cloud TTS,AnkiLangs::IT
+the horse,il cavallo,/il kaˈvallo/,[sound:al_it_it_the_horse.mp3],Google Cloud TTS,AnkiLangs::IT
+the hospital,l'ospedale,/lospeˈdaːle/,[sound:al_it_it_the_hospital.mp3],Google Cloud TTS,AnkiLangs::IT
+the hotel,l'hotel,/loˈtel/,[sound:al_it_it_the_hotel.mp3],Google Cloud TTS,AnkiLangs::IT
 the hour,l'ora,/ˈlɔra/,,,AnkiLangs::IT
-the house,la casa,/la ˈkasa/,[sound:al_it_it_la_casa.mp3],Google Cloud TTS,AnkiLangs::IT
-the human,l'umano,/luˈma.no/,[sound:al_it_it_l_umano.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-the husband,il marito,/il maˈri.to/,[sound:al_it_it_il_marito.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the house,la casa,/la ˈkasa/,[sound:al_it_it_the_house.mp3],Google Cloud TTS,AnkiLangs::IT
+the human,l'umano,/luˈma.no/,[sound:al_it_it_the_human.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+the husband,il marito,/il maˈri.to/,[sound:al_it_it_the_husband.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the ice,il ghiaccio,/il ˈɡjattʃo/,,,AnkiLangs::IT
 the image,l'immagine,/limˈmadʒine/,,,AnkiLangs::IT
 the inch,il pollice,/il ˈpollitʃe/,,,AnkiLangs::IT
@@ -347,7 +347,7 @@ the island,l'isola,/ˈlizola/,,,AnkiLangs::IT
 the job,il lavoro,/il laˈvoro/,,,AnkiLangs::IT
 the key,la chiave,/la ˈkjave/,,,AnkiLangs::IT
 the kilogram,il chilogrammo,/il kiloˈɡrammo/,,,AnkiLangs::IT
-the king,il re,/il ˈre/,[sound:al_it_it_il_re.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the king,il re,/il ˈre/,[sound:al_it_it_the_king.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the kitchen,la cucina,/la kuˈtʃina/,,,AnkiLangs::IT
 the knee,il ginocchio,/il dʒiˈnɔkkjo/,,,AnkiLangs::IT
 the knife,il coltello,/il kolˈtɛllo/,,,AnkiLangs::IT
@@ -359,29 +359,29 @@ the leaf,la foglia,/la ˈfɔʎʎa/,,,AnkiLangs::IT
 the leg,la gamba,/la ˈɡamba/,,,AnkiLangs::IT
 the lemon,il limone,/il liˈmone/,,,AnkiLangs::IT
 the letter,la lettera,/la ˈlettera/,,,AnkiLangs::IT
-the library,la biblioteca,/la bibʎoˈteːka/,[sound:al_it_it_la_biblioteca.mp3],Google Cloud TTS,AnkiLangs::IT
+the library,la biblioteca,/la bibʎoˈteːka/,[sound:al_it_it_the_library.mp3],Google Cloud TTS,AnkiLangs::IT
 the light,la luce,/la ˈlutʃe/,,,AnkiLangs::IT
 the lip,il labbro,/il ˈlabbro/,,,AnkiLangs::IT
-the location,la posizione,/la poˈtsiːtsjoːne/,[sound:al_it_it_la_posizione.mp3],Google Cloud TTS,AnkiLangs::IT
+the location,la posizione,/la poˈtsiːtsjoːne/,[sound:al_it_it_the_location.mp3],Google Cloud TTS,AnkiLangs::IT
 the lock,la serratura,/la serraˈtuːra/,,,AnkiLangs::IT
 the magazine,la rivista,/la riˈvista/,,,AnkiLangs::IT
-the man,l'uomo,/ˈlwɔ.mo/,[sound:al_it_it_l_uomo.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the man,l'uomo,/ˈlwɔ.mo/,[sound:al_it_it_the_man.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the manager,il direttore,/il diretˈtore/,,,AnkiLangs::IT
 the map,la mappa,/la ˈmappa/,,,AnkiLangs::IT
-the market,il mercato,/il merˈkaːto/,[sound:al_it_it_il_mercato.mp3],Google Cloud TTS,AnkiLangs::IT
+the market,il mercato,/il merˈkaːto/,[sound:al_it_it_the_market.mp3],Google Cloud TTS,AnkiLangs::IT
 the meter,il metro,/il ˈmɛtro/,,,AnkiLangs::IT
 the minute,il minuto,/il miˈnuto/,,,AnkiLangs::IT
 the month,il mese,/il ˈmeze/,,,AnkiLangs::IT
 the moon,la luna,/la ˈluːna/,,,AnkiLangs::IT
 the morning,la mattina,/la matˈtina/,,,AnkiLangs::IT
-the mother,la madre,/la ˈma.dre/,[sound:al_it_it_la_madre.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+the mother,la madre,/la ˈma.dre/,[sound:al_it_it_the_mother.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 the mountain,la montagna,/la monˈtaɲɲa/,,,AnkiLangs::IT
-the mouse,il topo,/il ˈtopo/,[sound:al_it_it_il_topo.mp3],Google Cloud TTS,AnkiLangs::IT
+the mouse,il topo,/il ˈtopo/,[sound:al_it_it_the_mouse.mp3],Google Cloud TTS,AnkiLangs::IT
 the mouth,la bocca,/la ˈbokka/,,,AnkiLangs::IT
 the movie,il film,/il ˈfilm/,,,AnkiLangs::IT
 the neck,il collo,/il ˈkollo/,,,AnkiLangs::IT
 the needle,l'ago,/ˈlaɡo/,,,AnkiLangs::IT
-the neighbor,il vicino,/il viˈtʃi.no/,[sound:al_it_it_il_vicino.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the neighbor,il vicino,/il viˈtʃi.no/,[sound:al_it_it_the_neighbor.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the network,la rete,/la ˈrɛte/,,,AnkiLangs::IT
 the newspaper,il giornale,/il dʒorˈnale/,,,AnkiLangs::IT
 the night,la notte,/la ˈnɔtte/,,,AnkiLangs::IT
@@ -391,68 +391,68 @@ the note,la nota,/la ˈnɔta/,,,AnkiLangs::IT
 the noun,il sostantivo,/il sostanˈtivo/,,,AnkiLangs::IT
 the number,il numero,/il ˈnumero/,,,AnkiLangs::IT
 the ocean,l'oceano,/loˈtʃɛano/,,,AnkiLangs::IT
-the office,l'ufficio,/lufˈfiːtʃo/,[sound:al_it_it_l_ufficio.mp3],Google Cloud TTS,AnkiLangs::IT
+the office,l'ufficio,/lufˈfiːtʃo/,[sound:al_it_it_the_office.mp3],Google Cloud TTS,AnkiLangs::IT
 the orange,l'arancia,/laˈrantʃa/,,,AnkiLangs::IT
 the outside,l'esterno,/lesˈtɛrno/,,,AnkiLangs::IT
 the page,la pagina,/la ˈpadʒina/,,,AnkiLangs::IT
 the paint,la pittura,/la pitˈtuːra/,,,AnkiLangs::IT
-the pants,i pantaloni,/i pantaˈloːni/,[sound:al_it_it_i_pantaloni.mp3],Google Cloud TTS,AnkiLangs::IT
+the pants,i pantaloni,/i pantaˈloːni/,[sound:al_it_it_the_pants.mp3],Google Cloud TTS,AnkiLangs::IT
 the paper,la carta,/la ˈkarta/,,,AnkiLangs::IT
-the parent,il genitore,/il ˌdʒeniˈto.re/,[sound:al_it_it_il_genitore.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-the park,il parco,/il ˈparko/,[sound:al_it_it_il_parco.mp3],Google Cloud TTS,AnkiLangs::IT
+the parent,il genitore,/il ˌdʒeniˈto.re/,[sound:al_it_it_the_parent.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the park,il parco,/il ˈparko/,[sound:al_it_it_the_park.mp3],Google Cloud TTS,AnkiLangs::IT
 the patient,il paziente,/il paˈtsjɛnte/,,,AnkiLangs::IT
 the pattern,il motivo,/il moˈtivo/,,,AnkiLangs::IT
 the pen,la penna,/la ˈpɛnna/,,,AnkiLangs::IT
 the pencil,la matita,/la maˈtita/,,,AnkiLangs::IT
-the person,la persona,/la perˈso.na/,[sound:al_it_it_la_persona.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the person,la persona,/la perˈso.na/,[sound:al_it_it_the_person.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the photograph,la fotografia,/la fotoɡraˈfia/,,,AnkiLangs::IT
 the piece,il pezzo,/il ˈpettso/,,,AnkiLangs::IT
-the pig,il maiale,/il maˈjale/,[sound:al_it_it_il_maiale.mp3],Google Cloud TTS,AnkiLangs::IT
-the plane,l'aereo,/laˈɛːreo/,[sound:al_it_it_l_aereo.mp3],Google Cloud TTS,AnkiLangs::IT
+the pig,il maiale,/il maˈjale/,[sound:al_it_it_the_pig.mp3],Google Cloud TTS,AnkiLangs::IT
+the plane,l'aereo,/laˈɛːreo/,[sound:al_it_it_the_plane.mp3],Google Cloud TTS,AnkiLangs::IT
 the plant,la pianta,/la ˈpjanta/,,,AnkiLangs::IT
 the plate,il piatto,/il ˈpjatto/,,,AnkiLangs::IT
-the player,il giocatore,/il dʒokaˈto.re/,[sound:al_it_it_il_giocatore.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-the pocket,la tasca,/la ˈtaska/,[sound:al_it_it_la_tasca.mp3],Google Cloud TTS,AnkiLangs::IT
+the player,il giocatore,/il dʒokaˈto.re/,[sound:al_it_it_the_player.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the pocket,la tasca,/la ˈtaska/,[sound:al_it_it_the_pocket.mp3],Google Cloud TTS,AnkiLangs::IT
 the police,la polizia,/la poliˈtsia/,,,AnkiLangs::IT
 the pool,la piscina,/la piʃˈʃina/,,,AnkiLangs::IT
 the pork,il maiale,/il maˈjale/,,,AnkiLangs::IT
 the pound,la libbra,/la ˈlibbra/,,,AnkiLangs::IT
-the president,il presidente,/il preziˈdɛnte/,[sound:al_it_it_il_presidente.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+the president,il presidente,/il preziˈdɛnte/,[sound:al_it_it_the_president.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 the price,il prezzo,/il ˈprettso/,,,AnkiLangs::IT
 the priest,il prete,/il ˈprɛte/,,,AnkiLangs::IT
 the program,il programma,/il proˈɡramma/,,,AnkiLangs::IT
-the queen,la regina,/la reˈdʒi.na/,[sound:al_it_it_la_regina.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the queen,la regina,/la reˈdʒi.na/,[sound:al_it_it_the_queen.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the radio,la radio,/la ˈradjo/,,,AnkiLangs::IT
 the rain,la pioggia,/la ˈpjɔddʒa/,,,AnkiLangs::IT
 the reporter,il giornalista,/il dʒornaˈlista/,,,AnkiLangs::IT
-the restaurant,il ristorante,/il ristoˈrante/,[sound:al_it_it_il_ristorante.mp3],Google Cloud TTS,AnkiLangs::IT
+the restaurant,il ristorante,/il ristoˈrante/,[sound:al_it_it_the_restaurant.mp3],Google Cloud TTS,AnkiLangs::IT
 the ring,l'anello,/laˈnɛllo/,,,AnkiLangs::IT
 the river,il fiume,/il ˈfjuːme/,,,AnkiLangs::IT
 the roof,il tetto,/il ˈtetto/,,,AnkiLangs::IT
-the room,la stanza,/la ˈstantsa/,[sound:al_it_it_la_stanza.mp3],Google Cloud TTS,AnkiLangs::IT
+the room,la stanza,/la ˈstantsa/,[sound:al_it_it_the_room.mp3],Google Cloud TTS,AnkiLangs::IT
 the root,la radice,/la raˈditʃe/,,,AnkiLangs::IT
 the sand,la sabbia,/la ˈsabbja/,,,AnkiLangs::IT
-the school,la scuola,/la ˈskwɔːla/,[sound:al_it_it_la_scuola.mp3],Google Cloud TTS,AnkiLangs::IT
+the school,la scuola,/la ˈskwɔːla/,[sound:al_it_it_the_school.mp3],Google Cloud TTS,AnkiLangs::IT
 the screen,lo schermo,/lo ˈskɛrmo/,,,AnkiLangs::IT
 the sea,il mare,/il ˈmare/,,,AnkiLangs::IT
 the season,la stagione,/la staˈdʒone/,,,AnkiLangs::IT
 the second,il secondo,/il seˈkondo/,,,AnkiLangs::IT
 the secretary,il segretario,/il seɡreˈtarjo/,,,AnkiLangs::IT
 the seed,il seme,/il ˈseme/,,,AnkiLangs::IT
-the ship,la nave,/la ˈnave/,[sound:al_it_it_la_nave.mp3],Google Cloud TTS,AnkiLangs::IT
-the shirt,la camicia,/la kaˈmiːtʃa/,[sound:al_it_it_la_camicia.mp3],Google Cloud TTS,AnkiLangs::IT
-the shoes,le scarpe,/le ˈskarpe/,[sound:al_it_it_le_scarpe.mp3],Google Cloud TTS,AnkiLangs::IT
+the ship,la nave,/la ˈnave/,[sound:al_it_it_the_ship.mp3],Google Cloud TTS,AnkiLangs::IT
+the shirt,la camicia,/la kaˈmiːtʃa/,[sound:al_it_it_the_shirt.mp3],Google Cloud TTS,AnkiLangs::IT
+the shoes,le scarpe,/le ˈskarpe/,[sound:al_it_it_the_shoes.mp3],Google Cloud TTS,AnkiLangs::IT
 the shoulder,la spalla,/la ˈspalla/,,,AnkiLangs::IT
 the side,il lato,/il ˈlato/,,,AnkiLangs::IT
 the sign,il cartello,/il karˈtɛllo/,,,AnkiLangs::IT
-the sister,la sorella,/la soˈrɛl.la/,[sound:al_it_it_la_sorella.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the sister,la sorella,/la soˈrɛl.la/,[sound:al_it_it_the_sister.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the skin,la pelle,/la ˈpɛlle/,,,AnkiLangs::IT
-the skirt,la gonna,/la ˈɡonːa/,[sound:al_it_it_la_gonna.mp3],Google Cloud TTS,AnkiLangs::IT
+the skirt,la gonna,/la ˈɡonːa/,[sound:al_it_it_the_skirt.mp3],Google Cloud TTS,AnkiLangs::IT
 the sky,il cielo,/il ˈtʃɛlo/,,,AnkiLangs::IT
 the snow,la neve,/la ˈneve/,,,AnkiLangs::IT
 the soap,il sapone,/il saˈpone/,,,AnkiLangs::IT
 the soldier,il soldato,/il solˈdato/,,,AnkiLangs::IT
-the son,il figlio,/il ˈfiʎ.ʎo/,[sound:al_it_it_il_figlio.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the son,il figlio,/il ˈfiʎ.ʎo/,[sound:al_it_it_the_son.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the song,la canzone,/la kanˈtsone/,,,AnkiLangs::IT
 the sound,il suono,/il ˈswɔno/,,,AnkiLangs::IT
 the soup,la zuppa,/la ˈdzuppa/,,,AnkiLangs::IT
@@ -460,38 +460,38 @@ the south,il sud,/il ˈsud/,,,AnkiLangs::IT
 the spoon,il cucchiaio,/il kukkˈjaːjo/,,,AnkiLangs::IT
 the Spring,la primavera,/la primaˈvera/,,,AnkiLangs::IT
 the square,il quadrato,/il kwaˈdrato/,,,AnkiLangs::IT
-the stain,la macchia,/la ˈmakːkja/,[sound:al_it_it_la_macchia.mp3],Google Cloud TTS,AnkiLangs::IT
+the stain,la macchia,/la ˈmakːkja/,[sound:al_it_it_the_stain.mp3],Google Cloud TTS,AnkiLangs::IT
 the star,la stella,/la ˈstɛlla/,,,AnkiLangs::IT
-the store/shop,il negozio,/il neˈɡɔttsjo/,[sound:al_it_it_il_negozio.mp3],Google Cloud TTS,AnkiLangs::IT
-the street/road,la strada,/la ˈstraːda/,[sound:al_it_it_la_strada.mp3],Google Cloud TTS,AnkiLangs::IT
+the store/shop,il negozio,/il neˈɡɔttsjo/,[sound:al_it_it_the_store_shop.mp3],Google Cloud TTS,AnkiLangs::IT
+the street/road,la strada,/la ˈstraːda/,[sound:al_it_it_the_street_road.mp3],Google Cloud TTS,AnkiLangs::IT
 the student,lo studente,/lo stuˈdɛnte/,,,AnkiLangs::IT
-the suit,il completo,/il komˈpleːto/,[sound:al_it_it_il_completo.mp3],Google Cloud TTS,AnkiLangs::IT
+the suit,il completo,/il komˈpleːto/,[sound:al_it_it_the_suit.mp3],Google Cloud TTS,AnkiLangs::IT
 the Summer,l'estate,/lesˈtate/,,,AnkiLangs::IT
 the sun,il sole,/il ˈsole/,,,AnkiLangs::IT
-the T-shirt,la maglietta,/la maʎˈʎetːta/,[sound:al_it_it_la_maglietta.mp3],Google Cloud TTS,AnkiLangs::IT
+the T-shirt,la maglietta,/la maʎˈʎetːta/,[sound:al_it_it_the_t_shirt.mp3],Google Cloud TTS,AnkiLangs::IT
 the table,il tavolo,/il ˈtavolo/,,,AnkiLangs::IT
 the teacher,l'insegnante,/linseɲˈɲante/,,,AnkiLangs::IT
 the team,la squadra,/la ˈskwadra/,,,AnkiLangs::IT
 the tear,la lacrima,/la ˈlakrima/,,,AnkiLangs::IT
 the telephone,il telefono,/il teˈlɛfono/,,,AnkiLangs::IT
 the television,la televisione,/la televiˈzjone/,,,AnkiLangs::IT
-the theater,il teatro,/il teˈaːtro/,[sound:al_it_it_il_teatro.mp3],Google Cloud TTS,AnkiLangs::IT
+the theater,il teatro,/il teˈaːtro/,[sound:al_it_it_the_theater.mp3],Google Cloud TTS,AnkiLangs::IT
 the time,il tempo,/il ˈtɛmpo/,,,AnkiLangs::IT
-the tire,la gomma,/la ˈɡomːa/,[sound:al_it_it_la_gomma.mp3],Google Cloud TTS,AnkiLangs::IT
+the tire,la gomma,/la ˈɡomːa/,[sound:al_it_it_the_tire.mp3],Google Cloud TTS,AnkiLangs::IT
 the toe,il dito del piede,/il ˈdito del ˈpjɛde/,,,AnkiLangs::IT
 the tongue,la lingua,/la ˈliŋɡwa/,,,AnkiLangs::IT
 the tool,lo strumento,/lo struˈmento/,,,AnkiLangs::IT
 the tooth,il dente,/il ˈdɛnte/,,,AnkiLangs::IT
 the top,la cima,/la ˈtʃima/,,,AnkiLangs::IT
-the town,la cittadina; il paese,/la tʃit.taˈdi.na/ /il paˈɛze/,[sound:al_it_it_la_cittadina_il_paese.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-the train,il treno,/il ˈtreno/,[sound:al_it_it_il_treno.mp3],Google Cloud TTS,AnkiLangs::IT
-the train station,la stazione dei treni,/la statˈtsjoːne dei ˈtrɛni/,[sound:al_it_it_la_stazione_dei_treni.mp3],Google Cloud TTS,AnkiLangs::IT
+the town,la cittadina; il paese,/la tʃit.taˈdi.na/ /il paˈɛze/,[sound:al_it_it_the_town.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the train,il treno,/il ˈtreno/,[sound:al_it_it_the_train.mp3],Google Cloud TTS,AnkiLangs::IT
+the train station,la stazione dei treni,/la statˈtsjoːne dei ˈtrɛni/,[sound:al_it_it_the_train_station.mp3],Google Cloud TTS,AnkiLangs::IT
 the tree,l'albero,/ˈlalbero/,,,AnkiLangs::IT
-the truck,il camion,/il ˈkamjon/,[sound:al_it_it_il_camion.mp3],Google Cloud TTS,AnkiLangs::IT
-the university,l'università,/luniˈversiˌta/,[sound:al_it_it_l_universit.mp3],Google Cloud TTS,AnkiLangs::IT
+the truck,il camion,/il ˈkamjon/,[sound:al_it_it_the_truck.mp3],Google Cloud TTS,AnkiLangs::IT
+the university,l'università,/luniˈversiˌta/,[sound:al_it_it_the_university.mp3],Google Cloud TTS,AnkiLangs::IT
 the valley,la valle,/la ˈvalle/,,,AnkiLangs::IT
 the verb,il verbo,/il ˈverbo/,,,AnkiLangs::IT
-the victim,la vittima,/la ˈvit.ti.ma/,[sound:al_it_it_la_vittima.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the victim,la vittima,/la ˈvit.ti.ma/,[sound:al_it_it_the_victim.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the voice,la voce,/la ˈvotʃe/,,,AnkiLangs::IT
 the vowel,la vocale,/la voˈkale/,,,AnkiLangs::IT
 the waiter,il cameriere,/il kameˈrjɛre/,,,AnkiLangs::IT
@@ -499,12 +499,12 @@ the wall,il muro,/il ˈmuːro/,,,AnkiLangs::IT
 the wave,l'onda,/ˈlonda/,,,AnkiLangs::IT
 the week,la settimana,/la settiˈmana/,,,AnkiLangs::IT
 the west,l'ovest,/ˈlovest/,,,AnkiLangs::IT
-the wife,la moglie,/la ˈmoʎʎe/,[sound:al_it_it_la_moglie.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+the wife,la moglie,/la ˈmoʎʎe/,[sound:al_it_it_the_wife.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the wind,il vento,/il ˈvento/,,,AnkiLangs::IT
 the window,la finestra,/la fiˈnestra/,,,AnkiLangs::IT
-the wing,l'ala,/ˈlala/,[sound:al_it_it_l_ala.mp3],Google Cloud TTS,AnkiLangs::IT
+the wing,l'ala,/ˈlala/,[sound:al_it_it_the_wing.mp3],Google Cloud TTS,AnkiLangs::IT
 the Winter,l'inverno,/linˈvɛrno/,,,AnkiLangs::IT
-the woman,la donna,/la ˈdon.na/,[sound:al_it_it_la_donna.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the woman,la donna,/la ˈdon.na/,[sound:al_it_it_the_woman.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the world,il mondo,/il ˈmondo/,,,AnkiLangs::IT
 the yard,il cortile,/il korˈtile/,,,AnkiLangs::IT
 the year,l'anno,/ˈlanno/,,,AnkiLangs::IT
@@ -601,7 +601,7 @@ to wear,indossare,/indosˈsare/,,,AnkiLangs::IT
 to win,vincere,/ˈvintʃere/,,,AnkiLangs::IT
 to work,lavorare,/lavoˈrare/,,,AnkiLangs::IT
 to write,scrivere,/ˈskrivere/,,,AnkiLangs::IT
-transportation,il trasporto,/il trasˈporːto/,[sound:al_it_it_il_trasporto.mp3],Google Cloud TTS,AnkiLangs::IT
+transportation,il trasporto,/il trasˈporːto/,[sound:al_it_it_transportation.mp3],Google Cloud TTS,AnkiLangs::IT
 Tuesday,martedì,/marteˈdi/,,,AnkiLangs::IT
 twelve (12),dodici,/ˈdodici/,,,AnkiLangs::IT
 twenty (20),venti,/ˈventi/,,,AnkiLangs::IT
@@ -619,11 +619,11 @@ wedding,il matrimonio,/il matrimoˈnio/,,,AnkiLangs::IT
 Wednesday,mercoledì,/merkoˈledi/,,,AnkiLangs::IT
 weight,il peso,/il ˈpezo/,,,AnkiLangs::IT
 wet,bagnato,/baɲˈɲato/,,,AnkiLangs::IT
-white,bianco,/ˈbjaŋko/,[sound:al_it_it_bianco.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+white,bianco,/ˈbjaŋko/,[sound:al_it_it_white.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 wide,largo,/ˈlarɡo/,,,AnkiLangs::IT
 wine,il vino,/il ˈvino/,,,AnkiLangs::IT
 wood,il legno,/il ˈleɲɲo/,,,AnkiLangs::IT
-yellow,giallo,/ˈdʒallo/,[sound:al_it_it_giallo.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+yellow,giallo,/ˈdʒallo/,[sound:al_it_it_yellow.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 yes,sì,/si/,,,AnkiLangs::IT
 "you [plural, y'all]",voi,/ˈvoi/,,,AnkiLangs::IT
 you [singular],tu,/tu/,,,AnkiLangs::IT
