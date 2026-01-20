@@ -1,38 +1,38 @@
 key,text:de,ipa:de,audio:de,audio source:de,tags:de
 alive,lebendig,/leˈbɛndɪç/,,,AnkiLangs::DE
-April,April,/aˈpʁiːl/,,,AnkiLangs::DE
-art,die Kunst,/diː kʊnst/,,,AnkiLangs::DE
-August,August,/aʊ̯ˈɡʊst/,,,AnkiLangs::DE
+April,April,/aˈpʁiːl/,[sound:al_de_de_april.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+art,die Kunst,/diː kʊnst/,[sound:al_de_de_die_kunst.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+August,August,/aʊ̯ˈɡʊst/,[sound:al_de_de_august.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 bad,schlecht,/ʃlɛçt/,,,AnkiLangs::DE
 beautiful,schön,/ʃøːn/,,,AnkiLangs::DE
 beer,das Bier,/das biːɐ̯/,,,AnkiLangs::DE
 big / large,groß,/ɡʁoːs/,,,AnkiLangs::DE
 black,schwarz,/ʃvaʁt͡s/,[sound:al_de_de_schwarz.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
-blind,blind,/blɪnt/,,,AnkiLangs::DE
-blood,das Blut,/das bluːt/,,,AnkiLangs::DE
+blind,blind,/blɪnt/,[sound:al_de_de_blind.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+blood,das Blut,/das bluːt/,[sound:al_de_de_das_blut.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 blue,blau,/blaʊ̯/,[sound:al_de_de_blau.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 breakfast,das Frühstück,/das ˈfʁyːʃtʏk/,,,AnkiLangs::DE
 brown,braun,/bʁaʊ̯n/,[sound:al_de_de_braun.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 cheap,billig,/ˈbɪlɪç/,,,AnkiLangs::DE
 clay,der Ton,/deːɐ̯ toːn/,,,AnkiLangs::DE
-clean,sauber,/ˈzaʊ̯bɐ/,,,AnkiLangs::DE
-coffee,der Kaffee,/deːɐ̯ ˈkafe/,,,AnkiLangs::DE
+clean,sauber,/ˈzaʊ̯bɐ/,[sound:al_de_de_sauber.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+coffee,der Kaffee,/deːɐ̯ ˈkafe/,[sound:al_de_de_der_kaffee.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 cold,kalt,/kalt/,,,AnkiLangs::DE
 cool,kühl,/kyːl/,,,AnkiLangs::DE
 copper,das Kupfer,/das ˈkʊpfɐ/,,,AnkiLangs::DE
 curved,gebogen,/ɡəˈboːɡn̩/,,,AnkiLangs::DE
-dark,dunkel,/ˈdʊŋkl̩/,,,AnkiLangs::DE
+dark,dunkel,/ˈdʊŋkl̩/,[sound:al_de_de_dunkel.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 dark blue,dunkelblau,/ˈdʊŋkl̩ˌblaʊ̯/,[sound:al_de_de_dunkelblau.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 dead,tot,/toːt/,,,AnkiLangs::DE
-deaf,taub,/taʊ̯p/,,,AnkiLangs::DE
+deaf,taub,/taʊ̯p/,[sound:al_de_de_taub.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 death,der Tod,/deːɐ̯ toːt/,,,AnkiLangs::DE
-December,Dezember,/deˈtsɛmbɐ/,,,AnkiLangs::DE
+December,Dezember,/deˈtsɛmbɐ/,[sound:al_de_de_dezember.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 deep,tief,/tiːf/,,,AnkiLangs::DE
 diamond,der Diamant,/deːɐ̯ diaˈmant/,,,AnkiLangs::DE
 dinner,das Abendessen,/das ˈaːbəntˌʔɛsn̩/,,,AnkiLangs::DE
 dirty,schmutzig,/ˈʃmʊtsɪç/,,,AnkiLangs::DE
 disease,die Krankheit,/diː ˈkʁaŋkhaɪ̯t/,,,AnkiLangs::DE
-down,unten,/ˈʊntn̩/,,,AnkiLangs::DE
+down,unten,/ˈʊntn̩/,[sound:al_de_de_unten.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 dry,trocken,/ˈtʁɔkn̩/,,,AnkiLangs::DE
 dust,der Staub,/deːɐ̯ ʃtaʊ̯p/,,,AnkiLangs::DE
 Earth,die Erde,/ˈdiː ˈeːrdə/,[sound:al_de_de_die_erde.mp3],,AnkiLangs::DE
@@ -41,13 +41,13 @@ eighteen (18),achtzehn,/ˈaxtˌtseːn/,,,AnkiLangs::DE
 eighty (80),achtzig,/ˈaxtˌsɪç/,[sound:al_de_de_achtzig.mp3],Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi,AnkiLangs::DE
 eighty-one (81),einundachtzig,/ˈaɪ̯nʊntˌʔaxtˌsɪç/,,,AnkiLangs::DE
 eighty-two (82),zweiundachtzig,/ˈtsvaɪ̯ʊntˌʔaxtˌsɪç/,[sound:al_de_de_zweiundachtzig.mp3],Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi,AnkiLangs::DE
-eleven (11),elf,/ɛlf/,,,AnkiLangs::DE
+eleven (11),elf,/ɛlf/,[sound:al_de_de_elf.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 energy,die Energie,/diː enɛʁˈɡiː/,,,AnkiLangs::DE
 exercise,die Übung,/diː ˈyːbʊŋ/,,,AnkiLangs::DE
 expensive,teuer,/ˈtɔʏ̯ɐ/,[sound:al_de_de_teuer.mp3],Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi,AnkiLangs::DE
 famous,berühmt,/bəˈʁyːmt/,[sound:al_de_de_beruhmt.mp3],Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi,AnkiLangs::DE
 fast,schnell,/ʃnɛl/,,,AnkiLangs::DE
-February,Februar,/ˈfeːbʁuaːɐ̯/,,,AnkiLangs::DE
+February,Februar,/ˈfeːbʁuaːɐ̯/,[sound:al_de_de_februar.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 female,weiblich,/ˈvaɪ̯plɪç/,,,AnkiLangs::DE
 fifteen (15),fünfzehn,/ˈfʏnft͡seːn/,,,AnkiLangs::DE
 fifth (5th),fünfter,/ˈfʏnftɐ/,,,AnkiLangs::DE
@@ -62,289 +62,289 @@ forty (40),vierzig,/ˈfɪʁt͡sɪç/,,,AnkiLangs::DE
 forty-one (41),einundvierzig,/ˈaɪ̯nʊntˌfɪʁt͡sɪç/,,,AnkiLangs::DE
 forty-two (42),zweiundvierzig,/ˈtsvaɪ̯ʊntˌfɪʁt͡sɪç/,,,AnkiLangs::DE
 four (4),vier,/fiːɐ̯/,,,AnkiLangs::DE
-fourteen (14),vierzehn,/ˈfɪʁt͡seːn/,,,AnkiLangs::DE
-fourth (4th),vierter,/ˈfɪʁtɐ/,,,AnkiLangs::DE
+fourteen (14),vierzehn,/ˈfɪʁt͡seːn/,[sound:al_de_de_vierzehn.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+fourth (4th),vierter,/ˈfɪʁtɐ/,[sound:al_de_de_vierter.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 Friday,Freitag,/ˈfʁaɪ̯taːk/,[sound:al_de_de_freitag.mp3],Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi,AnkiLangs::DE
 glass,das Glas,/das ɡlaːs/,,,AnkiLangs::DE
 God,Gott,/ɡɔt/,,,AnkiLangs::DE
 gold,das Gold,/das ɡɔlt/,,,AnkiLangs::DE
-good,gut,/ɡuːt/,,,AnkiLangs::DE
+good,gut,/ɡuːt/,[sound:al_de_de_gut.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 gray,grau,/ɡʁaʊ̯/,[sound:al_de_de_grau.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 green,grün,/ɡʁyːn/,[sound:al_de_de_gr_n.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 happy,glücklich,/ˈɡlʏklɪç/,,,AnkiLangs::DE
-hard,hart,/haʁt/,,,AnkiLangs::DE
-he,er,/eːɐ̯/,,,AnkiLangs::DE
-healthy,gesund,/ɡəˈzʊnt/,,,AnkiLangs::DE
-heaven,der Himmel,/deːɐ̯ ˈhɪml̩/,,,AnkiLangs::DE
-heavy,schwer,/ʃveːɐ̯/,,,AnkiLangs::DE
-hell,die Hölle,/diː ˈhœlə/,,,AnkiLangs::DE
-high,hoch,/hoːx/,,,AnkiLangs::DE
-hot,heiß,/haɪ̯s/,,,AnkiLangs::DE
+hard,hart,/haʁt/,[sound:al_de_de_hart.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+he,er,/eːɐ̯/,[sound:al_de_de_er.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+healthy,gesund,/ɡəˈzʊnt/,[sound:al_de_de_gesund.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+heaven,der Himmel,/deːɐ̯ ˈhɪml̩/,[sound:al_de_de_der_himmel.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+heavy,schwer,/ʃveːɐ̯/,[sound:al_de_de_schwer.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+hell,die Hölle,/diː ˈhœlə/,[sound:al_de_de_die_holle.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+high,hoch,/hoːx/,[sound:al_de_de_hoch.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+hot,heiß,/haɪ̯s/,[sound:al_de_de_hei.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 I,ich,/ɪç/,,,AnkiLangs::DE
-it,es,/ɛs/,,,AnkiLangs::DE
+it,es,/ɛs/,[sound:al_de_de_es.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 January,Januar,/ˈjanuaːɐ̯/,,,AnkiLangs::DE
-juice,der Saft,/deːɐ̯ zaft/,,,AnkiLangs::DE
+juice,der Saft,/deːɐ̯ zaft/,[sound:al_de_de_der_saft.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 July,Juli,/ˈjuːli/,,,AnkiLangs::DE
 June,Juni,/ˈjuːni/,,,AnkiLangs::DE
-left,links,/lɪŋks/,,,AnkiLangs::DE
-"light [opposite of ""dark""]",hell,/hɛl/,,,AnkiLangs::DE
-"light [opposite of ""heavy""]",leicht,/laɪ̯çt/,,,AnkiLangs::DE
+left,links,/lɪŋks/,[sound:al_de_de_links.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+"light [opposite of ""dark""]",hell,/hɛl/,[sound:al_de_de_hell.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+"light [opposite of ""heavy""]",leicht,/laɪ̯çt/,[sound:al_de_de_leicht.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 light blue,hellblau,/ˈhɛlˌblaʊ̯/,[sound:al_de_de_hellblau.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
-long,lang,/laŋ/,,,AnkiLangs::DE
-loose,locker,/ˈlɔkɐ/,,,AnkiLangs::DE
-loud,laut,/laʊ̯t/,,,AnkiLangs::DE
-low,niedrig,/ˈniːdʁɪç/,,,AnkiLangs::DE
-lunch,das Mittagessen,/das ˈmɪtaːkˌʔɛsn̩/,,,AnkiLangs::DE
-male,männlich,/ˈmɛnlɪç/,,,AnkiLangs::DE
+long,lang,/laŋ/,[sound:al_de_de_lang.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+loose,locker,/ˈlɔkɐ/,[sound:al_de_de_locker.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+loud,laut,/laʊ̯t/,[sound:al_de_de_laut.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+low,niedrig,/ˈniːdʁɪç/,[sound:al_de_de_niedrig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+lunch,das Mittagessen,/das ˈmɪtaːkˌʔɛsn̩/,[sound:al_de_de_das_mittagessen.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+male,männlich,/ˈmɛnlɪç/,[sound:al_de_de_mannlich.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 March,März,/mɛʁts/,,,AnkiLangs::DE
-marriage,die Ehe,/diː ˈeːə/,,,AnkiLangs::DE
-material,das Material,/das mateˈʁiaːl/,,,AnkiLangs::DE
-May,Mai,/maɪ̯/,,,AnkiLangs::DE
-mean,gemein,/ɡəˈmaɪ̯n/,,,AnkiLangs::DE
-medicine,die Medizin,/diː medit͡siːn/,,,AnkiLangs::DE
-metal,das Metall,/das meˈtal/,,,AnkiLangs::DE
-milk,die Milch,/diː mɪlç/,,,AnkiLangs::DE
+marriage,die Ehe,/diː ˈeːə/,[sound:al_de_de_die_ehe.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+material,das Material,/das mateˈʁiaːl/,[sound:al_de_de_das_material.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+May,Mai,/maɪ̯/,[sound:al_de_de_mai.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+mean,gemein,/ɡəˈmaɪ̯n/,[sound:al_de_de_gemein.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+medicine,die Medizin,/diː medit͡siːn/,[sound:al_de_de_die_medizin.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+metal,das Metall,/das meˈtal/,[sound:al_de_de_das_metall.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+milk,die Milch,/diː mɪlç/,[sound:al_de_de_die_milch.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 Monday,Montag,/ˈmoːntaːk/,,,AnkiLangs::DE
-money,das Geld,/das ɡɛlt/,,,AnkiLangs::DE
-murder,der Mord,/deːɐ̯ mɔʁt/,,,AnkiLangs::DE
-music,die Musik,/diː muˈziːk/,,,AnkiLangs::DE
-narrow,eng,/ɛŋ/,,,AnkiLangs::DE
-nature,die Natur,/diː naˈtuːɐ̯/,,,AnkiLangs::DE
-new,neu,/nɔʏ̯/,,,AnkiLangs::DE
-nice,nett,/nɛt/,,,AnkiLangs::DE
-nine (9),neun,/nɔʏ̯n/,,,AnkiLangs::DE
-nineteen (19),neunzehn,/ˈnɔʏ̯nt͡seːn/,,,AnkiLangs::DE
-ninety (90),neunzig,/ˈnɔʏ̯nt͡sɪç/,,,AnkiLangs::DE
-ninety-one (91),einundneunzig,/ˈaɪ̯nʊntˌnɔʏ̯nt͡sɪç/,,,AnkiLangs::DE
-ninety-two (92),zweiundneunzig,/ˈtsvaɪ̯ʊntˌnɔʏ̯nt͡sɪç/,,,AnkiLangs::DE
-no,nein,/naɪ̯n/,,,AnkiLangs::DE
-November,November,/noˈvɛmbɐ/,,,AnkiLangs::DE
-nuclear,nuklear,/nukleˈʔaːɐ̯/,,,AnkiLangs::DE
-October,Oktober,/ɔkˈtoːbɐ/,,,AnkiLangs::DE
-oil,das Öl,/das ʔøːl/,,,AnkiLangs::DE
-"old [opposite of ""new""]",alt,/alt/,,,AnkiLangs::DE
+money,das Geld,/das ɡɛlt/,[sound:al_de_de_das_geld.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+murder,der Mord,/deːɐ̯ mɔʁt/,[sound:al_de_de_der_mord.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+music,die Musik,/diː muˈziːk/,[sound:al_de_de_die_musik.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+narrow,eng,/ɛŋ/,[sound:al_de_de_eng.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+nature,die Natur,/diː naˈtuːɐ̯/,[sound:al_de_de_die_natur.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+new,neu,/nɔʏ̯/,[sound:al_de_de_neu.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+nice,nett,/nɛt/,[sound:al_de_de_nett.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+nine (9),neun,/nɔʏ̯n/,[sound:al_de_de_neun.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+nineteen (19),neunzehn,/ˈnɔʏ̯nt͡seːn/,[sound:al_de_de_neunzehn.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+ninety (90),neunzig,/ˈnɔʏ̯nt͡sɪç/,[sound:al_de_de_neunzig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+ninety-one (91),einundneunzig,/ˈaɪ̯nʊntˌnɔʏ̯nt͡sɪç/,[sound:al_de_de_einundneunzig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+ninety-two (92),zweiundneunzig,/ˈtsvaɪ̯ʊntˌnɔʏ̯nt͡sɪç/,[sound:al_de_de_zweiundneunzig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+no,nein,/naɪ̯n/,[sound:al_de_de_nein.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+November,November,/noˈvɛmbɐ/,[sound:al_de_de_november.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+nuclear,nuklear,/nukleˈʔaːɐ̯/,[sound:al_de_de_nuklear.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+October,Oktober,/ɔkˈtoːbɐ/,[sound:al_de_de_oktober.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+oil,das Öl,/das ʔøːl/,[sound:al_de_de_das_ol.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+"old [opposite of ""new""]",alt,/alt/,[sound:al_de_de_alt.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 "old [opposite of ""young""]",alt,/alt/,,,AnkiLangs::DE
-one (1),eins,/aɪ̯ns/,,,AnkiLangs::DE
-"one billion (1,000,000,000)",eine Milliarde,/ˈaɪ̯nə mɪliˈaʁdə/,,,AnkiLangs::DE
-one hundred (100),einhundert,/ˈaɪ̯nhʊndɐt/,,,AnkiLangs::DE
-one hundred eleven (111),einhundertelf,/ˈaɪ̯nhʊndɐtˌʔɛlf/,,,AnkiLangs::DE
-one hundred one (101),einhunderteins,/ˈaɪ̯nhʊndɐtˌʔaɪ̯ns/,,,AnkiLangs::DE
-one hundred ten (110),einhundertzehn,/ˈaɪ̯nhʊndɐtˌtseːn/,,,AnkiLangs::DE
-"one hundred thousand (100,000)",einhunderttausend,/ˈaɪ̯nhʊndɐtˌtaʊ̯zn̩t/,,,AnkiLangs::DE
-one hundred two (102),einhundertzwei,/ˈaɪ̯nhʊndɐtˌtsvaɪ̯/,,,AnkiLangs::DE
-"one million (1,000,000)",eine Million,/ˈaɪ̯nə mɪliˈoːn/,,,AnkiLangs::DE
-one thousand (1000),eintausend,/ˈaɪ̯ntaʊ̯zn̩t/,,,AnkiLangs::DE
-one thousand one (1001),eintausendeins,/ˈaɪ̯ntaʊ̯zn̩tˌʔaɪ̯ns/,,,AnkiLangs::DE
+one (1),eins,/aɪ̯ns/,[sound:al_de_de_eins.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+"one billion (1,000,000,000)",eine Milliarde,/ˈaɪ̯nə mɪliˈaʁdə/,[sound:al_de_de_eine_milliarde.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+one hundred (100),einhundert,/ˈaɪ̯nhʊndɐt/,[sound:al_de_de_einhundert.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+one hundred eleven (111),einhundertelf,/ˈaɪ̯nhʊndɐtˌʔɛlf/,[sound:al_de_de_einhundertelf.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+one hundred one (101),einhunderteins,/ˈaɪ̯nhʊndɐtˌʔaɪ̯ns/,[sound:al_de_de_einhunderteins.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+one hundred ten (110),einhundertzehn,/ˈaɪ̯nhʊndɐtˌtseːn/,[sound:al_de_de_einhundertzehn.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+"one hundred thousand (100,000)",einhunderttausend,/ˈaɪ̯nhʊndɐtˌtaʊ̯zn̩t/,[sound:al_de_de_einhunderttausend.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+one hundred two (102),einhundertzwei,/ˈaɪ̯nhʊndɐtˌtsvaɪ̯/,[sound:al_de_de_einhundertzwei.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+"one million (1,000,000)",eine Million,/ˈaɪ̯nə mɪliˈoːn/,[sound:al_de_de_eine_million.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+one thousand (1000),eintausend,/ˈaɪ̯ntaʊ̯zn̩t/,[sound:al_de_de_eintausend.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+one thousand one (1001),eintausendeins,/ˈaɪ̯ntaʊ̯zn̩tˌʔaɪ̯ns/,[sound:al_de_de_eintausendeins.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 orange,orange,/oˈʁaŋʒə/,[sound:al_de_de_orange.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
-pain,der Schmerz,/deːɐ̯ ʃmɛʁts/,,,AnkiLangs::DE
-peace,der Frieden,/deːɐ̯ ˈfʁiːdn̩/,,,AnkiLangs::DE
+pain,der Schmerz,/deːɐ̯ ʃmɛʁts/,[sound:al_de_de_der_schmerz.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+peace,der Frieden,/deːɐ̯ ˈfʁiːdn̩/,[sound:al_de_de_der_frieden.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 pink,rosa,/ˈʁoːza/,[sound:al_de_de_rosa.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
-plastic,das Plastik,/das ˈplastɪk/,,,AnkiLangs::DE
-poison,das Gift,/das ɡɪft/,,,AnkiLangs::DE
-poor,arm,/aʁm/,,,AnkiLangs::DE
-prison,das Gefängnis,/das ɡəˈfɛŋnɪs/,,,AnkiLangs::DE
-quiet,ruhig,/ˈʁuːɪç/,,,AnkiLangs::DE
-race [ethnicity],die Rasse,/diː ˈʁasə/,,,AnkiLangs::DE
-race [sport],das Rennen,/das ˈʁɛnən/,,,AnkiLangs::DE
+plastic,das Plastik,/das ˈplastɪk/,[sound:al_de_de_das_plastik.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+poison,das Gift,/das ɡɪft/,[sound:al_de_de_das_gift.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+poor,arm,/aʁm/,[sound:al_de_de_arm.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+prison,das Gefängnis,/das ɡəˈfɛŋnɪs/,[sound:al_de_de_das_gefangnis.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+quiet,ruhig,/ˈʁuːɪç/,[sound:al_de_de_ruhig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+race [ethnicity],die Rasse,/diː ˈʁasə/,[sound:al_de_de_die_rasse.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+race [sport],das Rennen,/das ˈʁɛnən/,[sound:al_de_de_das_rennen.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 red,rot,/ʁoːt/,[sound:al_de_de_rot.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
-relationship,die Beziehung,/diː bəˈt͡siːʊŋ/,,,AnkiLangs::DE
-religion,die Religion,/diː ʁeliˈɡi̯oːn/,,,AnkiLangs::DE
-rice,der Reis,/deːɐ̯ ʁaɪ̯s/,,,AnkiLangs::DE
-rich,reich,/ʁaɪ̯ç/,,,AnkiLangs::DE
-right,rechts,/ʁɛçt͡s/,,,AnkiLangs::DE
-sad,traurig,/ˈtʁaʊ̯ʁɪç/,,,AnkiLangs::DE
-salt,das Salz,/das zalt͡s/,,,AnkiLangs::DE
+relationship,die Beziehung,/diː bəˈt͡siːʊŋ/,[sound:al_de_de_die_beziehung.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+religion,die Religion,/diː ʁeliˈɡi̯oːn/,[sound:al_de_de_die_religion.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+rice,der Reis,/deːɐ̯ ʁaɪ̯s/,[sound:al_de_de_der_reis.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+rich,reich,/ʁaɪ̯ç/,[sound:al_de_de_reich.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+right,rechts,/ʁɛçt͡s/,[sound:al_de_de_rechts.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+sad,traurig,/ˈtʁaʊ̯ʁɪç/,[sound:al_de_de_traurig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+salt,das Salz,/das zalt͡s/,[sound:al_de_de_das_salz.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 Saturday,Samstag,/ˈzamstaːk/,[sound:al_de_de_samstag.mp3],Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi,AnkiLangs::DE
-science,die Wissenschaft,/diː ˈvɪsn̩ʃaft/,,,AnkiLangs::DE
-second (2nd),zweiter,/ˈt͡svaɪ̯tɐ/,,,AnkiLangs::DE
-September,September,/zɛpˈtɛmbɐ/,,,AnkiLangs::DE
-seven (7),sieben,/ˈziːbn̩/,,,AnkiLangs::DE
-seventeen (17),siebzehn,/ˈziːpt͡seːn/,,,AnkiLangs::DE
-seventy (70),siebzig,/ˈziːpt͡sɪç/,,,AnkiLangs::DE
-seventy-one (71),einundsiebzig,/ˈaɪ̯nʊntˌziːpt͡sɪç/,,,AnkiLangs::DE
-seventy-two (72),zweiundsiebzig,/ˈtsvaɪ̯ʊntˌziːpt͡sɪç/,,,AnkiLangs::DE
-sex [gender],das Geschlecht,/das ɡəˈʃlɛçt/,,,AnkiLangs::DE
-sex [the act],der Sex,/deːɐ̯ sɛks/,,,AnkiLangs::DE
-shallow,seicht,/zaɪ̯çt/,,,AnkiLangs::DE
-she,sie,/ziː/,,,AnkiLangs::DE
-"short [opposite of ""long""]",kurz,/kʊʁts/,,,AnkiLangs::DE
-"short [opposite of ""tall""]",klein,/klaɪ̯n/,,,AnkiLangs::DE
-sick,krank,/kʁaŋk/,,,AnkiLangs::DE
-silver,das Silber,/das ˈzɪlbɐ/,,,AnkiLangs::DE
-six (6),sechs,/zɛks/,,,AnkiLangs::DE
-sixteen (16),sechzehn,/ˈzɛçtseːn/,,,AnkiLangs::DE
-sixty (60),sechzig,/ˈzɛçtsɪç/,,,AnkiLangs::DE
-sixty-one (61),einundsechzig,/ˈaɪ̯nʊntˌzɛçtsɪç/,,,AnkiLangs::DE
-sixty-two (62),zweiundsechzig,/ˈtsvaɪ̯ʊntˌzɛçtsɪç/,,,AnkiLangs::DE
-slow,langsam,/ˈlaŋzaːm/,,,AnkiLangs::DE
+science,die Wissenschaft,/diː ˈvɪsn̩ʃaft/,[sound:al_de_de_die_wissenschaft.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+second (2nd),zweiter,/ˈt͡svaɪ̯tɐ/,[sound:al_de_de_zweiter.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+September,September,/zɛpˈtɛmbɐ/,[sound:al_de_de_september.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+seven (7),sieben,/ˈziːbn̩/,[sound:al_de_de_sieben.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+seventeen (17),siebzehn,/ˈziːpt͡seːn/,[sound:al_de_de_siebzehn.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+seventy (70),siebzig,/ˈziːpt͡sɪç/,[sound:al_de_de_siebzig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+seventy-one (71),einundsiebzig,/ˈaɪ̯nʊntˌziːpt͡sɪç/,[sound:al_de_de_einundsiebzig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+seventy-two (72),zweiundsiebzig,/ˈtsvaɪ̯ʊntˌziːpt͡sɪç/,[sound:al_de_de_zweiundsiebzig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+sex [gender],das Geschlecht,/das ɡəˈʃlɛçt/,[sound:al_de_de_das_geschlecht.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+sex [the act],der Sex,/deːɐ̯ sɛks/,[sound:al_de_de_der_sex.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+shallow,seicht,/zaɪ̯çt/,[sound:al_de_de_seicht.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+she,sie,/ziː/,[sound:al_de_de_sie.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+"short [opposite of ""long""]",kurz,/kʊʁts/,[sound:al_de_de_kurz.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+"short [opposite of ""tall""]",klein,/klaɪ̯n/,[sound:al_de_de_klein.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+sick,krank,/kʁaŋk/,[sound:al_de_de_krank.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+silver,das Silber,/das ˈzɪlbɐ/,[sound:al_de_de_das_silber.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+six (6),sechs,/zɛks/,[sound:al_de_de_sechs.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+sixteen (16),sechzehn,/ˈzɛçtseːn/,[sound:al_de_de_sechzehn.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+sixty (60),sechzig,/ˈzɛçtsɪç/,[sound:al_de_de_sechzig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+sixty-one (61),einundsechzig,/ˈaɪ̯nʊntˌzɛçtsɪç/,[sound:al_de_de_einundsechzig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+sixty-two (62),zweiundsechzig,/ˈtsvaɪ̯ʊntˌzɛçtsɪç/,[sound:al_de_de_zweiundsechzig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+slow,langsam,/ˈlaŋzaːm/,[sound:al_de_de_langsam.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 small / little,klein,/klaɪ̯n/,,,AnkiLangs::DE
-soft,weich,/vaɪ̯ç/,,,AnkiLangs::DE
+soft,weich,/vaɪ̯ç/,[sound:al_de_de_weich.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 soil/earth [ground],die Erde,/diː ˈeːɐ̯də/,,,AnkiLangs::DE
 space (outer space),der Weltraum,/dɛɐ̯ ˈvɛltʁaʊ̯m/,[sound:al_de_de_der_weltraum.mp3],,AnkiLangs::DE
-sport,der Sport,/deːɐ̯ ʃpɔʁt/,,,AnkiLangs::DE
-stone,der Stein,/deːɐ̯ ʃtaɪ̯n/,,,AnkiLangs::DE
-straight,gerade,/ɡəˈʁaːdə/,,,AnkiLangs::DE
-strong,stark,/ʃtaʁk/,,,AnkiLangs::DE
-sugar,der Zucker,/deːɐ̯ ˈtsʊkɐ/,,,AnkiLangs::DE
+sport,der Sport,/deːɐ̯ ʃpɔʁt/,[sound:al_de_de_der_sport.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+stone,der Stein,/deːɐ̯ ʃtaɪ̯n/,[sound:al_de_de_der_stein.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+straight,gerade,/ɡəˈʁaːdə/,[sound:al_de_de_gerade.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+strong,stark,/ʃtaʁk/,[sound:al_de_de_stark.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+sugar,der Zucker,/deːɐ̯ ˈtsʊkɐ/,[sound:al_de_de_der_zucker.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 Sunday,Sonntag,/ˈzɔntaːk/,,,AnkiLangs::DE
-sweat,der Schweiß,/deːɐ̯ ʃvaɪ̯s/,,,AnkiLangs::DE
+sweat,der Schweiß,/deːɐ̯ ʃvaɪ̯s/,[sound:al_de_de_der_schwei.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 tall,groß,/ɡʁoːs/,,,AnkiLangs::DE
-tea,der Tee,/deːɐ̯ teː/,,,AnkiLangs::DE
-technology,die Technologie,/diː tɛçnoloˈɡiː/,,,AnkiLangs::DE
-temperature,die Temperatur,/diː tɛmpəʁaˈtuːɐ̯/,,,AnkiLangs::DE
-ten (10),zehn,/t͡seːn/,,,AnkiLangs::DE
-"ten thousand (10,000)",zehntausend,/ˈt͡seːnˌtaʊ̯zn̩t/,,,AnkiLangs::DE
+tea,der Tee,/deːɐ̯ teː/,[sound:al_de_de_der_tee.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+technology,die Technologie,/diː tɛçnoloˈɡiː/,[sound:al_de_de_die_technologie.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+temperature,die Temperatur,/diː tɛmpəʁaˈtuːɐ̯/,[sound:al_de_de_die_temperatur.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+ten (10),zehn,/t͡seːn/,[sound:al_de_de_zehn.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+"ten thousand (10,000)",zehntausend,/ˈt͡seːnˌtaʊ̯zn̩t/,[sound:al_de_de_zehntausend.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the (train) ticket,die Fahrkarte,/diː ˈfaːɐ̯kaʁtə/,[sound:al_de_de_die_fahrkarte.mp3],,AnkiLangs::DE
-the actor,der Schauspieler,/deːɐ̯ ˈʃaʊ̯ˌʃpiːlɐ/,,,AnkiLangs::DE
-the adjective,das Adjektiv,/das ˈatjɛktiːf/,,,AnkiLangs::DE
+the actor,der Schauspieler,/deːɐ̯ ˈʃaʊ̯ˌʃpiːlɐ/,[sound:al_de_de_der_schauspieler.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the adjective,das Adjektiv,/das ˈatjɛktiːf/,[sound:al_de_de_das_adjektiv.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the adult,der Erwachsene,/deːɐ ɛɐˈvaksənə/,[sound:al_de_de_der_erwachsene.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
-the afternoon,der Nachmittag,/deːɐ̯ ˈnaːxmɪˌtaːk/,,,AnkiLangs::DE
-the air,die Luft,/diː lʊft/,,,AnkiLangs::DE
+the afternoon,der Nachmittag,/deːɐ̯ ˈnaːxmɪˌtaːk/,[sound:al_de_de_der_nachmittag.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the air,die Luft,/diː lʊft/,[sound:al_de_de_die_luft.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the airport,der Flughafen,/dɛɐ̯ fluːkhaːfən/,[sound:al_de_de_der_flughafen.mp3],,AnkiLangs::DE
 the animal,das Tier,/das tiːɐ̯/,[sound:al_de_de_das_tier.mp3],,AnkiLangs::DE
 the apartment,die Wohnung,/diː ˈvɔnʊŋ/,[sound:al_de_de_die_wohnung.mp3],,AnkiLangs::DE
-the apple,der Apfel,/deːɐ̯ ˈʔapfl̩/,,,AnkiLangs::DE
-the arm,der Arm,/deːɐ̯ ʔaʁm/,,,AnkiLangs::DE
-the army,die Armee,/diː ʔaʁˈmeː/,,,AnkiLangs::DE
-the artist,der Künstler,/deːɐ̯ ˈkʏnstlɐ/,,,AnkiLangs::DE
-the attack,der Angriff,/deːɐ̯ ˈʔanɡʁɪf/,,,AnkiLangs::DE
-the author,der Autor,/deːɐ̯ ˈʔaʊ̯toːɐ̯/,,,AnkiLangs::DE
+the apple,der Apfel,/deːɐ̯ ˈʔapfl̩/,[sound:al_de_de_der_apfel.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the arm,der Arm,/deːɐ̯ ʔaʁm/,[sound:al_de_de_der_arm.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the army,die Armee,/diː ʔaʁˈmeː/,[sound:al_de_de_die_armee.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the artist,der Künstler,/deːɐ̯ ˈkʏnstlɐ/,[sound:al_de_de_der_kunstler.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the attack,der Angriff,/deːɐ̯ ˈʔanɡʁɪf/,[sound:al_de_de_der_angriff.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the author,der Autor,/deːɐ̯ ˈʔaʊ̯toːɐ̯/,[sound:al_de_de_der_autor.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the baby,das Baby,/das ˈbeːbi/,[sound:al_de_de_das_baby.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
-the back [anatomy],der Rücken,/deːɐ̯ ˈʁʏkn̩/,,,AnkiLangs::DE
-the back [location],die Rückseite,/diː ˈʁʏkˌzaɪ̯tə/,,,AnkiLangs::DE
+the back [anatomy],der Rücken,/deːɐ̯ ˈʁʏkn̩/,[sound:al_de_de_der_rucken.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the back [location],die Rückseite,/diː ˈʁʏkˌzaɪ̯tə/,[sound:al_de_de_die_ruckseite.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the bag,die Tasche,/diː ˈtaʃə/,,,AnkiLangs::DE
-the ball,der Ball,/deːɐ̯ bal/,,,AnkiLangs::DE
-the banana,die Banane,/diː baˈnaːnə/,,,AnkiLangs::DE
-the band [music],die Band,/diː bɛnt/,,,AnkiLangs::DE
+the ball,der Ball,/deːɐ̯ bal/,[sound:al_de_de_der_ball.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the banana,die Banane,/diː baˈnaːnə/,[sound:al_de_de_die_banane.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the band [music],die Band,/diː bɛnt/,[sound:al_de_de_die_band.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the bank,die Bank,/diː baŋk/,[sound:al_de_de_die_bank.mp3],,AnkiLangs::DE
 the bar,die Bar,/diː baːʁ/,[sound:al_de_de_die_bar.mp3],,AnkiLangs::DE
-the bathroom,das Badezimmer,/das ˈbaːdəˌtsɪmɐ/,,,AnkiLangs::DE
-the beach,der Strand,/deːɐ̯ ʃtʁant/,,,AnkiLangs::DE
-the beard,der Bart,/deːɐ̯ baʁt/,,,AnkiLangs::DE
-the bed,das Bett,/das bɛt/,,,AnkiLangs::DE
-the bedroom,das Schlafzimmer,/das ˈʃlaːfˌtsɪmɐ/,,,AnkiLangs::DE
-the beef,das Rindfleisch,/das ˈʁɪntflaɪ̯ʃ/,,,AnkiLangs::DE
-the beverage,das Getränk,/das ɡəˈtʁɛŋk/,,,AnkiLangs::DE
+the bathroom,das Badezimmer,/das ˈbaːdəˌtsɪmɐ/,[sound:al_de_de_das_badezimmer.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the beach,der Strand,/deːɐ̯ ʃtʁant/,[sound:al_de_de_der_strand.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the beard,der Bart,/deːɐ̯ baʁt/,[sound:al_de_de_der_bart.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the bed,das Bett,/das bɛt/,[sound:al_de_de_das_bett.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the bedroom,das Schlafzimmer,/das ˈʃlaːfˌtsɪmɐ/,[sound:al_de_de_das_schlafzimmer.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the beef,das Rindfleisch,/das ˈʁɪntflaɪ̯ʃ/,[sound:al_de_de_das_rindfleisch.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the beverage,das Getränk,/das ɡəˈtʁɛŋk/,[sound:al_de_de_das_getrank.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the bicycle,das Fahrrad,/das ˈfaːʁaːt/,[sound:al_de_de_das_fahrrad.mp3],,AnkiLangs::DE
-the bill [bank note],der Geldschein,/deːɐ̯ ˈɡɛltʃaɪ̯n/,,,AnkiLangs::DE
+the bill [bank note],der Geldschein,/deːɐ̯ ˈɡɛltʃaɪ̯n/,[sound:al_de_de_der_geldschein.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the bird,der Vogel,/dɛɐ̯ ˈfoːɡl/,[sound:al_de_de_der_vogel.mp3],,AnkiLangs::DE
 the boat,das Boot,/das boːt/,[sound:al_de_de_das_boot.mp3],,AnkiLangs::DE
-the body,der Körper,/deːɐ̯ ˈkœʁpɐ/,,,AnkiLangs::DE
-the bone,der Knochen,/deːɐ̯ ˈknɔxn̩/,,,AnkiLangs::DE
-the book,das Buch,/das buːx/,,,AnkiLangs::DE
-the bottle,die Flasche,/diː ˈflaʃə/,,,AnkiLangs::DE
+the body,der Körper,/deːɐ̯ ˈkœʁpɐ/,[sound:al_de_de_der_korper.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the bone,der Knochen,/deːɐ̯ ˈknɔxn̩/,[sound:al_de_de_der_knochen.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the book,das Buch,/das buːx/,[sound:al_de_de_das_buch.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the bottle,die Flasche,/diː ˈflaʃə/,[sound:al_de_de_die_flasche.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the bottom,der Boden,/deːɐ̯ ˈboːdn̩/,,,AnkiLangs::DE
-the box,die Kiste,/diː ˈkɪstə/,,,AnkiLangs::DE
+the box,die Kiste,/diː ˈkɪstə/,[sound:al_de_de_die_kiste.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the boy,der Junge,/deːɐ ˈjʊŋə/,[sound:al_de_de_der_junge.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
-the brain,das Gehirn,/das ɡəˈhɪʁn/,,,AnkiLangs::DE
-the bread,das Brot,/das bʁoːt/,,,AnkiLangs::DE
+the brain,das Gehirn,/das ɡəˈhɪʁn/,[sound:al_de_de_das_gehirn.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the bread,das Brot,/das bʁoːt/,[sound:al_de_de_das_brot.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the bridge,die Brücke,/diː bʁʏkə/,[sound:al_de_de_die_bruecke.mp3],,AnkiLangs::DE
 the brother,der Bruder,/deːɐ ˈbʁuːdɐ/,[sound:al_de_de_der_bruder.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the building,das Gebäude,/das ɡəˈbɔʏ̯də/,[sound:al_de_de_das_gebaeude.mp3],,AnkiLangs::DE
 the bus,der Bus,/dɛɐ̯ bʊs/,[sound:al_de_de_der_bus.mp3],,AnkiLangs::DE
-the cake,der Kuchen,/deːɐ̯ ˈkuːxn̩/,,,AnkiLangs::DE
-the camera,die Kamera,/diː ˈkaməʁa/,,,AnkiLangs::DE
+the cake,der Kuchen,/deːɐ̯ ˈkuːxn̩/,[sound:al_de_de_der_kuchen.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the camera,die Kamera,/diː ˈkaməʁa/,[sound:al_de_de_die_kamera.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the camp,das Lager,/das ˈlaːɡɐ/,[sound:al_de_de_das_lager.mp3],,AnkiLangs::DE
 the car,das Auto,/das ˈaʊtoː/,[sound:al_de_de_das_auto.mp3],,AnkiLangs::DE
-the card,die Karte,/diː ˈkaʁtə/,,,AnkiLangs::DE
+the card,die Karte,/diː ˈkaʁtə/,[sound:al_de_de_die_karte.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the cat,die Katze,/diː ˈkat͡sə/,[sound:al_de_de_die_katze.mp3],,AnkiLangs::DE
-the ceiling,die Decke,/diː ˈdɛkə/,,,AnkiLangs::DE
-the cell phone,das Handy,/das ˈhɛndi/,,,AnkiLangs::DE
-the centimeter,der Zentimeter,/deːɐ̯ t͡sɛntiˈmeːtɐ/,,,AnkiLangs::DE
-the chair,der Stuhl,/deːɐ̯ ʃtuːl/,,,AnkiLangs::DE
-the cheese,der Käse,/deːɐ̯ ˈkɛːzə/,,,AnkiLangs::DE
-the chicken,das Huhn,/das huːn/,,,AnkiLangs::DE
+the ceiling,die Decke,/diː ˈdɛkə/,[sound:al_de_de_die_decke.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the cell phone,das Handy,/das ˈhɛndi/,[sound:al_de_de_das_handy.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the centimeter,der Zentimeter,/deːɐ̯ t͡sɛntiˈmeːtɐ/,[sound:al_de_de_der_zentimeter.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the chair,der Stuhl,/deːɐ̯ ʃtuːl/,[sound:al_de_de_der_stuhl.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the cheese,der Käse,/deːɐ̯ ˈkɛːzə/,[sound:al_de_de_der_kase.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the chicken,das Huhn,/das huːn/,[sound:al_de_de_das_huhn.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the child,das Kind,/das kɪnt/,[sound:al_de_de_das_kind.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the church,die Kirche,/diː ˈkɪʁçə/,[sound:al_de_de_die_kirche.mp3],,AnkiLangs::DE
-the circle,der Kreis,/deːɐ̯ kʁaɪ̯s/,,,AnkiLangs::DE
+the circle,der Kreis,/deːɐ̯ kʁaɪ̯s/,[sound:al_de_de_der_kreis.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the city,die Stadt,/diː ʃtat/,[sound:al_de_de_die_stadt.mp3],,AnkiLangs::DE
-the clock,die Uhr,/diː ʔuːɐ̯/,,,AnkiLangs::DE
+the clock,die Uhr,/diː ʔuːɐ̯/,[sound:al_de_de_die_uhr.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the clothing,die Kleidung,/diː ˈklaɪ̯dʊŋ/,[sound:al_de_de_die_kleidung.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the club,der Club,/dɛɐ̯ klʊp/,[sound:al_de_de_der_club.mp3],,AnkiLangs::DE
 the coat,der Mantel,/dɛɐ̯ ˈmantl̩/,[sound:al_de_de_der_mantel.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the color,die Farbe,/diː ˈfaʁbə/,[sound:al_de_de_die_farbe.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
-the computer,der Computer,/deːɐ̯ kɔmˈpjuːtɐ/,,,AnkiLangs::DE
-the consonant,der Konsonant,/deːɐ̯ kɔnzoˈnant/,,,AnkiLangs::DE
-the contract,der Vertrag,/deːɐ̯ fɛʁˈtʁaːk/,,,AnkiLangs::DE
-the corn,der Mais,/deːɐ̯ maɪ̯s/,,,AnkiLangs::DE
-the corner,die Ecke,/diː ˈʔɛkə/,,,AnkiLangs::DE
+the computer,der Computer,/deːɐ̯ kɔmˈpjuːtɐ/,[sound:al_de_de_der_computer.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the consonant,der Konsonant,/deːɐ̯ kɔnzoˈnant/,[sound:al_de_de_der_konsonant.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the contract,der Vertrag,/deːɐ̯ fɛʁˈtʁaːk/,[sound:al_de_de_der_vertrag.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the corn,der Mais,/deːɐ̯ maɪ̯s/,[sound:al_de_de_der_mais.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the corner,die Ecke,/diː ˈʔɛkə/,[sound:al_de_de_die_ecke.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 "the country (USA, France, etc.)",das Land,/das lant/,[sound:al_de_de_das_land.mp3],,AnkiLangs::DE
 the court,das Gericht,/das ɡəˈʁɪçt/,[sound:al_de_de_das_gericht.mp3],,AnkiLangs::DE
 the cow,die Kuh,/diː kuː/,[sound:al_de_de_die_kuh.mp3],,AnkiLangs::DE
 the crowd,die Menge,/diː ˈmɛŋə/,[sound:al_de_de_die_menge.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
-the cup,die Tasse,/diː ˈtasə/,,,AnkiLangs::DE
-the date,das Datum,/das ˈdaːtʊm/,,,AnkiLangs::DE
+the cup,die Tasse,/diː ˈtasə/,[sound:al_de_de_die_tasse.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the date,das Datum,/das ˈdaːtʊm/,[sound:al_de_de_das_datum.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the daughter,die Tochter,/diː ˈtɔx.tɐ/,[sound:al_de_de_die_tochter.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
-the day,der Tag,/deːɐ̯ taːk/,,,AnkiLangs::DE
-the direction,die Richtung,/diː ˈʁɪçtʊŋ/,,,AnkiLangs::DE
-the doctor,der Arzt,/deːɐ̯ ʔaʁtst/,,,AnkiLangs::DE
+the day,der Tag,/deːɐ̯ taːk/,[sound:al_de_de_der_tag.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the direction,die Richtung,/diː ˈʁɪçtʊŋ/,[sound:al_de_de_die_richtung.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the doctor,der Arzt,/deːɐ̯ ʔaʁtst/,[sound:al_de_de_der_arzt.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the dog,der Hund,/dɛɐ̯ hʊnt/,[sound:al_de_de_der_hund.mp3],,AnkiLangs::DE
-the dollar,der Dollar,/deːɐ̯ ˈdɔlaːɐ̯/,,,AnkiLangs::DE
-the door,die Tür,/diː tyːɐ̯/,,,AnkiLangs::DE
-the dot,der Punkt,/deːɐ̯ pʊŋkt/,,,AnkiLangs::DE
-the dream,der Traum,/deːɐ̯ tʁaʊ̯m/,,,AnkiLangs::DE
+the dollar,der Dollar,/deːɐ̯ ˈdɔlaːɐ̯/,[sound:al_de_de_der_dollar.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the door,die Tür,/diː tyːɐ̯/,[sound:al_de_de_die_tur.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the dot,der Punkt,/deːɐ̯ pʊŋkt/,[sound:al_de_de_der_punkt.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the dream,der Traum,/deːɐ̯ tʁaʊ̯m/,[sound:al_de_de_der_traum.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the dress,das Kleid,/das klaɪ̯t/,[sound:al_de_de_das_kleid.mp3],,AnkiLangs::DE
-the drug,die Droge,/diː ˈdʁoːɡə/,,,AnkiLangs::DE
-the ear,das Ohr,/das ʔoːɐ̯/,,,AnkiLangs::DE
-the east,der Osten,/deːɐ̯ ˈʔɔstn̩/,,,AnkiLangs::DE
-the edge,die Kante,/diː ˈkantə/,,,AnkiLangs::DE
-the egg,das Ei,/das ʔaɪ̯/,,,AnkiLangs::DE
-the election,die Wahl,/diː vaːl/,,,AnkiLangs::DE
+the drug,die Droge,/diː ˈdʁoːɡə/,[sound:al_de_de_die_droge.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the ear,das Ohr,/das ʔoːɐ̯/,[sound:al_de_de_das_ohr.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the east,der Osten,/deːɐ̯ ˈʔɔstn̩/,[sound:al_de_de_der_osten.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the edge,die Kante,/diː ˈkantə/,[sound:al_de_de_die_kante.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the egg,das Ei,/das ʔaɪ̯/,[sound:al_de_de_das_ei.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the election,die Wahl,/diː vaːl/,[sound:al_de_de_die_wahl.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the engine,der Motor,/dɛɐ̯ ˈmoːtoːɐ̯/,[sound:al_de_de_der_motor.mp3],,AnkiLangs::DE
-the evening,der Abend,/deːɐ̯ ˈʔaːbənt/,,,AnkiLangs::DE
-the eye,das Auge,/das ˈʔaʊ̯ɡə/,,,AnkiLangs::DE
-the face,das Gesicht,/das ɡəˈzɪçt/,,,AnkiLangs::DE
-the Fall,der Herbst,/deːɐ̯ hɛʁpst/,,,AnkiLangs::DE
+the evening,der Abend,/deːɐ̯ ˈʔaːbənt/,[sound:al_de_de_der_abend.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the eye,das Auge,/das ˈʔaʊ̯ɡə/,[sound:al_de_de_das_auge.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the face,das Gesicht,/das ɡəˈzɪçt/,[sound:al_de_de_das_gesicht.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the Fall,der Herbst,/deːɐ̯ hɛʁpst/,[sound:al_de_de_der_herbst.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the family,die Familie,/diː faˈmiːliə/,[sound:al_de_de_die_familie.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
-the fan [appliance],der Ventilator,/deːɐ̯ vɛntiˈlaːtoːɐ̯/,,,AnkiLangs::DE
+the fan [appliance],der Ventilator,/deːɐ̯ vɛntiˈlaːtoːɐ̯/,[sound:al_de_de_der_ventilator.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the fan [person],der Fan,/deːɐ fɛn/,[sound:al_de_de_der_fan.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the farm,der Bauernhof,/dɛɐ̯ ˈbaʊɐnhɔf/,[sound:al_de_de_der_bauernhof.mp3],,AnkiLangs::DE
 the father,der Vater,/deːɐ ˈfaːtɐ/,[sound:al_de_de_der_vater.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
-the finger,der Finger,/deːɐ̯ ˈfɪŋɐ/,,,AnkiLangs::DE
-the fire,das Feuer,/das ˈfɔʏ̯ɐ/,,,AnkiLangs::DE
+the finger,der Finger,/deːɐ̯ ˈfɪŋɐ/,[sound:al_de_de_der_finger.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the fire,das Feuer,/das ˈfɔʏ̯ɐ/,[sound:al_de_de_das_feuer.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the fish,der Fisch,/dɛɐ̯ fɪʃ/,[sound:al_de_de_der_fisch.mp3],,AnkiLangs::DE
-the floor,der Fußboden,/deːɐ̯ ˈfuːsˌboːdn̩/,,,AnkiLangs::DE
-the flower,die Blume,/diː ˈbluːmə/,,,AnkiLangs::DE
-the foot,der Fuß,/deːɐ̯ fuːs/,,,AnkiLangs::DE
+the floor,der Fußboden,/deːɐ̯ ˈfuːsˌboːdn̩/,[sound:al_de_de_der_fu_boden.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the flower,die Blume,/diː ˈbluːmə/,[sound:al_de_de_die_blume.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the foot,der Fuß,/deːɐ̯ fuːs/,[sound:al_de_de_der_fu.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the foot [measurement],der Fuß,/deːɐ̯ fuːs/,,,AnkiLangs::DE
-the forest,der Wald,/deːɐ̯ valt/,,,AnkiLangs::DE
-the fork,die Gabel,/diː ˈɡaːbl̩/,,,AnkiLangs::DE
+the forest,der Wald,/deːɐ̯ valt/,[sound:al_de_de_der_wald.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the fork,die Gabel,/diː ˈɡaːbl̩/,[sound:al_de_de_die_gabel.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the friend,der Freund,/deːɐ fʁɔɪnt/,[sound:al_de_de_der_freund.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
-the front,die Vorderseite,/diː ˈfɔʁdɐˌzaɪ̯tə/,,,AnkiLangs::DE
-the game,das Spiel,/das ʃpiːl/,,,AnkiLangs::DE
-the garden,der Garten,/deːɐ̯ ˈɡaʁtn̩/,,,AnkiLangs::DE
+the front,die Vorderseite,/diː ˈfɔʁdɐˌzaɪ̯tə/,[sound:al_de_de_die_vorderseite.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the game,das Spiel,/das ʃpiːl/,[sound:al_de_de_das_spiel.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the garden,der Garten,/deːɐ̯ ˈɡaʁtn̩/,[sound:al_de_de_der_garten.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the gasoline,das Benzin,/das bɛnˈtsiːn/,[sound:al_de_de_das_benzin.mp3],,AnkiLangs::DE
-the gift,das Geschenk,/das ɡəˈʃɛŋk/,,,AnkiLangs::DE
+the gift,das Geschenk,/das ɡəˈʃɛŋk/,[sound:al_de_de_das_geschenk.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the girl,das Mädchen,/das ˈmɛːtçən/,[sound:al_de_de_das_m_dchen.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the grandfather,der Großvater,/deːɐ ˈɡʁoːsˌfaːtɐ/,[sound:al_de_de_der_gro_vater.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the grandmother,die Großmutter,/diː ˈɡʁoːsˌmʊtɐ/,[sound:al_de_de_die_gro_mutter.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
-the grass,das Gras,/das ɡʁaːs/,,,AnkiLangs::DE
+the grass,das Gras,/das ɡʁaːs/,[sound:al_de_de_das_gras.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the ground,der Boden,/dɛɐ̯ ˈboːdn̩/,[sound:al_de_de_der_boden.mp3],,AnkiLangs::DE
-the gun,die Waffe,/diː ˈvafə/,,,AnkiLangs::DE
-the hair,das Haar,/das haːɐ̯/,,,AnkiLangs::DE
-the half,die Hälfte,/diː ˈhɛlftə/,,,AnkiLangs::DE
-the hand,die Hand,/diː hant/,,,AnkiLangs::DE
+the gun,die Waffe,/diː ˈvafə/,[sound:al_de_de_die_waffe.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the hair,das Haar,/das haːɐ̯/,[sound:al_de_de_das_haar.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the half,die Hälfte,/diː ˈhɛlftə/,[sound:al_de_de_die_halfte.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the hand,die Hand,/diː hant/,[sound:al_de_de_die_hand.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the hat,der Hut,/dɛɐ̯ hʊt/,[sound:al_de_de_der_hut.mp3],,AnkiLangs::DE
-the head,der Kopf,/deːɐ̯ kɔpf/,,,AnkiLangs::DE
-the heart,das Herz,/das hɛʁt͡s/,,,AnkiLangs::DE
-the heat,die Hitze,/diː ˈhɪt͡sə/,,,AnkiLangs::DE
-the hill,der Hügel,/deːɐ̯ ˈhyːɡl̩/,,,AnkiLangs::DE
-the hole,das Loch,/das lɔx/,,,AnkiLangs::DE
+the head,der Kopf,/deːɐ̯ kɔpf/,[sound:al_de_de_der_kopf.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the heart,das Herz,/das hɛʁt͡s/,[sound:al_de_de_das_herz.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the heat,die Hitze,/diː ˈhɪt͡sə/,[sound:al_de_de_die_hitze.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the hill,der Hügel,/deːɐ̯ ˈhyːɡl̩/,[sound:al_de_de_der_hugel.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the hole,das Loch,/das lɔx/,[sound:al_de_de_das_loch.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the horse,das Pferd,/das pfeːɐ̯t/,[sound:al_de_de_das_pferd.mp3],,AnkiLangs::DE
 the hospital,das Krankenhaus,/das ˈkʁaŋkənˌhaʊ̯s/,[sound:al_de_de_das_krankenhaus.mp3],,AnkiLangs::DE
 the hotel,das Hotel,/das hoˈtɛl/,[sound:al_de_de_das_hotel.mp3],,AnkiLangs::DE
-the hour,die Stunde,/diː ˈʃtʊndə/,,,AnkiLangs::DE
+the hour,die Stunde,/diː ˈʃtʊndə/,[sound:al_de_de_die_stunde.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the house,das Haus,/das haʊs/,[sound:al_de_de_das_haus.mp3],,AnkiLangs::DE
 the human,der Mensch,/deːɐ mɛnʃ/,[sound:al_de_de_der_mensch.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the husband,der Ehemann,/deːɐ ˈeːəman/,[sound:al_de_de_der_ehemann.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
-the ice,das Eis,/das ʔaɪ̯s/,,,AnkiLangs::DE
-the image,das Bild,/das bɪlt/,,,AnkiLangs::DE
-the inch,der Zoll,/deːɐ̯ tsɔl/,,,AnkiLangs::DE
-the injury,die Verletzung,/diː fɛʁˈlɛtsʊŋ/,,,AnkiLangs::DE
-the inside,die Innenseite,/diː ˈɪnənˌzaɪ̯tə/,,,AnkiLangs::DE
-the instrument,das Instrument,/das ɪnstʁuˈmɛnt/,,,AnkiLangs::DE
-the island,die Insel,/diː ˈʔɪnzl̩/,,,AnkiLangs::DE
-the job,der Job,/deːɐ̯ d͡ʒɔp/,,,AnkiLangs::DE
+the ice,das Eis,/das ʔaɪ̯s/,[sound:al_de_de_das_eis.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the image,das Bild,/das bɪlt/,[sound:al_de_de_das_bild.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the inch,der Zoll,/deːɐ̯ tsɔl/,[sound:al_de_de_der_zoll.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the injury,die Verletzung,/diː fɛʁˈlɛtsʊŋ/,[sound:al_de_de_die_verletzung.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the inside,die Innenseite,/diː ˈɪnənˌzaɪ̯tə/,[sound:al_de_de_die_innenseite.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the instrument,das Instrument,/das ɪnstʁuˈmɛnt/,[sound:al_de_de_das_instrument.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
+the island,die Insel,/diː ˈʔɪnzl̩/,[sound:al_de_de_die_insel.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
+the job,der Job,/deːɐ̯ d͡ʒɔp/,[sound:al_de_de_der_job.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the key,der Schlüssel,/deːɐ̯ ˈʃlʏsl̩/,,,AnkiLangs::DE
 the kilogram,das Kilogramm,/das ˈkiːloˌɡʁam/,,,AnkiLangs::DE
 the king,der König,/deːɐ ˈkøːnɪç/,[sound:al_de_de_der_k_nig.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
@@ -458,7 +458,7 @@ the sound,der Klang,/deːɐ̯ klaŋ/,,,AnkiLangs::DE
 the soup,die Suppe,/diː ˈzʊpə/,,,AnkiLangs::DE
 the south,der Süden,/deːɐ̯ ˈzyːdn̩/,,,AnkiLangs::DE
 the spoon,der Löffel,/deːɐ̯ ˈlœfl̩/,,,AnkiLangs::DE
-the Spring,der Frühling,/deːɐ̯ ˈfʁyːlɪŋ/,,,AnkiLangs::DE
+the Spring,der Frühling,/deːɐ̯ ˈfʁyːlɪŋ/,[sound:al_de_de_der_fruhling.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the square,das Quadrat,/das kvaˈdʁaːt/,,,AnkiLangs::DE
 the stain,der Fleck,/dɛɐ̯ ˈflɛk/,[sound:al_de_de_der_fleck.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the star,der Stern,/deːɐ̯ ʃtɛʁn/,,,AnkiLangs::DE
@@ -466,7 +466,7 @@ the store/shop,der Laden,/dɛɐ̯ ˈlaːdən/,[sound:al_de_de_der_laden.mp3],,An
 the street/road,die Straße,/diː ʃtʁaːsə/,[sound:al_de_de_die_strasse.mp3],,AnkiLangs::DE
 the student,der Student,/deːɐ̯ ʃtuˈdɛnt/,,,AnkiLangs::DE
 the suit,der Anzug,/dɛɐ̯ ˈanzuːk/,[sound:al_de_de_der_anzug.mp3],,AnkiLangs::DE
-the Summer,der Sommer,/deːɐ̯ ˈzɔmɐ/,,,AnkiLangs::DE
+the Summer,der Sommer,/deːɐ̯ ˈzɔmɐ/,[sound:al_de_de_der_sommer.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the sun,die Sonne,/diː ˈzɔnə/,,,AnkiLangs::DE
 the T-shirt,das T-Shirt,/das ˈtiːˌʃɪɐ̯t/,[sound:al_de_de_das_t_shirt.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the table,der Tisch,/deːɐ̯ tɪʃ/,,,AnkiLangs::DE
@@ -503,7 +503,7 @@ the wife,die Ehefrau,/diː ˈeːəfʁaʊ/,[sound:al_de_de_die_ehefrau.mp3],Googl
 the wind,der Wind,/deːɐ̯ vɪnt/,,,AnkiLangs::DE
 the window,das Fenster,/das ˈfɛnstɐ/,,,AnkiLangs::DE
 the wing,der Flügel,/dɛɐ̯ flyːɡl/,[sound:al_de_de_der_fluegel.mp3],,AnkiLangs::DE
-the Winter,der Winter,/deːɐ̯ ˈvɪntɐ/,,,AnkiLangs::DE
+the Winter,der Winter,/deːɐ̯ ˈvɪntɐ/,[sound:al_de_de_der_winter.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-C,AnkiLangs::DE
 the woman,die Frau,/diː fʁaʊ/,[sound:al_de_de_die_frau.mp3],Google Cloud TTS<br>Voice: de-DE-Studio-B,AnkiLangs::DE
 the world,die Welt,/diː vɛlt/,,,AnkiLangs::DE
 the yard,der Hof,/deːɐ̯ hoːf/,,,AnkiLangs::DE

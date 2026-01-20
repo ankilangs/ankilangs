@@ -1,42 +1,259 @@
 key,source
+April,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+art,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+August,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 black,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+blind,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+blood,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 blue,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 brown,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+clean,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+coffee,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+dark,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 dark blue,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+deaf,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+December,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+down,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a>"
 eight (8),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
 eighty (80),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
 eighty-two (82),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
+eleven (11),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 expensive,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
 famous,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
+February,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 Friday,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
+good,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 gray,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 green,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+hard,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+he,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+healthy,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+heaven,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+heavy,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+hell,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+high,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+hot,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+it,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+juice,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+left,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+"light [opposite of ""dark""]",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+"light [opposite of ""heavy""]",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 light blue,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+long,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+loose,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+loud,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+low,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+lunch,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+male,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+marriage,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+material,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+May,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+mean,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+medicine,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+metal,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+milk,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+money,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+murder,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+music,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+narrow,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+nature,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+new,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+nice,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+nine (9),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+nineteen (19),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+ninety (90),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+ninety-one (91),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+ninety-two (92),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+no,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+November,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+nuclear,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+October,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+oil,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+"old [opposite of ""new""]",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+one (1),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+"one billion (1,000,000,000)",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+one hundred (100),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+one hundred eleven (111),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+one hundred one (101),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+one hundred ten (110),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+"one hundred thousand (100,000)",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+one hundred two (102),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+one thousand (1000),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+one thousand one (1001),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 orange,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+pain,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+peace,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 pink,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+plastic,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+poison,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+poor,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+prison,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+quiet,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+race [ethnicity],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+race [sport],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 red,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+relationship,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+religion,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+rice,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+rich,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+right,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sad,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+salt,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 Saturday,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
+science,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+second (2nd),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+September,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+seven (7),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+seventy (70),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+sex [gender],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sex [the act],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+shallow,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+she,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+"short [opposite of ""long""]",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+"short [opposite of ""tall""]",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sick,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+silver,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+six (6),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sixteen (16),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sixty (60),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sixty-one (61),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sixty-two (62),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+slow,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+soft,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sport,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+stone,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+straight,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+strong,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sugar,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sweat,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+tea,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+technology,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+temperature,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+ten (10),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+"ten thousand (10,000)",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the actor,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the adjective,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the adult,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the afternoon,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the air,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the apple,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the arm,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the army,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the artist,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the attack,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the author,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the baby,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the back [anatomy],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the back [location],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the ball,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the banana,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the band [music],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the bathroom,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the beach,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the beard,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the bed,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the bedroom,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the beef,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the beverage,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the bill [bank note],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the body,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the bone,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the book,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the bottle,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the box,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the boy,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the brain,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the bread,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the brother,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the cake,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the camera,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the car,"Picture:<br><a href=""https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/"">https://pixabay.com/photos/car-engine-wheels-vintage-car-7275386/</a>"
+the card,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the ceiling,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the cell phone,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the centimeter,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the chair,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the cheese,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the chicken,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the child,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the circle,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the clock,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the clothing,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the coat,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the color,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the computer,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the consonant,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the contract,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the corn,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the corner,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the crowd,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the cup,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the date,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the daughter,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the day,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the direction,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the doctor,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the dollar,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the door,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the dot,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the dream,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the drug,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the ear,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the east,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the edge,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the egg,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the election,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the evening,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the eye,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the face,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the Fall,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the family,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the fan [appliance],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the fan [person],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the father,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the finger,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the fire,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the floor,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the flower,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the foot,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the forest,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the fork,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the friend,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the front,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the game,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the garden,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the gift,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the girl,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the grandfather,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the grandmother,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the grass,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the gun,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the hair,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the half,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the hand,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the head,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the heart,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the heat,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the hill,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the hole,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the hour,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the human,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the husband,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the ice,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the image,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the inch,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the injury,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the inside,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the instrument,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the island,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the job,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the king,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the man,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the mother,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
@@ -51,11 +268,14 @@ the queen,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the shoes,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the sister,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the son,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the Spring,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the stain,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+the Summer,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the T-shirt,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the town,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the victim,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the wife,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the Winter,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 the woman,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 white,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 yellow,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
