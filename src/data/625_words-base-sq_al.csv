@@ -1,27 +1,27 @@
 key,text:sq,ipa:sq,audio:sq,audio source:sq,tags:sq
 alive,gjallë,/ˈɟaɫə/,[sound:al_sq_al_alive.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 April,Prill,/pɾiɫ/,[sound:al_sq_al_april.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
-art,arti,/ˈaɾti/,,,AnkiLangs::SQ
+art,arti,/ˈaɾti/,[sound:al_sq_al_art.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 August,Gusht,/ɡuʃt/,[sound:al_sq_al_august.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
-bad,keq,/cɛc/,,,AnkiLangs::SQ
-beautiful,i bukur,/i ˈbukuɾ/,,,AnkiLangs::SQ
-beer,birra,/ˈbiˈra/,,,AnkiLangs::SQ
-big / large,i madh,/i madh/,,,AnkiLangs::SQ
-black,zi,/zi/,,,AnkiLangs::SQ
-blind,i verbër,/i ˈvɛɾbəɾ/,,,AnkiLangs::SQ
-blood,gjaku,/ˈɟaku/,,,AnkiLangs::SQ
-blue,blu,/blu/,,,AnkiLangs::SQ
-breakfast,mëngjesi,/mənˈɟɛsi/,,,AnkiLangs::SQ
-brown,kafe,/ˈkafɛ/,,,AnkiLangs::SQ
-cheap,lirë,/ˈliɾə/,,,AnkiLangs::SQ
-clay,argjila,/aɾˈɟila/,,,AnkiLangs::SQ
-clean,i pastër,/i ˈpastəɾ/,,,AnkiLangs::SQ
-coffee,kafeja,/kaˈfɛja/,,,AnkiLangs::SQ
-cold,i ftohtë,/i ˈftɔhtə/,,,AnkiLangs::SQ
-cool,freskët,/ˈfɾɛskət/,,,AnkiLangs::SQ
-copper,bakri,/ˈbakɾi/,,,AnkiLangs::SQ
-curved,i lakuar,/i laˈkuaɾ/,,,AnkiLangs::SQ
-dark,i errët,/i ˈɛrət/,,,AnkiLangs::SQ
+bad,keq,/cɛc/,[sound:al_sq_al_bad.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+beautiful,i bukur,/i ˈbukuɾ/,[sound:al_sq_al_beautiful.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
+beer,birra,/ˈbiˈra/,[sound:al_sq_al_beer.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+big / large,i madh,/i madh/,[sound:al_sq_al_big_large.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+black,zi,/zi/,[sound:al_sq_al_black.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+blind,i verbër,/i ˈvɛɾbəɾ/,[sound:al_sq_al_blind.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+blood,gjaku,/ˈɟaku/,[sound:al_sq_al_blood.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+blue,blu,/blu/,[sound:al_sq_al_blue.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
+breakfast,mëngjesi,/mənˈɟɛsi/,[sound:al_sq_al_breakfast.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+brown,kafe,/ˈkafɛ/,[sound:al_sq_al_brown.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+cheap,lirë,/ˈliɾə/,[sound:al_sq_al_cheap.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+clay,argjila,/aɾˈɟila/,[sound:al_sq_al_clay.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
+clean,i pastër,/i ˈpastəɾ/,[sound:al_sq_al_clean.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+coffee,kafeja,/kaˈfɛja/,[sound:al_sq_al_coffee.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+cold,i ftohtë,/i ˈftɔhtə/,[sound:al_sq_al_cold.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+cool,freskët,/ˈfɾɛskət/,[sound:al_sq_al_cool.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+copper,bakri,/ˈbakɾi/,[sound:al_sq_al_copper.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+curved,i lakuar,/i laˈkuaɾ/,[sound:al_sq_al_curved.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
+dark,i errët,/i ˈɛrət/,[sound:al_sq_al_dark.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 dark blue,blu e errët,/blu ɛ ˈɛrət/,,,AnkiLangs::SQ
 dead,i vdekur,/i ˈvdɛkuɾ/,,,AnkiLangs::SQ
 deaf,i shurdhër,/i ˈʃuɾðəɾ/,,,AnkiLangs::SQ
