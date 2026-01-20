@@ -29,4 +29,4 @@ Translations, corrections and improved audio are much appreciated! Have a look a
 
 ## Development
 
-If you are technically more experiences and want to contribute to this project you can have a look at the [development.md](docs/development.md).
+If you are technically more experienced and want to contribute to this project you can have a look at the [development.md](docs/development.md).
