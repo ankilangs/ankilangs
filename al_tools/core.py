@@ -247,7 +247,7 @@ def generate_audio(
         FROM base_language bl
         LEFT JOIN tts_overrides tts ON bl.key = tts.key AND bl.locale = tts.locale
         WHERE bl.locale = ?
-        ORDER BY bl.key
+        ORDER BY bl.key COLLATE NOCASE
     """
     df = pd.read_sql_query(query, conn, params=(locale,))
 
