@@ -41,15 +41,15 @@ check-data:
     uv run al-tools check
 
 # Build 625 words decks
-build-625:
+build-625: sqlite2csv generate
     uv run brainbrew run recipes/source_to_anki_625_words.yaml
 
 # Build minimal pairs decks
-build-minimal-pairs:
+build-minimal-pairs: sqlite2csv generate
     uv run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
 
 # Build all decks
-build-all: generate check-data build-625 build-minimal-pairs
+build-all: build-625 build-minimal-pairs
 
 # Verify data changes (export + generate + check + build)
 verify-data: sqlite2csv generate check-data build-all
