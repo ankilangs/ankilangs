@@ -31,7 +31,7 @@ Before committing language data changes, always:
 3. Export back to CSV: `just sqlite2csv` (or `uv run al-tools sqlite2csv -d data.db -o src/data`)
 4. Commit changes
 
-**Supported locales**: `de_de`, `en_us`, `es_es`, `fr_fr`, `it_it`, `la_la`, `pt_pt`, `sq_sq`
+**Supported locales**: `de_de`, `en_us`, `es_es`, `fr_fr`, `it_it`, `la_la`, `pt_pt`, `sq_al`
 
 ## Hints System
 Hints disambiguate ambiguous words without revealing the translation. There are 4 card types, each with its own hint column:

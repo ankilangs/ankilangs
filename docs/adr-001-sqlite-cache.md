@@ -42,7 +42,7 @@ CSV files remain the source of truth. The SQLite DB is disposable and can be reg
 | `generated/*.csv` | Derived files (not imported) | varies |
 
 ### Current Locales
-`de_de`, `en_us`, `es_es`, `fr_fr`, `it_it`, `la_la`, `pt_pt`, `sq_sq`
+`de_de`, `en_us`, `es_es`, `fr_fr`, `it_it`, `la_la`, `pt_pt`, `sq_al`
 
 ### Relationships
 ```

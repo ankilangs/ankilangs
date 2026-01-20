@@ -9,7 +9,7 @@
       - src/data/625_words-from-en_us-to-fr_fr.csv
       - src/data/625_words-from-en_us-to-it_it.csv
       - src/data/625_words-from-en_us-to-pt_pt.csv
-      - src/data/625_words-from-en_us-to-sq_sq.csv
+      - src/data/625_words-from-en_us-to-sq_al.csv
       - src/data/625_words-from-en_us-to-fa_ir.csv
       - src/data/625_words-from-es_es-to-de_de.csv
       - src/data/625_words-from-es_es-to-en_us.csv
@@ -461,13 +461,13 @@
               tags:sq: tags
 
         file_mappings:
-          - file: src/data/625_words-from-en_us-to-sq_sq.csv
+          - file: src/data/625_words-from-en_us-to-sq_al.csv
             note_model: vocabulary_en_to_sq
             derivatives:
               - file: src/data/625_words-base-en_us.csv
-              - file: src/data/625_words-base-sq_sq.csv
+              - file: src/data/625_words-base-sq_al.csv
               - file: src/data/625_words-pictures.csv
-              - file: src/data/generated/625_words-from-en_us-to-sq_sq.csv
+              - file: src/data/generated/625_words-from-en_us-to-sq_al.csv
 
     - notes_from_csvs:
         part_id: notes_en_to_fa
