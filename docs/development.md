@@ -279,3 +279,16 @@ To release a deck do the following:
 * Add a new Git tag
 * Create a release on GitHub with the exported deck
 * Update the README and website with download links
+
+
+## Tips & Tricks
+
+To listen to all audio files modified or added in a particular commit (requires VLC to be installed and only tested on Linux):
+
+```bash
+# Files added or modified in commit c6d7af
+cvlc `git diff --name-only --diff-filter=d c6d7af^ src/media/audio/`
+
+# Or for currently uncommitted changes:
+cvlc `git diff --name-only --diff-filter=d src/media/audio/`
+```
