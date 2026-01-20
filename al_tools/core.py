@@ -2,7 +2,7 @@ from enum import Enum
 from pathlib import Path
 import random
 import time
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Set
 import unicodedata
 import csv
 import sqlite3
@@ -526,9 +526,149 @@ class _AmbiguousWords:
         return f"{self.filename}: {self.ambiguous_words}"
 
 
-def ambiguity_detection(db_path: Path, data_dir: Path = Path("src/data")) -> str:
+def _locale_to_directory(locale: str) -> str:
+    """Convert database locale (e.g., 'en_us') to directory format (e.g., 'en_US')."""
+    lang, country = locale.split("_")
+    return f"{lang}_{country.upper()}"
+
+
+def _parse_audio_filename(audio_ref: str) -> str | None:
+    """Parse audio filename from Anki [sound:...] format.
+
+    Args:
+        audio_ref: Audio reference in format '[sound:filename.mp3]'
+
+    Returns:
+        Filename (e.g., 'al_en_us_alive.mp3') or None if invalid format
+    """
+    if (
+        not audio_ref
+        or not audio_ref.startswith("[sound:")
+        or not audio_ref.endswith("]")
+    ):
+        return None
+    return audio_ref[7:-1]  # Strip '[sound:' and ']'
+
+
+def _check_audio_files(
+    db_path: Path, media_dir: Path | None = Path("src/media/audio")
+) -> str:
+    """Check for audio file mismatches between database and disk.
+
+    Checks:
+    1. Audio files referenced in DB but not on disk
+    2. Audio files on disk but not referenced in DB
+
+    Args:
+        db_path: Path to SQLite database
+        media_dir: Path to audio media directory (None to skip audio checks)
+
+    Returns:
+        Error message string if issues found, empty string otherwise
+    """
+    # Skip audio checks if media_dir is None (e.g., in tests)
+    if media_dir is None:
+        return ""
+
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+
+    # Get all audio references from base_language table
+    cursor.execute("""
+        SELECT locale, audio, key
+        FROM base_language
+        WHERE audio IS NOT NULL AND audio <> ''
+        ORDER BY locale, key
+    """)
+    db_audio_refs = list(cursor.fetchall())
+
+    # Get all audio references from minimal_pairs table
+    cursor.execute("""
+        SELECT target_locale, audio1, guid || ' (audio1)'
+        FROM minimal_pairs
+        WHERE audio1 IS NOT NULL AND audio1 <> ''
+        UNION ALL
+        SELECT target_locale, audio2, guid || ' (audio2)'
+        FROM minimal_pairs
+        WHERE audio2 IS NOT NULL AND audio2 <> ''
+    """)
+    db_audio_refs.extend(cursor.fetchall())
+
+    conn.close()
+
+    # Build set of audio files referenced in DB, grouped by locale
+    db_files_by_locale: Dict[str, Set[str]] = {}
+    missing_on_disk = []
+
+    for locale, audio_ref, key in db_audio_refs:
+        filename = _parse_audio_filename(audio_ref)
+        if not filename:
+            continue
+
+        locale_dir = _locale_to_directory(locale)
+        if locale_dir not in db_files_by_locale:
+            db_files_by_locale[locale_dir] = set()
+        db_files_by_locale[locale_dir].add(filename)
+
+        # Check if file exists on disk
+        audio_path = media_dir / locale_dir / filename
+        if not audio_path.exists():
+            missing_on_disk.append((locale, key, filename))
+
+    # Build set of audio files on disk, grouped by locale
+    disk_files_by_locale: Dict[str, Set[str]] = {}
+    if media_dir.exists():
+        for locale_dir in media_dir.iterdir():
+            if not locale_dir.is_dir():
+                continue
+
+            locale_name = locale_dir.name
+            disk_files_by_locale[locale_name] = set()
+
+            for audio_file in locale_dir.glob("*.mp3"):
+                disk_files_by_locale[locale_name].add(audio_file.name)
+
+    # Find files on disk but not in DB
+    unreferenced_files = []
+    for locale_dir, disk_files in disk_files_by_locale.items():
+        db_files = db_files_by_locale.get(locale_dir, set())
+        orphaned = disk_files - db_files
+        for filename in sorted(orphaned):
+            unreferenced_files.append((locale_dir, filename))
+
+    # Build output
+    output = ""
+    if missing_on_disk:
+        output += "AUDIO FILES IN DATABASE BUT NOT ON DISK:\n"
+        for locale, key, filename in missing_on_disk:
+            locale_dir = _locale_to_directory(locale)
+            output += f"  - {locale_dir}/{filename} (key: '{key}')\n"
+        output += "\n"
+
+    if unreferenced_files:
+        output += "AUDIO FILES ON DISK BUT NOT IN DATABASE:\n"
+        for locale_dir, filename in unreferenced_files:
+            output += f"  - {locale_dir}/{filename}\n"
+        output += "\n"
+
+    return output
+
+
+def ambiguity_detection(
+    db_path: Path,
+    data_dir: Path = Path("src/data"),
+    media_dir: Path | None = Path("src/media/audio"),
+) -> str:
     """
     Detect ambiguous words and duplicate keys in the database.
+
+    Args:
+        db_path: Path to SQLite database
+        data_dir: Path to CSV data directory
+        media_dir: Path to audio media directory (None to skip audio checks)
+
+    Returns:
+        Output string with any errors found
     """
     _ensure_db_exists(db_path, data_dir)
     _check_db_freshness(db_path, data_dir)
@@ -720,6 +860,11 @@ def ambiguity_detection(db_path: Path, data_dir: Path = Path("src/data")) -> str
             output += f"The following ambiguous words were found in the file '{aw_obj.filename}':\n"
             for word, (keys, empty_columns) in aw_obj.ambiguous_words.items():
                 output += f"  - '{word}' has the key(s) {keys} and missing column(s) {empty_columns}\n"
+
+    # Check audio files
+    audio_output = _check_audio_files(db_path, media_dir)
+    output += audio_output
+
     return output
 
 

@@ -3,7 +3,7 @@ def test_basic_french_fille(testdata_dir, tmpdir, golden_dir):
 
     db_path = tmpdir / "test.db"
     csv2sqlite(testdata_dir, db_path, force=True)
-    output = ambiguity_detection(db_path, testdata_dir)
+    output = ambiguity_detection(db_path, testdata_dir, media_dir=None)
 
     assert (
         output
@@ -20,7 +20,7 @@ def test_basic_french_fille_fixed(testdata_dir, tmpdir, golden_dir):
 
     db_path = tmpdir / "test.db"
     csv2sqlite(testdata_dir, db_path, force=True)
-    output = ambiguity_detection(db_path, testdata_dir)
+    output = ambiguity_detection(db_path, testdata_dir, media_dir=None)
 
     assert output == ""
 
@@ -30,6 +30,6 @@ def test_basic_french_no_ambiguity(testdata_dir, tmpdir, golden_dir):
 
     db_path = tmpdir / "test.db"
     csv2sqlite(testdata_dir, db_path, force=True)
-    output = ambiguity_detection(db_path, testdata_dir)
+    output = ambiguity_detection(db_path, testdata_dir, media_dir=None)
 
     assert output == ""
