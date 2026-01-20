@@ -39,6 +39,12 @@ def cli():
         default="skip",
         choices=["skip", "overwrite", "raise"],
     )
+    audio_parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Maximum number of audio files to generate (to limit API costs)",
+    )
 
     generate_parser = subparsers.add_parser(
         "generate", help="Generate files in 'generated' folder from SQLite"
@@ -108,6 +114,7 @@ def cli():
             Path(args.output),
             AudioExistsAction(args.action),
             Path(args.data_dir),
+            limit=args.limit,
         )
     elif args.command == "generate":
         generate_joined_source_fields(

@@ -210,11 +210,15 @@ def generate_audio(
     audio_exists_action: AudioExistsAction,
     data_dir: Path = Path("src/data"),
     seed: int = 42,
+    limit: int = None,
 ):
     """
     Generate audio via the Google Cloud TTS API.
     Reads from SQLite database and updates it with generated audio.
     If the directory does not exist it will be created.
+
+    Args:
+        limit: Maximum number of audio files to generate. None means no limit.
     """
     _ensure_db_exists(db_path, data_dir)
     _check_db_freshness(db_path, data_dir)
@@ -258,8 +262,14 @@ def generate_audio(
     audio_config = tts.AudioConfig(audio_encoding=tts.AudioEncoding.MP3)
 
     cursor = conn.cursor()
+    generated_count = 0
     try:
         for rowindex, row in df.iterrows():
+            # Check if we've reached the limit
+            if limit is not None and generated_count >= limit:
+                print(f"\nReached limit of {limit} audio files. Stopping.")
+                break
+
             # Skip rows with empty text
             if pd.isna(row[text_col]) or not row[text_col]:
                 print(f"Skipping row with key '{row['key']}' - empty text")
@@ -328,17 +338,24 @@ def generate_audio(
             )
             print(f"Audio content written to file '{audio_file}'")
 
-        # Update SQLite with the changes
-        for rowindex, row in df.iterrows():
+            # Update SQLite immediately after successful generation
             cursor.execute(
                 """
                 UPDATE base_language
                 SET audio = ?, audio_source = ?
                 WHERE key = ? AND locale = ?
                 """,
-                (row[audio_col] or "", row[audio_source_col] or "", row["key"], locale),
+                (
+                    df.at[rowindex, audio_col] or "",
+                    df.at[rowindex, audio_source_col] or "",
+                    row["key"],
+                    locale,
+                ),
             )
-        conn.commit()
+            conn.commit()
+            generated_count += 1
+
+        print(f"\nGenerated {generated_count} audio file(s).")
     finally:
         conn.close()
 
