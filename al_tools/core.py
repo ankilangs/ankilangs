@@ -165,40 +165,35 @@ def _get_audio_source_col(df: pd.DataFrame) -> str:
 
 _VOICE_MAP = {
     "en_gb": [
-        "en-GB-Chirp3-HD-Charon",
-        "en-GB-Chirp3-HD-Kore",
-        "en-GB-Chirp3-HD-Leda",
+        "en-GB-Studio-B",
+        "en-GB-Studio-C",
     ],
     "en_us": [
-        "en-US-Chirp3-HD-Aoede",
-        "en-US-Chirp3-HD-Enceladus",
-        "en-US-Chirp3-HD-Sulafat",
+        "en-US-Studio-O",
+        "en-US-Studio-Q",
     ],
     "es_es": [
-        "es-ES-Chirp3-HD-Despina",
-        "es-ES-Chirp3-HD-Gacrux",
+        "es-ES-Studio-C",
+        "es-ES-Studio-F",
     ],
     "fr_fr": [
-        "fr-FR-Chirp3-HD-Callirrhoe",
-        "fr-FR-Chirp3-HD-Puck",
-        "fr-FR-Chirp3-HD-Schedar",
+        "fr-FR-Studio-A",
+        "fr-FR-Studio-D",
     ],
+    # No Italian studio voices exist as of Jan 2025
     "it_it": [
-        "it-IT-Chirp3-HD-Autonoe",
-        "it-IT-Chirp3-HD-Iapetus",
-        "it-IT-Chirp3-HD-Vindemiatrix",
+        "it-IT-Journey-D",
+        "it-IT-Journey-F",
+        "it-IT-Journey-O",
     ],
     "de_de": [
-        "de-DE-Chirp3-HD-Charon",
-        # "de-DE-Chirp3-HD-Erinome",
-        "de-DE-Chirp3-HD-Rasalgethi",
-        # "de-DE-Chirp3-HD-Umbriel",
-        "de-DE-Chirp3-HD-Vindemiatrix",
+        "de-DE-Studio-B",
+        "de-DE-Studio-C",
     ],
+    # No Portuguese studio voices exist as of Jan 2025
     "pt_pt": [
-        "pt-PT-Chirp3-HD-Fenrir",
-        "pt-PT-Chirp3-HD-Sadachbia",
-        "pt-PT-Chirp3-HD-Zephyr",
+        "pt-PT-Standard-D",
+        "pt-PT-Standard-F",
     ],
 }
 
