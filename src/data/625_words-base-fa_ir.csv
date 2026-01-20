@@ -1,32 +1,32 @@
 key,text:fa,ipa:fa,audio:fa,audio source:fa,tags:fa
-alive,زنده,/zende/,,,AnkiLangs::FA
-April,آوریل,/ɒːvɾil/,,,AnkiLangs::FA
-art,هنر,/honæɾ/,,,AnkiLangs::FA
-August,اوت,/ut/,,,AnkiLangs::FA
-bad,بد,/bæd/,,,AnkiLangs::FA
-beautiful,زیبا,/zibɒː/,,,AnkiLangs::FA
-beer,آبجو,/ɒːbd͡ʒu/,,,AnkiLangs::FA
-big / large,بزرگ,/bozoɾg/,,,AnkiLangs::FA
-black,سیاه,/sijɒːh/,,,AnkiLangs::FA
-blind,کور,/kuɾ/,,,AnkiLangs::FA
-blood,خون,/xun/,,,AnkiLangs::FA
-blue,آبی,/ɒːbi/,,,AnkiLangs::FA
-breakfast,صبحانه,/sobhɒːne/,,,AnkiLangs::FA
-brown,قهوه‌ای,/ɢæhveʔi/,,,AnkiLangs::FA
-cheap,ارزان,/æɾzɒːn/,,,AnkiLangs::FA
-clay,خاک رس,/xɒːke ɾes/,,,AnkiLangs::FA
-clean,تمیز,/tæmiz/,,,AnkiLangs::FA
-coffee,قهوه,/ɢæhve/,,,AnkiLangs::FA
-cold,سرد,/særd/,,,AnkiLangs::FA
-cool,خنک,/xonæk/,,,AnkiLangs::FA
-copper,مس,/mes/,,,AnkiLangs::FA
-curved,منحنی,/monhæni/,,,AnkiLangs::FA
+alive,زنده,/zende/,[sound:al_fa_ir_alive.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+April,آوریل,/ɒːvɾil/,[sound:al_fa_ir_april.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+art,هنر,/honæɾ/,[sound:al_fa_ir_art.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+August,اوت,/ut/,[sound:al_fa_ir_august.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+bad,بد,/bæd/,[sound:al_fa_ir_bad.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+beautiful,زیبا,/zibɒː/,[sound:al_fa_ir_beautiful.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+beer,آبجو,/ɒːbd͡ʒu/,[sound:al_fa_ir_beer.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+big / large,بزرگ,/bozoɾg/,[sound:al_fa_ir_big_large.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+black,سیاه,/sijɒːh/,[sound:al_fa_ir_black.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+blind,کور,/kuɾ/,[sound:al_fa_ir_blind.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+blood,خون,/xun/,[sound:al_fa_ir_blood.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+blue,آبی,/ɒːbi/,[sound:al_fa_ir_blue.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+breakfast,صبحانه,/sobhɒːne/,[sound:al_fa_ir_breakfast.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+brown,قهوه‌ای,/ɢæhveʔi/,[sound:al_fa_ir_brown.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+cheap,ارزان,/æɾzɒːn/,[sound:al_fa_ir_cheap.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+clay,خاک رس,/xɒːke ɾes/,[sound:al_fa_ir_clay.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+clean,تمیز,/tæmiz/,[sound:al_fa_ir_clean.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+coffee,قهوه,/ɢæhve/,[sound:al_fa_ir_coffee.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+cold,سرد,/særd/,[sound:al_fa_ir_cold.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+cool,خنک,/xonæk/,[sound:al_fa_ir_cool.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+copper,مس,/mes/,[sound:al_fa_ir_copper.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+curved,منحنی,/monhæni/,[sound:al_fa_ir_curved.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 dark,تاریک,/tɒːɾik/,,,AnkiLangs::FA
 dark blue,سرمه‌ای,/soɾmeʔi/,,,AnkiLangs::FA
 dead,مرده,/moɾde/,,,AnkiLangs::FA
 deaf,کر,/kæɾ/,,,AnkiLangs::FA
 death,مرگ,/mæɾg/,,,AnkiLangs::FA
-December,دسامبر,/desɒːmbɾ/,,,AnkiLangs::FA
+December,دسامبر,/desɒːmbɾ/,[sound:al_fa_ir_december.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
 deep,عمیق,/ʔæmiɢ/,,,AnkiLangs::FA
 diamond,الماس,/ælmɒːs/,,,AnkiLangs::FA
 dinner,شام,/ʃɒːm/,,,AnkiLangs::FA
@@ -35,7 +35,7 @@ disease,بیماری,/bimɒːɾi/,,,AnkiLangs::FA
 down,پایین,/pɒːjin/,,,AnkiLangs::FA
 dry,خشک,/xoʃk/,,,AnkiLangs::FA
 dust,گرد و خاک,/gæɾdo xɒːk/,,,AnkiLangs::FA
-Earth,زمین,/zæmin/,,,AnkiLangs::FA
+Earth,زمین,/zæmin/,[sound:al_fa_ir_earth.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 eight (8),هشت,/hæʃt/,,,AnkiLangs::FA
 eighteen (18),هجده,/hid͡ʒdæh/,,,AnkiLangs::FA
 eighty (80),هشتاد,/hæʃtɒːd/,,,AnkiLangs::FA
@@ -47,7 +47,7 @@ exercise,ورزش,/væɾzeʃ/,,,AnkiLangs::FA
 expensive,گران,/geɾɒːn/,,,AnkiLangs::FA
 famous,معروف,/mæʔɾuf/,,,AnkiLangs::FA
 fast,سریع,/særiʔ/,,,AnkiLangs::FA
-February,فوریه,/fevɾije/,,,AnkiLangs::FA
+February,فوریه,/fevɾije/,[sound:al_fa_ir_february.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 female,مونث,/moʔænæs/,,,AnkiLangs::FA
 fifteen (15),پانزده,/pɒːnzdæh/,,,AnkiLangs::FA
 fifth (5th),پنجم,/pænd͡ʒom/,,,AnkiLangs::FA
@@ -64,9 +64,9 @@ forty-two (42),چهل و دو,/t͡ʃehelo do/,,,AnkiLangs::FA
 four (4),چهار,/t͡ʃæhɒːɾ/,,,AnkiLangs::FA
 fourteen (14),چهارده,/t͡ʃæhɒːɾdæh/,,,AnkiLangs::FA
 fourth (4th),چهارم,/t͡ʃæhɒːɾom/,,,AnkiLangs::FA
-Friday,جمعه,/d͡ʒomʔe/,,,AnkiLangs::FA
+Friday,جمعه,/d͡ʒomʔe/,[sound:al_fa_ir_friday.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 glass,شیشه,/ʃiʃe/,,,AnkiLangs::FA
-God,خدا,/xodɒː/,,,AnkiLangs::FA
+God,خدا,/xodɒː/,[sound:al_fa_ir_god.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 gold,طلا,/tælɒː/,,,AnkiLangs::FA
 good,خوب,/xub/,,,AnkiLangs::FA
 gray,خاکستری,/xɒːkestæɾi/,,,AnkiLangs::FA
@@ -80,12 +80,12 @@ heavy,سنگین,/sængin/,,,AnkiLangs::FA
 hell,جهنم,/d͡ʒæhænæm/,,,AnkiLangs::FA
 high,بلند,/bolænd/,,,AnkiLangs::FA
 hot,داغ,/dɒːɢ/,,,AnkiLangs::FA
-I,من,/mæn/,,,AnkiLangs::FA
+I,من,/mæn/,[sound:al_fa_ir_i.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 it,آن,/ɒːn/,,,AnkiLangs::FA
-January,ژانویه,/ʒɒːnvije/,,,AnkiLangs::FA
+January,ژانویه,/ʒɒːnvije/,[sound:al_fa_ir_january.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
 juice,آبمیوه,/ɒːbmive/,,,AnkiLangs::FA
-July,ژوئیه,/ʒuʔije/,,,AnkiLangs::FA
-June,ژوئن,/ʒuʔæn/,,,AnkiLangs::FA
+July,ژوئیه,/ʒuʔije/,[sound:al_fa_ir_july.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+June,ژوئن,/ʒuʔæn/,[sound:al_fa_ir_june.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 left,چپ,/t͡ʃæp/,,,AnkiLangs::FA
 "light [opposite of ""dark""]",روشن,/ɾoʃæn/,,,AnkiLangs::FA
 "light [opposite of ""heavy""]",سبک,/sabok/,,,AnkiLangs::FA
@@ -96,15 +96,15 @@ loud,بلند,/bolænd/,,,AnkiLangs::FA
 low,پایین,/pɒːjin/,,,AnkiLangs::FA
 lunch,ناهار,/nɒːhɒːɾ/,,,AnkiLangs::FA
 male,مذکر,/mozækæɾ/,,,AnkiLangs::FA
-March,مارس,/mɒːɾs/,,,AnkiLangs::FA
+March,مارس,/mɒːɾs/,[sound:al_fa_ir_march.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 marriage,ازدواج,/ezdovɒːd͡ʒ/,,,AnkiLangs::FA
 material,ماده,/mɒːde/,,,AnkiLangs::FA
-May,مه,/me/,,,AnkiLangs::FA
+May,مه,/me/,[sound:al_fa_ir_may.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
 mean,بدجنس,/bædd͡ʒens/,,,AnkiLangs::FA
 medicine,دارو,/dɒːɾu/,,,AnkiLangs::FA
 metal,فلز,/fellez/,,,AnkiLangs::FA
 milk,شیر,/ʃiɾ/,,,AnkiLangs::FA
-Monday,دوشنبه,/doʃænbe/,,,AnkiLangs::FA
+Monday,دوشنبه,/doʃænbe/,[sound:al_fa_ir_monday.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 money,پول,/pul/,,,AnkiLangs::FA
 murder,قتل,/ɢætl/,,,AnkiLangs::FA
 music,موسیقی,/musiɢi/,,,AnkiLangs::FA
@@ -118,9 +118,9 @@ ninety (90),نود,/nævæd/,,,AnkiLangs::FA
 ninety-one (91),نود و یک,/nævædo jek/,,,AnkiLangs::FA
 ninety-two (92),نود و دو,/nævædo do/,,,AnkiLangs::FA
 no,نه,/næ/,,,AnkiLangs::FA
-November,نوامبر,/novɒːmbɾ/,,,AnkiLangs::FA
+November,نوامبر,/novɒːmbɾ/,[sound:al_fa_ir_november.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 nuclear,هسته‌ای,/hæsteʔi/,,,AnkiLangs::FA
-October,اکتبر,/oktobɾ/,,,AnkiLangs::FA
+October,اکتبر,/oktobɾ/,[sound:al_fa_ir_october.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 oil,روغن,/ɾoɢæn/,,,AnkiLangs::FA
 "old [opposite of ""new""]",کهنه,/kohne/,,,AnkiLangs::FA
 "old [opposite of ""young""]",پیر,/piɾ/,,,AnkiLangs::FA
@@ -154,10 +154,10 @@ rich,ثروتمند,/seɾvætmænd/,,,AnkiLangs::FA
 right,راست,/ɾɒːst/,,,AnkiLangs::FA
 sad,غمگین,/ɢæmgin/,,,AnkiLangs::FA
 salt,نمک,/næmæk/,,,AnkiLangs::FA
-Saturday,شنبه,/ʃænbe/,,,AnkiLangs::FA
+Saturday,شنبه,/ʃænbe/,[sound:al_fa_ir_saturday.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 science,علم,/ʔelm/,,,AnkiLangs::FA
 second (2nd),دوم,/dovom/,,,AnkiLangs::FA
-September,سپتامبر,/septɒːmbɾ/,,,AnkiLangs::FA
+September,سپتامبر,/septɒːmbɾ/,[sound:al_fa_ir_september.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 seven (7),هفت,/hæft/,,,AnkiLangs::FA
 seventeen (17),هفده,/hivdæh/,,,AnkiLangs::FA
 seventy (70),هفتاد,/hæftɒːd/,,,AnkiLangs::FA
@@ -186,7 +186,7 @@ stone,سنگ,/sæng/,,,AnkiLangs::FA
 straight,مستقیم,/mostæɢim/,,,AnkiLangs::FA
 strong,قوی,/ɢævi/,,,AnkiLangs::FA
 sugar,شکر,/ʃekæɾ/,,,AnkiLangs::FA
-Sunday,یکشنبه,/jekʃænbe/,,,AnkiLangs::FA
+Sunday,یکشنبه,/jekʃænbe/,[sound:al_fa_ir_sunday.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
 sweat,عرق,/ʔæɾæɢ/,,,AnkiLangs::FA
 tall,بلندقد,/bolænd ɢæd/,,,AnkiLangs::FA
 tea,چای,/t͡ʃɒːj/,,,AnkiLangs::FA
@@ -517,7 +517,7 @@ thirty (30),سی,/si/,,,AnkiLangs::FA
 thirty-one (31),سی و یک,/sio jek/,,,AnkiLangs::FA
 thirty-two (32),سی و دو,/sio do/,,,AnkiLangs::FA
 three (3),سه,/se/,,,AnkiLangs::FA
-Thursday,پنجشنبه,/pænd͡ʒʃænbe/,,,AnkiLangs::FA
+Thursday,پنجشنبه,/pænd͡ʒʃænbe/,[sound:al_fa_ir_thursday.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 tight,تنگ,/tæng/,,,AnkiLangs::FA
 to beat,زدن,/zædæn/,,,AnkiLangs::FA
 to bend,خم کردن,/xæm kæɾdæn/,,,AnkiLangs::FA
