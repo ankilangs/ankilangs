@@ -1,8 +1,13 @@
+---
+title: "Learning Tips"
+weight: 30
+---
+
 # Learning Tips
 
 ## Card Types
 
-This deck uses four complementary card types to help you master vocabulary:
+Most AnkiLangs decks use four complementary card types to help you master vocabulary:
 
 ### Pronunciation
 See the source language word and speak the target language word aloud. Focus on accurate pronunciation.
@@ -25,7 +30,7 @@ See the source language word, hear the target language pronunciation, and type t
 - **Be honest**: Mark cards as "Again" if you couldn't recall the answer quickly
 - **Context matters**: Once you've learned a word, try to use it in sentences
 
-## Adjusting Settings
+## Adjusting Anki Settings
 
 You can customize Anki's spaced repetition algorithm to match your learning style:
 
@@ -34,3 +39,12 @@ You can customize Anki's spaced repetition algorithm to match your learning styl
 - **Lapses**: Consider using a shorter interval for forgotten cards
 
 See [Anki's documentation](https://docs.ankiweb.net/) for detailed settings guidance.
+
+## Minimal Pairs Decks
+
+For minimal pairs decks specifically:
+
+- **Listen carefully**: Focus on the subtle differences between the sounds
+- **Repeat out loud**: After revealing the answer, practice speaking both words
+- **Use the audio repeatedly**: Play each audio multiple times if needed
+- **Practice regularly**: Daily short sessions are more effective than long, infrequent ones

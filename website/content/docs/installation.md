@@ -1,6 +1,13 @@
+---
+title: "Installation"
+weight: 20
+---
+
 # Installation
 
-1. Download the `.apkg` file using the download button
+## Installing a Deck
+
+1. Download the `.apkg` file from the deck's page
 2. Open Anki
 3. Go to File → Import
 4. Select the downloaded `.apkg` file
@@ -8,7 +15,7 @@
 
 The deck will be added to your collection and you can start studying immediately.
 
-## Updating
+## Updating a Deck
 
 When a new version is released:
 
@@ -17,3 +24,7 @@ When a new version is released:
 3. Anki will update your deck while preserving your learning progress
 
 Your review history and card scheduling will be maintained during updates.
+
+## Installing Anki
+
+If you don't have Anki yet, check the [official instructions](https://apps.ankiweb.net/) for installing on Windows, macOS, Linux, Android, or iOS.
