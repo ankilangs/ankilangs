@@ -1,8 +1,8 @@
 key,text:sq,ipa:sq,audio:sq,audio source:sq,tags:sq
-alive,gjallë,/ˈɟaɫə/,,,AnkiLangs::SQ
-April,Prill,/pɾiɫ/,,,AnkiLangs::SQ
+alive,gjallë,/ˈɟaɫə/,[sound:al_sq_al_gjalle.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+April,Prill,/pɾiɫ/,[sound:al_sq_al_prill.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 art,arti,/ˈaɾti/,,,AnkiLangs::SQ
-August,Gusht,/ɡuʃt/,,,AnkiLangs::SQ
+August,Gusht,/ɡuʃt/,[sound:al_sq_al_gusht.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 bad,keq,/cɛc/,,,AnkiLangs::SQ
 beautiful,i bukur,/i ˈbukuɾ/,,,AnkiLangs::SQ
 beer,birra,/ˈbiˈra/,,,AnkiLangs::SQ
@@ -26,7 +26,7 @@ dark blue,blu e errët,/blu ɛ ˈɛrət/,,,AnkiLangs::SQ
 dead,i vdekur,/i ˈvdɛkuɾ/,,,AnkiLangs::SQ
 deaf,i shurdhër,/i ˈʃuɾðəɾ/,,,AnkiLangs::SQ
 death,vdekja,/ˈvdɛcja/,,,AnkiLangs::SQ
-December,Dhjetor,/ðɛˈtɔɾ/,,,AnkiLangs::SQ
+December,Dhjetor,/ðɛˈtɔɾ/,[sound:al_sq_al_dhjetor.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 deep,i thellë,/i ˈθɛɫə/,,,AnkiLangs::SQ
 diamond,diamanti,/diaˈmanti/,,,AnkiLangs::SQ
 dinner,darka,/ˈdaɾka/,,,AnkiLangs::SQ
@@ -35,7 +35,7 @@ disease,sëmundja,/səˈmundja/,,,AnkiLangs::SQ
 down,poshtë,/ˈpɔʃtə/,,,AnkiLangs::SQ
 dry,i thatë,/i ˈθatə/,,,AnkiLangs::SQ
 dust,pluhuri,/pluˈhuɾi/,,,AnkiLangs::SQ
-Earth,Toka,/ˈtɔka/,,,AnkiLangs::SQ
+Earth,Toka,/ˈtɔka/,[sound:al_sq_al_toka.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 eight (8),tetë,/ˈtɛtə/,,,AnkiLangs::SQ
 eighteen (18),tetëmbëdhjetë,/tɛtəmˈbəðjɛtə/,,,AnkiLangs::SQ
 eighty (80),tetëdhjetë,/tɛtəˈðjɛtə/,,,AnkiLangs::SQ
@@ -47,7 +47,7 @@ exercise,ushtrimi,/uʃˈtɾimi/,,,AnkiLangs::SQ
 expensive,i shtrenjtë,/i ˈʃtɾɛɲtə/,,,AnkiLangs::SQ
 famous,i famshëm,/i ˈfamʃəm/,,,AnkiLangs::SQ
 fast,i shpejtë,/i ˈʃpɛjtə/,,,AnkiLangs::SQ
-February,Shkurt,/ʃkuɾt/,,,AnkiLangs::SQ
+February,Shkurt,/ʃkuɾt/,[sound:al_sq_al_shkurt.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 female,femër,/ˈfɛməɾ/,,,AnkiLangs::SQ
 fifteen (15),pesëmbëdhjetë,/pɛsəmˈbəðjɛtə/,,,AnkiLangs::SQ
 fifth (5th),i pestë,/i ˈpɛstə/,,,AnkiLangs::SQ
@@ -64,9 +64,9 @@ forty-two (42),dyzet e dy,/ˈdyzɛt ɛ dy/,,,AnkiLangs::SQ
 four (4),katër,/ˈkatəɾ/,,,AnkiLangs::SQ
 fourteen (14),katërmbëdhjetë,/katəɾmˈbəðjɛtə/,,,AnkiLangs::SQ
 fourth (4th),i katërt,/i ˈkatəɾt/,,,AnkiLangs::SQ
-Friday,e premte,/ɛ ˈpɾɛmtɛ/,,,AnkiLangs::SQ
+Friday,e premte,/ɛ ˈpɾɛmtɛ/,[sound:al_sq_al_e_premte.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 glass,qelqi,/ˈcɛɫci/,,,AnkiLangs::SQ
-God,Zot,/zɔt/,,,AnkiLangs::SQ
+God,Zot,/zɔt/,[sound:al_sq_al_zot.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 gold,ari,/ˈaɾi/,,,AnkiLangs::SQ
 good,i mirë,/i ˈmiɾə/,,,AnkiLangs::SQ
 gray,gri,/ɡɾi/,,,AnkiLangs::SQ
@@ -80,12 +80,12 @@ heavy,i rëndë,/i ˈɾəndə/,,,AnkiLangs::SQ
 hell,ferri,/ˈfɛri/,,,AnkiLangs::SQ
 high,i lartë,/i ˈlaɾtə/,,,AnkiLangs::SQ
 hot,i nxehtë,/i ˈnksɛhtə/,,,AnkiLangs::SQ
-I,unë,/ˈunə/,,,AnkiLangs::SQ
+I,unë,/ˈunə/,[sound:al_sq_al_une.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 it,ai,/ˈai/,,,AnkiLangs::SQ
-January,Janar,/jaˈnaɾ/,,,AnkiLangs::SQ
+January,Janar,/jaˈnaɾ/,[sound:al_sq_al_janar.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 juice,lëngu,/ˈɫəŋɡu/,,,AnkiLangs::SQ
-July,Korrik,/kɔˈrik/,,,AnkiLangs::SQ
-June,Qershor,/cɛɾˈʃɔɾ/,,,AnkiLangs::SQ
+July,Korrik,/kɔˈrik/,[sound:al_sq_al_korrik.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+June,Qershor,/cɛɾˈʃɔɾ/,[sound:al_sq_al_qershor.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 left,majtas,/ˈmajtas/,,,AnkiLangs::SQ
 "light [opposite of ""dark""]",i çelët,/i ˈt͡ʃɛɫət/,,,AnkiLangs::SQ
 "light [opposite of ""heavy""]",i lehtë,/i ˈlɛhtə/,,,AnkiLangs::SQ
@@ -96,15 +96,15 @@ loud,i zhurmshëm,/i ʒuɾmˈʃəm/,,,AnkiLangs::SQ
 low,i ulët,/i ˈulət/,,,AnkiLangs::SQ
 lunch,dreka,/ˈdɾɛka/,,,AnkiLangs::SQ
 male,mashkull,/maʃˈkuɫ/,,,AnkiLangs::SQ
-March,Mars,/maɾs/,,,AnkiLangs::SQ
+March,Mars,/maɾs/,[sound:al_sq_al_mars.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 marriage,martesa,/maɾˈtɛsa/,,,AnkiLangs::SQ
 material,materiali,/matɛɾiˈali/,,,AnkiLangs::SQ
-May,Maj,/maj/,,,AnkiLangs::SQ
+May,Maj,/maj/,[sound:al_sq_al_maj.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 mean,i lig,/i liɡ/,,,AnkiLangs::SQ
 medicine,ilaçi,/iˈlat͡ʃi/,,,AnkiLangs::SQ
 metal,metali,/mɛˈtali/,,,AnkiLangs::SQ
 milk,qumështi,/cumˈəʃti/,,,AnkiLangs::SQ
-Monday,e hënë,/ɛ ˈhənə/,,,AnkiLangs::SQ
+Monday,e hënë,/ɛ ˈhənə/,[sound:al_sq_al_e_hene.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 money,paratë,/paˈɾatə/,,,AnkiLangs::SQ
 murder,vrasja,/ˈvɾasja/,,,AnkiLangs::SQ
 music,muzika,/ˈmuzika/,,,AnkiLangs::SQ
@@ -118,9 +118,9 @@ ninety (90),nëntëdhjetë,/nəntəˈðjɛtə/,,,AnkiLangs::SQ
 ninety-one (91),nëntëdhjetë e një,/nəntəˈðjɛtə ɛ ˈnjə/,,,AnkiLangs::SQ
 ninety-two (92),nëntëdhjetë e dy,/nəntəˈðjɛtə ɛ dy/,,,AnkiLangs::SQ
 no,jo,/jɔ/,,,AnkiLangs::SQ
-November,Nëntor,/nənˈtɔɾ/,,,AnkiLangs::SQ
+November,Nëntor,/nənˈtɔɾ/,[sound:al_sq_al_nentor.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 nuclear,bërthamor,/bəɾθaˈmɔɾ/,,,AnkiLangs::SQ
-October,Tetor,/tɛˈtɔɾ/,,,AnkiLangs::SQ
+October,Tetor,/tɛˈtɔɾ/,[sound:al_sq_al_tetor.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 oil,vaji,/ˈvaji/,,,AnkiLangs::SQ
 "old [opposite of ""new""]",i vjetër,/i ˈvjɛtəɾ/,,,AnkiLangs::SQ
 "old [opposite of ""young""]",i moshuar,/i mɔˈʃuaɾ/,,,AnkiLangs::SQ
@@ -154,10 +154,10 @@ rich,i pasur,/i ˈpasuɾ/,,,AnkiLangs::SQ
 right,djathtas,/ˈdjathtas/,,,AnkiLangs::SQ
 sad,i trishtuar,/i tɾiʃˈtuaɾ/,,,AnkiLangs::SQ
 salt,kripë,/ˈkɾipə/,,,AnkiLangs::SQ
-Saturday,e shtunë,/ɛ ˈʃtunə/,,,AnkiLangs::SQ
+Saturday,e shtunë,/ɛ ˈʃtunə/,[sound:al_sq_al_e_shtune.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 science,shkenca,/ˈʃkɛnt͡sa/,,,AnkiLangs::SQ
 second (2nd),i dytë,/i ˈdytə/,,,AnkiLangs::SQ
-September,Shtator,/ʃtaˈtɔɾ/,,,AnkiLangs::SQ
+September,Shtator,/ʃtaˈtɔɾ/,[sound:al_sq_al_shtator.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 seven (7),shtatë,/ˈʃtatə/,,,AnkiLangs::SQ
 seventeen (17),shtatëmbëdhjetë,/ʃtatəmˈbəðjɛtə/,,,AnkiLangs::SQ
 seventy (70),shtatëdhjetë,/ʃtatəˈðjɛtə/,,,AnkiLangs::SQ
@@ -186,7 +186,7 @@ stone,guri,/ˈɡuɾi/,,,AnkiLangs::SQ
 straight,drejtë,/ˈdɾɛjtə/,,,AnkiLangs::SQ
 strong,i fortë,/i ˈfɔɾtə/,,,AnkiLangs::SQ
 sugar,sheqeri,/ʃɛˈcɛɾi/,,,AnkiLangs::SQ
-Sunday,e diel,/ɛ ˈdiɛl/,,,AnkiLangs::SQ
+Sunday,e diel,/ɛ ˈdiɛl/,[sound:al_sq_al_e_diel.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 sweat,djersë,/ˈdjɛɾsə/,,,AnkiLangs::SQ
 tall,i gjatë,/i ˈɟatə/,,,AnkiLangs::SQ
 tea,çaji,/ˈt͡ʃaji/,,,AnkiLangs::SQ
@@ -517,7 +517,7 @@ thirty (30),tridhjetë,/tɾiˈðjɛtə/,,,AnkiLangs::SQ
 thirty-one (31),tridhjetë e një,/tɾiˈðjɛtə ɛ ˈnjə/,,,AnkiLangs::SQ
 thirty-two (32),tridhjetë e dy,/tɾiˈðjɛtə ɛ dʏ/,,,AnkiLangs::SQ
 three (3),tre,/tɾɛ/,,,AnkiLangs::SQ
-Thursday,e enjte,/ɛ ˈɛɲtɛ/,,,AnkiLangs::SQ
+Thursday,e enjte,/ɛ ˈɛɲtɛ/,[sound:al_sq_al_e_enjte.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 tight,i ngushtë,/i ˈŋuʃtə/,,,AnkiLangs::SQ
 to beat,të rrahësh,/tə ˈrahəʃ/,,,AnkiLangs::SQ
 to bend,të përkulësh,/tə pəɾˈkuɫəʃ/,,,AnkiLangs::SQ
@@ -602,7 +602,7 @@ to win,të fitosh,/tə fiˈtɔʃ/,,,AnkiLangs::SQ
 to work,të punosh,/tə puˈnɔʃ/,,,AnkiLangs::SQ
 to write,të shkruash,/tə ʃkɾuˈaʃ/,,,AnkiLangs::SQ
 transportation,transporti,/tɾanˈspɔɾti/,,,AnkiLangs::SQ
-Tuesday,e martë,/ɛ ˈmaɾtə/,,,AnkiLangs::SQ
+Tuesday,e martë,/ɛ ˈmaɾtə/,[sound:al_sq_al_e_marte.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 twelve (12),dymbëdhjetë,/dʏmbəˈðjɛtə/,,,AnkiLangs::SQ
 twenty (20),njëzetë,/njəˈzɛtə/,,,AnkiLangs::SQ
 twenty-one (21),njëzetë e një,/njəˈzɛtə ɛ ˈnjə/,,,AnkiLangs::SQ
@@ -616,7 +616,7 @@ water,ujë,/ˈujə/,,,AnkiLangs::SQ
 we,ne,/nɛ/,,,AnkiLangs::SQ
 weak,i dobët,/i ˈdɔbət/,,,AnkiLangs::SQ
 wedding,dasma,/ˈdasma/,,,AnkiLangs::SQ
-Wednesday,e mërkurë,/ɛ məɾˈkuɾə/,,,AnkiLangs::SQ
+Wednesday,e mërkurë,/ɛ məɾˈkuɾə/,[sound:al_sq_al_e_merkure.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 weight,pesha,/ˈpɛʃa/,,,AnkiLangs::SQ
 wet,i lagur,/i ˈɫaɡuɾ/,,,AnkiLangs::SQ
 white,i bardhë,/i ˈbaɾðə/,,,AnkiLangs::SQ
