@@ -1,38 +1,38 @@
 key,text:pt,ipa:pt,audio:pt,audio source:pt,tags:pt
-alive,vivo,/ˈvivu/,,,AnkiLangs::PT
-April,abril,/ɐˈβɾiɫ/,,,AnkiLangs::PT
-art,a arte,/ɐ ˈaɾtɨ/,,,AnkiLangs::PT
-August,agosto,/ɐˈɣoʃtu/,,,AnkiLangs::PT
-bad,mau,/ˈmau/,,,AnkiLangs::PT
-beautiful,bonito,/buˈnitu/,,,AnkiLangs::PT
-beer,a cerveja,/ɐ sɨɾˈvɐjʒɐ/,,,AnkiLangs::PT
-big / large,grande,/ˈɡɾɐ̃dɨ/,,,AnkiLangs::PT
+alive,vivo,/ˈvivu/,[sound:al_pt_pt_alive.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+April,abril,/ɐˈβɾiɫ/,[sound:al_pt_pt_april.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+art,a arte,/ɐ ˈaɾtɨ/,[sound:al_pt_pt_art.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+August,agosto,/ɐˈɣoʃtu/,[sound:al_pt_pt_august.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+bad,mau,/ˈmau/,[sound:al_pt_pt_bad.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+beautiful,bonito,/buˈnitu/,[sound:al_pt_pt_beautiful.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+beer,a cerveja,/ɐ sɨɾˈvɐjʒɐ/,[sound:al_pt_pt_beer.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+big / large,grande,/ˈɡɾɐ̃dɨ/,[sound:al_pt_pt_big_large.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 black,preto,/ˈpɾetu/,[sound:al_pt_pt_black.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
-blind,cego,/ˈseɣu/,,,AnkiLangs::PT
-blood,o sangue,/u ˈsɐ̃ɡɨ/,,,AnkiLangs::PT
+blind,cego,/ˈseɣu/,[sound:al_pt_pt_blind.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+blood,o sangue,/u ˈsɐ̃ɡɨ/,[sound:al_pt_pt_blood.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 blue,azul,/ɐˈzul/,[sound:al_pt_pt_blue.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
-breakfast,o pequeno-almoço,/u pɨˈkenu ɐɫˈmosu/,,,AnkiLangs::PT
+breakfast,o pequeno-almoço,/u pɨˈkenu ɐɫˈmosu/,[sound:al_pt_pt_breakfast.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 brown,castanho,/kɐʃˈtɐɲu/,[sound:al_pt_pt_brown.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
-cheap,barato,/bɐˈɾatu/,,,AnkiLangs::PT
-clay,a argila,/ɐ ɐɾˈʒilɐ/,,,AnkiLangs::PT
-clean,limpo,/ˈlĩpu/,,,AnkiLangs::PT
-coffee,o café,/u kɐˈfɛ/,,,AnkiLangs::PT
-cold,frio,/ˈfɾiu/,,,AnkiLangs::PT
-cool,fresco,/ˈfɾɛʃku/,,,AnkiLangs::PT
-copper,o cobre,/u ˈkɔβɾɨ/,,,AnkiLangs::PT
-curved,curvo,/ˈkuɾvu/,,,AnkiLangs::PT
-dark,escuro,/ɨʃˈkuɾu/,,,AnkiLangs::PT
+cheap,barato,/bɐˈɾatu/,[sound:al_pt_pt_cheap.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+clay,a argila,/ɐ ɐɾˈʒilɐ/,[sound:al_pt_pt_clay.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+clean,limpo,/ˈlĩpu/,[sound:al_pt_pt_clean.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+coffee,o café,/u kɐˈfɛ/,[sound:al_pt_pt_coffee.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+cold,frio,/ˈfɾiu/,[sound:al_pt_pt_cold.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+cool,fresco,/ˈfɾɛʃku/,[sound:al_pt_pt_cool.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+copper,o cobre,/u ˈkɔβɾɨ/,[sound:al_pt_pt_copper.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+curved,curvo,/ˈkuɾvu/,[sound:al_pt_pt_curved.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+dark,escuro,/ɨʃˈkuɾu/,[sound:al_pt_pt_dark.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
 dark blue,azul escuro,/ɐˈzul ʃˈkuɾu/,[sound:al_pt_pt_dark_blue.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
-dead,morto,/ˈmoɾtu/,,,AnkiLangs::PT
-deaf,surdo,/ˈsuɾdu/,,,AnkiLangs::PT
-death,a morte,/ɐ ˈmɔɾtɨ/,,,AnkiLangs::PT
-December,dezembro,/dɨˈzẽbɾu/,,,AnkiLangs::PT
-deep,profundo,/pɾuˈfũdu/,,,AnkiLangs::PT
-diamond,o diamante,/u djɐˈmɐ̃tɨ/,,,AnkiLangs::PT
-dinner,o jantar,/u ʒɐ̃ˈtaɾ/,,,AnkiLangs::PT
-dirty,sujo,/ˈsuʒu/,,,AnkiLangs::PT
-disease,a doença,/ɐ duˈẽsɐ/,,,AnkiLangs::PT
-down,baixo,/ˈbajʃu/,,,AnkiLangs::PT
+dead,morto,/ˈmoɾtu/,[sound:al_pt_pt_dead.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+deaf,surdo,/ˈsuɾdu/,[sound:al_pt_pt_deaf.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+death,a morte,/ɐ ˈmɔɾtɨ/,[sound:al_pt_pt_death.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+December,dezembro,/dɨˈzẽbɾu/,[sound:al_pt_pt_december.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+deep,profundo,/pɾuˈfũdu/,[sound:al_pt_pt_deep.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+diamond,o diamante,/u djɐˈmɐ̃tɨ/,[sound:al_pt_pt_diamond.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+dinner,o jantar,/u ʒɐ̃ˈtaɾ/,[sound:al_pt_pt_dinner.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+dirty,sujo,/ˈsuʒu/,[sound:al_pt_pt_dirty.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-F,AnkiLangs::PT
+disease,a doença,/ɐ duˈẽsɐ/,[sound:al_pt_pt_disease.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
+down,baixo,/ˈbajʃu/,[sound:al_pt_pt_down.mp3],Google Cloud TTS<br>Voice: pt-PT-Standard-D,AnkiLangs::PT
 dry,seco,/ˈseku/,,,AnkiLangs::PT
 dust,o pó,/u ˈpɔ/,,,AnkiLangs::PT
 Earth,Terra,/'tɛʁɐ/,[sound:al_pt_pt_earth.mp3],,AnkiLangs::PT
