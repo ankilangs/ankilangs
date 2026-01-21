@@ -11,6 +11,7 @@ from al_tools.core import (
     sqlite2csv,
 )
 from al_tools.registry import DeckRegistry
+from al_tools.content import ContentGenerator
 
 
 def cli():
@@ -119,6 +120,52 @@ def cli():
         help="Path to deck registry file",
     )
 
+    generate_website_parser = subparsers.add_parser(
+        "generate-website", help="Generate website pages from source content"
+    )
+    generate_website_parser.add_argument(
+        "--deck", type=str, help="Generate page for specific deck"
+    )
+    generate_website_parser.add_argument(
+        "--all", action="store_true", help="Generate pages for all decks"
+    )
+    generate_website_parser.add_argument(
+        "--registry",
+        type=str,
+        default="decks.yaml",
+        help="Path to deck registry file",
+    )
+    generate_website_parser.add_argument(
+        "--output-dir",
+        type=str,
+        default="website/content/docs/decks",
+        help="Output directory for generated pages",
+    )
+
+    generate_ankiweb_parser = subparsers.add_parser(
+        "generate-ankiweb", help="Generate AnkiWeb description for a deck"
+    )
+    generate_ankiweb_parser.add_argument(
+        "deck_id", type=str, help="Deck ID to generate description for"
+    )
+    generate_ankiweb_parser.add_argument(
+        "--registry",
+        type=str,
+        default="decks.yaml",
+        help="Path to deck registry file",
+    )
+    generate_ankiweb_parser.add_argument(
+        "--output-dir",
+        type=str,
+        default="build",
+        help="Output directory for generated description",
+    )
+    generate_ankiweb_parser.add_argument(
+        "--clipboard",
+        action="store_true",
+        help="Copy generated description to clipboard",
+    )
+
     args = parser.parse_args()
 
     if args.command == "audio":
@@ -149,6 +196,22 @@ def cli():
             print_deck_list(registry)
         else:
             release_parser.print_help()
+    elif args.command == "generate-website":
+        registry = DeckRegistry(Path(args.registry))
+        output_dir = Path(args.output_dir)
+
+        if args.all:
+            generate_all_website_pages(registry, output_dir)
+        elif args.deck:
+            generate_website_page_for_deck(registry, args.deck, output_dir)
+        else:
+            generate_website_parser.print_help()
+    elif args.command == "generate-ankiweb":
+        registry = DeckRegistry(Path(args.registry))
+        output_dir = Path(args.output_dir)
+        generate_ankiweb_description(
+            registry, args.deck_id, output_dir, clipboard=args.clipboard
+        )
     else:
         parser.print_help()
 
@@ -184,3 +247,94 @@ def print_deck_list(registry: DeckRegistry):
         )
 
     print()
+
+
+def generate_website_page_for_deck(
+    registry: DeckRegistry, deck_id: str, output_dir: Path
+):
+    """Generate website page for a specific deck."""
+    deck = registry.get(deck_id)
+    if not deck:
+        print(f"Error: Deck '{deck_id}' not found in registry")
+        return
+
+    generator = ContentGenerator(deck)
+    page_content = generator.generate_website_page()
+
+    # Create output directory for deck
+    deck_output_dir = output_dir / deck.website_slug
+    deck_output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Write page content
+    output_file = deck_output_dir / "_index.md"
+    output_file.write_text(page_content)
+
+    # Copy screenshots if they exist
+    screenshot_src = Path(deck.content_dir) / "screenshots"
+    screenshot_dst = deck_output_dir / "screenshots"
+
+    if screenshot_src.exists():
+        # Remove existing screenshots directory if it exists
+        import shutil
+
+        if screenshot_dst.exists():
+            shutil.rmtree(screenshot_dst)
+
+        # Copy all screenshots
+        shutil.copytree(screenshot_src, screenshot_dst)
+
+        print(f"✓ Generated {output_file}")
+        print(f"✓ Copied screenshots to {screenshot_dst}")
+    else:
+        print(f"✓ Generated {output_file}")
+        print(f"⚠ No screenshots found in {screenshot_src}")
+
+
+def generate_all_website_pages(registry: DeckRegistry, output_dir: Path):
+    """Generate website pages for all decks."""
+    decks = sorted(registry.all(), key=lambda d: d.deck_id)
+
+    if not decks:
+        print("No decks found in registry.")
+        return
+
+    for deck in decks:
+        generate_website_page_for_deck(registry, deck.deck_id, output_dir)
+
+    print(f"\n✓ Generated {len(decks)} deck pages")
+
+
+def generate_ankiweb_description(
+    registry: DeckRegistry, deck_id: str, output_dir: Path, clipboard: bool = False
+):
+    """Generate AnkiWeb description for a deck."""
+    deck = registry.get(deck_id)
+    if not deck:
+        print(f"Error: Deck '{deck_id}' not found in registry")
+        return
+
+    generator = ContentGenerator(deck)
+    description = generator.generate_ankiweb_description()
+
+    # Create output directory
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Write description
+    output_file = output_dir / f"ankiweb_description_{deck_id}.md"
+    output_file.write_text(description)
+
+    print(f"✓ Written to: {output_file}")
+
+    # Copy to clipboard if requested
+    if clipboard:
+        try:
+            import subprocess
+
+            subprocess.run(
+                ["xclip", "-selection", "clipboard"],
+                input=description.encode(),
+                check=True,
+            )
+            print("✓ Copied to clipboard")
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            print("⚠ Could not copy to clipboard (xclip not available)")
