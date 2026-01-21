@@ -5,6 +5,11 @@ weight: 20
 
 # Installation
 
+## Installing Anki
+
+If you don't have Anki yet, check the [official instructions](https://apps.ankiweb.net/)
+for installing on Windows, macOS, Linux, Android, or iOS.
+
 ## Installing a Deck
 
 1. Download the `.apkg` file from the deck's page
@@ -24,7 +29,3 @@ When a new version is released:
 3. Anki will update your deck while preserving your learning progress
 
 Your review history and card scheduling will be maintained during updates.
-
-## Installing Anki
-
-If you don't have Anki yet, check the [official instructions](https://apps.ankiweb.net/) for installing on Windows, macOS, Linux, Android, or iOS.

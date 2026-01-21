@@ -32,12 +32,11 @@ More [screenshots]({{< ref "/docs/screenshots/" >}} "screenshots").
 
 ## Try it out
 
-You need to have Anki installed. Check the [official instructions](https://apps.ankiweb.net/)
-for installing on Windows, macOS, Linux, Android or iOS.
+Download one of the decks below and follow the
+[installation instructions](docs/installation).
 
-Then you can import one or more of the following decks. Note that all of these
-decks are in development and therefore incomplete (e.g. they do **NOT** yet
-contain 625 words). Please see the
+Note that all of these decks are in development and therefore incomplete
+(e.g. they do **NOT** yet contain 625 words). Please see the
 [contributing](https://github.com/ankilangs/ankilangs?tab=readme-ov-file#contribute-changes)
 link to change this! 
 
