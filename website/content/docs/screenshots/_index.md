@@ -44,13 +44,3 @@ side.
 ![](es_spelling_q.png)
 
 ![](es_spelling_a.png)
-
-
-## Anki Options
-
-We strongly encourage you activate _burying_ in the deck options to make your
-learning most efficient. Otherwise you may for example be asked to do _Reading_
-for a word that you just completed _Pronunciation_ for, which makes it too
-easy.
-
-![](options_burying.png)
