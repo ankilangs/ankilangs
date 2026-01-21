@@ -1,38 +1,38 @@
 key,text:it,ipa:it,audio:it,audio source:it,tags:it
-alive,vivo,/ˈvivo/,,,AnkiLangs::IT
-April,aprile,/aˈprile/,,,AnkiLangs::IT
-art,l'arte,/ˈlarte/,,,AnkiLangs::IT
-August,agosto,/aˈɡosto/,,,AnkiLangs::IT
-bad,cattivo,/katˈtivo/,,,AnkiLangs::IT
-beautiful,bello,/ˈbɛllo/,,,AnkiLangs::IT
-beer,la birra,/la ˈbirra/,,,AnkiLangs::IT
-big / large,grande,/ˈɡrande/,,,AnkiLangs::IT
+alive,vivo,/ˈvivo/,[sound:al_it_it_alive.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+April,aprile,/aˈprile/,[sound:al_it_it_april.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+art,l'arte,/ˈlarte/,[sound:al_it_it_art.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+August,agosto,/aˈɡosto/,[sound:al_it_it_august.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+bad,cattivo,/katˈtivo/,[sound:al_it_it_bad.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+beautiful,bello,/ˈbɛllo/,[sound:al_it_it_beautiful.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+beer,la birra,/la ˈbirra/,[sound:al_it_it_beer.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+big / large,grande,/ˈɡrande/,[sound:al_it_it_big_large.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 black,nero,/ˈnero/,[sound:al_it_it_black.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-blind,cieco,/ˈtʃɛko/,,,AnkiLangs::IT
-blood,il sangue,/il ˈsaŋɡwe/,,,AnkiLangs::IT
+blind,cieco,/ˈtʃɛko/,[sound:al_it_it_blind.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+blood,il sangue,/il ˈsaŋɡwe/,[sound:al_it_it_blood.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 blue,blu,/blu/,[sound:al_it_it_blue.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-breakfast,la colazione,/la kolatˈtsjone/,,,AnkiLangs::IT
+breakfast,la colazione,/la kolatˈtsjone/,[sound:al_it_it_breakfast.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 brown,marrone,/marˈrone/,[sound:al_it_it_brown.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-cheap,economico,/ekoˈnɔmiko/,,,AnkiLangs::IT
-clay,l'argilla,/larˈdʒilla/,,,AnkiLangs::IT
-clean,pulito,/puˈlito/,,,AnkiLangs::IT
-coffee,il caffè,/il kafˈfɛ/,,,AnkiLangs::IT
-cold,freddo,/ˈfreddo/,,,AnkiLangs::IT
-cool,fresco,/ˈfresko/,,,AnkiLangs::IT
-copper,il rame,/il ˈrame/,,,AnkiLangs::IT
-curved,curvo,/ˈkurvo/,,,AnkiLangs::IT
-dark,scuro,/ˈskuːro/,,,AnkiLangs::IT
+cheap,economico,/ekoˈnɔmiko/,[sound:al_it_it_cheap.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+clay,l'argilla,/larˈdʒilla/,[sound:al_it_it_clay.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+clean,pulito,/puˈlito/,[sound:al_it_it_clean.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+coffee,il caffè,/il kafˈfɛ/,[sound:al_it_it_coffee.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+cold,freddo,/ˈfreddo/,[sound:al_it_it_cold.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+cool,fresco,/ˈfresko/,[sound:al_it_it_cool.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+copper,il rame,/il ˈrame/,[sound:al_it_it_copper.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+curved,curvo,/ˈkurvo/,[sound:al_it_it_curved.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+dark,scuro,/ˈskuːro/,[sound:al_it_it_dark.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 dark blue,azzurro scuro,/adˈdzurro ˈskuːro/,[sound:al_it_it_dark_blue.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-dead,morto,/ˈmɔrto/,,,AnkiLangs::IT
-deaf,sordo,/ˈsordo/,,,AnkiLangs::IT
-death,la morte,/la ˈmɔrte/,,,AnkiLangs::IT
-December,dicembre,/diˈtʃembre/,,,AnkiLangs::IT
-deep,profondo,/proˈfondo/,,,AnkiLangs::IT
-diamond,il diamante,/il diaˈmante/,,,AnkiLangs::IT
-dinner,la cena,/la ˈtʃena/,,,AnkiLangs::IT
-dirty,sporco,/ˈsporko/,,,AnkiLangs::IT
-disease,la malattia,/la malatˈtia/,,,AnkiLangs::IT
-down,giù,/dʒu/,,,AnkiLangs::IT
+dead,morto,/ˈmɔrto/,[sound:al_it_it_dead.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+deaf,sordo,/ˈsordo/,[sound:al_it_it_deaf.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+death,la morte,/la ˈmɔrte/,[sound:al_it_it_death.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+December,dicembre,/diˈtʃembre/,[sound:al_it_it_december.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+deep,profondo,/proˈfondo/,[sound:al_it_it_deep.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+diamond,il diamante,/il diaˈmante/,[sound:al_it_it_diamond.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+dinner,la cena,/la ˈtʃena/,[sound:al_it_it_dinner.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+dirty,sporco,/ˈsporko/,[sound:al_it_it_dirty.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+disease,la malattia,/la malatˈtia/,[sound:al_it_it_disease.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+down,giù,/dʒu/,[sound:al_it_it_down.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 dry,asciutto,/aʃˈʃutto/,,,AnkiLangs::IT
 dust,la polvere,/la ˈpolvere/,,,AnkiLangs::IT
 Earth,la Terra,/la ˈtɛrra/,[sound:al_it_it_earth.mp3],Google Cloud TTS,AnkiLangs::IT
