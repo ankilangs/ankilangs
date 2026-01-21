@@ -87,8 +87,8 @@ juice,juice,/dʒus/,[sound:al_en_us_juice.mp3],Google Cloud TTS<br>Voice: en-US-
 July,July,/dʒuˈlaɪ/,[sound:al_en_us_july.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 June,June,/dʒun/,[sound:al_en_us_june.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 left,left,/lɛft/,[sound:al_en_us_left.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-"light [opposite of ""dark""]","light [opposite of ""dark""]",/laɪt/,[sound:al_en_us_light_opposite_of_dark.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
-"light [opposite of ""heavy""]","light [opposite of ""heavy""]",/laɪt/,[sound:al_en_us_light_opposite_of_heavy.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
+"light [opposite of ""dark""]",light,/laɪt/,,,AnkiLangs::EN
+"light [opposite of ""heavy""]",light,/laɪt/,,,AnkiLangs::EN
 light blue,light blue,/laɪt bluː/,[sound:al_en_us_light_blue.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 long,long,/lɔŋ/,[sound:al_en_us_long.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 loose,loose,/lus/,[sound:al_en_us_loose.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
@@ -122,8 +122,8 @@ November,November,/noʊˈvɛmbər/,[sound:al_en_us_november.mp3],Google Cloud TT
 nuclear,nuclear,/ˈnukliər/,[sound:al_en_us_nuclear.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 October,October,/ɑkˈtoʊbər/,[sound:al_en_us_october.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 oil,oil,/ɔɪl/,[sound:al_en_us_oil.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-"old [opposite of ""new""]","old [opposite of ""new""]",/oʊld/,[sound:al_en_us_old_opposite_of_new.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-"old [opposite of ""young""]","old [opposite of ""young""]",/oʊld/,[sound:al_en_us_old_opposite_of_young.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
+"old [opposite of ""new""]",old,/oʊld/,,,AnkiLangs::EN
+"old [opposite of ""young""]",old,/oʊld/,,,AnkiLangs::EN
 one (1),one,/wʌn/,[sound:al_en_us_one_1.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 "one billion (1,000,000,000)",one billion,/wʌn ˈbɪljən/,[sound:al_en_us_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 one hundred (100),one hundred,/wʌn ˈhʌndrəd/,[sound:al_en_us_one_hundred_100.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
@@ -144,8 +144,8 @@ poison,poison,/ˈpɔɪzən/,[sound:al_en_us_poison.mp3],Google Cloud TTS<br>Voic
 poor,poor,/pʊr/,[sound:al_en_us_poor.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 prison,prison,/ˈprɪzən/,[sound:al_en_us_prison.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 quiet,quiet,/ˈkwaɪət/,[sound:al_en_us_quiet.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-race [ethnicity],race [ethnicity],/reɪs/,[sound:al_en_us_race_ethnicity.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-race [sport],race [sport],/reɪs/,[sound:al_en_us_race_sport.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
+race [ethnicity],race,/reɪs/,,,AnkiLangs::EN
+race [sport],race,/reɪs/,,,AnkiLangs::EN
 red,red,/rɛd/,[sound:al_en_us_red.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 relationship,relationship,/rɪˈleɪʃənˌʃɪp/,[sound:al_en_us_relationship.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 religion,religion,/rɪˈlɪdʒən/,[sound:al_en_us_religion.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
@@ -163,12 +163,12 @@ seventeen (17),seventeen,/ˌsɛvənˈtin/,[sound:al_en_us_seventeen_17.mp3],Goog
 seventy (70),seventy,/ˈsɛvənti/,[sound:al_en_us_seventy_70.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 seventy-one (71),seventy-one,/ˌsɛvənti ˈwʌn/,[sound:al_en_us_seventy_one_71.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 seventy-two (72),seventy-two,/ˌsɛvənti ˈtu/,[sound:al_en_us_seventy_two_72.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-sex [gender],sex [gender],/sɛks/,[sound:al_en_us_sex_gender.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-sex [the act],sex [the act],/sɛks/,[sound:al_en_us_sex_the_act.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
+sex [gender],sex,/sɛks/,,,AnkiLangs::EN
+sex [the act],sex,/sɛks/,,,AnkiLangs::EN
 shallow,shallow,/ˈʃæloʊ/,[sound:al_en_us_shallow.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 she,she,/ʃi/,[sound:al_en_us_she.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-"short [opposite of ""long""]","short [opposite of ""long""]",/ʃɔrt/,[sound:al_en_us_short_opposite_of_long.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-"short [opposite of ""tall""]","short [opposite of ""tall""]",/ʃɔrt/,[sound:al_en_us_short_opposite_of_tall.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
+"short [opposite of ""long""]",short,/ʃɔrt/,,,AnkiLangs::EN
+"short [opposite of ""tall""]",short,/ʃɔrt/,,,AnkiLangs::EN
 sick,sick,/sɪk/,[sound:al_en_us_sick.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 silver,silver,/ˈsɪlvər/,[sound:al_en_us_silver.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 six (6),six,/sɪks/,[sound:al_en_us_six_6.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
@@ -179,7 +179,7 @@ sixty-two (62),sixty-two,/ˌsɪksti ˈtu/,[sound:al_en_us_sixty_two_62.mp3],Goog
 slow,slow,/sloʊ/,[sound:al_en_us_slow.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 small / little,small / little,/smɔl ˈlɪtəl/,[sound:al_en_us_small_little.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 soft,soft,/sɔft/,[sound:al_en_us_soft.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
-soil/earth [ground],soil/earth [ground],/sɔɪl ɜrθ/,[sound:al_en_us_soil_earth_ground.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
+soil/earth [ground],soil/earth,/sɔɪl ɜrθ/,,,AnkiLangs::EN
 space (outer space),space (outer space),/ˈspeɪs/,[sound:al_en_us_space_outer_space.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 sport,sport,/spɔrt/,[sound:al_en_us_sport.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 stone,stone,/stoʊn/,[sound:al_en_us_stone.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
@@ -210,12 +210,12 @@ the artist,the artist,/ði ˈɑrtɪst/,[sound:al_en_us_the_artist.mp3],Google Cl
 the attack,the attack,/ði əˈtæk/,[sound:al_en_us_the_attack.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 the author,the author,/ði ˈɔθər/,[sound:al_en_us_the_author.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 the baby,the baby,/ðə ˈbeɪbi/,[sound:al_en_us_the_baby.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
-the back [anatomy],the back [anatomy],/ðə bæk/,[sound:al_en_us_the_back_anatomy.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
-the back [location],the back [location],/ðə bæk/,[sound:al_en_us_the_back_location.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
+the back [anatomy],the back,/ðə bæk/,,,AnkiLangs::EN
+the back [location],the back,/ðə bæk/,,,AnkiLangs::EN
 the bag,the bag,/ðə bæɡ/,[sound:al_en_us_the_bag.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 the ball,the ball,/ðə bɔl/,[sound:al_en_us_the_ball.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 the banana,the banana,/ðə bəˈnænə/,[sound:al_en_us_the_banana.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-the band [music],the band [music],/ðə bænd/,[sound:al_en_us_the_band_music.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
+the band [music],the band,/ðə bænd/,,,AnkiLangs::EN
 the bank,the bank,/ðə bæŋk/,[sound:al_en_us_the_bank.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 the bar,the bar,/ðə bɑr/,[sound:al_en_us_the_bar.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 the bathroom,the bathroom,/ðə ˈbæθˌrum/,[sound:al_en_us_the_bathroom.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
@@ -226,7 +226,7 @@ the bedroom,the bedroom,/ðə ˈbɛdˌrum/,[sound:al_en_us_the_bedroom.mp3],Goog
 the beef,the beef,/ðə bif/,[sound:al_en_us_the_beef.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 the beverage,the beverage,/ðə ˈbɛvərɪdʒ/,[sound:al_en_us_the_beverage.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 the bicycle,the bicycle,/ðə ˈbaɪsɪkəl/,[sound:al_en_us_the_bicycle.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
-the bill [bank note],the bill [bank note],/ðə bɪl/,[sound:al_en_us_the_bill_bank_note.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
+the bill [bank note],the bill,/ðə bɪl/,,,AnkiLangs::EN
 the bird,the bird,/ðə bɜrd/,[sound:al_en_us_the_bird.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 the boat,the boat,/ðə boʊt/,[sound:al_en_us_the_boat.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 the body,the body,/ðə ˈbɑdi/,,,AnkiLangs::EN
@@ -296,8 +296,8 @@ the eye,the eye,/ði aɪ/,,,AnkiLangs::EN
 the face,the face,/ðə feɪs/,,,AnkiLangs::EN
 the Fall,the Fall,/ðə fɔl/,,,AnkiLangs::EN
 the family,the family,/ðə ˈfæməli/,[sound:al_en_us_the_family.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
-the fan [appliance],the fan [appliance],/ðə fæn/,,,AnkiLangs::EN
-the fan [person],the fan,/ðə fæn/,[sound:al_en_us_the_fan_person.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
+the fan [appliance],the fan,/ðə fæn/,,,AnkiLangs::EN
+the fan [person],the fan,/ðə fæn/,,,AnkiLangs::EN
 the farm,the farm,/ðə fɑrm/,[sound:al_en_us_the_farm.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 the father,the father,/ðə ˈfɑːðɚ/,[sound:al_en_us_the_father.mp3],Google Cloud TTS<br>Voice: en-US-Studio-Q,AnkiLangs::EN
 the finger,the finger,/ðə ˈfɪŋɡər/,,,AnkiLangs::EN
@@ -306,7 +306,7 @@ the fish,the fish,/ðə fɪʃ/,[sound:al_en_us_the_fish.mp3],Google Cloud TTS<br
 the floor,the floor,/ðə flɔr/,,,AnkiLangs::EN
 the flower,the flower,/ðə ˈflaʊər/,,,AnkiLangs::EN
 the foot,the foot,/ðə fʊt/,,,AnkiLangs::EN
-the foot [measurement],the foot [measurement],/ðə fʊt/,,,AnkiLangs::EN
+the foot [measurement],the foot,/ðə fʊt/,,,AnkiLangs::EN
 the forest,the forest,/ðə ˈfɔrɪst/,,,AnkiLangs::EN
 the fork,the fork,/ðə fɔrk/,,,AnkiLangs::EN
 the friend,the friend,/ðə frɛnd/,[sound:al_en_us_the_friend.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
@@ -625,6 +625,6 @@ wine,wine,/waɪn/,,,AnkiLangs::EN
 wood,wood,/wʊd/,,,AnkiLangs::EN
 yellow,yellow,/ˈjɛloʊ/,[sound:al_en_us_yellow.mp3],Google Cloud TTS<br>Voice: en-US-Studio-O,AnkiLangs::EN
 yes,yes,/jɛs/,,,AnkiLangs::EN
-"you [plural, y'all]","you [plural, y'all]",/ju/,,,AnkiLangs::EN
-you [singular],you [singular],/ju/,,,AnkiLangs::EN
+"you [plural, y'all]",you,/ju/,,,AnkiLangs::EN
+you [singular],you,/ju/,,,AnkiLangs::EN
 young,young,/jʌŋ/,,,AnkiLangs::EN

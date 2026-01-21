@@ -87,8 +87,6 @@ juice,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 July,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 June,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 left,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-"light [opposite of ""dark""]",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-"light [opposite of ""heavy""]",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 light blue,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 long,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 loose,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -122,8 +120,6 @@ November,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 nuclear,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 October,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 oil,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-"old [opposite of ""new""]",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-"old [opposite of ""young""]",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 one (1),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 "one billion (1,000,000,000)",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 one hundred (100),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -144,8 +140,6 @@ poison,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 poor,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 prison,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 quiet,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-race [ethnicity],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-race [sport],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 red,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 relationship,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 religion,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
@@ -163,12 +157,8 @@ seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 seventy (70),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-sex [gender],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-sex [the act],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 shallow,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 she,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-"short [opposite of ""long""]",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-"short [opposite of ""tall""]",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 sick,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 silver,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 six (6),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -179,7 +169,6 @@ sixty-two (62),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 slow,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 small / little,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 soft,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-soil/earth [ground],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 space (outer space),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 sport,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 stone,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -210,12 +199,9 @@ the artist,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the attack,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the author,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the baby,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-the back [anatomy],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-the back [location],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the bag,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the ball,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the banana,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-the band [music],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the bank,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the bar,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the bathroom,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
@@ -226,7 +212,6 @@ the bedroom,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the beef,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the beverage,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the bicycle,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-the bill [bank note],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the bird,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the boat,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the boy,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
@@ -253,7 +238,6 @@ the dog,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the dress,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the engine,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the family,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-the fan [person],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the farm,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the father,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the fish,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
