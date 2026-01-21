@@ -2,7 +2,7 @@
 title: "Spanisch (DE zu ES) | 625 Wörter"
 deck_id: de_to_es_625
 version: "1.0.0"
-download_url: "https://github.com/ankilangs/ankilangs/releases/download/DE_to_ES_625_Words%2F1.0.0/Spanisch.DE.zu.ES.-.625.Worter.-.AnkiLangs.org.-.v1.0.0.apkg"
+download_url: "https://github.com/ankilangs/ankilangs/releases/download/DE_to_ES_625_Words%2F1.0.0/Spanisch.DE.zu.ES._.625.Worter._.AnkiLangs.org.apkg"
 ankiweb_url: ""
 weight: 10
 bookHidden: true
