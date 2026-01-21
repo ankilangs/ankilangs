@@ -31,6 +31,11 @@ that context.
 Enabling **FSRS** (Free Spaced Repetition Scheduler) is also a good idea because
 it calculates more optimal review intervals.
 
+Consider not imposing any particular order on the cards since you are trying to
+learn for the real world where you also need to remember words in isolation.
+Set **New card gather order** to "Deck, then random notes" and
+**New card sort order** to "Random". 
+
 See [Anki's documentation](https://docs.ankiweb.net/) for detailed settings guidance.
 
 
