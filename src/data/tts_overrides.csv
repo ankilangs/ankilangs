@@ -49,6 +49,7 @@ sixty-two (62),es_es,sesenta y dos,0,Avoid reading parenthetical (62)
 ten (10),es_es,diez,0,Avoid reading parenthetical (10)
 "ten thousand (10,000)",es_es,diez mil,0,"Avoid reading parenthetical (10,000)"
 the air,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">el aire</prosody></s></speak>",1,
+the direction,en_us,"<speak xml:lang=""en-US""><s><prosody rate=""slow"">the direction</prosody></s></speak>",1,
 the shoulder,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-3st"">el hombro</prosody></s></speak>",1,
 the team,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-3st"">el equipo</prosody></s></speak>",1,
 third (3rd),es_es,"<speak>tercero<break time=""300ms""/>tercera</speak>",1,Read both masculine and feminine forms with a break
