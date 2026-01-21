@@ -1,38 +1,38 @@
 key,text:fr,ipa:fr,audio:fr,audio source:fr,tags:fr
-alive,vivant,/vivɑ̃/,,,AnkiLangs::FR
-April,avril,/avʁil/,,,AnkiLangs::FR
-art,l'art,/laʁ/,,,AnkiLangs::FR
-August,août,/u/,,,AnkiLangs::FR
-bad,mauvais,/movɛ/,,,AnkiLangs::FR
-beautiful,beau,/bo/,,,AnkiLangs::FR
-beer,la bière,/la bjɛʁ/,,,AnkiLangs::FR
-big / large,grand,/ɡʁɑ̃/,,,AnkiLangs::FR
+alive,vivant,/vivɑ̃/,[sound:al_fr_fr_alive.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+April,avril,/avʁil/,[sound:al_fr_fr_april.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+art,l'art,/laʁ/,[sound:al_fr_fr_art.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+August,août,/u/,[sound:al_fr_fr_august.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+bad,mauvais,/movɛ/,[sound:al_fr_fr_bad.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+beautiful,beau,/bo/,[sound:al_fr_fr_beautiful.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+beer,la bière,/la bjɛʁ/,[sound:al_fr_fr_beer.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+big / large,grand,/ɡʁɑ̃/,[sound:al_fr_fr_big_large.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
 black,noir,/nwaʁ/,[sound:al_fr_fr_black.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-blind,aveugle,/avœɡl/,,,AnkiLangs::FR
-blood,le sang,/lə sɑ̃/,,,AnkiLangs::FR
+blind,aveugle,/avœɡl/,[sound:al_fr_fr_blind.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+blood,le sang,/lə sɑ̃/,[sound:al_fr_fr_blood.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
 blue,bleu,/blø/,[sound:al_fr_fr_blue.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
-breakfast,le petit-déjeuner,/lə pəti deʒœne/,,,AnkiLangs::FR
+breakfast,le petit-déjeuner,/lə pəti deʒœne/,[sound:al_fr_fr_breakfast.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
 brown,marron,/maʁɔ̃/,[sound:al_fr_fr_brown.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-cheap,pas cher,/pa ʃɛʁ/,,,AnkiLangs::FR
-clay,l'argile,/laʁʒil/,,,AnkiLangs::FR
-clean,propre,/pʁɔpʁ/,,,AnkiLangs::FR
-coffee,le café,/lə kafe/,,,AnkiLangs::FR
-cold,froid,/fʁwa/,,,AnkiLangs::FR
-cool,frais,/fʁɛ/,,,AnkiLangs::FR
-copper,le cuivre,/lə kɥivʁ/,,,AnkiLangs::FR
-curved,courbé,/kuʁbe/,,,AnkiLangs::FR
-dark,sombre,/sɔ̃bʁ/,,,AnkiLangs::FR
+cheap,pas cher,/pa ʃɛʁ/,[sound:al_fr_fr_cheap.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+clay,l'argile,/laʁʒil/,[sound:al_fr_fr_clay.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+clean,propre,/pʁɔpʁ/,[sound:al_fr_fr_clean.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+coffee,le café,/lə kafe/,[sound:al_fr_fr_coffee.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+cold,froid,/fʁwa/,[sound:al_fr_fr_cold.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+cool,frais,/fʁɛ/,[sound:al_fr_fr_cool.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+copper,le cuivre,/lə kɥivʁ/,[sound:al_fr_fr_copper.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+curved,courbé,/kuʁbe/,[sound:al_fr_fr_curved.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+dark,sombre,/sɔ̃bʁ/,[sound:al_fr_fr_dark.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
 dark blue,bleu foncé,/blø fɔ̃se/,[sound:al_fr_fr_dark_blue.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
-dead,mort,/mɔʁ/,,,AnkiLangs::FR
-deaf,sourd,/suʁ/,,,AnkiLangs::FR
-death,la mort,/la mɔʁ/,,,AnkiLangs::FR
-December,décembre,/desɑ̃bʁ/,,,AnkiLangs::FR
-deep,profond,/pʁɔfɔ̃/,,,AnkiLangs::FR
-diamond,le diamant,/lə djamɑ̃/,,,AnkiLangs::FR
-dinner,le dîner,/lə dine/,,,AnkiLangs::FR
-dirty,sale,/sal/,,,AnkiLangs::FR
-disease,la maladie,/la maladi/,,,AnkiLangs::FR
-down,en bas,/ɑ̃ ba/,,,AnkiLangs::FR
+dead,mort,/mɔʁ/,[sound:al_fr_fr_dead.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+deaf,sourd,/suʁ/,[sound:al_fr_fr_deaf.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+death,la mort,/la mɔʁ/,[sound:al_fr_fr_death.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+December,décembre,/desɑ̃bʁ/,[sound:al_fr_fr_december.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+deep,profond,/pʁɔfɔ̃/,[sound:al_fr_fr_deep.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+diamond,le diamant,/lə djamɑ̃/,[sound:al_fr_fr_diamond.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+dinner,le dîner,/lə dine/,[sound:al_fr_fr_dinner.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+dirty,sale,/sal/,[sound:al_fr_fr_dirty.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-D,AnkiLangs::FR
+disease,la maladie,/la maladi/,[sound:al_fr_fr_disease.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
+down,en bas,/ɑ̃ ba/,[sound:al_fr_fr_down.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
 dry,sec,/sɛk/,,,AnkiLangs::FR
 dust,la poussière,/la pusjɛʁ/,,,AnkiLangs::FR
 Earth,la Terre,/la tɛʁ/,[sound:al_fr_fr_earth.mp3],Google Cloud TTS<br>Voice: fr-FR-Studio-A,AnkiLangs::FR
