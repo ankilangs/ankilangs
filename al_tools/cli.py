@@ -9,6 +9,7 @@ from al_tools.core import (
     sort_csv_files,
     csv2sqlite,
     sqlite2csv,
+    export_review,
 )
 from al_tools.registry import DeckRegistry
 from al_tools.content import ContentGenerator
@@ -107,6 +108,35 @@ def cli():
         "-o", "--output", type=str, required=True, help="Output data folder"
     )
 
+    export_review_parser = subparsers.add_parser(
+        "export-review", help="Export review data for native speakers"
+    )
+    export_review_parser.add_argument(
+        "-s", "--source", type=str, required=True, help="Source locale (e.g., en_us)"
+    )
+    export_review_parser.add_argument(
+        "-t", "--target", type=str, required=True, help="Target locale (e.g., es_es)"
+    )
+    export_review_parser.add_argument(
+        "-o",
+        "--output",
+        type=str,
+        default="build/review",
+        help="Output directory for review files (default: build/review)",
+    )
+    export_review_parser.add_argument(
+        "-d", "--database", type=str, default="data.db", help="Database file path"
+    )
+    export_review_parser.add_argument(
+        "--media-dir",
+        type=str,
+        default="src/media/audio",
+        help="Audio media directory (default: src/media/audio)",
+    )
+    export_review_parser.add_argument(
+        "--data-dir", type=str, default="src/data", help="Data folder with CSV files"
+    )
+
     release_parser = subparsers.add_parser(
         "release", help="Release management commands"
     )
@@ -190,6 +220,15 @@ def cli():
         csv2sqlite(Path(args.input), Path(args.database), force=args.force)
     elif args.command == "sqlite2csv":
         sqlite2csv(Path(args.database), Path(args.output))
+    elif args.command == "export-review":
+        export_review(
+            Path(args.database),
+            args.source,
+            args.target,
+            Path(args.output),
+            Path(args.media_dir),
+            Path(args.data_dir),
+        )
     elif args.command == "release":
         if args.list:
             registry = DeckRegistry(Path(args.registry))

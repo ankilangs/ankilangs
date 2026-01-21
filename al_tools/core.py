@@ -1374,3 +1374,225 @@ def sqlite2csv(db_path: Path, data_dir: Path):
 
     conn.close()
     print(f"\nAll files exported from {db_path}")
+
+
+def export_review(
+    db_path: Path,
+    source_locale: str,
+    target_locale: str,
+    output_dir: Path,
+    media_dir: Path = Path("src/media/audio"),
+    data_dir: Path = Path("src/data"),
+):
+    """Export review data for native speakers.
+
+    Creates:
+    1. CSV file with translation pairs, hints, and empty review comment column
+    2. Concatenated audio file with all target language audio sorted alphabetically
+
+    Args:
+        db_path: Path to SQLite database
+        source_locale: Source locale (e.g., 'en_us')
+        target_locale: Target locale (e.g., 'es_es')
+        output_dir: Directory to write output files
+        media_dir: Directory containing audio files
+        data_dir: Directory containing CSV files (for DB freshness check)
+    """
+    _ensure_db_exists(db_path, data_dir)
+    _check_db_freshness(db_path, data_dir, force=False)
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+
+    # Query translation pairs with source and target text
+    cursor.execute(
+        """
+        SELECT
+            tp.key,
+            tp.guid,
+            bl_source.text as source_text,
+            bl_target.text as target_text,
+            bl_target.audio as target_audio,
+            tp.pronunciation_hint,
+            tp.spelling_hint,
+            tp.reading_hint,
+            tp.listening_hint
+        FROM translation_pair tp
+        JOIN base_language bl_source
+            ON tp.key = bl_source.key AND bl_source.locale = tp.source_locale
+        JOIN base_language bl_target
+            ON tp.key = bl_target.key AND bl_target.locale = tp.target_locale
+        WHERE tp.source_locale = ? AND tp.target_locale = ?
+        ORDER BY tp.key COLLATE NOCASE
+        """,
+        (source_locale, target_locale),
+    )
+
+    rows = cursor.fetchall()
+    conn.close()
+
+    if not rows:
+        print(f"No translation pairs found for {source_locale} -> {target_locale}")
+        return
+
+    # Generate CSV with empty rows every 10 entries
+    csv_file = output_dir / f"review_{source_locale}_to_{target_locale}.csv"
+    fieldnames = [
+        "guid",
+        "source_text",
+        "target_text",
+        "pronunciation_hint",
+        "spelling_hint",
+        "reading_hint",
+        "listening_hint",
+        "review_comment",
+    ]
+
+    with open(csv_file, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+        writer.writeheader()
+
+        for idx, row in enumerate(rows, start=1):
+            writer.writerow(
+                {
+                    "guid": row["guid"] or "",
+                    "source_text": row["source_text"] or "",
+                    "target_text": row["target_text"] or "",
+                    "pronunciation_hint": row["pronunciation_hint"] or "",
+                    "spelling_hint": row["spelling_hint"] or "",
+                    "reading_hint": row["reading_hint"] or "",
+                    "listening_hint": row["listening_hint"] or "",
+                    "review_comment": "",
+                }
+            )
+
+            # Insert empty row every 10 entries
+            if idx % 10 == 0 and idx < len(rows):
+                writer.writerow({field: "" for field in fieldnames})
+
+    print(f"CSV file '{csv_file}' written ({len(rows)} entries)")
+
+    # Concatenate audio files
+    # Collect audio file paths sorted alphabetically by key
+    audio_files_with_keys = []
+    target_locale_dir = _locale_to_directory(target_locale)
+    audio_dir = media_dir / target_locale_dir
+
+    if not audio_dir.exists():
+        print(
+            f"Warning: Audio directory '{audio_dir}' not found. Skipping audio concatenation."
+        )
+        return
+
+    for row in rows:
+        audio_ref = row["target_audio"]
+        if not audio_ref:
+            continue
+
+        filename = _parse_audio_filename(audio_ref)
+        if not filename:
+            continue
+
+        audio_path = audio_dir / filename
+        if audio_path.exists():
+            audio_files_with_keys.append((row["key"], audio_path))
+        else:
+            print(f"Warning: Audio file '{audio_path}' not found")
+
+    if not audio_files_with_keys:
+        print("No audio files found to concatenate")
+        return
+
+    # Get audio parameters from first file to ensure compatibility
+    import subprocess
+
+    first_audio = audio_files_with_keys[0][1]
+    probe_result = subprocess.run(
+        [
+            "ffprobe",
+            "-v",
+            "error",
+            "-show_entries",
+            "stream=sample_rate,channels",
+            "-of",
+            "csv=p=0",
+            str(first_audio),
+        ],
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    sample_rate, channels = probe_result.stdout.strip().split(",")
+
+    # Create ffmpeg concat file with 5s silence after every 10th entry
+    concat_file = output_dir / "concat_list.txt"
+    silence_file = output_dir / "silence_5s.mp3"
+
+    # Generate 5 seconds of silence with same parameters as source files
+    subprocess.run(
+        [
+            "ffmpeg",
+            "-f",
+            "lavfi",
+            "-i",
+            f"anullsrc=r={sample_rate}:cl={'stereo' if channels == '2' else 'mono'}",
+            "-t",
+            "5",
+            "-b:a",
+            "64k",
+            "-acodec",
+            "libmp3lame",
+            "-y",
+            str(silence_file),
+        ],
+        check=True,
+        capture_output=True,
+    )
+
+    # Write concat file
+    with open(concat_file, "w", encoding="utf-8") as f:
+        for idx, (key, audio_path) in enumerate(audio_files_with_keys, start=1):
+            f.write(f"file '{audio_path.absolute()}'\n")
+
+            # Add 5s silence after every 10th entry
+            if idx % 10 == 0 and idx < len(audio_files_with_keys):
+                f.write(f"file '{silence_file.absolute()}'\n")
+
+    # Concatenate and re-encode to ensure compatibility
+    # Re-encoding prevents issues with files that have slightly different encoding parameters
+    output_audio = output_dir / f"review_{source_locale}_to_{target_locale}.mp3"
+    subprocess.run(
+        [
+            "ffmpeg",
+            "-f",
+            "concat",
+            "-safe",
+            "0",
+            "-i",
+            str(concat_file),
+            "-ar",
+            sample_rate,
+            "-ac",
+            channels,
+            "-b:a",
+            "64k",
+            "-acodec",
+            "libmp3lame",
+            "-y",
+            str(output_audio),
+        ],
+        check=True,
+        capture_output=True,
+    )
+
+    # Clean up temporary files
+    concat_file.unlink()
+    silence_file.unlink()
+
+    print(
+        f"Audio file '{output_audio}' created ({len(audio_files_with_keys)} audio files concatenated)"
+    )
+    print(f"\nReview files exported to '{output_dir}'")
