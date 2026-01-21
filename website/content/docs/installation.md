@@ -12,7 +12,7 @@ for installing on Windows, macOS, Linux, Android, or iOS.
 
 ## Installing a Deck
 
-1. Download the `.apkg` file from the deck's page
+1. Download the `.apkg` file from the deck's page (list of all [decks](../decks))
 2. Open Anki
 3. Go to File → Import
 4. Select the downloaded `.apkg` file

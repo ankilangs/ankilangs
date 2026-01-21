@@ -32,30 +32,17 @@ More [screenshots]({{< ref "/docs/screenshots/" >}} "screenshots").
 
 ## Try it out
 
-Download one of the decks below and follow the
+Download one of the [decks](docs/decks) and follow the
 [installation instructions](docs/installation).
 
-Note that all of these decks are in development and therefore incomplete
-(e.g. they do **NOT** yet contain 625 words). Please see the
-[contributing](https://github.com/ankilangs/ankilangs?tab=readme-ov-file#contribute-changes)
-link to change this! 
+Some examples:
 
-* If you speak **English** and want to learn ...
-  * [French | 625 Words](https://github.com/ankilangs/ankilangs/releases/download/EN_to_FR_625_Words%2F0.2.0/French.EN.to.FR.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
-  * [German | 625 Words](https://github.com/ankilangs/ankilangs/releases/download/EN_to_DE_625_Words%2F0.2.0/German.EN.to.DE.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
-  * [German | Minimal Pairs](https://github.com/ankilangs/ankilangs/releases/download/EN_to_DE_Minimal_Pairs%2F0.2.1/German.EN.to.DE.-.Minimal.Pairs.-.AnkiLangs.org.-.v0.2.1.apkg) (Version 0.2.1)
-  * [Italian | 625 Words](https://github.com/ankilangs/ankilangs/releases/download/EN_to_IT_625_Words%2F0.2.0/Italian.EN.to.IT.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
-  * [Portuguese | 625 Words](https://github.com/ankilangs/ankilangs/releases/download/EN_to_PT_625_Words%2F0.2.0/Portuguese.EN.to.PT.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
-  * [Spanish | 625 Words](https://github.com/ankilangs/ankilangs/releases/download/EN_to_ES_625_Words%2F0.2.0/Spanish.EN.to.ES.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
-* Wenn du **Deutsch** sprichst und ... lernen möchtest:
-  * [Englisch | 625 Wörter](https://github.com/ankilangs/ankilangs/releases/download/DE_to_EN_625_Words%2F0.2.0/Englisch.DE.zu.EN.-.625.Worter.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
-  * [Französisch | 625 Wörter](https://github.com/ankilangs/ankilangs/releases/download/DE_to_FR_625_Words%2F0.2.0/Franzosisch.DE.zu.FR.-.625.Worter.-.AnkiLangs.org.-.v0.2.0.apkg) (Version 0.2.0)
-  * [Spanisch | 625 Wörter](https://github.com/ankilangs/ankilangs/releases/download/DE_to_ES_625_Words%2F0.2.1/Spanisch.DE.zu.ES.-.625.Worter.-.AnkiLangs.org.-.v0.2.1.apkg) (Version 0.2.1)
-* Si hablas **español** y quieres aprender ...
-  * [Alemán | 625 palabras](https://github.com/ankilangs/ankilangs/releases/download/ES_to_DE_625_Words%2F0.2.0/Aleman.ES.a.DE.-.625.palabras.-.AnkiLangs.org.-.v0.2.0.apkg) (Versión 0.2.0)
-  * [Inglés | 625 palabras](https://github.com/ankilangs/ankilangs/releases/download/ES_to_EN_625_Words%2F0.2.0/Ingles.ES.a.EN.-.625.palabras.-.AnkiLangs.org.-.v0.2.0.apkg) (Versión 0.2.0)
+* If you speak **English** and want to learn [Spanish | 625 Words](docs/decks/en-to-es-625/)
+* Wenn du **Deutsch** sprichst und [Französisch | 625 Wörter](docs/decks/de-to-fr-625/) lernen möchtest.
+* Si hablas **español** y quieres aprender [Inglés | 625 palabras](docs/decks/es-to-en-625/)
+* ... and **many more** ...
 
-You can also find all these decks on [AnkiWeb](https://ankiweb.net/shared/by-author/673955494).
+See the the full list of [available decks](docs/decks).
 
 
 ## Motivation
