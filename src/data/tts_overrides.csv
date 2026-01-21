@@ -50,9 +50,13 @@ ten (10),es_es,diez,0,Avoid reading parenthetical (10)
 "ten thousand (10,000)",es_es,diez mil,0,"Avoid reading parenthetical (10,000)"
 the air,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">el aire</prosody></s></speak>",1,
 the direction,en_us,"<speak xml:lang=""en-US""><s><prosody rate=""slow"">the direction</prosody></s></speak>",1,
+the grandmother,es_es,"<speak>la<break time=""50ms""/>abuela</speak>",1,
+the patient,es_es,"<speak>el paciente<break time=""200ms""/>la paciente</speak>",1,
+the ship,es_es,"<speak>el barco<break time=""200ms""/>el buque</speak>",1,
 the shoulder,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-3st"">el hombro</prosody></s></speak>",1,
+the student,es_es,"<speak>el estudiante<break time=""200ms""/>la estudiante</speak>",1,
 the team,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-3st"">el equipo</prosody></s></speak>",1,
-third (3rd),es_es,"<speak>tercero<break time=""300ms""/>tercera</speak>",1,Read both masculine and feminine forms with a break
+third (3rd),es_es,"<speak>tercero<break time=""200ms""/>tercera</speak>",1,Read both masculine and feminine forms with a break
 thirteen (13),es_es,trece,0,Avoid reading parenthetical (13)
 thirty (30),es_es,treinta,0,Avoid reading parenthetical (30)
 thirty-one (31),es_es,treinta y uno,0,Avoid reading parenthetical (31)
