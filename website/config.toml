@@ -1,6 +1,6 @@
 baseURL = 'https://ankilangs.org/'
 languageCode = 'en-us'
-title = 'AnkiLangs'
+title = 'AnkiLangs.org'
 
 enableGitInfo = true
 
@@ -9,6 +9,8 @@ enableGitInfo = true
 path = 'github.com/alex-shpak/hugo-book'
 
 [params]
+  images = ['og-image.png']
+
   BookLogo = 'logo.png'
   BookLastChangeLink = 'https://github.com/ankilangs/ankilangs/commit/{{ .GitInfo.Hash }}'
   BookEditLink = 'https://github.com/ankilangs/ankilangs/edit/main/website/{{ .Path }}'

@@ -1,7 +1,6 @@
 ---
-title: "Welcome"
 weight: 1
-description: "The goal of AnkiLangs is collaborating in the creation of high quality Anki decks for language learning."
+description: "High quality, open source Anki decks for language learning."
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
