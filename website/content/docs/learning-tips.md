@@ -26,7 +26,7 @@ progress since a few weeks later you no longer have the _Pronunciation_ context
 and will fail. Also in real-life situations when you need to read a word you lack
 that context.
 
-![](screenshots/options_burying.png)
+![](../screenshots/options_burying.png)
 
 Enabling **FSRS** (Free Spaced Repetition Scheduler) is also a good idea because
 it calculates more optimal review intervals.
