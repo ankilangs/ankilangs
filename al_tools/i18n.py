@@ -14,6 +14,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "pt_pt": "Portugiesisch",
         "sq_al": "Albanisch",
         "fa_ir": "Persisch",
+        "hi_in": "Hindi",
     },
     "en_us": {
         "de_de": "German",
@@ -25,6 +26,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "pt_pt": "Portuguese",
         "sq_al": "Albanian",
         "fa_ir": "Farsi",
+        "hi_in": "Hindi",
     },
     "es_es": {
         "de_de": "Aleman",  # ASCII-safe (no accent)
@@ -36,6 +38,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "pt_pt": "Portugues",  # ASCII-safe (no accent)
         "sq_al": "Albanes",  # ASCII-safe (no accent)
         "fa_ir": "Persa",
+        "hi_in": "Hindi",
     },
     "fr_fr": {
         "de_de": "Allemand",
@@ -47,6 +50,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "pt_pt": "Portugais",
         "sq_al": "Albanais",
         "fa_ir": "Persan",
+        "hi_in": "Hindi",
     },
     "it_it": {
         "de_de": "Tedesco",
@@ -58,6 +62,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "pt_pt": "Portoghese",
         "sq_al": "Albanese",
         "fa_ir": "Persiano",
+        "hi_in": "Hindi",
     },
     "pt_pt": {
         "de_de": "Alemão",
@@ -69,6 +74,19 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "pt_pt": "Português",
         "sq_al": "Albanês",
         "fa_ir": "Persa",
+        "hi_in": "Hindi",
+    },
+    "hi_in": {
+        "de_de": "Jarman",  # German in Hindi (ASCII-safe)
+        "en_us": "Angrezi",  # English in Hindi (ASCII-safe)
+        "es_es": "Sipanish",  # Spanish in Hindi (ASCII-safe)
+        "fr_fr": "Fransisi",  # French in Hindi (ASCII-safe)
+        "it_it": "Italian",  # Italian in Hindi
+        "la_la": "Latin",  # Latin in Hindi
+        "pt_pt": "Portugisi",  # Portuguese in Hindi (ASCII-safe)
+        "sq_al": "Albanian",  # Albanian in Hindi
+        "fa_ir": "Farsi",  # Farsi in Hindi
+        "hi_in": "Hindi",  # Hindi in Hindi
     },
 }
 
@@ -164,6 +182,21 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "whats_new_in": "Novidades em {}",
         "unreleased_note": "Este baralho ainda não foi lançado e está em desenvolvimento.",
     },
+    "hi_in": {
+        "to": "se",  # "to" in Hindi
+        "words": "shabd",  # "words" in Hindi (ASCII-safe)
+        "minimal_pairs": "minimal pairs",  # Keep in English for technical term
+        "download_deck": "Deck download karen",  # "download deck" in Hindi (ASCII-safe)
+        "installation_instructions": "Installation Instructions",
+        "learning_tips": "Sikhne ke sujhav",  # "learning tips" in Hindi (ASCII-safe)
+        "screenshots": "Screenshots",
+        "changelog": "Parivartan log",  # "changelog" in Hindi (ASCII-safe)
+        "notes": "Notes",
+        "see_x_and_y": "{} aur {} dekhen.",  # "see X and Y" in Hindi (ASCII-safe)
+        "version": "Version",
+        "whats_new_in": "{} mein naya kya hai",  # "what's new in" in Hindi (ASCII-safe)
+        "unreleased_note": "Yeh deck abhi release nahin hua hai aur vikas mein hai.",  # ASCII-safe
+    },
 }
 
 # Card type names for each locale
@@ -203,6 +236,12 @@ CARD_TYPES: Dict[str, Dict[str, str]] = {
         "pronunciation": "Pronúncia",
         "reading": "Compreensão escrita",
         "spelling": "Ortografia",
+    },
+    "hi_in": {
+        "listening": "Sunna",  # "Listening" in Hindi (ASCII-safe)
+        "pronunciation": "Ucharan",  # "Pronunciation" in Hindi (ASCII-safe)
+        "reading": "Padhna",  # "Reading" in Hindi (ASCII-safe)
+        "spelling": "Spelling",  # "Spelling" in Hindi (keeping English as commonly used)
     },
 }
 

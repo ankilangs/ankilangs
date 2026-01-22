@@ -13,6 +13,7 @@
     - src/data/625_words-from-en_us-to-fa_ir.csv
     - src/data/625_words-from-es_es-to-de_de.csv
     - src/data/625_words-from-es_es-to-en_us.csv
+    - src/data/625_words-from-en_us-to-hi_in.csv
     columns:
     - guid
 - build_parts:
@@ -55,6 +56,9 @@
   - note_model_from_yaml_part:
       part_id: vocabulary_es_to_en
       file: src/note_models/vocabulary_es_to_en/note.yaml
+  - note_model_from_yaml_part:
+      part_id: vocabulary_en_to_hi
+      file: src/note_models/vocabulary_en_to_hi/note.yaml
   - headers_from_yaml_part:
     - part_id: header_de_to_en
       file: src/headers/default.yaml
@@ -134,6 +138,12 @@
         name: Inglés (ES a EN) | 625 palabras | AnkiLangs.org
         crowdanki_uuid: 8aa008b4-4929-466a-8c82-892c7c899a02
         deck_description_html_file: src/headers/description_es_to_en-625_words.html
+    - part_id: header_en_to_hi
+      file: src/headers/default.yaml
+      override:
+        name: Hindi (EN to HI) | 625 Words | AnkiLangs.org
+        crowdanki_uuid: 9eca4a7d-06f3-4cdd-8470-14b2bff83acf
+        deck_description_html_file: src/headers/description_en_to_hi-625_words.html
   - media_group_from_folder:
       part_id: all_media
       source: src/media/
@@ -489,6 +499,33 @@
         - file: src/data/625_words-base-es_es.csv
         - file: src/data/625_words-pictures.csv
         - file: src/data/generated/625_words-from-es_es-to-en_us.csv
+  - notes_from_csvs:
+      part_id: notes_en_to_hi
+      note_model_mappings:
+      - note_models:
+        - vocabulary_en_to_hi
+        columns_to_fields:
+          guid: guid
+          text:en: Source Text
+          text:hi: Target Text
+          ipa:hi: Target IPA
+          audio:hi: Target Audio
+          picture: Picture
+          notes: Notes
+          pronunciation hint: Pronunciation Hint
+          spelling hint: Spelling Hint
+          reading hint: Reading Hint
+          listening hint: Listening Hint
+          source: Source & License
+          tags:hi: tags
+      file_mappings:
+      - file: src/data/625_words-from-en_us-to-hi_in.csv
+        note_model: vocabulary_en_to_hi
+        derivatives:
+        - file: src/data/625_words-base-en_us.csv
+        - file: src/data/625_words-base-hi_in.csv
+        - file: src/data/625_words-pictures.csv
+        - file: src/data/generated/625_words-from-en_us-to-hi_in.csv
 - generate_crowd_anki:
     folder: build/DE_to_EN_625_Words
     notes:
@@ -629,6 +666,17 @@
       parts:
       - part_id: vocabulary_es_to_en
     headers: header_es_to_en
+    media:
+      parts:
+      - all_media
+- generate_crowd_anki:
+    folder: build/EN_to_HI_625_Words
+    notes:
+      part_id: notes_en_to_hi
+    note_models:
+      parts:
+      - part_id: vocabulary_en_to_hi
+    headers: header_en_to_hi
     media:
       parts:
       - all_media
