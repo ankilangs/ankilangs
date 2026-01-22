@@ -456,15 +456,254 @@ def fix_625_words_files(folder_path: Path):
         df.to_csv(csv_path, index=False)
 
 
+def ensure_base_language_entries_exist(
+    db_path: Path, data_dir: Path = Path("src/data")
+):
+    """
+    Ensure all vocabulary keys have entries in all base_language locales.
+
+    This is needed when a new deck is created with minimal entries - we want
+    to ensure all 625 keys exist in every language's base file, even if the
+    translations are empty.
+
+    Updates both the database AND CSV files.
+    """
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+
+    # Get all vocabulary keys
+    cursor.execute("SELECT key FROM vocabulary ORDER BY key COLLATE NOCASE")
+    all_keys = [row[0] for row in cursor.fetchall()]
+
+    if not all_keys:
+        print("No vocabulary keys found")
+        conn.close()
+        return
+
+    # Find all base language files
+    base_locales = set()
+    for csv_file in sorted(data_dir.glob("625_words-base-*.csv")):
+        locale = csv_file.stem.split("-")[-1]
+        base_locales.add(locale)
+
+    if not base_locales:
+        print("No base language files found")
+        conn.close()
+        return
+
+    total_created = 0
+    for locale in sorted(base_locales):
+        lang_short = locale.split("_")[0]
+
+        # Find missing keys for this locale
+        cursor.execute(
+            """
+            SELECT v.key
+            FROM vocabulary v
+            WHERE NOT EXISTS (
+                SELECT 1 FROM base_language bl
+                WHERE bl.key = v.key AND bl.locale = ?
+            )
+            ORDER BY v.key COLLATE NOCASE
+        """,
+            (locale,),
+        )
+
+        missing_keys = [row[0] for row in cursor.fetchall()]
+
+        if missing_keys:
+            # Insert missing entries in database
+            for key in missing_keys:
+                cursor.execute(
+                    """
+                    INSERT INTO base_language
+                    (key, locale, text, ipa, audio, audio_source)
+                    VALUES (?, ?, '', '', '', '')
+                """,
+                    (key, locale),
+                )
+
+            conn.commit()
+
+            # Update CSV file
+            csv_file = data_dir / f"625_words-base-{locale}.csv"
+
+            # Read existing CSV data
+            existing_rows = []
+            with open(csv_file, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                fieldnames = reader.fieldnames
+                existing_rows = list(reader)
+
+            # Add missing keys
+            for key in missing_keys:
+                existing_rows.append(
+                    {
+                        "key": key,
+                        f"text:{lang_short}": "",
+                        f"ipa:{lang_short}": "",
+                        f"audio:{lang_short}": "",
+                        f"audio source:{lang_short}": "",
+                        f"tags:{lang_short}": f"AnkiLangs::{lang_short.upper()}",
+                    }
+                )
+
+            # Sort by key (case-insensitive)
+            existing_rows.sort(key=lambda row: (row["key"].lower(), row["key"]))
+
+            # Write back to CSV
+            with open(csv_file, "w", encoding="utf-8", newline="") as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+                writer.writeheader()
+                writer.writerows(existing_rows)
+
+            total_created += len(missing_keys)
+            print(
+                f"Created {len(missing_keys)} missing base language entries for {locale}"
+            )
+
+    conn.close()
+
+    if total_created > 0:
+        print(f"Total: Created {total_created} base language entries\n")
+
+
+def ensure_translation_pairs_exist(db_path: Path, data_dir: Path = Path("src/data")):
+    """
+    Ensure all translation pair entries exist for vocabulary keys that are
+    present in both source and target base_language tables.
+
+    This is needed when a new deck is created with minimal entries - we want
+    to automatically create empty translation pair entries for all vocabulary
+    that exists in both languages.
+
+    Updates both the database AND CSV files.
+    """
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+
+    # Find all translation pair files to determine which language pairs should exist
+    translation_pairs = set()
+    for csv_file in sorted(data_dir.glob("625_words-from-*-to-*.csv")):
+        match = re.match(r"625_words-from-(.+)-to-(.+)\.csv", csv_file.name)
+        if match:
+            source_locale, target_locale = match.groups()
+            translation_pairs.add((source_locale, target_locale))
+
+    if not translation_pairs:
+        print("No translation pair files found, skipping translation pair generation")
+        conn.close()
+        return
+
+    total_created = 0
+    for source_locale, target_locale in sorted(translation_pairs):
+        # Find all vocabulary keys that exist in both source and target languages
+        cursor.execute(
+            """
+            SELECT DISTINCT v.key
+            FROM vocabulary v
+            WHERE EXISTS (
+                SELECT 1 FROM base_language bl1
+                WHERE bl1.key = v.key AND bl1.locale = ?
+            )
+            AND EXISTS (
+                SELECT 1 FROM base_language bl2
+                WHERE bl2.key = v.key AND bl2.locale = ?
+            )
+            AND NOT EXISTS (
+                SELECT 1 FROM translation_pair tp
+                WHERE tp.key = v.key
+                  AND tp.source_locale = ?
+                  AND tp.target_locale = ?
+            )
+            ORDER BY v.key COLLATE NOCASE
+        """,
+            (source_locale, target_locale, source_locale, target_locale),
+        )
+
+        missing_keys = [row[0] for row in cursor.fetchall()]
+
+        if missing_keys:
+            # Insert missing translation pairs in database with empty hints
+            for key in missing_keys:
+                cursor.execute(
+                    """
+                    INSERT INTO translation_pair
+                    (key, source_locale, target_locale, guid, pronunciation_hint,
+                     spelling_hint, reading_hint, listening_hint, notes)
+                    VALUES (?, ?, ?, '', '', '', '', '', '')
+                """,
+                    (key, source_locale, target_locale),
+                )
+
+            conn.commit()
+
+            # Also update the CSV file immediately
+            csv_file = (
+                data_dir / f"625_words-from-{source_locale}-to-{target_locale}.csv"
+            )
+
+            # Read existing CSV data
+            existing_rows = []
+            with open(csv_file, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                fieldnames = reader.fieldnames
+                existing_rows = list(reader)
+
+            # Add missing keys
+            for key in missing_keys:
+                existing_rows.append(
+                    {
+                        "key": key,
+                        "guid": "",
+                        "pronunciation hint": "",
+                        "spelling hint": "",
+                        "reading hint": "",
+                        "listening hint": "",
+                        "notes": "",
+                    }
+                )
+
+            # Sort by key (case-insensitive)
+            existing_rows.sort(key=lambda row: (row["key"].lower(), row["key"]))
+
+            # Write back to CSV
+            with open(csv_file, "w", encoding="utf-8", newline="") as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+                writer.writeheader()
+                writer.writerows(existing_rows)
+
+            total_created += len(missing_keys)
+            print(
+                f"Created {len(missing_keys)} missing translation pair entries for {source_locale} → {target_locale}"
+            )
+
+    conn.close()
+
+    if total_created > 0:
+        print(f"\nTotal: Created {total_created} translation pair entries")
+
+
 def generate_joined_source_fields(
     db_path: Path, output_dir: Path, data_dir: Path = Path("src/data")
 ):
     """
     Generate CSV files that contain the joint source and license information
     from the SQLite database.
+
+    Also ensures all vocabulary keys exist in all base language files and
+    all translation pair files before generating.
     """
     _ensure_db_exists(db_path, data_dir)
     _check_db_freshness(db_path, data_dir)
+
+    # First ensure all base language entries exist
+    ensure_base_language_entries_exist(db_path, data_dir)
+
+    # Then ensure all translation pairs exist
+    ensure_translation_pairs_exist(db_path, data_dir)
 
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
