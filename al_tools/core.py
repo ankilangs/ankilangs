@@ -182,6 +182,7 @@ _VOICE_MAP = {
         "es-ES-Studio-F",
     ],
     "fa_ir": [
+        "Aoede",
         "Achernar",
         "Achird",
     ],
