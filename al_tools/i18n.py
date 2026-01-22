@@ -166,6 +166,46 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
     },
 }
 
+# Card type names for each locale
+CARD_TYPES: Dict[str, Dict[str, str]] = {
+    "de_de": {
+        "listening": "Hörverständnis",
+        "pronunciation": "Aussprache",
+        "reading": "Leseverständnis",
+        "spelling": "Rechtschreibung",
+    },
+    "en_us": {
+        "listening": "Listening",
+        "pronunciation": "Pronunciation",
+        "reading": "Reading",
+        "spelling": "Spelling",
+    },
+    "es_es": {
+        "listening": "Comprensión oral",
+        "pronunciation": "Pronunciación",
+        "reading": "Comprensión escrita",
+        "spelling": "Ortografía",
+    },
+    "fr_fr": {
+        "listening": "Compréhension orale",
+        "pronunciation": "Prononciation",
+        "reading": "Compréhension écrite",
+        "spelling": "Orthographe",
+    },
+    "it_it": {
+        "listening": "Ascolto",
+        "pronunciation": "Pronuncia",
+        "reading": "Lettura",
+        "spelling": "Ortografia",
+    },
+    "pt_pt": {
+        "listening": "Compreensão oral",
+        "pronunciation": "Pronúncia",
+        "reading": "Compreensão escrita",
+        "spelling": "Ortografia",
+    },
+}
+
 
 def get_language_name(locale: str, target_locale: str) -> str:
     """Get the name of target language in the source language.
@@ -205,6 +245,23 @@ def get_ui_string(locale: str, key: str, *args) -> str:
         return string.format(*args)
 
     return string
+
+
+def get_card_type_name(locale: str, card_type: str) -> str:
+    """Get the name of a card type in the specified locale.
+
+    Args:
+        locale: Language locale (e.g., "en_us")
+        card_type: Card type key (e.g., "listening", "pronunciation")
+
+    Returns:
+        Localized card type name
+    """
+    if locale not in CARD_TYPES:
+        # Fallback to English
+        locale = "en_us"
+
+    return CARD_TYPES[locale].get(card_type, card_type.capitalize())
 
 
 def get_apkg_filename(

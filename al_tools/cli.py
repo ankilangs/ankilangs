@@ -13,6 +13,7 @@ from al_tools.core import (
 )
 from al_tools.registry import DeckRegistry
 from al_tools.content import ContentGenerator
+from al_tools.deck_creator import create_625_deck
 
 
 def cli():
@@ -196,6 +197,22 @@ def cli():
         help="Copy generated description to clipboard",
     )
 
+    create_deck_parser = subparsers.add_parser(
+        "create-deck", help="Create a new 625 word deck from templates"
+    )
+    create_deck_parser.add_argument(
+        "source_locale", type=str, help="Source locale (e.g., en_us, de_de, es_es)"
+    )
+    create_deck_parser.add_argument(
+        "target_locale", type=str, help="Target locale (e.g., en_us, de_de, es_es)"
+    )
+    create_deck_parser.add_argument(
+        "--version",
+        type=str,
+        default="0.1.0-dev",
+        help="Initial version (default: 0.1.0-dev)",
+    )
+
     args = parser.parse_args()
 
     if args.command == "audio":
@@ -251,6 +268,8 @@ def cli():
         generate_ankiweb_description(
             registry, args.deck_id, output_dir, clipboard=args.clipboard
         )
+    elif args.command == "create-deck":
+        create_625_deck(args.source_locale, args.target_locale, args.version)
     else:
         parser.print_help()
 

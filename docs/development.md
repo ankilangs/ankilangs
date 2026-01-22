@@ -152,93 +152,36 @@ All recipes in the Justfile are optional shortcuts. You can always use the direc
 
 ## To create a new 625 words deck
 
-* Copy and adapt one of the directories in `src/note_models/`
+Use the `create-deck` command to automatically generate all necessary files:
 
 ```bash
-# Probably leave the following unchanged
-export AL_SRC_NAME="en_to_pt"
-export AL_SRC_NAME_2="EN to PT"
-export AL_SRC_LANG_NAME="Portuguese"
-export AL_SRC_LISTENING="Listening"
-export AL_SRC_PRONUNCIATION="Pronunciation"
-export AL_SRC_READING="Reading"
-export AL_SRC_SPELLING="Spelling"
-
-# CHANGE ME!
-export AL_DST_NAME="de_to_fr"
-export AL_DST_NAME_2="DE to FR"
-export AL_DST_LANG_NAME="Französisch"
-export AL_DST_LISTENING="Listening"
-export AL_DST_PRONUNCIATION="Pronunciation"
-export AL_DST_READING="Reading"
-export AL_DST_SPELLING="Spelling"
-## Use the following if the source language is not EN
-#export AL_DST_LISTENING="Hörverständnis"
-#export AL_DST_PRONUNCIATION="Aussprache"
-#export AL_DST_READING="Leseverständnis"
-#export AL_DST_SPELLING="Rechtschreibung"
-
-
-cp "src/headers/description_${AL_SRC_NAME}-625_words.html" \
-  "src/headers/description_${AL_DST_NAME}-625_words.html"
-
-cp -r "src/note_models/vocabulary_${AL_SRC_NAME}" \
-  "src/note_models/vocabulary_${AL_DST_NAME}"
-
-sed -i "s/id: .*/id: `uv run python -c "import uuid; print(uuid.uuid4())"`/" \
-  "src/note_models/vocabulary_${AL_DST_NAME}/note.yaml"
-
-find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
-  -exec sed -i "s/${AL_SRC_NAME}/${AL_DST_NAME}/g" {} +
-
-find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
-  -exec sed -i "s/${AL_SRC_NAME_2}/${AL_DST_NAME_2}/g" {} +
-
-find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
-  -exec sed -i "s/${AL_SRC_LANG_NAME}/${AL_DST_LANG_NAME}/g" {} +
-
-find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
-  -exec sed -i "s/| ${AL_SRC_LISTENING}/| ${AL_DST_LISTENING}/g" {} +
-
-find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
-  -exec sed -i "s/| ${AL_SRC_PRONUNCIATION}/| ${AL_DST_PRONUNCIATION}/g" {} +
-
-find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
-  -exec sed -i "s/| ${AL_SRC_READING}/| ${AL_DST_READING}/g" {} +
-
-find "src/note_models/vocabulary_${AL_DST_NAME}/" -type f \
-  -exec sed -i "s/| ${AL_SRC_SPELLING}/| ${AL_DST_SPELLING}/g" {} +
+uv run al-tools create-deck <source_locale> <target_locale>
 ```
 
-Edit the deck description file:
+For example, to create a German to French deck:
 
 ```bash
-vim "src/headers/description_${AL_DST_NAME}-625_words.html"
+uv run al-tools create-deck de_de fr_fr
 ```
 
-To generate new UUIDs you can use this command:
+Or an Italian to Portuguese deck:
 
 ```bash
-uv run python -c "import uuid; print(uuid.uuid4())"
+uv run al-tools create-deck it_it pt_pt
 ```
 
-Edit `recipes/source_to_anki_625_words.yaml`:
-* Add the new source files under `generate_guids_in_csvs`
-* Copy a block under `note_models_from_yaml_part` and:
-  * Edit the `part_id` and `file`
-* In the `headers_from_yaml_part` section copy a block and:
-  * Edit the `part_id`
-  * Edit the `name`
-  * Replace `crowdanki_uuid` with a new UUID
-  * Set the path of the `deck_description_html_file`
-* In the `notes_from_csvs` section copy a block and:
-  * Adapt all strings to the new language
-* Copy a `generate_crowd_anki` section and replace all strings with the new
-  language
+This command will:
+* Create the note model directory with all HTML templates and CSS
+* Generate properly localized card types (e.g., "Hörverständnis" for German source)
+* Create the deck description file
+* Create an empty CSV file with proper headers
+* Create the deck content directory with changelog and screenshots folder
+* Update `recipes/source_to_anki_625_words.yaml`
+* Update `decks.yaml` registry
 
-Create the new CSV files you need under `src/data/` by copying and adapting
-existing files. Note that the `guid` columns must stay empty since they have
-to be unique and will automatically be generated during build.
+The command validates that both locales are supported and automatically handles all string localization.
+
+After creating the deck, add vocabulary data to the generated CSV file and follow the workflow described above.
 
 
 ## Generate Audio files
