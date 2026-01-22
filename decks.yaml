@@ -1,154 +1,141 @@
 decks:
   de_to_en_625:
-    name: "Englisch (DE zu EN) | 625 Wörter | AnkiLangs.org"
-    tag_name: "DE_to_EN_625_Words"
-    description_file: "src/headers/description_de_to_en-625_words.html"
-    content_dir: "src/deck_content/de_to_en_625"
-    version: "0.3.0-dev"
+    name: Englisch (DE zu EN) | 625 Wörter | AnkiLangs.org
+    tag_name: DE_to_EN_625_Words
+    description_file: src/headers/description_de_to_en-625_words.html
+    content_dir: src/deck_content/de_to_en_625
+    version: 0.3.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "de_de"
-    target_locale: "en_us"
-
+    deck_type: '625'
+    source_locale: de_de
+    target_locale: en_us
   de_to_es_625:
-    name: "Spanisch (DE zu ES) | 625 Wörter | AnkiLangs.org"
-    tag_name: "DE_to_ES_625_Words"
-    description_file: "src/headers/description_de_to_es-625_words.html"
-    content_dir: "src/deck_content/de_to_es_625"
-    version: "1.1.0-dev"
+    name: Spanisch (DE zu ES) | 625 Wörter | AnkiLangs.org
+    tag_name: DE_to_ES_625_Words
+    description_file: src/headers/description_de_to_es-625_words.html
+    content_dir: src/deck_content/de_to_es_625
+    version: 1.1.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "de_de"
-    target_locale: "es_es"
-
+    deck_type: '625'
+    source_locale: de_de
+    target_locale: es_es
   de_to_fr_625:
-    name: "Franzosisch (DE zu FR) | 625 Wörter | AnkiLangs.org"
-    tag_name: "DE_to_FR_625_Words"
-    description_file: "src/headers/description_de_to_fr-625_words.html"
-    content_dir: "src/deck_content/de_to_fr_625"
-    version: "0.3.0-dev"
+    name: Franzosisch (DE zu FR) | 625 Wörter | AnkiLangs.org
+    tag_name: DE_to_FR_625_Words
+    description_file: src/headers/description_de_to_fr-625_words.html
+    content_dir: src/deck_content/de_to_fr_625
+    version: 0.3.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "de_de"
-    target_locale: "fr_fr"
-
+    deck_type: '625'
+    source_locale: de_de
+    target_locale: fr_fr
   de_to_la_625:
-    name: "Latein (DE zu LA) | 625 Wörter | AnkiLangs.org"
-    tag_name: "DE_to_LA_625_Words"
-    description_file: "src/headers/description_de_to_la-625_words.html"
-    content_dir: "src/deck_content/de_to_la_625"
-    version: "0.1.0-dev"
+    name: Latein (DE zu LA) | 625 Wörter | AnkiLangs.org
+    tag_name: DE_to_LA_625_Words
+    description_file: src/headers/description_de_to_la-625_words.html
+    content_dir: src/deck_content/de_to_la_625
+    version: 0.1.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "de_de"
-    target_locale: "la_la"
-
+    deck_type: '625'
+    source_locale: de_de
+    target_locale: la_la
   en_to_de_625:
-    name: "German (EN to DE) | 625 Words | AnkiLangs.org"
-    tag_name: "EN_to_DE_625_Words"
-    description_file: "src/headers/description_en_to_de-625_words.html"
-    content_dir: "src/deck_content/en_to_de_625"
-    version: "0.3.0-dev"
+    name: German (EN to DE) | 625 Words | AnkiLangs.org
+    tag_name: EN_to_DE_625_Words
+    description_file: src/headers/description_en_to_de-625_words.html
+    content_dir: src/deck_content/en_to_de_625
+    version: 0.3.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "en_us"
-    target_locale: "de_de"
-
+    deck_type: '625'
+    source_locale: en_us
+    target_locale: de_de
   en_to_de_minimal_pairs:
-    name: "German | Minimal Pairs | AnkiLangs.org"
-    tag_name: "EN_to_DE_Minimal_Pairs"
-    description_file: "src/headers/description_en_to_de-minimal_pairs.html"
-    content_dir: "src/deck_content/en_to_de_minimal_pairs"
-    version: "0.3.0-dev"
+    name: German | Minimal Pairs | AnkiLangs.org
+    tag_name: EN_to_DE_Minimal_Pairs
+    description_file: src/headers/description_en_to_de-minimal_pairs.html
+    content_dir: src/deck_content/en_to_de_minimal_pairs
+    version: 0.3.0-dev
     ankiweb_id: null
-    deck_type: "minimal_pairs"
-    source_locale: "en_us"
-    target_locale: "de_de"
-
+    deck_type: minimal_pairs
+    source_locale: en_us
+    target_locale: de_de
   en_to_es_625:
-    name: "Spanish (EN to ES) | 625 Words | AnkiLangs.org"
-    tag_name: "EN_to_ES_625_Words"
-    description_file: "src/headers/description_en_to_es-625_words.html"
-    content_dir: "src/deck_content/en_to_es_625"
-    version: "1.1.0-dev"
+    name: Spanish (EN to ES) | 625 Words | AnkiLangs.org
+    tag_name: EN_to_ES_625_Words
+    description_file: src/headers/description_en_to_es-625_words.html
+    content_dir: src/deck_content/en_to_es_625
+    version: 1.1.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "en_us"
-    target_locale: "es_es"
-
+    deck_type: '625'
+    source_locale: en_us
+    target_locale: es_es
   en_to_fr_625:
-    name: "French (EN to FR) | 625 Words | AnkiLangs.org"
-    tag_name: "EN_to_FR_625_Words"
-    description_file: "src/headers/description_en_to_fr-625_words.html"
-    content_dir: "src/deck_content/en_to_fr_625"
-    version: "0.3.0-dev"
+    name: French (EN to FR) | 625 Words | AnkiLangs.org
+    tag_name: EN_to_FR_625_Words
+    description_file: src/headers/description_en_to_fr-625_words.html
+    content_dir: src/deck_content/en_to_fr_625
+    version: 0.3.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "en_us"
-    target_locale: "fr_fr"
-
+    deck_type: '625'
+    source_locale: en_us
+    target_locale: fr_fr
   en_to_it_625:
-    name: "Italian (EN to IT) | 625 Words | AnkiLangs.org"
-    tag_name: "EN_to_IT_625_Words"
-    description_file: "src/headers/description_en_to_it-625_words.html"
-    content_dir: "src/deck_content/en_to_it_625"
-    version: "0.3.0-dev"
+    name: Italian (EN to IT) | 625 Words | AnkiLangs.org
+    tag_name: EN_to_IT_625_Words
+    description_file: src/headers/description_en_to_it-625_words.html
+    content_dir: src/deck_content/en_to_it_625
+    version: 0.3.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "en_us"
-    target_locale: "it_it"
-
+    deck_type: '625'
+    source_locale: en_us
+    target_locale: it_it
   en_to_pt_625:
-    name: "Portuguese (EN to PT) | 625 Words | AnkiLangs.org"
-    tag_name: "EN_to_PT_625_Words"
-    description_file: "src/headers/description_en_to_pt-625_words.html"
-    content_dir: "src/deck_content/en_to_pt_625"
-    version: "0.3.0-dev"
+    name: Portuguese (EN to PT) | 625 Words | AnkiLangs.org
+    tag_name: EN_to_PT_625_Words
+    description_file: src/headers/description_en_to_pt-625_words.html
+    content_dir: src/deck_content/en_to_pt_625
+    version: 0.3.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "en_us"
-    target_locale: "pt_pt"
-
+    deck_type: '625'
+    source_locale: en_us
+    target_locale: pt_pt
   en_to_sq_625:
-    name: "Albanian (EN to SQ) | 625 Words | AnkiLangs.org"
-    tag_name: "EN_to_SQ_625_Words"
-    description_file: "src/headers/description_en_to_sq-625_words.html"
-    content_dir: "src/deck_content/en_to_sq_625"
-    version: "0.1.0-dev"
+    name: Albanian (EN to SQ) | 625 Words | AnkiLangs.org
+    tag_name: EN_to_SQ_625_Words
+    description_file: src/headers/description_en_to_sq-625_words.html
+    content_dir: src/deck_content/en_to_sq_625
+    version: 0.1.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "en_us"
-    target_locale: "sq_al"
-
+    deck_type: '625'
+    source_locale: en_us
+    target_locale: sq_al
   en_to_fa_625:
-    name: "Farsi (EN to FA) | 625 Words | AnkiLangs.org"
-    tag_name: "EN_to_FA_625_Words"
-    description_file: "src/headers/description_en_to_fa-625_words.html"
-    content_dir: "src/deck_content/en_to_fa_625"
-    version: "0.1.0-dev"
+    name: Farsi (EN to FA) | 625 Words | AnkiLangs.org
+    tag_name: EN_to_FA_625_Words
+    description_file: src/headers/description_en_to_fa-625_words.html
+    content_dir: src/deck_content/en_to_fa_625
+    version: 0.1.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "en_us"
-    target_locale: "fa_ir"
-
+    deck_type: '625'
+    source_locale: en_us
+    target_locale: fa_ir
   es_to_de_625:
-    name: "Alemán (ES a DE) | 625 palabras | AnkiLangs.org"
-    tag_name: "ES_to_DE_625_Words"
-    description_file: "src/headers/description_es_to_de-625_words.html"
-    content_dir: "src/deck_content/es_to_de_625"
-    version: "0.3.0-dev"
+    name: Alemán (ES a DE) | 625 palabras | AnkiLangs.org
+    tag_name: ES_to_DE_625_Words
+    description_file: src/headers/description_es_to_de-625_words.html
+    content_dir: src/deck_content/es_to_de_625
+    version: 0.3.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "es_es"
-    target_locale: "de_de"
-
+    deck_type: '625'
+    source_locale: es_es
+    target_locale: de_de
   es_to_en_625:
-    name: "Inglés (ES a EN) | 625 palabras | AnkiLangs.org"
-    tag_name: "ES_to_EN_625_Words"
-    description_file: "src/headers/description_es_to_en-625_words.html"
-    content_dir: "src/deck_content/es_to_en_625"
-    version: "0.3.0-dev"
+    name: Inglés (ES a EN) | 625 palabras | AnkiLangs.org
+    tag_name: ES_to_EN_625_Words
+    description_file: src/headers/description_es_to_en-625_words.html
+    content_dir: src/deck_content/es_to_en_625
+    version: 0.3.0-dev
     ankiweb_id: null
-    deck_type: "625"
-    source_locale: "es_es"
-    target_locale: "en_us"
+    deck_type: '625'
+    source_locale: es_es
+    target_locale: en_us
