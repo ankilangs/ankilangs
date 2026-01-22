@@ -24,6 +24,7 @@ Learn other languages if you speak English:
 - [Portuguese (EN to PT) | 625 Words](en-to-pt-625)
 - [Albanian (EN to SQ) | 625 Words](en-to-sq-625) (unreleased)
 - [Farsi (EN to FA) | 625 Words](en-to-fa-625) (unreleased)
+- [Hindi (EN to HI) | 625 Words](en-to-hi-625) (unreleased)
 
 ## Deutsche Stapel
 
