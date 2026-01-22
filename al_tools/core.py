@@ -1769,9 +1769,10 @@ def export_review(
 
     # Create ffmpeg concat file with 5s silence after every 10th entry
     concat_file = output_dir / "concat_list.txt"
-    silence_file = output_dir / "silence_5s.mp3"
+    silence_file_5s = output_dir / "silence_5s.mp3"
+    silence_file_300ms = output_dir / "silence_300ms.mp3"
 
-    # Generate 5 seconds of silence with same parameters as source files
+    # Generate silence files with same parameters as source files
     subprocess.run(
         [
             "ffmpeg",
@@ -1786,7 +1787,26 @@ def export_review(
             "-acodec",
             "libmp3lame",
             "-y",
-            str(silence_file),
+            str(silence_file_5s),
+        ],
+        check=True,
+        capture_output=True,
+    )
+    subprocess.run(
+        [
+            "ffmpeg",
+            "-f",
+            "lavfi",
+            "-i",
+            f"anullsrc=r={sample_rate}:cl={'stereo' if channels == '2' else 'mono'}",
+            "-t",
+            "300ms",
+            "-b:a",
+            "64k",
+            "-acodec",
+            "libmp3lame",
+            "-y",
+            str(silence_file_300ms),
         ],
         check=True,
         capture_output=True,
@@ -1799,7 +1819,9 @@ def export_review(
 
             # Add 5s silence after every 10th entry
             if idx % 10 == 0 and idx < len(audio_files_with_keys):
-                f.write(f"file '{silence_file.absolute()}'\n")
+                f.write(f"file '{silence_file_5s.absolute()}'\n")
+            elif idx < len(audio_files_with_keys):
+                f.write(f"file '{silence_file_300ms.absolute()}'\n")
 
     # Concatenate and re-encode to ensure compatibility
     # Re-encoding prevents issues with files that have slightly different encoding parameters
@@ -1830,7 +1852,8 @@ def export_review(
 
     # Clean up temporary files
     concat_file.unlink()
-    silence_file.unlink()
+    silence_file_5s.unlink()
+    silence_file_300ms.unlink()
 
     print(
         f"Audio file '{output_audio}' created ({len(audio_files_with_keys)} audio files concatenated)"
