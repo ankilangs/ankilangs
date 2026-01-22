@@ -1,6 +1,6 @@
 # How to contribute to AnkiLangs
 
-If you are technically experience you can also check out the [development documentation](docs/development.md).
+If you are technically experienced you can also check out the [development documentation](docs/development.md).
 
 ## Error corrections
 For example: The "Portuguese 625 words" deck contains a typo → edit `src/data/625_words-base-pt_pt.csv`.
