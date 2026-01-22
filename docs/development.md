@@ -52,6 +52,12 @@ Or with Just:
 just build-all
 ```
 
+When developing on a Mac, it might be necessary to delete any .DS_Store files before running the commands above.
+Simply run:
+``` bash
+find src/media -name '.DS_Store' -delete
+```
+
 Open Anki and via `File / CrowdAnki: Import from disk` import any of the `build/` subdirectories of this
 Git repository.
 
