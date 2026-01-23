@@ -1,9 +1,9 @@
 key,text:hi,ipa:hi,audio:hi,audio source:hi,tags:hi
-alive,जीवित,/d͡ʒiːʋɪt̪/,,,AnkiLangs::HI
-April,अप्रैल,/əpɾɛːl/,,,AnkiLangs::HI
-art,कला,/kəlaː/,,,AnkiLangs::HI
-August,अगस्त,/əɡəst̪/,,,AnkiLangs::HI
-bad,बुरा,/bʊɾaː/,,,AnkiLangs::HI
+alive,जीवित,/d͡ʒiːʋɪt̪/,[sound:al_hi_in_alive.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+April,अप्रैल,/əpɾɛːl/,[sound:al_hi_in_april.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+art,कला,/kəlaː/,[sound:al_hi_in_art.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+August,अगस्त,/əɡəst̪/,[sound:al_hi_in_august.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+bad,बुरा,/bʊɾaː/,[sound:al_hi_in_bad.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 beautiful,,,,,AnkiLangs::HI
 beer,,,,,AnkiLangs::HI
 big / large,,,,,AnkiLangs::HI
