@@ -16,6 +16,7 @@
     - src/data/625_words-from-en_us-to-hi_in.csv
     - src/data/625_words-from-en_us-to-kn_in.csv
     - src/data/625_words-from-en_us-to-nl_nl.csv
+    - src/data/625_words-from-en_us-to-ta_in.csv
     columns:
     - guid
 - build_parts:
@@ -67,6 +68,9 @@
   - note_model_from_yaml_part:
       part_id: vocabulary_en_to_nl
       file: src/note_models/vocabulary_en_to_nl/note.yaml
+  - note_model_from_yaml_part:
+      part_id: vocabulary_en_to_ta
+      file: src/note_models/vocabulary_en_to_ta/note.yaml
   - headers_from_yaml_part:
     - part_id: header_de_to_en
       file: src/headers/default.yaml
@@ -164,6 +168,12 @@
         name: Dutch (EN to NL) | 625 Words | AnkiLangs.org
         crowdanki_uuid: fd807157-500d-4d82-b883-cd9aa9b1dd52
         deck_description_html_file: src/headers/description_en_to_nl-625_words.html
+    - part_id: header_en_to_ta
+      file: src/headers/default.yaml
+      override:
+        name: Tamil (EN to TA) | 625 Words | AnkiLangs.org
+        crowdanki_uuid: 51b1fa52-a75d-486b-a7b4-8c15296945ae
+        deck_description_html_file: src/headers/description_en_to_ta-625_words.html
   - media_group_from_folder:
       part_id: all_media
       source: src/media/
@@ -600,6 +610,33 @@
         - file: src/data/625_words-base-nl_nl.csv
         - file: src/data/625_words-pictures.csv
         - file: src/data/generated/625_words-from-en_us-to-nl_nl.csv
+  - notes_from_csvs:
+      part_id: notes_en_to_ta
+      note_model_mappings:
+      - note_models:
+        - vocabulary_en_to_ta
+        columns_to_fields:
+          guid: guid
+          text:en: Source Text
+          text:ta: Target Text
+          ipa:ta: Target IPA
+          audio:ta: Target Audio
+          picture: Picture
+          notes: Notes
+          pronunciation hint: Pronunciation Hint
+          spelling hint: Spelling Hint
+          reading hint: Reading Hint
+          listening hint: Listening Hint
+          source: Source & License
+          tags:ta: tags
+      file_mappings:
+      - file: src/data/625_words-from-en_us-to-ta_in.csv
+        note_model: vocabulary_en_to_ta
+        derivatives:
+        - file: src/data/625_words-base-en_us.csv
+        - file: src/data/625_words-base-ta_in.csv
+        - file: src/data/625_words-pictures.csv
+        - file: src/data/generated/625_words-from-en_us-to-ta_in.csv
 - generate_crowd_anki:
     folder: build/DE_to_EN_625_Words
     notes:
@@ -773,6 +810,17 @@
       parts:
       - part_id: vocabulary_en_to_nl
     headers: header_en_to_nl
+    media:
+      parts:
+      - all_media
+- generate_crowd_anki:
+    folder: build/EN_to_TA_625_Words
+    notes:
+      part_id: notes_en_to_ta
+    note_models:
+      parts:
+      - part_id: vocabulary_en_to_ta
+    headers: header_en_to_ta
     media:
       parts:
       - all_media
