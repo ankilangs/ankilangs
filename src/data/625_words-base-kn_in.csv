@@ -1,9 +1,9 @@
 key,text:kn,ipa:kn,audio:kn,audio source:kn,tags:kn
-alive,ಜೀವಂತ,/d͡ʒiːvənt̪ə/,,,AnkiLangs::KN
-April,ಏಪ್ರಿಲ್,/eːpril/,,,AnkiLangs::KN
-art,ಕಲೆ,/kɐle/,,,AnkiLangs::KN
-August,ಆಗಸ್ಟ್,/ɑːɡəsʈ/,,,AnkiLangs::KN
-bad,ಕೆಟ್ಟ,/keʈʈɐ/,,,AnkiLangs::KN
+alive,ಜೀವಂತ,/d͡ʒiːvənt̪ə/,[sound:al_kn_in_alive.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+April,ಏಪ್ರಿಲ್,/eːpril/,[sound:al_kn_in_april.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+art,ಕಲೆ,/kɐle/,[sound:al_kn_in_art.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+August,ಆಗಸ್ಟ್,/ɑːɡəsʈ/,[sound:al_kn_in_august.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+bad,ಕೆಟ್ಟ,/keʈʈɐ/,[sound:al_kn_in_bad.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 beautiful,,,,,AnkiLangs::KN
 beer,,,,,AnkiLangs::KN
 big / large,,,,,AnkiLangs::KN
