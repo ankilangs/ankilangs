@@ -27,6 +27,7 @@ Learn other languages if you speak English:
 - [Farsi (EN to FA) | 625 Words](en-to-fa-625) (unreleased)
 - [Hindi (EN to HI) | 625 Words](en-to-hi-625) (unreleased)
 - [Kannada (EN to KN) | 625 Words](en-to-kn-625) (unreleased)
+- [Marathi (EN to MR) | 625 Words](en-to-mr-625) (unreleased)
 - [Norwegian (EN to NB) | 625 Words](en-to-nb-625) (unreleased)
 - [Tamil (EN to TA) | 625 Words](en-to-ta-625) (unreleased)
 

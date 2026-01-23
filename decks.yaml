@@ -189,3 +189,13 @@ decks:
     deck_type: '625'
     source_locale: en_us
     target_locale: nb_no
+  en_to_mr_625:
+    name: Marathi (EN to MR) | 625 Words | AnkiLangs.org
+    tag_name: EN_to_MR_625_Words
+    description_file: src/headers/description_en_to_mr-625_words.html
+    content_dir: src/deck_content/en_to_mr_625
+    version: 0.1.0-dev
+    ankiweb_id: null
+    deck_type: '625'
+    source_locale: en_us
+    target_locale: mr_in

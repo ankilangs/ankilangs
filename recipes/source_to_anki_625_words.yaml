@@ -18,6 +18,7 @@
     - src/data/625_words-from-en_us-to-nl_nl.csv
     - src/data/625_words-from-en_us-to-ta_in.csv
     - src/data/625_words-from-en_us-to-nb_no.csv
+    - src/data/625_words-from-en_us-to-mr_in.csv
     columns:
     - guid
 - build_parts:
@@ -75,6 +76,9 @@
   - note_model_from_yaml_part:
       part_id: vocabulary_en_to_nb
       file: src/note_models/vocabulary_en_to_nb/note.yaml
+  - note_model_from_yaml_part:
+      part_id: vocabulary_en_to_mr
+      file: src/note_models/vocabulary_en_to_mr/note.yaml
   - headers_from_yaml_part:
     - part_id: header_de_to_en
       file: src/headers/default.yaml
@@ -184,6 +188,12 @@
         name: Norwegian (EN to NB) | 625 Words | AnkiLangs.org
         crowdanki_uuid: 5c75eea6-e73a-4d26-8459-5ce81c05dc82
         deck_description_html_file: src/headers/description_en_to_nb-625_words.html
+    - part_id: header_en_to_mr
+      file: src/headers/default.yaml
+      override:
+        name: Marathi (EN to MR) | 625 Words | AnkiLangs.org
+        crowdanki_uuid: c53267e1-1bde-4096-8ba5-b70cb628c07f
+        deck_description_html_file: src/headers/description_en_to_mr-625_words.html
   - media_group_from_folder:
       part_id: all_media
       source: src/media/
@@ -674,6 +684,33 @@
         - file: src/data/625_words-base-nb_no.csv
         - file: src/data/625_words-pictures.csv
         - file: src/data/generated/625_words-from-en_us-to-nb_no.csv
+  - notes_from_csvs:
+      part_id: notes_en_to_mr
+      note_model_mappings:
+      - note_models:
+        - vocabulary_en_to_mr
+        columns_to_fields:
+          guid: guid
+          text:en: Source Text
+          text:mr: Target Text
+          ipa:mr: Target IPA
+          audio:mr: Target Audio
+          picture: Picture
+          notes: Notes
+          pronunciation hint: Pronunciation Hint
+          spelling hint: Spelling Hint
+          reading hint: Reading Hint
+          listening hint: Listening Hint
+          source: Source & License
+          tags:mr: tags
+      file_mappings:
+      - file: src/data/625_words-from-en_us-to-mr_in.csv
+        note_model: vocabulary_en_to_mr
+        derivatives:
+        - file: src/data/625_words-base-en_us.csv
+        - file: src/data/625_words-base-mr_in.csv
+        - file: src/data/625_words-pictures.csv
+        - file: src/data/generated/625_words-from-en_us-to-mr_in.csv
 - generate_crowd_anki:
     folder: build/DE_to_EN_625_Words
     notes:
@@ -869,6 +906,17 @@
       parts:
       - part_id: vocabulary_en_to_nb
     headers: header_en_to_nb
+    media:
+      parts:
+      - all_media
+- generate_crowd_anki:
+    folder: build/EN_to_MR_625_Words
+    notes:
+      part_id: notes_en_to_mr
+    note_models:
+      parts:
+      - part_id: vocabulary_en_to_mr
+    headers: header_en_to_mr
     media:
       parts:
       - all_media
