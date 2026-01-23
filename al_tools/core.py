@@ -290,9 +290,13 @@ def generate_audio(
                 continue
 
             if pd.notna(row[audio_col]) and row[audio_col]:
-                audio_file = audio_folder_path / re.search(
-                    r"\[sound:(.+)\]", row[audio_col]
-                ).group(1)
+                match = re.search(r"\[sound:(.+)\]", row[audio_col])
+                if match:
+                    audio_file = audio_folder_path / match.group(1)
+                else:
+                    audio_file = audio_folder_path / create_mp3_filename(
+                        row["key"], prefix=f"al_{locale}_"
+                    )
             else:
                 audio_file = audio_folder_path / create_mp3_filename(
                     row["key"], prefix=f"al_{locale}_"
