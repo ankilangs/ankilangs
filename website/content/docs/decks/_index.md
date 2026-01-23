@@ -29,6 +29,7 @@ Learn other languages if you speak English:
 - [Kannada (EN to KN) | 625 Words](en-to-kn-625) (unreleased)
 - [Marathi (EN to MR) | 625 Words](en-to-mr-625) (unreleased)
 - [Norwegian (EN to NB) | 625 Words](en-to-nb-625) (unreleased)
+- [Swedish (EN to SV) | 625 Words](en-to-sv-625) (unreleased)
 - [Tamil (EN to TA) | 625 Words](en-to-ta-625) (unreleased)
 
 ## Deutsche Stapel
