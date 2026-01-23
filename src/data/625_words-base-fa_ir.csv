@@ -37,14 +37,14 @@ dry,خشک,/xoʃk/,[sound:al_fa_ir_dry.mp3],Google Cloud TTS<br>Voice: Achird,An
 dust,گرد و خاک,/gæɾdo xɒːk/,[sound:al_fa_ir_dust.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
 Earth,زمین,/zæmin/,[sound:al_fa_ir_earth.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 eight (8),هشت,/hæʃt/,[sound:al_fa_ir_eight_8.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
-eighteen (18),هجده,/hid͡ʒdæh/,,,AnkiLangs::FA
+eighteen (18),هجده,/hid͡ʒdæh/,[sound:al_fa_ir_eighteen_18.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
 eighty (80),هشتاد,/hæʃtɒːd/,[sound:al_fa_ir_eighty_80.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
-eighty-one (81),هشتاد و یک,/hæʃtɒːdo jek/,,,AnkiLangs::FA
-eighty-two (82),هشتاد و دو,/hæʃtɒːdo do/,,,AnkiLangs::FA
-eleven (11),یازده,/jɒːzdæh/,,,AnkiLangs::FA
-energy,انرژی,/eneɾʒi/,,,AnkiLangs::FA
-exercise,ورزش,/væɾzeʃ/,,,AnkiLangs::FA
-expensive,گران,/geɾɒːn/,,,AnkiLangs::FA
+eighty-one (81),هشتاد و یک,/hæʃtɒːdo jek/,[sound:al_fa_ir_eighty_one_81.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+eighty-two (82),هشتاد و دو,/hæʃtɒːdo do/,[sound:al_fa_ir_eighty_two_82.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+eleven (11),یازده,/jɒːzdæh/,[sound:al_fa_ir_eleven_11.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+energy,انرژی,/eneɾʒi/,[sound:al_fa_ir_energy.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+exercise,ورزش,/væɾzeʃ/,[sound:al_fa_ir_exercise.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+expensive,گران,/geɾɒːn/,[sound:al_fa_ir_expensive.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
 famous,معروف,/mæʔɾuf/,[sound:al_fa_ir_famous.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
 fast,سریع,/særiʔ/,[sound:al_fa_ir_fast.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
 February,فوریه,/fevɾije/,[sound:al_fa_ir_february.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
@@ -68,49 +68,49 @@ Friday,جمعه,/d͡ʒomʔe/,[sound:al_fa_ir_friday.mp3],Google Cloud TTS<br>Voi
 glass,شیشه,/ʃiʃe/,[sound:al_fa_ir_glass.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
 God,خدا,/xodɒː/,[sound:al_fa_ir_god.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 gold,طلا,/tælɒː/,[sound:al_fa_ir_gold.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
-good,خوب,/xub/,,,AnkiLangs::FA
+good,خوب,/xub/,[sound:al_fa_ir_good.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
 gray,خاکستری,/xɒːkestæɾi/,[sound:al_fa_ir_gray.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
-green,سبز,/sæbz/,,,AnkiLangs::FA
-happy,خوشحال,/xoʃhɒːl/,,,AnkiLangs::FA
-hard,سخت,/sæxt/,,,AnkiLangs::FA
-he,او,/u/,,,AnkiLangs::FA
-healthy,سالم,/sɒːlem/,,,AnkiLangs::FA
-heaven,بهشت,/beheʃt/,,,AnkiLangs::FA
-heavy,سنگین,/sængin/,,,AnkiLangs::FA
-hell,جهنم,/d͡ʒæhænæm/,,,AnkiLangs::FA
-high,بلند,/bolænd/,,,AnkiLangs::FA
-hot,داغ,/dɒːɢ/,,,AnkiLangs::FA
-I,من,/mæn/,,,AnkiLangs::FA
-it,آن,/ɒːn/,,,AnkiLangs::FA
+green,سبز,/sæbz/,[sound:al_fa_ir_green.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+happy,خوشحال,/xoʃhɒːl/,[sound:al_fa_ir_happy.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+hard,سخت,/sæxt/,[sound:al_fa_ir_hard.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+he,او,/u/,[sound:al_fa_ir_he.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+healthy,سالم,/sɒːlem/,[sound:al_fa_ir_healthy.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+heaven,بهشت,/beheʃt/,[sound:al_fa_ir_heaven.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+heavy,سنگین,/sængin/,[sound:al_fa_ir_heavy.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+hell,جهنم,/d͡ʒæhænæm/,[sound:al_fa_ir_hell.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+high,بلند,/bolænd/,[sound:al_fa_ir_high.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+hot,داغ,/dɒːɢ/,[sound:al_fa_ir_hot.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+I,من,/mæn/,[sound:al_fa_ir_i.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+it,آن,/ɒːn/,[sound:al_fa_ir_it.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
 January,ژانویه,/ʒɒːnvije/,[sound:al_fa_ir_january.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
-juice,آبمیوه,/ɒːbmive/,,,AnkiLangs::FA
+juice,آبمیوه,/ɒːbmive/,[sound:al_fa_ir_juice.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
 July,ژوئیه,/ʒuʔije/,[sound:al_fa_ir_july.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 June,ژوئن,/ʒuʔæn/,[sound:al_fa_ir_june.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
-left,چپ,/t͡ʃæp/,,,AnkiLangs::FA
-"light [opposite of ""dark""]",روشن,/ɾoʃæn/,,,AnkiLangs::FA
-"light [opposite of ""heavy""]",سبک,/sabok/,,,AnkiLangs::FA
-light blue,آبی روشن,/ɒːbi ɾoʃæn/,,,AnkiLangs::FA
-long,بلند,/bolænd/,,,AnkiLangs::FA
-loose,شل,/ʃol/,,,AnkiLangs::FA
-loud,بلند,/bolænd/,,,AnkiLangs::FA
-low,پایین,/pɒːjin/,,,AnkiLangs::FA
-lunch,ناهار,/nɒːhɒːɾ/,,,AnkiLangs::FA
-male,مذکر,/mozækæɾ/,,,AnkiLangs::FA
+left,چپ,/t͡ʃæp/,[sound:al_fa_ir_left.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+"light [opposite of ""dark""]",روشن,/ɾoʃæn/,[sound:al_fa_ir_light_opposite_of_dark.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+"light [opposite of ""heavy""]",سبک,/sabok/,[sound:al_fa_ir_light_opposite_of_heavy.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+light blue,آبی روشن,/ɒːbi ɾoʃæn/,[sound:al_fa_ir_light_blue.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+long,بلند,/bolænd/,[sound:al_fa_ir_long.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+loose,شل,/ʃol/,[sound:al_fa_ir_loose.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+loud,بلند,/bolænd/,[sound:al_fa_ir_loud.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+low,پایین,/pɒːjin/,[sound:al_fa_ir_low.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+lunch,ناهار,/nɒːhɒːɾ/,[sound:al_fa_ir_lunch.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+male,مذکر,/mozækæɾ/,[sound:al_fa_ir_male.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
 March,مارس,/mɒːɾs/,[sound:al_fa_ir_march.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
-marriage,ازدواج,/ezdovɒːd͡ʒ/,,,AnkiLangs::FA
-material,ماده,/mɒːde/,,,AnkiLangs::FA
+marriage,ازدواج,/ezdovɒːd͡ʒ/,[sound:al_fa_ir_marriage.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+material,ماده,/mɒːde/,[sound:al_fa_ir_material.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
 May,مه,/me/,[sound:al_fa_ir_may.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
-mean,بدجنس,/bædd͡ʒens/,,,AnkiLangs::FA
-medicine,دارو,/dɒːɾu/,,,AnkiLangs::FA
-metal,فلز,/fellez/,,,AnkiLangs::FA
-milk,شیر,/ʃiɾ/,,,AnkiLangs::FA
+mean,بدجنس,/bædd͡ʒens/,[sound:al_fa_ir_mean.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+medicine,دارو,/dɒːɾu/,[sound:al_fa_ir_medicine.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+metal,فلز,/fellez/,[sound:al_fa_ir_metal.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+milk,شیر,/ʃiɾ/,[sound:al_fa_ir_milk.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
 Monday,دوشنبه,/doʃænbe/,[sound:al_fa_ir_monday.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
-money,پول,/pul/,,,AnkiLangs::FA
-murder,قتل,/ɢætl/,,,AnkiLangs::FA
-music,موسیقی,/musiɢi/,,,AnkiLangs::FA
-narrow,باریک,/bɒːɾik/,,,AnkiLangs::FA
-nature,طبیعت,/tæbiʔæt/,,,AnkiLangs::FA
-new,جدید,/d͡ʒædid/,,,AnkiLangs::FA
+money,پول,/pul/,[sound:al_fa_ir_money.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
+murder,قتل,/ɢætl/,[sound:al_fa_ir_murder.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+music,موسیقی,/musiɢi/,[sound:al_fa_ir_music.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::FA
+narrow,باریک,/bɒːɾik/,[sound:al_fa_ir_narrow.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+nature,طبیعت,/tæbiʔæt/,[sound:al_fa_ir_nature.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::FA
+new,جدید,/d͡ʒædid/,[sound:al_fa_ir_new.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::FA
 nice,خوش,/xoʃ/,,,AnkiLangs::FA
 nine (9),نه,/noh/,,,AnkiLangs::FA
 nineteen (19),نوزده,/nuzdæh/,,,AnkiLangs::FA
