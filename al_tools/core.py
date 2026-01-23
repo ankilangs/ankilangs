@@ -191,11 +191,35 @@ _VOICE_MAP = {
         "fr-FR-Studio-A",
         "fr-FR-Studio-D",
     ],
+    "hi_in": [  # Hindi
+        "hi-IN-Standard-A",
+        "hi-IN-Standard-B",
+    ],
     # No Italian studio voices exist as of Jan 2025
     "it_it": [
         "it-IT-Journey-D",
         "it-IT-Journey-F",
         "it-IT-Journey-O",
+    ],
+    "kn_in": [  # Kannada
+        "kn-IN-Standard-A",
+        "kn-IN-Standard-B",
+    ],
+    "nl_nl": [  # Dutch
+        "nl-NL-Standard-F",
+        "nl-NL-Standard-G",
+    ],
+    "ta_in": [  # Tamil
+        "ta-IN-Standard-A",
+        "ta-IN-Standard-B",
+    ],
+    "nb_no": [  # Norwegian
+        "nb-NO-Standard-F",
+        "nb-NO-Standard-G",
+    ],
+    "mr_in": [  # Marathi
+        "mr-IN-Standard-A",
+        "mr-IN-Standard-B",
     ],
     "de_de": [
         "de-DE-Studio-B",
@@ -209,6 +233,14 @@ _VOICE_MAP = {
     "sq_al": [
         "Achernar",
         "Achird",
+    ],
+    "sv_se": [  # Swedish
+        "sv-SE-Standard-A",
+        "sv-SE-Standard-B",
+    ],
+    "ru_ru": [  # Russian
+        "ru-RU-Standard-A",
+        "ru-RU-Standard-B",
     ],
 }
 
