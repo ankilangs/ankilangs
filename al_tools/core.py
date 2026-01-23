@@ -1655,11 +1655,13 @@ def export_review(
             tp.guid,
             bl_source.text as source_text,
             bl_target.text as target_text,
+            bl_target.ipa as target_ipa,
             bl_target.audio as target_audio,
             tp.pronunciation_hint,
             tp.spelling_hint,
             tp.reading_hint,
-            tp.listening_hint
+            tp.listening_hint,
+            tp.notes
         FROM translation_pair tp
         JOIN base_language bl_source
             ON tp.key = bl_source.key AND bl_source.locale = tp.source_locale
@@ -1684,10 +1686,12 @@ def export_review(
         "guid",
         "source_text",
         "target_text",
+        "target_ipa",
         "pronunciation_hint",
         "spelling_hint",
         "reading_hint",
         "listening_hint",
+        "notes",
         "review_comment",
     ]
 
@@ -1701,10 +1705,12 @@ def export_review(
                     "guid": row["guid"] or "",
                     "source_text": row["source_text"] or "",
                     "target_text": row["target_text"] or "",
+                    "target_ipa": row["target_ipa"] or "",
                     "pronunciation_hint": row["pronunciation_hint"] or "",
                     "spelling_hint": row["spelling_hint"] or "",
                     "reading_hint": row["reading_hint"] or "",
                     "listening_hint": row["listening_hint"] or "",
+                    "notes": row["notes"] or "",
                     "review_comment": "",
                 }
             )
