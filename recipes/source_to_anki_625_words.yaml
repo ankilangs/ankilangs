@@ -20,6 +20,7 @@
     - src/data/625_words-from-en_us-to-nb_no.csv
     - src/data/625_words-from-en_us-to-mr_in.csv
     - src/data/625_words-from-en_us-to-sv_se.csv
+    - src/data/625_words-from-en_us-to-ru_ru.csv
     columns:
     - guid
 - build_parts:
@@ -83,6 +84,9 @@
   - note_model_from_yaml_part:
       part_id: vocabulary_en_to_sv
       file: src/note_models/vocabulary_en_to_sv/note.yaml
+  - note_model_from_yaml_part:
+      part_id: vocabulary_en_to_ru
+      file: src/note_models/vocabulary_en_to_ru/note.yaml
   - headers_from_yaml_part:
     - part_id: header_de_to_en
       file: src/headers/default.yaml
@@ -204,6 +208,12 @@
         name: Swedish (EN to SV) | 625 Words | AnkiLangs.org
         crowdanki_uuid: 1ea7855b-089d-4461-b2ab-0f4ec40fc6a2
         deck_description_html_file: src/headers/description_en_to_sv-625_words.html
+    - part_id: header_en_to_ru
+      file: src/headers/default.yaml
+      override:
+        name: Russian (EN to RU) | 625 Words | AnkiLangs.org
+        crowdanki_uuid: 5d8e811c-a776-4576-9b57-3a3f94163b04
+        deck_description_html_file: src/headers/description_en_to_ru-625_words.html
   - media_group_from_folder:
       part_id: all_media
       source: src/media/
@@ -748,6 +758,33 @@
         - file: src/data/625_words-base-sv_se.csv
         - file: src/data/625_words-pictures.csv
         - file: src/data/generated/625_words-from-en_us-to-sv_se.csv
+  - notes_from_csvs:
+      part_id: notes_en_to_ru
+      note_model_mappings:
+      - note_models:
+        - vocabulary_en_to_ru
+        columns_to_fields:
+          guid: guid
+          text:en: Source Text
+          text:ru: Target Text
+          ipa:ru: Target IPA
+          audio:ru: Target Audio
+          picture: Picture
+          notes: Notes
+          pronunciation hint: Pronunciation Hint
+          spelling hint: Spelling Hint
+          reading hint: Reading Hint
+          listening hint: Listening Hint
+          source: Source & License
+          tags:ru: tags
+      file_mappings:
+      - file: src/data/625_words-from-en_us-to-ru_ru.csv
+        note_model: vocabulary_en_to_ru
+        derivatives:
+        - file: src/data/625_words-base-en_us.csv
+        - file: src/data/625_words-base-ru_ru.csv
+        - file: src/data/625_words-pictures.csv
+        - file: src/data/generated/625_words-from-en_us-to-ru_ru.csv
 - generate_crowd_anki:
     folder: build/DE_to_EN_625_Words
     notes:
@@ -965,6 +1002,17 @@
       parts:
       - part_id: vocabulary_en_to_sv
     headers: header_en_to_sv
+    media:
+      parts:
+      - all_media
+- generate_crowd_anki:
+    folder: build/EN_to_RU_625_Words
+    notes:
+      part_id: notes_en_to_ru
+    note_models:
+      parts:
+      - part_id: vocabulary_en_to_ru
+    headers: header_en_to_ru
     media:
       parts:
       - all_media
