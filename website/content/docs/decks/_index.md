@@ -23,6 +23,7 @@ Learn other languages if you speak English:
 - [Italian (EN to IT) | 625 Words](en-to-it-625)
 - [Portuguese (EN to PT) | 625 Words](en-to-pt-625)
 - [Albanian (EN to SQ) | 625 Words](en-to-sq-625) (unreleased)
+- [Dutch (EN to NL) | 625 Words](en-to-nl-625) (unreleased)
 - [Farsi (EN to FA) | 625 Words](en-to-fa-625) (unreleased)
 - [Hindi (EN to HI) | 625 Words](en-to-hi-625) (unreleased)
 - [Kannada (EN to KN) | 625 Words](en-to-kn-625) (unreleased)

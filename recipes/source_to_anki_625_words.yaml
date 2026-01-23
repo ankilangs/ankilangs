@@ -15,6 +15,7 @@
     - src/data/625_words-from-es_es-to-en_us.csv
     - src/data/625_words-from-en_us-to-hi_in.csv
     - src/data/625_words-from-en_us-to-kn_in.csv
+    - src/data/625_words-from-en_us-to-nl_nl.csv
     columns:
     - guid
 - build_parts:
@@ -63,6 +64,9 @@
   - note_model_from_yaml_part:
       part_id: vocabulary_en_to_kn
       file: src/note_models/vocabulary_en_to_kn/note.yaml
+  - note_model_from_yaml_part:
+      part_id: vocabulary_en_to_nl
+      file: src/note_models/vocabulary_en_to_nl/note.yaml
   - headers_from_yaml_part:
     - part_id: header_de_to_en
       file: src/headers/default.yaml
@@ -154,6 +158,12 @@
         name: Kannada (EN to KN) | 625 Words | AnkiLangs.org
         crowdanki_uuid: 14b2169a-782d-4a21-a127-ca490bf3321e
         deck_description_html_file: src/headers/description_en_to_kn-625_words.html
+    - part_id: header_en_to_nl
+      file: src/headers/default.yaml
+      override:
+        name: Dutch (EN to NL) | 625 Words | AnkiLangs.org
+        crowdanki_uuid: fd807157-500d-4d82-b883-cd9aa9b1dd52
+        deck_description_html_file: src/headers/description_en_to_nl-625_words.html
   - media_group_from_folder:
       part_id: all_media
       source: src/media/
@@ -563,6 +573,33 @@
         - file: src/data/625_words-base-kn_in.csv
         - file: src/data/625_words-pictures.csv
         - file: src/data/generated/625_words-from-en_us-to-kn_in.csv
+  - notes_from_csvs:
+      part_id: notes_en_to_nl
+      note_model_mappings:
+      - note_models:
+        - vocabulary_en_to_nl
+        columns_to_fields:
+          guid: guid
+          text:en: Source Text
+          text:nl: Target Text
+          ipa:nl: Target IPA
+          audio:nl: Target Audio
+          picture: Picture
+          notes: Notes
+          pronunciation hint: Pronunciation Hint
+          spelling hint: Spelling Hint
+          reading hint: Reading Hint
+          listening hint: Listening Hint
+          source: Source & License
+          tags:nl: tags
+      file_mappings:
+      - file: src/data/625_words-from-en_us-to-nl_nl.csv
+        note_model: vocabulary_en_to_nl
+        derivatives:
+        - file: src/data/625_words-base-en_us.csv
+        - file: src/data/625_words-base-nl_nl.csv
+        - file: src/data/625_words-pictures.csv
+        - file: src/data/generated/625_words-from-en_us-to-nl_nl.csv
 - generate_crowd_anki:
     folder: build/DE_to_EN_625_Words
     notes:
@@ -725,6 +762,17 @@
       parts:
       - part_id: vocabulary_en_to_kn
     headers: header_en_to_kn
+    media:
+      parts:
+      - all_media
+- generate_crowd_anki:
+    folder: build/EN_to_NL_625_Words
+    notes:
+      part_id: notes_en_to_nl
+    note_models:
+      parts:
+      - part_id: vocabulary_en_to_nl
+    headers: header_en_to_nl
     media:
       parts:
       - all_media

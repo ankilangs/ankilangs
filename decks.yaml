@@ -159,3 +159,13 @@ decks:
     deck_type: '625'
     source_locale: en_us
     target_locale: kn_in
+  en_to_nl_625:
+    name: Dutch (EN to NL) | 625 Words | AnkiLangs.org
+    tag_name: EN_to_NL_625_Words
+    description_file: src/headers/description_en_to_nl-625_words.html
+    content_dir: src/deck_content/en_to_nl_625
+    version: 0.1.0-dev
+    ankiweb_id: null
+    deck_type: '625'
+    source_locale: en_us
+    target_locale: nl_nl
