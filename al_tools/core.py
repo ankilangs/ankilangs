@@ -219,7 +219,7 @@ def generate_audio(
     audio_folder_path: Path,
     audio_exists_action: AudioExistsAction,
     data_dir: Path = Path("src/data"),
-    seed: int = 42,
+    seed: int | str = 42,
     limit: int = None,
 ):
     """
@@ -228,12 +228,16 @@ def generate_audio(
     If the directory does not exist it will be created.
 
     Args:
+        seed: Random seed for voice selection. Use integer for reproducible results,
+            or "random" for fully random selection.
         limit: Maximum number of audio files to generate. None means no limit.
     """
     _ensure_db_exists(db_path, data_dir)
     _check_db_freshness(db_path, data_dir)
 
-    random.seed(seed)
+    if seed != "random":
+        random.seed(seed)
+
     lang_short = locale.split("_")[0]
 
     # Read from SQLite
