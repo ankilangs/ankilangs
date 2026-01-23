@@ -44,6 +44,12 @@ def cli():
         choices=["skip", "overwrite", "raise"],
     )
     audio_parser.add_argument(
+        "--seed",
+        type=str,
+        default="42",
+        help="Random seed for voice selection: integer for reproducibility (default: 42), or 'random' for non-deterministic",
+    )
+    audio_parser.add_argument(
         "--limit",
         type=int,
         default=None,
@@ -216,12 +222,14 @@ def cli():
     args = parser.parse_args()
 
     if args.command == "audio":
+        seed = args.seed if args.seed == "random" else int(args.seed)
         generate_audio(
             Path(args.database),
             args.locale,
             Path(args.output),
             AudioExistsAction(args.action),
             Path(args.data_dir),
+            seed=seed,
             limit=args.limit,
         )
     elif args.command == "generate":
