@@ -31,6 +31,7 @@ def cli():
     audio_parser = subparsers.add_parser(
         "audio",
         description="Generate audio files via Google Cloud Text-to-Speech API. Reads vocabulary from the SQLite database and creates MP3 audio files for the specified locale. Updates the database with audio file references and source information.",
+        help="Generate audio files via Google Cloud TTS API",
     )
     audio_parser.add_argument(
         "-l",
