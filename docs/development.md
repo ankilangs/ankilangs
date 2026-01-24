@@ -107,6 +107,80 @@ To run all code quality checks (format + check + test):
 just verify-code
 ```
 
+## Commit Message Conventions
+
+This project follows the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification for commit messages. This provides a consistent history and enables automation.
+
+### Format
+
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+### Types
+
+- `feat:` - A new feature
+- `fix:` - A bug fix
+- `refactor:` - Code change that neither fixes a bug nor adds a feature
+- `docs:` - Documentation changes
+- `test:` - Adding or updating tests
+- `chore:` - Maintenance tasks, dependency updates
+- `style:` - Code style changes (formatting, etc.)
+
+### Common Scopes
+
+Scopes are optional and specify which part of the project is affected:
+
+- `(tools)` - Changes to al-tools CLI
+- `(dev)` - Development-related changes
+- `(website)` - Website changes (when using `feat:`, `fix:`, etc.)
+
+### Examples
+
+```
+feat: add pronunciation hints for Spanish bank/bench ambiguity
+```
+
+```
+feat(tools): add --delay param to 'audio' subcommand
+```
+
+```
+fix: correct IPA transcription for German "ich"
+```
+
+```
+docs: update SQLite query examples in CLAUDE.md
+```
+
+```
+feat(website): sort menu by priority
+```
+
+```
+chore(tools): upgrade dependencies
+
+fixes #42
+```
+
+```
+feat: remove redundant link/text from deck description
+
+We do want it on AnkiWeb so explicitly include it there.
+```
+
+### Guidelines
+
+- Keep the subject (first line of the commit message) concise and in lowercase
+- Use a scope when the change affects a specific subsystem
+- Focus on *why* rather than *what* when the change isn't obvious and in
+  particular in any text in addition to the subject.
+- Reference GitHub issues in the footer when applicable (e.g., `fixes #123`, `closes #42`)
+
 ## Testing
 
 This project uses [pytest](https://docs.pytest.org/) for testing. To run the test suite:
