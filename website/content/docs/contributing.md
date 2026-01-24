@@ -11,4 +11,4 @@ weight: 1
 
 # Contributing
 
-See [here](https://github.com/ankilangs/ankilangs?tab=readme-ov-file#contribute-changes).
+See [here](https://github.com/ankilangs/ankilangs/blob/main/CONTRIBUTING.md).
