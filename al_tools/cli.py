@@ -22,7 +22,10 @@ def cli():
 
     subparsers = parser.add_subparsers(dest="command")
 
-    audio_parser = subparsers.add_parser("audio")
+    audio_parser = subparsers.add_parser(
+        "audio",
+        description="Generate audio files via Google Cloud Text-to-Speech API. Reads vocabulary from the SQLite database and creates MP3 audio files for the specified locale. Updates the database with audio file references and source information.",
+    )
     audio_parser.add_argument(
         "-l", "--locale", type=str, required=True, help="Locale (e.g., en_us, es_es)"
     )
@@ -56,7 +59,9 @@ def cli():
     )
 
     generate_parser = subparsers.add_parser(
-        "generate", help="Generate files in 'generated' folder from SQLite"
+        "generate",
+        help="Generate files in 'generated' folder from SQLite",
+        description="Generate derived CSV files with joined source and license information from the SQLite database. These files are used by Brainbrew during the deck build process. Also ensures all vocabulary keys exist in all base language files and translation pair files.",
     )
     generate_parser.add_argument(
         "-o",
@@ -73,7 +78,9 @@ def cli():
     )
 
     check_parser = subparsers.add_parser(
-        "check", help="Check for ambiguous words in SQLite"
+        "check",
+        help="Check for data quality issues in SQLite",
+        description="Detect ambiguous words missing hints, duplicate keys in CSV files, and audio file mismatches between the database and disk. Ambiguous words are those that appear multiple times with different meanings but lack disambiguation hints (pronunciation, reading, listening, or spelling hints).",
     )
     check_parser.add_argument(
         "-d", "--database", type=str, default="data.db", help="Database file path"
@@ -83,7 +90,9 @@ def cli():
     )
 
     csv2sqlite_parser = subparsers.add_parser(
-        "csv2sqlite", help="Import CSV files to SQLite"
+        "csv2sqlite",
+        help="Import CSV files to SQLite",
+        description="Import all CSV files from the data directory into a SQLite database. This creates a normalized schema with vocabulary, base_language, translation_pair, pictures, minimal_pairs, and tts_overrides tables. The database serves as a working cache for easier querying and editing. Warns before overwriting existing databases.",
     )
     csv2sqlite_parser.add_argument(
         "-i", "--input", type=str, required=True, help="Data folder"
@@ -98,7 +107,9 @@ def cli():
     )
 
     sqlite2csv_parser = subparsers.add_parser(
-        "sqlite2csv", help="Export SQLite to CSV files"
+        "sqlite2csv",
+        help="Export SQLite to CSV files",
+        description="Export the SQLite database back to CSV files with deterministic formatting. All rows are sorted case-insensitively by key, using consistent formatting (Unix line endings, minimal quoting). This ensures clean Git diffs and makes the CSV files ready to commit.",
     )
     sqlite2csv_parser.add_argument(
         "-d", "--database", type=str, required=True, help="Database file path"
@@ -108,7 +119,9 @@ def cli():
     )
 
     export_review_parser = subparsers.add_parser(
-        "export-review", help="Export review data for native speakers"
+        "export-review",
+        help="Export review data for native speakers",
+        description="Export translation pairs, hints, and audio for native speaker review. Creates a CSV file, an Excel file with formatting and column protection, and a concatenated MP3 audio file with all target language pronunciations. The Excel file has frozen headers, auto-filters, and protects key columns from editing.",
     )
     export_review_parser.add_argument(
         "-s", "--source", type=str, required=True, help="Source locale (e.g., en_us)"
@@ -137,7 +150,9 @@ def cli():
     )
 
     release_parser = subparsers.add_parser(
-        "release", help="Release management commands"
+        "release",
+        help="Release management commands",
+        description="Manage deck releases and versioning. Use --list to show all registered decks with their current versions, latest release versions, and AnkiWeb upload status.",
     )
     release_parser.add_argument(
         "--list", action="store_true", help="List all decks and their status"
@@ -150,7 +165,9 @@ def cli():
     )
 
     generate_website_parser = subparsers.add_parser(
-        "generate-website", help="Generate website pages from source content"
+        "generate-website",
+        help="Generate website pages from source content",
+        description="Generate Hugo-compatible markdown pages for the AnkiLangs website. Reads deck metadata and content from the registry and creates formatted documentation pages with screenshots. Use --all to generate pages for all decks or --deck to generate a specific deck's page.",
     )
     generate_website_parser.add_argument(
         "--deck", type=str, help="Generate page for specific deck"
@@ -172,7 +189,9 @@ def cli():
     )
 
     generate_ankiweb_parser = subparsers.add_parser(
-        "generate-ankiweb", help="Generate AnkiWeb description for a deck"
+        "generate-ankiweb",
+        help="Generate AnkiWeb description for a deck",
+        description="Generate a formatted AnkiWeb description for a specific deck. Creates HTML-formatted text suitable for pasting into AnkiWeb's deck description field. Optionally copies the output to the clipboard using xclip.",
     )
     generate_ankiweb_parser.add_argument(
         "deck_id", type=str, help="Deck ID to generate description for"
@@ -196,7 +215,9 @@ def cli():
     )
 
     create_deck_parser = subparsers.add_parser(
-        "create-deck", help="Create a new 625 word deck from templates"
+        "create-deck",
+        help="Create a new 625 word deck from templates",
+        description="Bootstrap a new 625-word language pair deck from templates. Creates the necessary directory structure, note model files, Brainbrew recipes, and deck registry entry. Sets up all the scaffolding needed to start developing a new language pair.",
     )
     create_deck_parser.add_argument(
         "source_locale", type=str, help="Source locale (e.g., en_us, de_de, es_es)"
