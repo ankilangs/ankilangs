@@ -15,6 +15,12 @@ from al_tools.content import ContentGenerator
 from al_tools.deck_creator import create_625_deck
 
 
+def _locale_to_directory(locale: str) -> str:
+    """Convert database locale (e.g., 'en_us') to directory format (e.g., 'en_US')."""
+    lang, country = locale.split("_")
+    return f"{lang}_{country.upper()}"
+
+
 def cli():
     """Command line interface for the al_tools package."""
     parser = argparse.ArgumentParser()
@@ -27,10 +33,18 @@ def cli():
         description="Generate audio files via Google Cloud Text-to-Speech API. Reads vocabulary from the SQLite database and creates MP3 audio files for the specified locale. Updates the database with audio file references and source information.",
     )
     audio_parser.add_argument(
-        "-l", "--locale", type=str, required=True, help="Locale (e.g., en_us, es_es)"
+        "-l",
+        "--locale",
+        type=str,
+        required=True,
+        help="Locale (e.g., en_us, ES_ES - case insensitive)",
     )
     audio_parser.add_argument(
-        "-o", "--output", type=str, required=True, help="Output audio folder"
+        "-o",
+        "--output",
+        type=str,
+        default=None,
+        help="Output audio folder (default: src/media/audio/{LOCALE})",
     )
     audio_parser.add_argument(
         "-d", "--database", type=str, default="data.db", help="Database file path"
@@ -235,11 +249,21 @@ def cli():
     args = parser.parse_args()
 
     if args.command == "audio":
+        # Normalize locale to lowercase
+        locale = args.locale.lower()
+
+        # Deduce output directory if not provided
+        if args.output is None:
+            locale_dir = _locale_to_directory(locale)
+            output = Path("src/media/audio") / locale_dir
+        else:
+            output = Path(args.output)
+
         seed = args.seed if args.seed == "random" else int(args.seed)
         generate_audio(
             Path(args.database),
-            args.locale,
-            Path(args.output),
+            locale,
+            output,
             AudioExistsAction(args.action),
             Path(args.data_dir),
             seed=seed,
