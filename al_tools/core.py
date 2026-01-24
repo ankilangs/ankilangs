@@ -1149,30 +1149,6 @@ def ambiguity_detection(
     return output
 
 
-def sort_csv_files(data_dir: Path):
-    """Sort all CSV files alphabetically by first column (key or guid), case-insensitive."""
-    csv_files = sorted(data_dir.glob("*.csv"))
-
-    for csv_file in csv_files:
-        with open(csv_file, "r", encoding="utf-8", newline="") as f:
-            reader = csv.DictReader(f)
-            fieldnames = reader.fieldnames
-            rows = list(reader)
-
-        if not rows:
-            continue
-
-        first_col = fieldnames[0]
-        rows.sort(key=lambda row: (row[first_col].lower(), row[first_col]))
-
-        with open(csv_file, "w", encoding="utf-8", newline="") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
-            writer.writeheader()
-            writer.writerows(rows)
-
-        print(f"Sorted {csv_file.name} ({len(rows)} rows)")
-
-
 def csv2sqlite(data_dir: Path, db_path: Path, force: bool = False):
     """Import all CSV files from data_dir into SQLite database."""
     # Check if database already exists and warn user

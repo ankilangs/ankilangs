@@ -6,7 +6,6 @@ from al_tools.core import (
     AudioExistsAction,
     generate_joined_source_fields,
     ambiguity_detection,
-    sort_csv_files,
     csv2sqlite,
     sqlite2csv,
     export_review,
@@ -81,13 +80,6 @@ def cli():
     )
     check_parser.add_argument(
         "--data-dir", type=str, default="src/data", help="Data folder with CSV files"
-    )
-
-    sort_csv_parser = subparsers.add_parser(
-        "sort-csv", help="Sort CSV files alphabetically by key"
-    )
-    sort_csv_parser.add_argument(
-        "-i", "--input", type=str, required=True, help="Data folder"
     )
 
     csv2sqlite_parser = subparsers.add_parser(
@@ -239,8 +231,6 @@ def cli():
     elif args.command == "check":
         output = ambiguity_detection(Path(args.database), Path(args.data_dir))
         print(output)
-    elif args.command == "sort-csv":
-        sort_csv_files(Path(args.input))
     elif args.command == "csv2sqlite":
         csv2sqlite(Path(args.input), Path(args.database), force=args.force)
     elif args.command == "sqlite2csv":

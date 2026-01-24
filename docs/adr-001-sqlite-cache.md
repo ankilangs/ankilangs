@@ -224,11 +224,6 @@ All functionality is implemented in `al_tools/core.py` and exposed via `al_tools
 - Uses consistent CSV formatting (Unix line endings, minimal quoting)
 - Usage: `uv run al-tools sqlite2csv -d data.db -o src/data`
 
-### `al-tools sort-csv`
-- Sorts CSV files case-insensitively by first column (key or guid)
-- Used for normalizing existing CSV files
-- Usage: `uv run al-tools sort-csv -i src/data`
-
 ### Database Safety Checks
 All commands that read from the database include:
 - `_ensure_db_exists()`: Aborts with helpful message if database not found
