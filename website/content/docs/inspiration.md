@@ -1,6 +1,6 @@
 ---
 title: "Inspiration & Resources"
-weight: 1
+weight: 80
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

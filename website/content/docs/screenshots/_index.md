@@ -1,6 +1,6 @@
 ---
 title: "Screenshots"
-weight: 8
+weight: 40
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

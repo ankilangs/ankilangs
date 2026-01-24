@@ -1,6 +1,6 @@
 ---
 title: "Credits"
-weight: 1
+weight: 70
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

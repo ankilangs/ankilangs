@@ -1,6 +1,6 @@
 ---
 title: "Contributing"
-weight: 1
+weight: 60
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
