@@ -20,7 +20,7 @@ decks:
     source_locale: de_de
     target_locale: es_es
   de_to_fr_625:
-    name: Franzosisch (DE zu FR) | 625 Wörter | AnkiLangs.org
+    name: Französisch (DE zu FR) | 625 Wörter | AnkiLangs.org
     tag_name: DE_to_FR_625_Words
     description_file: src/headers/description_de_to_fr-625_words.html
     content_dir: src/deck_content/de_to_fr_625
