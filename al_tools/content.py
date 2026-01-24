@@ -341,6 +341,8 @@ class ContentGenerator:
             description,
             "",
             f"See [ankilangs.org/docs/decks/{self.deck.website_slug}](https://ankilangs.org/docs/decks/{self.deck.website_slug}/) for full documentation, learning tips, and to report issues.",
+            "",
+            "Check [AnkiLangs.org](https://ankilangs.org/) for more decks and to help improve this deck.",
         ]
 
         # Add screenshots with HTML
@@ -382,7 +384,7 @@ class ContentGenerator:
             for change in latest_changelog.changes:
                 sections.append(f"- {change}")
 
-        return "\n".join(sections)
+        return "\n".join(sections) + "\n"
 
     def generate_github_release_notes(self, version: str) -> str:
         """Generate GitHub release notes for a specific version.

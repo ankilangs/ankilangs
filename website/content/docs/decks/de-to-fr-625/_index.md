@@ -16,8 +16,6 @@ Lerne die 625 wichtigsten französischen Wörter wenn du bereits Deutsch sprichs
 
 Beachte, dass dieser Stapel unfertig ist!
 
-Siehe [AnkiLangs.org](https://ankilangs.org) für mehr Stapel sowie um diesen Stapel zu verbessern.
-
 [Deck herunterladen]({{< param download_url >}})
 
 Siehe [Installationsanleitung]({{< ref "/docs/installation" >}}) und [Lerntipps]({{< ref "/docs/learning-tips" >}}).
