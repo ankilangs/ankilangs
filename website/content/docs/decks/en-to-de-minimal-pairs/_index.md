@@ -10,6 +10,8 @@ bookHidden: true
 
 # German | Minimal Pairs
 
+**Latest release:** 0.2.1 (2025-01-22)
+
 Learn to distinguish German phonemes as an English speaker.
 
 Note that this deck is not finished!

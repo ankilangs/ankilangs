@@ -10,6 +10,8 @@ bookHidden: true
 
 # Spanish (EN to ES) | 625 Words
 
+**Latest release:** 1.0.0 (2026-01-21)
+
 Learn the 625 most important Spanish words if you already speak English.
 
 Check [AnkiLangs.org](https://ankilangs.org) for more decks and to help improving this deck.

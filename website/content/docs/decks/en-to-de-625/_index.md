@@ -10,6 +10,8 @@ bookHidden: true
 
 # German (EN to DE) | 625 Words
 
+**Latest release:** 0.2.0 (2025-01-22)
+
 Learn the 625 most important German words if you already speak English.
 
 Note that this deck is not finished!

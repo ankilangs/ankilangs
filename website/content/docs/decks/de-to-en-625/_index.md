@@ -10,6 +10,8 @@ bookHidden: true
 
 # Englisch (DE zu EN) | 625 Wörter
 
+**Latest release:** 0.2.0 (2025-01-22)
+
 Lerne die 625 wichtigsten englischen Wörter wenn du bereits Deutsch sprichst.
 
 Beachte, dass dieser Stapel unfertig ist!

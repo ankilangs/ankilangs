@@ -10,6 +10,8 @@ bookHidden: true
 
 # Dutch (EN to NL) | 625 Words
 
+**Status:** Unreleased
+
 Learn the 625 most important Nederlands words if you already speak English.
 
 Note that this deck is not finished!
@@ -17,3 +19,4 @@ Note that this deck is not finished!
 Check [AnkiLangs.org](https://ankilangs.org) for more decks and to help improving this deck.
 
 **This deck is not yet released and is under development.**
+

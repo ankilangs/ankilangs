@@ -10,6 +10,8 @@ bookHidden: true
 
 # Inglés (ES a EN) | 625 palabras
 
+**Latest release:** 0.2.0 (2025-01-22)
+
 Aprende las 625 palabras inglesas más importantes si ya hablas español.
 
 ¡Atento que este mazo no está finalizado!
