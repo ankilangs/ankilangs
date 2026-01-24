@@ -253,6 +253,7 @@ def generate_audio(
     data_dir: Path = Path("src/data"),
     seed: int | str = 42,
     limit: int = None,
+    delay: float = 1.0,
 ):
     """
     Generate audio via the Google Cloud TTS API.
@@ -263,6 +264,7 @@ def generate_audio(
         seed: Random seed for voice selection. Use integer for reproducible results,
             or "random" for fully random selection.
         limit: Maximum number of audio files to generate. None means no limit.
+        delay: Delay in seconds between TTS requests to avoid rate limiting.
     """
     _ensure_db_exists(db_path, data_dir)
     _check_db_freshness(db_path, data_dir)
@@ -376,7 +378,7 @@ def generate_audio(
                 synthesis_input = tts.SynthesisInput(text=tts_text)
 
             # Avoid rate limit
-            time.sleep(1)
+            time.sleep(delay)
 
             try:
                 response = client.synthesize_speech(

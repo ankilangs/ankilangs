@@ -72,6 +72,12 @@ def cli():
         default=None,
         help="Maximum number of audio files to generate (to limit API costs)",
     )
+    audio_parser.add_argument(
+        "--delay",
+        type=float,
+        default=1.0,
+        help="Delay in seconds between TTS requests to avoid rate limiting (default: 1.0, accepts decimals like 0.5 or 1.5)",
+    )
 
     generate_parser = subparsers.add_parser(
         "generate",
@@ -274,6 +280,7 @@ def cli():
             Path(args.data_dir),
             seed=seed,
             limit=args.limit,
+            delay=args.delay,
         )
     elif args.command == "generate":
         generate_joined_source_fields(
