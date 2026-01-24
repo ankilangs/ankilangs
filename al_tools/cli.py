@@ -102,6 +102,11 @@ def cli():
     check_parser.add_argument(
         "--data-dir", type=str, default="src/data", help="Data folder with CSV files"
     )
+    check_parser.add_argument(
+        "--auto-fix",
+        action="store_true",
+        help="Automatically fix audio issues: remove DB references for missing files and delete unreferenced files from disk",
+    )
 
     csv2sqlite_parser = subparsers.add_parser(
         "csv2sqlite",
@@ -274,7 +279,9 @@ def cli():
             Path(args.database), Path(args.output), Path(args.data_dir)
         )
     elif args.command == "check":
-        output = ambiguity_detection(Path(args.database), Path(args.data_dir))
+        output = ambiguity_detection(
+            Path(args.database), Path(args.data_dir), auto_fix=args.auto_fix
+        )
         print(output)
     elif args.command == "csv2sqlite":
         csv2sqlite(Path(args.input), Path(args.database), force=args.force)

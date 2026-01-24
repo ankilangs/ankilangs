@@ -832,7 +832,9 @@ def _parse_audio_filename(audio_ref: str) -> str | None:
 
 
 def _check_audio_files(
-    db_path: Path, media_dir: Path | None = Path("src/media/audio")
+    db_path: Path,
+    media_dir: Path | None = Path("src/media/audio"),
+    auto_fix: bool = False,
 ) -> str:
     """Check for audio file mismatches between database and disk.
 
@@ -843,6 +845,7 @@ def _check_audio_files(
     Args:
         db_path: Path to SQLite database
         media_dir: Path to audio media directory (None to skip audio checks)
+        auto_fix: If True, automatically fix issues (remove DB refs for missing files, delete orphaned files)
 
     Returns:
         Error message string if issues found, empty string otherwise
@@ -874,8 +877,6 @@ def _check_audio_files(
         WHERE audio2 IS NOT NULL AND audio2 <> ''
     """)
     db_audio_refs.extend(cursor.fetchall())
-
-    conn.close()
 
     # Build set of audio files referenced in DB, grouped by locale
     db_files_by_locale: Dict[str, Set[str]] = {}
@@ -917,21 +918,64 @@ def _check_audio_files(
         for filename in sorted(orphaned):
             unreferenced_files.append((locale_dir, filename))
 
-    # Build output
+    # Build output and auto-fix if requested
     output = ""
+
     if missing_on_disk:
-        output += "AUDIO FILES IN DATABASE BUT NOT ON DISK:\n"
-        for locale, key, filename in missing_on_disk:
-            locale_dir = _locale_to_directory(locale)
-            output += f"  - {locale_dir}/{filename} (key: '{key}')\n"
-        output += "\n"
+        if auto_fix:
+            output += (
+                "FIXING: Removing audio references from database for missing files:\n"
+            )
+            for locale, key, filename in missing_on_disk:
+                locale_dir = _locale_to_directory(locale)
+
+                # Check if this is a minimal pairs entry
+                if " (audio" in key:
+                    # It's a minimal pairs entry
+                    guid, audio_field = key.rsplit(" (", 1)
+                    audio_field = audio_field.rstrip(")")  # Remove trailing ')'
+
+                    cursor.execute(
+                        f"UPDATE minimal_pairs SET {audio_field} = '' WHERE guid = ? AND target_locale = ?",
+                        (guid, locale),
+                    )
+                    output += f"  ✓ Cleared {audio_field} for minimal pair '{guid}' in {locale_dir}\n"
+                else:
+                    # It's a base_language entry
+                    cursor.execute(
+                        """
+                        UPDATE base_language
+                        SET audio = '', audio_source = ''
+                        WHERE key = ? AND locale = ?
+                        """,
+                        (key, locale),
+                    )
+                    output += f"  ✓ Cleared audio for '{key}' in {locale_dir}\n"
+
+            conn.commit()
+            output += "\n"
+        else:
+            output += "AUDIO FILES IN DATABASE BUT NOT ON DISK:\n"
+            for locale, key, filename in missing_on_disk:
+                locale_dir = _locale_to_directory(locale)
+                output += f"  - {locale_dir}/{filename} (key: '{key}')\n"
+            output += "\n"
 
     if unreferenced_files:
-        output += "AUDIO FILES ON DISK BUT NOT IN DATABASE:\n"
-        for locale_dir, filename in unreferenced_files:
-            output += f"  - {locale_dir}/{filename}\n"
-        output += "\n"
+        if auto_fix:
+            output += "FIXING: Deleting unreferenced audio files from disk:\n"
+            for locale_dir, filename in unreferenced_files:
+                file_path = media_dir / locale_dir / filename
+                file_path.unlink()
+                output += f"  ✓ Deleted {locale_dir}/{filename}\n"
+            output += "\n"
+        else:
+            output += "AUDIO FILES ON DISK BUT NOT IN DATABASE:\n"
+            for locale_dir, filename in unreferenced_files:
+                output += f"  - {locale_dir}/{filename}\n"
+            output += "\n"
 
+    conn.close()
     return output
 
 
@@ -939,6 +983,7 @@ def ambiguity_detection(
     db_path: Path,
     data_dir: Path = Path("src/data"),
     media_dir: Path | None = Path("src/media/audio"),
+    auto_fix: bool = False,
 ) -> str:
     """
     Detect ambiguous words and duplicate keys in the database.
@@ -947,9 +992,10 @@ def ambiguity_detection(
         db_path: Path to SQLite database
         data_dir: Path to CSV data directory
         media_dir: Path to audio media directory (None to skip audio checks)
+        auto_fix: If True, automatically fix audio file issues
 
     Returns:
-        Output string with any errors found
+        Output string with any errors found or fixes applied
     """
     _ensure_db_exists(db_path, data_dir)
     _check_db_freshness(db_path, data_dir)
@@ -1143,7 +1189,7 @@ def ambiguity_detection(
                 output += f"  - '{word}' has the key(s) {keys} and missing column(s) {empty_columns}\n"
 
     # Check audio files
-    audio_output = _check_audio_files(db_path, media_dir)
+    audio_output = _check_audio_files(db_path, media_dir, auto_fix)
     output += audio_output
 
     return output
