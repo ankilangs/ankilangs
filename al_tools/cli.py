@@ -11,7 +11,7 @@ from al_tools.core import (
     export_review,
 )
 from al_tools.registry import DeckRegistry
-from al_tools.content import ContentGenerator
+from al_tools.content import ContentGenerator, generate_deck_overview_page
 from al_tools.deck_creator import create_625_deck
 
 
@@ -407,10 +407,18 @@ def generate_all_website_pages(registry: DeckRegistry, output_dir: Path):
         print("No decks found in registry.")
         return
 
+    # Generate overview page
+    overview_content = generate_deck_overview_page(registry)
+    overview_file = output_dir / "_index.md"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    overview_file.write_text(overview_content)
+    print(f"✓ Generated overview page: {overview_file}")
+
+    # Generate individual deck pages
     for deck in decks:
         generate_website_page_for_deck(registry, deck.deck_id, output_dir)
 
-    print(f"\n✓ Generated {len(decks)} deck pages")
+    print(f"\n✓ Generated {len(decks)} deck pages + overview page")
 
 
 def generate_ankiweb_description(

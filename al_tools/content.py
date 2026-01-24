@@ -4,13 +4,18 @@ Handles parsing of changelog files and generation of website pages and AnkiWeb d
 """
 
 import re
+from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from typing import List, Optional
+from typing import Dict, List, Optional
 
-from al_tools.registry import Deck
-from al_tools.i18n import get_ui_string, get_apkg_filename
+from al_tools.registry import Deck, DeckRegistry
+from al_tools.i18n import (
+    get_ui_string,
+    get_apkg_filename,
+    get_language_name,
+)
 
 
 @dataclass
@@ -109,6 +114,97 @@ class ChangelogParser:
         return entries[0] if entries else None
 
 
+def generate_deck_overview_page(registry: DeckRegistry) -> str:
+    """Generate the main deck overview page that lists all decks grouped by source language.
+
+    Args:
+        registry: Deck registry containing all decks
+
+    Returns:
+        Markdown content for the overview page
+    """
+    # Group decks by source language
+    decks_by_source: Dict[str, List[Deck]] = defaultdict(list)
+    for deck in registry.all():
+        # Only include 625-word decks in the overview (not minimal pairs)
+        if deck.deck_type == "625":
+            decks_by_source[deck.source_locale].append(deck)
+
+    # Build frontmatter and introductory content
+    frontmatter = [
+        "---",
+        'title: "Decks"',
+        "weight: 5",
+        "bookCollapseSection: false",
+        "---",
+        "",
+        "# Decks",
+        "",
+        "> [!NOTE]",
+        "> **Note:** All decks are currently in development and may not yet contain all 625 words.",
+        "> See individual deck pages for current status.",
+        "",
+    ]
+
+    sections = []
+
+    # Sort source languages alphabetically (using English names for consistency)
+    sorted_source_locales = sorted(
+        decks_by_source.keys(), key=lambda loc: get_language_name("en_us", loc)
+    )
+
+    for source_locale in sorted_source_locales:
+        decks = decks_by_source[source_locale]
+
+        # Get section header in source language
+        section_header = get_ui_string(source_locale, "source_language_decks_header")
+        sections.append(f"## {section_header}")
+        sections.append("")
+
+        # Get intro text in source language
+        intro_text = get_ui_string(source_locale, "learn_other_languages_intro")
+        sections.append(intro_text + ".")
+        sections.append("")
+
+        # Sort decks by target language name (in the source language)
+        sorted_decks = sorted(
+            decks, key=lambda d: get_language_name(source_locale, d.target_locale)
+        )
+
+        # Generate list items for each deck
+        for deck in sorted_decks:
+            # Extract full deck name (remove " | AnkiLangs.org" suffix)
+            deck_display_name = deck.name.replace(" | AnkiLangs.org", "")
+
+            # Get latest release version and date
+            latest_version = registry.get_latest_release_version(deck.deck_id)
+
+            if latest_version:
+                # Try to get the date from the changelog
+                changelog_path = Path(deck.content_dir) / "changelog.md"
+                try:
+                    entry = ChangelogParser.get_version_entry(
+                        changelog_path, latest_version
+                    )
+                    if entry and entry.date:
+                        date_str = entry.date.strftime("%Y-%m-%d")
+                        version_info = f"{latest_version} - {date_str}"
+                    else:
+                        version_info = latest_version
+                except (FileNotFoundError, Exception):
+                    version_info = latest_version
+            else:
+                version_info = "unreleased"
+
+            # Create link to deck page (relative path)
+            deck_link = deck.website_slug
+            sections.append(f"- [{deck_display_name}]({deck_link}) ({version_info})")
+
+        sections.append("")
+
+    return "\n".join(frontmatter + sections)
+
+
 class ContentGenerator:
     """Generates website pages and AnkiWeb descriptions from source content."""
 
@@ -160,15 +256,35 @@ class ContentGenerator:
             "",  # Empty line after frontmatter
             f"# {title}",
             "",
-            description,
-            "",
         ]
 
-        # Check if deck has been released
+        # Check if deck has been released and add release info banner
         from al_tools.registry import DeckRegistry
 
         registry = DeckRegistry()
         latest_version = registry.get_latest_release_version(self.deck.deck_id)
+
+        if latest_version:
+            # Try to get the date from the changelog
+            changelog_path = self.content_dir / "changelog.md"
+            try:
+                entry = ChangelogParser.get_version_entry(
+                    changelog_path, latest_version
+                )
+                if entry and entry.date:
+                    date_str = entry.date.strftime("%Y-%m-%d")
+                    release_info = f"**Latest release:** {latest_version} ({date_str})"
+                else:
+                    release_info = f"**Latest release:** {latest_version}"
+            except (FileNotFoundError, Exception):
+                release_info = f"**Latest release:** {latest_version}"
+        else:
+            release_info = "**Status:** Unreleased"
+
+        sections.extend([release_info, ""])
+
+        # Add description
+        sections.extend([description, ""])
 
         if latest_version:
             # Deck has releases - show download link
@@ -202,7 +318,7 @@ class ContentGenerator:
         if changelog:
             sections.extend(["", f"## {changelog_text}", "", changelog])
 
-        return "\n".join(sections)
+        return "\n".join(sections) + "\n"
 
     def generate_ankiweb_description(self) -> str:
         """Generate AnkiWeb description from source content.

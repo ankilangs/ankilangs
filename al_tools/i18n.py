@@ -288,6 +288,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Version",
         "whats_new_in": "Was ist neu in {}",
         "unreleased_note": "Dieses Deck ist noch nicht veröffentlicht und befindet sich in der Entwicklung.",
+        "decks": "Stapel",
+        "learn_other_languages_intro": "Lerne andere Sprachen, wenn du Deutsch sprichst",
+        "source_language_decks_header": "Deutsche Stapel",
     },
     "en_us": {
         "to": "to",
@@ -303,6 +306,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Version",
         "whats_new_in": "What's New in {}",
         "unreleased_note": "This deck is not yet released and is under development.",
+        "decks": "Decks",
+        "learn_other_languages_intro": "Learn other languages if you speak English",
+        "source_language_decks_header": "English Decks",
     },
     "es_es": {
         "to": "a",
@@ -318,6 +324,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Versión",
         "whats_new_in": "Novedades en {}",
         "unreleased_note": "Este mazo aún no está publicado y está en desarrollo.",
+        "decks": "Mazos",
+        "learn_other_languages_intro": "Aprende otros idiomas si hablas español",
+        "source_language_decks_header": "Mazos españoles",
     },
     "fr_fr": {
         "to": "à",
@@ -333,6 +342,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Version",
         "whats_new_in": "Nouveautés de {}",
         "unreleased_note": "Ce paquet n'est pas encore publié et est en cours de développement.",
+        "decks": "Paquets",
+        "learn_other_languages_intro": "Apprenez d'autres langues si vous parlez français",
+        "source_language_decks_header": "Paquets français",
     },
     "it_it": {
         "to": "a",
@@ -348,6 +360,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Versione",
         "whats_new_in": "Novità in {}",
         "unreleased_note": "Questo mazzo non è ancora stato rilasciato ed è in fase di sviluppo.",
+        "decks": "Mazzi",
+        "learn_other_languages_intro": "Impara altre lingue se parli italiano",
+        "source_language_decks_header": "Mazzi italiani",
     },
     "pt_pt": {
         "to": "para",
@@ -363,6 +378,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Versão",
         "whats_new_in": "Novidades em {}",
         "unreleased_note": "Este baralho ainda não foi lançado e está em desenvolvimento.",
+        "decks": "Baralhos",
+        "learn_other_languages_intro": "Aprenda outras línguas se você fala português",
+        "source_language_decks_header": "Baralhos portugueses",
     },
     "hi_in": {
         "to": "se",  # "to" in Hindi
@@ -378,6 +396,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Version",
         "whats_new_in": "{} mein naya kya hai",  # "what's new in" in Hindi (ASCII-safe)
         "unreleased_note": "Yeh deck abhi release nahin hua hai aur vikas mein hai.",  # ASCII-safe
+        "decks": "Decks",
+        "learn_other_languages_intro": "Agar aap Hindi bolte hain to anya bhashaen seekhen",  # ASCII-safe
+        "source_language_decks_header": "Hindi Decks",
     },
     "kn_in": {
         "to": "to",  # Keep in English for simplicity
@@ -393,6 +414,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Version",
         "whats_new_in": "What's New in {}",
         "unreleased_note": "This deck is not yet released and is under development.",
+        "decks": "Decks",
+        "learn_other_languages_intro": "Learn other languages if you speak Kannada",
+        "source_language_decks_header": "Kannada Decks",
     },
     "nl_nl": {
         "to": "naar",
@@ -408,6 +432,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Versie",
         "whats_new_in": "Wat is nieuw in {}",
         "unreleased_note": "Dit deck is nog niet uitgebracht en is in ontwikkeling.",
+        "decks": "Decks",
+        "learn_other_languages_intro": "Leer andere talen als je Nederlands spreekt",
+        "source_language_decks_header": "Nederlandse Decks",
     },
     "ta_in": {
         "to": "to",  # Keep in English for simplicity
@@ -423,6 +450,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Version",
         "whats_new_in": "What's New in {}",
         "unreleased_note": "This deck is not yet released and is under development.",
+        "decks": "Decks",
+        "learn_other_languages_intro": "Learn other languages if you speak Tamil",
+        "source_language_decks_header": "Tamil Decks",
     },
     "nb_no": {
         "to": "til",
@@ -438,6 +468,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Versjon",
         "whats_new_in": "Hva er nytt i {}",
         "unreleased_note": "Dette decket er ikke utgitt enda og er under utvikling.",
+        "decks": "Deck",
+        "learn_other_languages_intro": "Laer andre sprak hvis du snakker norsk",  # ASCII-safe
+        "source_language_decks_header": "Norske Deck",
     },
     "mr_in": {
         "to": "to",  # Keep in English for simplicity
@@ -453,6 +486,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Version",
         "whats_new_in": "What's New in {}",
         "unreleased_note": "This deck is not yet released and is under development.",
+        "decks": "Decks",
+        "learn_other_languages_intro": "Learn other languages if you speak Marathi",
+        "source_language_decks_header": "Marathi Decks",
     },
     "sv_se": {
         "to": "till",
@@ -468,6 +504,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Version",
         "whats_new_in": "Vad ar nytt i {}",  # ASCII-safe
         "unreleased_note": "Detta deck ar aennu inte utgivet och ar under utveckling.",  # ASCII-safe
+        "decks": "Deck",
+        "learn_other_languages_intro": "Laer dig andra sprak om du talar svenska",  # ASCII-safe
+        "source_language_decks_header": "Svenska Deck",
     },
     "ru_ru": {
         "to": "to",  # Keep in English for simplicity
@@ -483,6 +522,9 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "version": "Version",
         "whats_new_in": "What's New in {}",
         "unreleased_note": "This deck is not yet released and is under development.",
+        "decks": "Decks",
+        "learn_other_languages_intro": "Learn other languages if you speak Russian",
+        "source_language_decks_header": "Russian Decks",
     },
 }
 
