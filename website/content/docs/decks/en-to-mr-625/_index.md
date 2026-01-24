@@ -5,7 +5,6 @@ version: "0.1.0"
 download_url: "https://github.com/ankilangs/ankilangs/releases/download/EN_to_MR_625_Words%2F0.1.0/Marathi.EN.to.MR.-.625.Words.-.AnkiLangs.org.-.v0.1.0.apkg"
 ankiweb_url: ""
 weight: 10
-bookHidden: true
 ---
 
 # Marathi (EN to MR) | 625 Words

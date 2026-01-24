@@ -5,7 +5,6 @@ version: "0.2.1"
 download_url: "https://github.com/ankilangs/ankilangs/releases/download/EN_to_DE_Minimal_Pairs%2F0.2.1/German.EN.to.DE.-.Minimal.Pairs.-.AnkiLangs.org.-.v0.2.1.apkg"
 ankiweb_url: ""
 weight: 10
-bookHidden: true
 ---
 
 # German | Minimal Pairs

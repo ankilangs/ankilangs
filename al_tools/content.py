@@ -135,7 +135,7 @@ def generate_deck_overview_page(registry: DeckRegistry) -> str:
         "---",
         'title: "Decks"',
         "weight: 5",
-        "bookCollapseSection: false",
+        "bookCollapseSection: true",
         "---",
         "",
         "# Decks",
@@ -549,6 +549,14 @@ class ContentGenerator:
         # Extract title from name (remove " | AnkiLangs.org" suffix if present)
         title = self.deck.name.replace(" | AnkiLangs.org", "")
 
+        # Determine weight based on source language
+        source_locale_weights = {
+            "en_us": 10,
+            "de_de": 20,
+            "es_es": 30,
+        }
+        weight = source_locale_weights.get(self.deck.source_locale, 99)
+
         frontmatter_lines = [
             "---",
             f'title: "{title}"',
@@ -556,8 +564,7 @@ class ContentGenerator:
             f'version: "{version_for_url}"',
             f'download_url: "{download_url}"',
             f'ankiweb_url: "{ankiweb_url}"',
-            "weight: 10",
-            "bookHidden: true",
+            f"weight: {weight}",
             "---",
         ]
 

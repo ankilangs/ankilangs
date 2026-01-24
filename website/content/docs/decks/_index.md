@@ -1,7 +1,7 @@
 ---
 title: "Decks"
-bookCollapseSection: false
-weight: 20
+weight: 5
+bookCollapseSection: true
 ---
 
 # Decks

@@ -5,7 +5,6 @@ version: "0.1.0"
 download_url: "https://github.com/ankilangs/ankilangs/releases/download/EN_to_RU_625_Words%2F0.1.0/Russian.EN.to.RU.-.625.Words.-.AnkiLangs.org.-.v0.1.0.apkg"
 ankiweb_url: ""
 weight: 10
-bookHidden: true
 ---
 
 # Russian (EN to RU) | 625 Words

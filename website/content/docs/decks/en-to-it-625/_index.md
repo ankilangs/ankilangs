@@ -5,7 +5,6 @@ version: "0.2.0"
 download_url: "https://github.com/ankilangs/ankilangs/releases/download/EN_to_IT_625_Words%2F0.2.0/Italian.EN.to.IT.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg"
 ankiweb_url: ""
 weight: 10
-bookHidden: true
 ---
 
 # Italian (EN to IT) | 625 Words

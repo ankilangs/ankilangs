@@ -5,7 +5,6 @@ version: "1.0.0"
 download_url: "https://github.com/ankilangs/ankilangs/releases/download/EN_to_ES_625_Words%2F1.0.0/Spanish.EN.to.ES._.625.Words._.AnkiLangs.org.apkg"
 ankiweb_url: ""
 weight: 10
-bookHidden: true
 ---
 
 # Spanish (EN to ES) | 625 Words

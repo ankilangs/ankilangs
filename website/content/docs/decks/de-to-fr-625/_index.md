@@ -4,8 +4,7 @@ deck_id: de_to_fr_625
 version: "0.2.0"
 download_url: "https://github.com/ankilangs/ankilangs/releases/download/DE_to_FR_625_Words%2F0.2.0/Franzosisch.DE.zu.FR.-.625.Worter.-.AnkiLangs.org.-.v0.2.0.apkg"
 ankiweb_url: ""
-weight: 10
-bookHidden: true
+weight: 20
 ---
 
 # Französisch (DE zu FR) | 625 Wörter
