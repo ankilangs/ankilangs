@@ -13,6 +13,48 @@ They can be found under `src/data/`.
 See [below](#send-a-pull-request) for how to send your changes back to AnkiLangs.
 
 
+## Systematic Deck Review
+
+If you want to do a comprehensive review of an entire deck (e.g., to check
+translations, IPA transcriptions, and audio quality), we provide a streamlined
+workflow that generates a spreadsheet and combined audio file.
+
+**Example: Reviewing the EN → FR deck**
+
+```bash
+git clone https://github.com/ankilangs/ankilangs.git
+cd ankilangs
+uv run al-tools export-review -s en_us -t fr_fr
+libreoffice build/review/review_en_us_to_fr_fr.xlsx &
+vlc build/review/review_en_us_to_fr_fr.mp3
+```
+
+⚠️ **Note:** The above commands may only work smoothly on Linux and require some
+technical expertise if issues arise. If you encounter problems or prefer not to
+deal with the technical setup, please don't hesitate to contact us at
+[info@ankilangs.org](mailto:info@ankilangs.org). We can send you the Excel file
+and MP3 file directly so you can perform the review without executing these
+commands.
+
+This generates a spreadsheet with all vocabulary entries as follows, as well as
+a combined audio file.
+
+![Deck review spreadsheet](docs/images/deck-review-spreadsheet.png)
+
+You can then:
+- **Correct any translation mistakes** directly in the spreadsheet
+- **Fix IPA transcription errors**
+- **Comment on audio quality issues** in the `review_comment` column
+
+The audio file plays all entries in the same order as the spreadsheet, with:
+- 300ms breaks between words
+- 5-second breaks every 10 words
+- Total duration: ~18 minutes for a 625-word deck
+
+**Partial reviews are welcome!** Even if you only review part of a deck, that's
+helpful. We can find someone else to continue where you left off.
+
+
 ## Contributing audio
 
 For example: A German audio recording for the word "Flugzeug" is incorrect → replace the file `src/media/audio/de_DE/al_de_de_das_flugzeug.mp3`
