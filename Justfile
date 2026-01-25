@@ -51,8 +51,8 @@ build-minimal-pairs: sqlite2csv generate
 # Build all decks
 build-all: build-625 build-minimal-pairs
 
-# Verify data changes (export + generate + check + build)
-verify-data: sqlite2csv generate check-data build-all
+# Verify data changes (export + generate + check + build + reimport)
+verify-data: sqlite2csv generate check-data build-all csv2sqlite
 
 # Full verification before commit (code + data)
 verify: verify-code verify-data
