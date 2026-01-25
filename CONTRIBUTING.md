@@ -57,7 +57,8 @@ helpful. We can find someone else to continue where you left off.
 
 ## Contributing audio
 
-For example: A German audio recording for the word "Flugzeug" is incorrect → replace the file `src/media/audio/de_DE/al_de_de_das_flugzeug.mp3`
+For example: A German audio recording for the word "Flugzeug" is incorrect →
+replace the file `src/media/audio/de_DE/al_de_de_the_plane.mp3`
 
 If you want to add or modify media files (e.g. audio)
 you must do so in the `src/media/` directory.
