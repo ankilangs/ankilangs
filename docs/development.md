@@ -19,6 +19,14 @@ git clone https://github.com/ankilangs/ankilangs
 cd ankilangs/
 ```
 
+## Large Changes
+
+If there are any large structural changes you want to make
+or anything else that involves a lot of work on your side,
+please open a [new issue](https://github.com/ankilangs/ankilangs/issues/new/choose) first in order to discuss it!
+Otherwise you risk investing much work only to get it rejected,
+which is very frustrating.
+
 ## Working with the Data
 
 The project uses CSV files as the source of truth, but tools work with a SQLite database for efficiency.
