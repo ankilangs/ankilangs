@@ -189,6 +189,9 @@ def cli():
         default="decks.yaml",
         help="Path to deck registry file",
     )
+    release_parser.add_argument(
+        "-d", "--database", type=str, default="data.db", help="Database file path"
+    )
 
     generate_website_parser = subparsers.add_parser(
         "generate-website",
@@ -307,7 +310,7 @@ def cli():
     elif args.command == "release":
         if args.list:
             registry = DeckRegistry(Path(args.registry))
-            print_deck_list(registry)
+            print_deck_list(registry, Path(args.database))
         else:
             release_parser.print_help()
     elif args.command == "generate-website":
@@ -332,13 +335,29 @@ def cli():
         parser.print_help()
 
 
-def print_deck_list(registry: DeckRegistry):
+def print_deck_list(registry: DeckRegistry, db_path: Path = Path("data.db")):
     """Print a formatted list of all decks and their status."""
+    import sqlite3
+    from al_tools.core import _ensure_db_exists, _check_db_freshness
+
     decks = sorted(registry.all(), key=lambda d: d.deck_id)
 
     if not decks:
         print("No decks found in registry.")
         return
+
+    # Ensure database exists and is fresh
+    data_dir = Path("src/data")
+    _ensure_db_exists(db_path, data_dir)
+    _check_db_freshness(db_path, data_dir, force=True)
+
+    # Connect to database
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+
+    # Get total vocabulary count for percentage calculations
+    cursor.execute("SELECT COUNT(*) FROM vocabulary")
+    total_vocab = cursor.fetchone()[0]
 
     # Calculate column widths
     max_id_len = max(len(d.deck_id) for d in decks)
@@ -347,9 +366,9 @@ def print_deck_list(registry: DeckRegistry):
     # Print header
     print()
     print(
-        f"{'DECK':<{max_id_len}}  {'VERSION':<{max_version_len}}  {'LAST RELEASE':<13}  ANKIWEB"
+        f"{'DECK':<{max_id_len}}  {'VERSION':<{max_version_len}}  {'TRANSL':<7}  {'AUDIO':<6}  {'LAST RELEASE':<13}  ANKIWEB"
     )
-    print("-" * (max_id_len + max_version_len + 13 + 20))
+    print("-" * (max_id_len + max_version_len + 7 + 6 + 13 + 30))
 
     # Print each deck
     for deck in decks:
@@ -358,10 +377,99 @@ def print_deck_list(registry: DeckRegistry):
 
         ankiweb_str = f"✓ {deck.ankiweb_id}" if deck.ankiweb_id else "✗ (not uploaded)"
 
+        # Calculate completion percentages based on deck type
+        if deck.deck_type == "625":
+            # For 625 decks, check if target locale has actual text
+            cursor.execute(
+                """
+                SELECT COUNT(*) FROM base_language
+                WHERE locale = ? AND text IS NOT NULL AND text <> ''
+                """,
+                (deck.target_locale,),
+            )
+            translation_count = cursor.fetchone()[0]
+            translation_pct_raw = (
+                int((translation_count / total_vocab) * 100) if total_vocab > 0 else 0
+            )
+
+            # Show "<1%" for partial progress, avoid showing "0%" when there's some progress
+            if translation_count > 0 and translation_pct_raw == 0:
+                translation_pct = "<1"
+            else:
+                translation_pct = translation_pct_raw
+
+            # Check target locale audio completion
+            cursor.execute(
+                """
+                SELECT COUNT(*) FROM base_language
+                WHERE locale = ? AND audio IS NOT NULL AND audio <> ''
+                """,
+                (deck.target_locale,),
+            )
+            audio_count = cursor.fetchone()[0]
+            audio_pct_raw = (
+                int((audio_count / total_vocab) * 100) if total_vocab > 0 else 0
+            )
+
+            # Show "<1%" for partial progress
+            if audio_count > 0 and audio_pct_raw == 0:
+                audio_pct = "<1"
+            else:
+                audio_pct = audio_pct_raw
+
+        elif deck.deck_type == "minimal_pairs":
+            # For minimal_pairs decks, use minimal_pairs table
+            cursor.execute(
+                """
+                SELECT COUNT(*) FROM minimal_pairs
+                WHERE source_locale = ? AND target_locale = ?
+                """,
+                (deck.source_locale, deck.target_locale),
+            )
+            total_pairs = cursor.fetchone()[0]
+
+            # Translation percentage: just show how many pairs exist (denominator is itself)
+            translation_pct = 100 if total_pairs > 0 else 0
+
+            # Audio percentage: check how many have both audio1 and audio2
+            cursor.execute(
+                """
+                SELECT COUNT(*) FROM minimal_pairs
+                WHERE source_locale = ? AND target_locale = ?
+                AND audio1 IS NOT NULL AND audio1 <> ''
+                AND audio2 IS NOT NULL AND audio2 <> ''
+                """,
+                (deck.source_locale, deck.target_locale),
+            )
+            audio_complete = cursor.fetchone()[0]
+            audio_pct_raw = (
+                int((audio_complete / total_pairs) * 100) if total_pairs > 0 else 0
+            )
+
+            # Show "<1%" for partial progress
+            if audio_complete > 0 and audio_pct_raw == 0:
+                audio_pct = "<1"
+            else:
+                audio_pct = audio_pct_raw
+
+        else:
+            # Unknown deck type
+            translation_pct = 0
+            audio_pct = 0
+
+        # Format the percentage strings
+        transl_str = (
+            f"{translation_pct}%"
+            if isinstance(translation_pct, int)
+            else f"{translation_pct}%"
+        )
+        audio_str = f"{audio_pct}%" if isinstance(audio_pct, int) else f"{audio_pct}%"
+
         print(
-            f"{deck.deck_id:<{max_id_len}}  {deck.version:<{max_version_len}}  {last_release_str:<13}  {ankiweb_str}"
+            f"{deck.deck_id:<{max_id_len}}  {deck.version:<{max_version_len}}  {transl_str:<7}  {audio_str:<6}  {last_release_str:<13}  {ankiweb_str}"
         )
 
+    conn.close()
     print()
 
 
