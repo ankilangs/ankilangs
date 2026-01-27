@@ -257,6 +257,7 @@ _VOICE_MAP = {
         "pt-PT-Standard-F",
     ],
     "sq_al": [
+        "Aoede",
         "Achernar",
         "Achird",
     ],
