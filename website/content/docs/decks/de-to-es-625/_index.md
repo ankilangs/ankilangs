@@ -13,7 +13,7 @@ weight: 20
 
 Lerne die 625 wichtigsten spanischen Wörter wenn du bereits Deutsch sprichst.
 
-[Deck herunterladen]({{< param download_url >}})
+[Stapel herunterladen]({{< param download_url >}})
 
 Siehe [Installationsanleitung]({{< ref "/docs/installation" >}}) und [Lerntipps]({{< ref "/docs/learning-tips" >}}).
 

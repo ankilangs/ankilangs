@@ -278,7 +278,7 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "to": "zu",
         "words": "Worter",  # ASCII-safe version (no umlaut) for filenames
         "minimal_pairs": "Minimalpaar",
-        "download_deck": "Deck herunterladen",
+        "download_deck": "Stapel herunterladen",
         "installation_instructions": "Installationsanleitung",
         "learning_tips": "Lerntipps",
         "screenshots": "Screenshots",

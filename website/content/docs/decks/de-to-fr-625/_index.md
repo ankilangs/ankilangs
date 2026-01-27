@@ -15,7 +15,7 @@ Lerne die 625 wichtigsten französischen Wörter wenn du bereits Deutsch sprichs
 
 Beachte, dass dieser Stapel unfertig ist!
 
-[Deck herunterladen]({{< param download_url >}})
+[Stapel herunterladen]({{< param download_url >}})
 
 Siehe [Installationsanleitung]({{< ref "/docs/installation" >}}) und [Lerntipps]({{< ref "/docs/learning-tips" >}}).
 
