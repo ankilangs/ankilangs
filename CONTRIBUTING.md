@@ -1,113 +1,163 @@
 # How to contribute to AnkiLangs
 
-If you are technically experienced you can also check out the [development documentation](docs/development.md).
+Thank you for your interest in improving AnkiLangs! This guide is for non-technical contributors who want to help improve translations, audio, and other content.
 
+If you're comfortable with technical tools and want to set up the full development environment, see the [technical documentation](docs/development.md).
 
-## Error corrections
+## Quick Navigation
 
-For example: The "Portuguese 625 words" deck contains a typo → edit `src/data/625_words-base-pt_pt.csv`.
+- [Error Corrections](#error-corrections) - Fix typos and translation mistakes
+- [Contributing Audio](#contributing-audio) - Record or improve audio files
+- [Systematic Deck Review](#systematic-deck-review) - Review entire decks comprehensively
+- [Learning Hints](#learning-hints) - Add hints for ambiguous words
+- [Sending Your Changes](#send-a-pull-request) - How to submit your contributions
 
-CSV files can be imported into Microsoft Excel or LibreOffice Calc in order to edit them.
-They can be found under `src/data/`.
+Nomenclature:
+* **Source language:** The (native) language that the learner already speaks (fluently).
+* **Target language:** The new language that the learner wants to learn.
+* If you see "EN to FR" or "from EN to FR" then EN (English) is the source language and FR (French) is the target language.
 
-See [below](#send-a-pull-request) for how to send your changes back to AnkiLangs.
+## File Structure (What You Need to Know)
 
+AnkiLangs stores all language data in structured files. Here's what matters for contributors:
 
-## Contributing audio
+```
+ankilangs/
+├── src/
+│   ├── data/           ← CSV files with all vocabulary and translations
+│   └── media/
+│       └── audio/      ← Audio recordings (MP3 files)
+└── docs/               ← Documentation
+```
 
-For example: A German audio recording for the word "Flugzeug" is incorrect →
-replace the file `src/media/audio/de_DE/al_de_de_the_plane.mp3`
+**What about the rest?** The project contains other directories (`build/`, `recipes/`, `al_tools/`, etc.) that handle technical aspects like building Anki decks and processing data. You don't need to understand or modify these. If you're curious about the complete structure, check the [technical documentation](docs/development.md#project-structure).
 
-If you want to add or modify media files (e.g. audio)
-you must do so in the `src/media/` directory.
+## Error Corrections
 
+**Example:** The Portuguese 625 words deck contains a typo.
 
-### Audio: Physical Setup
+**How to fix it:**
 
-* Use the best microphone you have available
-* Find a noise-free environment
+1. Find the CSV file in `src/data/` (e.g., `625_words-base-pt_pt.csv`)
+2. Open it in Microsoft Excel, LibreOffice Calc, or any spreadsheet program
+3. Make your correction
+4. [Send your changes](#send-a-pull-request)
 
+**CSV Structure:** Each CSV file contains columns for the English word, translation, pronunciation (IPA), audio filename, and various [learning hints](#learning-hints).
 
-### Audio: Recording
+## Contributing Audio
 
-* Record a bit of silence at the beginning (so we can remove background noise)
-* Speak slowly, but pronounce words naturally.
-* Leave breaks between words and sentences to help us cut the audio automatically etc.
+**Example:** A German audio recording for "Flugzeug" sounds unnatural.
 
+**How to fix it:**
 
-### Audio: Mastering
+Replace the file `src/media/audio/de_DE/al_de_de_the_plane.mp3` with your improved recording.
 
-* Try to preserve the quality of the microphone output signal
-* If possible, aim for:
-  * 44100 Hz sample rate
-  * 16 bit bit depth
-  * Audio saved as FLAC, WAV, OGG Vorbis, MP3 (in that order of preference)
+### Audio Recording Guidelines
 
-For audio recordings we can use a file sharing service instead of PRs.
-Please get in touch via [e-mail](mailto:info@ankilangs.org).
+#### Physical Setup
+- Use the best microphone available
+- Find a quiet, noise-free environment
 
+#### Recording
+- Record a bit of silence at the beginning (helps remove background noise)
+- Speak slowly but pronounce words naturally
+- Leave breaks between words to help with audio editing
+
+#### File Format
+If possible, aim for:
+- 44100 Hz sample rate
+- 16 bit bit depth
+- Format preference: FLAC > WAV > OGG Vorbis > MP3
+
+**Note:** For audio recordings, we can use a file sharing service instead of pull requests. Please contact us at [info@ankilangs.org](mailto:info@ankilangs.org).
 
 ## Systematic Deck Review
 
-If you want to do a comprehensive review of an entire deck (e.g., to check
-translations, IPA transcriptions, and audio quality), we provide a streamlined
-workflow that generates a spreadsheet and combined audio file.
+If you want to review an entire deck comprehensively (checking all translations, pronunciations, and audio), we provide two files that make this easier:
 
-**Example: Reviewing the EN → FR deck**
+### The Two Files
 
-```bash
-git clone https://github.com/ankilangs/ankilangs.git
-cd ankilangs
-uv run al-tools export-review -s en_us -t fr_fr
-libreoffice build/review/review_en_us_to_fr_fr.xlsx &
-vlc build/review/review_en_us_to_fr_fr.mp3
-```
+1. **Excel Spreadsheet (.xlsx)** - Contains all vocabulary in a single table with columns for:
+   - Source word (English)
+   - Target translation (e.g., Spanish)
+   - Pronunciation (IPA)
+   - Audio filename
+   - [Learning hints](#learning-hints) (4 columns)
+   - Comment column for your notes
 
-⚠️ **Note:** The above commands may only work smoothly on Linux and require some
-technical expertise if issues arise. If you encounter problems or prefer not to
-deal with the technical setup, please don't hesitate to contact us at
-[info@ankilangs.org](mailto:info@ankilangs.org). We can send you the Excel file
-and MP3 file directly so you can perform the review without executing these
-commands.
+2. **Audio File (.mp3)** - Combined audio playing all words in order:
+   - 300ms breaks between words
+   - 5-second breaks every 10 words
+   - Total duration: ~18 minutes for a 625-word deck
+   - Matches the row order in the spreadsheet
 
-This generates a spreadsheet with all vocabulary entries as follows, as well as
-a combined audio file.
+### How to Get These Files
 
-![Deck review spreadsheet](docs/images/deck-review-spreadsheet.png)
+**Option 1 (Recommended):** Contact us at [info@ankilangs.org](mailto:info@ankilangs.org) and tell us which deck you want to review (e.g., "EN → FR 625 words"). We'll generate and send you both files.
 
-You can then:
-- **Correct any translation mistakes** directly in the spreadsheet
-- **Fix IPA transcription errors**
-- **Comment on audio quality issues** in the `review_comment` column
+**Option 2:** If you're comfortable with technical setup, see [technical documentation](docs/development.md#systematic-deck-review) for instructions on generating these files yourself.
 
-The audio file plays all entries in the same order as the spreadsheet, with:
-- 300ms breaks between words
-- 5-second breaks every 10 words
-- Total duration: ~18 minutes for a 625-word deck
+### Using the Review Files
 
-When you are done you can send the edited spreadsheet via email
-[info@ankilangs.org](mailto:info@ankilangs.org) or submit a pull request (see
-below), which won't be merged as it is but allows us to extract and process the
-spreadsheet.
+1. Open the Excel file in your spreadsheet program
+2. Play the audio file in your media player (VLC, Windows Media Player, etc.)
+3. Listen to each word while following along in the spreadsheet
+4. Make corrections directly in the spreadsheet:
+   - Fix translation errors
+   - Correct IPA pronunciation guides
+   - Add comments about audio quality issues in the `review_comment` column
 
-**Partial reviews are welcome!** Even if you only review part of a deck, that's
-helpful. We can find someone else to continue where you left off.
+### Understanding the Spreadsheet Columns
 
+The Excel file contains these columns:
+
+| Column | Purpose | Can Edit? |
+|--------|---------|-----------|
+| A (hidden) | GUID | ⚠️ **NO** - Don't unhide or modify |
+| B | Source language (e.g. English) | No |
+| C | Target translation | Yes |
+| D | Target IPA pronunciation | Yes |
+| E | Pronunciation hint | Yes (see [learning hints](#learning-hints)) |
+| F | Spelling hint | Yes (see [learning hints](#learning-hints)) |
+| G | Reading hint | Yes (see [learning hints](#learning-hints)) |
+| H | Listening hint | Yes (see [learning hints](#learning-hints)) |
+| I | Notes (additional nice-to-have info for the learner) | Yes, but seldomly needed |
+| J | Your review comments | **Yes** - Add all your comments here |
+
+**Why is GUID hidden?** The GUID (Globally Unique Identifier) is an internal ID that must never be modified. Changing it would break the connection between spreadsheet rows and the original data. It's hidden to prevent accidental edits.
+
+### After Your Review
+
+**Partial reviews welcome!** Even reviewing part of a deck is valuable. We can find someone else to continue.
+
+Send your edited spreadsheet to [info@ankilangs.org](mailto:info@ankilangs.org) or submit it as a pull request (see below).
+
+## Learning Hints
+
+Many words have multiple meanings. For example, English "light" can mean:
+- Brightness (opposite of dark)
+- Weight (opposite of heavy)
+
+**Learning hints** are short cues that clarify which meaning applies without revealing the translation. For example:
+- "light" with hint "brightness" → you know to say "claro" (Spanish) not "ligero"
+
+For a complete explanation with examples, see the [Learning Hints Guide](docs/learning-hints.md).
 
 ## Send a Pull Request
 
-In order for you modification to become part of the project you must send a PR (pull request) as documented
-[here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
+To integrate your changes into the project, send a pull request (PR) as documented [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
-If you have no experience whatsoever with Git, GitHub, pull requests etc.
-you can send your edits to the CSV files via [e-mail](mailto:info@ankilangs.org).
-
+**Never used Git or GitHub?** No problem! Send your edited files via [email](mailto:info@ankilangs.org) instead.
 
 ## Licensing
 
-Any content you contribute needs to be licensed under a compatible open source license,
-for instance [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
-You need to either be the original author of the content or clearly communicate the original source and licensing terms.
-Copyrighted content cannot be accepted.
+Any content you contribute must be licensed under a compatible open source license, such as [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 
-Not sure what all of that means? Have a look at https://choosealicense.com/
+Requirements:
+- You must be the original author, OR
+- You must clearly state the original source and licensing terms
+
+**Copyrighted content cannot be accepted.**
+
+Not sure what this means? Check out https://choosealicense.com/
