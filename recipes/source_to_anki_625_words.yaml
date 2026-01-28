@@ -21,6 +21,7 @@
     - src/data/625_words-from-en_us-to-mr_in.csv
     - src/data/625_words-from-en_us-to-sv_se.csv
     - src/data/625_words-from-en_us-to-ru_ru.csv
+    - src/data/625_words-from-en_us-to-ar_xa.csv
     columns:
     - guid
 - build_parts:
@@ -87,6 +88,9 @@
   - note_model_from_yaml_part:
       part_id: vocabulary_en_to_ru
       file: src/note_models/vocabulary_en_to_ru/note.yaml
+  - note_model_from_yaml_part:
+      part_id: vocabulary_en_to_ar
+      file: src/note_models/vocabulary_en_to_ar/note.yaml
   - headers_from_yaml_part:
     - part_id: header_de_to_en
       file: src/headers/default.yaml
@@ -214,6 +218,12 @@
         name: Russian (EN to RU) | 625 Words | AnkiLangs.org
         crowdanki_uuid: 5d8e811c-a776-4576-9b57-3a3f94163b04
         deck_description_html_file: src/headers/description_en_to_ru-625_words.html
+    - part_id: header_en_to_ar
+      file: src/headers/default.yaml
+      override:
+        name: Arabic (EN to AR) | 625 Words | AnkiLangs.org
+        crowdanki_uuid: ef51df6a-520a-4d81-a28a-48ba6770ab8e
+        deck_description_html_file: src/headers/description_en_to_ar-625_words.html
   - media_group_from_folder:
       part_id: all_media
       source: src/media/
@@ -785,6 +795,33 @@
         - file: src/data/625_words-base-ru_ru.csv
         - file: src/data/625_words-pictures.csv
         - file: src/data/generated/625_words-from-en_us-to-ru_ru.csv
+  - notes_from_csvs:
+      part_id: notes_en_to_ar
+      note_model_mappings:
+      - note_models:
+        - vocabulary_en_to_ar
+        columns_to_fields:
+          guid: guid
+          text:en: Source Text
+          text:ar: Target Text
+          ipa:ar: Target IPA
+          audio:ar: Target Audio
+          picture: Picture
+          notes: Notes
+          pronunciation hint: Pronunciation Hint
+          spelling hint: Spelling Hint
+          reading hint: Reading Hint
+          listening hint: Listening Hint
+          source: Source & License
+          tags:ar: tags
+      file_mappings:
+      - file: src/data/625_words-from-en_us-to-ar_xa.csv
+        note_model: vocabulary_en_to_ar
+        derivatives:
+        - file: src/data/625_words-base-en_us.csv
+        - file: src/data/625_words-base-ar_xa.csv
+        - file: src/data/625_words-pictures.csv
+        - file: src/data/generated/625_words-from-en_us-to-ar_xa.csv
 - generate_crowd_anki:
     folder: build/DE_to_EN_625_Words
     notes:
@@ -1013,6 +1050,17 @@
       parts:
       - part_id: vocabulary_en_to_ru
     headers: header_en_to_ru
+    media:
+      parts:
+      - all_media
+- generate_crowd_anki:
+    folder: build/EN_to_AR_625_Words
+    notes:
+      part_id: notes_en_to_ar
+    note_models:
+      parts:
+      - part_id: vocabulary_en_to_ar
+    headers: header_en_to_ar
     media:
       parts:
       - all_media

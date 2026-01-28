@@ -22,6 +22,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",
         "sv_se": "Schwedisch",
         "ru_ru": "Russisch",
+        "ar_xa": "Arabisch",
     },
     "en_us": {
         "de_de": "German",
@@ -41,6 +42,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",
         "sv_se": "Swedish",
         "ru_ru": "Russian",
+        "ar_xa": "Arabic",
     },
     "es_es": {
         "de_de": "Aleman",  # ASCII-safe (no accent)
@@ -60,6 +62,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",
         "sv_se": "Sueco",
         "ru_ru": "Ruso",
+        "ar_xa": "Arabe",
     },
     "fr_fr": {
         "de_de": "Allemand",
@@ -79,6 +82,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",
         "sv_se": "Suedois",  # ASCII-safe
         "ru_ru": "Russe",
+        "ar_xa": "Arabe",
     },
     "it_it": {
         "de_de": "Tedesco",
@@ -98,6 +102,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",
         "sv_se": "Svedese",
         "ru_ru": "Russo",
+        "ar_xa": "Arabo",
     },
     "pt_pt": {
         "de_de": "Alemão",
@@ -117,6 +122,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marata",
         "sv_se": "Sueco",
         "ru_ru": "Russo",
+        "ar_xa": "Árabe",
     },
     "hi_in": {
         "de_de": "Jarman",  # German in Hindi (ASCII-safe)
@@ -136,6 +142,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",  # Marathi in Hindi
         "sv_se": "Swedish",  # Swedish in Hindi
         "ru_ru": "Russian",  # Russian in Hindi
+        "ar_xa": "Arabic",  # Arabic in Hindi
     },
     "kn_in": {
         "de_de": "German",  # German in Kannada (ASCII-safe)
@@ -155,6 +162,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",  # Marathi in Kannada
         "sv_se": "Swedish",  # Swedish in Kannada
         "ru_ru": "Russian",  # Russian in Kannada
+        "ar_xa": "Arabic",  # Arabic in Kannada
     },
     "nl_nl": {
         "de_de": "Duits",
@@ -174,6 +182,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",
         "sv_se": "Zweeds",
         "ru_ru": "Russisch",
+        "ar_xa": "Arabisch",
     },
     "ta_in": {
         "de_de": "German",  # German in Tamil (ASCII-safe)
@@ -193,6 +202,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",  # Marathi in Tamil
         "sv_se": "Swedish",  # Swedish in Tamil
         "ru_ru": "Russian",  # Russian in Tamil
+        "ar_xa": "Arabic",  # Arabic in Tamil
     },
     "nb_no": {
         "de_de": "Tysk",
@@ -212,6 +222,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",
         "sv_se": "Svensk",
         "ru_ru": "Russisk",
+        "ar_xa": "Arabisk",
     },
     "mr_in": {
         "de_de": "German",  # German in Marathi (ASCII-safe)
@@ -231,6 +242,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",  # Marathi in Marathi
         "sv_se": "Swedish",  # Swedish in Marathi
         "ru_ru": "Russian",  # Russian in Marathi
+        "ar_xa": "Arabic",  # Arabic in Marathi
     },
     "sv_se": {
         "de_de": "Tyska",
@@ -250,6 +262,7 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",
         "sv_se": "Svenska",
         "ru_ru": "Ryska",
+        "ar_xa": "Arabiska",
     },
     "ru_ru": {
         "de_de": "Nemetskiy",  # German in Russian (ASCII-safe)
@@ -269,6 +282,27 @@ LANGUAGE_NAMES: Dict[str, Dict[str, str]] = {
         "mr_in": "Marathi",  # Marathi in Russian
         "sv_se": "Shvedskiy",  # Swedish in Russian (ASCII-safe)
         "ru_ru": "Russkiy",  # Russian in Russian (ASCII-safe)
+        "ar_xa": "Arabskiy",  # Arabic in Russian (ASCII-safe)
+    },
+    "ar_xa": {
+        "de_de": "Almaniyya",  # German in Arabic (ASCII-safe)
+        "en_us": "Injiliziyya",  # English in Arabic (ASCII-safe)
+        "es_es": "Isbaniyya",  # Spanish in Arabic (ASCII-safe)
+        "fr_fr": "Faransiyya",  # French in Arabic (ASCII-safe)
+        "it_it": "Italiyya",  # Italian in Arabic (ASCII-safe)
+        "la_la": "Latiniyya",  # Latin in Arabic (ASCII-safe)
+        "pt_pt": "Burtughaliyya",  # Portuguese in Arabic (ASCII-safe)
+        "sq_al": "Albaniyya",  # Albanian in Arabic (ASCII-safe)
+        "fa_ir": "Farisiyya",  # Farsi in Arabic (ASCII-safe)
+        "hi_in": "Hindiyya",  # Hindi in Arabic (ASCII-safe)
+        "kn_in": "Kannada",  # Kannada in Arabic
+        "nl_nl": "Hulandiyya",  # Dutch in Arabic (ASCII-safe)
+        "ta_in": "Tamil",  # Tamil in Arabic
+        "nb_no": "Nurwijiyya",  # Norwegian in Arabic (ASCII-safe)
+        "mr_in": "Marathi",  # Marathi in Arabic
+        "sv_se": "Iswidiyya",  # Swedish in Arabic (ASCII-safe)
+        "ru_ru": "Rusiyya",  # Russian in Arabic (ASCII-safe)
+        "ar_xa": "Arabiyya",  # Arabic in Arabic (ASCII-safe)
     },
 }
 
@@ -526,6 +560,24 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "learn_other_languages_intro": "Learn other languages if you speak Russian",
         "source_language_decks_header": "Russian Decks",
     },
+    "ar_xa": {
+        "to": "ila",  # "to" in Arabic (ASCII-safe)
+        "words": "kalimat",  # "words" in Arabic (ASCII-safe)
+        "minimal_pairs": "minimal pairs",  # Keep in English for technical term
+        "download_deck": "Download deck",
+        "installation_instructions": "Installation Instructions",
+        "learning_tips": "Learning Tips",
+        "screenshots": "Screenshots",
+        "changelog": "Changelog",
+        "notes": "Notes",
+        "see_x_and_y": "See {} and {}.",
+        "version": "Version",
+        "whats_new_in": "What's New in {}",
+        "unreleased_note": "This deck is not yet released and is under development.",
+        "decks": "Decks",
+        "learn_other_languages_intro": "Learn other languages if you speak Arabic",
+        "source_language_decks_header": "Arabic Decks",
+    },
 }
 
 # Card type names for each locale
@@ -610,6 +662,12 @@ CARD_TYPES: Dict[str, Dict[str, str]] = {
     },
     "ru_ru": {
         "listening": "Listening",  # Keep in English
+        "pronunciation": "Pronunciation",  # Keep in English
+        "reading": "Reading",  # Keep in English
+        "spelling": "Spelling",  # Keep in English
+    },
+    "ar_xa": {
+        "listening": "Listening",  # Keep in English for simplicity
         "pronunciation": "Pronunciation",  # Keep in English
         "reading": "Reading",  # Keep in English
         "spelling": "Spelling",  # Keep in English

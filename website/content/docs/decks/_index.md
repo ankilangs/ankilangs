@@ -15,6 +15,7 @@ bookCollapseSection: true
 Learn other languages if you speak English.
 
 - [Albanian (EN to SQ) | 625 Words](en-to-sq-625) (unreleased)
+- [Arabic (EN to AR) | 625 Words](en-to-ar-625) (unreleased)
 - [Dutch (EN to NL) | 625 Words](en-to-nl-625) (unreleased)
 - [Farsi (EN to FA) | 625 Words](en-to-fa-625) (unreleased)
 - [French (EN to FR) | 625 Words](en-to-fr-625) (0.2.0 - 2025-01-22)
