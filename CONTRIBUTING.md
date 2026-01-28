@@ -82,7 +82,6 @@ If you want to review an entire deck comprehensively (checking all translations,
    - Source word (English)
    - Target translation (e.g., Spanish)
    - Pronunciation (IPA)
-   - Audio filename
    - [Learning hints](#learning-hints) (4 columns)
    - Comment column for your notes
 
