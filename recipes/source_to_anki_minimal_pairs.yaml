@@ -28,9 +28,13 @@
                 - note_models_en_to_de
 
     - media_group_from_folder:
-        part_id: All Media
-        source: src/media/
-        recursive: true
+        part_id: media_de_de
+        source: src/media/audio/de_DE/
+        recursive: false
+    - media_group_from_folder:
+        part_id: media_images
+        source: src/media/imgs/
+        recursive: false
 
 - generate_crowd_anki:
     folder: build/EN_to_DE_Minimal_Pairs
@@ -42,4 +46,5 @@
     headers: headers_en_us_to_de_de
     media:
       parts:
-        - All Media
+        - media_de_de
+        - media_images

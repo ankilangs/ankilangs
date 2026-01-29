@@ -225,9 +225,73 @@
         crowdanki_uuid: ef51df6a-520a-4d81-a28a-48ba6770ab8e
         deck_description_html_file: src/headers/description_en_to_ar-625_words.html
   - media_group_from_folder:
-      part_id: all_media
-      source: src/media/
-      recursive: true
+      part_id: media_de_de
+      source: src/media/audio/de_DE/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_en_us
+      source: src/media/audio/en_US/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_es_es
+      source: src/media/audio/es_ES/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_fa_ir
+      source: src/media/audio/fa_IR/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_fr_fr
+      source: src/media/audio/fr_FR/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_hi_in
+      source: src/media/audio/hi_IN/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_it_it
+      source: src/media/audio/it_IT/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_kn_in
+      source: src/media/audio/kn_IN/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_mr_in
+      source: src/media/audio/mr_IN/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_nb_no
+      source: src/media/audio/nb_NO/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_nl_nl
+      source: src/media/audio/nl_NL/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_pt_pt
+      source: src/media/audio/pt_PT/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_ru_ru
+      source: src/media/audio/ru_RU/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_sq_al
+      source: src/media/audio/sq_AL/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_sv_se
+      source: src/media/audio/sv_SE/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_ta_in
+      source: src/media/audio/ta_IN/
+      recursive: false
+  - media_group_from_folder:
+      part_id: media_images
+      source: src/media/imgs/
+      recursive: false
   - notes_from_csvs:
       part_id: notes_de_to_en
       note_model_mappings:
@@ -832,7 +896,8 @@
     headers: header_de_to_en
     media:
       parts:
-      - all_media
+      - media_en_us
+      - media_images
 - generate_crowd_anki:
     folder: build/DE_to_ES_625_Words
     notes:
@@ -843,7 +908,8 @@
     headers: header_de_to_es
     media:
       parts:
-      - all_media
+      - media_es_es
+      - media_images
 - generate_crowd_anki:
     folder: build/DE_to_FR_625_Words
     notes:
@@ -854,7 +920,8 @@
     headers: header_de_to_fr
     media:
       parts:
-      - all_media
+      - media_fr_fr
+      - media_images
 - generate_crowd_anki:
     folder: build/DE_to_LA_625_Words
     notes:
@@ -865,7 +932,7 @@
     headers: header_de_to_la
     media:
       parts:
-      - all_media
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_DE_625_Words
     notes:
@@ -876,7 +943,8 @@
     headers: header_en_to_de
     media:
       parts:
-      - all_media
+      - media_de_de
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_ES_625_Words
     notes:
@@ -887,7 +955,8 @@
     headers: header_en_to_es
     media:
       parts:
-      - all_media
+      - media_es_es
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_FR_625_Words
     notes:
@@ -898,7 +967,8 @@
     headers: header_en_to_fr
     media:
       parts:
-      - all_media
+      - media_fr_fr
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_IT_625_Words
     notes:
@@ -909,7 +979,8 @@
     headers: header_en_to_it
     media:
       parts:
-      - all_media
+      - media_it_it
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_PT_625_Words
     notes:
@@ -920,7 +991,8 @@
     headers: header_en_to_pt
     media:
       parts:
-      - all_media
+      - media_pt_pt
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_SQ_625_Words
     notes:
@@ -931,7 +1003,8 @@
     headers: header_en_to_sq
     media:
       parts:
-      - all_media
+      - media_sq_al
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_FA_625_Words
     notes:
@@ -942,7 +1015,8 @@
     headers: header_en_to_fa
     media:
       parts:
-      - all_media
+      - media_fa_ir
+      - media_images
 - generate_crowd_anki:
     folder: build/ES_to_DE_625_Words
     notes:
@@ -953,7 +1027,8 @@
     headers: header_es_to_de
     media:
       parts:
-      - all_media
+      - media_de_de
+      - media_images
 - generate_crowd_anki:
     folder: build/ES_to_EN_625_Words
     notes:
@@ -964,7 +1039,8 @@
     headers: header_es_to_en
     media:
       parts:
-      - all_media
+      - media_en_us
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_HI_625_Words
     notes:
@@ -975,7 +1051,8 @@
     headers: header_en_to_hi
     media:
       parts:
-      - all_media
+      - media_hi_in
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_KN_625_Words
     notes:
@@ -986,7 +1063,8 @@
     headers: header_en_to_kn
     media:
       parts:
-      - all_media
+      - media_kn_in
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_NL_625_Words
     notes:
@@ -997,7 +1075,8 @@
     headers: header_en_to_nl
     media:
       parts:
-      - all_media
+      - media_nl_nl
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_TA_625_Words
     notes:
@@ -1008,7 +1087,8 @@
     headers: header_en_to_ta
     media:
       parts:
-      - all_media
+      - media_ta_in
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_NB_625_Words
     notes:
@@ -1019,7 +1099,8 @@
     headers: header_en_to_nb
     media:
       parts:
-      - all_media
+      - media_nb_no
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_MR_625_Words
     notes:
@@ -1030,7 +1111,8 @@
     headers: header_en_to_mr
     media:
       parts:
-      - all_media
+      - media_mr_in
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_SV_625_Words
     notes:
@@ -1041,7 +1123,8 @@
     headers: header_en_to_sv
     media:
       parts:
-      - all_media
+      - media_sv_se
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_RU_625_Words
     notes:
@@ -1052,7 +1135,8 @@
     headers: header_en_to_ru
     media:
       parts:
-      - all_media
+      - media_ru_ru
+      - media_images
 - generate_crowd_anki:
     folder: build/EN_to_AR_625_Words
     notes:
@@ -1063,4 +1147,4 @@
     headers: header_en_to_ar
     media:
       parts:
-      - all_media
+      - media_images
