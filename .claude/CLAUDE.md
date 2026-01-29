@@ -18,10 +18,10 @@
 
 ## Code Verification
 Before committing code, always:
-1. `just verify-code` (or individually: `just test`, `just format`, `just check`)
+1. `just check-code && just test`
 
 Before committing language data changes, always:
-1. `just verify-data` (includes: export to CSV, generate, check, and build all decks)
+1. `just build` (exports to CSV, generates, and builds all decks)
 
 ## Language Data Management
 **CRITICAL**: Never edit CSV files in `src/data/` directly. Always use this workflow:
@@ -72,15 +72,12 @@ Hints disambiguate ambiguous words without revealing the translation. There are 
 - Run `just check-data` to detect ambiguous words missing hints
 
 ## Common Commands
-- `just generate`: Generate derived CSV files
+- `just build`: Build all decks (includes sqlite2csv + generate)
+- `just check`: Run all checks (code + data)
+- `just check-code`: Format and lint code
 - `just check-data`: Detect ambiguous words missing hints
-- `just build-625`: Build main decks
-- `just build-minimal-pairs`: Build minimal pairs
-- `just build-all`: Build all decks
+- `just test`: Run tests
 - `just test-update-golden`: Update expected test output files
-- `just verify-code`: Run all code quality checks
-- `just verify-data`: Run all data verification and builds
-- `just verify`: Full verification (code + data)
 
 ## Useful SQLite Queries
 

@@ -255,9 +255,9 @@ This diagram shows how data moves from source files to Anki decks:
 |------|---------|---------|
 | **al-tools csv2sqlite** | `just csv2sqlite` | Import CSV → SQLite for editing |
 | **al-tools sqlite2csv** | `just sqlite2csv` | Export SQLite → CSV after editing |
-| **al-tools generate** | `just generate` | Create derived CSVs (license field joins) |
+| **al-tools generate** | (part of `just build`) | Create derived CSVs (license field joins) |
 | **al-tools check** | `just check-data` | Validate data, find missing hints |
-| **Brainbrew** | `just build-all` | Transform sources → CrowdAnki format |
+| **Brainbrew** | `just build` | Transform sources → CrowdAnki format |
 | **CrowdAnki** | Anki menu | Import build/ directories into Anki |
 
 ### Key Points
@@ -312,23 +312,11 @@ This creates `data.db` (which is git-ignored).
 To test your changes in Anki:
 
 ```bash
-# Generate derived files
-just generate
-
 # Check for data issues
 just check-data
 
-# Build all decks
-just build-all
-```
-
-Or use full commands:
-
-```bash
-uv run al-tools generate -o src/data/generated
-uv run al-tools check
-uv run brainbrew run recipes/source_to_anki_625_words.yaml
-uv run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
+# Build all decks (includes sqlite2csv + generate)
+just build
 ```
 
 ### Import into Anki
@@ -373,41 +361,20 @@ For detailed instructions on how to use these files, see [CONTRIBUTING.md](../CO
 
 This project uses [Ruff](https://docs.astral.sh/ruff/) for linting and formatting Python code.
 
-### Linting
-
-Check for issues:
-
-```bash
-uv run ruff check .
-# Or: just check
-```
-
-### Formatting
-
-Auto-format all Python files:
-
-```bash
-uv run ruff format .
-# Or: just format
-```
-
-### Run All Checks
+### Run Code Checks
 
 Before committing code:
 
 ```bash
-just verify-code
+just check-code  # Format + lint
+just test        # Run tests
 ```
 
-This runs format, check, and test.
-
-Before committing data changes:
+Or run all checks (code + data):
 
 ```bash
-just verify-data
+just check
 ```
-
-This runs csv2sqlite, generate, check, and builds all decks.
 
 ## Testing
 
@@ -549,7 +516,7 @@ just
 To release a deck:
 
 1. Update version in `src/headers/description*.md`
-2. Build: `just build-all`
+2. Build: `just build`
 3. Update to next dev version
 4. Import into Anki
 5. Export from Anki:

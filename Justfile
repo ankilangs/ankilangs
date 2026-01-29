@@ -1,7 +1,5 @@
 # AnkiLangs - Task Runner
-# See https://github.com/casey/just for installation and usage
 
-# Default recipe - show available commands
 default:
     @just --list
 
@@ -9,50 +7,33 @@ default:
 test:
     uv run pytest
 
-# Update golden test files (expected output)
+# Update golden test files
 test-update-golden:
     uv run pytest --update-golden
 
-# Format code with ruff
-format:
+# Check code (format + lint)
+check-code:
     uv run ruff format .
-
-# Check code with ruff (linting)
-check:
     uv run ruff check .
 
-# Run all code quality checks (format + check + test)
-verify-code: format check test
+# Check data for ambiguous words missing hints
+check-data:
+    uv run al-tools check
+
+# Run all checks (code + data)
+check: check-code check-data
 
 # Import CSV files to SQLite database
 csv2sqlite input="src/data" db="data.db":
     uv run al-tools csv2sqlite -i {{input}} -d {{db}}
 
-# Export SQLite database back to CSV files
+# Export SQLite database to CSV files
 sqlite2csv db="data.db" output="src/data":
     uv run al-tools sqlite2csv -d {{db}} -o {{output}}
 
-# Generate derived CSV files
-generate output="src/data/generated":
-    uv run al-tools generate -o {{output}}
-
-# Check for ambiguous words missing hints
-check-data:
-    uv run al-tools check
-
-# Build 625 words decks
-build-625: sqlite2csv generate
-    uv run brainbrew run recipes/source_to_anki_625_words.yaml
-
-# Build minimal pairs decks
-build-minimal-pairs: sqlite2csv generate
-    uv run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
-
 # Build all decks
-build-all: build-625 build-minimal-pairs
-
-# Verify data changes (export + generate + check + build + reimport)
-verify-data: sqlite2csv generate check-data build-all csv2sqlite
-
-# Full verification before commit (code + data)
-verify: verify-code verify-data
+build: sqlite2csv
+    uv run al-tools generate -o src/data/generated
+    uv run brainbrew run recipes/source_to_anki_625_words.yaml
+    uv run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
+    uv run al-tools csv2sqlite -i src/data -d data.db --force
