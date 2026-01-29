@@ -1588,8 +1588,7 @@ def sqlite2csv(
     db_path: Path, data_dir: Path, force: bool = False, fail_if_conflict: bool = False
 ):
     """Export SQLite database back to CSV files with deterministic formatting."""
-    if not db_path.exists():
-        raise FileNotFoundError(f"Database not found: {db_path}")
+    _ensure_db_exists(db_path, data_dir)
 
     _check_csv_freshness(db_path, data_dir, force, fail_if_conflict)
 
