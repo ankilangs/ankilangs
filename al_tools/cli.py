@@ -131,6 +131,11 @@ def cli():
         action="store_true",
         help="Overwrite existing database without confirmation",
     )
+    csv2sqlite_parser.add_argument(
+        "--fail-if-conflict",
+        action="store_true",
+        help="Exit with error if database has unsaved edits (for scripts/CI)",
+    )
 
     sqlite2csv_parser = subparsers.add_parser(
         "sqlite2csv",
@@ -142,6 +147,16 @@ def cli():
     )
     sqlite2csv_parser.add_argument(
         "-o", "--output", type=str, required=True, help="Output data folder"
+    )
+    sqlite2csv_parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Overwrite CSV files even if they are newer than the database",
+    )
+    sqlite2csv_parser.add_argument(
+        "--fail-if-conflict",
+        action="store_true",
+        help="Exit with error if CSV files have changed (for scripts/CI)",
     )
 
     export_review_parser = subparsers.add_parser(
@@ -295,9 +310,19 @@ def cli():
         )
         print(output)
     elif args.command == "csv2sqlite":
-        csv2sqlite(Path(args.input), Path(args.database), force=args.force)
+        csv2sqlite(
+            Path(args.input),
+            Path(args.database),
+            force=args.force,
+            fail_if_conflict=args.fail_if_conflict,
+        )
     elif args.command == "sqlite2csv":
-        sqlite2csv(Path(args.database), Path(args.output))
+        sqlite2csv(
+            Path(args.database),
+            Path(args.output),
+            force=args.force,
+            fail_if_conflict=args.fail_if_conflict,
+        )
     elif args.command == "export-review":
         export_review(
             Path(args.database),

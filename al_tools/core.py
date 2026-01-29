@@ -1,12 +1,14 @@
 from enum import Enum
 from pathlib import Path
+import hashlib
+import json
 import random
 import time
 from typing import List, Tuple, Dict, Set
 import unicodedata
 import csv
 import sqlite3
-from datetime import datetime
+from datetime import datetime, timezone
 import sys
 
 import pandas as pd
@@ -26,57 +28,81 @@ def _ensure_db_exists(db_path: Path, data_dir: Path = Path("src/data")):
         print(f"Database created successfully at '{db_path}'.")
 
 
-def _check_db_freshness(db_path: Path, data_dir: Path, force: bool = False):
-    """Check if database is up to date with CSV files."""
+def _compute_csv_hashes(data_dir: Path) -> Dict[str, str]:
+    """Compute MD5 hashes for all CSV files in data_dir."""
+    hashes = {}
+    for csv_file in sorted(data_dir.glob("*.csv")):
+        with open(csv_file, "rb") as f:
+            hashes[csv_file.name] = hashlib.md5(f.read()).hexdigest()
+    return hashes
+
+
+def _get_sync_metadata(db_path: Path) -> Dict[str, str]:
+    """Get sync metadata from database."""
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
-    cursor.execute("SELECT value FROM _meta WHERE key = 'import_timestamp'")
-    result = cursor.fetchone()
+    cursor.execute("SELECT key, value FROM _meta")
+    metadata = {row[0]: row[1] for row in cursor.fetchall()}
     conn.close()
+    return metadata
 
-    if not result:
-        print("Warning: Database has no import timestamp.")
+
+def _get_changed_csv_files(data_dir: Path, stored_hashes: Dict[str, str]) -> List[str]:
+    """Get list of CSV files that have changed since last sync."""
+    current_hashes = _compute_csv_hashes(data_dir)
+    changed = []
+    # Check for modified or new files
+    for filename, current_hash in current_hashes.items():
+        if filename not in stored_hashes or stored_hashes[filename] != current_hash:
+            changed.append(filename)
+    # Check for deleted files
+    for filename in stored_hashes:
+        if filename not in current_hashes:
+            changed.append(f"{filename} (deleted)")
+    return sorted(changed)
+
+
+def _check_db_freshness(db_path: Path, data_dir: Path, force: bool = False):
+    """Check if database is up to date with CSV files. Used before reading from DB."""
+    if force:
         return
 
-    import_time = datetime.fromisoformat(result[0])
+    metadata = _get_sync_metadata(db_path)
+    stored_hashes_json = metadata.get("csv_hashes", "{}")
+    stored_hashes = json.loads(stored_hashes_json)
+    synced_at = metadata.get("synced_at", "unknown")
 
-    # Check all CSV files
-    csv_files = list(data_dir.glob("*.csv"))
-    for csv_file in csv_files:
-        mtime = datetime.fromtimestamp(csv_file.stat().st_mtime)
-        if mtime > import_time:
-            if force:
-                return
+    changed_files = _get_changed_csv_files(data_dir, stored_hashes)
+    if not changed_files:
+        return
 
-            print("━" * 70)
-            print("⚠️  DATABASE OUT OF DATE")
-            print("━" * 70)
-            print(f"CSV files in '{data_dir}' have been modified since the database")
-            print(f"'{db_path}' was last updated.")
-            print()
-            print("What would you like to do?")
-            print()
-            print("  [o] Overwrite - Regenerate database from CSV files")
-            print(
-                "  [i] Ignore    - Continue with the current database (may be inconsistent)"
-            )
-            print("  [c] Cancel    - Exit to fix manually (default)")
-            print()
+    print("━" * 70)
+    print("⚠️  DATABASE OUT OF DATE")
+    print("━" * 70)
+    print("The following CSV files have changed since the database was synced")
+    print(f"on {synced_at}:")
+    print()
+    for f in changed_files[:10]:
+        print(f"  - {f}")
+    if len(changed_files) > 10:
+        print(f"  ... and {len(changed_files) - 10} more")
+    print()
+    print("  [o] Overwrite - Regenerate database from CSV files")
+    print("  [i] Ignore    - Continue with current database (may be inconsistent)")
+    print("  [c] Cancel    - Exit (default)")
+    print()
 
-            response = input("Enter your choice [o/i/c] (default: c): ").strip().lower()
+    response = input("Enter your choice [o/i/c] (default: c): ").strip().lower()
 
-            if response == "o" or response == "overwrite":
-                print(f"Regenerating database from '{data_dir}'...")
-                csv2sqlite(data_dir, db_path, force=True)
-                print(f"Database successfully updated at '{db_path}'.")
-                return
-            elif response == "i" or response == "ignore":
-                print("⚠️  Proceeding with potentially out-of-date database.")
-                return
-            else:
-                print("Operation cancelled. Update manually with:")
-                print(f"  uv run al-tools csv2sqlite -i {data_dir} -d {db_path}")
-                sys.exit(1)
+    if response == "o" or response == "overwrite":
+        print(f"Regenerating database from '{data_dir}'...")
+        csv2sqlite(data_dir, db_path, force=True)
+        print(f"Database successfully updated at '{db_path}'.")
+    elif response == "i" or response == "ignore":
+        print("⚠️  Proceeding with potentially out-of-date database.")
+    else:
+        print("Cancelled.")
+        sys.exit(1)
 
 
 class AudioExistsAction(Enum):
@@ -1197,17 +1223,44 @@ def ambiguity_detection(
     return output
 
 
-def csv2sqlite(data_dir: Path, db_path: Path, force: bool = False):
+class SyncConflictError(Exception):
+    """Raised when there's a conflict between DB and CSV files."""
+
+    pass
+
+
+def csv2sqlite(
+    data_dir: Path, db_path: Path, force: bool = False, fail_if_conflict: bool = False
+):
     """Import all CSV files from data_dir into SQLite database."""
-    # Check if database already exists and warn user
+    # Check if database has unsaved edits before overwriting
     if db_path.exists() and not force:
-        response = input(
-            f"Warning: Database '{db_path}' already exists and will be overwritten.\n"
-            "All data will be replaced with CSV contents. Continue? (y/n): "
-        )
-        if response.lower() != "y":
-            print("Aborting import.")
-            sys.exit(1)
+        metadata = _get_sync_metadata(db_path)
+        synced_at = metadata.get("synced_at")
+        db_modified_at = metadata.get("db_data_modified_at")
+
+        if synced_at and db_modified_at and db_modified_at > synced_at:
+            if fail_if_conflict:
+                raise SyncConflictError(
+                    f"Database has unsaved edits (modified: {db_modified_at}, synced: {synced_at})"
+                )
+
+            print("━" * 70)
+            print("⚠️  DATABASE HAS UNSAVED EDITS")
+            print("━" * 70)
+            print(f"Database was last synced on {synced_at}")
+            print(f"but was modified on {db_modified_at}.")
+            print()
+            print("Importing will OVERWRITE these edits.")
+            print()
+            print("  [o] Overwrite - Import CSV and discard DB edits")
+            print("  [c] Cancel    - Exit (default)")
+            print()
+
+            response = input("Enter your choice [o/c] (default: c): ").strip().lower()
+            if response != "o" and response != "overwrite":
+                print("Cancelled.")
+                sys.exit(1)
 
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
@@ -1292,6 +1345,24 @@ def csv2sqlite(data_dir: Path, db_path: Path, force: bool = False):
             value TEXT
         )
     """)
+
+    # Create triggers to track data modifications (only on data tables, not _meta)
+    cursor.execute("""
+        SELECT name FROM sqlite_master
+        WHERE type = 'table' AND name NOT LIKE 'sqlite_%' AND name != '_meta'
+    """)
+    data_tables = [row[0] for row in cursor.fetchall()]
+    for table in data_tables:
+        for op in ["INSERT", "UPDATE", "DELETE"]:
+            trigger_name = f"track_mod_{table}_{op.lower()}"
+            cursor.execute(f"DROP TRIGGER IF EXISTS {trigger_name}")
+            cursor.execute(f"""
+                CREATE TRIGGER {trigger_name} AFTER {op} ON {table}
+                BEGIN
+                    UPDATE _meta SET value = strftime('%Y-%m-%dT%H:%M:%SZ', 'now')
+                    WHERE key = 'db_data_modified_at';
+                END
+            """)
 
     # Clear existing data for idempotency
     cursor.execute("DELETE FROM base_language")
@@ -1447,10 +1518,16 @@ def csv2sqlite(data_dir: Path, db_path: Path, force: bool = False):
                         )
             print(f"Imported {csv_file.name}")
 
-    # Save metadata
-    cursor.execute(
+    # Save sync metadata
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    csv_hashes = _compute_csv_hashes(data_dir)
+    cursor.executemany(
         "INSERT OR REPLACE INTO _meta (key, value) VALUES (?, ?)",
-        ("import_timestamp", datetime.now().isoformat()),
+        [
+            ("csv_hashes", json.dumps(csv_hashes)),
+            ("synced_at", now),
+            ("db_data_modified_at", now),  # Reset to synced_at after import
+        ],
     )
 
     conn.commit()
@@ -1458,10 +1535,63 @@ def csv2sqlite(data_dir: Path, db_path: Path, force: bool = False):
     print(f"\nDatabase saved to {db_path}")
 
 
-def sqlite2csv(db_path: Path, data_dir: Path):
+def _check_csv_freshness(
+    db_path: Path, data_dir: Path, force: bool = False, fail_if_conflict: bool = False
+):
+    """Check if CSV files have changed since last sync. Used before exporting to CSV."""
+    if force:
+        return
+
+    metadata = _get_sync_metadata(db_path)
+    stored_hashes_json = metadata.get("csv_hashes", "{}")
+    stored_hashes = json.loads(stored_hashes_json)
+    synced_at = metadata.get("synced_at", "unknown")
+
+    changed_files = _get_changed_csv_files(data_dir, stored_hashes)
+    if not changed_files:
+        return
+
+    if fail_if_conflict:
+        raise SyncConflictError(
+            f"CSV files have changed since last sync: {', '.join(changed_files[:5])}"
+            + (f" and {len(changed_files) - 5} more" if len(changed_files) > 5 else "")
+        )
+
+    print("━" * 70)
+    print("⚠️  CSV FILES HAVE CHANGED")
+    print("━" * 70)
+    print("The following CSV files have changed since the database was synced")
+    print(f"on {synced_at}:")
+    print()
+    for f in changed_files[:10]:
+        print(f"  - {f}")
+    if len(changed_files) > 10:
+        print(f"  ... and {len(changed_files) - 10} more")
+    print()
+    print("Running sqlite2csv will OVERWRITE these changes.")
+    print()
+    print("  [o] Overwrite - Overwrite CSV files with database contents")
+    print("  [c] Cancel    - Exit (default)")
+    print()
+
+    response = input("Enter your choice [o/c] (default: c): ").strip().lower()
+
+    if response == "o" or response == "overwrite":
+        print("Proceeding with export...")
+        return
+
+    print("Cancelled.")
+    raise SystemExit(1)
+
+
+def sqlite2csv(
+    db_path: Path, data_dir: Path, force: bool = False, fail_if_conflict: bool = False
+):
     """Export SQLite database back to CSV files with deterministic formatting."""
     if not db_path.exists():
         raise FileNotFoundError(f"Database not found: {db_path}")
+
+    _check_csv_freshness(db_path, data_dir, force, fail_if_conflict)
 
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
@@ -1670,10 +1800,16 @@ def sqlite2csv(db_path: Path, data_dir: Path):
                 )
         print(f"Exported {csv_file.name} ({len(rows)} rows)")
 
-    # Update timestamp to reflect that DB and CSV files are now in sync
-    cursor.execute(
+    # Update sync metadata to reflect that DB and CSV files are now in sync
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    csv_hashes = _compute_csv_hashes(data_dir)
+    cursor.executemany(
         "INSERT OR REPLACE INTO _meta (key, value) VALUES (?, ?)",
-        ("import_timestamp", datetime.now().isoformat()),
+        [
+            ("csv_hashes", json.dumps(csv_hashes)),
+            ("synced_at", now),
+            ("db_data_modified_at", now),  # Reset to synced_at after export
+        ],
     )
     conn.commit()
 
