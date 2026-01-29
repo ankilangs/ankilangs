@@ -372,10 +372,17 @@ class ContentGenerator:
 
         # Add version and latest changes
         if latest_changelog:
+            # Format version with date if available
+            if latest_changelog.date:
+                date_str = latest_changelog.date.strftime("%Y-%m-%d")
+                version_display = f"{latest_changelog.version} ({date_str})"
+            else:
+                version_display = latest_changelog.version
+
             sections.extend(
                 [
                     "",
-                    f"**{version_text}: {latest_changelog.version}** ([{changelog_text.lower()}](https://ankilangs.org/decks/{self.deck.website_slug}/#changelog))",
+                    f"**{version_text}: {version_display}** ([{changelog_text.lower()}](https://ankilangs.org/decks/{self.deck.website_slug}/#changelog))",
                     "",
                     f"### {whats_new_text}",
                     "",
