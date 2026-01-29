@@ -1,5 +1,7 @@
 *.swp
+.DS_STORE
 .idea/
 __pycache__
+build/ankiweb_*
+build/review/
 data.db
-.DS_STORE
