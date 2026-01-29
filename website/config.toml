@@ -11,6 +11,7 @@ path = 'github.com/alex-shpak/hugo-book'
 [params]
   images = ['og-image.png']
 
+  BookSection = '*'
   BookLogo = 'logo.png'
   BookLastChangeLink = 'https://github.com/ankilangs/ankilangs/commit/{{ .GitInfo.Hash }}'
   BookEditLink = 'https://github.com/ankilangs/ankilangs/edit/main/website/{{ .Path }}'

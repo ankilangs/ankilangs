@@ -228,7 +228,7 @@ def cli():
     generate_website_parser.add_argument(
         "--output-dir",
         type=str,
-        default="website/content/docs/decks",
+        default="website/content/decks",
         help="Output directory for generated pages",
     )
 

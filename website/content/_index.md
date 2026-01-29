@@ -26,22 +26,22 @@ endorsed by the Anki team.
 _Example card to learn Spanish as an English speaker. Question side and answer
 side._
 
-More [screenshots]({{< ref "/docs/screenshots/" >}} "screenshots").
+More [screenshots]({{< ref "/screenshots/" >}} "screenshots").
 
 
 ## Try it out
 
-Download one of the [decks](docs/decks) and follow the
-[installation instructions](docs/installation).
+Download one of the [decks](decks) and follow the
+[installation instructions](installation).
 
 Some examples:
 
-* If you speak **English** and want to learn [Spanish | 625 Words](docs/decks/en-to-es-625/)
-* Wenn du **Deutsch** sprichst und [Französisch | 625 Wörter](docs/decks/de-to-fr-625/) lernen möchtest.
-* Si hablas **español** y quieres aprender [Inglés | 625 palabras](docs/decks/es-to-en-625/)
+* If you speak **English** and want to learn [Spanish | 625 Words](decks/en-to-es-625/)
+* Wenn du **Deutsch** sprichst und [Französisch | 625 Wörter](decks/de-to-fr-625/) lernen möchtest.
+* Si hablas **español** y quieres aprender [Inglés | 625 palabras](decks/es-to-en-625/)
 * ... and **many more** ...
 
-See the the full list of [available decks](docs/decks).
+See the the full list of [available decks](decks).
 
 
 ## Motivation

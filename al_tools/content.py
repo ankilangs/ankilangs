@@ -240,8 +240,8 @@ class ContentGenerator:
         see_text = get_ui_string(
             locale,
             "see_x_and_y",
-            f'[{installation_text}]({{{{< ref "/docs/installation" >}}}})',
-            f'[{learning_tips_text}]({{{{< ref "/docs/learning-tips" >}}}})',
+            f'[{installation_text}]({{{{< ref "/installation" >}}}})',
+            f'[{learning_tips_text}]({{{{< ref "/learning-tips" >}}}})',
         )
 
         # Build frontmatter
@@ -340,7 +340,7 @@ class ContentGenerator:
         sections = [
             description,
             "",
-            f"See [ankilangs.org/docs/decks/{self.deck.website_slug}](https://ankilangs.org/docs/decks/{self.deck.website_slug}/) for full documentation, learning tips, and to report issues.",
+            f"See [ankilangs.org/decks/{self.deck.website_slug}](https://ankilangs.org/decks/{self.deck.website_slug}/) for full documentation, learning tips, and to report issues.",
             "",
             "Check [AnkiLangs.org](https://ankilangs.org/) for more decks and to help improve this deck.",
         ]
@@ -366,7 +366,7 @@ class ContentGenerator:
                 [
                     "</div>",
                     "",
-                    f"[View all {screenshots_text.lower()}](https://ankilangs.org/docs/decks/{self.deck.website_slug}/#screenshots)",
+                    f"[View all {screenshots_text.lower()}](https://ankilangs.org/decks/{self.deck.website_slug}/#screenshots)",
                 ]
             )
 
@@ -375,7 +375,7 @@ class ContentGenerator:
             sections.extend(
                 [
                     "",
-                    f"**{version_text}: {latest_changelog.version}** ([{changelog_text.lower()}](https://ankilangs.org/docs/decks/{self.deck.website_slug}/#changelog))",
+                    f"**{version_text}: {latest_changelog.version}** ([{changelog_text.lower()}](https://ankilangs.org/decks/{self.deck.website_slug}/#changelog))",
                     "",
                     f"### {whats_new_text}",
                     "",
@@ -415,7 +415,7 @@ class ContentGenerator:
                 "",
                 "Download the `.apkg` file below and import into Anki (File → Import).",
                 "",
-                f"**Full changelog & documentation:** https://ankilangs.org/docs/decks/{self.deck.website_slug}/",
+                f"**Full changelog & documentation:** https://ankilangs.org/decks/{self.deck.website_slug}/",
             ]
         )
 
