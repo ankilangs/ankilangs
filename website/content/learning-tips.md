@@ -46,19 +46,41 @@ See [Anki's documentation](https://docs.ankiweb.net/) for detailed settings guid
 Most AnkiLangs decks use four complementary card types to help you master vocabulary:
 
 ### Pronunciation
-See the source language word and speak the target language word aloud. Focus on accurate pronunciation.
+See the source language word and speak the target language word aloud. Focus on
+accurate pronunciation.
+
+Example: If you are an English speaker who is learning Spanish you see English
+text "the eye" and after thinking for a few seconds say out loud "el ojo" in
+correct Spanish pronunciation.
 
 ### Listening
-Hear the target language word and recall its meaning in the source language. Trains your listening comprehension.
+Hear the target language word and recall its meaning in the source language.
+Trains your listening comprehension.
+
+Example: If you are an English speaker who is learning Spanish you hear an
+Spanish audio for "el ojo" without any written text and after a few seconds you
+remember that this means "the eye".
 
 ### Reading
-See the target language word and recall its meaning in the source language. Trains your reading comprehension.
+See the target language word and recall its meaning in the source language.
+Trains your reading comprehension.
+
+Example: If you are an English speaker who is learning Spanish you read the
+Spanish text "el ojo" and after a few seconds you remember that this means "the
+eye".
 
 ### Spelling
-See the source language word, hear the target language pronunciation, and type the target language word. Reinforces spelling and combines reading with listening.
+See the source language word, hear the target language pronunciation, and spell
+the target language word. You could write it out on a piece of paper, do it
+compeletely in your head or use the whiteboard/scratchpad features in the Anki
+mobile apps.
+
+Example: If you are an English speaker who is learning Spanish you read the
+English text "the eye" and hear the Spanish audio for "el ojo" at the same
+time. After a few seconds you remember that it is spelled e-l-SPACE-o-j-o.
 
 
-## Avoid Learning Spelling or Reading
+## How to Skip Spelling or Reading
 
 Not everyone wants to practice all four card types. You can suspend card types you're not interested in. This may be the case if you mostly care about speaking and understanding the spoken language (not reading or spelling) or if the alphabet of the target language is unfamiliar. You can always learn those things later!
 
