@@ -50,7 +50,7 @@ When populating translations and IPA for a locale, follow this workflow:
    LEFT JOIN base_language bl_xx ON bl_en.key = bl_xx.key AND bl_xx.locale = 'xx_xx'
    WHERE bl_en.locale = 'en_us'
      AND (bl_xx.text IS NULL OR bl_xx.text = '')
-   ORDER BY bl_en.key
+   ORDER BY bl_en.key COLLATE NOCASE
    LIMIT 60;
    ```
 
@@ -63,7 +63,7 @@ When populating translations and IPA for a locale, follow this workflow:
 4. **Verify completion** (repeat step 1 until all entries are filled)
 
 **Guidelines**:
-- Always process entries in database order (`ORDER BY key`) rather than imposing a custom order
+- Always process entries in database order (`ORDER BY key COLLATE NOCASE`) rather than imposing a custom order
 - IPA must be enclosed in forward slashes: `/ˈɛksæmpəl/`
 - Use standard IPA symbols for the target language
 - Both `text` and `ipa` columns must be populated for every entry
@@ -166,13 +166,13 @@ WHERE bl.key IS NULL;
 SELECT locale, COUNT(*) as entries
 FROM base_language
 GROUP BY locale
-ORDER BY locale;
+ORDER BY locale COLLATE NOCASE;
 
 -- Count translation pairs by direction
 SELECT source_locale, target_locale, COUNT(*) as pairs
 FROM translation_pair
 GROUP BY source_locale, target_locale
-ORDER BY source_locale, target_locale;
+ORDER BY source_locale COLLATE NOCASE, target_locale COLLATE NOCASE;
 
 -- Count entries with any type of hint
 SELECT COUNT(*) as entries_with_hints
@@ -205,7 +205,7 @@ SELECT
 FROM base_language bl_en
 JOIN base_language bl_es ON bl_en.key = bl_es.key
 WHERE bl_en.locale = 'en_us' AND bl_es.locale = 'es_es'
-ORDER BY bl_en.key;
+ORDER BY bl_en.key COLLATE NOCASE;
 
 -- Find words with same text in different languages (cognates)
 SELECT bl1.locale, bl2.locale, bl1.text, COUNT(*) as count
