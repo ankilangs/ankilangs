@@ -31,7 +31,42 @@ Before committing language data changes, always:
 3. Export back to CSV: `just sqlite2csv` (or `uv run al-tools sqlite2csv -d data.db -o src/data`)
 4. Commit changes
 
-**Supported locales**: `de_de`, `en_us`, `es_es`, `fr_fr`, `it_it`, `la_la`, `pt_pt`, `sq_al`
+## Adding Translations for a Locale
+
+When populating translations and IPA for a locale, follow this workflow:
+
+1. **Check current state**:
+   ```sql
+   SELECT COUNT(*) as total,
+          COUNT(CASE WHEN text IS NOT NULL AND text <> '' THEN 1 END) as with_text,
+          COUNT(CASE WHEN ipa IS NOT NULL AND ipa <> '' THEN 1 END) as with_ipa
+   FROM base_language WHERE locale = 'xx_xx';
+   ```
+
+2. **Get missing entries in database order** (process in batches of 50-70):
+   ```sql
+   SELECT bl_en.key
+   FROM base_language bl_en
+   LEFT JOIN base_language bl_xx ON bl_en.key = bl_xx.key AND bl_xx.locale = 'xx_xx'
+   WHERE bl_en.locale = 'en_us'
+     AND (bl_xx.text IS NULL OR bl_xx.text = '')
+   ORDER BY bl_en.key
+   LIMIT 60;
+   ```
+
+3. **Add translations with UPDATE statements** (both text and IPA required):
+   ```sql
+   UPDATE base_language SET text = 'translation', ipa = '/aɪpiːeɪ/'
+   WHERE locale = 'xx_xx' AND key = 'the word';
+   ```
+
+4. **Verify completion** (repeat step 1 until all entries are filled)
+
+**Guidelines**:
+- Always process entries in database order (`ORDER BY key`) rather than imposing a custom order
+- IPA must be enclosed in forward slashes: `/ˈɛksæmpəl/`
+- Use standard IPA symbols for the target language
+- Both `text` and `ipa` columns must be populated for every entry
 
 ## Hints System
 Hints disambiguate ambiguous words without revealing the translation. There are 4 card types, each with its own hint column:
