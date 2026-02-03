@@ -9,6 +9,7 @@ from al_tools.core import (
     csv2sqlite,
     sqlite2csv,
     export_review,
+    import_review,
 )
 from al_tools.registry import DeckRegistry
 from al_tools.content import ContentGenerator, generate_deck_overview_page
@@ -190,6 +191,33 @@ def cli():
         "--data-dir", type=str, default="src/data", help="Data folder with CSV files"
     )
 
+    import_review_parser = subparsers.add_parser(
+        "import-review",
+        help="Import reviewed corrections from native speakers",
+        description="Import corrections from a reviewed Excel or CSV file back into the database. Updates target_text, target_ipa, and hints. When target_text changes, deletes the corresponding audio file and clears the audio reference.",
+    )
+    import_review_parser.add_argument(
+        "file", type=str, help="Path to reviewed file (.xlsx or .csv)"
+    )
+    import_review_parser.add_argument(
+        "-s", "--source", type=str, required=True, help="Source locale (e.g., en_us)"
+    )
+    import_review_parser.add_argument(
+        "-t", "--target", type=str, required=True, help="Target locale (e.g., es_es)"
+    )
+    import_review_parser.add_argument(
+        "-d", "--database", type=str, default="data.db", help="Database file path"
+    )
+    import_review_parser.add_argument(
+        "--media-dir",
+        type=str,
+        default="src/media/audio",
+        help="Audio media directory (default: src/media/audio)",
+    )
+    import_review_parser.add_argument(
+        "--data-dir", type=str, default="src/data", help="Data folder with CSV files"
+    )
+
     release_parser = subparsers.add_parser(
         "release",
         help="Release management commands",
@@ -329,6 +357,15 @@ def cli():
             args.source,
             args.target,
             Path(args.output),
+            Path(args.media_dir),
+            Path(args.data_dir),
+        )
+    elif args.command == "import-review":
+        import_review(
+            Path(args.file),
+            Path(args.database),
+            args.source,
+            args.target,
             Path(args.media_dir),
             Path(args.data_dir),
         )

@@ -2249,3 +2249,208 @@ def export_review(
         f"Audio file '{output_audio}' created ({len(audio_files_with_keys)} audio files concatenated)"
     )
     print(f"\nReview files exported to '{output_dir}'")
+
+
+def import_review(
+    file_path: Path,
+    db_path: Path,
+    source_locale: str,
+    target_locale: str,
+    media_dir: Path = Path("src/media/audio"),
+    data_dir: Path = Path("src/data"),
+):
+    """Import reviewed corrections from Excel or CSV file into the database.
+
+    Reads a reviewed file (produced by export_review) and updates the database
+    with any changes to target_text, target_ipa, and hints.
+
+    When target_text changes, the corresponding audio file is deleted from disk
+    and the audio/audio_source fields are cleared in the database.
+
+    Args:
+        file_path: Path to the reviewed Excel (.xlsx) or CSV (.csv) file
+        db_path: Path to SQLite database
+        source_locale: Source locale (e.g., 'en_us')
+        target_locale: Target locale (e.g., 'es_es')
+        media_dir: Directory containing audio files
+        data_dir: Directory containing CSV files (for DB freshness check)
+    """
+    _ensure_db_exists(db_path, data_dir)
+    _check_db_freshness(db_path, data_dir, force=False)
+
+    # Read the reviewed file
+    rows = _read_review_file(file_path)
+    if not rows:
+        print("No data found in file")
+        return
+
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+
+    # Get existing data from database keyed by guid
+    cursor.execute(
+        """
+        SELECT
+            tp.guid,
+            tp.key,
+            bl_target.text as target_text,
+            bl_target.ipa as target_ipa,
+            bl_target.audio as target_audio,
+            tp.pronunciation_hint,
+            tp.spelling_hint,
+            tp.reading_hint,
+            tp.listening_hint,
+            tp.notes
+        FROM translation_pair tp
+        JOIN base_language bl_target
+            ON tp.key = bl_target.key AND bl_target.locale = tp.target_locale
+        WHERE tp.source_locale = ? AND tp.target_locale = ?
+        """,
+        (source_locale, target_locale),
+    )
+
+    db_data = {row["guid"]: dict(row) for row in cursor.fetchall()}
+
+    # Track changes
+    changes = {
+        "target_text": 0,
+        "target_ipa": 0,
+        "pronunciation_hint": 0,
+        "spelling_hint": 0,
+        "reading_hint": 0,
+        "listening_hint": 0,
+        "notes": 0,
+        "audio_deleted": 0,
+    }
+
+    target_locale_dir = _locale_to_directory(target_locale)
+    audio_dir = media_dir / target_locale_dir
+
+    for row in rows:
+        guid = row.get("guid")
+        if not guid or guid not in db_data:
+            continue
+
+        db_row = db_data[guid]
+        key = db_row["key"]
+
+        # Compare and update target_text
+        new_text = row.get("target_text") or None
+        old_text = db_row["target_text"] or None
+        new_ipa = row.get("target_ipa") or None
+        old_ipa = db_row["target_ipa"] or None
+
+        if new_text != old_text:
+            cursor.execute(
+                "UPDATE base_language SET text = ? WHERE key = ? AND locale = ?",
+                (new_text, key, target_locale),
+            )
+            changes["target_text"] += 1
+
+            # Delete audio file and clear audio fields
+            audio_ref = db_row["target_audio"]
+            if audio_ref:
+                filename = _parse_audio_filename(audio_ref)
+                if filename:
+                    audio_path = audio_dir / filename
+                    if audio_path.exists():
+                        audio_path.unlink()
+                        changes["audio_deleted"] += 1
+
+                cursor.execute(
+                    "UPDATE base_language SET audio = NULL, audio_source = NULL WHERE key = ? AND locale = ?",
+                    (key, target_locale),
+                )
+
+            # Clear IPA unless a new IPA is provided (different from old)
+            if new_ipa == old_ipa:
+                # No IPA fix provided, clear it since text changed
+                cursor.execute(
+                    "UPDATE base_language SET ipa = NULL WHERE key = ? AND locale = ?",
+                    (key, target_locale),
+                )
+                changes["target_ipa"] += 1
+            elif new_ipa != old_ipa:
+                # New IPA provided, use it
+                cursor.execute(
+                    "UPDATE base_language SET ipa = ? WHERE key = ? AND locale = ?",
+                    (new_ipa, key, target_locale),
+                )
+                changes["target_ipa"] += 1
+        elif new_ipa != old_ipa:
+            # Text unchanged but IPA changed
+            cursor.execute(
+                "UPDATE base_language SET ipa = ? WHERE key = ? AND locale = ?",
+                (new_ipa, key, target_locale),
+            )
+            changes["target_ipa"] += 1
+
+        # Compare and update hints and notes in translation_pair
+        hint_fields = [
+            "pronunciation_hint",
+            "spelling_hint",
+            "reading_hint",
+            "listening_hint",
+            "notes",
+        ]
+        for field in hint_fields:
+            new_val = row.get(field) or None
+            old_val = db_row[field] or None
+            if new_val != old_val:
+                cursor.execute(
+                    f"UPDATE translation_pair SET {field} = ? WHERE guid = ?",
+                    (new_val, guid),
+                )
+                changes[field] += 1
+
+    conn.commit()
+    conn.close()
+
+    # Print summary
+    total_changes = sum(changes.values())
+    if total_changes == 0:
+        print("No changes found")
+    else:
+        print(f"Imported {total_changes} changes:")
+        for field, count in changes.items():
+            if count > 0:
+                print(f"  {field}: {count}")
+
+
+def _read_review_file(file_path: Path) -> list[dict]:
+    """Read a review file (Excel or CSV) and return rows as list of dicts.
+
+    Args:
+        file_path: Path to the file (.xlsx or .csv)
+
+    Returns:
+        List of row dictionaries with column names as keys
+    """
+    suffix = file_path.suffix.lower()
+
+    if suffix == ".xlsx":
+        from openpyxl import load_workbook
+
+        wb = load_workbook(file_path, read_only=True)
+        ws = wb.active
+        rows_iter = ws.iter_rows(values_only=True)
+        header = next(rows_iter)
+
+        rows = []
+        for row in rows_iter:
+            # Skip empty rows (separator rows)
+            if not row[0]:
+                continue
+            rows.append(dict(zip(header, row)))
+        wb.close()
+        return rows
+
+    elif suffix == ".csv":
+        with open(file_path, encoding="utf-8", newline="") as f:
+            reader = csv.DictReader(f)
+            # Skip empty rows (separator rows)
+            return [row for row in reader if row.get("guid")]
+
+    else:
+        raise ValueError(f"Unsupported file format: {suffix}. Use .xlsx or .csv")
