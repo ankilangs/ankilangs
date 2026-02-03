@@ -65,7 +65,7 @@ four (4),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina
 fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux
 Friday,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
-glass,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
+glass [material],Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 God,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C
 gold,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F
 good,Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-F

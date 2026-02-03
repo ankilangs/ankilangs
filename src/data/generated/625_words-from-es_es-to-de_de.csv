@@ -65,7 +65,7 @@ four (4),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 Friday,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
-glass,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+glass [material],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 God,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 gold,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 good,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B

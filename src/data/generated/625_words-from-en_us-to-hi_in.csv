@@ -65,7 +65,7 @@ four (4),Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
 fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 Friday,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
-glass,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
+glass [material],Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 God,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 gold,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
 good,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
