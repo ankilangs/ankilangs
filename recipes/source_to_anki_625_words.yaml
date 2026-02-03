@@ -289,6 +289,10 @@
       source: src/media/audio/ta_IN/
       recursive: false
   - media_group_from_folder:
+      part_id: media_ar_xa
+      source: src/media/audio/ar_XA/
+      recursive: false
+  - media_group_from_folder:
       part_id: media_images
       source: src/media/imgs/
       recursive: false
@@ -1147,4 +1151,5 @@
     headers: header_en_to_ar
     media:
       parts:
+      - media_ar_xa
       - media_images
