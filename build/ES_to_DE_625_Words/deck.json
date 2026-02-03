@@ -13735,4 +13735,1649 @@
                 "",
                 "",
                 "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "sW*H7MWqkV",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "acostarse",
+                "sich hinlegen",
+                "/zɪç ˈhɪnˌleːɡn̩/",
+                "[sound:al_de_de_to_lie_down.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "r[X^sausy>",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "levantar",
+                "heben",
+                "/ˈheːbn̩/",
+                "[sound:al_de_de_to_lift.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "Gc)yrIuh^_",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "escuchar",
+                "zuhören",
+                "/ˈt͡suːˌhøːʁən/",
+                "[sound:al_de_de_to_listen.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "ig2/TUqumT",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "perder",
+                "verlieren",
+                "/fɛʁˈliːʁən/",
+                "[sound:al_de_de_to_lose.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "bSFirNz=@9",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "amar",
+                "lieben",
+                "/ˈliːbn̩/",
+                "[sound:al_de_de_to_love.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "NMu`9<{F~t",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "casarse",
+                "heiraten",
+                "/ˈhaɪ̯ʁaːtn̩/",
+                "[sound:al_de_de_to_marry.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "caoNb0a/;>",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "derretir",
+                "schmelzen",
+                "/ˈʃmɛlt͡sn̩/",
+                "[sound:al_de_de_to_melt.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "r4zwqS&.^h",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "mezclar",
+                "mischen",
+                "/ˈmɪʃn̩/",
+                "[sound:al_de_de_to_mix_to_stir.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "p<;;_jL4~d",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "abrir",
+                "öffnen",
+                "/ˈʔœfnən/",
+                "[sound:al_de_de_to_open.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "uY>lj`9<!S",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "pasar",
+                "vorbeigehen",
+                "/foːɐ̯ˈbaɪ̯ˌɡeːən/",
+                "[sound:al_de_de_to_pass_by.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "q<lQ]AQ20E",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "pagar",
+                "bezahlen",
+                "/bəˈt͡saːlən/",
+                "[sound:al_de_de_to_pay.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "vCdnT6?`%~",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "jugar",
+                "spielen",
+                "/ˈʃpiːlən/",
+                "[sound:al_de_de_to_play.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "rY(D[m1.b(",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "rezar",
+                "beten",
+                "/ˈbeːtn̩/",
+                "[sound:al_de_de_to_pray.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "xsSxm`i|vX",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "tirar",
+                "ziehen",
+                "/ˈt͡siːən/",
+                "[sound:al_de_de_to_pull.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "GFlhGIllAf",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "empujar",
+                "schieben",
+                "/ˈʃiːbn̩/",
+                "[sound:al_de_de_to_push.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "cg..W%*2Sj",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "correr",
+                "rennen",
+                "/ˈʁɛnən/",
+                "[sound:al_de_de_to_run.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "uFT3HM{^#`",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ver",
+                "sehen",
+                "/ˈzeːən/",
+                "[sound:al_de_de_to_see.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "pi?0JWG$}a",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "vender",
+                "verkaufen",
+                "/fɛʁˈkaʊ̯fn̩/",
+                "[sound:al_de_de_to_sell.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "X(I%WGWuT",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "agitar",
+                "schütteln",
+                "/ˈʃʏtl̩n/",
+                "[sound:al_de_de_to_shake.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "*W8KO-SKr",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "disparar (una pistola)",
+                "schießen",
+                "/ˈʃiːsn̩/",
+                "[sound:al_de_de_to_shoot_a_gun.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "g*y1X@Tz:O",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "firmar",
+                "unterschreiben",
+                "/ˌʊntɐˈʃʁaɪ̯bn̩/",
+                "[sound:al_de_de_to_sign.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "L;}9U:$Xug",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "cantar",
+                "singen",
+                "/ˈzɪŋən/",
+                "[sound:al_de_de_to_sing.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "A>vrhb]%+1",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "sentarse",
+                "sitzen",
+                "/ˈzɪt͡sn̩/",
+                "[sound:al_de_de_to_sit.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "Dkc&$|h?Qw",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "dormir",
+                "schlafen",
+                "/ˈʃlaːfn̩/",
+                "[sound:al_de_de_to_sleep.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "FT0{0wwrWX",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "oler",
+                "riechen",
+                "/ˈʁiːçn̩/",
+                "[sound:al_de_de_to_smell.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "nqXad{0o4$",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "sonreír",
+                "lächeln",
+                "/ˈlɛçl̩n/",
+                "[sound:al_de_de_to_smile.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "lj;kqB7}_V",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "hablar / decir",
+                "sprechen",
+                "/ˈʃpʁɛçn̩/",
+                "[sound:al_de_de_to_speak_to_say.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "MqZEg+BKeu",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ponerse de pie",
+                "stehen",
+                "/ˈʃteːən/",
+                "[sound:al_de_de_to_stand.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "Fm`yFxYH*{",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "parar",
+                "aufhören",
+                "/ˈʔaʊ̯fˌhøːʁən/",
+                "[sound:al_de_de_to_stop.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "vF+D$<#s8l",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "nadar",
+                "schwimmen",
+                "/ˈʃvɪmən/",
+                "[sound:al_de_de_to_swim.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "LdZ].ls!)i",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "probar",
+                "schmecken",
+                "/ˈʃmɛkn̩/",
+                "[sound:al_de_de_to_taste.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "o-i]Zv1Ifh",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "enseñar",
+                "lehren",
+                "/ˈleːʁən/",
+                "[sound:al_de_de_to_teach.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "FFSL&C`J6c",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "pensar",
+                "denken",
+                "/ˈdɛŋkn̩/",
+                "[sound:al_de_de_to_think.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "I@~@./WGY1",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "lanzar",
+                "werfen",
+                "/ˈvɛʁfn̩/",
+                "[sound:al_de_de_to_throw.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "w(c8.|msJY",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "tocar",
+                "berühren",
+                "/bəˈʁyːʁən/",
+                "[sound:al_de_de_to_touch.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "E~t5fI=~}a",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "girar",
+                "drehen",
+                "/ˈdʁeːən/",
+                "[sound:al_de_de_to_turn.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "JkP*iwQBp~",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "despertarse",
+                "aufwachen",
+                "/ˈʔaʊ̯fˌvaxn̩/",
+                "[sound:al_de_de_to_wake_up.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "nFb@EO4~Z|",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "caminar",
+                "gehen",
+                "/ˈɡeːən/",
+                "[sound:al_de_de_to_walk.mp3]",
+                "",
+                "",
+                "a pie",
+                "",
+                "a pie",
+                "a pie",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "phSL|YV|8`",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "lavar",
+                "waschen",
+                "/ˈvaʃn̩/",
+                "[sound:al_de_de_to_wash.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "qa[*o1;WME",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "mirar",
+                "schauen",
+                "/ˈʃaʊ̯ən/",
+                "[sound:al_de_de_to_watch.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "Qj{xy.:#aB",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "llevar",
+                "tragen",
+                "/ˈtʁaːɡn̩/",
+                "[sound:al_de_de_to_wear.mp3]",
+                "",
+                "",
+                "ropa",
+                "",
+                "ropa",
+                "ropa",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "Q(50sQ[ejY",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ganar",
+                "gewinnen",
+                "/ɡəˈvɪnən/",
+                "[sound:al_de_de_to_win.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "t?EN4UJ-]6",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "trabajar",
+                "arbeiten",
+                "/ˈʔaʁbaɪ̯tn̩/",
+                "[sound:al_de_de_to_work.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "I;-DVS:{o)",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "escribir",
+                "schreiben",
+                "/ˈʃʁaɪ̯bn̩/",
+                "[sound:al_de_de_to_write.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "EE)LqJ8nTm",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "el transporte",
+                "der Transport",
+                "/dɛɐ̯ tʁansˈpɔʁt/",
+                "[sound:al_de_de_transportation.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
                 ""
+            ],
+            "flags": 0,
+            "guid": "d{;JhJg+T6",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "martes",
+                "Dienstag",
+                "/ˈdiːnstaːk/",
+                "[sound:al_de_de_tuesday.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "o0OHnh22uM",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "doce",
+                "zwölf",
+                "/t͡svœlf/",
+                "[sound:al_de_de_twelve_12.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "BnR]jM?>V_",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "veinte",
+                "zwanzig",
+                "/ˈt͡svant͡sɪç/",
+                "[sound:al_de_de_twenty_20.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "K@Dmtnm~:N",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "veintiuno",
+                "einundzwanzig",
+                "/ˈaɪ̯nʊntˌt͡svant͡sɪç/",
+                "[sound:al_de_de_twenty_one_21.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "F2E%=ZA{D<",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "veintidós",
+                "zweiundzwanzig",
+                "/ˈtsvaɪ̯ʊntˌt͡svant͡sɪç/",
+                "[sound:al_de_de_twenty_two_22.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "cMzXX5Lo`^",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "dos",
+                "zwei",
+                "/t͡svaɪ̯/",
+                "[sound:al_de_de_two_2.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "onuppe*h8^",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "feo",
+                "hässlich",
+                "/ˈhɛslɪç/",
+                "[sound:al_de_de_ugly.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "O9*(8O&~49",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "arriba",
+                "oben",
+                "/ˈʔoːbn̩/",
+                "[sound:al_de_de_up.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "ER_8XO3CPG",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "la guerra",
+                "der Krieg",
+                "/deːɐ̯ kʁiːk/",
+                "[sound:al_de_de_war.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "dp}iQM^@>F",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "templado",
+                "warm",
+                "/vaʁm/",
+                "[sound:al_de_de_warm.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "n2pi,ygMD0",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "el agua",
+                "das Wasser",
+                "/das ˈvasɐ/",
+                "[sound:al_de_de_water.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "A*!(U}C|2k",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "nosotros / nosotras",
+                "wir",
+                "/viːɐ̯/",
+                "[sound:al_de_de_we.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "zt/e&w)ohN",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "débil",
+                "schwach",
+                "/ʃvax/",
+                "[sound:al_de_de_weak.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "si]Mth68&`",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "la boda",
+                "die Hochzeit",
+                "/diː ˈhoːxt͡saɪ̯t/",
+                "[sound:al_de_de_wedding.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "y0EZo@gGvH",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "miércoles",
+                "Mittwoch",
+                "/ˈmɪtvɔx/",
+                "[sound:al_de_de_wednesday.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "RgMA6g:X!r",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "el peso",
+                "das Gewicht",
+                "/das ɡəˈvɪçt/",
+                "[sound:al_de_de_weight.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "g#D3:0Hp/$",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "mojado",
+                "nass",
+                "/nas/",
+                "[sound:al_de_de_wet.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "jj8=(=VN*G",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "blanco",
+                "weiß",
+                "/vaɪ̯s/",
+                "[sound:al_de_de_white.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "nv3,LRsxB+",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ancho",
+                "breit",
+                "/bʁaɪ̯t/",
+                "[sound:al_de_de_wide.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "IC=,;?sgGq",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "el vino",
+                "der Wein",
+                "/deːɐ̯ vaɪ̯n/",
+                "[sound:al_de_de_wine.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "EE?&p.;*c-",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "la madera",
+                "das Holz",
+                "/das hɔlt͡s/",
+                "[sound:al_de_de_wood.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "l%kreDqkW5",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "amarillo",
+                "gelb",
+                "/ɡɛlp/",
+                "[sound:al_de_de_yellow.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "uP%3x+T2~p",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "sí",
+                "ja",
+                "/jaː/",
+                "[sound:al_de_de_yes.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "tFC-)%5hC4",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "vosotros / vosotras",
+                "ihr",
+                "/iːɐ̯/",
+                "[sound:al_de_de_you_plural_y_all.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "tY$M=qhk7",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "tú",
+                "du",
+                "/duː/",
+                "[sound:al_de_de_you_singular.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "yVE(|`|/mU",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "joven",
+                "jung",
+                "/jʊŋ/",
+                "[sound:al_de_de_young.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "Eh_1ut`V@h",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        }
+    ]
+}
