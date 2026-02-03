@@ -1088,8 +1088,8 @@
             "data": "",
             "fields": [
                 "black",
-                "zi",
-                "/zi/",
+                "i zi",
+                "/i zi/",
                 "[sound:al_sq_al_black.mp3]",
                 "",
                 "",
@@ -3020,8 +3020,8 @@
             "data": "",
             "fields": [
                 "loose",
-                "i lirë",
-                "/i ˈliɾə/",
+                "i lirshëm",
+                "/i liɾʃəm/",
                 "[sound:al_sq_al_loose.mp3]",
                 "",
                 "",
@@ -3029,7 +3029,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "Ka!V@0UFb9",
@@ -3342,8 +3342,8 @@
             "data": "",
             "fields": [
                 "money",
-                "paratë",
-                "/paˈɾatə/",
+                "para",
+                "/ˈpaɾa/",
                 "[sound:al_sq_al_money.mp3]",
                 "",
                 "",
@@ -3351,7 +3351,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "v:CxkeLj?^",
@@ -5481,8 +5481,8 @@
             "data": "",
             "fields": [
                 "the afternoon",
-                "pasdita",
-                "/pasˈdita/",
+                "pasditja",
+                "/pasˈditja/",
                 "[sound:al_sq_al_the_afternoon.mp3]",
                 "",
                 "",
@@ -5490,7 +5490,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "gS]yd!*tZB",
@@ -5849,8 +5849,8 @@
             "data": "",
             "fields": [
                 "the banana",
-                "bananja",
-                "/baˈnanja/",
+                "banania",
+                "/baˈnania/",
                 "[sound:al_sq_al_the_banana.mp3]",
                 "",
                 "",
@@ -5858,7 +5858,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "F<F97l;yB2",
@@ -6056,8 +6056,8 @@
             "data": "",
             "fields": [
                 "the beef",
-                "mishi i lopës",
-                "/ˈmiʃi i ˈɫɔpəs/",
+                "mishi i viçit",
+                "/ˈmiʃi i viˈt͡ʃit/",
                 "[sound:al_sq_al_the_beef.mp3]",
                 "",
                 "",
@@ -6065,7 +6065,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "JJVjUs?R~+",
@@ -6125,8 +6125,8 @@
             "data": "",
             "fields": [
                 "the bill",
-                "kartëmonedhë",
-                "/kaɾtəmɔˈnɛðə/",
+                "kartëmonedha",
+                "/kaɾtəmoˈnedha/",
                 "[sound:al_sq_al_the_bill_bank_note.mp3]",
                 "",
                 "",
@@ -6134,7 +6134,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "nA?W,v|QX",
@@ -6585,8 +6585,8 @@
             "data": "",
             "fields": [
                 "the card",
-                "kartë",
-                "/ˈkaɾtə/",
+                "karta",
+                "/ˈkaɾta/",
                 "[sound:al_sq_al_the_card.mp3]",
                 "",
                 "",
@@ -6594,7 +6594,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "l~&1~CfO+:",
@@ -6700,8 +6700,8 @@
             "data": "",
             "fields": [
                 "the chair",
-                "karriga",
-                "/kaˈriɡa/",
+                "karrigia",
+                "/kaˈridʒia/",
                 "[sound:al_sq_al_the_chair.mp3]",
                 "",
                 "",
@@ -6884,8 +6884,8 @@
             "data": "",
             "fields": [
                 "the clothing",
-                "veshjet",
-                "/ˈvɛʃjɛt/",
+                "veshja",
+                "/ˈvɛʃja/",
                 "[sound:al_sq_al_the_clothing.mp3]",
                 "",
                 "",
@@ -6893,7 +6893,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "BR1#)%x%U.",
@@ -6930,8 +6930,8 @@
             "data": "",
             "fields": [
                 "the coat",
-                "pallto",
-                "/paˈɫtɔ/",
+                "palltoja",
+                "/palˈtoja/",
                 "[sound:al_sq_al_the_coat.mp3]",
                 "",
                 "",
@@ -7091,8 +7091,8 @@
             "data": "",
             "fields": [
                 "the country (USA, France, etc.)",
-                "vendi",
-                "/ˈvɛndi/",
+                "shteti",
+                "/ˈʃtɛti/",
                 "[sound:al_sq_al_the_country_usa_france_etc.mp3]",
                 "",
                 "",
@@ -7160,8 +7160,8 @@
             "data": "",
             "fields": [
                 "the crowd",
-                "turmë",
-                "/ˈtuɾmə/",
+                "turma",
+                "/ˈtuɾma/",
                 "[sound:al_sq_al_the_crowd.mp3]",
                 "",
                 "",
@@ -7169,7 +7169,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "z[fP5^:9x.",
@@ -7436,8 +7436,8 @@
             "data": "",
             "fields": [
                 "the dress",
-                "fustan",
-                "/fusˈtan/",
+                "fustani",
+                "/fusˈtani/",
                 "[sound:al_sq_al_the_dress.mp3]",
                 "",
                 "",
@@ -7445,7 +7445,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "kodRD{2kw2",
@@ -7528,8 +7528,8 @@
             "data": "",
             "fields": [
                 "the edge",
-                "buzë",
-                "/ˈbuzə/",
+                "skaji",
+                "/ˈskaji/",
                 "[sound:al_sq_al_the_edge.mp3]",
                 "",
                 "",
@@ -8011,8 +8011,8 @@
             "data": "",
             "fields": [
                 "the fork",
-                "pirun",
-                "/piˈɾun/",
+                "piruni",
+                "/piˈɾuni/",
                 "[sound:al_sq_al_the_fork.mp3]",
                 "",
                 "",
@@ -8241,8 +8241,8 @@
             "data": "",
             "fields": [
                 "the grass",
-                "barë",
-                "/ˈbaɾə/",
+                "bari",
+                "/ˈbaɾi/",
                 "[sound:al_sq_al_the_grass.mp3]",
                 "",
                 "",
@@ -8250,7 +8250,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "tE~H>V~FE)",
@@ -8379,8 +8379,8 @@
             "data": "",
             "fields": [
                 "the hat",
-                "kapela",
-                "/kaˈpɛɫa/",
+                "kapelja",
+                "/kaˈpɛlja/",
                 "[sound:al_sq_al_the_hat.mp3]",
                 "",
                 "",
@@ -8388,7 +8388,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "qPP^e+Kh?D",
@@ -8494,8 +8494,8 @@
             "data": "",
             "fields": [
                 "the hole",
-                "vrimë",
-                "/ˈvɾimə/",
+                "vrima",
+                "/ˈvɾima/",
                 "[sound:al_sq_al_the_hole.mp3]",
                 "",
                 "",
@@ -8503,7 +8503,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "E4b+rg3Uux",
@@ -8586,8 +8586,8 @@
             "data": "",
             "fields": [
                 "the hour",
-                "orë",
-                "/ˈɔɾə/",
+                "ora",
+                "/ˈoɾa/",
                 "[sound:al_sq_al_the_hour.mp3]",
                 "",
                 "",
@@ -8595,7 +8595,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "C]P?[qXQdm",
@@ -9667,8 +9667,8 @@
             "data": "",
             "fields": [
                 "the needle",
-                "gjilpërë",
-                "/ɟiɫˈpəɾə/",
+                "gjilpëra",
+                "/ɟilˈpəɾa/",
                 "[sound:al_sq_al_the_needle.mp3]",
                 "",
                 "",
@@ -9676,7 +9676,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "Q>>Li`=fQ2",
@@ -9828,8 +9828,8 @@
             "data": "",
             "fields": [
                 "the note",
-                "shënim",
-                "/ˈʃənim/",
+                "shënimi",
+                "/ʃəniˈmi/",
                 "[sound:al_sq_al_the_note.mp3]",
                 "",
                 "",
@@ -10173,8 +10173,8 @@
             "data": "",
             "fields": [
                 "the pen",
-                "stilografia",
-                "/stiɫɔɡɾaˈfia/",
+                "stilolapsi",
+                "/stiloˈlapsi/",
                 "[sound:al_sq_al_the_pen.mp3]",
                 "",
                 "",
@@ -10182,7 +10182,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "I+u+eEbh5#",
@@ -10196,8 +10196,8 @@
             "data": "",
             "fields": [
                 "the pencil",
-                "laps",
-                "/ɫaps/",
+                "lapsi",
+                "/ˈlapsi/",
                 "[sound:al_sq_al_the_pencil.mp3]",
                 "",
                 "",
@@ -10205,7 +10205,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "v(S{JI4s]&",
@@ -10265,8 +10265,8 @@
             "data": "",
             "fields": [
                 "the piece",
-                "copë",
-                "/ˈʦɔpə/",
+                "copa",
+                "/ˈt͡sopa/",
                 "[sound:al_sq_al_the_piece.mp3]",
                 "",
                 "",
@@ -10274,7 +10274,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "bFUc1ARl!>",
@@ -10495,8 +10495,8 @@
             "data": "",
             "fields": [
                 "the pound",
-                "paund",
-                "/paund/",
+                "paundi",
+                "/paˈundi/",
                 "[sound:al_sq_al_the_pound.mp3]",
                 "",
                 "",
@@ -11001,8 +11001,8 @@
             "data": "",
             "fields": [
                 "the seed",
-                "farë",
-                "/ˈfaɾə/",
+                "fara",
+                "/ˈfaɾa/",
                 "[sound:al_sq_al_the_seed.mp3]",
                 "",
                 "",
@@ -11010,7 +11010,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "J&v)q[:OId",
@@ -11438,8 +11438,8 @@
             "data": "",
             "fields": [
                 "the spoon",
-                "lugë",
-                "/ˈɫuɡə/",
+                "luga",
+                "/ˈluɡa/",
                 "[sound:al_sq_al_the_spoon.mp3]",
                 "",
                 "",
@@ -11447,7 +11447,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "f~&QPXyF@,",
@@ -11622,8 +11622,8 @@
             "data": "",
             "fields": [
                 "the suit",
-                "kostumin",
-                "/kɔstuˈmin/",
+                "kostumi",
+                "/kosˈtumi/",
                 "[sound:al_sq_al_the_suit.mp3]",
                 "",
                 "",
@@ -11783,8 +11783,8 @@
             "data": "",
             "fields": [
                 "the tear",
-                "lotë",
-                "/ˈɫɔtə/",
+                "loti",
+                "/ˈloti/",
                 "[sound:al_sq_al_the_tear.mp3]",
                 "",
                 "",
@@ -11792,7 +11792,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "q|CXx{ylqs",
@@ -11898,8 +11898,8 @@
             "data": "",
             "fields": [
                 "the tire",
-                "gomë",
-                "/ˈɡɔmə/",
+                "goma",
+                "/ˈɡoma/",
                 "[sound:al_sq_al_the_tire.mp3]",
                 "",
                 "",
@@ -11907,7 +11907,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "odJK<9>7b7",
@@ -12289,8 +12289,8 @@
             "data": "",
             "fields": [
                 "the waiter",
-                "kamarier",
-                "/kamaˈɾiɛɾ/",
+                "kamarieri",
+                "/kamaɾiˈɛɾi/",
                 "[sound:al_sq_al_the_waiter.mp3]",
                 "",
                 "",
@@ -13324,8 +13324,8 @@
             "data": "",
             "fields": [
                 "to drive",
-                "të drejtosh",
-                "/tə dɾɛjˈtɔʃ/",
+                "të ngasësh",
+                "/tə ŋaˈsəʃ/",
                 "[sound:al_sq_al_to_drive.mp3]",
                 "",
                 "",
@@ -13554,8 +13554,8 @@
             "data": "",
             "fields": [
                 "to grow",
-                "të rrish",
-                "/tə riʃ/",
+                "të rritësh",
+                "/tə ˈritəʃ/",
                 "[sound:al_sq_al_to_grow.mp3]",
                 "",
                 "",
@@ -13563,7 +13563,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "LRqHc993Z[",
@@ -14060,8 +14060,8 @@
             "data": "",
             "fields": [
                 "to push",
-                "të shtynish",
-                "/tə ʃtʏˈniʃ/",
+                "të shtysh",
+                "/tə ʃtyʃ/",
                 "[sound:al_sq_al_to_push.mp3]",
                 "",
                 "",
@@ -15003,8 +15003,8 @@
             "data": "",
             "fields": [
                 "water",
-                "ujë",
-                "/ˈujə/",
+                "uji",
+                "/ˈuji/",
                 "[sound:al_sq_al_water.mp3]",
                 "",
                 "",
@@ -15012,7 +15012,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "oD7e~+e,TB",
