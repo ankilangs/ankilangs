@@ -151,7 +151,7 @@ relationship,Audio:<br>Google Cloud TTS<br>Voice: sv-SE-Standard-B
 religion,Audio:<br>Google Cloud TTS<br>Voice: sv-SE-Standard-B
 rice,Audio:<br>Google Cloud TTS<br>Voice: sv-SE-Standard-B
 rich,Audio:<br>Google Cloud TTS<br>Voice: sv-SE-Standard-B
-right,Audio:<br>Google Cloud TTS<br>Voice: sv-SE-Standard-B
+right [direction],Audio:<br>Google Cloud TTS<br>Voice: sv-SE-Standard-B
 sad,Audio:<br>Google Cloud TTS<br>Voice: sv-SE-Standard-A
 salt,Audio:<br>Google Cloud TTS<br>Voice: sv-SE-Standard-A
 Saturday,Audio:<br>Google Cloud TTS<br>Voice: sv-SE-Standard-A
