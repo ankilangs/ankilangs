@@ -2364,6 +2364,9 @@ def import_review(
         "audio_deleted": 0,
     }
 
+    # Track entries with review comments
+    entries_with_comments = []
+
     target_locale_dir = _locale_to_directory(target_locale)
     audio_dir = media_dir / target_locale_dir
 
@@ -2374,6 +2377,18 @@ def import_review(
 
         db_row = db_data[guid]
         key = db_row["key"]
+
+        # Track entries with review comments
+        review_comment = row.get("review_comment")
+        if review_comment and review_comment.strip():
+            entries_with_comments.append(
+                {
+                    "guid": guid,
+                    "source": row.get("source_text", ""),
+                    "target": row.get("target_text", ""),
+                    "comment": review_comment,
+                }
+            )
 
         # Compare and update target_text
         new_text = row.get("target_text") or None
@@ -2456,6 +2471,15 @@ def import_review(
         for field, count in changes.items():
             if count > 0:
                 print(f"  {field}: {count}")
+
+    # Print entries with review comments
+    if entries_with_comments:
+        print(f"\n{len(entries_with_comments)} entries with review comments:")
+        for entry in entries_with_comments:
+            print(f"\n  GUID: {entry['guid']}")
+            print(f"  Source: {entry['source']}")
+            print(f"  Target: {entry['target']}")
+            print(f"  Comment: {entry['comment']}")
 
 
 def _read_review_file(file_path: Path) -> list[dict]:
