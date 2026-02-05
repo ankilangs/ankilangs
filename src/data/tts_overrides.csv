@@ -18,6 +18,7 @@ forty-two (42),es_es,cuarenta y dos,0,Avoid reading parenthetical (42)
 four (4),es_es,cuatro,0,Avoid reading parenthetical (4)
 fourteen (14),es_es,catorce,0,Avoid reading parenthetical (14)
 fourth (4th),es_es,"<speak>cuarto<break time=""300ms""/>cuarta</speak>",1,Read both masculine and feminine forms with a break
+good,pt_pt,"<speak xml:lang=""pt-PT""><phoneme alphabet=""ipa"" ph=""bõ"">bom</phoneme></speak>",1,Fixed bad audio - explicit IPA pronunciation
 he,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">él</prosody></s></speak>",1,
 nine (9),es_es,nueve,0,Avoid reading parenthetical (9)
 nineteen (19),es_es,diecinueve,0,Avoid reading parenthetical (19)
@@ -50,7 +51,9 @@ ten (10),es_es,diez,0,Avoid reading parenthetical (10)
 "ten thousand (10,000)",es_es,diez mil,0,"Avoid reading parenthetical (10,000)"
 the air,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">el aire</prosody></s></speak>",1,
 the direction,en_us,"<speak xml:lang=""en-US""><s><prosody rate=""slow"">the direction</prosody></s></speak>",1,
+the east,pt_pt,"<speak xml:lang=""pt-PT"">o <phoneme alphabet=""ipa"" ph=""ˈɛʃtɨ"">este</phoneme></speak>",1,"Fixed wrong audio - explicit IPA for ""este"" (east)"
 the grandmother,es_es,"<speak>la<break time=""50ms""/>abuela</speak>",1,
+the noun,pt_pt,"<speak xml:lang=""pt-PT"">o <phoneme alphabet=""ipa"" ph=""subʃtɐ̃ˈtivu"">substantivo</phoneme></speak>",1,Fixed wrong audio - explicit IPA pronunciation
 the patient,es_es,"<speak>el paciente<break time=""200ms""/>la paciente</speak>",1,
 the ship,es_es,"<speak>el barco<break time=""200ms""/>el buque</speak>",1,
 the shoulder,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-3st"">el hombro</prosody></s></speak>",1,
@@ -63,6 +66,7 @@ thirty-one (31),es_es,treinta y uno,0,Avoid reading parenthetical (31)
 thirty-two (32),es_es,treinta y dos,0,Avoid reading parenthetical (32)
 three (3),es_es,tres,0,Avoid reading parenthetical (3)
 to dance,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">bailar</prosody></s></speak>",1,
+to melt,pt_pt,"<speak xml:lang=""pt-PT""><phoneme alphabet=""ipa"" ph=""dɨʁɨˈteɾ"">derreter</phoneme></speak>",1,Fixed wrong audio - explicit IPA pronunciation
 twelve (12),es_es,doce,0,Avoid reading parenthetical (12)
 twenty (20),es_es,veinte,0,Avoid reading parenthetical (20)
 twenty-one (21),es_es,veintiuno,0,Avoid reading parenthetical (21)

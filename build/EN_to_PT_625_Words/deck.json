@@ -9861,7 +9861,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D"
+                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-F"
             ],
             "flags": 0,
             "guid": "K`g,|mdbbA",
@@ -10942,7 +10942,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D"
+                "Audio:<br>Google TTS Gemini 2.5 Flash TTS"
             ],
             "flags": 0,
             "guid": "LKVmT5i,K,",
@@ -11264,7 +11264,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D"
+                "Audio:<br>Google TTS Gemini 2.5 Flash TTS"
             ],
             "flags": 0,
             "guid": "P/C*5y&P7|",
