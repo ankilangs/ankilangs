@@ -5735,7 +5735,7 @@
             "data": "",
             "fields": [
                 "the baby",
-                "o bebé",
+                "o bebé / a bebé",
                 "/u bɛˈbɛ/",
                 "[sound:al_pt_pt_the_baby.mp3]",
                 "",
@@ -7515,7 +7515,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-F"
+                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D"
             ],
             "flags": 0,
             "guid": "pgnal47ZMY",
@@ -10086,12 +10086,12 @@
                 "/u ˌpɾoʒəniˈtoɾ/",
                 "[sound:al_pt_pt_the_parent.mp3]",
                 "",
+                "\"os pais\" (plural) is more commonly used than \"progenitor\"",
                 "",
                 "",
                 "",
                 "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D"
+                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-F"
             ],
             "flags": 0,
             "guid": "rfCl$l>=w",
@@ -13739,7 +13739,7 @@
             "data": "",
             "fields": [
                 "to lie down",
-                "deitar-se",
+                "deitar",
                 "/dɐjˈtaɾsɨ/",
                 "[sound:al_pt_pt_to_lie_down.mp3]",
                 "",
@@ -13748,7 +13748,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-F"
+                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D"
             ],
             "flags": 0,
             "guid": "q8(9>7TRwX",
@@ -13886,7 +13886,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-F"
+                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D"
             ],
             "flags": 0,
             "guid": "Gb~:2S~(QM",
@@ -14245,7 +14245,7 @@
             "data": "",
             "fields": [
                 "to sit",
-                "sentar-se",
+                "sentar",
                 "/sẽˈtaɾsɨ/",
                 "[sound:al_pt_pt_to_sit.mp3]",
                 "",
@@ -14254,7 +14254,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-F"
+                "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D"
             ],
             "flags": 0,
             "guid": "NAC84JkGJg",
@@ -15303,7 +15303,7 @@
             "data": "",
             "fields": [
                 "you",
-                "vós",
+                "vocês",
                 "/vɔʃ/",
                 "[sound:al_pt_pt_you_plural_y_all.mp3]",
                 "",
