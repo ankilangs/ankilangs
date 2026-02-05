@@ -8,17 +8,17 @@ beautiful,Audio:<br>Google Cloud TTS<br>Voice: Achird
 beer,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 big / large,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 black,Audio:<br>Google Cloud TTS<br>Voice: Achird
-blind,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+blind,Audio:<br>Google Cloud TTS<br>Voice: Achird
 blood,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 blue,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 breakfast,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 brown,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-cheap,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+cheap,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 clay,Audio:<br>Google Cloud TTS<br>Voice: Achird
 clean,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 coffee,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 cold,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-cool,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+cool,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 copper,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 curved,Audio:<br>Google Cloud TTS<br>Voice: Achird
 dark,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -39,7 +39,7 @@ Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world
 eight (8),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 eighteen (18),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 eighty (80),Audio:<br>Google Cloud TTS<br>Voice: Achernar
-eighty-one (81),Audio:<br>Google Cloud TTS<br>Voice: Achernar
+eighty-one (81),Audio:<br>Google Cloud TTS<br>Voice: Achird
 eighty-two (82),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 eleven (11),Audio:<br>Google Cloud TTS<br>Voice: Achird
 energy,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -49,10 +49,10 @@ famous,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 fast,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 February,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 female,Audio:<br>Google Cloud TTS<br>Voice: Achird
-fifteen (15),Audio:<br>Google Cloud TTS<br>Voice: Achird
+fifteen (15),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 fifth (5th),Audio:<br>Google Cloud TTS<br>Voice: Achird
 fifty (50),Audio:<br>Google Cloud TTS<br>Voice: Achernar
-fifty-one (51),Audio:<br>Google Cloud TTS<br>Voice: Achernar
+fifty-one (51),Audio:<br>Google Cloud TTS<br>Voice: Aoede
 fifty-two (52),Audio:<br>Google Cloud TTS<br>Voice: Achird
 first (1st),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 five (5),Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -67,10 +67,10 @@ fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 Friday,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 glass [material],Audio:<br>Google Cloud TTS<br>Voice: Achird
 God,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-gold,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+gold,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 good,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 gray,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-green,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+green,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 happy,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 hard,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 he,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -81,6 +81,7 @@ hell,Audio:<br>Google Cloud TTS<br>Voice: Achird
 high,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 hot,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 I,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+it,Audio:<br>Google Cloud TTS<br>Voice: Achird
 January,Audio:<br>Google Cloud TTS<br>Voice: Achird
 juice,Audio:<br>Google Cloud TTS<br>Voice: Achird
 July,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -92,7 +93,7 @@ light blue,Audio:<br>Google Cloud TTS<br>Voice: Achird
 long,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 loose,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 loud,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-low,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+low,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 lunch,Audio:<br>Google Cloud TTS<br>Voice: Achird
 male,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 March,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -104,12 +105,12 @@ medicine,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 metal,Audio:<br>Google Cloud TTS<br>Voice: Achird
 milk,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 Monday,Audio:<br>Google Cloud TTS<br>Voice: Achird
-money,Audio:<br>Google Cloud TTS<br>Voice: Aoede
+money,Audio:<br>Google Cloud TTS<br>Voice: Achird
 murder,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 music,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 narrow,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-nature,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-new,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+nature,Audio:<br>Google Cloud TTS<br>Voice: Achird
+new,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 nice,Audio:<br>Google Cloud TTS<br>Voice: Achird
 nine (9),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 nineteen (19),Audio:<br>Google Cloud TTS<br>Voice: Achird
@@ -131,19 +132,19 @@ one hundred one (101),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 one hundred ten (110),Audio:<br>Google Cloud TTS<br>Voice: Achird
 "one hundred thousand (100,000)",Audio:<br>Google Cloud TTS<br>Voice: Achird
 one hundred two (102),Audio:<br>Google Cloud TTS<br>Voice: Achird
-"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: Achernar
+"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: Aoede
 one thousand (1000),Audio:<br>Google Cloud TTS<br>Voice: Achird
 one thousand one (1001),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 orange,Audio:<br>Google Cloud TTS<br>Voice: Achird
-pain,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+pain,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 peace,Audio:<br>Google Cloud TTS<br>Voice: Achird
-pink,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+pink,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 plastic,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 poison,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 poor,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 prison,Audio:<br>Google Cloud TTS<br>Voice: Achird
 quiet,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-race [ethnicity],Audio:<br>Google Cloud TTS<br>Voice: Achernar
+race [ethnicity],Audio:<br>Google Cloud TTS<br>Voice: Aoede
 race [sport],Audio:<br>Google Cloud TTS<br>Voice: Achird
 red,Audio:<br>Google Cloud TTS<br>Voice: Achird
 relationship,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -152,16 +153,16 @@ rice,Audio:<br>Google Cloud TTS<br>Voice: Achird
 rich,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 right [direction],Audio:<br>Google Cloud TTS<br>Voice: Achernar
 sad,Audio:<br>Google Cloud TTS<br>Voice: Achird
-salt,Audio:<br>Google Cloud TTS<br>Voice: Achird
+salt,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 Saturday,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 science,Audio:<br>Google Cloud TTS<br>Voice: Achird
 second (2nd),Audio:<br>Google Cloud TTS<br>Voice: Achernar
-September,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+September,Audio:<br>Google Cloud TTS<br>Voice: Achird
 seven (7),Audio:<br>Google Cloud TTS<br>Voice: Achird
-seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: Achernar
+seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: Aoede
 seventy (70),Audio:<br>Google Cloud TTS<br>Voice: Achernar
-seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: Achernar
-seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: Achernar
+seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: Achird
+seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: Aoede
 sex [gender],Audio:<br>Google Cloud TTS<br>Voice: Achernar
 sex [the act],Audio:<br>Google Cloud TTS<br>Voice: Achernar
 shallow,Audio:<br>Google Cloud TTS<br>Voice: Achird
@@ -213,12 +214,12 @@ the back [anatomy],Audio:<br>Google Cloud TTS<br>Voice: Achird
 the back [location],Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the bag,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the ball,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the banana,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+the banana,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the band [music],Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the bank,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the bar,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the bathroom,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-the beach,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the beach,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the beard,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the bed,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the bedroom,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -230,12 +231,12 @@ the bird,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the boat,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the body,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the bone,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-the book,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the book,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the bottle,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the bottom,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the box,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the boy,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the brain,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+the brain,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the bread,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the bridge,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the brother,Audio:<br>Google Cloud TTS<br>Voice: Achird
@@ -248,14 +249,14 @@ the car,"Picture:<br><a href=""https://pixabay.com/photos/car-engine-wheels-vint
 the card,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the cat,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the ceiling,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the cell phone,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the cell phone,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the centimeter,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the chair,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the chair,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the cheese,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the chicken,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the child,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the church,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-the circle,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+the circle,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the city,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the clock,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the clothing,Audio:<br>Google Cloud TTS<br>Voice: Aoede
@@ -263,7 +264,7 @@ the club,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the coat,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the color,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the computer,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the consonant,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the consonant,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the contract,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the corn,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the corner,Audio:<br>Google Cloud TTS<br>Voice: Achird
@@ -287,8 +288,8 @@ the drug,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the ear,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the east,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the edge,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the egg,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-the election,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the egg,Audio:<br>Google Cloud TTS<br>Voice: Aoede
+the election,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the engine,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the evening,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the eye,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -299,16 +300,16 @@ the fan [appliance],Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the fan [person],Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the farm,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the father,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the finger,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the finger,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the fire,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-the fish,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+the fish,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the floor,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the flower,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the flower,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the foot,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the foot [measurement],Audio:<br>Google Cloud TTS<br>Voice: Achernar
-the forest,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the foot [measurement],Audio:<br>Google Cloud TTS<br>Voice: Aoede
+the forest,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the fork,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-the friend,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the friend,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the front,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the game,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the garden,Audio:<br>Google Cloud TTS<br>Voice: Achird
@@ -325,7 +326,7 @@ the half,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the hand,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the hat,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the head,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the heart,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+the heart,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the heat,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the hill,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the hole,Audio:<br>Google Cloud TTS<br>Voice: Aoede
@@ -339,7 +340,7 @@ the husband,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the ice,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the image,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the inch,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the injury,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+the injury,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the inside,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the instrument,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the island,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -377,10 +378,10 @@ the mother,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the mountain,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the mouse,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the mouth,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the movie,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the movie,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the neck,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the needle,Audio:<br>Google Cloud TTS<br>Voice: Aoede
-the neighbor,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+the neighbor,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the network,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the newspaper,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the night,Audio:<br>Google Cloud TTS<br>Voice: Aoede
@@ -388,12 +389,12 @@ the north,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the nose,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the note,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the noun,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-the number,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-the ocean,Audio:<br>Google Cloud TTS<br>Voice: Aoede
+the number,Audio:<br>Google Cloud TTS<br>Voice: Aoede
+the ocean,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the office,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the orange,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the outside,Audio:<br>Google Cloud TTS<br>Voice: Aoede
-the page,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the page,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the paint,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the pants,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the paper,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -408,7 +409,7 @@ the photograph,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the piece,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the pig,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the plane,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the plant,Audio:<br>Google Cloud TTS<br>Voice: Aoede
+the plant,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the plate,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the player,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the pocket,Audio:<br>Google Cloud TTS<br>Voice: Achird
@@ -432,7 +433,7 @@ the room,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the root,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the sand,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the school,Audio:<br>Google Cloud TTS<br>Voice: Aoede
-the screen,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+the screen,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the sea,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the season,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 the second,Audio:<br>Google Cloud TTS<br>Voice: Aoede
@@ -473,11 +474,11 @@ the teacher,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the team,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the tear,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the telephone,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the television,Audio:<br>Google Cloud TTS<br>Voice: Aoede
+the television,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the theater,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the time,Audio:<br>Google Cloud TTS<br>Voice: Aoede
-the tire,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-the toe,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the tire,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the toe,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the tongue,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the tool,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the tooth,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -506,7 +507,7 @@ the Winter,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the woman,Audio:<br>Google Cloud TTS<br>Voice: Achird
 the world,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 the yard,Audio:<br>Google Cloud TTS<br>Voice: Achird
-the year,Audio:<br>Google Cloud TTS<br>Voice: Achird
+the year,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 they,Audio:<br>Google Cloud TTS<br>Voice: Achird
 thick,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 thin,Audio:<br>Google Cloud TTS<br>Voice: Aoede
@@ -515,7 +516,7 @@ thirteen (13),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 thirty (30),Audio:<br>Google Cloud TTS<br>Voice: Aoede
 thirty-one (31),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 thirty-two (32),Audio:<br>Google Cloud TTS<br>Voice: Achernar
-three (3),Audio:<br>Google Cloud TTS<br>Voice: Aoede
+three (3),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 Thursday,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 tight,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 to beat,Audio:<br>Google Cloud TTS<br>Voice: Aoede
@@ -548,7 +549,7 @@ to find,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to fly,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 to follow,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to go,Audio:<br>Google Cloud TTS<br>Voice: Aoede
-to grow,Audio:<br>Google Cloud TTS<br>Voice: Achird
+to grow,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to hang,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to hear,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to jump,Audio:<br>Google Cloud TTS<br>Voice: Aoede
@@ -570,7 +571,7 @@ to pay,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to play,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 to pray,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to pull,Audio:<br>Google Cloud TTS<br>Voice: Achird
-to push,Audio:<br>Google Cloud TTS<br>Voice: Achernar
+to push,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to run,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to see,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to sell,Audio:<br>Google Cloud TTS<br>Voice: Achird
@@ -579,7 +580,7 @@ to shoot (a gun),Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to sign,Audio:<br>Google Cloud TTS<br>Voice: Achird
 to sing,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to sit,Audio:<br>Google Cloud TTS<br>Voice: Aoede
-to sleep,Audio:<br>Google Cloud TTS<br>Voice: Aoede
+to sleep,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 to smell,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 to smile,Audio:<br>Google Cloud TTS<br>Voice: Achird
 to speak / to say,Audio:<br>Google Cloud TTS<br>Voice: Achernar
@@ -597,7 +598,7 @@ to walk,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 to wash,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 to watch,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 to wear,Audio:<br>Google Cloud TTS<br>Voice: Aoede
-to win,Audio:<br>Google Cloud TTS<br>Voice: Aoede
+to win,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 to work,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 to write,Audio:<br>Google Cloud TTS<br>Voice: Achird
 transportation,Audio:<br>Google Cloud TTS<br>Voice: Achird
@@ -608,7 +609,7 @@ twenty-one (21),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 twenty-two (22),Audio:<br>Google Cloud TTS<br>Voice: Aoede
 two (2),Audio:<br>Google Cloud TTS<br>Voice: Achernar
 ugly,Audio:<br>Google Cloud TTS<br>Voice: Aoede
-up,Audio:<br>Google Cloud TTS<br>Voice: Aoede
+up,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 war,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 warm,Audio:<br>Google Cloud TTS<br>Voice: Achird
 water,Audio:<br>Google Cloud TTS<br>Voice: Aoede
@@ -616,7 +617,7 @@ we,Audio:<br>Google Cloud TTS<br>Voice: Achird
 weak,Audio:<br>Google Cloud TTS<br>Voice: Achird
 wedding,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 Wednesday,Audio:<br>Google Cloud TTS<br>Voice: Achernar
-weight,Audio:<br>Google Cloud TTS<br>Voice: Aoede
+weight,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 wet,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 white,Audio:<br>Google Cloud TTS<br>Voice: Aoede
 wide,Audio:<br>Google Cloud TTS<br>Voice: Aoede
@@ -626,4 +627,4 @@ yellow,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 yes,Audio:<br>Google Cloud TTS<br>Voice: Achernar
 "you [plural, y'all]",Audio:<br>Google Cloud TTS<br>Voice: Achernar
 you [singular],Audio:<br>Google Cloud TTS<br>Voice: Achird
-young,Audio:<br>Google Cloud TTS<br>Voice: Achird
+young,Audio:<br>Google Cloud TTS<br>Voice: Achernar

@@ -148,6 +148,7 @@
         "al_sq_al_high.mp3",
         "al_sq_al_hot.mp3",
         "al_sq_al_i.mp3",
+        "al_sq_al_it.mp3",
         "al_sq_al_january.mp3",
         "al_sq_al_juice.mp3",
         "al_sq_al_july.mp3",
@@ -693,7 +694,8 @@
         "al_sq_al_yes.mp3",
         "al_sq_al_you_plural_y_all.mp3",
         "al_sq_al_you_singular.mp3",
-        "al_sq_al_young.mp3"
+        "al_sq_al_young.mp3",
+        "data.db"
     ],
     "name": "Albanian (EN to SQ) | 625 Words | AnkiLangs.org",
     "note_models": [
@@ -1120,7 +1122,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "H3PIPUtgDS",
@@ -1226,7 +1228,7 @@
             "data": "",
             "fields": [
                 "cheap",
-                "lirë",
+                "i lirë",
                 "/ˈliɾə/",
                 "[sound:al_sq_al_cheap.mp3]",
                 "",
@@ -1235,7 +1237,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "H+h}Df5)t*",
@@ -1341,7 +1343,7 @@
             "data": "",
             "fields": [
                 "cool",
-                "freskët",
+                "i freskët",
                 "/ˈfɾɛskət/",
                 "[sound:al_sq_al_cool.mp3]",
                 "",
@@ -1350,7 +1352,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "QbsI$400Y>",
@@ -1833,7 +1835,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "lKfdKI3dgz",
@@ -2063,7 +2065,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "bj9PH!9O{U",
@@ -2132,7 +2134,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "B[rHv$lGtv",
@@ -2477,7 +2479,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "n-S%nlb;:J",
@@ -2546,7 +2548,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "bizzI@LM?X",
@@ -2790,16 +2792,16 @@
             "data": "",
             "fields": [
                 "it",
+                "ai/ajo",
+                "/ˈai/ /ˈajɔ/",
+                "[sound:al_sq_al_it.mp3]",
+                "",
+                "Albanian has no neuter pronoun. Use ai (masculine) or ajo (feminine) based on the gender of the noun being referred to.",
                 "",
                 "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "used where English is neutral",
+                "used where English is neutral",
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "b.2?t5s]f7",
@@ -3075,7 +3077,7 @@
                 "",
                 "low position",
                 "low position",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "Fz=m5p6J@A",
@@ -3351,7 +3353,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "v:CxkeLj?^",
@@ -3443,7 +3445,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "A(p[EKf=%p",
@@ -3466,7 +3468,7 @@
                 "",
                 "not old object",
                 "not old object",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "jwzQIq;qeT",
@@ -3972,7 +3974,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "k-?Rl*}fTp",
@@ -4064,7 +4066,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "sJ.?4e@|wp",
@@ -4110,7 +4112,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "hNFIxI6}dq",
@@ -4248,7 +4250,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "H.pRrMbcS7",
@@ -4455,7 +4457,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "k6B=)wH{WU",
@@ -4547,7 +4549,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "LyI#R!U31q",
@@ -4593,7 +4595,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "C.zSO0CP!U",
@@ -4639,7 +4641,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "u_T>Gl~,06",
@@ -4662,7 +4664,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "m`tY@X<V7-",
@@ -5849,7 +5851,7 @@
             "data": "",
             "fields": [
                 "the banana",
-                "banania",
+                "banane",
                 "/baˈnania/",
                 "[sound:al_sq_al_the_banana.mp3]",
                 "",
@@ -5858,7 +5860,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "F<F97l;yB2",
@@ -5973,7 +5975,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "DXTQ/Os6L}",
@@ -6249,7 +6251,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "oId|7)A!=W",
@@ -6364,7 +6366,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "L.1VX.lB>9",
@@ -6663,7 +6665,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "D+FAyIDbC9",
@@ -6709,7 +6711,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "potn|TM1YM",
@@ -6824,7 +6826,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "DuI%eI|70g",
@@ -7008,7 +7010,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "cJiJD>`O~.",
@@ -7560,7 +7562,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "H3YR.NK3nN",
@@ -7583,7 +7585,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "g`olpE!A*F",
@@ -7836,7 +7838,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "Ik[%)[*zse",
@@ -7882,7 +7884,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "Fy;eZN22c8",
@@ -7928,7 +7930,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "wJpskZU{k8",
@@ -7965,16 +7967,16 @@
             "data": "",
             "fields": [
                 "the foot",
-                "këmba",
-                "/ˈkəmba/",
+                "tridhjetë centimetra",
+                "/tɾiˈðjɛtə t͡sɛntiˈmɛtɾa/",
                 "[sound:al_sq_al_the_foot_measurement.mp3]",
                 "",
                 "",
-                "unit of length",
+                "not used in Albania (≈30cm)",
                 "",
-                "unit of measurement",
-                "unit of measurement",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "equivalent measurement",
+                "equivalent measurement",
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "H~F3,E{Ek-",
@@ -7997,7 +7999,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "PlpCc#1#j$",
@@ -8043,7 +8045,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "FsqfRqxktm",
@@ -8434,7 +8436,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "LcIN4`Sp8.",
@@ -8756,7 +8758,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "zT2_PB>C8$",
@@ -9630,7 +9632,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "sC$^Gwy7jV",
@@ -9699,7 +9701,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "rYR0.)O{JJ",
@@ -9883,7 +9885,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "wkgiXng5`~",
@@ -9906,7 +9908,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "CXX2EJ77>f",
@@ -9998,7 +10000,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "Rf4o*]OBg7",
@@ -10343,7 +10345,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "DEGw)a`XZ%",
@@ -10895,7 +10897,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "h^<lb60c3$",
@@ -11829,7 +11831,7 @@
             "data": "",
             "fields": [
                 "the television",
-                "televizioni",
+                "televizori",
                 "/tɛɫɛviˈziɔni/",
                 "[sound:al_sq_al_the_television.mp3]",
                 "",
@@ -11838,7 +11840,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "E[kA?#ThI)",
@@ -11907,7 +11909,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "odJK<9>7b7",
@@ -11930,7 +11932,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "hD/(95?:@<",
@@ -12597,7 +12599,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "Jji0,gv]dq",
@@ -12804,7 +12806,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "h1c5KT*tu8",
@@ -13563,7 +13565,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "LRqHc993Z[",
@@ -14069,7 +14071,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "K-S{Qzv|ua",
@@ -14276,7 +14278,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "yH}^C}(XU_",
@@ -14690,7 +14692,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "Fo|);sw!7H",
@@ -14943,7 +14945,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "GB2KU?e:&*",
@@ -15127,7 +15129,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "QE/oDU:*kY",
@@ -15357,7 +15359,7 @@
                 "",
                 "not old person",
                 "not old person",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "F}mlvD?x.r",
