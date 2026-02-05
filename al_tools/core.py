@@ -1269,7 +1269,8 @@ def csv2sqlite(
     # Create schema
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS vocabulary (
-            key TEXT PRIMARY KEY
+            key TEXT PRIMARY KEY,
+            clarification TEXT
         )
     """)
 
@@ -1373,6 +1374,18 @@ def csv2sqlite(
     cursor.execute("DELETE FROM tts_overrides")
     cursor.execute("DELETE FROM vocabulary")
     cursor.execute("DELETE FROM _meta")
+
+    # Import vocabulary file (if exists)
+    vocab_file = data_dir / "625_words-vocabulary.csv"
+    if vocab_file.exists():
+        with open(vocab_file, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                cursor.execute(
+                    "INSERT INTO vocabulary (key, clarification) VALUES (?, ?)",
+                    (row["key"], row.get("clarification", "")),
+                )
+        print(f"Imported {vocab_file.name}")
 
     # Import base language files
     for csv_file in sorted(data_dir.glob("625_words-base-*.csv")):
@@ -1741,6 +1754,27 @@ def sqlite2csv(
             )
     print(f"Exported {csv_file.name} ({len(rows)} rows)")
 
+    # Export vocabulary
+    cursor.execute(
+        "SELECT key, clarification FROM vocabulary ORDER BY key COLLATE NOCASE"
+    )
+    rows = cursor.fetchall()
+
+    csv_file = data_dir / "625_words-vocabulary.csv"
+    with open(csv_file, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(
+            f, fieldnames=["key", "clarification"], lineterminator="\n"
+        )
+        writer.writeheader()
+        for row in rows:
+            writer.writerow(
+                {
+                    "key": row["key"],
+                    "clarification": row["clarification"] or "",
+                }
+            )
+    print(f"Exported {csv_file.name} ({len(rows)} rows)")
+
     # Export minimal pairs
     cursor.execute("""
         SELECT DISTINCT source_locale, target_locale
@@ -1915,6 +1949,7 @@ def _create_excel_review_file(
         # Prepare row data
         row_data = [
             row["guid"] or "",
+            row["clarification"] or "",
             row["source_text"] or "",
             row["target_text"] or "",
             row["target_ipa"] or "",
@@ -1928,8 +1963,8 @@ def _create_excel_review_file(
 
         # Write row data
         for col_idx, value in enumerate(row_data):
-            # First two columns (guid, source_text) are locked, rest are unlocked
-            if col_idx < 2:
+            # First three columns (guid, clarification, source_text) are locked, rest are unlocked
+            if col_idx < 3:
                 cell_format = locked_even if is_even else locked_odd
             else:
                 cell_format = unlocked_even if is_even else unlocked_odd
@@ -1947,6 +1982,7 @@ def _create_excel_review_file(
     # Set column widths for better readability
     column_widths = {
         "guid": 10,
+        "clarification": 25,
         "source_text": 20,
         "target_text": 20,
         "target_ipa": 15,
@@ -2032,6 +2068,7 @@ def export_review(
         SELECT
             tp.key,
             tp.guid,
+            v.clarification,
             bl_source.text as source_text,
             bl_target.text as target_text,
             bl_target.ipa as target_ipa,
@@ -2042,6 +2079,7 @@ def export_review(
             tp.listening_hint,
             tp.notes
         FROM translation_pair tp
+        JOIN vocabulary v ON tp.key = v.key
         JOIN base_language bl_source
             ON tp.key = bl_source.key AND bl_source.locale = tp.source_locale
         JOIN base_language bl_target
@@ -2063,6 +2101,7 @@ def export_review(
     csv_file = output_dir / f"review_{source_locale}_to_{target_locale}.csv"
     fieldnames = [
         "guid",
+        "clarification",
         "source_text",
         "target_text",
         "target_ipa",
@@ -2082,6 +2121,7 @@ def export_review(
             writer.writerow(
                 {
                     "guid": row["guid"] or "",
+                    "clarification": row["clarification"] or "",
                     "source_text": row["source_text"] or "",
                     "target_text": row["target_text"] or "",
                     "target_ipa": row["target_ipa"] or "",

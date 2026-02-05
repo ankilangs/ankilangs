@@ -114,15 +114,16 @@ The Excel file contains these columns:
 | Column | Purpose | Can Edit? |
 |--------|---------|-----------|
 | A (hidden) | GUID | ⚠️ **NO** - Don't unhide or modify |
-| B | Source language (e.g. English) | No |
-| C | Target translation | Yes |
-| D | Target IPA pronunciation | Yes |
-| E | Pronunciation hint | Yes (see [learning hints](#learning-hints)) |
-| F | Spelling hint | Yes (see [learning hints](#learning-hints)) |
-| G | Reading hint | Yes (see [learning hints](#learning-hints)) |
-| H | Listening hint | Yes (see [learning hints](#learning-hints)) |
-| I | Notes (additional nice-to-have info for the learner) | Yes, but seldomly needed |
-| J | Your review comments | **Yes** - Add all your comments here |
+| B | Clarification (English explanation of the key) | No |
+| C | Source language (e.g. English) | No |
+| D | Target translation | Yes |
+| E | Target IPA pronunciation | Yes |
+| F | Pronunciation hint | Yes (see [learning hints](#learning-hints)) |
+| G | Spelling hint | Yes (see [learning hints](#learning-hints)) |
+| H | Reading hint | Yes (see [learning hints](#learning-hints)) |
+| I | Listening hint | Yes (see [learning hints](#learning-hints)) |
+| J | Notes (additional nice-to-have info for the learner) | Yes, but seldomly needed |
+| K | Your review comments | **Yes** - Add all your comments here |
 
 **Why is GUID hidden?** The GUID (Globally Unique Identifier) is an internal ID that must never be modified. Changing it would break the connection between spreadsheet rows and the original data. It's hidden to prevent accidental edits.
 
