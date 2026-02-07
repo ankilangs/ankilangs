@@ -100,9 +100,11 @@ Hints disambiguate ambiguous words without revealing the translation. There are 
 - ❌ `one meaning of bank` (too vague, useless)
 - ❌ `where you put your savings` (gives away the meaning)
 - ❌ `the animal` on `cat` (unnecessary, unambiguous word)
+- ❌ `60 minutes` for "the hour" (too specific, essentially defines the word — use `unit of time` instead)
 
 **Guidelines:**
 - Only add hints when source OR target word has multiple distinct meanings
+- Hints should help the user pick between the ambiguous meanings, NOT define the word. The right level of specificity is the minimum needed to distinguish the options (e.g., `device` vs `unit of time` for clock/hour, NOT `tells the time` vs `60 minutes`)
 - Shorter is better, but hints can be longer if necessary
 - Run `just check-data` to detect ambiguous words missing hints
 
