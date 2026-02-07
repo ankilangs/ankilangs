@@ -14173,7 +14173,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "to shoot (a gun)",
+                "to shoot",
                 "tirer",
                 "/tiʁe/",
                 "[sound:al_fr_fr_to_shoot_a_gun.mp3]",
@@ -14181,8 +14181,8 @@
                 "",
                 "",
                 "",
-                "",
-                "",
+                "with a weapon",
+                "with a weapon",
                 "Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A"
             ],
             "flags": 0,
