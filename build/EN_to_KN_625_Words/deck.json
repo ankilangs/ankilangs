@@ -4822,8 +4822,8 @@
                 "",
                 "",
                 "",
-                "ill",
-                "ill",
+                "",
+                "",
                 "Audio:<br>Google Cloud TTS<br>Voice: kn-IN-Standard-B"
             ],
             "flags": 0,
@@ -6777,8 +6777,8 @@
                 "",
                 "",
                 "",
-                "young person",
-                "young person",
+                "older",
+                "older",
                 "Audio:<br>Google Cloud TTS<br>Voice: kn-IN-Standard-A"
             ],
             "flags": 0,
@@ -11515,8 +11515,8 @@
                 "",
                 "",
                 "",
-                "mark or spot",
-                "mark or spot",
+                "",
+                "",
                 "Audio:<br>Google Cloud TTS<br>Voice: kn-IN-Standard-A"
             ],
             "flags": 0,
@@ -14919,8 +14919,8 @@
                 "",
                 "",
                 "",
-                "unattractive",
-                "unattractive",
+                "appearance",
+                "appearance",
                 "Audio:<br>Google Cloud TTS<br>Voice: kn-IN-Standard-B"
             ],
             "flags": 0,

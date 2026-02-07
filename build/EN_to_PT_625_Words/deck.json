@@ -1004,8 +1004,8 @@
                 "",
                 "",
                 "",
-                "not good",
-                "not good",
+                "",
+                "",
                 "Audio:<br>Google Cloud TTS<br>Voice: pt-PT-Standard-D"
             ],
             "flags": 0,
@@ -1740,8 +1740,8 @@
                 "",
                 "",
                 "",
-                "It is very large.",
-                "It is very large.",
+                "planet",
+                "planet",
                 "Picture:<br><a href=\"https://pixabay.com/photos/earth-globe-planet-world-space-11015/\">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a>"
             ],
             "flags": 0,

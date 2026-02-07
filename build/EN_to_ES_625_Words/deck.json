@@ -6171,8 +6171,8 @@
                 "barco means both ship and boat.",
                 "",
                 "",
-                "The smaller variant.",
-                "The smaller variant.",
+                "smaller vessel",
+                "smaller vessel",
                 "Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C"
             ],
             "flags": 0,
@@ -11024,8 +11024,8 @@
                 "barco means both ship and boat.",
                 "",
                 "",
-                "The larger variant.",
-                "The larger variant.",
+                "larger vessel",
+                "larger vessel",
                 "Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C"
             ],
             "flags": 0,

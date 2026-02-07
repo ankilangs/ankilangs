@@ -1752,8 +1752,8 @@
                 "Erde also means \"soil\".",
                 "",
                 "",
-                "It is very large.",
-                "It is very large.",
+                "planet",
+                "planet",
                 "Picture:<br><a href=\"https://pixabay.com/photos/earth-globe-planet-world-space-11015/\">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a>"
             ],
             "flags": 0,
@@ -6858,8 +6858,8 @@
                 "Stadt means both town and city.",
                 "",
                 "",
-                "The larger alternative.",
-                "The larger alternative.",
+                "larger",
+                "larger",
                 ""
             ],
             "flags": 0,
@@ -12056,8 +12056,8 @@
                 "Stadt means both town and city.",
                 "",
                 "",
-                "The smaller alternative.",
-                "The smaller alternative.",
+                "smaller",
+                "smaller",
                 "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
             ],
             "flags": 0,
