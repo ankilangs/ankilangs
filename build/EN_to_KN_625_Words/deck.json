@@ -4240,16 +4240,16 @@
             "data": "",
             "fields": [
                 "race",
-                "ಜಾತಿ",
-                "/d͡ʒɑːt̪i/",
+                "ಜನಾಂಗ",
+                "/d͡ʒanɑːŋɡa/",
                 "[sound:al_kn_in_race_ethnicity.mp3]",
                 "",
-                "",
+                "ಜನಾಂಗ specifically means human racial group. ಜಾತಿ (jāti) means caste, which is a different concept.",
                 "human group",
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: kn-IN-Standard-B"
+                "Audio:<br>Google Cloud TTS<br>Voice: kn-IN-Standard-A"
             ],
             "flags": 0,
             "guid": "B+[<8@/8T?",
