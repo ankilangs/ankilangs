@@ -694,7 +694,8 @@
         "al_sq_al_yes.mp3",
         "al_sq_al_you_plural_y_all.mp3",
         "al_sq_al_you_singular.mp3",
-        "al_sq_al_young.mp3"
+        "al_sq_al_young.mp3",
+        "data.db"
     ],
     "name": "Albanian (EN to SQ) | 625 Words | AnkiLangs.org",
     "note_models": [
@@ -5926,8 +5927,8 @@
                 "",
                 "",
                 "",
-                "",
-                "",
+                "place for drinks",
+                "place for drinks",
                 "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
@@ -6869,8 +6870,8 @@
                 "",
                 "",
                 "",
-                "",
-                "",
+                "device",
+                "device",
                 "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
@@ -8249,8 +8250,8 @@
                 "",
                 "",
                 "",
-                "",
-                "",
+                "green plant on ground",
+                "green plant on ground",
                 "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
@@ -8594,8 +8595,8 @@
                 "",
                 "",
                 "",
-                "",
-                "",
+                "unit of time",
+                "unit of time",
                 "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
