@@ -36,12 +36,12 @@ down,ಕೆಳಗೆ,/keɭɐɡe/,[sound:al_kn_in_down.mp3],Google Cloud TTS<br>V
 dry,ಒಣಗಿದ,/oɳɐɡid̪ɐ/,[sound:al_kn_in_dry.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 dust,ಧೂಳು,/d̪ʰuːɭu/,[sound:al_kn_in_dust.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 Earth,ಭೂಮಿ,/bʰuːmi/,[sound:al_kn_in_earth.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-eight (8),ಎಂಟು,/eɳʈu/,[sound:al_kn_in_eight_8.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-eighteen (18),ಹದಿನೆಂಟು,/hɐd̪ineɳʈu/,[sound:al_kn_in_eighteen_18.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-eighty (80),ಎಂಬತ್ತು,/eɱbɐt̪t̪u/,[sound:al_kn_in_eighty_80.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-eighty-one (81),ಎಂಬತ್ತೊಂದು,/eɱbɐt̪t̪ondu/,[sound:al_kn_in_eighty_one_81.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-eighty-two (82),ಎಂಬತ್ತೆರಡು,/eɱbɐt̪t̪eɾɐɖu/,[sound:al_kn_in_eighty_two_82.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-eleven (11),ಹನ್ನೊಂದು,/hɐnnondu/,[sound:al_kn_in_eleven_11.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+eight,ಎಂಟು,/eɳʈu/,[sound:al_kn_in_eight_8.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+eighteen,ಹದಿನೆಂಟು,/hɐd̪ineɳʈu/,[sound:al_kn_in_eighteen_18.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+eighty,ಎಂಬತ್ತು,/eɱbɐt̪t̪u/,[sound:al_kn_in_eighty_80.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+eighty-one,ಎಂಬತ್ತೊಂದು,/eɱbɐt̪t̪ondu/,[sound:al_kn_in_eighty_one_81.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+eighty-two,ಎಂಬತ್ತೆರಡು,/eɱbɐt̪t̪eɾɐɖu/,[sound:al_kn_in_eighty_two_82.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+eleven,ಹನ್ನೊಂದು,/hɐnnondu/,[sound:al_kn_in_eleven_11.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 energy,ಶಕ್ತಿ,/ʃɐkt̪i/,[sound:al_kn_in_energy.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 exercise,ವ್ಯಾಯಾಮ,/wjɑːjɑːmɐ/,[sound:al_kn_in_exercise.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 expensive,ದುಬಾರಿ,/d̪ubɑːri/,[sound:al_kn_in_expensive.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
@@ -49,21 +49,21 @@ famous,ಪ್ರಸಿದ್ಧ,/pɾɐsid̪d̪ʰɐ/,[sound:al_kn_in_famous.mp3],
 fast,ವೇಗವಾದ,/weːɡɐwɑːd̪ɐ/,[sound:al_kn_in_fast.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 February,ಫೆಬ್ರವರಿ,/pʰebrɐwɐri/,[sound:al_kn_in_february.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 female,ಸ್ತ್ರೀ,/st̪riː/,[sound:al_kn_in_female.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-fifteen (15),ಹದಿನೈದು,/hɐd̪inɐjd̪u/,[sound:al_kn_in_fifteen_15.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-fifth (5th),ಐದನೇ,/ɐjd̪ɐneː/,[sound:al_kn_in_fifth_5th.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-fifty (50),ಐವತ್ತು,/ɐjwɐt̪t̪u/,[sound:al_kn_in_fifty_50.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-fifty-one (51),ಐವತ್ತೊಂದು,/ɐjwɐt̪t̪ondu/,[sound:al_kn_in_fifty_one_51.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-fifty-two (52),ಐವತ್ತೆರಡು,/ɐjwɐt̪t̪eɾɐɖu/,[sound:al_kn_in_fifty_two_52.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-first (1st),ಮೊದಲನೇ,/mod̪ɐlɐneː/,[sound:al_kn_in_first_1st.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-five (5),ಐದು,/ɐjd̪u/,[sound:al_kn_in_five_5.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+fifteen,ಹದಿನೈದು,/hɐd̪inɐjd̪u/,[sound:al_kn_in_fifteen_15.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+fifth,ಐದನೇ,/ɐjd̪ɐneː/,[sound:al_kn_in_fifth_5th.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+fifty,ಐವತ್ತು,/ɐjwɐt̪t̪u/,[sound:al_kn_in_fifty_50.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+fifty-one,ಐವತ್ತೊಂದು,/ɐjwɐt̪t̪ondu/,[sound:al_kn_in_fifty_one_51.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+fifty-two,ಐವತ್ತೆರಡು,/ɐjwɐt̪t̪eɾɐɖu/,[sound:al_kn_in_fifty_two_52.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+first,ಮೊದಲನೇ,/mod̪ɐlɐneː/,[sound:al_kn_in_first_1st.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+five,ಐದು,/ɐjd̪u/,[sound:al_kn_in_five_5.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 flat,ಸಮತಟ್ಟಾದ,/sɐmɐt̪ɐʈʈɑːd̪ɐ/,[sound:al_kn_in_flat.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 food,ಆಹಾರ,/ɑːhɑːrɐ/,[sound:al_kn_in_food.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-forty (40),ನಲವತ್ತು,/nɐlɐwɐt̪t̪u/,[sound:al_kn_in_forty_40.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-forty-one (41),ನಲವತ್ತೊಂದು,/nɐlɐwɐt̪t̪ondu/,[sound:al_kn_in_forty_one_41.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-forty-two (42),ನಲವತ್ತೆರಡು,/nɐlɐwɐt̪t̪eɾɐɖu/,[sound:al_kn_in_forty_two_42.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-four (4),ನಾಲ್ಕು,/nɑːlku/,[sound:al_kn_in_four_4.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-fourteen (14),ಹದಿನಾಲ್ಕು,/hɐd̪inɑːlku/,[sound:al_kn_in_fourteen_14.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-fourth (4th),ನಾಲ್ಕನೇ,/nɑːlkɐneː/,[sound:al_kn_in_fourth_4th.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+forty,ನಲವತ್ತು,/nɐlɐwɐt̪t̪u/,[sound:al_kn_in_forty_40.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+forty-one,ನಲವತ್ತೊಂದು,/nɐlɐwɐt̪t̪ondu/,[sound:al_kn_in_forty_one_41.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+forty-two,ನಲವತ್ತೆರಡು,/nɐlɐwɐt̪t̪eɾɐɖu/,[sound:al_kn_in_forty_two_42.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+four,ನಾಲ್ಕು,/nɑːlku/,[sound:al_kn_in_four_4.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+fourteen,ಹದಿನಾಲ್ಕು,/hɐd̪inɑːlku/,[sound:al_kn_in_fourteen_14.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+fourth,ನಾಲ್ಕನೇ,/nɑːlkɐneː/,[sound:al_kn_in_fourth_4th.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 Friday,ಶುಕ್ರವಾರ,/ʃukrɐwɑːrɐ/,[sound:al_kn_in_friday.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 glass [material],ಗಾಜು,/ɡɑːd͡ʒu/,[sound:al_kn_in_glass.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 God,ದೇವರು,/d̪eːwɐru/,[sound:al_kn_in_god.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
@@ -112,11 +112,11 @@ narrow,ಕಿರಿದಾದ,/kirid̪ɑːd̪ɐ/,[sound:al_kn_in_narrow.mp3],Goog
 nature,ಪ್ರಕೃತಿ,/pɾɐkɾut̪i/,[sound:al_kn_in_nature.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 new,ಹೊಸ,/hosɐ/,[sound:al_kn_in_new.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 nice,ಒಳ್ಳೆಯ,/oɭɭejɐ/,[sound:al_kn_in_nice.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-nine (9),ಒಂಬತ್ತು,/ombɐt̪t̪u/,[sound:al_kn_in_nine_9.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-nineteen (19),ಹತ್ತೊಂಬತ್ತು,/hɐt̪t̪ombɐt̪t̪u/,[sound:al_kn_in_nineteen_19.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-ninety (90),ತೊಂಬತ್ತು,/t̪ombɐt̪t̪u/,[sound:al_kn_in_ninety_90.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-ninety-one (91),ತೊಂಬತ್ತೊಂದು,/t̪ombɐt̪t̪ondu/,[sound:al_kn_in_ninety_one_91.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-ninety-two (92),ತೊಂಬತ್ತೆರಡು,/t̪ombɐt̪t̪eɾɐɖu/,[sound:al_kn_in_ninety_two_92.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+nine,ಒಂಬತ್ತು,/ombɐt̪t̪u/,[sound:al_kn_in_nine_9.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+nineteen,ಹತ್ತೊಂಬತ್ತು,/hɐt̪t̪ombɐt̪t̪u/,[sound:al_kn_in_nineteen_19.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+ninety,ತೊಂಬತ್ತು,/t̪ombɐt̪t̪u/,[sound:al_kn_in_ninety_90.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+ninety-one,ತೊಂಬತ್ತೊಂದು,/t̪ombɐt̪t̪ondu/,[sound:al_kn_in_ninety_one_91.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+ninety-two,ತೊಂಬತ್ತೆರಡು,/t̪ombɐt̪t̪eɾɐɖu/,[sound:al_kn_in_ninety_two_92.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 no,ಇಲ್ಲ,/illɐ/,[sound:al_kn_in_no.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 November,ನವೆಂಬರ್,/nɐwembar/,[sound:al_kn_in_november.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 nuclear,ಪರಮಾಣು,/pɐrɐmɑːɳu/,[sound:al_kn_in_nuclear.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
@@ -124,17 +124,17 @@ October,ಅಕ್ಟೋಬರ್,/ɐkʈoːbar/,[sound:al_kn_in_october.mp3],Goog
 oil,ಎಣ್ಣೆ,/eɳɳe/,[sound:al_kn_in_oil.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 "old [opposite of ""new""]",ಹಳೆಯ,/hɐɭejɐ/,[sound:al_kn_in_old_opposite_of_new.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 "old [opposite of ""young""]",ವಯಸ್ಸಾದ,/wɐjɐssɑːd̪ɐ/,[sound:al_kn_in_old_opposite_of_young.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-one (1),ಒಂದು,/ondu/,[sound:al_kn_in_one_1.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-"one billion (1,000,000,000)",ಒಂದು ಬಿಲಿಯನ್,/ondu bilijan/,[sound:al_kn_in_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-one hundred (100),ನೂರು,/nuːru/,[sound:al_kn_in_one_hundred_100.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-one hundred eleven (111),ನೂರ ಹನ್ನೊಂದು,/nuːrɐ hɐnnondu/,[sound:al_kn_in_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-one hundred one (101),ನೂರೊಂದು,/nuːrondu/,[sound:al_kn_in_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-one hundred ten (110),ನೂರ ಹತ್ತು,/nuːrɐ hɐt̪t̪u/,[sound:al_kn_in_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-"one hundred thousand (100,000)",ಒಂದು ಲಕ್ಷ,/ondu lɐkʃɐ/,[sound:al_kn_in_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-one hundred two (102),ನೂರ ಎರಡು,/nuːrɐ eɾɐɖu/,[sound:al_kn_in_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-"one million (1,000,000)",ಒಂದು ಮಿಲಿಯನ್,/ondu milijan/,[sound:al_kn_in_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-one thousand (1000),ಒಂದು ಸಾವಿರ,/ondu sɑːwirɐ/,[sound:al_kn_in_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-one thousand one (1001),ಒಂದು ಸಾವಿರ ಒಂದು,/ondu sɑːwirɐ ondu/,[sound:al_kn_in_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+one,ಒಂದು,/ondu/,[sound:al_kn_in_one_1.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+one billion,ಒಂದು ಬಿಲಿಯನ್,/ondu bilijan/,[sound:al_kn_in_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+one hundred,ನೂರು,/nuːru/,[sound:al_kn_in_one_hundred_100.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+one hundred eleven,ನೂರ ಹನ್ನೊಂದು,/nuːrɐ hɐnnondu/,[sound:al_kn_in_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+one hundred one,ನೂರೊಂದು,/nuːrondu/,[sound:al_kn_in_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+one hundred ten,ನೂರ ಹತ್ತು,/nuːrɐ hɐt̪t̪u/,[sound:al_kn_in_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+one hundred thousand,ಒಂದು ಲಕ್ಷ,/ondu lɐkʃɐ/,[sound:al_kn_in_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+one hundred two,ನೂರ ಎರಡು,/nuːrɐ eɾɐɖu/,[sound:al_kn_in_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+one million,ಒಂದು ಮಿಲಿಯನ್,/ondu milijan/,[sound:al_kn_in_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+one thousand,ಒಂದು ಸಾವಿರ,/ondu sɑːwirɐ/,[sound:al_kn_in_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+one thousand one,ಒಂದು ಸಾವಿರ ಒಂದು,/ondu sɑːwirɐ ondu/,[sound:al_kn_in_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 orange,ಕಿತ್ತಳೆ,/kit̪t̪ɐɭe/,[sound:al_kn_in_orange.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 pain,ನೋವು,/noːwu/,[sound:al_kn_in_pain.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 peace,ಶಾಂತಿ,/ʃɑːnt̪i/,[sound:al_kn_in_peace.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
@@ -156,13 +156,13 @@ sad,ದುಃಖಿತ,/d̪uħkʰit̪ɐ/,[sound:al_kn_in_sad.mp3],Google Cloud T
 salt,ಉಪ್ಪು,/uppu/,[sound:al_kn_in_salt.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 Saturday,ಶನಿವಾರ,/ʃɐniwɑːrɐ/,[sound:al_kn_in_saturday.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 science,ವಿಜ್ಞಾನ,/wid͡ʒɲɑːnɐ/,[sound:al_kn_in_science.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-second (2nd),ಎರಡನೇ,/eɾɐɖɐneː/,[sound:al_kn_in_second_2nd.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+second,ಎರಡನೇ,/eɾɐɖɐneː/,[sound:al_kn_in_second_2nd.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 September,ಸೆಪ್ಟೆಂಬರ್,/sepʈembar/,[sound:al_kn_in_september.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-seven (7),ಏಳು,/eːɭu/,[sound:al_kn_in_seven_7.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-seventeen (17),ಹದಿನೇಳು,/hɐd̪ineːɭu/,[sound:al_kn_in_seventeen_17.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-seventy (70),ಎಪ್ಪತ್ತು,/eppɐt̪t̪u/,[sound:al_kn_in_seventy_70.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-seventy-one (71),ಎಪ್ಪತ್ತೊಂದು,/eppɐt̪t̪ondu/,[sound:al_kn_in_seventy_one_71.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-seventy-two (72),ಎಪ್ಪತ್ತೆರಡು,/eppɐt̪t̪eɾɐɖu/,[sound:al_kn_in_seventy_two_72.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+seven,ಏಳು,/eːɭu/,[sound:al_kn_in_seven_7.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+seventeen,ಹದಿನೇಳು,/hɐd̪ineːɭu/,[sound:al_kn_in_seventeen_17.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+seventy,ಎಪ್ಪತ್ತು,/eppɐt̪t̪u/,[sound:al_kn_in_seventy_70.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+seventy-one,ಎಪ್ಪತ್ತೊಂದು,/eppɐt̪t̪ondu/,[sound:al_kn_in_seventy_one_71.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+seventy-two,ಎಪ್ಪತ್ತೆರಡು,/eppɐt̪t̪eɾɐɖu/,[sound:al_kn_in_seventy_two_72.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 sex [gender],ಲಿಂಗ,/liŋɡɐ/,[sound:al_kn_in_sex_gender.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 sex [the act],ಲೈಂಗಿಕ ಕ್ರಿಯೆ,/lɐjŋɡikɐ krije/,[sound:al_kn_in_sex_the_act.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 shallow,ಆಳವಿಲ್ಲದ,/ɑːɭɐwillɐd̪ɐ/,[sound:al_kn_in_shallow.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
@@ -171,16 +171,16 @@ she,ಅವಳು,/ɐwɐɭu/,[sound:al_kn_in_she.mp3],Google Cloud TTS<br>Voice: 
 "short [opposite of ""tall""]",ಕುಳ್ಳ,/kuɭɭɐ/,[sound:al_kn_in_short_opposite_of_tall.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 sick,ರೋಗಿ,/roːɡi/,[sound:al_kn_in_sick.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 silver,ಬೆಳ್ಳಿ,/beɭɭi/,[sound:al_kn_in_silver.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-six (6),ಆರು,/ɑːru/,[sound:al_kn_in_six_6.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-sixteen (16),ಹದಿನಾರು,/hɐd̪inɑːru/,[sound:al_kn_in_sixteen_16.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-sixty (60),ಅರವತ್ತು,/ɐrɐwɐt̪t̪u/,[sound:al_kn_in_sixty_60.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-sixty-one (61),ಅರವತ್ತೊಂದು,/ɐrɐwɐt̪t̪ondu/,[sound:al_kn_in_sixty_one_61.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-sixty-two (62),ಅರವತ್ತೆರಡು,/ɐrɐwɐt̪t̪eɾɐɖu/,[sound:al_kn_in_sixty_two_62.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+six,ಆರು,/ɑːru/,[sound:al_kn_in_six_6.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+sixteen,ಹದಿನಾರು,/hɐd̪inɑːru/,[sound:al_kn_in_sixteen_16.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+sixty,ಅರವತ್ತು,/ɐrɐwɐt̪t̪u/,[sound:al_kn_in_sixty_60.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+sixty-one,ಅರವತ್ತೊಂದು,/ɐrɐwɐt̪t̪ondu/,[sound:al_kn_in_sixty_one_61.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+sixty-two,ಅರವತ್ತೆರಡು,/ɐrɐwɐt̪t̪eɾɐɖu/,[sound:al_kn_in_sixty_two_62.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 slow,ನಿಧಾನ,/nid̪ʰɑːnɐ/,[sound:al_kn_in_slow.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 small / little,ಚಿಕ್ಕ,/t͡ʃikkɐ/,[sound:al_kn_in_small_little.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 soft,ಮೃದು,/mɾud̪u/,[sound:al_kn_in_soft.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 soil/earth [ground],ಮಣ್ಣು,/mɐɳɳu/,[sound:al_kn_in_soil_earth_ground.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-space (outer space),ಬಾಹ್ಯಾಕಾಶ,/bɑːhjɑːkɑːʃɐ/,[sound:al_kn_in_space_outer_space.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+space,ಬಾಹ್ಯಾಕಾಶ,/bɑːhjɑːkɑːʃɐ/,[sound:al_kn_in_space_outer_space.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 sport,ಕ್ರೀಡೆ,/kriːɖe/,[sound:al_kn_in_sport.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 stone,ಕಲ್ಲು,/kɐllu/,[sound:al_kn_in_stone.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 straight,ನೇರ,/neːrɐ/,[sound:al_kn_in_straight.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
@@ -192,9 +192,8 @@ tall,ಎತ್ತರ,/et̪t̪ɐrɐ/,[sound:al_kn_in_tall.mp3],Google Cloud TTS<b
 tea,ಚಹಾ,/t͡ʃɐhɑː/,[sound:al_kn_in_tea.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 technology,ತಂತ್ರಜ್ಞಾನ,/t̪ɐnt̪rɐd͡ʒɲɑːnɐ/,[sound:al_kn_in_technology.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 temperature,ತಾಪಮಾನ,/t̪ɑːpɐmɑːnɐ/,[sound:al_kn_in_temperature.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-ten (10),ಹತ್ತು,/hɐt̪t̪u/,[sound:al_kn_in_ten_10.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-"ten thousand (10,000)",ಹತ್ತು ಸಾವಿರ,/hɐt̪t̪u sɑːwirɐ/,[sound:al_kn_in_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-the (train) ticket,ರೈಲು ಟಿಕೆಟ್,/rɐjlu ʈikeʈ/,[sound:al_kn_in_the_train_ticket.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+ten,ಹತ್ತು,/hɐt̪t̪u/,[sound:al_kn_in_ten_10.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+ten thousand,ಹತ್ತು ಸಾವಿರ,/hɐt̪t̪u sɑːwirɐ/,[sound:al_kn_in_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 the actor,ನಟ,/nɐʈɐ/,[sound:al_kn_in_the_actor.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 the adjective,ವಿಶೇಷಣ,/wiʃeːʃɐɳɐ/,[sound:al_kn_in_the_adjective.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 the adult,ವಯಸ್ಕ,/wɐjɐskɐ/,[sound:al_kn_in_the_adult.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
@@ -268,7 +267,7 @@ the consonant,ವ್ಯಂಜನ,/wjɐnd͡ʒɐnɐ/,[sound:al_kn_in_the_consonant
 the contract,ಒಪ್ಪಂದ,/oppɐnd̪ɐ/,[sound:al_kn_in_the_contract.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 the corn,ಜೋಳ,/d͡ʒoːɭɐ/,[sound:al_kn_in_the_corn.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 the corner,ಮೂಲೆ,/muːle/,[sound:al_kn_in_the_corner.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-"the country (USA, France, etc.)",ದೇಶ,/d̪eːʃɐ/,[sound:al_kn_in_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+the country,ದೇಶ,/d̪eːʃɐ/,[sound:al_kn_in_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 the court,ನ್ಯಾಯಾಲಯ,/njɑːjɑːlɐjɐ/,[sound:al_kn_in_the_court.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 the cow,ಹಸು,/hɐsu/,[sound:al_kn_in_the_cow.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 the crowd,ಜನಸಮೂಹ,/d͡ʒɐnɐsɐmuːhɐ/,[sound:al_kn_in_the_crowd.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
@@ -476,6 +475,7 @@ the tear,ಕಣ್ಣೀರು,/kɐɳɳiːru/,[sound:al_kn_in_the_tear.mp3],Goog
 the telephone,ದೂರವಾಣಿ,/d̪uːrɐwɑːɳi/,[sound:al_kn_in_the_telephone.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 the television,ದೂರದರ್ಶನ,/d̪uːrɐd̪ɐrʃɐnɐ/,[sound:al_kn_in_the_television.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 the theater,ರಂಗಮಂದಿರ,/rɐŋɡɐmɐnd̪irɐ/,[sound:al_kn_in_the_theater.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+the ticket,ಟಿಕೆಟ್,/ʈikeʈ/,[sound:al_kn_in_the_train_ticket.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 the time,ಸಮಯ,/sɐmɐjɐ/,[sound:al_kn_in_the_time.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 the tire,ಟೈರ್,/ʈɐjr/,[sound:al_kn_in_the_tire.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 the toe,ಕಾಲ್ಬೆರಳು,/kɑːlbeɾɐɭu/,[sound:al_kn_in_the_toe.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
@@ -511,12 +511,12 @@ the year,ವರ್ಷ,/wɐrʃɐ/,[sound:al_kn_in_the_year.mp3],Google Cloud TTS<
 they,ಅವರು,/ɐwɐru/,[sound:al_kn_in_they.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 thick,ದಪ್ಪ,/d̪ɐppɐ/,[sound:al_kn_in_thick.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 thin,ತೆಳುವಾದ,/t̪eɭuwɑːd̪ɐ/,[sound:al_kn_in_thin.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-third (3rd),ಮೂರನೇ,/muːrɐneː/,[sound:al_kn_in_third_3rd.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-thirteen (13),ಹದಿಮೂರು,/hɐd̪imuːru/,[sound:al_kn_in_thirteen_13.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-thirty (30),ಮೂವತ್ತು,/muːwɐt̪t̪u/,[sound:al_kn_in_thirty_30.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-thirty-one (31),ಮೂವತ್ತೊಂದು,/muːwɐt̪t̪ondu/,[sound:al_kn_in_thirty_one_31.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-thirty-two (32),ಮೂವತ್ತೆರಡು,/muːwɐt̪t̪eɾɐɖu/,[sound:al_kn_in_thirty_two_32.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-three (3),ಮೂರು,/muːru/,[sound:al_kn_in_three_3.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+third,ಮೂರನೇ,/muːrɐneː/,[sound:al_kn_in_third_3rd.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+thirteen,ಹದಿಮೂರು,/hɐd̪imuːru/,[sound:al_kn_in_thirteen_13.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+thirty,ಮೂವತ್ತು,/muːwɐt̪t̪u/,[sound:al_kn_in_thirty_30.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+thirty-one,ಮೂವತ್ತೊಂದು,/muːwɐt̪t̪ondu/,[sound:al_kn_in_thirty_one_31.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+thirty-two,ಮೂವತ್ತೆರಡು,/muːwɐt̪t̪eɾɐɖu/,[sound:al_kn_in_thirty_two_32.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+three,ಮೂರು,/muːru/,[sound:al_kn_in_three_3.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 Thursday,ಗುರುವಾರ,/ɡuruwɑːrɐ/,[sound:al_kn_in_thursday.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 tight,ಬಿಗಿ,/biɡi/,[sound:al_kn_in_tight.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 to beat,ಹೊಡೆ,/hoɖe/,[sound:al_kn_in_to_beat.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
@@ -576,7 +576,7 @@ to run,ಓಡು,/oːɖu/,[sound:al_kn_in_to_run.mp3],Google Cloud TTS<br>Voice:
 to see,ನೋಡು,/noːɖu/,[sound:al_kn_in_to_see.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 to sell,ಮಾರು,/mɑːru/,[sound:al_kn_in_to_sell.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 to shake,ಅಲುಗಾಡಿಸು,/ɐluɡɑːɖisu/,[sound:al_kn_in_to_shake.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-to shoot (a gun),ಗುಂಡು ಹಾರಿಸು,/ɡuɳɖu hɑːrisu/,[sound:al_kn_in_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+to shoot,ಗುಂಡು ಹಾರಿಸು,/ɡuɳɖu hɑːrisu/,[sound:al_kn_in_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 to sign,ಸಹಿ ಮಾಡು,/sɐhi mɑːɖu/,[sound:al_kn_in_to_sign.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 to sing,ಹಾಡು,/hɑːɖu/,[sound:al_kn_in_to_sing.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 to sit,ಕುಳಿತುಕೊಳ್ಳು,/kuɭit̪ukoɭɭu/,[sound:al_kn_in_to_sit.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
@@ -603,11 +603,11 @@ to work,ಕೆಲಸ ಮಾಡು,/kelɐsɐ mɑːɖu/,[sound:al_kn_in_to_work.mp
 to write,ಬರೆ,/bɐre/,[sound:al_kn_in_to_write.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
 transportation,ಸಾರಿಗೆ,/sɑːriɡe/,[sound:al_kn_in_transportation.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 Tuesday,ಮಂಗಳವಾರ,/mɐŋɡɐɭɐwɑːrɐ/,[sound:al_kn_in_tuesday.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-twelve (12),ಹನ್ನೆರಡು,/hɐnneɾɐɖu/,[sound:al_kn_in_twelve_12.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
-twenty (20),ಇಪ್ಪತ್ತು,/ippɐt̪t̪u/,[sound:al_kn_in_twenty_20.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-twenty-one (21),ಇಪ್ಪತ್ತೊಂದು,/ippɐt̪t̪ondu/,[sound:al_kn_in_twenty_one_21.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-twenty-two (22),ಇಪ್ಪತ್ತೆರಡು,/ippɐt̪t̪eɾɐɖu/,[sound:al_kn_in_twenty_two_22.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
-two (2),ಎರಡು,/eɾɐɖu/,[sound:al_kn_in_two_2.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+twelve,ಹನ್ನೆರಡು,/hɐnneɾɐɖu/,[sound:al_kn_in_twelve_12.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
+twenty,ಇಪ್ಪತ್ತು,/ippɐt̪t̪u/,[sound:al_kn_in_twenty_20.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+twenty-one,ಇಪ್ಪತ್ತೊಂದು,/ippɐt̪t̪ondu/,[sound:al_kn_in_twenty_one_21.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+twenty-two,ಇಪ್ಪತ್ತೆರಡು,/ippɐt̪t̪eɾɐɖu/,[sound:al_kn_in_twenty_two_22.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN
+two,ಎರಡು,/eɾɐɖu/,[sound:al_kn_in_two_2.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 ugly,ಕೊಳಕು,/koɭɐku/,[sound:al_kn_in_ugly.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 up,ಮೇಲೆ,/meːle/,[sound:al_kn_in_up.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-B,AnkiLangs::KN
 war,ಯುದ್ಧ,/jud̪d̪ʰɐ/,[sound:al_kn_in_war.mp3],Google Cloud TTS<br>Voice: kn-IN-Standard-A,AnkiLangs::KN

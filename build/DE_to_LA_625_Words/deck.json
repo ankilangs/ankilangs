@@ -4760,29 +4760,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "die Fahrkarte",
-                "tessera",
-                "/ˈtesːera/",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "flags": 0,
-            "guid": "x7NXrDFt@o",
-            "note_model_uuid": "1e4b7f62-555e-4b0c-b4ff-22ac8377a200",
-            "tags": [
-                "AnkiLangs::LA"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "der Schauspieler",
                 "āctor",
                 "/ˈaːktor/",
@@ -11237,6 +11214,29 @@
             ],
             "flags": 0,
             "guid": "B71])0<,}n",
+            "note_model_uuid": "1e4b7f62-555e-4b0c-b4ff-22ac8377a200",
+            "tags": [
+                "AnkiLangs::LA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "die Fahrkarte / die Eintrittskarte",
+                "tessera",
+                "/ˈtesːera/",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "x7NXrDFt@o",
             "note_model_uuid": "1e4b7f62-555e-4b0c-b4ff-22ac8377a200",
             "tags": [
                 "AnkiLangs::LA"

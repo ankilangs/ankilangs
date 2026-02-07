@@ -5067,7 +5067,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "ಬಾಹ್ಯಾಕಾಶ",
                 "/bɑːhjɑːkɑːʃɐ/",
                 "[sound:al_kn_in_space_outer_space.mp3]",
@@ -5380,29 +5380,6 @@
             ],
             "flags": 0,
             "guid": "G(2YqwT+=c",
-            "note_model_uuid": "6f153c51-846e-45b1-b683-b6216534c11c",
-            "tags": [
-                "AnkiLangs::KN"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "ರೈಲು ಟಿಕೆಟ್",
-                "/rɐjlu ʈikeʈ/",
-                "[sound:al_kn_in_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: kn-IN-Standard-B"
-            ],
-            "flags": 0,
-            "guid": "spk5ij.u{M",
             "note_model_uuid": "6f153c51-846e-45b1-b683-b6216534c11c",
             "tags": [
                 "AnkiLangs::KN"
@@ -7091,7 +7068,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "ದೇಶ",
                 "/d̪eːʃɐ/",
                 "[sound:al_kn_in_the_country_usa_france_etc.mp3]",
@@ -11866,6 +11843,29 @@
             ],
             "flags": 0,
             "guid": "c/~HTcVXBC",
+            "note_model_uuid": "6f153c51-846e-45b1-b683-b6216534c11c",
+            "tags": [
+                "AnkiLangs::KN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "ಟಿಕೆಟ್",
+                "/ʈikeʈ/",
+                "[sound:al_kn_in_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: kn-IN-Standard-A"
+            ],
+            "flags": 0,
+            "guid": "spk5ij.u{M",
             "note_model_uuid": "6f153c51-846e-45b1-b683-b6216534c11c",
             "tags": [
                 "AnkiLangs::KN"

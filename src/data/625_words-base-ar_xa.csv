@@ -36,12 +36,12 @@ down,تحت,/taħt/,[sound:al_ar_xa_down.mp3],Google Cloud TTS<br>Voice: ar-XA-S
 dry,جاف,/ʤaːff/,[sound:al_ar_xa_dry.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 dust,غبار,/ɣubaːr/,[sound:al_ar_xa_dust.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 Earth,الأرض,/alʔardˤ/,[sound:al_ar_xa_earth.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-eight (8),ثمانية,/tˤamaːnija/,[sound:al_ar_xa_eight_8.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-eighteen (18),ثمانية عشر,/tˤamaːnijat ʕaʃar/,[sound:al_ar_xa_eighteen_18.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-eighty (80),ثمانون,/tˤamaːnuːn/,[sound:al_ar_xa_eighty_80.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-eighty-one (81),واحد وثمانون,/waːħid wa tˤamaːnuːn/,[sound:al_ar_xa_eighty_one_81.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-eighty-two (82),اثنان وثمانون,/itˤnaːn wa tˤamaːnuːn/,[sound:al_ar_xa_eighty_two_82.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-eleven (11),أحد عشر,/ʔaħada ʕaʃar/,[sound:al_ar_xa_eleven_11.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+eight,ثمانية,/tˤamaːnija/,[sound:al_ar_xa_eight_8.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+eighteen,ثمانية عشر,/tˤamaːnijat ʕaʃar/,[sound:al_ar_xa_eighteen_18.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+eighty,ثمانون,/tˤamaːnuːn/,[sound:al_ar_xa_eighty_80.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+eighty-one,واحد وثمانون,/waːħid wa tˤamaːnuːn/,[sound:al_ar_xa_eighty_one_81.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+eighty-two,اثنان وثمانون,/itˤnaːn wa tˤamaːnuːn/,[sound:al_ar_xa_eighty_two_82.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+eleven,أحد عشر,/ʔaħada ʕaʃar/,[sound:al_ar_xa_eleven_11.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 energy,طاقة,/tˤaːqa/,[sound:al_ar_xa_energy.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 exercise,تمرين,/tamriːn/,[sound:al_ar_xa_exercise.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 expensive,غالٍ,/ɣaːlin/,[sound:al_ar_xa_expensive.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
@@ -49,21 +49,21 @@ famous,مشهور,/maʃhuːr/,[sound:al_ar_xa_famous.mp3],Google Cloud TTS<br>Vo
 fast,سريع,/sariːʕ/,[sound:al_ar_xa_fast.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 February,فبراير,/febraːjir/,[sound:al_ar_xa_february.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 female,أنثى,/ʔuntˤaː/,[sound:al_ar_xa_female.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-fifteen (15),خمسة عشر,/xamsata ʕaʃar/,[sound:al_ar_xa_fifteen_15.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-fifth (5th),الخامس,/alxaːmis/,[sound:al_ar_xa_fifth_5th.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-fifty (50),خمسون,/xamsuːn/,[sound:al_ar_xa_fifty_50.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-fifty-one (51),واحد وخمسون,/waːħid wa xamsuːn/,[sound:al_ar_xa_fifty_one_51.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-fifty-two (52),اثنان وخمسون,/itˤnaːn wa xamsuːn/,[sound:al_ar_xa_fifty_two_52.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-first (1st),الأوّل,/alʔawwal/,[sound:al_ar_xa_first_1st.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-five (5),خمسة,/xamsa/,[sound:al_ar_xa_five_5.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+fifteen,خمسة عشر,/xamsata ʕaʃar/,[sound:al_ar_xa_fifteen_15.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+fifth,الخامس,/alxaːmis/,[sound:al_ar_xa_fifth_5th.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+fifty,خمسون,/xamsuːn/,[sound:al_ar_xa_fifty_50.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+fifty-one,واحد وخمسون,/waːħid wa xamsuːn/,[sound:al_ar_xa_fifty_one_51.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+fifty-two,اثنان وخمسون,/itˤnaːn wa xamsuːn/,[sound:al_ar_xa_fifty_two_52.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+first,الأوّل,/alʔawwal/,[sound:al_ar_xa_first_1st.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+five,خمسة,/xamsa/,[sound:al_ar_xa_five_5.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 flat,مسطّح,/musatˤtˤaħ/,[sound:al_ar_xa_flat.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 food,طعام,/tˤaʕaːm/,[sound:al_ar_xa_food.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-forty (40),أربعون,/ʔarbaʕuːn/,[sound:al_ar_xa_forty_40.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-forty-one (41),واحد وأربعون,/waːħid wa ʔarbaʕuːn/,[sound:al_ar_xa_forty_one_41.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-forty-two (42),اثنان وأربعون,/itˤnaːn wa ʔarbaʕuːn/,[sound:al_ar_xa_forty_two_42.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-four (4),أربعة,/ʔarbaʕa/,[sound:al_ar_xa_four_4.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-fourteen (14),أربعة عشر,/ʔarbaʕata ʕaʃar/,[sound:al_ar_xa_fourteen_14.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-fourth (4th),الرابع,/arraːbiʕ/,[sound:al_ar_xa_fourth_4th.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+forty,أربعون,/ʔarbaʕuːn/,[sound:al_ar_xa_forty_40.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+forty-one,واحد وأربعون,/waːħid wa ʔarbaʕuːn/,[sound:al_ar_xa_forty_one_41.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+forty-two,اثنان وأربعون,/itˤnaːn wa ʔarbaʕuːn/,[sound:al_ar_xa_forty_two_42.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+four,أربعة,/ʔarbaʕa/,[sound:al_ar_xa_four_4.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+fourteen,أربعة عشر,/ʔarbaʕata ʕaʃar/,[sound:al_ar_xa_fourteen_14.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+fourth,الرابع,/arraːbiʕ/,[sound:al_ar_xa_fourth_4th.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 Friday,الجمعة,/alʤumʕa/,[sound:al_ar_xa_friday.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 glass [material],زجاج,/zuʤaːʤ/,[sound:al_ar_xa_glass.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 God,الله,/allaːh/,[sound:al_ar_xa_god.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
@@ -112,11 +112,11 @@ narrow,ضيّق,/dˤajjiq/,[sound:al_ar_xa_narrow.mp3],Google Cloud TTS<br>Voice
 nature,طبيعة,/tˤabiːʕa/,[sound:al_ar_xa_nature.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 new,جديد,/ʤadiːd/,[sound:al_ar_xa_new.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 nice,لطيف,/latˤiːf/,[sound:al_ar_xa_nice.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-nine (9),تسعة,/tisʕa/,[sound:al_ar_xa_nine_9.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-nineteen (19),تسعة عشر,/tisʕata ʕaʃar/,[sound:al_ar_xa_nineteen_19.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-ninety (90),تسعون,/tisʕuːn/,[sound:al_ar_xa_ninety_90.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-ninety-one (91),واحد وتسعون,/waːħid wa tisʕuːn/,[sound:al_ar_xa_ninety_one_91.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-ninety-two (92),اثنان وتسعون,/itˤnaːn wa tisʕuːn/,[sound:al_ar_xa_ninety_two_92.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+nine,تسعة,/tisʕa/,[sound:al_ar_xa_nine_9.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+nineteen,تسعة عشر,/tisʕata ʕaʃar/,[sound:al_ar_xa_nineteen_19.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+ninety,تسعون,/tisʕuːn/,[sound:al_ar_xa_ninety_90.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+ninety-one,واحد وتسعون,/waːħid wa tisʕuːn/,[sound:al_ar_xa_ninety_one_91.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+ninety-two,اثنان وتسعون,/itˤnaːn wa tisʕuːn/,[sound:al_ar_xa_ninety_two_92.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 no,لا,/laː/,[sound:al_ar_xa_no.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 November,نوفمبر,/nuːfambir/,[sound:al_ar_xa_november.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 nuclear,نووي,/nawawiː/,[sound:al_ar_xa_nuclear.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
@@ -124,17 +124,17 @@ October,أكتوبر,/ʔuktuːbir/,[sound:al_ar_xa_october.mp3],Google Cloud TTS
 oil,زيت,/zajt/,[sound:al_ar_xa_oil.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 "old [opposite of ""new""]",قديم,/qadiːm/,[sound:al_ar_xa_old_opposite_of_new.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 "old [opposite of ""young""]",عجوز,/ʕaʤuːz/,[sound:al_ar_xa_old_opposite_of_young.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-one (1),واحد,/waːħid/,[sound:al_ar_xa_one_1.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-"one billion (1,000,000,000)",مليار,/miljaːr/,[sound:al_ar_xa_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-one hundred (100),مئة,/miʔa/,[sound:al_ar_xa_one_hundred_100.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-one hundred eleven (111),مئة وأحد عشر,/miʔa wa ʔaħada ʕaʃar/,[sound:al_ar_xa_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-one hundred one (101),مئة وواحد,/miʔa wa waːħid/,[sound:al_ar_xa_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-one hundred ten (110),مئة وعشرة,/miʔa wa ʕaʃara/,[sound:al_ar_xa_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-"one hundred thousand (100,000)",مئة ألف,/miʔat ʔalf/,[sound:al_ar_xa_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-one hundred two (102),مئة واثنان,/miʔa wa tˤnaːn/,[sound:al_ar_xa_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-"one million (1,000,000)",مليون,/miljuːn/,[sound:al_ar_xa_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-one thousand (1000),ألف,/ʔalf/,[sound:al_ar_xa_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-one thousand one (1001),ألف وواحد,/ʔalf wa waːħid/,[sound:al_ar_xa_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+one,واحد,/waːħid/,[sound:al_ar_xa_one_1.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+one billion,مليار,/miljaːr/,[sound:al_ar_xa_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+one hundred,مئة,/miʔa/,[sound:al_ar_xa_one_hundred_100.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+one hundred eleven,مئة وأحد عشر,/miʔa wa ʔaħada ʕaʃar/,[sound:al_ar_xa_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+one hundred one,مئة وواحد,/miʔa wa waːħid/,[sound:al_ar_xa_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+one hundred ten,مئة وعشرة,/miʔa wa ʕaʃara/,[sound:al_ar_xa_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+one hundred thousand,مئة ألف,/miʔat ʔalf/,[sound:al_ar_xa_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+one hundred two,مئة واثنان,/miʔa wa tˤnaːn/,[sound:al_ar_xa_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+one million,مليون,/miljuːn/,[sound:al_ar_xa_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+one thousand,ألف,/ʔalf/,[sound:al_ar_xa_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+one thousand one,ألف وواحد,/ʔalf wa waːħid/,[sound:al_ar_xa_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 orange,برتقالي,/burtuqaːliː/,[sound:al_ar_xa_orange.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 pain,ألم,/ʔalam/,[sound:al_ar_xa_pain.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 peace,سلام,/salaːm/,[sound:al_ar_xa_peace.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
@@ -156,13 +156,13 @@ sad,حزين,/ħaziːn/,[sound:al_ar_xa_sad.mp3],Google Cloud TTS<br>Voice: ar-X
 salt,ملح,/milħ/,[sound:al_ar_xa_salt.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 Saturday,السبت,/assabt/,[sound:al_ar_xa_saturday.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 science,علم,/ʕilm/,[sound:al_ar_xa_science.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-second (2nd),الثاني,/atˤtˤaːniː/,[sound:al_ar_xa_second_2nd.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+second,الثاني,/atˤtˤaːniː/,[sound:al_ar_xa_second_2nd.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 September,سبتمبر,/sibtambir/,[sound:al_ar_xa_september.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-seven (7),سبعة,/sabʕa/,[sound:al_ar_xa_seven_7.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-seventeen (17),سبعة عشر,/sabʕata ʕaʃar/,[sound:al_ar_xa_seventeen_17.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-seventy (70),سبعون,/sabʕuːn/,[sound:al_ar_xa_seventy_70.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-seventy-one (71),واحد وسبعون,/waːħid wa sabʕuːn/,[sound:al_ar_xa_seventy_one_71.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-seventy-two (72),اثنان وسبعون,/itˤnaːn wa sabʕuːn/,[sound:al_ar_xa_seventy_two_72.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+seven,سبعة,/sabʕa/,[sound:al_ar_xa_seven_7.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+seventeen,سبعة عشر,/sabʕata ʕaʃar/,[sound:al_ar_xa_seventeen_17.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+seventy,سبعون,/sabʕuːn/,[sound:al_ar_xa_seventy_70.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+seventy-one,واحد وسبعون,/waːħid wa sabʕuːn/,[sound:al_ar_xa_seventy_one_71.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+seventy-two,اثنان وسبعون,/itˤnaːn wa sabʕuːn/,[sound:al_ar_xa_seventy_two_72.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 sex [gender],جنس,/ʤins/,[sound:al_ar_xa_sex_gender.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 sex [the act],جنس,/ʤins/,[sound:al_ar_xa_sex_the_act.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 shallow,ضحل,/dˤaħl/,[sound:al_ar_xa_shallow.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
@@ -171,16 +171,16 @@ she,هي,/hija/,[sound:al_ar_xa_she.mp3],Google Cloud TTS<br>Voice: ar-XA-Standa
 "short [opposite of ""tall""]",قصير,/qasˤiːr/,[sound:al_ar_xa_short_opposite_of_tall.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 sick,مريض,/mariːdˤ/,[sound:al_ar_xa_sick.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 silver,فضّة,/fidˤdˤa/,[sound:al_ar_xa_silver.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-six (6),ستّة,/sitta/,[sound:al_ar_xa_six_6.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-sixteen (16),ستّة عشر,/sittata ʕaʃar/,[sound:al_ar_xa_sixteen_16.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-sixty (60),ستّون,/sittuːn/,[sound:al_ar_xa_sixty_60.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-sixty-one (61),واحد وستّون,/waːħid wa sittuːn/,[sound:al_ar_xa_sixty_one_61.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-sixty-two (62),اثنان وستّون,/itˤnaːn wa sittuːn/,[sound:al_ar_xa_sixty_two_62.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+six,ستّة,/sitta/,[sound:al_ar_xa_six_6.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+sixteen,ستّة عشر,/sittata ʕaʃar/,[sound:al_ar_xa_sixteen_16.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+sixty,ستّون,/sittuːn/,[sound:al_ar_xa_sixty_60.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+sixty-one,واحد وستّون,/waːħid wa sittuːn/,[sound:al_ar_xa_sixty_one_61.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+sixty-two,اثنان وستّون,/itˤnaːn wa sittuːn/,[sound:al_ar_xa_sixty_two_62.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 slow,بطيء,/batˤiːʔ/,[sound:al_ar_xa_slow.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 small / little,صغير,/sˤaɣiːr/,[sound:al_ar_xa_small_little.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 soft,ناعم,/naːʕim/,[sound:al_ar_xa_soft.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 soil/earth [ground],تربة,/turba/,[sound:al_ar_xa_soil_earth_ground.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-space (outer space),الفضاء,/alfadˤaːʔ/,[sound:al_ar_xa_space_outer_space.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+space,الفضاء,/alfadˤaːʔ/,[sound:al_ar_xa_space_outer_space.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 sport,رياضة,/rijaːdˤa/,[sound:al_ar_xa_sport.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 stone,حجر,/ħaʤar/,[sound:al_ar_xa_stone.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 straight,مستقيم,/mustaqiːm/,[sound:al_ar_xa_straight.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
@@ -192,9 +192,8 @@ tall,طويل,/tˤawiːl/,[sound:al_ar_xa_tall.mp3],Google Cloud TTS<br>Voice: a
 tea,شاي,/ʃaːj/,[sound:al_ar_xa_tea.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 technology,تكنولوجيا,/taknoːloːʤjaː/,[sound:al_ar_xa_technology.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 temperature,درجة حرارة,/daraʤat ħaraːra/,[sound:al_ar_xa_temperature.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-ten (10),عشرة,/ʕaʃara/,[sound:al_ar_xa_ten_10.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-"ten thousand (10,000)",عشرة آلاف,/ʕaʃarat ʔaːlaːf/,[sound:al_ar_xa_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-the (train) ticket,التذكرة,/attaðkira/,[sound:al_ar_xa_the_train_ticket.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+ten,عشرة,/ʕaʃara/,[sound:al_ar_xa_ten_10.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+ten thousand,عشرة آلاف,/ʕaʃarat ʔaːlaːf/,[sound:al_ar_xa_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 the actor,الممثّل,/almumattˤil/,[sound:al_ar_xa_the_actor.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 the adjective,الصفة,/asˤsˤifa/,[sound:al_ar_xa_the_adjective.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 the adult,البالغ,/albaaːliɣ/,[sound:al_ar_xa_the_adult.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
@@ -268,7 +267,7 @@ the consonant,الحرف الساكن,/alħarf assaːkin/,[sound:al_ar_xa_the_co
 the contract,العقد,/alʕaqd/,[sound:al_ar_xa_the_contract.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 the corn,الذرة,/aððura/,[sound:al_ar_xa_the_corn.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 the corner,الزاوية,/azzaːwija/,[sound:al_ar_xa_the_corner.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-"the country (USA, France, etc.)",البلد,/albalad/,[sound:al_ar_xa_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+the country,البلد,/albalad/,[sound:al_ar_xa_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 the court,المحكمة,/almaħkama/,[sound:al_ar_xa_the_court.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 the cow,البقرة,/albaqara/,[sound:al_ar_xa_the_cow.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 the crowd,الحشد,/alħaʃd/,[sound:al_ar_xa_the_crowd.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
@@ -476,6 +475,7 @@ the tear,الدمعة,/addamʕa/,[sound:al_ar_xa_the_tear.mp3],Google Cloud TTS<
 the telephone,الهاتف,/alhaːtif/,[sound:al_ar_xa_the_telephone.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 the television,التلفزيون,/attalifiziuːn/,[sound:al_ar_xa_the_television.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 the theater,المسرح,/almasraħ/,[sound:al_ar_xa_the_theater.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+the ticket,التذكرة,/attaðkira/,[sound:al_ar_xa_the_train_ticket.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 the time,الوقت,/alwaqt/,[sound:al_ar_xa_the_time.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 the tire,الإطار,/alʔitˤaːr/,[sound:al_ar_xa_the_tire.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 the toe,إصبع القدم,/ʔisˤbaʕ alqadam/,[sound:al_ar_xa_the_toe.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
@@ -511,12 +511,12 @@ the year,السنة,/assana/,[sound:al_ar_xa_the_year.mp3],Google Cloud TTS<br>V
 they,هم,/hum/,[sound:al_ar_xa_they.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 thick,سميك,/samiːk/,[sound:al_ar_xa_thick.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 thin,رقيق,/raqiːq/,[sound:al_ar_xa_thin.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-third (3rd),الثالث,/atˤtˤaːlitˤ/,[sound:al_ar_xa_third_3rd.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-thirteen (13),ثلاثة عشر,/tˤalaːtˤata ʕaʃar/,[sound:al_ar_xa_thirteen_13.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-thirty (30),ثلاثون,/tˤalaːtˤuːn/,[sound:al_ar_xa_thirty_30.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-thirty-one (31),واحد وثلاثون,/waːħid wa tˤalaːtˤuːn/,[sound:al_ar_xa_thirty_one_31.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-thirty-two (32),اثنان وثلاثون,/itˤnaːn wa tˤalaːtˤuːn/,[sound:al_ar_xa_thirty_two_32.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-three (3),ثلاثة,/tˤalaːtˤa/,[sound:al_ar_xa_three_3.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+third,الثالث,/atˤtˤaːlitˤ/,[sound:al_ar_xa_third_3rd.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+thirteen,ثلاثة عشر,/tˤalaːtˤata ʕaʃar/,[sound:al_ar_xa_thirteen_13.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+thirty,ثلاثون,/tˤalaːtˤuːn/,[sound:al_ar_xa_thirty_30.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+thirty-one,واحد وثلاثون,/waːħid wa tˤalaːtˤuːn/,[sound:al_ar_xa_thirty_one_31.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+thirty-two,اثنان وثلاثون,/itˤnaːn wa tˤalaːtˤuːn/,[sound:al_ar_xa_thirty_two_32.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+three,ثلاثة,/tˤalaːtˤa/,[sound:al_ar_xa_three_3.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 Thursday,الخميس,/alxamiːs/,[sound:al_ar_xa_thursday.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 tight,ضيّق,/dˤajjiq/,[sound:al_ar_xa_tight.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 to beat,يضرب,/jadˤrib/,[sound:al_ar_xa_to_beat.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
@@ -576,7 +576,7 @@ to run,يركض,/jarkudˤ/,[sound:al_ar_xa_to_run.mp3],Google Cloud TTS<br>Voice
 to see,يرى,/jaraː/,[sound:al_ar_xa_to_see.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 to sell,يبيع,/jabiːʕ/,[sound:al_ar_xa_to_sell.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 to shake,يهزّ,/jahuzz/,[sound:al_ar_xa_to_shake.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-to shoot (a gun),يطلق النار,/jutˤliq annaːr/,[sound:al_ar_xa_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+to shoot,يطلق النار,/jutˤliq annaːr/,[sound:al_ar_xa_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 to sign,يوقّع,/juwaqqi ʕ/,[sound:al_ar_xa_to_sign.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 to sing,يغنّي,/juɣanniː/,[sound:al_ar_xa_to_sing.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 to sit,يجلس,/jaʤlis/,[sound:al_ar_xa_to_sit.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
@@ -603,11 +603,11 @@ to work,يعمل,/jaʕmal/,[sound:al_ar_xa_to_work.mp3],Google Cloud TTS<br>Voic
 to write,يكتب,/jaktub/,[sound:al_ar_xa_to_write.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 transportation,نقل,/naql/,[sound:al_ar_xa_transportation.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
 Tuesday,الثلاثاء,/atˤtˤulaːtˤaːʔ/,[sound:al_ar_xa_tuesday.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-twelve (12),اثنا عشر,/itˤnaː ʕaʃar/,[sound:al_ar_xa_twelve_12.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
-twenty (20),عشرون,/ʕiʃruːn/,[sound:al_ar_xa_twenty_20.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-twenty-one (21),واحد وعشرون,/waːħid wa ʕiʃruːn/,[sound:al_ar_xa_twenty_one_21.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-twenty-two (22),اثنان وعشرون,/itˤnaːn wa ʕiʃruːn/,[sound:al_ar_xa_twenty_two_22.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
-two (2),اثنان,/itˤnaːn/,[sound:al_ar_xa_two_2.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+twelve,اثنا عشر,/itˤnaː ʕaʃar/,[sound:al_ar_xa_twelve_12.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-C,AnkiLangs::AR
+twenty,عشرون,/ʕiʃruːn/,[sound:al_ar_xa_twenty_20.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+twenty-one,واحد وعشرون,/waːħid wa ʕiʃruːn/,[sound:al_ar_xa_twenty_one_21.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+twenty-two,اثنان وعشرون,/itˤnaːn wa ʕiʃruːn/,[sound:al_ar_xa_twenty_two_22.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
+two,اثنان,/itˤnaːn/,[sound:al_ar_xa_two_2.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 ugly,قبيح,/qabiːħ/,[sound:al_ar_xa_ugly.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 up,فوق,/fawq/,[sound:al_ar_xa_up.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR
 war,حرب,/ħarb/,[sound:al_ar_xa_war.mp3],Google Cloud TTS<br>Voice: ar-XA-Standard-D,AnkiLangs::AR

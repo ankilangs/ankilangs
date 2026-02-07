@@ -3805,7 +3805,7 @@
                 "/œ̃ miljaʁ/",
                 "[sound:al_fr_fr_one_billion_1_000_000_000.mp3]",
                 "",
-                "",
+                "False friend: English 'billion' = 10⁹ (milliard). French 'billion' = 10¹² (English 'trillion').",
                 "",
                 "",
                 "",
@@ -5065,7 +5065,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "l'espace",
                 "/l‿ɛs.pas/",
                 "[sound:al_fr_fr_space_outer_space.mp3]",
@@ -5378,29 +5378,6 @@
             ],
             "flags": 0,
             "guid": "omGiz.c7S!",
-            "note_model_uuid": "f793299f-ae1e-4582-8edf-e8df16c9b8c7",
-            "tags": [
-                "AnkiLangs::FR"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "le billet (de train)",
-                "/lə bi.je (də tʁɛ̃)/",
-                "[sound:al_fr_fr_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A"
-            ],
-            "flags": 0,
-            "guid": "DR~$N:;b{e",
             "note_model_uuid": "f793299f-ae1e-4582-8edf-e8df16c9b8c7",
             "tags": [
                 "AnkiLangs::FR"
@@ -6131,8 +6108,8 @@
                 "",
                 "money",
                 "",
-                "",
-                "",
+                "money",
+                "money",
                 "Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D"
             ],
             "flags": 0,
@@ -7089,7 +7066,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "le pays",
                 "/lə pe.i/",
                 "[sound:al_fr_fr_the_country_usa_france_etc.mp3]",
@@ -11864,6 +11841,29 @@
             ],
             "flags": 0,
             "guid": "ec&{.:ZDk_",
+            "note_model_uuid": "f793299f-ae1e-4582-8edf-e8df16c9b8c7",
+            "tags": [
+                "AnkiLangs::FR"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "le billet",
+                "/lə bi.je/",
+                "[sound:al_fr_fr_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "entry/travel",
+                "entry/travel",
+                "Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A"
+            ],
+            "flags": 0,
+            "guid": "DR~$N:;b{e",
             "note_model_uuid": "f793299f-ae1e-4582-8edf-e8df16c9b8c7",
             "tags": [
                 "AnkiLangs::FR"

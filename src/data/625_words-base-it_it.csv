@@ -36,12 +36,12 @@ down,giù,/dʒu/,[sound:al_it_it_down.mp3],Google Cloud TTS<br>Voice: it-IT-Jour
 dry,asciutto,/aʃˈʃutto/,[sound:al_it_it_dry.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 dust,la polvere,/la ˈpolvere/,[sound:al_it_it_dust.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 Earth,la Terra,/la ˈtɛrra/,[sound:al_it_it_earth.mp3],Google Cloud TTS,AnkiLangs::IT
-eight (8),otto,/ˈɔtto/,[sound:al_it_it_eight_8.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-eighteen (18),diciotto,/diˈtʃɔtto/,[sound:al_it_it_eighteen_18.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-eighty (80),ottanta,/otˈtanta/,[sound:al_it_it_eighty_80.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-eighty-one (81),ottantuno,/ottanˈtuːno/,[sound:al_it_it_eighty_one_81.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-eighty-two (82),ottantadue,/ottantaˈduːe/,[sound:al_it_it_eighty_two_82.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-eleven (11),undici,/ˈundici/,[sound:al_it_it_eleven_11.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+eight,otto,/ˈɔtto/,[sound:al_it_it_eight_8.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+eighteen,diciotto,/diˈtʃɔtto/,[sound:al_it_it_eighteen_18.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+eighty,ottanta,/otˈtanta/,[sound:al_it_it_eighty_80.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+eighty-one,ottantuno,/ottanˈtuːno/,[sound:al_it_it_eighty_one_81.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+eighty-two,ottantadue,/ottantaˈduːe/,[sound:al_it_it_eighty_two_82.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+eleven,undici,/ˈundici/,[sound:al_it_it_eleven_11.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 energy,l'energia,/lenerˈdʒia/,[sound:al_it_it_energy.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 exercise,l'esercizio,/lezerˈtʃitsjo/,[sound:al_it_it_exercise.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 expensive,costoso,/kosˈtoso/,[sound:al_it_it_expensive.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
@@ -49,21 +49,21 @@ famous,famoso,/faˈmoso/,[sound:al_it_it_famous.mp3],Google Cloud TTS<br>Voice: 
 fast,veloce,/veˈlotʃe/,[sound:al_it_it_fast.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 February,febbraio,/febˈbrajo/,[sound:al_it_it_february.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 female,femmina,/ˈfemmina/,[sound:al_it_it_female.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-fifteen (15),quindici,/ˈkwindici/,[sound:al_it_it_fifteen_15.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-fifth (5th),quinto,/ˈkwinto/,[sound:al_it_it_fifth_5th.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-fifty (50),cinquanta,/tʃiŋˈkwanta/,[sound:al_it_it_fifty_50.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-fifty-one (51),cinquantuno,/tʃiŋkwanˈtuːno/,[sound:al_it_it_fifty_one_51.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-fifty-two (52),cinquantadue,/tʃiŋkwantaˈduːe/,[sound:al_it_it_fifty_two_52.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-first (1st),primo,/ˈprimo/,[sound:al_it_it_first_1st.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-five (5),cinque,/ˈtʃiŋkwe/,[sound:al_it_it_five_5.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+fifteen,quindici,/ˈkwindici/,[sound:al_it_it_fifteen_15.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+fifth,quinto,/ˈkwinto/,[sound:al_it_it_fifth_5th.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+fifty,cinquanta,/tʃiŋˈkwanta/,[sound:al_it_it_fifty_50.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+fifty-one,cinquantuno,/tʃiŋkwanˈtuːno/,[sound:al_it_it_fifty_one_51.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+fifty-two,cinquantadue,/tʃiŋkwantaˈduːe/,[sound:al_it_it_fifty_two_52.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+first,primo,/ˈprimo/,[sound:al_it_it_first_1st.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+five,cinque,/ˈtʃiŋkwe/,[sound:al_it_it_five_5.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 flat,piatto,/ˈpjatto/,[sound:al_it_it_flat.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 food,il cibo,/il ˈtʃibo/,[sound:al_it_it_food.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-forty (40),quaranta,/kwaˈranta/,[sound:al_it_it_forty_40.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-forty-one (41),quarantuno,/kwaranˈtuːno/,[sound:al_it_it_forty_one_41.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-forty-two (42),quarantadue,/kwarantaˈduːe/,[sound:al_it_it_forty_two_42.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-four (4),quattro,/ˈkwattro/,[sound:al_it_it_four_4.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-fourteen (14),quattordici,/kwatˈtordici/,[sound:al_it_it_fourteen_14.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-fourth (4th),quarto,/ˈkwarto/,[sound:al_it_it_fourth_4th.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+forty,quaranta,/kwaˈranta/,[sound:al_it_it_forty_40.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+forty-one,quarantuno,/kwaranˈtuːno/,[sound:al_it_it_forty_one_41.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+forty-two,quarantadue,/kwarantaˈduːe/,[sound:al_it_it_forty_two_42.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+four,quattro,/ˈkwattro/,[sound:al_it_it_four_4.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+fourteen,quattordici,/kwatˈtordici/,[sound:al_it_it_fourteen_14.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+fourth,quarto,/ˈkwarto/,[sound:al_it_it_fourth_4th.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 Friday,venerdì,/venerˈdi/,[sound:al_it_it_friday.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 glass [material],il vetro,/il ˈvetro/,[sound:al_it_it_glass.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 God,Dio,/ˈdio/,[sound:al_it_it_god.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
@@ -112,11 +112,11 @@ narrow,stretto,/ˈstretto/,[sound:al_it_it_narrow.mp3],Google Cloud TTS<br>Voice
 nature,la natura,/la naˈtuːra/,[sound:al_it_it_nature.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 new,nuovo,/ˈnwɔvo/,[sound:al_it_it_new.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 nice,simpatico,/simˈpatiko/,[sound:al_it_it_nice.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-nine (9),nove,/ˈnɔve/,[sound:al_it_it_nine_9.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-nineteen (19),diciannove,/ditʃanˈnɔve/,[sound:al_it_it_nineteen_19.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-ninety (90),novanta,/noˈvanta/,[sound:al_it_it_ninety_90.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-ninety-one (91),novantuno,/novanˈtuːno/,[sound:al_it_it_ninety_one_91.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-ninety-two (92),novantadue,/novantaˈduːe/,[sound:al_it_it_ninety_two_92.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+nine,nove,/ˈnɔve/,[sound:al_it_it_nine_9.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+nineteen,diciannove,/ditʃanˈnɔve/,[sound:al_it_it_nineteen_19.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+ninety,novanta,/noˈvanta/,[sound:al_it_it_ninety_90.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+ninety-one,novantuno,/novanˈtuːno/,[sound:al_it_it_ninety_one_91.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+ninety-two,novantadue,/novantaˈduːe/,[sound:al_it_it_ninety_two_92.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 no,no,/ˈnɔ/,[sound:al_it_it_no.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 November,novembre,/noˈvembre/,[sound:al_it_it_november.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 nuclear,nucleare,/nukleˈare/,[sound:al_it_it_nuclear.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
@@ -124,17 +124,17 @@ October,ottobre,/otˈtobre/,[sound:al_it_it_october.mp3],Google Cloud TTS<br>Voi
 oil,l'olio,/ˈlɔljo/,[sound:al_it_it_oil.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 "old [opposite of ""new""]",vecchio,/ˈvɛkkjo/,[sound:al_it_it_old_opposite_of_new.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 "old [opposite of ""young""]",anziano,/anˈtsjaːno/,[sound:al_it_it_old_opposite_of_young.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-one (1),uno,/ˈuːno/,[sound:al_it_it_one_1.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-"one billion (1,000,000,000)",un miliardo,/un miˈljardo/,[sound:al_it_it_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-one hundred (100),cento,/ˈtʃɛnto/,[sound:al_it_it_one_hundred_100.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-one hundred eleven (111),centoundici,/tʃɛntounˈditʃi/,[sound:al_it_it_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-one hundred one (101),centouno,/tʃɛntoˈuːno/,[sound:al_it_it_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-one hundred ten (110),centodieci,/tʃɛntoˈdjɛtʃi/,[sound:al_it_it_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-"one hundred thousand (100,000)",centomila,/tʃɛntoˈmila/,[sound:al_it_it_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-one hundred two (102),centodue,/tʃɛntoˈduːe/,[sound:al_it_it_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-"one million (1,000,000)",un milione,/un miˈljone/,[sound:al_it_it_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-one thousand (1000),mille,/ˈmille/,[sound:al_it_it_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-one thousand one (1001),milleuno,/milleˈuːno/,[sound:al_it_it_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+one,uno,/ˈuːno/,[sound:al_it_it_one_1.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+one billion,un miliardo,/un miˈljardo/,[sound:al_it_it_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+one hundred,cento,/ˈtʃɛnto/,[sound:al_it_it_one_hundred_100.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+one hundred eleven,centoundici,/tʃɛntounˈditʃi/,[sound:al_it_it_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+one hundred one,centouno,/tʃɛntoˈuːno/,[sound:al_it_it_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+one hundred ten,centodieci,/tʃɛntoˈdjɛtʃi/,[sound:al_it_it_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+one hundred thousand,centomila,/tʃɛntoˈmila/,[sound:al_it_it_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+one hundred two,centodue,/tʃɛntoˈduːe/,[sound:al_it_it_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+one million,un milione,/un miˈljone/,[sound:al_it_it_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+one thousand,mille,/ˈmille/,[sound:al_it_it_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+one thousand one,milleuno,/milleˈuːno/,[sound:al_it_it_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 orange,arancione,/aranˈtʃone/,[sound:al_it_it_orange.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 pain,il dolore,/il doˈlore/,[sound:al_it_it_pain.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 peace,la pace,/la ˈpatʃe/,[sound:al_it_it_peace.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
@@ -156,13 +156,13 @@ sad,triste,/ˈtriste/,[sound:al_it_it_sad.mp3],Google Cloud TTS<br>Voice: it-IT-
 salt,il sale,/il ˈsale/,[sound:al_it_it_salt.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 Saturday,sabato,/ˈsabato/,[sound:al_it_it_saturday.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 science,la scienza,/la ˈʃɛntsa/,[sound:al_it_it_science.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-second (2nd),secondo,/seˈkondo/,[sound:al_it_it_second_2nd.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+second,secondo,/seˈkondo/,[sound:al_it_it_second_2nd.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 September,settembre,/setˈtembre/,[sound:al_it_it_september.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-seven (7),sette,/ˈsɛtte/,[sound:al_it_it_seven_7.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-seventeen (17),diciassette,/ditʃasˈsɛtte/,[sound:al_it_it_seventeen_17.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-seventy (70),settanta,/setˈtanta/,[sound:al_it_it_seventy_70.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-seventy-one (71),settantuno,/settanˈtuːno/,[sound:al_it_it_seventy_one_71.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-seventy-two (72),settantadue,/settantaˈduːe/,[sound:al_it_it_seventy_two_72.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+seven,sette,/ˈsɛtte/,[sound:al_it_it_seven_7.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+seventeen,diciassette,/ditʃasˈsɛtte/,[sound:al_it_it_seventeen_17.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+seventy,settanta,/setˈtanta/,[sound:al_it_it_seventy_70.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+seventy-one,settantuno,/settanˈtuːno/,[sound:al_it_it_seventy_one_71.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+seventy-two,settantadue,/settantaˈduːe/,[sound:al_it_it_seventy_two_72.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 sex [gender],il sesso,/il ˈsɛsso/,[sound:al_it_it_sex_gender.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 sex [the act],il sesso,/il ˈsɛsso/,[sound:al_it_it_sex_the_act.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 shallow,poco profondo,/ˈpɔko proˈfondo/,[sound:al_it_it_shallow.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
@@ -171,16 +171,16 @@ she,lei,/ˈlɛi/,[sound:al_it_it_she.mp3],Google Cloud TTS<br>Voice: it-IT-Journ
 "short [opposite of ""tall""]",basso,/ˈbasso/,[sound:al_it_it_short_opposite_of_tall.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 sick,malato,/maˈlato/,[sound:al_it_it_sick.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 silver,l'argento,/larˈdʒɛnto/,[sound:al_it_it_silver.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-six (6),sei,/ˈsɛi/,[sound:al_it_it_six_6.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-sixteen (16),sedici,/ˈsedici/,[sound:al_it_it_sixteen_16.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-sixty (60),sessanta,/sesˈsanta/,[sound:al_it_it_sixty_60.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-sixty-one (61),sessantuno,/sessanˈtuːno/,[sound:al_it_it_sixty_one_61.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-sixty-two (62),sessantadue,/sessantaˈduːe/,[sound:al_it_it_sixty_two_62.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+six,sei,/ˈsɛi/,[sound:al_it_it_six_6.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+sixteen,sedici,/ˈsedici/,[sound:al_it_it_sixteen_16.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+sixty,sessanta,/sesˈsanta/,[sound:al_it_it_sixty_60.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+sixty-one,sessantuno,/sessanˈtuːno/,[sound:al_it_it_sixty_one_61.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+sixty-two,sessantadue,/sessantaˈduːe/,[sound:al_it_it_sixty_two_62.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 slow,lento,/ˈlɛnto/,[sound:al_it_it_slow.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 small / little,piccolo,/ˈpikkolo/,[sound:al_it_it_small_little.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 soft,morbido,/ˈmɔrbido/,[sound:al_it_it_soft.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 soil/earth [ground],la terra,/la ˈtɛrra/,[sound:al_it_it_soil_earth_ground.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-space (outer space),lo spazio,/lo ˈspatt͡sjo/,[sound:al_it_it_space_outer_space.mp3],Google Cloud TTS,AnkiLangs::IT
+space,lo spazio,/lo ˈspatt͡sjo/,[sound:al_it_it_space_outer_space.mp3],Google Cloud TTS,AnkiLangs::IT
 sport,lo sport,/lo ˈspɔrt/,[sound:al_it_it_sport.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 stone,la pietra,/la ˈpjetra/,[sound:al_it_it_stone.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 straight,dritto,/ˈdritto/,[sound:al_it_it_straight.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
@@ -192,9 +192,8 @@ tall,alto,/ˈalto/,[sound:al_it_it_tall.mp3],Google Cloud TTS<br>Voice: it-IT-Jo
 tea,il tè,/il ˈtɛ/,[sound:al_it_it_tea.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 technology,la tecnologia,/la teknoloˈdʒia/,[sound:al_it_it_technology.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 temperature,la temperatura,/la temperatuˈra/,[sound:al_it_it_temperature.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-ten (10),dieci,/ˈdjɛtʃi/,[sound:al_it_it_ten_10.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-"ten thousand (10,000)",diecimila,/djɛtʃiˈmila/,[sound:al_it_it_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-the (train) ticket,il biglietto (del treno),/il biʎˈʎetto (del ˈtreno)/,[sound:al_it_it_the_train_ticket.mp3],Google Cloud TTS,AnkiLangs::IT
+ten,dieci,/ˈdjɛtʃi/,[sound:al_it_it_ten_10.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+ten thousand,diecimila,/djɛtʃiˈmila/,[sound:al_it_it_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the actor,l'attore,/latˈtore/,[sound:al_it_it_the_actor.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 the adjective,l'aggettivo,/ladːʒetˈtivo/,[sound:al_it_it_the_adjective.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 the adult,l'adulto,/laˈdul.to/,[sound:al_it_it_the_adult.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
@@ -268,7 +267,7 @@ the consonant,la consonante,/la konsoˈnante/,[sound:al_it_it_the_consonant.mp3]
 the contract,il contratto,/il konˈtratto/,[sound:al_it_it_the_contract.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the corn,il mais,/il ˈmais/,[sound:al_it_it_the_corn.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the corner,l'angolo,/ˈlaŋɡolo/,[sound:al_it_it_the_corner.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-"the country (USA, France, etc.)",il paese; la nazione,/il paˈɛze/ /la natˈt͡sjo.ne/,[sound:al_it_it_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+the country,il paese; la nazione,/il paˈɛze/ /la natˈt͡sjo.ne/,[sound:al_it_it_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the court,il tribunale,/il tribuˈnale/,[sound:al_it_it_the_court.mp3],Google Cloud TTS,AnkiLangs::IT
 the cow,la mucca,/la ˈmukka/,[sound:al_it_it_the_cow.mp3],Google Cloud TTS,AnkiLangs::IT
 the crowd,la folla,/la ˈfol.la/,[sound:al_it_it_the_crowd.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
@@ -476,6 +475,7 @@ the tear,la lacrima,/la ˈlakrima/,[sound:al_it_it_the_tear.mp3],Google Cloud TT
 the telephone,il telefono,/il teˈlɛfono/,[sound:al_it_it_the_telephone.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 the television,la televisione,/la televiˈzjone/,[sound:al_it_it_the_television.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the theater,il teatro,/il teˈaːtro/,[sound:al_it_it_the_theater.mp3],Google Cloud TTS,AnkiLangs::IT
+the ticket,il biglietto,/il biʎˈʎetto/,[sound:al_it_it_the_train_ticket.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 the time,il tempo,/il ˈtɛmpo/,[sound:al_it_it_the_time.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 the tire,la gomma,/la ˈɡomːa/,[sound:al_it_it_the_tire.mp3],Google Cloud TTS,AnkiLangs::IT
 the toe,il dito del piede,/il ˈdito del ˈpjɛde/,[sound:al_it_it_the_toe.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
@@ -511,12 +511,12 @@ the year,l'anno,/ˈlanno/,[sound:al_it_it_the_year.mp3],Google Cloud TTS<br>Voic
 they,loro,/ˈloro/,[sound:al_it_it_they.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 thick,spesso,/ˈspɛsso/,[sound:al_it_it_thick.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 thin,sottile,/sotˈtile/,[sound:al_it_it_thin.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-third (3rd),terzo,/ˈtɛrtso/,[sound:al_it_it_third_3rd.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-thirteen (13),tredici,/ˈtredici/,[sound:al_it_it_thirteen_13.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-thirty (30),trenta,/ˈtrɛnta/,[sound:al_it_it_thirty_30.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-thirty-one (31),trentuno,/trenˈtuːno/,[sound:al_it_it_thirty_one_31.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-thirty-two (32),trentadue,/trentaˈduːe/,[sound:al_it_it_thirty_two_32.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-three (3),tre,/ˈtre/,[sound:al_it_it_three_3.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+third,terzo,/ˈtɛrtso/,[sound:al_it_it_third_3rd.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+thirteen,tredici,/ˈtredici/,[sound:al_it_it_thirteen_13.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+thirty,trenta,/ˈtrɛnta/,[sound:al_it_it_thirty_30.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+thirty-one,trentuno,/trenˈtuːno/,[sound:al_it_it_thirty_one_31.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+thirty-two,trentadue,/trentaˈduːe/,[sound:al_it_it_thirty_two_32.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+three,tre,/ˈtre/,[sound:al_it_it_three_3.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 Thursday,giovedì,/dʒoveˈdi/,[sound:al_it_it_thursday.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 tight,stretto,/ˈstretto/,[sound:al_it_it_tight.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 to beat,battere,/ˈbattere/,[sound:al_it_it_to_beat.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
@@ -576,7 +576,7 @@ to run,correre,/ˈkorrere/,[sound:al_it_it_to_run.mp3],Google Cloud TTS<br>Voice
 to see,vedere,/veˈdere/,[sound:al_it_it_to_see.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 to sell,vendere,/ˈvɛndere/,[sound:al_it_it_to_sell.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 to shake,scuotere,/ˈskwɔtere/,[sound:al_it_it_to_shake.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
-to shoot (a gun),sparare,/spaˈrare/,[sound:al_it_it_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
+to shoot,sparare,/spaˈrare/,[sound:al_it_it_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-F,AnkiLangs::IT
 to sign,firmare,/firˈmare/,[sound:al_it_it_to_sign.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 to sing,cantare,/kanˈtare/,[sound:al_it_it_to_sing.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 to sit,sedersi,/seˈdersi/,[sound:al_it_it_to_sit.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
@@ -603,11 +603,11 @@ to work,lavorare,/lavoˈrare/,[sound:al_it_it_to_work.mp3],Google Cloud TTS<br>V
 to write,scrivere,/ˈskrivere/,[sound:al_it_it_to_write.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 transportation,il trasporto,/il trasˈporːto/,[sound:al_it_it_transportation.mp3],Google Cloud TTS,AnkiLangs::IT
 Tuesday,martedì,/marteˈdi/,[sound:al_it_it_tuesday.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-twelve (12),dodici,/ˈdodici/,[sound:al_it_it_twelve_12.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
-twenty (20),venti,/ˈventi/,[sound:al_it_it_twenty_20.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-twenty-one (21),ventuno,/venˈtuːno/,[sound:al_it_it_twenty_one_21.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-twenty-two (22),ventidue,/ventiˈduːe/,[sound:al_it_it_twenty_two_22.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
-two (2),due,/ˈduːe/,[sound:al_it_it_two_2.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+twelve,dodici,/ˈdodici/,[sound:al_it_it_twelve_12.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
+twenty,venti,/ˈventi/,[sound:al_it_it_twenty_20.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+twenty-one,ventuno,/venˈtuːno/,[sound:al_it_it_twenty_one_21.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+twenty-two,ventidue,/ventiˈduːe/,[sound:al_it_it_twenty_two_22.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
+two,due,/ˈduːe/,[sound:al_it_it_two_2.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 ugly,brutto,/ˈbrutto/,[sound:al_it_it_ugly.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT
 up,su,/su/,[sound:al_it_it_up.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-O,AnkiLangs::IT
 war,la guerra,/la ˈɡwɛrra/,[sound:al_it_it_war.mp3],Google Cloud TTS<br>Voice: it-IT-Journey-D,AnkiLangs::IT

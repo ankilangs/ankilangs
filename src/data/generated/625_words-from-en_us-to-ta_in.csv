@@ -36,12 +36,12 @@ down,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 dry,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 dust,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a><br><br>Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A"
-eight (8),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-eighteen (18),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-eighty (80),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-eighty-one (81),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-eighty-two (82),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-eleven (11),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+eight,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+eighteen,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+eighty,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+eighty-one,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+eighty-two,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+eleven,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 energy,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 exercise,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 expensive,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
@@ -49,21 +49,21 @@ famous,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 fast,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 February,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 female,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-fifteen (15),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-fifth (5th),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-fifty (50),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-fifty-one (51),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-fifty-two (52),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-first (1st),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-five (5),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+fifteen,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+fifth,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+fifty,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+fifty-one,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+fifty-two,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+first,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+five,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 flat,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 food,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-forty (40),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-forty-one (41),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-forty-two (42),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-four (4),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+forty,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+forty-one,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+forty-two,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+four,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+fourteen,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+fourth,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 Friday,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 glass [material],Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 God,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
@@ -112,11 +112,11 @@ narrow,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 nature,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 new,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 nice,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-nine (9),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-nineteen (19),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-ninety (90),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-ninety-one (91),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-ninety-two (92),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+nine,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+nineteen,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+ninety,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+ninety-one,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+ninety-two,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 no,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 November,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 nuclear,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
@@ -124,17 +124,17 @@ October,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 oil,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 "old [opposite of ""new""]",Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 "old [opposite of ""young""]",Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-one (1),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-"one billion (1,000,000,000)",Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-one hundred (100),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-one hundred eleven (111),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-one hundred one (101),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-one hundred ten (110),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-"one hundred thousand (100,000)",Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-one hundred two (102),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-one thousand (1000),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-one thousand one (1001),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+one,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+one billion,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+one hundred,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+one hundred eleven,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+one hundred one,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+one hundred ten,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+one hundred thousand,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+one hundred two,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+one million,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+one thousand,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+one thousand one,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 orange,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 pain,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 peace,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
@@ -156,13 +156,13 @@ sad,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 salt,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 Saturday,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 science,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-second (2nd),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+second,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 September,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-seven (7),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-seventy (70),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+seven,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+seventeen,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+seventy,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+seventy-one,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+seventy-two,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 sex [gender],Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 sex [the act],Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 shallow,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
@@ -171,16 +171,16 @@ she,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 "short [opposite of ""tall""]",Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 sick,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 silver,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-six (6),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-sixteen (16),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-sixty (60),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-sixty-one (61),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-sixty-two (62),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+six,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+sixteen,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+sixty,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+sixty-one,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+sixty-two,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 slow,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 small / little,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 soft,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 soil/earth [ground],Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-space (outer space),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+space,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 sport,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 stone,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 straight,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
@@ -192,9 +192,8 @@ tall,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 tea,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 technology,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 temperature,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-ten (10),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-"ten thousand (10,000)",Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-the (train) ticket,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+ten,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+ten thousand,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 the actor,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 the adjective,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 the adult,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
@@ -268,7 +267,7 @@ the consonant,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 the contract,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 the corn,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 the corner,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-"the country (USA, France, etc.)",Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+the country,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 the court,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 the cow,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 the crowd,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
@@ -476,6 +475,7 @@ the tear,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 the telephone,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 the television,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 the theater,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+the ticket,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 the time,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 the tire,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 the toe,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
@@ -511,12 +511,12 @@ the year,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 they,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 thick,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 thin,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-third (3rd),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-thirteen (13),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-thirty (30),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-thirty-one (31),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-thirty-two (32),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-three (3),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+third,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+thirteen,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+thirty,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+thirty-one,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+thirty-two,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+three,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 Thursday,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 tight,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 to beat,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
@@ -576,7 +576,7 @@ to run,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 to see,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 to sell,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 to shake,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-to shoot (a gun),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+to shoot,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 to sign,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 to sing,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 to sit,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
@@ -603,11 +603,11 @@ to work,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 to write,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 transportation,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 Tuesday,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-twelve (12),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-twenty (20),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-twenty-one (21),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
-twenty-two (22),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
-two (2),Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+twelve,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+twenty,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+twenty-one,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
+twenty-two,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
+two,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 ugly,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-A
 up,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B
 war,Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B

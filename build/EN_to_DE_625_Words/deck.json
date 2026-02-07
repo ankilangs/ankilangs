@@ -3819,7 +3819,7 @@
                 "/ˈaɪ̯nə mɪliˈaʁdə/",
                 "[sound:al_de_de_one_billion_1_000_000_000.mp3]",
                 "",
-                "",
+                "False friend: English 'billion' = 10⁹ (Milliarde). German 'Billion' = 10¹² (English 'trillion').",
                 "",
                 "",
                 "",
@@ -5079,7 +5079,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "der Weltraum",
                 "/dɛɐ̯ ˈvɛltʁaʊ̯m/",
                 "[sound:al_de_de_space_outer_space.mp3]",
@@ -5392,29 +5392,6 @@
             ],
             "flags": 0,
             "guid": "ji-/Ev<oBQ",
-            "note_model_uuid": "495b88a8-1b0b-11ee-8ac9-c5d2cf109b08",
-            "tags": [
-                "AnkiLangs::DE"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "die Fahrkarte",
-                "/diː ˈfaːɐ̯kaʁtə/",
-                "[sound:al_de_de_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "flags": 0,
-            "guid": "xH%thmkGwA",
             "note_model_uuid": "495b88a8-1b0b-11ee-8ac9-c5d2cf109b08",
             "tags": [
                 "AnkiLangs::DE"
@@ -7103,7 +7080,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "das Land",
                 "/das lant/",
                 "[sound:al_de_de_the_country_usa_france_etc.mp3]",
@@ -11878,6 +11855,29 @@
             ],
             "flags": 0,
             "guid": "h1T&{%hp6,",
+            "note_model_uuid": "495b88a8-1b0b-11ee-8ac9-c5d2cf109b08",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "die Fahrkarte / die Eintrittskarte",
+                "/diː ˈfaːɐ̯kaʁtə/ /diː ˈaɪ̯ntʁɪt͡skaʁtə/",
+                "[sound:al_de_de_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "xH%thmkGwA",
             "note_model_uuid": "495b88a8-1b0b-11ee-8ac9-c5d2cf109b08",
             "tags": [
                 "AnkiLangs::DE"

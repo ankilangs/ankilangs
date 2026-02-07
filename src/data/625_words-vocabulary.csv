@@ -36,12 +36,12 @@ down,
 dry,
 dust,fine loose particles
 Earth,the planet we live on
-eight (8),
-eighteen (18),
-eighty (80),
-eighty-one (81),
-eighty-two (82),
-eleven (11),
+eight,
+eighteen,
+eighty,
+eighty-one,
+eighty-two,
+eleven,
 energy,power/capacity to do work
 exercise,physical activity for fitness
 expensive,
@@ -49,21 +49,21 @@ famous,
 fast,
 February,
 female,
-fifteen (15),
-fifth (5th),
-fifty (50),
-fifty-one (51),
-fifty-two (52),
-first (1st),
-five (5),
+fifteen,
+fifth,
+fifty,
+fifty-one,
+fifty-two,
+first,
+five,
 flat,
 food,
-forty (40),
-forty-one (41),
-forty-two (42),
-four (4),
-fourteen (14),
-fourth (4th),
+forty,
+forty-one,
+forty-two,
+four,
+fourteen,
+fourth,
 Friday,
 glass [material],the transparent material (not a cup)
 God,supreme deity
@@ -112,11 +112,11 @@ narrow,
 nature,the natural world
 new,
 nice,
-nine (9),
-nineteen (19),
-ninety (90),
-ninety-one (91),
-ninety-two (92),
+nine,
+nineteen,
+ninety,
+ninety-one,
+ninety-two,
 no,
 November,
 nuclear,atomic
@@ -124,17 +124,17 @@ October,
 oil,cooking oil
 "old [opposite of ""new""]",
 "old [opposite of ""young""]",
-one (1),
-"one billion (1,000,000,000)",
-one hundred (100),
-one hundred eleven (111),
-one hundred one (101),
-one hundred ten (110),
-"one hundred thousand (100,000)",
-one hundred two (102),
-"one million (1,000,000)",
-one thousand (1000),
-one thousand one (1001),
+one,
+one billion,"1,000,000,000"
+one hundred,
+one hundred eleven,
+one hundred one,
+one hundred ten,
+one hundred thousand,
+one hundred two,
+one million,
+one thousand,
+one thousand one,
 orange,
 pain,physical sensation of hurt
 peace,absence of war
@@ -156,13 +156,13 @@ sad,
 salt,
 Saturday,
 science,systematic study of nature
-second (2nd),
+second,
 September,
-seven (7),
-seventeen (17),
-seventy (70),
-seventy-one (71),
-seventy-two (72),
+seven,
+seventeen,
+seventy,
+seventy-one,
+seventy-two,
 sex [gender],biological classification
 sex [the act],intimate physical activity
 shallow,
@@ -171,16 +171,16 @@ she,
 "short [opposite of ""tall""]",
 sick,
 silver,precious white metal (Ag)
-six (6),
-sixteen (16),
-sixty (60),
-sixty-one (61),
-sixty-two (62),
+six,
+sixteen,
+sixty,
+sixty-one,
+sixty-two,
 slow,
 small / little,
 soft,
 soil/earth [ground],dirt/earth for planting
-space (outer space),cosmos/universe beyond Earth
+space,cosmos/universe beyond Earth
 sport,athletic competition
 stone,hard natural mineral
 straight,
@@ -192,9 +192,8 @@ tall,
 tea,
 technology,applied science/tools
 temperature,degree of hot/cold
-ten (10),
-"ten thousand (10,000)",
-the (train) ticket,pass for entry/travel
+ten,
+ten thousand,
 the actor,performer in film/theater
 the adjective,"describing word (big, red, etc.)"
 the adult,fully grown person
@@ -268,7 +267,7 @@ the consonant,"b, c, d, f, g, etc."
 the contract,legal agreement
 the corn,maize/grain
 the corner,where two walls/lines meet
-"the country (USA, France, etc.)","nation (USA, France, etc.)"
+the country,"nation (USA, France, etc.)"
 the court,legal court
 the cow,farm animal that gives milk
 the crowd,group of people gathered
@@ -476,6 +475,7 @@ the tear,drop of liquid from eye when crying
 the telephone,device for calls
 the television,device for watching broadcasts
 the theater,venue for performances
+the ticket,pass for entry/travel
 the time,temporal concept
 the tire,rubber covering on wheel
 the toe,digit on foot
@@ -511,12 +511,12 @@ the year,365-day period
 they,
 thick,
 thin,
-third (3rd),
-thirteen (13),
-thirty (30),
-thirty-one (31),
-thirty-two (32),
-three (3),
+third,
+thirteen,
+thirty,
+thirty-one,
+thirty-two,
+three,
 Thursday,
 tight,
 to beat,to strike repeatedly
@@ -576,7 +576,7 @@ to run,
 to see,
 to sell,
 to shake,to vibrate
-to shoot (a gun),to fire a weapon
+to shoot,to fire a weapon
 to sign,to write one's name
 to sing,
 to sit,
@@ -603,11 +603,11 @@ to work,to labor
 to write,
 transportation,vehicles/systems for moving people
 Tuesday,
-twelve (12),
-twenty (20),
-twenty-one (21),
-twenty-two (22),
-two (2),
+twelve,
+twenty,
+twenty-one,
+twenty-two,
+two,
 ugly,
 up,
 war,

@@ -5067,7 +5067,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "अंतरिक्ष",
                 "/ənt̪ərɪkʃ/",
                 "[sound:al_hi_in_space_outer_space.mp3]",
@@ -5380,29 +5380,6 @@
             ],
             "flags": 0,
             "guid": "g70Q[_^8ot",
-            "note_model_uuid": "de083ea6-d699-421d-bebb-3e30c825efb7",
-            "tags": [
-                "AnkiLangs::HI"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "टिकट",
-                "/ʈɪkəʈ/",
-                "[sound:al_hi_in_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
-            ],
-            "flags": 0,
-            "guid": "bw)H~2h&Uh",
             "note_model_uuid": "de083ea6-d699-421d-bebb-3e30c825efb7",
             "tags": [
                 "AnkiLangs::HI"
@@ -7091,7 +7068,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "देश",
                 "/d̪eːʃ/",
                 "[sound:al_hi_in_the_country_usa_france_etc.mp3]",
@@ -11866,6 +11843,29 @@
             ],
             "flags": 0,
             "guid": "K>DjB.M!h|",
+            "note_model_uuid": "de083ea6-d699-421d-bebb-3e30c825efb7",
+            "tags": [
+                "AnkiLangs::HI"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "टिकट",
+                "/ʈɪkəʈ/",
+                "[sound:al_hi_in_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
+            ],
+            "flags": 0,
+            "guid": "bw)H~2h&Uh",
             "note_model_uuid": "de083ea6-d699-421d-bebb-3e30c825efb7",
             "tags": [
                 "AnkiLangs::HI"

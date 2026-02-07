@@ -5068,7 +5068,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "hapësira",
                 "/hapəˈsiɾa/",
                 "[sound:al_sq_al_space_outer_space.mp3]",
@@ -5381,29 +5381,6 @@
             ],
             "flags": 0,
             "guid": "svd*-mj~X)",
-            "note_model_uuid": "841172e6-49b1-41b9-86d9-69aa3a8247fd",
-            "tags": [
-                "AnkiLangs::SQ"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "bileta (e trenit)",
-                "/biˈlɛta (ɛ ˈtɾɛnit)/",
-                "[sound:al_sq_al_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
-            ],
-            "flags": 0,
-            "guid": "hV;r_dX%?V",
             "note_model_uuid": "841172e6-49b1-41b9-86d9-69aa3a8247fd",
             "tags": [
                 "AnkiLangs::SQ"
@@ -7092,7 +7069,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "shteti",
                 "/ˈʃtɛti/",
                 "[sound:al_sq_al_the_country_usa_france_etc.mp3]",
@@ -11867,6 +11844,29 @@
             ],
             "flags": 0,
             "guid": "g>z~X`>Jj!",
+            "note_model_uuid": "841172e6-49b1-41b9-86d9-69aa3a8247fd",
+            "tags": [
+                "AnkiLangs::SQ"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "bileta",
+                "/biˈlɛta/",
+                "[sound:al_sq_al_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+            ],
+            "flags": 0,
+            "guid": "hV;r_dX%?V",
             "note_model_uuid": "841172e6-49b1-41b9-86d9-69aa3a8247fd",
             "tags": [
                 "AnkiLangs::SQ"

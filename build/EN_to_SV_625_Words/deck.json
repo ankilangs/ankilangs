@@ -3807,7 +3807,7 @@
                 "/ɛn mɪlˈjǎːɖ/",
                 "[sound:al_sv_se_one_billion_1_000_000_000.mp3]",
                 "",
-                "",
+                "False friend: English 'billion' = 10⁹ (miljard). Swedish 'biljon' = 10¹² (English 'trillion').",
                 "",
                 "",
                 "",
@@ -5067,7 +5067,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "rymden",
                 "/ˈrŷmdɛn/",
                 "[sound:al_sv_se_space_outer_space.mp3]",
@@ -5380,29 +5380,6 @@
             ],
             "flags": 0,
             "guid": "f[yIfN:~xB",
-            "note_model_uuid": "e9ed7504-06b6-4ec0-a192-77f05169e5b5",
-            "tags": [
-                "AnkiLangs::SV"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "biljetten",
-                "/bɪlˈjɛ̌tːɛn/",
-                "[sound:al_sv_se_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: sv-SE-Standard-B"
-            ],
-            "flags": 0,
-            "guid": "suRh{KRVfc",
             "note_model_uuid": "e9ed7504-06b6-4ec0-a192-77f05169e5b5",
             "tags": [
                 "AnkiLangs::SV"
@@ -7091,7 +7068,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "landet",
                 "/ˈlǎndɛt/",
                 "[sound:al_sv_se_the_country_usa_france_etc.mp3]",
@@ -11866,6 +11843,29 @@
             ],
             "flags": 0,
             "guid": "lrm-l9-]+&",
+            "note_model_uuid": "e9ed7504-06b6-4ec0-a192-77f05169e5b5",
+            "tags": [
+                "AnkiLangs::SV"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "biljetten",
+                "/bɪlˈjɛ̌tːɛn/",
+                "[sound:al_sv_se_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: sv-SE-Standard-B"
+            ],
+            "flags": 0,
+            "guid": "suRh{KRVfc",
             "note_model_uuid": "e9ed7504-06b6-4ec0-a192-77f05169e5b5",
             "tags": [
                 "AnkiLangs::SV"

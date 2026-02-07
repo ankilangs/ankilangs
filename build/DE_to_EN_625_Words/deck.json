@@ -3807,7 +3807,7 @@
                 "/wʌn ˈbɪljən/",
                 "[sound:al_en_us_one_billion_1_000_000_000.mp3]",
                 "",
-                "",
+                "Falscher Freund: Deutsch 'Milliarde' = 10⁹ = English 'billion'. Deutsch 'Billion' = 10¹² = English 'trillion'.",
                 "",
                 "",
                 "",
@@ -5068,7 +5068,7 @@
             "data": "",
             "fields": [
                 "der Weltraum",
-                "space (outer space)",
+                "space",
                 "/ˈspeɪs/",
                 "[sound:al_en_us_space_outer_space.mp3]",
                 "",
@@ -5077,7 +5077,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q"
+                "Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O"
             ],
             "flags": 0,
             "guid": "j)X<Vu!E,Q",
@@ -5380,29 +5380,6 @@
             ],
             "flags": 0,
             "guid": "c75fSX_@S6",
-            "note_model_uuid": "505c08e3-dd11-4f5e-a6db-4af7ea8bf6a8",
-            "tags": [
-                "AnkiLangs::EN"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "die Fahrkarte",
-                "the (train) ticket",
-                "/ðə ˈtɪkɪt/",
-                "[sound:al_en_us_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q"
-            ],
-            "flags": 0,
-            "guid": "hf}%}R%mmF",
             "note_model_uuid": "505c08e3-dd11-4f5e-a6db-4af7ea8bf6a8",
             "tags": [
                 "AnkiLangs::EN"
@@ -7092,7 +7069,7 @@
             "data": "",
             "fields": [
                 "das Land",
-                "the country (USA, France, etc.)",
+                "the country",
                 "/ðə ˈkʌntri/",
                 "[sound:al_en_us_the_country_usa_france_etc.mp3]",
                 "",
@@ -7101,7 +7078,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q"
+                "Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O"
             ],
             "flags": 0,
             "guid": "PeX8Tcg<1N",
@@ -11866,6 +11843,29 @@
             ],
             "flags": 0,
             "guid": "pXjKBB=D/",
+            "note_model_uuid": "505c08e3-dd11-4f5e-a6db-4af7ea8bf6a8",
+            "tags": [
+                "AnkiLangs::EN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "die Fahrkarte / die Eintrittskarte",
+                "the ticket",
+                "/ðə ˈtɪkɪt/",
+                "[sound:al_en_us_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q"
+            ],
+            "flags": 0,
+            "guid": "hf}%}R%mmF",
             "note_model_uuid": "505c08e3-dd11-4f5e-a6db-4af7ea8bf6a8",
             "tags": [
                 "AnkiLangs::EN"

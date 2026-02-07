@@ -1,54 +1,54 @@
 key,locale,tts_text,is_ssml,notes
-eight (8),es_es,ocho,0,Avoid reading parenthetical (8)
-eighteen (18),es_es,dieciocho,0,Avoid reading parenthetical (18)
-eighty (80),es_es,ochenta,0,Avoid reading parenthetical (80)
-eighty-one (81),es_es,ochenta y uno,0,Avoid reading parenthetical (81)
-eighty-two (82),es_es,ochenta y dos,0,Avoid reading parenthetical (82)
-eleven (11),es_es,once,0,Avoid reading parenthetical (11)
-fifteen (15),es_es,quince,0,Avoid reading parenthetical (15)
-fifth (5th),es_es,"<speak>quinto<break time=""300ms""/>quinta</speak>",1,Read both masculine and feminine forms with a break
-fifty (50),es_es,cincuenta,0,Avoid reading parenthetical (50)
-fifty-one (51),es_es,cincuenta y uno,0,Avoid reading parenthetical (51)
-fifty-two (52),es_es,cincuenta y dos,0,Avoid reading parenthetical (52)
-first (1st),es_es,"<speak>primero<break time=""300ms""/>primera</speak>",1,Read both masculine and feminine forms with a break
-five (5),es_es,cinco,0,Avoid reading parenthetical (5)
-forty (40),es_es,cuarenta,0,Avoid reading parenthetical (40)
-forty-one (41),es_es,cuarenta y uno,0,Avoid reading parenthetical (41)
-forty-two (42),es_es,cuarenta y dos,0,Avoid reading parenthetical (42)
-four (4),es_es,cuatro,0,Avoid reading parenthetical (4)
-fourteen (14),es_es,catorce,0,Avoid reading parenthetical (14)
-fourth (4th),es_es,"<speak>cuarto<break time=""300ms""/>cuarta</speak>",1,Read both masculine and feminine forms with a break
+eight,es_es,ocho,0,Avoid reading parenthetical (8)
+eighteen,es_es,dieciocho,0,Avoid reading parenthetical (18)
+eighty,es_es,ochenta,0,Avoid reading parenthetical (80)
+eighty-one,es_es,ochenta y uno,0,Avoid reading parenthetical (81)
+eighty-two,es_es,ochenta y dos,0,Avoid reading parenthetical (82)
+eleven,es_es,once,0,Avoid reading parenthetical (11)
+fifteen,es_es,quince,0,Avoid reading parenthetical (15)
+fifth,es_es,"<speak>quinto<break time=""300ms""/>quinta</speak>",1,Read both masculine and feminine forms with a break
+fifty,es_es,cincuenta,0,Avoid reading parenthetical (50)
+fifty-one,es_es,cincuenta y uno,0,Avoid reading parenthetical (51)
+fifty-two,es_es,cincuenta y dos,0,Avoid reading parenthetical (52)
+first,es_es,"<speak>primero<break time=""300ms""/>primera</speak>",1,Read both masculine and feminine forms with a break
+five,es_es,cinco,0,Avoid reading parenthetical (5)
+forty,es_es,cuarenta,0,Avoid reading parenthetical (40)
+forty-one,es_es,cuarenta y uno,0,Avoid reading parenthetical (41)
+forty-two,es_es,cuarenta y dos,0,Avoid reading parenthetical (42)
+four,es_es,cuatro,0,Avoid reading parenthetical (4)
+fourteen,es_es,catorce,0,Avoid reading parenthetical (14)
+fourth,es_es,"<speak>cuarto<break time=""300ms""/>cuarta</speak>",1,Read both masculine and feminine forms with a break
 good,pt_pt,"<speak xml:lang=""pt-PT""><phoneme alphabet=""ipa"" ph=""bõ"">bom</phoneme></speak>",1,Fixed bad audio - explicit IPA pronunciation
 he,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">él</prosody></s></speak>",1,
-nine (9),es_es,nueve,0,Avoid reading parenthetical (9)
-nineteen (19),es_es,diecinueve,0,Avoid reading parenthetical (19)
-ninety (90),es_es,noventa,0,Avoid reading parenthetical (90)
-ninety-one (91),es_es,noventa y uno,0,Avoid reading parenthetical (91)
-ninety-two (92),es_es,noventa y dos,0,Avoid reading parenthetical (92)
-one (1),es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-3st"">uno</prosody></s></speak>",1,Avoid reading parenthetical (1)
-"one billion (1,000,000,000)",es_es,mil millones,0,"Avoid reading parenthetical (1,000,000,000)"
-one hundred (100),es_es,cien,0,Avoid reading parenthetical (100)
-one hundred eleven (111),es_es,ciento once,0,Avoid reading parenthetical (111)
-one hundred one (101),es_es,ciento uno,0,Avoid reading parenthetical (101)
-one hundred ten (110),es_es,ciento diez,0,Avoid reading parenthetical (110)
-"one hundred thousand (100,000)",es_es,cien mil,0,"Avoid reading parenthetical (100,000)"
-one hundred two (102),es_es,ciento dos,0,Avoid reading parenthetical (102)
-"one million (1,000,000)",es_es,un millón,0,"Avoid reading parenthetical (1,000,000)"
-one thousand (1000),es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">1000</prosody></s></speak>",1,Avoid reading parenthetical (1000)
-one thousand one (1001),es_es,mil uno,0,Avoid reading parenthetical (1001)
-second (2nd),es_es,"<speak>segundo<break time=""300ms""/>segunda</speak>",1,Read both masculine and feminine forms with a break
-seven (7),es_es,siete,0,Avoid reading parenthetical (7)
-seventeen (17),es_es,diecisiete,0,Avoid reading parenthetical (17)
-seventy (70),es_es,setenta,0,Avoid reading parenthetical (70)
-seventy-one (71),es_es,setenta y uno,0,Avoid reading parenthetical (71)
-seventy-two (72),es_es,setenta y dos,0,Avoid reading parenthetical (72)
-six (6),es_es,seis,0,Avoid reading parenthetical (6)
-sixteen (16),es_es,dieciséis,0,Avoid reading parenthetical (16)
-sixty (60),es_es,sesenta,0,Avoid reading parenthetical (60)
-sixty-one (61),es_es,sesenta y uno,0,Avoid reading parenthetical (61)
-sixty-two (62),es_es,sesenta y dos,0,Avoid reading parenthetical (62)
-ten (10),es_es,diez,0,Avoid reading parenthetical (10)
-"ten thousand (10,000)",es_es,diez mil,0,"Avoid reading parenthetical (10,000)"
+nine,es_es,nueve,0,Avoid reading parenthetical (9)
+nineteen,es_es,diecinueve,0,Avoid reading parenthetical (19)
+ninety,es_es,noventa,0,Avoid reading parenthetical (90)
+ninety-one,es_es,noventa y uno,0,Avoid reading parenthetical (91)
+ninety-two,es_es,noventa y dos,0,Avoid reading parenthetical (92)
+one,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-3st"">uno</prosody></s></speak>",1,Avoid reading parenthetical (1)
+one billion,es_es,mil millones,0,"Avoid reading parenthetical (1,000,000,000)"
+one hundred,es_es,cien,0,Avoid reading parenthetical (100)
+one hundred eleven,es_es,ciento once,0,Avoid reading parenthetical (111)
+one hundred one,es_es,ciento uno,0,Avoid reading parenthetical (101)
+one hundred ten,es_es,ciento diez,0,Avoid reading parenthetical (110)
+one hundred thousand,es_es,cien mil,0,"Avoid reading parenthetical (100,000)"
+one hundred two,es_es,ciento dos,0,Avoid reading parenthetical (102)
+one million,es_es,un millón,0,"Avoid reading parenthetical (1,000,000)"
+one thousand,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">1000</prosody></s></speak>",1,Avoid reading parenthetical (1000)
+one thousand one,es_es,mil uno,0,Avoid reading parenthetical (1001)
+second,es_es,"<speak>segundo<break time=""300ms""/>segunda</speak>",1,Read both masculine and feminine forms with a break
+seven,es_es,siete,0,Avoid reading parenthetical (7)
+seventeen,es_es,diecisiete,0,Avoid reading parenthetical (17)
+seventy,es_es,setenta,0,Avoid reading parenthetical (70)
+seventy-one,es_es,setenta y uno,0,Avoid reading parenthetical (71)
+seventy-two,es_es,setenta y dos,0,Avoid reading parenthetical (72)
+six,es_es,seis,0,Avoid reading parenthetical (6)
+sixteen,es_es,dieciséis,0,Avoid reading parenthetical (16)
+sixty,es_es,sesenta,0,Avoid reading parenthetical (60)
+sixty-one,es_es,sesenta y uno,0,Avoid reading parenthetical (61)
+sixty-two,es_es,sesenta y dos,0,Avoid reading parenthetical (62)
+ten,es_es,diez,0,Avoid reading parenthetical (10)
+ten thousand,es_es,diez mil,0,"Avoid reading parenthetical (10,000)"
 the air,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">el aire</prosody></s></speak>",1,
 the direction,en_us,"<speak xml:lang=""en-US""><s><prosody rate=""slow"">the direction</prosody></s></speak>",1,
 the east,pt_pt,"<speak xml:lang=""pt-PT"">o <phoneme alphabet=""ipa"" ph=""ˈɛʃtɨ"">este</phoneme></speak>",1,"Fixed wrong audio - explicit IPA for ""este"" (east)"
@@ -59,16 +59,16 @@ the ship,es_es,"<speak>el barco<break time=""200ms""/>el buque</speak>",1,
 the shoulder,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-3st"">el hombro</prosody></s></speak>",1,
 the student,es_es,"<speak>el estudiante<break time=""200ms""/>la estudiante</speak>",1,
 the team,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-3st"">el equipo</prosody></s></speak>",1,
-third (3rd),es_es,"<speak>tercero<break time=""200ms""/>tercera</speak>",1,Read both masculine and feminine forms with a break
-thirteen (13),es_es,trece,0,Avoid reading parenthetical (13)
-thirty (30),es_es,treinta,0,Avoid reading parenthetical (30)
-thirty-one (31),es_es,treinta y uno,0,Avoid reading parenthetical (31)
-thirty-two (32),es_es,treinta y dos,0,Avoid reading parenthetical (32)
-three (3),es_es,tres,0,Avoid reading parenthetical (3)
+third,es_es,"<speak>tercero<break time=""200ms""/>tercera</speak>",1,Read both masculine and feminine forms with a break
+thirteen,es_es,trece,0,Avoid reading parenthetical (13)
+thirty,es_es,treinta,0,Avoid reading parenthetical (30)
+thirty-one,es_es,treinta y uno,0,Avoid reading parenthetical (31)
+thirty-two,es_es,treinta y dos,0,Avoid reading parenthetical (32)
+three,es_es,tres,0,Avoid reading parenthetical (3)
 to dance,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">bailar</prosody></s></speak>",1,
 to melt,pt_pt,"<speak xml:lang=""pt-PT""><phoneme alphabet=""ipa"" ph=""dɨʁɨˈteɾ"">derreter</phoneme></speak>",1,Fixed wrong audio - explicit IPA pronunciation
-twelve (12),es_es,doce,0,Avoid reading parenthetical (12)
-twenty (20),es_es,veinte,0,Avoid reading parenthetical (20)
-twenty-one (21),es_es,veintiuno,0,Avoid reading parenthetical (21)
-twenty-two (22),es_es,veintidós,0,Avoid reading parenthetical (22)
-two (2),es_es,dos,0,Avoid reading parenthetical (2)
+twelve,es_es,doce,0,Avoid reading parenthetical (12)
+twenty,es_es,veinte,0,Avoid reading parenthetical (20)
+twenty-one,es_es,veintiuno,0,Avoid reading parenthetical (21)
+twenty-two,es_es,veintidós,0,Avoid reading parenthetical (22)
+two,es_es,dos,0,Avoid reading parenthetical (2)

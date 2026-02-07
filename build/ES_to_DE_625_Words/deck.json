@@ -3819,7 +3819,7 @@
                 "/ˈaɪ̯nə mɪliˈaʁdə/",
                 "[sound:al_de_de_one_billion_1_000_000_000.mp3]",
                 "",
-                "",
+                "Sin falso amigo: 'mil millones' (10⁹) = 'Milliarde'. Ambos idiomas usan la escala larga.",
                 "",
                 "",
                 "",
@@ -5392,29 +5392,6 @@
             ],
             "flags": 0,
             "guid": "_dbdSArNN",
-            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
-            "tags": [
-                "AnkiLangs::DE"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "el billete (de tren)",
-                "die Fahrkarte",
-                "/diː ˈfaːɐ̯kaʁtə/",
-                "[sound:al_de_de_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "flags": 0,
-            "guid": "BM]3sGEdJ",
             "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
             "tags": [
                 "AnkiLangs::DE"
@@ -11878,6 +11855,29 @@
             ],
             "flags": 0,
             "guid": "l4<~SSK%!A",
+            "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
+            "tags": [
+                "AnkiLangs::DE"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "el billete / la entrada",
+                "die Fahrkarte / die Eintrittskarte",
+                "/diː ˈfaːɐ̯kaʁtə/ /diː ˈaɪ̯ntʁɪt͡skaʁtə/",
+                "[sound:al_de_de_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B"
+            ],
+            "flags": 0,
+            "guid": "BM]3sGEdJ",
             "note_model_uuid": "884811c2-d395-469f-8410-dde8cd91a0f0",
             "tags": [
                 "AnkiLangs::DE"

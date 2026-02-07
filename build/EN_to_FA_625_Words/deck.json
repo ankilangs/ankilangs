@@ -5067,7 +5067,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "فضا",
                 "/fæzɒː/",
                 "[sound:al_fa_ir_space_outer_space.mp3]",
@@ -5380,29 +5380,6 @@
             ],
             "flags": 0,
             "guid": "D+r:xO{SGP",
-            "note_model_uuid": "fca5b221-a959-48ae-928d-b0aa2b5287b0",
-            "tags": [
-                "AnkiLangs::FA"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "بلیط قطار",
-                "/bilit ɢætɒːɾ/",
-                "[sound:al_fa_ir_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
-            ],
-            "flags": 0,
-            "guid": "xGX?:|76D_",
             "note_model_uuid": "fca5b221-a959-48ae-928d-b0aa2b5287b0",
             "tags": [
                 "AnkiLangs::FA"
@@ -7091,7 +7068,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "کشور",
                 "/keʃvæɾ/",
                 "[sound:al_fa_ir_the_country_usa_france_etc.mp3]",
@@ -11866,6 +11843,29 @@
             ],
             "flags": 0,
             "guid": "d-!fPk$%~/",
+            "note_model_uuid": "fca5b221-a959-48ae-928d-b0aa2b5287b0",
+            "tags": [
+                "AnkiLangs::FA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "بلیط",
+                "/bilit/",
+                "[sound:al_fa_ir_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+            ],
+            "flags": 0,
+            "guid": "xGX?:|76D_",
             "note_model_uuid": "fca5b221-a959-48ae-928d-b0aa2b5287b0",
             "tags": [
                 "AnkiLangs::FA"

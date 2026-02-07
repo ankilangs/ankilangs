@@ -3799,7 +3799,7 @@
                 "/ˈmil miˈʝo.nes/",
                 "[sound:al_es_es_one_billion_1_000_000_000.mp3]",
                 "",
-                "",
+                "Kein falscher Freund: 'Milliarde' (10⁹) = 'mil millones'. Beide Sprachen verwenden die lange Leiter.",
                 "",
                 "",
                 "",
@@ -5372,29 +5372,6 @@
             ],
             "flags": 0,
             "guid": "FwwE<8`r>:",
-            "note_model_uuid": "a9bd348c-ad3f-4309-86ee-3dd4e092848a",
-            "tags": [
-                "AnkiLangs::ES"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "die Fahrkarte",
-                "el billete (de tren)",
-                "/el biˈʝete (de ˈtɾen)/",
-                "[sound:al_es_es_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C"
-            ],
-            "flags": 0,
-            "guid": "v5N0!n]i[r",
             "note_model_uuid": "a9bd348c-ad3f-4309-86ee-3dd4e092848a",
             "tags": [
                 "AnkiLangs::ES"
@@ -11858,6 +11835,29 @@
             ],
             "flags": 0,
             "guid": "cb~z(&b9#Q",
+            "note_model_uuid": "a9bd348c-ad3f-4309-86ee-3dd4e092848a",
+            "tags": [
+                "AnkiLangs::ES"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "die Fahrkarte / die Eintrittskarte",
+                "el billete / la entrada",
+                "/el biˈʝete/ /la enˈtɾaða/",
+                "[sound:al_es_es_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "v5N0!n]i[r",
             "note_model_uuid": "a9bd348c-ad3f-4309-86ee-3dd4e092848a",
             "tags": [
                 "AnkiLangs::ES"

@@ -3807,7 +3807,7 @@
                 "/un miˈljardo/",
                 "[sound:al_it_it_one_billion_1_000_000_000.mp3]",
                 "",
-                "",
+                "False friend: English 'billion' = 10⁹ (miliardo). Italian 'bilione' = 10¹² (English 'trillion').",
                 "",
                 "",
                 "",
@@ -5067,7 +5067,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "lo spazio",
                 "/lo ˈspatt͡sjo/",
                 "[sound:al_it_it_space_outer_space.mp3]",
@@ -5380,29 +5380,6 @@
             ],
             "flags": 0,
             "guid": "GcnXi9*uOj",
-            "note_model_uuid": "842e369d-d51e-471c-bdc8-20b1ad9ee125",
-            "tags": [
-                "AnkiLangs::IT"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "il biglietto (del treno)",
-                "/il biʎˈʎetto (del ˈtreno)/",
-                "[sound:al_it_it_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS"
-            ],
-            "flags": 0,
-            "guid": "tj2nkDau-B",
             "note_model_uuid": "842e369d-d51e-471c-bdc8-20b1ad9ee125",
             "tags": [
                 "AnkiLangs::IT"
@@ -7091,7 +7068,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "il paese; la nazione",
                 "/il paˈɛze/ /la natˈt͡sjo.ne/",
                 "[sound:al_it_it_the_country_usa_france_etc.mp3]",
@@ -11866,6 +11843,29 @@
             ],
             "flags": 0,
             "guid": "G>xz@!nalu",
+            "note_model_uuid": "842e369d-d51e-471c-bdc8-20b1ad9ee125",
+            "tags": [
+                "AnkiLangs::IT"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "il biglietto",
+                "/il biʎˈʎetto/",
+                "[sound:al_it_it_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O"
+            ],
+            "flags": 0,
+            "guid": "tj2nkDau-B",
             "note_model_uuid": "842e369d-d51e-471c-bdc8-20b1ad9ee125",
             "tags": [
                 "AnkiLangs::IT"

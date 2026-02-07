@@ -36,12 +36,12 @@ down,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 dry,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 dust,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a><br><br>Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O"
-eight (8),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-eighteen (18),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-eighty (80),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-eighty-one (81),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-eighty-two (82),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-eleven (11),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+eight,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+eighteen,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+eighty,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+eighty-one,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+eighty-two,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+eleven,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 energy,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 exercise,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 expensive,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -49,21 +49,21 @@ famous,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 fast,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 February,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 female,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-fifteen (15),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-fifth (5th),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-fifty (50),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-fifty-one (51),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-fifty-two (52),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-first (1st),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-five (5),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+fifteen,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+fifth,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+fifty,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+fifty-one,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+fifty-two,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+first,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+five,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 flat,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 food,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-forty (40),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-forty-one (41),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-forty-two (42),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-four (4),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+forty,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+forty-one,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+forty-two,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+four,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+fourteen,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+fourth,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 Friday,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 glass [material],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 God,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -112,11 +112,11 @@ narrow,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 nature,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 new,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 nice,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-nine (9),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-nineteen (19),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-ninety (90),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-ninety-one (91),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-ninety-two (92),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+nine,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+nineteen,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+ninety,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+ninety-one,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+ninety-two,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 no,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 November,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 nuclear,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -124,17 +124,17 @@ October,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 oil,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 "old [opposite of ""new""]",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 "old [opposite of ""young""]",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-one (1),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-"one billion (1,000,000,000)",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-one hundred (100),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-one hundred eleven (111),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-one hundred one (101),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-one hundred ten (110),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-"one hundred thousand (100,000)",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-one hundred two (102),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-one thousand (1000),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-one thousand one (1001),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+one,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+one billion,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+one hundred,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+one hundred eleven,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+one hundred one,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+one hundred ten,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+one hundred thousand,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+one hundred two,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+one million,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+one thousand,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+one thousand one,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 orange,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 pain,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 peace,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -156,13 +156,13 @@ sad,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 salt,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 Saturday,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 science,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-second (2nd),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+second,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 September,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-seven (7),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-seventy (70),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+seven,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+seventeen,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+seventy,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+seventy-one,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+seventy-two,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 sex [gender],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 sex [the act],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 shallow,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -171,16 +171,16 @@ she,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 "short [opposite of ""tall""]",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 sick,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 silver,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-six (6),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-sixteen (16),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-sixty (60),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-sixty-one (61),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-sixty-two (62),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+six,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+sixteen,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+sixty,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+sixty-one,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+sixty-two,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 slow,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 small / little,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 soft,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 soil/earth [ground],Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-space (outer space),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+space,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 sport,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 stone,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 straight,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -192,9 +192,8 @@ tall,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 tea,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 technology,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 temperature,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-ten (10),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-"ten thousand (10,000)",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-the (train) ticket,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+ten,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+ten thousand,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the actor,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the adjective,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the adult,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -268,7 +267,7 @@ the consonant,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the contract,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the corn,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the corner,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-"the country (USA, France, etc.)",Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+the country,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the court,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the cow,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the crowd,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
@@ -476,6 +475,7 @@ the tear,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the telephone,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the television,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the theater,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+the ticket,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the time,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 the tire,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 the toe,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
@@ -511,12 +511,12 @@ the year,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 they,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 thick,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 thin,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-third (3rd),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-thirteen (13),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-thirty (30),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-thirty-one (31),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-thirty-two (32),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-three (3),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+third,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+thirteen,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+thirty,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+thirty-one,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+thirty-two,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+three,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 Thursday,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 tight,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 to beat,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -576,7 +576,7 @@ to run,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 to see,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 to sell,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 to shake,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-to shoot (a gun),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+to shoot,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 to sign,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 to sing,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 to sit,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
@@ -603,11 +603,11 @@ to work,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 to write,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 transportation,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
 Tuesday,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-twelve (12),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-twenty (20),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
-twenty-one (21),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-twenty-two (22),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
-two (2),Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+twelve,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+twenty,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-Q
+twenty-one,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+twenty-two,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
+two,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 ugly,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 up,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O
 war,Audio:<br>Google Cloud TTS<br>Voice: en-US-Studio-O

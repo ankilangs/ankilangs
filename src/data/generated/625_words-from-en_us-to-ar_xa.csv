@@ -36,12 +36,12 @@ down,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 dry,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 dust,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a><br><br>Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D"
-eight (8),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-eighteen (18),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-eighty (80),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-eighty-one (81),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-eighty-two (82),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-eleven (11),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+eight,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+eighteen,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+eighty,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+eighty-one,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+eighty-two,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+eleven,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 energy,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 exercise,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 expensive,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
@@ -49,21 +49,21 @@ famous,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 fast,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 February,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 female,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-fifteen (15),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-fifth (5th),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-fifty (50),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-fifty-one (51),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-fifty-two (52),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-first (1st),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-five (5),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+fifteen,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+fifth,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+fifty,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+fifty-one,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+fifty-two,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+first,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+five,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 flat,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 food,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-forty (40),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-forty-one (41),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-forty-two (42),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-four (4),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+forty,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+forty-one,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+forty-two,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+four,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+fourteen,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+fourth,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 Friday,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 glass [material],Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 God,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
@@ -112,11 +112,11 @@ narrow,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 nature,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 new,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 nice,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-nine (9),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-nineteen (19),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-ninety (90),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-ninety-one (91),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-ninety-two (92),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+nine,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+nineteen,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+ninety,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+ninety-one,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+ninety-two,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 no,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 November,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 nuclear,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
@@ -124,17 +124,17 @@ October,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 oil,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 "old [opposite of ""new""]",Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 "old [opposite of ""young""]",Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-one (1),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-"one billion (1,000,000,000)",Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-one hundred (100),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-one hundred eleven (111),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-one hundred one (101),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-one hundred ten (110),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-"one hundred thousand (100,000)",Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-one hundred two (102),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-one thousand (1000),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-one thousand one (1001),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+one,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+one billion,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+one hundred,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+one hundred eleven,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+one hundred one,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+one hundred ten,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+one hundred thousand,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+one hundred two,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+one million,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+one thousand,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+one thousand one,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 orange,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 pain,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 peace,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
@@ -156,13 +156,13 @@ sad,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 salt,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 Saturday,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 science,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-second (2nd),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+second,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 September,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-seven (7),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-seventy (70),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+seven,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+seventeen,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+seventy,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+seventy-one,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+seventy-two,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 sex [gender],Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 sex [the act],Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 shallow,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
@@ -171,16 +171,16 @@ she,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 "short [opposite of ""tall""]",Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 sick,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 silver,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-six (6),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-sixteen (16),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-sixty (60),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-sixty-one (61),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-sixty-two (62),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+six,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+sixteen,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+sixty,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+sixty-one,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+sixty-two,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 slow,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 small / little,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 soft,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 soil/earth [ground],Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-space (outer space),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+space,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 sport,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 stone,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 straight,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
@@ -192,9 +192,8 @@ tall,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 tea,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 technology,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 temperature,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-ten (10),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-"ten thousand (10,000)",Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-the (train) ticket,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+ten,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+ten thousand,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 the actor,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 the adjective,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 the adult,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
@@ -268,7 +267,7 @@ the consonant,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 the contract,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 the corn,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 the corner,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-"the country (USA, France, etc.)",Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+the country,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 the court,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 the cow,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 the crowd,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
@@ -476,6 +475,7 @@ the tear,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 the telephone,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 the television,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 the theater,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+the ticket,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 the time,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 the tire,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 the toe,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
@@ -511,12 +511,12 @@ the year,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 they,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 thick,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 thin,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-third (3rd),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-thirteen (13),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-thirty (30),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-thirty-one (31),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-thirty-two (32),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-three (3),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+third,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+thirteen,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+thirty,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+thirty-one,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+thirty-two,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+three,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 Thursday,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 tight,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 to beat,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
@@ -576,7 +576,7 @@ to run,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 to see,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 to sell,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 to shake,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-to shoot (a gun),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+to shoot,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 to sign,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 to sing,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 to sit,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
@@ -603,11 +603,11 @@ to work,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 to write,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 transportation,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
 Tuesday,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-twelve (12),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
-twenty (20),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-twenty-one (21),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-twenty-two (22),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
-two (2),Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+twelve,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-C
+twenty,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+twenty-one,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+twenty-two,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
+two,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 ugly,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 up,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D
 war,Audio:<br>Google Cloud TTS<br>Voice: ar-XA-Standard-D

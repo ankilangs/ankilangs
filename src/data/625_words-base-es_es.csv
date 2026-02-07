@@ -36,12 +36,12 @@ down,abajo,/aˈβa.xo/,[sound:al_es_es_down.mp3],Google Cloud TTS<br>Voice: es-E
 dry,seco,/ˈse.ko/,[sound:al_es_es_dry.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 dust,el polvo,/el ˈpol.βo/,[sound:al_es_es_dust.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 Earth,la Tierra,/la ˈtjera/,[sound:al_es_es_earth.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
-eight (8),ocho,/ˈo.tʃo/,[sound:al_es_es_eight_8.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-eighteen (18),dieciocho,/dje.θiˈo.tʃo/,[sound:al_es_es_eighteen_18.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-eighty (80),ochenta,/oˈtʃen.ta/,[sound:al_es_es_eighty_80.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-eighty-one (81),ochenta y uno,/oˈtʃen.ta i ˈu.no/,[sound:al_es_es_eighty_one_81.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-eighty-two (82),ochenta y dos,/oˈtʃen.ta i ˈðos/,[sound:al_es_es_eighty_two_82.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-eleven (11),once,/ˈon.θe/,[sound:al_es_es_eleven_11.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+eight,ocho,/ˈo.tʃo/,[sound:al_es_es_eight_8.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+eighteen,dieciocho,/dje.θiˈo.tʃo/,[sound:al_es_es_eighteen_18.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+eighty,ochenta,/oˈtʃen.ta/,[sound:al_es_es_eighty_80.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+eighty-one,ochenta y uno,/oˈtʃen.ta i ˈu.no/,[sound:al_es_es_eighty_one_81.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+eighty-two,ochenta y dos,/oˈtʃen.ta i ˈðos/,[sound:al_es_es_eighty_two_82.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+eleven,once,/ˈon.θe/,[sound:al_es_es_eleven_11.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
 energy,la energía,/la e.neɾˈxi.a/,[sound:al_es_es_energy.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 exercise,el ejercicio,/el eˈxeɾ.θi.θjo/,[sound:al_es_es_exercise.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 expensive,caro,/ˈka.ɾo/,[sound:al_es_es_expensive.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
@@ -49,21 +49,21 @@ famous,famoso,/faˈmo.so/,[sound:al_es_es_famous.mp3],Google Cloud TTS<br>Voice:
 fast,rápido,/ˈra.pi.ðo/,[sound:al_es_es_fast.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 February,febrero,/feˈβɾe.ɾo/,[sound:al_es_es_february.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 female,femenino,/fe.meˈni.no/,[sound:al_es_es_female.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
-fifteen (15),quince,/ˈkin.θe/,[sound:al_es_es_fifteen_15.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-fifth (5th),quinto / quinta,/ˈkin.to/ /ˈkin.ta/,[sound:al_es_es_fifth_5th.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-fifty (50),cincuenta,/θiŋˈkwen.ta/,[sound:al_es_es_fifty_50.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
-fifty-one (51),cincuenta y uno,/θiŋˈkwen.ta i ˈu.no/,[sound:al_es_es_fifty_one_51.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-fifty-two (52),cincuenta y dos,/θiŋˈkwen.ta i ˈðos/,[sound:al_es_es_fifty_two_52.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-first (1st),primero,/pɾiˈme.ɾo/ /pɾiˈme.ɾa/,[sound:al_es_es_first_1st.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-five (5),cinco,/ˈθiŋ.ko/,[sound:al_es_es_five_5.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+fifteen,quince,/ˈkin.θe/,[sound:al_es_es_fifteen_15.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+fifth,quinto / quinta,/ˈkin.to/ /ˈkin.ta/,[sound:al_es_es_fifth_5th.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+fifty,cincuenta,/θiŋˈkwen.ta/,[sound:al_es_es_fifty_50.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
+fifty-one,cincuenta y uno,/θiŋˈkwen.ta i ˈu.no/,[sound:al_es_es_fifty_one_51.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+fifty-two,cincuenta y dos,/θiŋˈkwen.ta i ˈðos/,[sound:al_es_es_fifty_two_52.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+first,primero,/pɾiˈme.ɾo/ /pɾiˈme.ɾa/,[sound:al_es_es_first_1st.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+five,cinco,/ˈθiŋ.ko/,[sound:al_es_es_five_5.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
 flat,plano,/ˈpla.no/,[sound:al_es_es_flat.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 food,la comida,/la koˈmi.ða/,[sound:al_es_es_food.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
-forty (40),cuarenta,/kwaˈɾen.ta/,[sound:al_es_es_forty_40.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-forty-one (41),cuarenta y uno,/kwaˈɾen.ta i ˈu.no/,[sound:al_es_es_forty_one_41.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-forty-two (42),cuarenta y dos,/kwaˈɾen.ta i ˈðos/,[sound:al_es_es_forty_two_42.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-four (4),cuatro,/ˈkwa.tɾo/,[sound:al_es_es_four_4.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-fourteen (14),catorce,/kaˈtoɾ.θe/,[sound:al_es_es_fourteen_14.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-fourth (4th),cuarto / cuarta,/ˈkwaɾ.to/ /ˈkwaɾ.ta/,[sound:al_es_es_fourth_4th.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+forty,cuarenta,/kwaˈɾen.ta/,[sound:al_es_es_forty_40.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+forty-one,cuarenta y uno,/kwaˈɾen.ta i ˈu.no/,[sound:al_es_es_forty_one_41.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+forty-two,cuarenta y dos,/kwaˈɾen.ta i ˈðos/,[sound:al_es_es_forty_two_42.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+four,cuatro,/ˈkwa.tɾo/,[sound:al_es_es_four_4.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+fourteen,catorce,/kaˈtoɾ.θe/,[sound:al_es_es_fourteen_14.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+fourth,cuarto / cuarta,/ˈkwaɾ.to/ /ˈkwaɾ.ta/,[sound:al_es_es_fourth_4th.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
 Friday,viernes,/ˈbjeɾ.nes/,[sound:al_es_es_friday.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 glass [material],el vidrio,/el ˈbi.ðɾjo/,[sound:al_es_es_glass.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 God,Dios,/ˈdjos/,[sound:al_es_es_god.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
@@ -112,11 +112,11 @@ narrow,estrecho,/esˈtɾe.tʃo/,[sound:al_es_es_narrow.mp3],Google Cloud TTS<br>
 nature,la naturaleza,/la na.tuɾaˈle.θa/,[sound:al_es_es_nature.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 new,nuevo,/ˈnwe.βo/,[sound:al_es_es_new.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 nice,amable,/aˈma.βle/,[sound:al_es_es_nice.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
-nine (9),nueve,/ˈnwe.βe/,[sound:al_es_es_nine_9.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-nineteen (19),diecinueve,/dje.θiˈnwe.βe/,[sound:al_es_es_nineteen_19.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-ninety (90),noventa,/noˈβen.ta/,[sound:al_es_es_ninety_90.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-ninety-one (91),noventa y uno,/noˈβen.ta i ˈu.no/,[sound:al_es_es_ninety_one_91.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-ninety-two (92),noventa y dos,/noˈβen.ta i ˈðos/,[sound:al_es_es_ninety_two_92.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+nine,nueve,/ˈnwe.βe/,[sound:al_es_es_nine_9.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+nineteen,diecinueve,/dje.θiˈnwe.βe/,[sound:al_es_es_nineteen_19.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+ninety,noventa,/noˈβen.ta/,[sound:al_es_es_ninety_90.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+ninety-one,noventa y uno,/noˈβen.ta i ˈu.no/,[sound:al_es_es_ninety_one_91.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+ninety-two,noventa y dos,/noˈβen.ta i ˈðos/,[sound:al_es_es_ninety_two_92.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
 no,no,/no/,[sound:al_es_es_no.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 November,noviembre,/noˈβjem.bɾe/,[sound:al_es_es_november.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 nuclear,nuclear,/nu.kleˈaɾ/,[sound:al_es_es_nuclear.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
@@ -124,17 +124,17 @@ October,octubre,/okˈtu.βɾe/,[sound:al_es_es_october.mp3],Google Cloud TTS<br>
 oil,el aceite,/el aˈθei.te/,[sound:al_es_es_oil.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 "old [opposite of ""new""]",viejo,/ˈbje.xo/,[sound:al_es_es_old_opposite_of_new.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 "old [opposite of ""young""]",mayor,/maˈʝoɾ/,[sound:al_es_es_old_opposite_of_young.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
-one (1),uno,/ˈu.no/,[sound:al_es_es_one_1.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-"one billion (1,000,000,000)",mil millones,/ˈmil miˈʝo.nes/,[sound:al_es_es_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-one hundred (100),cien,/ˈθjen/,[sound:al_es_es_one_hundred_100.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-one hundred eleven (111),ciento once,/ˈθjen.to ˈon.θe/,[sound:al_es_es_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-one hundred one (101),ciento uno,/ˈθjen.to ˈu.no/,[sound:al_es_es_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-one hundred ten (110),ciento diez,/ˈθjen.to ˈdjeθ/,[sound:al_es_es_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-"one hundred thousand (100,000)",cien mil,/ˈθjen ˈmil/,[sound:al_es_es_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-one hundred two (102),ciento dos,/ˈθjen.to ˈðos/,[sound:al_es_es_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-"one million (1,000,000)",un millón,/un miˈʝon/,[sound:al_es_es_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-one thousand (1000),mil,/ˈmil/,[sound:al_es_es_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-one thousand one (1001),mil uno,/ˈmil ˈu.no/,[sound:al_es_es_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+one,uno,/ˈu.no/,[sound:al_es_es_one_1.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+one billion,mil millones,/ˈmil miˈʝo.nes/,[sound:al_es_es_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+one hundred,cien,/ˈθjen/,[sound:al_es_es_one_hundred_100.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+one hundred eleven,ciento once,/ˈθjen.to ˈon.θe/,[sound:al_es_es_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+one hundred one,ciento uno,/ˈθjen.to ˈu.no/,[sound:al_es_es_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+one hundred ten,ciento diez,/ˈθjen.to ˈdjeθ/,[sound:al_es_es_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+one hundred thousand,cien mil,/ˈθjen ˈmil/,[sound:al_es_es_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+one hundred two,ciento dos,/ˈθjen.to ˈðos/,[sound:al_es_es_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+one million,un millón,/un miˈʝon/,[sound:al_es_es_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+one thousand,mil,/ˈmil/,[sound:al_es_es_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+one thousand one,mil uno,/ˈmil ˈu.no/,[sound:al_es_es_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
 orange,naranja,/naˈɾaŋxa/,[sound:al_es_es_orange.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 pain,el dolor,/el doˈloɾ/,[sound:al_es_es_pain.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 peace,la paz,/la ˈpaθ/,[sound:al_es_es_peace.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
@@ -156,13 +156,13 @@ sad,triste,/ˈtɾis.te/,[sound:al_es_es_sad.mp3],Google Cloud TTS<br>Voice: es-E
 salt,la sal,/la ˈsal/,[sound:al_es_es_salt.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 Saturday,sábado,/ˈsa.βa.ðo/,[sound:al_es_es_saturday.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 science,la ciencia,/la ˈθjen.θja/,[sound:al_es_es_science.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
-second (2nd),segundo / segunda,/seˈɣun.do/ /seˈɣun.da/,[sound:al_es_es_second_2nd.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+second,segundo / segunda,/seˈɣun.do/ /seˈɣun.da/,[sound:al_es_es_second_2nd.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
 September,septiembre,/sepˈtjem.bɾe/,[sound:al_es_es_september.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
-seven (7),siete,/ˈsjɛ.te/,[sound:al_es_es_seven_7.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-seventeen (17),diecisiete,/dje.θiˈsjɛ.te/,[sound:al_es_es_seventeen_17.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-seventy (70),setenta,/seˈten.ta/,[sound:al_es_es_seventy_70.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-seventy-one (71),setenta y uno,/seˈten.ta i ˈu.no/,[sound:al_es_es_seventy_one_71.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-seventy-two (72),setenta y dos,/seˈten.ta i ˈðos/,[sound:al_es_es_seventy_two_72.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+seven,siete,/ˈsjɛ.te/,[sound:al_es_es_seven_7.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+seventeen,diecisiete,/dje.θiˈsjɛ.te/,[sound:al_es_es_seventeen_17.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+seventy,setenta,/seˈten.ta/,[sound:al_es_es_seventy_70.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+seventy-one,setenta y uno,/seˈten.ta i ˈu.no/,[sound:al_es_es_seventy_one_71.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+seventy-two,setenta y dos,/seˈten.ta i ˈðos/,[sound:al_es_es_seventy_two_72.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
 sex [gender],el género,/el ˈxe.ne.ɾo/,[sound:al_es_es_sex_gender.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 sex [the act],el sexo,/el ˈsek.so/,[sound:al_es_es_sex_the_act.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 shallow,poco profundo,/ˈpo.ko pɾoˈfun.do/,[sound:al_es_es_shallow.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
@@ -171,16 +171,16 @@ she,ella,/ˈe.ʝa/,[sound:al_es_es_she.mp3],Google Cloud TTS<br>Voice: es-ES-Stu
 "short [opposite of ""tall""]",bajo,/ˈba.xo/,[sound:al_es_es_low.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 sick,enfermo,/enˈfeɾ.mo/,[sound:al_es_es_sick.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 silver,la plata,/la ˈpla.ta/,[sound:al_es_es_silver.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
-six (6),seis,/ˈsejs/,[sound:al_es_es_six_6.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-sixteen (16),dieciséis,/dje.θiˈsejs/,[sound:al_es_es_sixteen_16.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-sixty (60),sesenta,/seˈsen.ta/,[sound:al_es_es_sixty_60.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-sixty-one (61),sesenta y uno,/seˈsen.ta i ˈu.no/,[sound:al_es_es_sixty_one_61.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-sixty-two (62),sesenta y dos,/seˈsen.ta i ˈðos/,[sound:al_es_es_sixty_two_62.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+six,seis,/ˈsejs/,[sound:al_es_es_six_6.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+sixteen,dieciséis,/dje.θiˈsejs/,[sound:al_es_es_sixteen_16.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+sixty,sesenta,/seˈsen.ta/,[sound:al_es_es_sixty_60.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+sixty-one,sesenta y uno,/seˈsen.ta i ˈu.no/,[sound:al_es_es_sixty_one_61.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+sixty-two,sesenta y dos,/seˈsen.ta i ˈðos/,[sound:al_es_es_sixty_two_62.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
 slow,lento,/ˈlen.to/,[sound:al_es_es_slow.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 small / little,pequeño,/peˈke.ɲo/,[sound:al_es_es_small_little.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 soft,suave,/ˈswa.βe/,[sound:al_es_es_soft.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 soil/earth [ground],la tierra,/la ˈtje.ra/,[sound:al_es_es_earth.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
-space (outer space),el espacio,/el esˈpaθjo/,[sound:al_es_es_space_outer_space.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
+space,el espacio,/el esˈpaθjo/,[sound:al_es_es_space_outer_space.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 sport,el deporte,/el deˈpoɾ.te/,[sound:al_es_es_sport.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 stone,la piedra,/la ˈpje.ðɾa/,[sound:al_es_es_stone.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 straight,recto,/ˈrek.to/,[sound:al_es_es_straight.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
@@ -192,9 +192,8 @@ tall,alto,/ˈal.to/,[sound:al_es_es_high.mp3],Google Cloud TTS<br>Voice: es-ES-S
 tea,el té,/el te/,[sound:al_es_es_tea.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 technology,la tecnología,/la tek.no.loˈxi.a/,[sound:al_es_es_technology.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 temperature,la temperatura,/la tem.peɾaˈtu.ɾa/,[sound:al_es_es_temperature.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
-ten (10),diez,/ˈdjeθ/,[sound:al_es_es_ten_10.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-"ten thousand (10,000)",diez mil,/ˈdjeθ ˈmil/,[sound:al_es_es_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-the (train) ticket,el billete (de tren),/el biˈʝete (de ˈtɾen)/,[sound:al_es_es_the_train_ticket.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
+ten,diez,/ˈdjeθ/,[sound:al_es_es_ten_10.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+ten thousand,diez mil,/ˈdjeθ ˈmil/,[sound:al_es_es_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
 the actor,el actor / la actriz,/el akˈtoɾ/ /la aˈtɾiθ/,[sound:al_es_es_the_actor.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 the adjective,el adjetivo,/el að.xeˈti.βo/,[sound:al_es_es_the_adjective.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 the adult,el adulto,/el aˈðulto/,[sound:al_es_es_the_adult.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
@@ -268,7 +267,7 @@ the consonant,la consonante,/la kon.soˈnan.te/,[sound:al_es_es_the_consonant.mp
 the contract,el contrato,/el konˈtɾa.to/,[sound:al_es_es_the_contract.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 the corn,el maíz,/el maˈiθ/,[sound:al_es_es_the_corn.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 the corner,la esquina,/la esˈki.na/,[sound:al_es_es_the_corner.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
-"the country (USA, France, etc.)",el país,/el paˈis/,[sound:al_es_es_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
+the country,el país,/el paˈis/,[sound:al_es_es_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 the court,el tribunal,/el tɾiβuˈnal/,[sound:al_es_es_the_court.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 the cow,la vaca,/la ˈbaka/,[sound:al_es_es_the_cow.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 the crowd,la multitud,/la mul.tiˈtud/,[sound:al_es_es_the_crowd.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
@@ -476,6 +475,7 @@ the tear,la lágrima,/la ˈla.ɣɾi.ma/,[sound:al_es_es_the_tear.mp3],Google Clo
 the telephone,el teléfono,/el teˈle.fo.no/,[sound:al_es_es_the_telephone.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 the television,la televisión,/la te.le.βiˈsjon/,[sound:al_es_es_the_television.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 the theater,el teatro,/el teˈatɾo/,[sound:al_es_es_the_theater.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
+the ticket,el billete / la entrada,/el biˈʝete/ /la enˈtɾaða/,[sound:al_es_es_the_train_ticket.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 the time,el tiempo,/el ˈtjem.po/,[sound:al_es_es_the_time.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 the tire,el neumático,/el newˈmatiko/,[sound:al_es_es_the_tire.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 the toe,el dedo del pie,/el ˈde.ðo ðel ˈpje/,[sound:al_es_es_the_toe.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
@@ -511,12 +511,12 @@ the year,el año,/el ˈa.ɲo/,[sound:al_es_es_the_year.mp3],Google Cloud TTS<br>
 they,ellos / ellas,/ˈe.ʝos/ /ˈe.ʝas/,[sound:al_es_es_they.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 thick,grueso,/ˈɡɾwe.so/,[sound:al_es_es_thick.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
 thin,delgado,/delˈɣa.ðo/,[sound:al_es_es_thin.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
-third (3rd),tercero,/teɾˈθe.ɾo/ /teɾˈθe.ɾa/,[sound:al_es_es_third_3rd.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
-thirteen (13),trece,/ˈtɾe.θe/,[sound:al_es_es_thirteen_13.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-thirty (30),treinta,/ˈtɾejn.ta/,[sound:al_es_es_thirty_30.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-thirty-one (31),treinta y uno,/ˈtɾejn.ta i ˈu.no/,[sound:al_es_es_thirty_one_31.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-thirty-two (32),treinta y dos,/ˈtɾejn.ta i ˈðos/,[sound:al_es_es_thirty_two_32.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-three (3),tres,/ˈtɾes/,[sound:al_es_es_three_3.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+third,tercero,/teɾˈθe.ɾo/ /teɾˈθe.ɾa/,[sound:al_es_es_third_3rd.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
+thirteen,trece,/ˈtɾe.θe/,[sound:al_es_es_thirteen_13.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+thirty,treinta,/ˈtɾejn.ta/,[sound:al_es_es_thirty_30.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+thirty-one,treinta y uno,/ˈtɾejn.ta i ˈu.no/,[sound:al_es_es_thirty_one_31.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+thirty-two,treinta y dos,/ˈtɾejn.ta i ˈðos/,[sound:al_es_es_thirty_two_32.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+three,tres,/ˈtɾes/,[sound:al_es_es_three_3.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
 Thursday,jueves,/ˈxwe.βes/,[sound:al_es_es_thursday.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 tight,apretado,/a.pɾeˈta.ðo/,[sound:al_es_es_tight.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 to beat,golpear,/ɡolˈpe.aɾ/,[sound:al_es_es_to_beat.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
@@ -576,7 +576,7 @@ to run,correr,/koˈreɾ/,[sound:al_es_es_to_run.mp3],Google Cloud TTS<br>Voice: 
 to see,ver,/ˈbeɾ/,[sound:al_es_es_to_see.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 to sell,vender,/benˈdeɾ/,[sound:al_es_es_to_sell.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 to shake,agitar,/a.xiˈtaɾ/,[sound:al_es_es_to_shake.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
-to shoot (a gun),disparar,/dispaˈɾaɾ/,[sound:al_es_es_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
+to shoot,disparar,/dispaˈɾaɾ/,[sound:al_es_es_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 to sign,firmar,/fiɾˈmaɾ/,[sound:al_es_es_to_sign.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 to sing,cantar,/kanˈtaɾ/,[sound:al_es_es_to_sing.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 to sit,sentarse,/senˈtaɾ.se/,[sound:al_es_es_to_sit.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
@@ -603,11 +603,11 @@ to work,trabajar,/tɾa.βaˈxaɾ/,[sound:al_es_es_to_work.mp3],Google Cloud TTS<
 to write,escribir,/es.kɾiˈβiɾ/,[sound:al_es_es_to_write.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 transportation,el transporte,/el tɾansˈpoɾte/,[sound:al_es_es_transportation.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
 Tuesday,martes,/ˈmaɾ.tes/,[sound:al_es_es_tuesday.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-C,AnkiLangs::ES
-twelve (12),doce,/ˈdo.θe/,[sound:al_es_es_twelve_12.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-twenty (20),veinte,/ˈbjen.te/,[sound:al_es_es_twenty_20.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
-twenty-one (21),veintiuno,/ˈbjen.tju.no/,[sound:al_es_es_twenty_one_21.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-twenty-two (22),veintidós,/ˈbjen.tiˈðos/,[sound:al_es_es_twenty_two_22.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
-two (2),dos,/ˈdos/,[sound:al_es_es_two_2.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+twelve,doce,/ˈdo.θe/,[sound:al_es_es_twelve_12.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+twenty,veinte,/ˈbjen.te/,[sound:al_es_es_twenty_20.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
+twenty-one,veintiuno,/ˈbjen.tju.no/,[sound:al_es_es_twenty_one_21.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+twenty-two,veintidós,/ˈbjen.tiˈðos/,[sound:al_es_es_twenty_two_22.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Despina,AnkiLangs::ES
+two,dos,/ˈdos/,[sound:al_es_es_two_2.mp3],Google Cloud TTS<br>Voice: es-ES-Chirp3-HD-Gacrux,AnkiLangs::ES
 ugly,feo,/ˈfe.o/,[sound:al_es_es_ugly.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 up,arriba,/aˈri.βa/,[sound:al_es_es_up.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES
 war,la guerra,/la ˈɣe.ra/,[sound:al_es_es_war.mp3],Google Cloud TTS<br>Voice: es-ES-Studio-F,AnkiLangs::ES

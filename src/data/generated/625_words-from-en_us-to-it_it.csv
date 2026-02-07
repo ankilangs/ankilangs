@@ -36,12 +36,12 @@ down,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 dry,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 dust,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a><br><br>Audio:<br>Google Cloud TTS"
-eight (8),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-eighteen (18),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-eighty (80),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
-eighty-one (81),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-eighty-two (82),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-eleven (11),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+eight,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+eighteen,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+eighty,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
+eighty-one,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+eighty-two,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+eleven,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 energy,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 exercise,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 expensive,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
@@ -49,21 +49,21 @@ famous,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 fast,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 February,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 female,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-fifteen (15),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
-fifth (5th),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-fifty (50),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-fifty-one (51),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-fifty-two (52),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-first (1st),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-five (5),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+fifteen,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
+fifth,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+fifty,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+fifty-one,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+fifty-two,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+first,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+five,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 flat,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 food,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-forty (40),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-forty-one (41),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-forty-two (42),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-four (4),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+forty,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+forty-one,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+forty-two,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+four,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+fourteen,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+fourth,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 Friday,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 glass [material],Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 God,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
@@ -112,11 +112,11 @@ narrow,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 nature,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 new,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 nice,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
-nine (9),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-nineteen (19),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-ninety (90),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
-ninety-one (91),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-ninety-two (92),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
+nine,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+nineteen,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+ninety,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
+ninety-one,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+ninety-two,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 no,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 November,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 nuclear,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
@@ -124,17 +124,17 @@ October,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 oil,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 "old [opposite of ""new""]",Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 "old [opposite of ""young""]",Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-one (1),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-"one billion (1,000,000,000)",Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
-one hundred (100),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-one hundred eleven (111),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-one hundred one (101),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-one hundred ten (110),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-"one hundred thousand (100,000)",Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-one hundred two (102),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-one thousand (1000),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-one thousand one (1001),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+one,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+one billion,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
+one hundred,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+one hundred eleven,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+one hundred one,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+one hundred ten,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+one hundred thousand,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+one hundred two,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+one million,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+one thousand,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+one thousand one,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 orange,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 pain,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 peace,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
@@ -156,13 +156,13 @@ sad,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 salt,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 Saturday,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 science,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-second (2nd),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+second,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 September,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-seven (7),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
-seventy (70),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+seven,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+seventeen,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
+seventy,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+seventy-one,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+seventy-two,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 sex [gender],Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 sex [the act],Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 shallow,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
@@ -171,16 +171,16 @@ she,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 "short [opposite of ""tall""]",Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 sick,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 silver,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
-six (6),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-sixteen (16),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-sixty (60),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-sixty-one (61),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-sixty-two (62),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+six,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+sixteen,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+sixty,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+sixty-one,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+sixty-two,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 slow,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 small / little,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 soft,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 soil/earth [ground],Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-space (outer space),Audio:<br>Google Cloud TTS
+space,Audio:<br>Google Cloud TTS
 sport,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 stone,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 straight,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
@@ -192,9 +192,8 @@ tall,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 tea,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 technology,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 temperature,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-ten (10),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-"ten thousand (10,000)",Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-the (train) ticket,Audio:<br>Google Cloud TTS
+ten,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+ten thousand,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 the actor,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 the adjective,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 the adult,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
@@ -268,7 +267,7 @@ the consonant,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 the contract,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 the corn,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 the corner,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
-"the country (USA, France, etc.)",Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+the country,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 the court,Audio:<br>Google Cloud TTS
 the cow,Audio:<br>Google Cloud TTS
 the crowd,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
@@ -476,6 +475,7 @@ the tear,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 the telephone,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 the television,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 the theater,Audio:<br>Google Cloud TTS
+the ticket,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 the time,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 the tire,Audio:<br>Google Cloud TTS
 the toe,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
@@ -511,12 +511,12 @@ the year,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 they,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 thick,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 thin,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
-third (3rd),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-thirteen (13),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-thirty (30),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-thirty-one (31),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-thirty-two (32),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-three (3),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+third,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+thirteen,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+thirty,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+thirty-one,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+thirty-two,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+three,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 Thursday,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 tight,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 to beat,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
@@ -576,7 +576,7 @@ to run,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 to see,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 to sell,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 to shake,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
-to shoot (a gun),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
+to shoot,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-F
 to sign,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 to sing,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 to sit,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
@@ -603,11 +603,11 @@ to work,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 to write,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 transportation,Audio:<br>Google Cloud TTS
 Tuesday,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-twelve (12),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
-twenty (20),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-twenty-one (21),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-twenty-two (22),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
-two (2),Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+twelve,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
+twenty,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+twenty-one,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+twenty-two,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
+two,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 ugly,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D
 up,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-O
 war,Audio:<br>Google Cloud TTS<br>Voice: it-IT-Journey-D

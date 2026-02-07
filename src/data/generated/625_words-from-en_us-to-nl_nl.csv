@@ -36,12 +36,12 @@ down,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 dry,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 dust,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a><br><br>Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F"
-eight (8),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-eighteen (18),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-eighty (80),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-eighty-one (81),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-eighty-two (82),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-eleven (11),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+eight,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+eighteen,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+eighty,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+eighty-one,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+eighty-two,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+eleven,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 energy,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 exercise,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 expensive,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
@@ -49,21 +49,21 @@ famous,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 fast,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 February,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 female,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-fifteen (15),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-fifth (5th),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-fifty (50),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-fifty-one (51),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-fifty-two (52),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-first (1st),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-five (5),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+fifteen,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+fifth,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+fifty,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+fifty-one,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+fifty-two,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+first,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+five,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 flat,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 food,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-forty (40),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-forty-one (41),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-forty-two (42),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-four (4),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+forty,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+forty-one,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+forty-two,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+four,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+fourteen,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+fourth,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 Friday,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 glass [material],Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 God,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
@@ -112,11 +112,11 @@ narrow,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 nature,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 new,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 nice,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-nine (9),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-nineteen (19),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-ninety (90),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-ninety-one (91),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-ninety-two (92),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+nine,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+nineteen,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+ninety,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+ninety-one,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+ninety-two,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 no,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 November,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 nuclear,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
@@ -124,17 +124,17 @@ October,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 oil,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 "old [opposite of ""new""]",Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 "old [opposite of ""young""]",Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-one (1),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-"one billion (1,000,000,000)",Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-one hundred (100),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-one hundred eleven (111),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-one hundred one (101),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-one hundred ten (110),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-"one hundred thousand (100,000)",Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-one hundred two (102),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-one thousand (1000),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-one thousand one (1001),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+one,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+one billion,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+one hundred,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+one hundred eleven,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+one hundred one,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+one hundred ten,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+one hundred thousand,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+one hundred two,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+one million,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+one thousand,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+one thousand one,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 orange,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 pain,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 peace,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
@@ -156,13 +156,13 @@ sad,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 salt,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 Saturday,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 science,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-second (2nd),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+second,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 September,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-seven (7),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-seventy (70),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+seven,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+seventeen,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+seventy,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+seventy-one,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+seventy-two,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 sex [gender],Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 sex [the act],Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 shallow,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
@@ -171,16 +171,16 @@ she,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 "short [opposite of ""tall""]",Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 sick,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 silver,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-six (6),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-sixteen (16),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-sixty (60),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-sixty-one (61),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-sixty-two (62),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+six,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+sixteen,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+sixty,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+sixty-one,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+sixty-two,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 slow,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 small / little,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 soft,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 soil/earth [ground],Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-space (outer space),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+space,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 sport,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 stone,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 straight,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
@@ -192,9 +192,8 @@ tall,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 tea,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 technology,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 temperature,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-ten (10),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-"ten thousand (10,000)",Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-the (train) ticket,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+ten,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+ten thousand,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 the actor,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 the adjective,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 the adult,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
@@ -268,7 +267,7 @@ the consonant,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 the contract,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 the corn,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 the corner,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-"the country (USA, France, etc.)",Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+the country,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 the court,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 the cow,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 the crowd,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
@@ -476,6 +475,7 @@ the tear,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 the telephone,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 the television,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 the theater,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+the ticket,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 the time,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 the tire,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 the toe,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
@@ -511,12 +511,12 @@ the year,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 they,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 thick,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 thin,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-third (3rd),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-thirteen (13),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-thirty (30),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-thirty-one (31),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-thirty-two (32),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-three (3),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+third,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+thirteen,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+thirty,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+thirty-one,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+thirty-two,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+three,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 Thursday,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 tight,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 to beat,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
@@ -576,7 +576,7 @@ to run,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 to see,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 to sell,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 to shake,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-to shoot (a gun),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+to shoot,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 to sign,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 to sing,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 to sit,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
@@ -603,11 +603,11 @@ to work,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 to write,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 transportation,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 Tuesday,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-twelve (12),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-twenty (20),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-twenty-one (21),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
-twenty-two (22),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
-two (2),Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+twelve,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+twenty,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+twenty-one,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
+twenty-two,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
+two,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 ugly,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-F
 up,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G
 war,Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G

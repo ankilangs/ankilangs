@@ -36,12 +36,12 @@ down,ned,/neː/,[sound:al_nb_no_down.mp3],Google Cloud TTS<br>Voice: nb-NO-Stand
 dry,tørr,/tœrː/,[sound:al_nb_no_dry.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 dust,støv,/støːv/,[sound:al_nb_no_dust.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 Earth,jorden,/ˈjuːɖən/,[sound:al_nb_no_earth.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-eight (8),åtte,/ˈɔtːə/,[sound:al_nb_no_eight_8.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-eighteen (18),atten,/ˈɑtːən/,[sound:al_nb_no_eighteen_18.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-eighty (80),åtti,/ˈɔtːi/,[sound:al_nb_no_eighty_80.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-eighty-one (81),åttién,/ˌɔtːiˈeːn/,[sound:al_nb_no_eighty_one_81.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-eighty-two (82),åttito,/ˌɔtːiˈtuː/,[sound:al_nb_no_eighty_two_82.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-eleven (11),elleve,/ˈɛlːəvə/,[sound:al_nb_no_eleven_11.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+eight,åtte,/ˈɔtːə/,[sound:al_nb_no_eight_8.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+eighteen,atten,/ˈɑtːən/,[sound:al_nb_no_eighteen_18.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+eighty,åtti,/ˈɔtːi/,[sound:al_nb_no_eighty_80.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+eighty-one,åttién,/ˌɔtːiˈeːn/,[sound:al_nb_no_eighty_one_81.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+eighty-two,åttito,/ˌɔtːiˈtuː/,[sound:al_nb_no_eighty_two_82.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+eleven,elleve,/ˈɛlːəvə/,[sound:al_nb_no_eleven_11.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 energy,energi,/ɛnəʁˈɡiː/,[sound:al_nb_no_energy.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 exercise,øvelse,/ˈøːvəlsə/,[sound:al_nb_no_exercise.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 expensive,dyr,/dyːʁ/,[sound:al_nb_no_expensive.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
@@ -49,21 +49,21 @@ famous,berømt,/bəˈrømt/,[sound:al_nb_no_famous.mp3],Google Cloud TTS<br>Voic
 fast,rask,/rɑsk/,[sound:al_nb_no_fast.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 February,februar,/febʉˈɑːʁ/,[sound:al_nb_no_february.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 female,kvinne,/ˈkvɪnːə/,[sound:al_nb_no_female.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-fifteen (15),femten,/ˈfɛmtən/,[sound:al_nb_no_fifteen_15.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-fifth (5th),femte,/ˈfɛmtə/,[sound:al_nb_no_fifth_5th.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-fifty (50),femti,/ˈfɛmti/,[sound:al_nb_no_fifty_50.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-fifty-one (51),femtién,/ˌfɛmtiˈeːn/,[sound:al_nb_no_fifty_one_51.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-fifty-two (52),femtito,/ˌfɛmtiˈtuː/,[sound:al_nb_no_fifty_two_52.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-first (1st),første,/ˈføʂʈə/,[sound:al_nb_no_first_1st.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-five (5),fem,/fɛm/,[sound:al_nb_no_five_5.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+fifteen,femten,/ˈfɛmtən/,[sound:al_nb_no_fifteen_15.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+fifth,femte,/ˈfɛmtə/,[sound:al_nb_no_fifth_5th.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+fifty,femti,/ˈfɛmti/,[sound:al_nb_no_fifty_50.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+fifty-one,femtién,/ˌfɛmtiˈeːn/,[sound:al_nb_no_fifty_one_51.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+fifty-two,femtito,/ˌfɛmtiˈtuː/,[sound:al_nb_no_fifty_two_52.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+first,første,/ˈføʂʈə/,[sound:al_nb_no_first_1st.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+five,fem,/fɛm/,[sound:al_nb_no_five_5.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 flat,flat,/flɑːt/,[sound:al_nb_no_flat.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 food,mat,/mɑːt/,[sound:al_nb_no_food.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-forty (40),førti,/ˈføʈːi/,[sound:al_nb_no_forty_40.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-forty-one (41),førtién,/ˌføʈːiˈeːn/,[sound:al_nb_no_forty_one_41.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-forty-two (42),førtito,/ˌføʈːiˈtuː/,[sound:al_nb_no_forty_two_42.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-four (4),fire,/ˈfiːrə/,[sound:al_nb_no_four_4.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-fourteen (14),fjorten,/ˈfjuːʈən/,[sound:al_nb_no_fourteen_14.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-fourth (4th),fjerde,/ˈfjæːɖə/,[sound:al_nb_no_fourth_4th.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+forty,førti,/ˈføʈːi/,[sound:al_nb_no_forty_40.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+forty-one,førtién,/ˌføʈːiˈeːn/,[sound:al_nb_no_forty_one_41.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+forty-two,førtito,/ˌføʈːiˈtuː/,[sound:al_nb_no_forty_two_42.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+four,fire,/ˈfiːrə/,[sound:al_nb_no_four_4.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+fourteen,fjorten,/ˈfjuːʈən/,[sound:al_nb_no_fourteen_14.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+fourth,fjerde,/ˈfjæːɖə/,[sound:al_nb_no_fourth_4th.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 Friday,fredag,/ˈfreːdɑː/,[sound:al_nb_no_friday.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 glass [material],glass,/glɑsː/,[sound:al_nb_no_glass.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 God,Gud,/gʉː/,[sound:al_nb_no_god.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
@@ -112,11 +112,11 @@ narrow,smal,/smɑːl/,[sound:al_nb_no_narrow.mp3],Google Cloud TTS<br>Voice: nb-
 nature,natur,/nɑˈtʉːʁ/,[sound:al_nb_no_nature.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 new,ny,/nyː/,[sound:al_nb_no_new.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 nice,hyggelig,/ˈhʏɡːəli/,[sound:al_nb_no_nice.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-nine (9),ni,/niː/,[sound:al_nb_no_nine_9.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-nineteen (19),nitten,/ˈnɪtːən/,[sound:al_nb_no_nineteen_19.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-ninety (90),nitti,/ˈnɪtːi/,[sound:al_nb_no_ninety_90.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-ninety-one (91),nittién,/ˌnɪtːiˈeːn/,[sound:al_nb_no_ninety_one_91.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-ninety-two (92),nittito,/ˌnɪtːiˈtuː/,[sound:al_nb_no_ninety_two_92.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+nine,ni,/niː/,[sound:al_nb_no_nine_9.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+nineteen,nitten,/ˈnɪtːən/,[sound:al_nb_no_nineteen_19.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+ninety,nitti,/ˈnɪtːi/,[sound:al_nb_no_ninety_90.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+ninety-one,nittién,/ˌnɪtːiˈeːn/,[sound:al_nb_no_ninety_one_91.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+ninety-two,nittito,/ˌnɪtːiˈtuː/,[sound:al_nb_no_ninety_two_92.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 no,nei,/næi/,[sound:al_nb_no_no.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 November,november,/nɔˈvɛmbəʁ/,[sound:al_nb_no_november.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 nuclear,nukleær,/nʉkleˈæːʁ/,[sound:al_nb_no_nuclear.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
@@ -124,17 +124,17 @@ October,oktober,/ɔkˈtoːbəʁ/,[sound:al_nb_no_october.mp3],Google Cloud TTS<b
 oil,olje,/ˈɔljə/,[sound:al_nb_no_oil.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 "old [opposite of ""new""]",gammel,/ˈɡɑmːəl/,[sound:al_nb_no_old_opposite_of_new.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 "old [opposite of ""young""]",gammel,/ˈɡɑmːəl/,[sound:al_nb_no_old_opposite_of_young.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-one (1),én,/eːn/,[sound:al_nb_no_one_1.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-"one billion (1,000,000,000)",én milliard,/eːn mɪlˈjɑːɖ/,[sound:al_nb_no_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-one hundred (100),ett hundre,/ɛtː ˈhʉndrə/,[sound:al_nb_no_one_hundred_100.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-one hundred eleven (111),ett hundre og elleve,/ɛtː ˈhʉndrə ɔ ˈɛlːəvə/,[sound:al_nb_no_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-one hundred one (101),ett hundre og én,/ɛtː ˈhʉndrə ɔ eːn/,[sound:al_nb_no_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-one hundred ten (110),ett hundre og ti,/ɛtː ˈhʉndrə ɔ tiː/,[sound:al_nb_no_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-"one hundred thousand (100,000)",ett hundre tusen,/ɛtː ˈhʉndrə ˈtʉːsən/,[sound:al_nb_no_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-one hundred two (102),ett hundre og to,/ɛtː ˈhʉndrə ɔ tuː/,[sound:al_nb_no_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-"one million (1,000,000)",én million,/eːn mɪlˈjuːn/,[sound:al_nb_no_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-one thousand (1000),ett tusen,/ɛtː ˈtʉːsən/,[sound:al_nb_no_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-one thousand one (1001),ett tusen og én,/ɛtː ˈtʉːsən ɔ eːn/,[sound:al_nb_no_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+one,én,/eːn/,[sound:al_nb_no_one_1.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+one billion,én milliard,/eːn mɪlˈjɑːɖ/,[sound:al_nb_no_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+one hundred,ett hundre,/ɛtː ˈhʉndrə/,[sound:al_nb_no_one_hundred_100.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+one hundred eleven,ett hundre og elleve,/ɛtː ˈhʉndrə ɔ ˈɛlːəvə/,[sound:al_nb_no_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+one hundred one,ett hundre og én,/ɛtː ˈhʉndrə ɔ eːn/,[sound:al_nb_no_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+one hundred ten,ett hundre og ti,/ɛtː ˈhʉndrə ɔ tiː/,[sound:al_nb_no_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+one hundred thousand,ett hundre tusen,/ɛtː ˈhʉndrə ˈtʉːsən/,[sound:al_nb_no_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+one hundred two,ett hundre og to,/ɛtː ˈhʉndrə ɔ tuː/,[sound:al_nb_no_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+one million,én million,/eːn mɪlˈjuːn/,[sound:al_nb_no_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+one thousand,ett tusen,/ɛtː ˈtʉːsən/,[sound:al_nb_no_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+one thousand one,ett tusen og én,/ɛtː ˈtʉːsən ɔ eːn/,[sound:al_nb_no_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 orange,oransje,/ʊˈrɑnʃə/,[sound:al_nb_no_orange.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 pain,smerte,/ˈsmæːʈə/,[sound:al_nb_no_pain.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 peace,fred,/freː/,[sound:al_nb_no_peace.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
@@ -156,13 +156,13 @@ sad,trist,/trɪst/,[sound:al_nb_no_sad.mp3],Google Cloud TTS<br>Voice: nb-NO-Sta
 salt,salt,/sɑlt/,[sound:al_nb_no_salt.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 Saturday,lørdag,/ˈløːɖɑː/,[sound:al_nb_no_saturday.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 science,vitenskap,/ˈviːtənskɑːp/,[sound:al_nb_no_science.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-second (2nd),andre,/ˈɑndrə/,[sound:al_nb_no_second_2nd.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+second,andre,/ˈɑndrə/,[sound:al_nb_no_second_2nd.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 September,september,/sɛpˈtɛmbəʁ/,[sound:al_nb_no_september.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-seven (7),sju,/ʃʉː/,[sound:al_nb_no_seven_7.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-seventeen (17),sytten,/ˈsʏtːən/,[sound:al_nb_no_seventeen_17.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-seventy (70),sytti,/ˈsʏtːi/,[sound:al_nb_no_seventy_70.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-seventy-one (71),syttién,/ˌsʏtːiˈeːn/,[sound:al_nb_no_seventy_one_71.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-seventy-two (72),syttito,/ˌsʏtːiˈtuː/,[sound:al_nb_no_seventy_two_72.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+seven,sju,/ʃʉː/,[sound:al_nb_no_seven_7.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+seventeen,sytten,/ˈsʏtːən/,[sound:al_nb_no_seventeen_17.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+seventy,sytti,/ˈsʏtːi/,[sound:al_nb_no_seventy_70.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+seventy-one,syttién,/ˌsʏtːiˈeːn/,[sound:al_nb_no_seventy_one_71.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+seventy-two,syttito,/ˌsʏtːiˈtuː/,[sound:al_nb_no_seventy_two_72.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 sex [gender],kjønn,/çønː/,[sound:al_nb_no_sex_gender.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 sex [the act],sex,/sɛks/,[sound:al_nb_no_sex_the_act.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 shallow,grunn,/grʉnː/,[sound:al_nb_no_shallow.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
@@ -171,16 +171,16 @@ she,hun,/hʉn/,[sound:al_nb_no_she.mp3],Google Cloud TTS<br>Voice: nb-NO-Standar
 "short [opposite of ""tall""]",lav,/lɑːv/,[sound:al_nb_no_short_opposite_of_tall.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 sick,syk,/syːk/,[sound:al_nb_no_sick.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 silver,sølv,/sølv/,[sound:al_nb_no_silver.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-six (6),seks,/sɛks/,[sound:al_nb_no_six_6.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-sixteen (16),seksten,/ˈsæistən/,[sound:al_nb_no_sixteen_16.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-sixty (60),seksti,/ˈsɛksti/,[sound:al_nb_no_sixty_60.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-sixty-one (61),sekstién,/ˌsɛkstiˈeːn/,[sound:al_nb_no_sixty_one_61.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-sixty-two (62),sekstito,/ˌsɛkstiˈtuː/,[sound:al_nb_no_sixty_two_62.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+six,seks,/sɛks/,[sound:al_nb_no_six_6.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+sixteen,seksten,/ˈsæistən/,[sound:al_nb_no_sixteen_16.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+sixty,seksti,/ˈsɛksti/,[sound:al_nb_no_sixty_60.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+sixty-one,sekstién,/ˌsɛkstiˈeːn/,[sound:al_nb_no_sixty_one_61.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+sixty-two,sekstito,/ˌsɛkstiˈtuː/,[sound:al_nb_no_sixty_two_62.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 slow,langsom,/ˈlɑŋːsɔm/,[sound:al_nb_no_slow.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 small / little,liten,/ˈliːtən/,[sound:al_nb_no_small_little.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 soft,myk,/myːk/,[sound:al_nb_no_soft.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 soil/earth [ground],jord,/juːɖ/,[sound:al_nb_no_soil_earth_ground.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-space (outer space),verdensrommet,/ˈvæːɖənsˌrɔmːət/,[sound:al_nb_no_space_outer_space.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+space,verdensrommet,/ˈvæːɖənsˌrɔmːət/,[sound:al_nb_no_space_outer_space.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 sport,sport,/spɔʈː/,[sound:al_nb_no_sport.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 stone,stein,/stæin/,[sound:al_nb_no_stone.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 straight,rett,/rɛtː/,[sound:al_nb_no_straight.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
@@ -192,9 +192,8 @@ tall,høy,/høy/,[sound:al_nb_no_tall.mp3],Google Cloud TTS<br>Voice: nb-NO-Stan
 tea,te,/teː/,[sound:al_nb_no_tea.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 technology,teknologi,/tɛknʊlʊˈɡiː/,[sound:al_nb_no_technology.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 temperature,temperatur,/tɛmpərɑˈtʉːʁ/,[sound:al_nb_no_temperature.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-ten (10),ti,/tiː/,[sound:al_nb_no_ten_10.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-"ten thousand (10,000)",ti tusen,/tiː ˈtʉːsən/,[sound:al_nb_no_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-the (train) ticket,billetten,/bɪˈlɛtːən/,[sound:al_nb_no_the_train_ticket.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+ten,ti,/tiː/,[sound:al_nb_no_ten_10.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+ten thousand,ti tusen,/tiː ˈtʉːsən/,[sound:al_nb_no_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 the actor,skuespilleren,/ˈskʉːəspɪlːərən/,[sound:al_nb_no_the_actor.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 the adjective,adjektivet,/ɑdjɛkˈtiːvət/,[sound:al_nb_no_the_adjective.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 the adult,den voksne,/dɛn ˈvɔksnə/,[sound:al_nb_no_the_adult.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
@@ -268,7 +267,7 @@ the consonant,konsonanten,/kɔnsʊˈnɑntən/,[sound:al_nb_no_the_consonant.mp3]
 the contract,kontrakten,/kɔnˈtrɑktən/,[sound:al_nb_no_the_contract.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 the corn,maisen,/ˈmɑisən/,[sound:al_nb_no_the_corn.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 the corner,hjørnet,/ˈjøːɳət/,[sound:al_nb_no_the_corner.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-"the country (USA, France, etc.)",landet,/ˈlɑndət/,[sound:al_nb_no_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+the country,landet,/ˈlɑndət/,[sound:al_nb_no_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 the court,retten,/ˈrɛtːən/,[sound:al_nb_no_the_court.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 the cow,kua,/ˈkʉːɑ/,[sound:al_nb_no_the_cow.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 the crowd,mengden,/ˈmɛŋːdən/,[sound:al_nb_no_the_crowd.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
@@ -476,6 +475,7 @@ the tear,tåren,/ˈtɔːrən/,[sound:al_nb_no_the_tear.mp3],Google Cloud TTS<br>
 the telephone,telefonen,/tɛləˈfuːnən/,[sound:al_nb_no_the_telephone.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 the television,fjernsynet,/ˈfjæːɳˌsyːnət/,[sound:al_nb_no_the_television.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 the theater,teateret,/teˈɑːtərət/,[sound:al_nb_no_the_theater.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+the ticket,billetten,/bɪˈlɛtːən/,[sound:al_nb_no_the_train_ticket.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 the time,tiden,/ˈtiːdən/,[sound:al_nb_no_the_time.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 the tire,dekket,/ˈdɛkːət/,[sound:al_nb_no_the_tire.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 the toe,tåen,/ˈtɔːən/,[sound:al_nb_no_the_toe.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
@@ -511,12 +511,12 @@ the year,året,/ˈɔːrət/,[sound:al_nb_no_the_year.mp3],Google Cloud TTS<br>Vo
 they,de,/diː/,[sound:al_nb_no_they.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 thick,tykk,/tʏkː/,[sound:al_nb_no_thick.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 thin,tynn,/tʏnː/,[sound:al_nb_no_thin.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-third (3rd),tredje,/ˈtrɛdjə/,[sound:al_nb_no_third_3rd.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-thirteen (13),tretten,/ˈtrɛtːən/,[sound:al_nb_no_thirteen_13.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-thirty (30),tretti,/ˈtrɛtːi/,[sound:al_nb_no_thirty_30.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-thirty-one (31),trettién,/ˌtrɛtːiˈeːn/,[sound:al_nb_no_thirty_one_31.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-thirty-two (32),trettito,/ˌtrɛtːiˈtuː/,[sound:al_nb_no_thirty_two_32.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-three (3),tre,/treː/,[sound:al_nb_no_three_3.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+third,tredje,/ˈtrɛdjə/,[sound:al_nb_no_third_3rd.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+thirteen,tretten,/ˈtrɛtːən/,[sound:al_nb_no_thirteen_13.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+thirty,tretti,/ˈtrɛtːi/,[sound:al_nb_no_thirty_30.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+thirty-one,trettién,/ˌtrɛtːiˈeːn/,[sound:al_nb_no_thirty_one_31.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+thirty-two,trettito,/ˌtrɛtːiˈtuː/,[sound:al_nb_no_thirty_two_32.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+three,tre,/treː/,[sound:al_nb_no_three_3.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 Thursday,torsdag,/ˈtuːʂdɑː/,[sound:al_nb_no_thursday.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 tight,stram,/strɑm/,[sound:al_nb_no_tight.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 to beat,slå,/slɔː/,[sound:al_nb_no_to_beat.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
@@ -576,7 +576,7 @@ to run,løpe,/ˈløːpə/,[sound:al_nb_no_to_run.mp3],Google Cloud TTS<br>Voice:
 to see,se,/seː/,[sound:al_nb_no_to_see.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 to sell,selge,/ˈsɛlɡə/,[sound:al_nb_no_to_sell.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 to shake,riste,/ˈrɪstə/,[sound:al_nb_no_to_shake.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-to shoot (a gun),skyte,/ˈʃyːtə/,[sound:al_nb_no_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+to shoot,skyte,/ˈʃyːtə/,[sound:al_nb_no_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 to sign,signere,/sɪŋˈɲeːrə/,[sound:al_nb_no_to_sign.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 to sing,synge,/ˈsʏŋːə/,[sound:al_nb_no_to_sing.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 to sit,sitte,/ˈsɪtːə/,[sound:al_nb_no_to_sit.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
@@ -603,11 +603,11 @@ to work,jobbe,/ˈjɔbːə/,[sound:al_nb_no_to_work.mp3],Google Cloud TTS<br>Voic
 to write,skrive,/ˈskriːvə/,[sound:al_nb_no_to_write.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 transportation,transport,/trɑnˈspɔːʈ/,[sound:al_nb_no_transportation.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 Tuesday,tirsdag,/ˈtiːʂdɑː/,[sound:al_nb_no_tuesday.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-twelve (12),tolv,/tɔlv/,[sound:al_nb_no_twelve_12.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-twenty (20),tjue,/ˈçʉːə/,[sound:al_nb_no_twenty_20.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-twenty-one (21),tjueén,/ˌçʉːəˈeːn/,[sound:al_nb_no_twenty_one_21.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
-twenty-two (22),tjueto,/ˌçʉːəˈtuː/,[sound:al_nb_no_twenty_two_22.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
-two (2),to,/tuː/,[sound:al_nb_no_two_2.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+twelve,tolv,/tɔlv/,[sound:al_nb_no_twelve_12.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+twenty,tjue,/ˈçʉːə/,[sound:al_nb_no_twenty_20.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+twenty-one,tjueén,/ˌçʉːəˈeːn/,[sound:al_nb_no_twenty_one_21.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
+twenty-two,tjueto,/ˌçʉːəˈtuː/,[sound:al_nb_no_twenty_two_22.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
+two,to,/tuː/,[sound:al_nb_no_two_2.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 ugly,stygg,/stʏɡː/,[sound:al_nb_no_ugly.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-F,AnkiLangs::NB
 up,opp,/ɔpː/,[sound:al_nb_no_up.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB
 war,krig,/kriːɡ/,[sound:al_nb_no_war.mp3],Google Cloud TTS<br>Voice: nb-NO-Standard-G,AnkiLangs::NB

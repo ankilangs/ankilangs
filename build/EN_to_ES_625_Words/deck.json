@@ -3799,7 +3799,7 @@
                 "/ˈmil miˈʝo.nes/",
                 "[sound:al_es_es_one_billion_1_000_000_000.mp3]",
                 "",
-                "",
+                "False friend: English 'billion' = 10⁹ (mil millones). Spanish 'billón' = 10¹² (English 'trillion').",
                 "",
                 "",
                 "",
@@ -5059,7 +5059,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "el espacio",
                 "/el esˈpaθjo/",
                 "[sound:al_es_es_space_outer_space.mp3]",
@@ -5372,29 +5372,6 @@
             ],
             "flags": 0,
             "guid": "ETV5>@sqIh",
-            "note_model_uuid": "ac2a1848-b0b7-4562-85a0-5826fbf6c9b2",
-            "tags": [
-                "AnkiLangs::ES"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "el billete (de tren)",
-                "/el biˈʝete (de ˈtɾen)/",
-                "[sound:al_es_es_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C"
-            ],
-            "flags": 0,
-            "guid": "wbF$A}4gi8",
             "note_model_uuid": "ac2a1848-b0b7-4562-85a0-5826fbf6c9b2",
             "tags": [
                 "AnkiLangs::ES"
@@ -7083,7 +7060,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "el país",
                 "/el paˈis/",
                 "[sound:al_es_es_the_country_usa_france_etc.mp3]",
@@ -11858,6 +11835,29 @@
             ],
             "flags": 0,
             "guid": "OGKg$<9ot#",
+            "note_model_uuid": "ac2a1848-b0b7-4562-85a0-5826fbf6c9b2",
+            "tags": [
+                "AnkiLangs::ES"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "el billete / la entrada",
+                "/el biˈʝete/ /la enˈtɾaða/",
+                "[sound:al_es_es_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: es-ES-Studio-C"
+            ],
+            "flags": 0,
+            "guid": "wbF$A}4gi8",
             "note_model_uuid": "ac2a1848-b0b7-4562-85a0-5826fbf6c9b2",
             "tags": [
                 "AnkiLangs::ES"

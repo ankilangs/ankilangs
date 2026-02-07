@@ -3807,7 +3807,7 @@
                 "/eːn mɪlˈjɑːɖ/",
                 "[sound:al_nb_no_one_billion_1_000_000_000.mp3]",
                 "",
-                "",
+                "False friend: English 'billion' = 10⁹ (milliard). Norwegian 'billion' = 10¹² (English 'trillion').",
                 "",
                 "",
                 "",
@@ -5067,7 +5067,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "verdensrommet",
                 "/ˈvæːɖənsˌrɔmːət/",
                 "[sound:al_nb_no_space_outer_space.mp3]",
@@ -5380,29 +5380,6 @@
             ],
             "flags": 0,
             "guid": "mdoc&}6vc^",
-            "note_model_uuid": "ef1826bf-ecfb-4483-9324-832c357199ad",
-            "tags": [
-                "AnkiLangs::NB"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "billetten",
-                "/bɪˈlɛtːən/",
-                "[sound:al_nb_no_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: nb-NO-Standard-G"
-            ],
-            "flags": 0,
-            "guid": "o}.7ZwybTM",
             "note_model_uuid": "ef1826bf-ecfb-4483-9324-832c357199ad",
             "tags": [
                 "AnkiLangs::NB"
@@ -7091,7 +7068,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "landet",
                 "/ˈlɑndət/",
                 "[sound:al_nb_no_the_country_usa_france_etc.mp3]",
@@ -11866,6 +11843,29 @@
             ],
             "flags": 0,
             "guid": "pcjR{vq[(}",
+            "note_model_uuid": "ef1826bf-ecfb-4483-9324-832c357199ad",
+            "tags": [
+                "AnkiLangs::NB"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "billetten",
+                "/bɪˈlɛtːən/",
+                "[sound:al_nb_no_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: nb-NO-Standard-G"
+            ],
+            "flags": 0,
+            "guid": "o}.7ZwybTM",
             "note_model_uuid": "ef1826bf-ecfb-4483-9324-832c357199ad",
             "tags": [
                 "AnkiLangs::NB"

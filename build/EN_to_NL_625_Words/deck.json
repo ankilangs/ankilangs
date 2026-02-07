@@ -3807,7 +3807,7 @@
                 "/eːn mɪlˈjɑrt/",
                 "[sound:al_nl_nl_one_billion_1_000_000_000.mp3]",
                 "",
-                "",
+                "False friend: English 'billion' = 10⁹ (miljard). Dutch 'biljoen' = 10¹² (English 'trillion').",
                 "",
                 "",
                 "",
@@ -5067,7 +5067,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "de ruimte",
                 "/də ˈrœymtə/",
                 "[sound:al_nl_nl_space_outer_space.mp3]",
@@ -5380,29 +5380,6 @@
             ],
             "flags": 0,
             "guid": "cp?)KIH%)a",
-            "note_model_uuid": "91f98655-c907-43f2-b514-9cb17e8dbdfe",
-            "tags": [
-                "AnkiLangs::NL"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "het kaartje",
-                "/hɛt ˈkaːrtjə/",
-                "[sound:al_nl_nl_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G"
-            ],
-            "flags": 0,
-            "guid": "F6k.{Vheq-",
             "note_model_uuid": "91f98655-c907-43f2-b514-9cb17e8dbdfe",
             "tags": [
                 "AnkiLangs::NL"
@@ -7091,7 +7068,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "het land",
                 "/hɛt lɑnt/",
                 "[sound:al_nl_nl_the_country_usa_france_etc.mp3]",
@@ -11866,6 +11843,29 @@
             ],
             "flags": 0,
             "guid": "o;)FXLV]bk",
+            "note_model_uuid": "91f98655-c907-43f2-b514-9cb17e8dbdfe",
+            "tags": [
+                "AnkiLangs::NL"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "het kaartje",
+                "/hɛt ˈkaːrtjə/",
+                "[sound:al_nl_nl_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: nl-NL-Standard-G"
+            ],
+            "flags": 0,
+            "guid": "F6k.{Vheq-",
             "note_model_uuid": "91f98655-c907-43f2-b514-9cb17e8dbdfe",
             "tags": [
                 "AnkiLangs::NL"

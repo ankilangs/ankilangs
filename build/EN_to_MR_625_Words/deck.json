@@ -5067,7 +5067,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "अवकाश",
                 "/əʋkɑːʃ/",
                 "[sound:al_mr_in_space_outer_space.mp3]",
@@ -5380,29 +5380,6 @@
             ],
             "flags": 0,
             "guid": "jl*@[9jUK,",
-            "note_model_uuid": "b905bf76-10f8-4f8b-a70b-a18a90ef1236",
-            "tags": [
-                "AnkiLangs::MR"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "तिकीट",
-                "/t̪ikiːʈ/",
-                "[sound:al_mr_in_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: mr-IN-Standard-A"
-            ],
-            "flags": 0,
-            "guid": "grS%XCo,kM",
             "note_model_uuid": "b905bf76-10f8-4f8b-a70b-a18a90ef1236",
             "tags": [
                 "AnkiLangs::MR"
@@ -7091,7 +7068,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "देश",
                 "/d̪eːʃ/",
                 "[sound:al_mr_in_the_country_usa_france_etc.mp3]",
@@ -11866,6 +11843,29 @@
             ],
             "flags": 0,
             "guid": "Bx}nf[=eXf",
+            "note_model_uuid": "b905bf76-10f8-4f8b-a70b-a18a90ef1236",
+            "tags": [
+                "AnkiLangs::MR"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "तिकीट",
+                "/t̪ikiːʈ/",
+                "[sound:al_mr_in_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: mr-IN-Standard-A"
+            ],
+            "flags": 0,
+            "guid": "grS%XCo,kM",
             "note_model_uuid": "b905bf76-10f8-4f8b-a70b-a18a90ef1236",
             "tags": [
                 "AnkiLangs::MR"

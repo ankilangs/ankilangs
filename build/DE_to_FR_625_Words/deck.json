@@ -5387,29 +5387,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "die Fahrkarte",
-                "le billet (de train)",
-                "/lə bi.je (də tʁɛ̃)/",
-                "[sound:al_fr_fr_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A"
-            ],
-            "flags": 0,
-            "guid": "G|~%C]):St",
-            "note_model_uuid": "60413e8d-b645-401e-bf72-a3f8103d544e",
-            "tags": [
-                "AnkiLangs::FR"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "der Schauspieler",
                 "l'acteur",
                 "/laktœʁ/",
@@ -6131,8 +6108,8 @@
                 "",
                 "",
                 "",
-                "",
-                "",
+                "Geld",
+                "Geld",
                 "Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-D"
             ],
             "flags": 0,
@@ -11864,6 +11841,29 @@
             ],
             "flags": 0,
             "guid": "FA#e1Q0rLk",
+            "note_model_uuid": "60413e8d-b645-401e-bf72-a3f8103d544e",
+            "tags": [
+                "AnkiLangs::FR"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "die Fahrkarte / die Eintrittskarte",
+                "le billet",
+                "/lə bi.je/",
+                "[sound:al_fr_fr_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "Eintritt/Reise",
+                "Eintritt/Reise",
+                "Audio:<br>Google Cloud TTS<br>Voice: fr-FR-Studio-A"
+            ],
+            "flags": 0,
+            "guid": "G|~%C]):St",
             "note_model_uuid": "60413e8d-b645-401e-bf72-a3f8103d544e",
             "tags": [
                 "AnkiLangs::FR"

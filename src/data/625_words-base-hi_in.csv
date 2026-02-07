@@ -36,12 +36,12 @@ down,नीचे,/niːt͡ʃeː/,[sound:al_hi_in_down.mp3],Google Cloud TTS<br>V
 dry,सूखा,/suːkʰaː/,[sound:al_hi_in_dry.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 dust,धूल,/d̪ʱuːl/,[sound:al_hi_in_dust.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 Earth,पृथ्वी,/pɾɪt̪ʰʋiː/,[sound:al_hi_in_earth.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-eight (8),आठ,/aːʈʰ/,[sound:al_hi_in_eight_8.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-eighteen (18),अठारह,/əʈʰaːrəh/,[sound:al_hi_in_eighteen_18.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-eighty (80),अस्सी,/əssiː/,[sound:al_hi_in_eighty_80.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-eighty-one (81),इक्यासी,/ɪkjaːsiː/,[sound:al_hi_in_eighty_one_81.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-eighty-two (82),बयासी,/bəjaːsiː/,[sound:al_hi_in_eighty_two_82.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-eleven (11),ग्यारह,/ɡjaːrəh/,[sound:al_hi_in_eleven_11.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+eight,आठ,/aːʈʰ/,[sound:al_hi_in_eight_8.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+eighteen,अठारह,/əʈʰaːrəh/,[sound:al_hi_in_eighteen_18.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+eighty,अस्सी,/əssiː/,[sound:al_hi_in_eighty_80.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+eighty-one,इक्यासी,/ɪkjaːsiː/,[sound:al_hi_in_eighty_one_81.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+eighty-two,बयासी,/bəjaːsiː/,[sound:al_hi_in_eighty_two_82.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+eleven,ग्यारह,/ɡjaːrəh/,[sound:al_hi_in_eleven_11.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 energy,ऊर्जा,/uːrd͡ʒaː/,[sound:al_hi_in_energy.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 exercise,व्यायाम,/ʋjaːjaːm/,[sound:al_hi_in_exercise.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 expensive,महँगा,/məhəŋɡaː/,[sound:al_hi_in_expensive.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
@@ -49,21 +49,21 @@ famous,प्रसिद्ध,/prəsɪd̪d̪ʱ/,[sound:al_hi_in_famous.mp3],Go
 fast,तेज़,/t̪eːz/,[sound:al_hi_in_fast.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 February,फ़रवरी,/fərʋəriː/,[sound:al_hi_in_february.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 female,महिला,/məhɪlaː/,[sound:al_hi_in_female.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-fifteen (15),पंद्रह,/pənd̪rəh/,[sound:al_hi_in_fifteen_15.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-fifth (5th),पाँचवाँ,/paːnt͡ʃʋaː̃/,[sound:al_hi_in_fifth_5th.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-fifty (50),पचास,/pət͡ʃaːs/,[sound:al_hi_in_fifty_50.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-fifty-one (51),इक्यावन,/ɪkjaːʋən/,[sound:al_hi_in_fifty_one_51.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-fifty-two (52),बावन,/baːʋən/,[sound:al_hi_in_fifty_two_52.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-first (1st),पहला,/pəhlaː/,[sound:al_hi_in_first_1st.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-five (5),पाँच,/paːnt͡ʃ/,[sound:al_hi_in_five_5.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+fifteen,पंद्रह,/pənd̪rəh/,[sound:al_hi_in_fifteen_15.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+fifth,पाँचवाँ,/paːnt͡ʃʋaː̃/,[sound:al_hi_in_fifth_5th.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+fifty,पचास,/pət͡ʃaːs/,[sound:al_hi_in_fifty_50.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+fifty-one,इक्यावन,/ɪkjaːʋən/,[sound:al_hi_in_fifty_one_51.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+fifty-two,बावन,/baːʋən/,[sound:al_hi_in_fifty_two_52.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+first,पहला,/pəhlaː/,[sound:al_hi_in_first_1st.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+five,पाँच,/paːnt͡ʃ/,[sound:al_hi_in_five_5.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 flat,समतल,/səmət̪əl/,[sound:al_hi_in_flat.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 food,खाना,/kʰaːnaː/,[sound:al_hi_in_food.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-forty (40),चालीस,/t͡ʃaːliːs/,[sound:al_hi_in_forty_40.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-forty-one (41),इकतालीस,/ɪkət̪aːliːs/,[sound:al_hi_in_forty_one_41.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-forty-two (42),बयालीस,/bəjaːliːs/,[sound:al_hi_in_forty_two_42.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-four (4),चार,/t͡ʃaːr/,[sound:al_hi_in_four_4.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-fourteen (14),चौदह,/t͡ʃɔːd̪əh/,[sound:al_hi_in_fourteen_14.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-fourth (4th),चौथा,/t͡ʃɔːt̪ʰaː/,[sound:al_hi_in_fourth_4th.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+forty,चालीस,/t͡ʃaːliːs/,[sound:al_hi_in_forty_40.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+forty-one,इकतालीस,/ɪkət̪aːliːs/,[sound:al_hi_in_forty_one_41.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+forty-two,बयालीस,/bəjaːliːs/,[sound:al_hi_in_forty_two_42.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+four,चार,/t͡ʃaːr/,[sound:al_hi_in_four_4.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+fourteen,चौदह,/t͡ʃɔːd̪əh/,[sound:al_hi_in_fourteen_14.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+fourth,चौथा,/t͡ʃɔːt̪ʰaː/,[sound:al_hi_in_fourth_4th.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 Friday,शुक्रवार,/ʃʊkrəʋaːr/,[sound:al_hi_in_friday.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 glass [material],काँच,/kaːnt͡ʃ/,[sound:al_hi_in_glass.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 God,ईश्वर,/iːʃʋər/,[sound:al_hi_in_god.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
@@ -112,11 +112,11 @@ narrow,संकीर्ण,/səŋkiːrɳ/,[sound:al_hi_in_narrow.mp3],Google C
 nature,प्रकृति,/prəkɾɪt̪ɪ/,[sound:al_hi_in_nature.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 new,नया,/nəjaː/,[sound:al_hi_in_new.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 nice,अच्छा,/ət͡ʃʰt͡ʃʰaː/,[sound:al_hi_in_nice.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-nine (9),नौ,/nɔː/,[sound:al_hi_in_nine_9.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-nineteen (19),उन्नीस,/ʊnniːs/,[sound:al_hi_in_nineteen_19.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-ninety (90),नब्बे,/nəbbeː/,[sound:al_hi_in_ninety_90.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-ninety-one (91),इक्यानवे,/ɪkjaːnəʋeː/,[sound:al_hi_in_ninety_one_91.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-ninety-two (92),बानवे,/baːnəʋeː/,[sound:al_hi_in_ninety_two_92.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+nine,नौ,/nɔː/,[sound:al_hi_in_nine_9.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+nineteen,उन्नीस,/ʊnniːs/,[sound:al_hi_in_nineteen_19.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+ninety,नब्बे,/nəbbeː/,[sound:al_hi_in_ninety_90.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+ninety-one,इक्यानवे,/ɪkjaːnəʋeː/,[sound:al_hi_in_ninety_one_91.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+ninety-two,बानवे,/baːnəʋeː/,[sound:al_hi_in_ninety_two_92.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 no,नहीं,/nəhiː̃/,[sound:al_hi_in_no.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 November,नवंबर,/nəʋəmbər/,[sound:al_hi_in_november.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 nuclear,परमाणु,/pərəmaːɳʊ/,[sound:al_hi_in_nuclear.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
@@ -124,17 +124,17 @@ October,अक्टूबर,/əkʈuːbər/,[sound:al_hi_in_october.mp3],Google
 oil,तेल,/t̪eːl/,[sound:al_hi_in_oil.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 "old [opposite of ""new""]",पुराना,/pʊraːnaː/,[sound:al_hi_in_old_opposite_of_new.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 "old [opposite of ""young""]",बूढ़ा,/buːɽʱaː/,[sound:al_hi_in_old_opposite_of_young.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-one (1),एक,/eːk/,[sound:al_hi_in_one_1.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-"one billion (1,000,000,000)",एक अरब,/eːk ərəb/,[sound:al_hi_in_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-one hundred (100),एक सौ,/eːk sɔː/,[sound:al_hi_in_one_hundred_100.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-one hundred eleven (111),एक सौ ग्यारह,/eːk sɔː ɡjaːrəh/,[sound:al_hi_in_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-one hundred one (101),एक सौ एक,/eːk sɔː eːk/,[sound:al_hi_in_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-one hundred ten (110),एक सौ दस,/eːk sɔː d̪əs/,[sound:al_hi_in_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-"one hundred thousand (100,000)",एक लाख,/eːk laːkʰ/,[sound:al_hi_in_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-one hundred two (102),एक सौ दो,/eːk sɔː d̪oː/,[sound:al_hi_in_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-"one million (1,000,000)",दस लाख,/d̪əs laːkʰ/,[sound:al_hi_in_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-one thousand (1000),एक हज़ार,/eːk həzaːr/,[sound:al_hi_in_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-one thousand one (1001),एक हज़ार एक,/eːk həzaːr eːk/,[sound:al_hi_in_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+one,एक,/eːk/,[sound:al_hi_in_one_1.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+one billion,एक अरब,/eːk ərəb/,[sound:al_hi_in_one_billion_1_000_000_000.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+one hundred,एक सौ,/eːk sɔː/,[sound:al_hi_in_one_hundred_100.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+one hundred eleven,एक सौ ग्यारह,/eːk sɔː ɡjaːrəh/,[sound:al_hi_in_one_hundred_eleven_111.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+one hundred one,एक सौ एक,/eːk sɔː eːk/,[sound:al_hi_in_one_hundred_one_101.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+one hundred ten,एक सौ दस,/eːk sɔː d̪əs/,[sound:al_hi_in_one_hundred_ten_110.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+one hundred thousand,एक लाख,/eːk laːkʰ/,[sound:al_hi_in_one_hundred_thousand_100_000.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+one hundred two,एक सौ दो,/eːk sɔː d̪oː/,[sound:al_hi_in_one_hundred_two_102.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+one million,दस लाख,/d̪əs laːkʰ/,[sound:al_hi_in_one_million_1_000_000.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+one thousand,एक हज़ार,/eːk həzaːr/,[sound:al_hi_in_one_thousand_1000.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+one thousand one,एक हज़ार एक,/eːk həzaːr eːk/,[sound:al_hi_in_one_thousand_one_1001.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 orange,नारंगी,/naːrəŋɡiː/,[sound:al_hi_in_orange.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 pain,दर्द,/d̪ərd̪/,[sound:al_hi_in_pain.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 peace,शांति,/ʃaːnt̪ɪ/,[sound:al_hi_in_peace.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
@@ -156,13 +156,13 @@ sad,उदास,/ʊd̪aːs/,[sound:al_hi_in_sad.mp3],Google Cloud TTS<br>Voice:
 salt,नमक,/nəmək/,[sound:al_hi_in_salt.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 Saturday,शनिवार,/ʃənɪʋaːr/,[sound:al_hi_in_saturday.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 science,विज्ञान,/ʋɪd͡ʒɲaːn/,[sound:al_hi_in_science.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-second (2nd),दूसरा,/d̪uːsraː/,[sound:al_hi_in_second_2nd.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+second,दूसरा,/d̪uːsraː/,[sound:al_hi_in_second_2nd.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 September,सितंबर,/sɪt̪əmbər/,[sound:al_hi_in_september.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-seven (7),सात,/saːt̪/,[sound:al_hi_in_seven_7.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-seventeen (17),सत्रह,/sət̪rəh/,[sound:al_hi_in_seventeen_17.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-seventy (70),सत्तर,/sət̪t̪ər/,[sound:al_hi_in_seventy_70.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-seventy-one (71),इकहत्तर,/ɪkəhət̪t̪ər/,[sound:al_hi_in_seventy_one_71.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-seventy-two (72),बहत्तर,/bəhət̪t̪ər/,[sound:al_hi_in_seventy_two_72.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+seven,सात,/saːt̪/,[sound:al_hi_in_seven_7.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+seventeen,सत्रह,/sət̪rəh/,[sound:al_hi_in_seventeen_17.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+seventy,सत्तर,/sət̪t̪ər/,[sound:al_hi_in_seventy_70.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+seventy-one,इकहत्तर,/ɪkəhət̪t̪ər/,[sound:al_hi_in_seventy_one_71.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+seventy-two,बहत्तर,/bəhət̪t̪ər/,[sound:al_hi_in_seventy_two_72.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 sex [gender],लिंग,/lɪŋɡ/,[sound:al_hi_in_sex_gender.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 sex [the act],यौन संबंध,/jɔːn səmbənd̪ʱ/,[sound:al_hi_in_sex_the_act.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 shallow,उथला,/ʊt̪ʰlaː/,[sound:al_hi_in_shallow.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
@@ -171,16 +171,16 @@ she,वह,/ʋəh/,[sound:al_hi_in_she.mp3],Google Cloud TTS<br>Voice: hi-IN-Sta
 "short [opposite of ""tall""]",नाटा,/naːʈaː/,[sound:al_hi_in_short_opposite_of_tall.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 sick,बीमार,/biːmaːr/,[sound:al_hi_in_sick.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 silver,चाँदी,/t͡ʃaːnd̪iː/,[sound:al_hi_in_silver.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-six (6),छह,/t͡ʃʰəh/,[sound:al_hi_in_six_6.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-sixteen (16),सोलह,/soːləh/,[sound:al_hi_in_sixteen_16.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-sixty (60),साठ,/saːʈʰ/,[sound:al_hi_in_sixty_60.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-sixty-one (61),इकसठ,/ɪkəsəʈʰ/,[sound:al_hi_in_sixty_one_61.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-sixty-two (62),बासठ,/baːsəʈʰ/,[sound:al_hi_in_sixty_two_62.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+six,छह,/t͡ʃʰəh/,[sound:al_hi_in_six_6.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+sixteen,सोलह,/soːləh/,[sound:al_hi_in_sixteen_16.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+sixty,साठ,/saːʈʰ/,[sound:al_hi_in_sixty_60.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+sixty-one,इकसठ,/ɪkəsəʈʰ/,[sound:al_hi_in_sixty_one_61.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+sixty-two,बासठ,/baːsəʈʰ/,[sound:al_hi_in_sixty_two_62.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 slow,धीमा,/d̪ʱiːmaː/,[sound:al_hi_in_slow.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 small / little,छोटा,/t͡ʃʰoːʈaː/,[sound:al_hi_in_small_little.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 soft,मुलायम,/mʊlaːjəm/,[sound:al_hi_in_soft.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 soil/earth [ground],मिट्टी,/mɪʈʈiː/,[sound:al_hi_in_soil_earth_ground.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-space (outer space),अंतरिक्ष,/ənt̪ərɪkʃ/,[sound:al_hi_in_space_outer_space.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+space,अंतरिक्ष,/ənt̪ərɪkʃ/,[sound:al_hi_in_space_outer_space.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 sport,खेल,/kʰeːl/,[sound:al_hi_in_sport.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 stone,पत्थर,/pət̪t̪ʰər/,[sound:al_hi_in_stone.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 straight,सीधा,/siːd̪ʱaː/,[sound:al_hi_in_straight.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
@@ -192,9 +192,8 @@ tall,लंबा,/ləmbaː/,[sound:al_hi_in_tall.mp3],Google Cloud TTS<br>Voice
 tea,चाय,/t͡ʃaːj/,[sound:al_hi_in_tea.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 technology,प्रौद्योगिकी,/prɔːd̪joːɡɪkiː/,[sound:al_hi_in_technology.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 temperature,तापमान,/t̪aːpmaːn/,[sound:al_hi_in_temperature.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-ten (10),दस,/d̪əs/,[sound:al_hi_in_ten_10.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-"ten thousand (10,000)",दस हज़ार,/d̪əs həzaːr/,[sound:al_hi_in_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-the (train) ticket,टिकट,/ʈɪkəʈ/,[sound:al_hi_in_the_train_ticket.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+ten,दस,/d̪əs/,[sound:al_hi_in_ten_10.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+ten thousand,दस हज़ार,/d̪əs həzaːr/,[sound:al_hi_in_ten_thousand_10_000.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 the actor,अभिनेता,/əbʱɪneːt̪aː/,[sound:al_hi_in_the_actor.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 the adjective,विशेषण,/ʋɪʃeːʃəɳ/,[sound:al_hi_in_the_adjective.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 the adult,वयस्क,/ʋəjəsk/,[sound:al_hi_in_the_adult.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
@@ -268,7 +267,7 @@ the consonant,व्यंजन,/ʋjənd͡ʒən/,[sound:al_hi_in_the_consonant.
 the contract,अनुबंध,/ənʊbənd̪ʱ/,[sound:al_hi_in_the_contract.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 the corn,मकई,/məkəiː/,[sound:al_hi_in_the_corn.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 the corner,कोना,/koːnaː/,[sound:al_hi_in_the_corner.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-"the country (USA, France, etc.)",देश,/d̪eːʃ/,[sound:al_hi_in_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+the country,देश,/d̪eːʃ/,[sound:al_hi_in_the_country_usa_france_etc.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 the court,अदालत,/əd̪aːlət̪/,[sound:al_hi_in_the_court.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 the cow,गाय,/ɡaːj/,[sound:al_hi_in_the_cow.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 the crowd,भीड़,/bʱiːɽ/,[sound:al_hi_in_the_crowd.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
@@ -476,6 +475,7 @@ the tear,आँसू,/aː̃suː/,[sound:al_hi_in_the_tear.mp3],Google Cloud TTS
 the telephone,टेलीफ़ोन,/ʈeːliːfoːn/,[sound:al_hi_in_the_telephone.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 the television,टेलीविज़न,/ʈeːliːʋɪʒən/,[sound:al_hi_in_the_television.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 the theater,थिएटर,/t̪ʰiːeːʈər/,[sound:al_hi_in_the_theater.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+the ticket,टिकट,/ʈɪkəʈ/,[sound:al_hi_in_the_train_ticket.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 the time,समय,/səməj/,[sound:al_hi_in_the_time.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 the tire,टायर,/ʈaːjər/,[sound:al_hi_in_the_tire.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 the toe,पैर की उँगली,/pɛːr kiː ʊŋɡliː/,[sound:al_hi_in_the_toe.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
@@ -511,12 +511,12 @@ the year,साल,/saːl/,[sound:al_hi_in_the_year.mp3],Google Cloud TTS<br>Voi
 they,वे,/ʋeː/,[sound:al_hi_in_they.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 thick,मोटा,/moːʈaː/,[sound:al_hi_in_thick.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 thin,पतला,/pət̪laː/,[sound:al_hi_in_thin.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-third (3rd),तीसरा,/t̪iːsraː/,[sound:al_hi_in_third_3rd.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-thirteen (13),तेरह,/t̪eːrəh/,[sound:al_hi_in_thirteen_13.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-thirty (30),तीस,/t̪iːs/,[sound:al_hi_in_thirty_30.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-thirty-one (31),इकतीस,/ɪkət̪iːs/,[sound:al_hi_in_thirty_one_31.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-thirty-two (32),बत्तीस,/bət̪t̪iːs/,[sound:al_hi_in_thirty_two_32.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-three (3),तीन,/t̪iːn/,[sound:al_hi_in_three_3.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+third,तीसरा,/t̪iːsraː/,[sound:al_hi_in_third_3rd.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+thirteen,तेरह,/t̪eːrəh/,[sound:al_hi_in_thirteen_13.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+thirty,तीस,/t̪iːs/,[sound:al_hi_in_thirty_30.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+thirty-one,इकतीस,/ɪkət̪iːs/,[sound:al_hi_in_thirty_one_31.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+thirty-two,बत्तीस,/bət̪t̪iːs/,[sound:al_hi_in_thirty_two_32.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+three,तीन,/t̪iːn/,[sound:al_hi_in_three_3.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 Thursday,गुरुवार,/ɡʊrʊʋaːr/,[sound:al_hi_in_thursday.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 tight,तंग,/t̪əŋɡ/,[sound:al_hi_in_tight.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 to beat,पीटना,/piːʈnaː/,[sound:al_hi_in_to_beat.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
@@ -576,7 +576,7 @@ to run,दौड़ना,/d̪ɔːɽnaː/,[sound:al_hi_in_to_run.mp3],Google Clo
 to see,देखना,/d̪eːkʰnaː/,[sound:al_hi_in_to_see.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 to sell,बेचना,/beːt͡ʃnaː/,[sound:al_hi_in_to_sell.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 to shake,हिलाना,/hɪlaːnaː/,[sound:al_hi_in_to_shake.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-to shoot (a gun),गोली मारना,/ɡoːliː maːrnaː/,[sound:al_hi_in_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+to shoot,गोली मारना,/ɡoːliː maːrnaː/,[sound:al_hi_in_to_shoot_a_gun.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 to sign,हस्ताक्षर करना,/həst̪aːkʃər kərnaː/,[sound:al_hi_in_to_sign.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 to sing,गाना,/ɡaːnaː/,[sound:al_hi_in_to_sing.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 to sit,बैठना,/bɛːʈʰnaː/,[sound:al_hi_in_to_sit.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
@@ -603,11 +603,11 @@ to work,काम करना,/kaːm kərnaː/,[sound:al_hi_in_to_work.mp3],Goo
 to write,लिखना,/lɪkʰnaː/,[sound:al_hi_in_to_write.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 transportation,परिवहन,/pərɪʋəhən/,[sound:al_hi_in_transportation.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 Tuesday,मंगलवार,/məŋɡəlʋaːr/,[sound:al_hi_in_tuesday.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-twelve (12),बारह,/baːrəh/,[sound:al_hi_in_twelve_12.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-twenty (20),बीस,/biːs/,[sound:al_hi_in_twenty_20.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-twenty-one (21),इक्कीस,/ɪkkiːs/,[sound:al_hi_in_twenty_one_21.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
-twenty-two (22),बाईस,/baːiːs/,[sound:al_hi_in_twenty_two_22.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
-two (2),दो,/d̪oː/,[sound:al_hi_in_two_2.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+twelve,बारह,/baːrəh/,[sound:al_hi_in_twelve_12.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+twenty,बीस,/biːs/,[sound:al_hi_in_twenty_20.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+twenty-one,इक्कीस,/ɪkkiːs/,[sound:al_hi_in_twenty_one_21.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
+twenty-two,बाईस,/baːiːs/,[sound:al_hi_in_twenty_two_22.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
+two,दो,/d̪oː/,[sound:al_hi_in_two_2.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 ugly,बदसूरत,/bəd̪suːrət̪/,[sound:al_hi_in_ugly.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-A,AnkiLangs::HI
 up,ऊपर,/uːpər/,[sound:al_hi_in_up.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI
 war,युद्ध,/jʊd̪d̪ʱ/,[sound:al_hi_in_war.mp3],Google Cloud TTS<br>Voice: hi-IN-Standard-B,AnkiLangs::HI

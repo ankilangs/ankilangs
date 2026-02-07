@@ -5067,7 +5067,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "space (outer space)",
+                "space",
                 "விண்வெளி",
                 "/ʋiɳʋeɭi/",
                 "[sound:al_ta_in_space_outer_space.mp3]",
@@ -5380,29 +5380,6 @@
             ],
             "flags": 0,
             "guid": "LNc&)mBJoN",
-            "note_model_uuid": "f4c9592f-7337-465a-98c1-874502df5e5d",
-            "tags": [
-                "AnkiLangs::TA"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "the (train) ticket",
-                "டிக்கெட்",
-                "/ɖikkeʈ/",
-                "[sound:al_ta_in_the_train_ticket.mp3]",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B"
-            ],
-            "flags": 0,
-            "guid": "cVz}eBEg?N",
             "note_model_uuid": "f4c9592f-7337-465a-98c1-874502df5e5d",
             "tags": [
                 "AnkiLangs::TA"
@@ -7091,7 +7068,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "the country (USA, France, etc.)",
+                "the country",
                 "நாடு",
                 "/naːɖu/",
                 "[sound:al_ta_in_the_country_usa_france_etc.mp3]",
@@ -11866,6 +11843,29 @@
             ],
             "flags": 0,
             "guid": "e3A7Afj&:N",
+            "note_model_uuid": "f4c9592f-7337-465a-98c1-874502df5e5d",
+            "tags": [
+                "AnkiLangs::TA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "the ticket",
+                "டிக்கெட்",
+                "/ɖikkeʈ/",
+                "[sound:al_ta_in_the_train_ticket.mp3]",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Audio:<br>Google Cloud TTS<br>Voice: ta-IN-Standard-B"
+            ],
+            "flags": 0,
+            "guid": "cVz}eBEg?N",
             "note_model_uuid": "f4c9592f-7337-465a-98c1-874502df5e5d",
             "tags": [
                 "AnkiLangs::TA"

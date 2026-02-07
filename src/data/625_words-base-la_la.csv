@@ -36,12 +36,12 @@ down,dēorsum,/deːˈorsum/,,,AnkiLangs::LA
 dry,siccus,/ˈsikːus/,,,AnkiLangs::LA
 dust,pulvis,/ˈpulwis/,,,AnkiLangs::LA
 Earth,Terra,/ˈterra/,,,AnkiLangs::LA
-eight (8),octō,/ˈoktoː/,,,AnkiLangs::LA
-eighteen (18),duodēvīgintī,/duoːdeːˈwiːɡintiː/,,,AnkiLangs::LA
-eighty (80),octōgintā,/oktoːˈɡintaː/,,,AnkiLangs::LA
-eighty-one (81),octōgintā ūnus,/oktoːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
-eighty-two (82),octōgintā duo,/oktoːˈɡintaː ˈduo/,,,AnkiLangs::LA
-eleven (11),ūndecim,/ˈuːndekĩ/,,,AnkiLangs::LA
+eight,octō,/ˈoktoː/,,,AnkiLangs::LA
+eighteen,duodēvīgintī,/duoːdeːˈwiːɡintiː/,,,AnkiLangs::LA
+eighty,octōgintā,/oktoːˈɡintaː/,,,AnkiLangs::LA
+eighty-one,octōgintā ūnus,/oktoːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
+eighty-two,octōgintā duo,/oktoːˈɡintaː ˈduo/,,,AnkiLangs::LA
+eleven,ūndecim,/ˈuːndekĩ/,,,AnkiLangs::LA
 energy,energīa,/eˈnerɡiːa/,,,AnkiLangs::LA
 exercise,exercitātiō,/ekserki.taːˈtiː.oː/,,,AnkiLangs::LA
 expensive,pretiōsus,/pretiˈoːsus/,,,AnkiLangs::LA
@@ -49,21 +49,21 @@ famous,clārus,/ˈklaːrus/,,,AnkiLangs::LA
 fast,celer,/ˈkeler/,,,AnkiLangs::LA
 February,Februārius,/februˈaːrius/,,,AnkiLangs::LA
 female,fēmina,/ˈfeːmina/,,,AnkiLangs::LA
-fifteen (15),quīndecim,/ˈkwiːndekĩ/,,,AnkiLangs::LA
-fifth (5th),quīntus,/ˈkwiːntus/,,,AnkiLangs::LA
-fifty (50),quīnquāgintā,/kwiːnkʷaːˈɡintaː/,,,AnkiLangs::LA
-fifty-one (51),quīnquāgintā ūnus,/kwiːnkʷaːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
-fifty-two (52),quīnquāgintā duo,/kwiːnkʷaːˈɡintaː ˈduo/,,,AnkiLangs::LA
-first (1st),prīmus,/ˈpriːmus/,,,AnkiLangs::LA
-five (5),quīnque,/ˈkwiːnkʷe/,,,AnkiLangs::LA
+fifteen,quīndecim,/ˈkwiːndekĩ/,,,AnkiLangs::LA
+fifth,quīntus,/ˈkwiːntus/,,,AnkiLangs::LA
+fifty,quīnquāgintā,/kwiːnkʷaːˈɡintaː/,,,AnkiLangs::LA
+fifty-one,quīnquāgintā ūnus,/kwiːnkʷaːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
+fifty-two,quīnquāgintā duo,/kwiːnkʷaːˈɡintaː ˈduo/,,,AnkiLangs::LA
+first,prīmus,/ˈpriːmus/,,,AnkiLangs::LA
+five,quīnque,/ˈkwiːnkʷe/,,,AnkiLangs::LA
 flat,plānus,/ˈplaːnus/,,,AnkiLangs::LA
 food,cibus,/ˈkibus/,,,AnkiLangs::LA
-forty (40),quadrāgintā,/kʷadraːˈɡintaː/,,,AnkiLangs::LA
-forty-one (41),quadrāgintā ūnus,/kʷadraːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
-forty-two (42),quadrāgintā duo,/kʷadraːˈɡintaː ˈduo/,,,AnkiLangs::LA
-four (4),quattuor,/ˈkʷatːuor/,,,AnkiLangs::LA
-fourteen (14),quattuordecim,/kʷatːuˈordekĩ/,,,AnkiLangs::LA
-fourth (4th),quārtus,/ˈkʷaːrtus/,,,AnkiLangs::LA
+forty,quadrāgintā,/kʷadraːˈɡintaː/,,,AnkiLangs::LA
+forty-one,quadrāgintā ūnus,/kʷadraːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
+forty-two,quadrāgintā duo,/kʷadraːˈɡintaː ˈduo/,,,AnkiLangs::LA
+four,quattuor,/ˈkʷatːuor/,,,AnkiLangs::LA
+fourteen,quattuordecim,/kʷatːuˈordekĩ/,,,AnkiLangs::LA
+fourth,quārtus,/ˈkʷaːrtus/,,,AnkiLangs::LA
 Friday,diēs Veneris,/ˈdi.eːs ˈweneris/,,,AnkiLangs::LA
 glass [material],vitrum,/ˈwitrum/,,,AnkiLangs::LA
 God,Deus,/ˈdeus/,,,AnkiLangs::LA
@@ -112,11 +112,11 @@ narrow,angustus,/aŋˈɡustus/,,,AnkiLangs::LA
 nature,nātūra,/naːˈtuːra/,,,AnkiLangs::LA
 new,novus,/ˈnowus/,,,AnkiLangs::LA
 nice,amoenus,/aˈmoenus/,,,AnkiLangs::LA
-nine (9),novem,/ˈnowem/,,,AnkiLangs::LA
-nineteen (19),ūndēvīgintī,/uːndeːˈwiːɡintiː/,,,AnkiLangs::LA
-ninety (90),nōnāgintā,/noːnaːˈɡintaː/,,,AnkiLangs::LA
-ninety-one (91),nōnāgintā ūnus,/noːnaːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
-ninety-two (92),nōnāgintā duo,/noːnaːˈɡintaː ˈduo/,,,AnkiLangs::LA
+nine,novem,/ˈnowem/,,,AnkiLangs::LA
+nineteen,ūndēvīgintī,/uːndeːˈwiːɡintiː/,,,AnkiLangs::LA
+ninety,nōnāgintā,/noːnaːˈɡintaː/,,,AnkiLangs::LA
+ninety-one,nōnāgintā ūnus,/noːnaːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
+ninety-two,nōnāgintā duo,/noːnaːˈɡintaː ˈduo/,,,AnkiLangs::LA
 no,minimē,/ˈminimeː/,,,AnkiLangs::LA
 November,November,/noˈwember/,,,AnkiLangs::LA
 nuclear,nucleāris,/nukleˈaːris/,,,AnkiLangs::LA
@@ -124,17 +124,17 @@ October,Octōber,/okˈtoːber/,,,AnkiLangs::LA
 oil,oleum,/ˈoleum/,,,AnkiLangs::LA
 "old [opposite of ""new""]",vetus,/ˈwetus/,,,AnkiLangs::LA
 "old [opposite of ""young""]",senex,/ˈseneks/,,,AnkiLangs::LA
-one (1),ūnus,/ˈuːnus/,,,AnkiLangs::LA
-"one billion (1,000,000,000)",mīlle mīliōnēs,/ˈmiːlːe miːliˈoːneːs/,,,AnkiLangs::LA
-one hundred (100),centum,/ˈkentum/,,,AnkiLangs::LA
-one hundred eleven (111),centum ūndecim,/ˈkentum ˈuːndekĩ/,,,AnkiLangs::LA
-one hundred one (101),centum ūnus,/ˈkentum ˈuːnus/,,,AnkiLangs::LA
-one hundred ten (110),centum decem,/ˈkentum ˈdekẽ/,,,AnkiLangs::LA
-"one hundred thousand (100,000)",centum mīlia,/ˈkentum ˈmiːlia/,,,AnkiLangs::LA
-one hundred two (102),centum duo,/ˈkentum ˈduo/,,,AnkiLangs::LA
-"one million (1,000,000)",deciēs centum mīlia,/ˈdekieːs ˈkentum ˈmiːlia/,,,AnkiLangs::LA
-one thousand (1000),mīlle,/ˈmiːlːe/,,,AnkiLangs::LA
-one thousand one (1001),mīlle ūnus,/ˈmiːlːe ˈuːnus/,,,AnkiLangs::LA
+one,ūnus,/ˈuːnus/,,,AnkiLangs::LA
+one billion,mīlle mīliōnēs,/ˈmiːlːe miːliˈoːneːs/,,,AnkiLangs::LA
+one hundred,centum,/ˈkentum/,,,AnkiLangs::LA
+one hundred eleven,centum ūndecim,/ˈkentum ˈuːndekĩ/,,,AnkiLangs::LA
+one hundred one,centum ūnus,/ˈkentum ˈuːnus/,,,AnkiLangs::LA
+one hundred ten,centum decem,/ˈkentum ˈdekẽ/,,,AnkiLangs::LA
+one hundred thousand,centum mīlia,/ˈkentum ˈmiːlia/,,,AnkiLangs::LA
+one hundred two,centum duo,/ˈkentum ˈduo/,,,AnkiLangs::LA
+one million,deciēs centum mīlia,/ˈdekieːs ˈkentum ˈmiːlia/,,,AnkiLangs::LA
+one thousand,mīlle,/ˈmiːlːe/,,,AnkiLangs::LA
+one thousand one,mīlle ūnus,/ˈmiːlːe ˈuːnus/,,,AnkiLangs::LA
 orange,aurāntius,/au̯ˈraːntius/,,,AnkiLangs::LA
 pain,dolor,/ˈdolor/,,,AnkiLangs::LA
 peace,pāx,/paːks/,,,AnkiLangs::LA
@@ -156,13 +156,13 @@ sad,trīstis,/ˈtriːstis/,,,AnkiLangs::LA
 salt,sāl,/saːl/,,,AnkiLangs::LA
 Saturday,diēs Saturnī,/ˈdi.eːs saˈturniː/,,,AnkiLangs::LA
 science,scientia,/skiˈentia/,,,AnkiLangs::LA
-second (2nd),secundus,/seˈkundus/,,,AnkiLangs::LA
+second,secundus,/seˈkundus/,,,AnkiLangs::LA
 September,September,/sepˈtember/,,,AnkiLangs::LA
-seven (7),septem,/ˈseptem/,,,AnkiLangs::LA
-seventeen (17),septendecim,/sepˈtendekĩ/,,,AnkiLangs::LA
-seventy (70),septuāgintā,/septuaːˈɡintaː/,,,AnkiLangs::LA
-seventy-one (71),septuāgintā ūnus,/septuaːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
-seventy-two (72),septuāgintā duo,/septuaːˈɡintaː ˈduo/,,,AnkiLangs::LA
+seven,septem,/ˈseptem/,,,AnkiLangs::LA
+seventeen,septendecim,/sepˈtendekĩ/,,,AnkiLangs::LA
+seventy,septuāgintā,/septuaːˈɡintaː/,,,AnkiLangs::LA
+seventy-one,septuāgintā ūnus,/septuaːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
+seventy-two,septuāgintā duo,/septuaːˈɡintaː ˈduo/,,,AnkiLangs::LA
 sex [gender],sexus,/ˈseksus/,,,AnkiLangs::LA
 sex [the act],coitus,/ˈkoitus/,,,AnkiLangs::LA
 shallow,brevis,/ˈbrewis/,,,AnkiLangs::LA
@@ -171,16 +171,16 @@ she,ea,/ˈea/,,,AnkiLangs::LA
 "short [opposite of ""tall""]",brevis,/ˈbrewis/,,,AnkiLangs::LA
 sick,aeger,/ˈae̯ɡer/,,,AnkiLangs::LA
 silver,argentum,/arˈɡentum/,,,AnkiLangs::LA
-six (6),sex,/seks/,,,AnkiLangs::LA
-sixteen (16),sēdecim,/ˈseːdekĩ/,,,AnkiLangs::LA
-sixty (60),sexāgintā,/seksaːˈɡintaː/,,,AnkiLangs::LA
-sixty-one (61),sexāgintā ūnus,/seksaːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
-sixty-two (62),sexāgintā duo,/seksaːˈɡintaː ˈduo/,,,AnkiLangs::LA
+six,sex,/seks/,,,AnkiLangs::LA
+sixteen,sēdecim,/ˈseːdekĩ/,,,AnkiLangs::LA
+sixty,sexāgintā,/seksaːˈɡintaː/,,,AnkiLangs::LA
+sixty-one,sexāgintā ūnus,/seksaːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
+sixty-two,sexāgintā duo,/seksaːˈɡintaː ˈduo/,,,AnkiLangs::LA
 slow,tardus,/ˈtardus/,,,AnkiLangs::LA
 small / little,parvus,/ˈparwus/,,,AnkiLangs::LA
 soft,mollis,/ˈmolːis/,,,AnkiLangs::LA
 soil/earth [ground],humus,/ˈhumus/,,,AnkiLangs::LA
-space (outer space),spatium,/ˈspatium/,,,AnkiLangs::LA
+space,spatium,/ˈspatium/,,,AnkiLangs::LA
 sport,lūdus,/ˈluːdus/,,,AnkiLangs::LA
 stone,lapis,/ˈlapis/,,,AnkiLangs::LA
 straight,rēctus,/ˈreːktus/,,,AnkiLangs::LA
@@ -192,9 +192,8 @@ tall,altus,/ˈaltus/,,,AnkiLangs::LA
 tea,thea,/ˈtʰea/,,,AnkiLangs::LA
 technology,ars mechanica,/ars meˈkaːnika/,,,AnkiLangs::LA
 temperature,temperātūra,/temperaːˈtuːra/,,,AnkiLangs::LA
-ten (10),decem,/ˈdekẽ/,,,AnkiLangs::LA
-"ten thousand (10,000)",decem mīlia,/ˈdekẽ ˈmiːlia/,,,AnkiLangs::LA
-the (train) ticket,tessera,/ˈtesːera/,,,AnkiLangs::LA
+ten,decem,/ˈdekẽ/,,,AnkiLangs::LA
+ten thousand,decem mīlia,/ˈdekẽ ˈmiːlia/,,,AnkiLangs::LA
 the actor,āctor,/ˈaːktor/,,,AnkiLangs::LA
 the adjective,adiectīvum,/adiekˈtiːwum/,,,AnkiLangs::LA
 the adult,adultus,/aˈdultus/,,,AnkiLangs::LA
@@ -268,7 +267,7 @@ the consonant,cōnsōnāns,/koːnsoːˈnaːns/,,,AnkiLangs::LA
 the contract,pactum,/ˈpaktum/,,,AnkiLangs::LA
 the corn,frūmentum,/fruːˈmentum/,,,AnkiLangs::LA
 the corner,angulus,/ˈaŋɡulus/,,,AnkiLangs::LA
-"the country (USA, France, etc.)",patria,/ˈpatria/,,,AnkiLangs::LA
+the country,patria,/ˈpatria/,,,AnkiLangs::LA
 the court,aula,/ˈau̯la/,,,AnkiLangs::LA
 the cow,vacca,/ˈwakka/,,,AnkiLangs::LA
 the crowd,turba,/ˈturba/,,,AnkiLangs::LA
@@ -476,6 +475,7 @@ the tear,lacrima,/ˈlakrima/,,,AnkiLangs::LA
 the telephone,telephōnium,/telepʰoːnium/,,,AnkiLangs::LA
 the television,televīsiō,/telewiːˈsiː.oː/,,,AnkiLangs::LA
 the theater,theātrum,/tʰeˈaːtrum/,,,AnkiLangs::LA
+the ticket,tessera,/ˈtesːera/,,,AnkiLangs::LA
 the time,tempus,/ˈtempus/,,,AnkiLangs::LA
 the tire,autocinēticō,/au̯tokineːtiko/,,,AnkiLangs::LA
 the toe,digitus pedis,/ˈdiɡitus ˈpedis/,,,AnkiLangs::LA
@@ -511,12 +511,12 @@ the year,annus,/ˈanːus/,,,AnkiLangs::LA
 they,eī,/ˈeiː/,,,AnkiLangs::LA
 thick,crassus,/ˈkrasːus/,,,AnkiLangs::LA
 thin,tenuis,/ˈtenuis/,,,AnkiLangs::LA
-third (3rd),tertius,/ˈtertius/,,,AnkiLangs::LA
-thirteen (13),trēdecim,/ˈtreːdekĩ/,,,AnkiLangs::LA
-thirty (30),trīgintā,/triːˈɡintaː/,,,AnkiLangs::LA
-thirty-one (31),trīgintā ūnus,/triːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
-thirty-two (32),trīgintā duo,/triːˈɡintaː ˈduo/,,,AnkiLangs::LA
-three (3),trēs,/treːs/,,,AnkiLangs::LA
+third,tertius,/ˈtertius/,,,AnkiLangs::LA
+thirteen,trēdecim,/ˈtreːdekĩ/,,,AnkiLangs::LA
+thirty,trīgintā,/triːˈɡintaː/,,,AnkiLangs::LA
+thirty-one,trīgintā ūnus,/triːˈɡintaː ˈuːnus/,,,AnkiLangs::LA
+thirty-two,trīgintā duo,/triːˈɡintaː ˈduo/,,,AnkiLangs::LA
+three,trēs,/treːs/,,,AnkiLangs::LA
 Thursday,diēs Iovis,/ˈdi.eːs ˈjowis/,,,AnkiLangs::LA
 tight,artus,/ˈartus/,,,AnkiLangs::LA
 to beat,verberāre,/werbeˈraːre/,,,AnkiLangs::LA
@@ -576,7 +576,7 @@ to run,currere,/ˈkurːere/,,,AnkiLangs::LA
 to see,vidēre,/wiˈdeːre/,,,AnkiLangs::LA
 to sell,vēndere,/ˈweːndere/,,,AnkiLangs::LA
 to shake,quassāre,/kʷasˈsaːre/,,,AnkiLangs::LA
-to shoot (a gun),sagittāre,/saɡitˈtaːre/,,,AnkiLangs::LA
+to shoot,sagittāre,/saɡitˈtaːre/,,,AnkiLangs::LA
 to sign,sīgnāre,/siːɡˈnaːre/,,,AnkiLangs::LA
 to sing,canere,/ˈkanere/,,,AnkiLangs::LA
 to sit,sedēre,/seˈdeːre/,,,AnkiLangs::LA
@@ -603,11 +603,11 @@ to work,labōrāre,/laboːˈraːre/,,,AnkiLangs::LA
 to write,scrībere,/ˈskriːbere/,,,AnkiLangs::LA
 transportation,convectūra,/konwekˈtuːra/,,,AnkiLangs::LA
 Tuesday,diēs Mārtis,/ˈdi.eːs ˈmaːrtis/,,,AnkiLangs::LA
-twelve (12),duodecim,/duoˈdekĩ/,,,AnkiLangs::LA
-twenty (20),vīgintī,/wiːˈɡintiː/,,,AnkiLangs::LA
-twenty-one (21),vīgintī ūnus,/wiːˈɡintiː ˈuːnus/,,,AnkiLangs::LA
-twenty-two (22),vīgintī duo,/wiːˈɡintiː ˈduo/,,,AnkiLangs::LA
-two (2),duo,/ˈduo/,,,AnkiLangs::LA
+twelve,duodecim,/duoˈdekĩ/,,,AnkiLangs::LA
+twenty,vīgintī,/wiːˈɡintiː/,,,AnkiLangs::LA
+twenty-one,vīgintī ūnus,/wiːˈɡintiː ˈuːnus/,,,AnkiLangs::LA
+twenty-two,vīgintī duo,/wiːˈɡintiː ˈduo/,,,AnkiLangs::LA
+two,duo,/ˈduo/,,,AnkiLangs::LA
 ugly,turpis,/ˈturpis/,,,AnkiLangs::LA
 up,sūrsum,/ˈsuːrsum/,,,AnkiLangs::LA
 war,bellum,/ˈbelːum/,,,AnkiLangs::LA

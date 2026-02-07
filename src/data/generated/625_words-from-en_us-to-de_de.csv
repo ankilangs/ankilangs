@@ -36,12 +36,12 @@ down,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 dry,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 dust,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 Earth,"Picture:<br><a href=""https://pixabay.com/photos/earth-globe-planet-world-space-11015/"">https://pixabay.com/photos/earth-globe-planet-world-space-11015/</a>"
-eight (8),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
-eighteen (18),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-eighty (80),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
-eighty-one (81),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-eighty-two (82),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
-eleven (11),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+eight,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
+eighteen,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+eighty,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
+eighty-one,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+eighty-two,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
+eleven,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 energy,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 exercise,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 expensive,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
@@ -49,21 +49,21 @@ famous,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
 fast,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 February,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 female,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-fifteen (15),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-fifth (5th),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-fifty (50),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-fifty-one (51),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-fifty-two (52),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-first (1st),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-five (5),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+fifteen,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+fifth,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+fifty,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+fifty-one,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+fifty-two,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+first,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+five,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 flat,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 food,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-forty (40),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-forty-one (41),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-forty-two (42),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-four (4),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-fourteen (14),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-fourth (4th),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+forty,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+forty-one,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+forty-two,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+four,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+fourteen,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+fourth,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 Friday,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
 glass [material],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 God,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
@@ -112,11 +112,11 @@ narrow,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 nature,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 new,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 nice,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-nine (9),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-nineteen (19),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-ninety (90),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-ninety-one (91),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-ninety-two (92),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+nine,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+nineteen,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+ninety,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+ninety-one,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+ninety-two,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 no,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 November,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 nuclear,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
@@ -124,17 +124,17 @@ October,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 oil,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 "old [opposite of ""new""]",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 "old [opposite of ""young""]",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-one (1),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-"one billion (1,000,000,000)",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-one hundred (100),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-one hundred eleven (111),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-one hundred one (101),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-one hundred ten (110),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-"one hundred thousand (100,000)",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-one hundred two (102),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-"one million (1,000,000)",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-one thousand (1000),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-one thousand one (1001),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+one,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+one billion,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+one hundred,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+one hundred eleven,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+one hundred one,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+one hundred ten,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+one hundred thousand,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+one hundred two,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+one million,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+one thousand,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+one thousand one,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 orange,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 pain,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 peace,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
@@ -156,13 +156,13 @@ sad,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 salt,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 Saturday,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Chirp3-HD-Rasalgethi
 science,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-second (2nd),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+second,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 September,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-seven (7),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-seventeen (17),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-seventy (70),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-seventy-one (71),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-seventy-two (72),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+seven,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+seventeen,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+seventy,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+seventy-one,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+seventy-two,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 sex [gender],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 sex [the act],Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 shallow,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
@@ -171,11 +171,11 @@ she,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 "short [opposite of ""tall""]",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 sick,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 silver,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-six (6),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-sixteen (16),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-sixty (60),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-sixty-one (61),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-sixty-two (62),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+six,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sixteen,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sixty,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sixty-one,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+sixty-two,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 slow,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 small / little,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 soft,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
@@ -191,8 +191,8 @@ tall,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 tea,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 technology,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 temperature,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-ten (10),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-"ten thousand (10,000)",Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+ten,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+ten thousand,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the actor,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the adjective,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the adult,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
@@ -425,6 +425,7 @@ the team,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the tear,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the telephone,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the television,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+the ticket,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the time,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the toe,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 the tongue,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
@@ -454,12 +455,12 @@ the year,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 they,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 thick,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 thin,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-third (3rd),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-thirteen (13),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-thirty (30),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-thirty-one (31),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-thirty-two (32),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-three (3),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+third,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+thirteen,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+thirty,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+thirty-one,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+thirty-two,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+three,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 Thursday,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 tight,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 to beat,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
@@ -519,7 +520,7 @@ to run,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 to see,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 to sell,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 to shake,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-to shoot (a gun),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+to shoot,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 to sign,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 to sing,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 to sit,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
@@ -545,11 +546,11 @@ to win,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 to work,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 to write,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 Tuesday,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
-twelve (12),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-twenty (20),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-twenty-one (21),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-twenty-two (22),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
-two (2),Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
+twelve,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+twenty,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+twenty-one,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+twenty-two,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
+two,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-C
 ugly,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 up,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
 war,Audio:<br>Google Cloud TTS<br>Voice: de-DE-Studio-B
