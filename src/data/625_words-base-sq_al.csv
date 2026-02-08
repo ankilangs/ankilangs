@@ -80,7 +80,7 @@ heavy,i rëndë,/i ˈɾəndə/,[sound:al_sq_al_heavy.mp3],Google Cloud TTS<br>Vo
 hell,ferri,/ˈfɛri/,[sound:al_sq_al_hell.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 high,i lartë,/i ˈlaɾtə/,[sound:al_sq_al_high.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 hot,i nxehtë,/i ˈnksɛhtə/,[sound:al_sq_al_hot.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
-I,unë,/ˈunə/,[sound:al_sq_al_i.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+I,unë,/ˈunə/,[sound:al_sq_al_i.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 it,ai/ajo,/ˈai/ /ˈajɔ/,[sound:al_sq_al_it.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 January,Janar,/jaˈnaɾ/,[sound:al_sq_al_january.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 juice,lëngu,/ˈɫəŋɡu/,[sound:al_sq_al_juice.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
@@ -105,11 +105,11 @@ medicine,ilaçi,/iˈlat͡ʃi/,[sound:al_sq_al_medicine.mp3],Google Cloud TTS<br>
 metal,metali,/mɛˈtali/,[sound:al_sq_al_metal.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 milk,qumështi,/cumˈəʃti/,[sound:al_sq_al_milk.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 Monday,e hënë,/ɛ ˈhənə/,[sound:al_sq_al_monday.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
-money,para,/ˈpaɾa/,[sound:al_sq_al_money.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
+money,para,/pa'ɾa/,[sound:al_sq_al_money.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 murder,vrasja,/ˈvɾasja/,[sound:al_sq_al_murder.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 music,muzika,/ˈmuzika/,[sound:al_sq_al_music.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 narrow,i ngushtë,/i ˈŋuʃtə/,[sound:al_sq_al_narrow.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
-nature,natyra,/naˈtyɾa/,[sound:al_sq_al_nature.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
+nature,natyra,/naˈtyɾa/,[sound:al_sq_al_nature.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::SQ
 new,i ri,/i ɾi/,[sound:al_sq_al_new.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::SQ
 nice,i këndshëm,/i kəndˈʃəm/,[sound:al_sq_al_nice.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 nine,nëntë,/ˈnəntə/,[sound:al_sq_al_nine_9.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
@@ -144,7 +144,7 @@ poison,helmi,/ˈhɛlmi/,[sound:al_sq_al_poison.mp3],Google Cloud TTS<br>Voice: A
 poor,i varfër,/i ˈvaɾfəɾ/,[sound:al_sq_al_poor.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 prison,burgu,/ˈbuɾɡu/,[sound:al_sq_al_prison.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 quiet,i qetë,/i ˈcɛtə/,[sound:al_sq_al_quiet.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
-race [human group],raca,/ˈɾat͡sa/,[sound:al_sq_al_race_ethnicity.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::SQ
+race [human group],raca,/ˈɾat͡sa/,[sound:al_sq_al_race_ethnicity.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 race [sport],gara,/ˈɡaɾa/,[sound:al_sq_al_race_sport.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 red,kuq,/kuc/,[sound:al_sq_al_red.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 relationship,marrëdhënia,/maɾəðəˈnia/,[sound:al_sq_al_relationship.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
@@ -168,7 +168,7 @@ sex [the act],seksi,/ˈsɛksi/,[sound:al_sq_al_sex_the_act.mp3],Google Cloud TTS
 shallow,i cekët,/i ˈt͡sɛkət/,[sound:al_sq_al_shallow.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 she,ajo,/ˈajɔ/,[sound:al_sq_al_she.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 "short [opposite of ""long""]",i shkurtër,/i ˈʃkuɾtəɾ/,[sound:al_sq_al_short_opposite_of_long.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
-"short [opposite of ""tall""]",i ulët,/i ˈulət/,[sound:al_sq_al_short_opposite_of_tall.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
+"short [opposite of ""tall""]",i shkurtër,/i ˈʃkuɾtəɾ/,[sound:al_sq_al_short_opposite_of_tall.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::SQ
 sick,i sëmurë,/i səˈmuɾə/,[sound:al_sq_al_sick.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 silver,argjendi,/aɾˈɟɛndi/,[sound:al_sq_al_silver.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 six,gjashtë,/ˈɟaʃtə/,[sound:al_sq_al_six_6.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
@@ -208,12 +208,12 @@ the army,ushtria,/uʃˈtɾia/,[sound:al_sq_al_the_army.mp3],Google Cloud TTS<br>
 the artist,artisti,/aɾˈtisti/,[sound:al_sq_al_the_artist.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 the attack,sulmi,/ˈsulmi/,[sound:al_sq_al_the_attack.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 the author,autori,/auˈtɔɾi/,[sound:al_sq_al_the_author.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
-the baby,bebi,/ˈbɛbi/,[sound:al_sq_al_the_baby.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
+the baby,bebi,/ˈbɛbi/,[sound:al_sq_al_the_baby.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 the back [anatomy],shpina,/ˈʃpina/,[sound:al_sq_al_the_back_anatomy.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 the back [location],prapa,/ˈpɾapa/,[sound:al_sq_al_the_back_location.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 the bag,çanta,/ˈt͡ʃanta/,[sound:al_sq_al_the_bag.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 the ball,topi,/ˈtɔpi/,[sound:al_sq_al_the_ball.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
-the banana,banane,/baˈnania/,[sound:al_sq_al_the_banana.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
+the banana,banania,/baˈnania/,[sound:al_sq_al_the_banana.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::SQ
 the band [music],grupi muzikor,/ˈɡɾupi muziˈkoɾ/,[sound:al_sq_al_the_band_music.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 the bank,banka,/ˈbanka/,[sound:al_sq_al_the_bank.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 the bar,bari,/ˈbaɾi/,[sound:al_sq_al_the_bar.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
@@ -235,7 +235,7 @@ the bottle,shishja,/ˈʃiʃja/,[sound:al_sq_al_the_bottle.mp3],Google Cloud TTS<
 the bottom,fundi,/ˈfundi/,[sound:al_sq_al_the_bottom.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 the box,kutia,/ˈkutia/,[sound:al_sq_al_the_box.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 the boy,djali,/ˈɟaɫi/,[sound:al_sq_al_the_boy.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
-the brain,truri,/ˈtɾuɾi/,[sound:al_sq_al_the_brain.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
+the brain,truri,/ˈtɾuɾi/,[sound:al_sq_al_the_brain.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::SQ
 the bread,buka,/ˈbuka/,[sound:al_sq_al_the_bread.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 the bridge,ura,/ˈuɾa/,[sound:al_sq_al_the_bridge.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 the brother,vëllai,/vəˈɫai/,[sound:al_sq_al_the_brother.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
@@ -426,7 +426,7 @@ the rain,shiu,/ʃiu/,[sound:al_sq_al_the_rain.mp3],Google Cloud TTS<br>Voice: Ac
 the reporter,reporteri,/ɾɛpɔɾˈtɛɾi/,[sound:al_sq_al_the_reporter.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::SQ
 the restaurant,restoranti,/ɾɛstɔˈɾanti/,[sound:al_sq_al_the_restaurant.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::SQ
 the ring,unaza,/uˈnaza/,[sound:al_sq_al_the_ring.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
-the river,lumi,/ˈɫumi/,[sound:al_sq_al_the_river.mp3],Google Cloud TTS<br>Voice: Aoede,AnkiLangs::SQ
+the river,lumi,/ˈɫumi/,[sound:al_sq_al_the_river.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 the roof,çatia,/ˈʧatia/,[sound:al_sq_al_the_roof.mp3],Google Cloud TTS<br>Voice: Achernar,AnkiLangs::SQ
 the room,dhoma,/ˈðɔma/,[sound:al_sq_al_the_room.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
 the root,rrënja,/ˈrənja/,[sound:al_sq_al_the_root.mp3],Google Cloud TTS<br>Voice: Achird,AnkiLangs::SQ
