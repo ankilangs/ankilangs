@@ -30,3 +30,14 @@ Translations, corrections and improved audio are much appreciated! Have a look a
 ## Development
 
 If you are technically more experienced and want to contribute to this project you can have a look at the [development.md](docs/development.md).
+
+
+## Contributors
+
+Thank you to these people who have contributed with code, improvements, review
+of translations and more:
+
+* Catarina
+* Ivi
+* Nawid
+* Niels
