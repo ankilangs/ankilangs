@@ -114,7 +114,7 @@ The Excel file contains these columns:
 | Column | Purpose | Can Edit? |
 |--------|---------|-----------|
 | A (hidden) | GUID | ⚠️ **NO** - Don't unhide or modify |
-| B | Clarification (English explanation of the key) | No |
+| B | Clarification (English explanation of the key, for reviewers only — not shown to learners) | No |
 | C | Source language (e.g. English) | No |
 | D | Target translation | Yes |
 | E | Target IPA pronunciation | Yes |
@@ -126,6 +126,8 @@ The Excel file contains these columns:
 | K | Your review comments | **Yes** - Add all your comments here |
 
 **Why is GUID hidden?** The GUID (Globally Unique Identifier) is an internal ID that must never be modified. Changing it would break the connection between spreadsheet rows and the original data. It's hidden to prevent accidental edits.
+
+**About the Clarification column:** The clarification is an internal note to help reviewers understand which meaning the key refers to (e.g., "bank" might be clarified as "financial institution"). It does **not** appear on the final Anki cards and is not visible to learners. To help learners disambiguate ambiguous words during study, use [learning hints](#learning-hints) instead.
 
 ### After Your Review
 
