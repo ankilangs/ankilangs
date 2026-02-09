@@ -68,6 +68,60 @@ When populating translations and IPA for a locale, follow this workflow:
 - Use standard IPA symbols for the target language
 - Both `text` and `ipa` columns must be populated for every entry
 
+## Audio Generation
+
+Generate audio files using Google Cloud Text-to-Speech:
+
+```bash
+uv run al-tools audio -l <locale>
+```
+
+**Action modes** (`-a` flag):
+- `skip` (default): Only generate missing audio files
+- `overwrite`: Regenerate all audio files (caution: API costs)
+- `raise`: Error if audio file already exists
+
+**Options**:
+- `--limit N`: Generate only N files (useful for testing/costs)
+- `--delay N`: Seconds between API calls (default: 1.0)
+- `--seed N`: Random seed for reproducible voice selection (default: 42)
+
+**Examples**:
+```bash
+# Generate missing audio for Russian
+uv run al-tools audio -l ru_ru -a skip
+
+# Regenerate specific file: delete it first, then generate
+rm src/media/audio/ru_RU/al_ru_ru_the_lock.mp3
+uv run al-tools audio -l ru_ru -a skip
+```
+
+### TTS Overrides
+
+Use TTS overrides to fix pronunciation issues (stress, homophones, etc.) without changing the displayed text.
+
+**Workflow for fixing pronunciation**:
+
+1. Import CSV to SQLite: `just csv2sqlite`
+2. Add TTS override to `tts_overrides` table:
+   ```sql
+   INSERT INTO tts_overrides (key, locale, tts_text, is_ssml, notes)
+   VALUES ('the lock', 'ru_ru', 'замо́к', 0, 'Stress on second syllable (lock) not first (castle)');
+   ```
+3. Export to CSV: `just sqlite2csv`
+4. Delete old audio file: `rm src/media/audio/ru_RU/al_ru_ru_the_lock.mp3`
+5. Regenerate audio: `uv run al-tools audio -l ru_ru -a skip`
+
+**TTS override techniques**:
+- **Stress marks**: Use Unicode combining acute accent (U+0301) after stressed vowel
+  - Example: `замо́к` (lock, stress on о) vs `за́мок` (castle, stress on а)
+- **SSML**: Set `is_ssml = 1` and use SSML markup in `tts_text`
+- **Alternate spelling**: Use phonetic spelling that TTS pronounces correctly
+
+**Database schema**:
+- `tts_overrides` table: (key, locale, tts_text, is_ssml, notes)
+- When a TTS override exists, `tts_text` is sent to TTS instead of `base_language.text`
+
 ## Hints System
 Hints disambiguate ambiguous words without revealing the translation. There are 4 card types, each with its own hint column:
 
@@ -119,11 +173,13 @@ Hints disambiguate ambiguous words without revealing the translation. There are 
 ## Useful SQLite Queries
 
 ### Database Schema Summary
-- `vocabulary`: Primary keys for all words
+- `vocabulary`: Primary keys for all words (key, clarification)
 - `base_language`: Language-specific data (key, locale, text, ipa, audio, audio_source)
 - `translation_pair`: Translation metadata (key, source_locale, target_locale, hints, notes)
 - `pictures`: Picture references (sparse)
 - `minimal_pairs`: Minimal pair exercises
+
+**Note**: The `key` and `clarification` fields in `vocabulary` are internal identifiers and metadata — they do NOT appear on the final Anki cards. They exist only for data management purposes. To help learners disambiguate ambiguous words on cards, use the **hints** in `translation_pair` (see Hints System above).
 
 **IMPORTANT**: SQLite uses `<>` or `!=` for not-equal, but `<>` is more standard. Use `IS NULL OR column = ''` to check for empty values.
 
