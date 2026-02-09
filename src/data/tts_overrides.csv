@@ -54,6 +54,7 @@ the direction,en_us,"<speak xml:lang=""en-US""><s><prosody rate=""slow"">the dir
 the dot,ta_in,"<speak xml:lang=""ta-IN""><phoneme alphabet=""ipa"" ph=""puɭɭi"">புள்ளி</phoneme></speak>",1,Fix mispronunciation of retroflex ள்
 the east,pt_pt,"<speak xml:lang=""pt-PT"">o <phoneme alphabet=""ipa"" ph=""ˈɛʃtɨ"">este</phoneme></speak>",1,"Fixed wrong audio - explicit IPA for ""este"" (east)"
 the grandmother,es_es,"<speak>la<break time=""50ms""/>abuela</speak>",1,
+the lock,ru_ru,замо́к,0,Stress on second syllable (lock) not first (castle)
 the noun,pt_pt,"<speak xml:lang=""pt-PT"">o <phoneme alphabet=""ipa"" ph=""subʃtɐ̃ˈtivu"">substantivo</phoneme></speak>",1,Fixed wrong audio - explicit IPA pronunciation
 the patient,es_es,"<speak>el paciente<break time=""200ms""/>la paciente</speak>",1,
 the ship,es_es,"<speak>el barco<break time=""200ms""/>el buque</speak>",1,
