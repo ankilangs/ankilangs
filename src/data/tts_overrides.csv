@@ -51,6 +51,7 @@ ten,es_es,diez,0,Avoid reading parenthetical (10)
 ten thousand,es_es,diez mil,0,"Avoid reading parenthetical (10,000)"
 the air,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">el aire</prosody></s></speak>",1,
 the direction,en_us,"<speak xml:lang=""en-US""><s><prosody rate=""slow"">the direction</prosody></s></speak>",1,
+the dot,ta_in,"<speak xml:lang=""ta-IN""><phoneme alphabet=""ipa"" ph=""puɭɭi"">புள்ளி</phoneme></speak>",1,Fix mispronunciation of retroflex ள்
 the east,pt_pt,"<speak xml:lang=""pt-PT"">o <phoneme alphabet=""ipa"" ph=""ˈɛʃtɨ"">este</phoneme></speak>",1,"Fixed wrong audio - explicit IPA for ""este"" (east)"
 the grandmother,es_es,"<speak>la<break time=""50ms""/>abuela</speak>",1,
 the noun,pt_pt,"<speak xml:lang=""pt-PT"">o <phoneme alphabet=""ipa"" ph=""subʃtɐ̃ˈtivu"">substantivo</phoneme></speak>",1,Fixed wrong audio - explicit IPA pronunciation
