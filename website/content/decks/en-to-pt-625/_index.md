@@ -2,11 +2,10 @@
 title: "Portuguese (EN to PT) | 625 Words"
 aliases:
   - /docs/decks/en-to-pt-625/
-
 deck_id: en_to_pt_625
 version: "0.2.0"
 download_url: "https://github.com/ankilangs/ankilangs/releases/download/EN_to_PT_625_Words%2F0.2.0/Portuguese.EN.to.PT.-.625.Words.-.AnkiLangs.org.-.v0.2.0.apkg"
-ankiweb_url: ""
+ankiweb_url: "https://ankiweb.net/shared/info/17319344"
 weight: 10
 ---
 
@@ -19,6 +18,8 @@ Learn the 625 most important Portuguese words if you already speak English.
 Note that this deck is not finished!
 
 [Download deck]({{< param download_url >}})
+
+Also available on [AnkiWeb]({{< param ankiweb_url >}}). If you enjoy this deck, please rate it there to help other learners find it!
 
 See [Installation Instructions]({{< ref "/installation" >}}) and [Learning Tips]({{< ref "/learning-tips" >}}).
 
