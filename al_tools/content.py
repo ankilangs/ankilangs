@@ -343,6 +343,16 @@ class ContentGenerator:
         locale = self.deck.source_locale
         version_label = get_ui_string(locale, "version")
 
+        # Look up release date from changelog
+        version_display = version
+        changelog_path = self.content_dir / "changelog.md"
+        if changelog_path.exists():
+            entry = ChangelogParser.get_version_entry(changelog_path, version)
+            if entry and entry.date:
+                date_str = entry.date.strftime("%Y-%m-%d")
+                release_label = get_ui_string(locale, "release_date")
+                version_display = f"{version} ({release_label}: {date_str})"
+
         # Build deck page URL
         deck_url = f"https://ankilangs.org/decks/{self.deck.website_slug}/"
 
@@ -353,7 +363,7 @@ class ContentGenerator:
             description,
             check_deck_page,
             check_more_decks,
-            f"<b>{version_label}: </b>{version}",
+            f"<b>{version_label}: </b>{version_display}",
         ]
 
         # End all lines but the last with 2 trailing spaces for Anki spacing
