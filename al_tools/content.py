@@ -354,10 +354,11 @@ class ContentGenerator:
             check_deck_page,
             check_more_decks,
             f"<b>{version_label}: </b>{version}",
-            "",  # trailing newline
         ]
 
-        return "\n".join(lines)
+        # End all lines but the last with 2 trailing spaces for Anki spacing
+        spaced = [line + "  " for line in lines[:-1]] + [lines[-1]]
+        return "\n".join(spaced) + "\n"
 
     def generate_ankiweb_description(self) -> str:
         """Generate AnkiWeb description from source content.
