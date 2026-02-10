@@ -16,7 +16,7 @@ aliases:
 
 Learn other languages if you speak English.
 
-- [Albanian (EN to SQ) | 625 Words](en-to-sq-625) (unreleased)
+- [Albanian (EN to SQ) | 625 Words](en-to-sq-625) (1.0.0 - 2026-02-10)
 - [Arabic (EN to AR) | 625 Words](en-to-ar-625) (unreleased)
 - [Dutch (EN to NL) | 625 Words](en-to-nl-625) (unreleased)
 - [Farsi (EN to FA) | 625 Words](en-to-fa-625) (unreleased)
@@ -27,7 +27,7 @@ Learn other languages if you speak English.
 - [Kannada (EN to KN) | 625 Words](en-to-kn-625) (unreleased)
 - [Marathi (EN to MR) | 625 Words](en-to-mr-625) (unreleased)
 - [Norwegian (EN to NB) | 625 Words](en-to-nb-625) (unreleased)
-- [Portuguese (EN to PT) | 625 Words](en-to-pt-625) (0.2.0 - 2025-01-22)
+- [Portuguese (EN to PT) | 625 Words](en-to-pt-625) (1.0.0 - 2026-02-10)
 - [Russian (EN to RU) | 625 Words](en-to-ru-625) (unreleased)
 - [Spanish (EN to ES) | 625 Words](en-to-es-625) (1.0.0 - 2026-01-21)
 - [Swedish (EN to SV) | 625 Words](en-to-sv-625) (unreleased)
