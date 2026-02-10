@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Optional, Tuple
 
-from al_tools.content import ChangelogParser
+from al_tools.content import ChangelogParser, ContentGenerator
 from al_tools.registry import Deck
 
 
@@ -303,6 +303,18 @@ def validate_release(deck: Deck, target_version: str) -> ValidationResult:
         )
 
     return ValidationResult(errors=errors, warnings=warnings)
+
+
+def regenerate_description_file(deck: Deck, new_version: str) -> None:
+    """Regenerate the full description HTML file for a deck.
+
+    Uses ContentGenerator to produce the complete description content
+    including description text, deck page link, and version line.
+    """
+    description_file = Path(deck.description_file)
+    generator = ContentGenerator(deck)
+    content = generator.generate_description_file_content(new_version)
+    description_file.write_text(content)
 
 
 def update_description_file_version(description_file: Path, new_version: str) -> None:

@@ -327,6 +327,8 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "source_language_decks_header": "Deutsche Stapel",
         "ankiweb_also_available": "Auch auf [AnkiWeb]({}) verfügbar. Wenn dir dieser Stapel gefällt, bewerte ihn dort, um anderen Lernenden zu helfen, ihn zu finden!",
         "ankiweb_rate_review": "Wenn du diesen Stapel nützlich findest, bewerte ihn bitte und hinterlasse eine Rezension, um anderen Lernenden zu helfen!",
+        "check_deck_page_html": 'Siehe <a href="{}">die Seite dieses Stapels</a> für Updates, Dokumentation und um Probleme zu melden.',
+        "check_more_decks_html": 'Mehr Stapel auf <a href="https://ankilangs.org">AnkiLangs.org</a>.',
     },
     "en_us": {
         "to": "to",
@@ -347,6 +349,8 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "source_language_decks_header": "English Decks",
         "ankiweb_also_available": "Also available on [AnkiWeb]({}). If you enjoy this deck, please rate it there to help other learners find it!",
         "ankiweb_rate_review": "If you find this deck useful, please rate it and leave a review to help other learners find it!",
+        "check_deck_page_html": 'Check <a href="{}">this deck\'s page</a> for updates, documentation, and to report issues.',
+        "check_more_decks_html": 'Check <a href="https://ankilangs.org">AnkiLangs.org</a> for more decks.',
     },
     "es_es": {
         "to": "a",
@@ -367,6 +371,8 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "source_language_decks_header": "Mazos españoles",
         "ankiweb_also_available": "También disponible en [AnkiWeb]({}). Si te gusta este mazo, califícalo allí para ayudar a otros estudiantes a encontrarlo.",
         "ankiweb_rate_review": "Si este mazo te resulta útil, califícalo y deja una reseña para ayudar a otros estudiantes.",
+        "check_deck_page_html": 'Consulta <a href="{}">la página de este mazo</a> para actualizaciones, documentación y para reportar problemas.',
+        "check_more_decks_html": 'Más mazos en <a href="https://ankilangs.org">AnkiLangs.org</a>.',
     },
     "fr_fr": {
         "to": "à",
@@ -387,6 +393,8 @@ UI_STRINGS: Dict[str, Dict[str, str]] = {
         "source_language_decks_header": "Paquets français",
         "ankiweb_also_available": "Également disponible sur [AnkiWeb]({}). Si ce paquet vous plaît, notez-le pour aider d'autres apprenants à le trouver !",
         "ankiweb_rate_review": "Si ce paquet vous est utile, notez-le et laissez un avis pour aider d'autres apprenants !",
+        "check_deck_page_html": 'Consultez <a href="{}">la page de ce paquet</a> pour les mises à jour, la documentation et pour signaler des problèmes.',
+        "check_more_decks_html": 'Plus de paquets sur <a href="https://ankilangs.org">AnkiLangs.org</a>.',
     },
     "it_it": {
         "to": "a",

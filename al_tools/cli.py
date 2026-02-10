@@ -682,7 +682,7 @@ def run_release(
     from al_tools.release import (
         Version,
         validate_release,
-        update_description_file_version,
+        regenerate_description_file,
         update_decks_yaml_version,
         create_release_commit,
         create_git_tag,
@@ -704,7 +704,7 @@ def run_release(
     print(f"{'=' * 70}\n")
 
     # Validate the release
-    print("[1/7] Validating release...\n")
+    print("[1/8] Validating release...\n")
     result = validate_release(deck, target_version)
 
     # Print validation results
@@ -723,15 +723,18 @@ def run_release(
         print("\n✓ Validation passed. Here's what would be done:\n")
         print("  1. Run pre-release checks (just check-code)")
         print(f"  2. Update versions to {target_version}")
-        print(f"     • {deck.description_file}")
+        print(f"     • {deck.description_file} (full regeneration)")
+        print("     • decks.yaml")
+        print("  3. Run build (just build)")
+        print(
+            f"  4. Create release commit: 'release: {deck.tag_name} {target_version}'"
+        )
+        print(f"  5. Create git tag: {deck.tag_name}/{target_version}")
+        print(f"  6. Update versions to {next_dev_version}")
+        print(f"     • {deck.description_file} (full regeneration)")
         print("     • decks.yaml")
         print(
-            f"  3. Create release commit: 'release: {deck.tag_name} {target_version}'"
-        )
-        print(f"  4. Create git tag: {deck.tag_name}/{target_version}")
-        print(f"  5. Update versions to {next_dev_version}")
-        print(
-            f"  6. Create post-release commit: 'chore: bump {deck_id} to {next_dev_version}'"
+            f"  7. Create post-release commit: 'chore: bump {deck_id} to {next_dev_version}'"
         )
         print()
         print("Run without --dry-run to perform the release.")
@@ -740,7 +743,7 @@ def run_release(
     # Perform the release
     try:
         # Step 2: Run pre-release checks
-        print("[2/7] Running pre-release checks...\n")
+        print("[2/8] Running pre-release checks...\n")
         print("  • Running code checks...")
         result = subprocess.run(
             ["just", "check-code"],
@@ -755,12 +758,12 @@ def run_release(
         print()
 
         # Step 3: Update versions to release version
-        print(f"[3/7] Updating versions to {target_version}...\n")
+        print(f"[3/8] Updating versions to {target_version}...\n")
 
         description_path = Path(deck.description_file)
-        print(f"  • Updating {description_path}...")
-        update_description_file_version(description_path, target_version)
-        print(f"    ✓ Updated to {target_version}")
+        print(f"  • Regenerating {description_path}...")
+        regenerate_description_file(deck, target_version)
+        print(f"    ✓ Regenerated with version {target_version}")
 
         registry_path = registry.registry_path
         print(f"  • Updating {registry_path}...")
@@ -768,30 +771,45 @@ def run_release(
         print(f"    ✓ Updated to {target_version}")
         print()
 
-        # Step 4: Create release commit
-        print("[4/7] Creating release commit...\n")
+        # Step 4: Build
+        print("[4/8] Running build...\n")
+        print("  • Running just build...")
+        result = subprocess.run(
+            ["just", "build"],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        if result.returncode != 0:
+            print(f"❌ Build failed:\n{result.stdout}\n{result.stderr}")
+            return
+        print("  ✓ Build completed")
+        print()
+
+        # Step 5: Create release commit
+        print("[5/8] Creating release commit...\n")
         create_release_commit(deck, target_version)
         print()
 
-        # Step 5: Create git tag
-        print("[5/7] Creating git tag...\n")
+        # Step 6: Create git tag
+        print("[6/8] Creating git tag...\n")
         create_git_tag(deck, target_version)
         print()
 
-        # Step 6: Update versions to next dev version
-        print(f"[6/7] Updating versions to {next_dev_version}...\n")
+        # Step 7: Update versions to next dev version
+        print(f"[7/8] Updating versions to {next_dev_version}...\n")
 
-        print(f"  • Updating {description_path}...")
-        update_description_file_version(description_path, next_dev_version)
-        print(f"    ✓ Updated to {next_dev_version}")
+        print(f"  • Regenerating {description_path}...")
+        regenerate_description_file(deck, next_dev_version)
+        print(f"    ✓ Regenerated with version {next_dev_version}")
 
         print(f"  • Updating {registry_path}...")
         update_decks_yaml_version(registry_path, deck_id, next_dev_version)
         print(f"    ✓ Updated to {next_dev_version}")
         print()
 
-        # Step 7: Create post-release commit
-        print("[7/7] Creating post-release commit...\n")
+        # Step 8: Create post-release commit
+        print("[8/8] Creating post-release commit...\n")
         create_post_release_commit(deck, next_dev_version)
         print()
 
@@ -801,14 +819,11 @@ def run_release(
         print()
         print("Next steps:")
         print()
-        print("  1. Build the deck:")
-        print("     just build")
-        print()
-        print("  2. Import deck into Anki and export as .apkg:")
+        print("  1. Import deck into Anki and export as .apkg:")
         print(f"     File → Import → build/{deck.tag_name}")
         print(f"     File → Export → {deck.tag_name} - {target_version}.apkg")
         print()
-        print("  3. Finalize the release:")
+        print("  2. Finalize the release:")
         print(f"     al-tools release {deck_id} --finalize <path-to-apkg>")
         print()
 

@@ -330,6 +330,35 @@ class ContentGenerator:
 
         return "\n".join(sections) + "\n"
 
+    def generate_description_file_content(self, version: str) -> str:
+        """Generate full HTML content for the description file shown inside Anki.
+
+        Args:
+            version: Version string to display (e.g., "1.0.0" or "1.0.1-dev")
+
+        Returns:
+            Complete HTML content for the description file.
+        """
+        description = self._read_description()
+        locale = self.deck.source_locale
+        version_label = get_ui_string(locale, "version")
+
+        # Build deck page URL
+        deck_url = f"https://ankilangs.org/decks/{self.deck.website_slug}/"
+
+        check_deck_page = get_ui_string(locale, "check_deck_page_html", deck_url)
+        check_more_decks = get_ui_string(locale, "check_more_decks_html")
+
+        lines = [
+            description,
+            check_deck_page,
+            check_more_decks,
+            f"<b>{version_label}: </b>{version}",
+            "",  # trailing newline
+        ]
+
+        return "\n".join(lines)
+
     def generate_ankiweb_description(self) -> str:
         """Generate AnkiWeb description from source content.
 

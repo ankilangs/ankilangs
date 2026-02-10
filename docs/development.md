@@ -545,16 +545,12 @@ Releases are mostly automated using `al-tools release` commands.
    This will:
    - Validate release (changelog entry, clean working tree, etc.)
    - Run pre-release checks (code quality)
-   - Update version to 1.0.0 and commit
-   - Create git tag `EN_to_ES_625_Words/1.0.0`
+   - Update version to 1.0.0 (regenerates description file)
+   - Build all decks (`just build`)
+   - Create release commit and git tag `EN_to_ES_625_Words/1.0.0`
    - Update version to 1.0.1-dev and commit
 
-3. **Build the deck**:
-   ```bash
-   just build
-   ```
-
-4. **Export from Anki**:
+3. **Export from Anki**:
    - Open Anki
    - File → CrowdAnki: Import from disk → select `build/EN_to_ES_625_Words`
    - File → Export
@@ -562,7 +558,7 @@ Releases are mostly automated using `al-tools release` commands.
    - Include media, support older Anki versions
    - Save as `EN_to_ES_625_Words - 1.0.0.apkg`
 
-5. **Finalize release** (creates GitHub release, generates AnkiWeb description):
+4. **Finalize release** (creates GitHub release, generates AnkiWeb description):
    ```bash
    al-tools release en_to_es_625 --finalize ~/Downloads/EN_to_ES_625_Words\ -\ 1.0.0.apkg
    ```
@@ -572,13 +568,13 @@ Releases are mostly automated using `al-tools release` commands.
    - Upload .apkg file
    - Generate AnkiWeb description and copy to clipboard
 
-6. **Push to GitHub**:
+5. **Push to GitHub**:
    ```bash
    jj git push
    git push --tags
    ```
 
-7. **Update AnkiWeb**:
+6. **Update AnkiWeb**:
    - Visit https://ankiweb.net/shared/upload
    - Upload the .apkg file
    - Paste description from `build/ankiweb_description_<deck_id>.md`
