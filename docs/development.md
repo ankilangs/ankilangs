@@ -513,19 +513,90 @@ just
 
 ## Release Process
 
-To release a deck:
+Releases are mostly automated using `al-tools release` commands.
 
-1. Update version in `src/headers/description*.md`
-2. Build: `just build`
-3. Update to next dev version
-4. Import into Anki
-5. Export from Anki:
-   - Include media
-   - Support older Anki versions
-6. Rename exported deck with version (e.g., `- 0.0.1`)
-7. Create Git tag
-8. Create GitHub release with exported deck
-9. Update README and website with download links
+### Prerequisites
+
+- Deck must be registered in `decks.yaml`
+- Changelog entry exists for target version in `src/deck_content/<deck>/changelog.md`
+- Clean working directory (no uncommitted changes)
+- `gh` CLI tool installed and authenticated (for finalization)
+
+### Steps
+
+1. **Update changelog** with new version entry:
+   ```bash
+   vim src/deck_content/en_to_es_625/changelog.md
+   ```
+
+   Add entry like:
+   ```markdown
+   ## 1.0.0 - 2026-02-10
+
+   - Complete audio and IPA for all words
+   - Complete hints for ambiguous words
+   ```
+
+2. **Run release automation** (validates, updates versions, creates commits/tag):
+   ```bash
+   al-tools release en_to_es_625 --version 1.0.0
+   ```
+
+   This will:
+   - Validate release (changelog entry, clean working tree, etc.)
+   - Run pre-release checks (code quality)
+   - Update version to 1.0.0 and commit
+   - Create git tag `EN_to_ES_625_Words/1.0.0`
+   - Update version to 1.0.1-dev and commit
+
+3. **Build the deck**:
+   ```bash
+   just build
+   ```
+
+4. **Export from Anki**:
+   - Open Anki
+   - File → CrowdAnki: Import from disk → select `build/EN_to_ES_625_Words`
+   - File → Export
+   - Select the deck, choose `.apkg` format
+   - Include media, support older Anki versions
+   - Save as `EN_to_ES_625_Words - 1.0.0.apkg`
+
+5. **Finalize release** (creates GitHub release, generates AnkiWeb description):
+   ```bash
+   al-tools release en_to_es_625 --finalize ~/Downloads/EN_to_ES_625_Words\ -\ 1.0.0.apkg
+   ```
+
+   This will:
+   - Create GitHub release with changelog
+   - Upload .apkg file
+   - Generate AnkiWeb description and copy to clipboard
+
+6. **Push to GitHub**:
+   ```bash
+   jj git push
+   git push --tags
+   ```
+
+7. **Update AnkiWeb**:
+   - Visit https://ankiweb.net/shared/upload
+   - Upload the .apkg file
+   - Paste description from `build/ankiweb_description_<deck_id>.md`
+
+### Dry Run
+
+Validate without making changes:
+
+```bash
+al-tools release en_to_es_625 --version 1.0.0 --dry-run
+```
+
+### Troubleshooting
+
+- **Validation fails**: Fix errors shown (e.g., add changelog entry, commit changes)
+- **Wrong version**: Use proper semver format (X.Y.Z) without -dev suffix
+- **Build fails**: Run `just check-data` to validate data quality
+- **gh CLI not found**: Install from https://cli.github.com/
 
 ## Tips & Tricks
 
