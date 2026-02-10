@@ -292,9 +292,19 @@ class ContentGenerator:
                 [
                     f"[{download_text}]({{{{< param download_url >}}}})",
                     "",
-                    see_text,
                 ]
             )
+
+            # Add AnkiWeb link with rating encouragement if available
+            if self.deck.ankiweb_id:
+                ankiweb_text = get_ui_string(
+                    locale,
+                    "ankiweb_also_available",
+                    "{{< param ankiweb_url >}}",
+                )
+                sections.extend([ankiweb_text, ""])
+
+            sections.append(see_text)
         else:
             # Deck is unreleased - show note
             unreleased_note = get_ui_string(locale, "unreleased_note")
@@ -337,8 +347,12 @@ class ContentGenerator:
         )
         screenshots_text = get_ui_string(locale, "screenshots")
 
+        ankiweb_rate_text = get_ui_string(locale, "ankiweb_rate_review")
+
         sections = [
             description,
+            "",
+            ankiweb_rate_text,
             "",
             f"See [ankilangs.org/decks/{self.deck.website_slug}](https://ankilangs.org/decks/{self.deck.website_slug}/) for full documentation, learning tips, and to report issues.",
             "",
@@ -421,6 +435,20 @@ class ContentGenerator:
                 "## Installation",
                 "",
                 "Download the `.apkg` file below and import into Anki (File → Import).",
+            ]
+        )
+
+        if self.deck.ankiweb_id:
+            ankiweb_url = f"https://ankiweb.net/shared/info/{self.deck.ankiweb_id}"
+            sections.extend(
+                [
+                    "",
+                    f"Also available on [AnkiWeb]({ankiweb_url}). If you like this deck, please rate and review it there!",
+                ]
+            )
+
+        sections.extend(
+            [
                 "",
                 f"**Full changelog & documentation:** https://ankilangs.org/decks/{self.deck.website_slug}/",
             ]
@@ -567,6 +595,8 @@ class ContentGenerator:
         frontmatter_lines = [
             "---",
             f'title: "{title}"',
+            "aliases:",
+            f"  - /docs/decks/{self.deck.website_slug}/",
             f"deck_id: {self.deck.deck_id}",
             f'version: "{version_for_url}"',
             f'download_url: "{download_url}"',
