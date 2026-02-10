@@ -223,6 +223,13 @@ def cli():
         help="Release management commands",
         description="Manage deck releases and versioning. Use --list to show all registered decks with their current versions, latest release versions, and AnkiWeb upload status.",
     )
+    release_parser.add_argument("deck_id", nargs="?", help="Deck ID to release")
+    release_parser.add_argument(
+        "--version", type=str, help="Target version (e.g., 1.0.0)"
+    )
+    release_parser.add_argument(
+        "--dry-run", action="store_true", help="Validate without making changes"
+    )
     release_parser.add_argument(
         "--list", action="store_true", help="List all decks and their status"
     )
@@ -373,6 +380,19 @@ def cli():
         if args.list:
             registry = DeckRegistry(Path(args.registry))
             print_deck_list(registry, Path(args.database))
+        elif args.deck_id:
+            if not args.version:
+                print("Error: --version is required when releasing a deck")
+                release_parser.print_help()
+                return
+
+            registry = DeckRegistry(Path(args.registry))
+            run_release(
+                registry,
+                args.deck_id,
+                args.version,
+                dry_run=args.dry_run,
+            )
         else:
             release_parser.print_help()
     elif args.command == "generate-website":
@@ -632,3 +652,95 @@ def generate_ankiweb_description(
             print("✓ Copied to clipboard")
         except (subprocess.CalledProcessError, FileNotFoundError):
             print("⚠ Could not copy to clipboard (xclip not available)")
+
+
+def run_release(
+    registry: DeckRegistry,
+    deck_id: str,
+    target_version: str,
+    dry_run: bool = False,
+):
+    """Run a deck release with validation.
+
+    Args:
+        registry: Deck registry
+        deck_id: ID of deck to release
+        target_version: Target version (e.g., "1.0.0")
+        dry_run: If True, only validate without making changes
+    """
+    from al_tools.release import (
+        validate_release,
+        update_description_file_version,
+        update_decks_yaml_version,
+    )
+
+    # Get the deck
+    deck = registry.get(deck_id)
+    if not deck:
+        print(f"❌ Error: Deck '{deck_id}' not found in registry")
+        return
+
+    print(f"\n{'=' * 60}")
+    print(f"Release: {deck.name}")
+    print(f"Current version: {deck.version}")
+    print(f"Target version:  {target_version}")
+    if dry_run:
+        print("Mode: DRY RUN (no changes will be made)")
+    print(f"{'=' * 60}\n")
+
+    # Validate the release
+    print("[1/2] Validating release...\n")
+    result = validate_release(deck, target_version)
+
+    # Print validation results
+    print(result.format())
+    print()
+
+    if not result.is_valid:
+        print("❌ Release validation failed. Please fix the errors above.")
+        return
+
+    if dry_run:
+        print("\n✓ Validation passed. Here's what would be done:\n")
+        print(f"  1. Update {deck.description_file}")
+        print(f"     • Change version from {deck.version} to {target_version}")
+        print()
+        print("  2. Update decks.yaml")
+        print(
+            f"     • Change {deck_id} version from {deck.version} to {target_version}"
+        )
+        print()
+        print("Run without --dry-run to apply these changes.")
+        return
+
+    # Perform the release
+    print("[2/2] Updating versions...\n")
+
+    try:
+        # Update description file
+        description_path = Path(deck.description_file)
+        print(f"  • Updating {description_path}...")
+        update_description_file_version(description_path, target_version)
+        print(f"    ✓ Version updated to {target_version}")
+
+        # Update decks.yaml
+        registry_path = registry.registry_path
+        print(f"  • Updating {registry_path}...")
+        update_decks_yaml_version(registry_path, deck_id, target_version)
+        print(f"    ✓ Version updated to {target_version}")
+
+        print()
+        print("✓ Version bump complete!")
+        print()
+        print("Next steps:")
+        print("  1. Review the changes: jj diff")
+        print("  2. Build the deck: just build")
+        print("  3. Commit the changes: jj commit -m 'release: [deck-name] [version]'")
+        print()
+
+    except Exception as e:
+        print(f"\n❌ Error during release: {e}")
+        import traceback
+
+        traceback.print_exc()
+        return

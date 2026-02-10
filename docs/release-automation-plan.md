@@ -588,13 +588,30 @@ Skipped the manual-first approach; went directly to generated pages.
 - AnkiWeb description should include rating/review encouragement
 - GitHub release notes should link to AnkiWeb when available
 
-### Phase 5: Core Release Flow -- TODO
+### Phase 5: Core Release Flow -- DONE
 
-1. Implement version parsing and validation
-2. Add `al-tools release <deck> --dry-run`
-3. Add changelog validation (entry must exist)
-4. Implement description file version update
-5. Implement version bump in `decks.yaml` and description file
+1. ~~Implement version parsing and validation~~
+2. ~~Add `al-tools release <deck> --dry-run`~~
+3. ~~Add changelog validation (entry must exist)~~
+4. ~~Implement description file version update~~
+5. ~~Implement version bump in `decks.yaml` and description file~~
+
+**Implementation details:**
+- Created `al_tools/release.py` module with:
+  - `Version` dataclass for parsing and comparing semantic versions
+  - `validate_version_bump()` function with proper transition rules
+  - `validate_release()` function with comprehensive pre-release checks
+  - `update_description_file_version()` to update description HTML files
+  - `update_decks_yaml_version()` to update deck registry
+- Extended CLI with `al-tools release <deck> --version X.Y.Z [--dry-run]`
+- Validation checks include:
+  - Version bump validity
+  - Uncommitted changes detection (jj/git)
+  - Git tag existence
+  - Changelog entry existence
+  - Description file existence
+  - Screenshot warnings
+  - AnkiWeb ID warnings
 
 ### Phase 6: VCS & GitHub Integration -- TODO
 
