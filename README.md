@@ -42,4 +42,4 @@ of translations and more:
 * Ivi
 * Nawid
 * Niels
-* Subhashini Ananthapadmanaban
+* [Subhashini Ananthapadmanaban](https://github.com/subhaa1989)
