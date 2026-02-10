@@ -398,3 +398,101 @@ def update_decks_yaml_version(
 
     # Write back
     registry_path.write_text("\n".join(lines))
+
+
+def create_release_commit(deck: Deck, version: str) -> None:
+    """Create a release commit using jj or git.
+
+    Commit message format: "release: TAG_NAME VERSION"
+    Example: "release: EN_to_ES_625_Words 1.0.0"
+    """
+    commit_message = f"release: {deck.tag_name} {version}"
+
+    # Try jj first
+    try:
+        subprocess.run(
+            ["jj", "commit", "-m", commit_message],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        print(f"  ✓ Created commit: {commit_message}")
+        return
+    except FileNotFoundError:
+        pass  # jj not available, try git
+    except subprocess.CalledProcessError as e:
+        raise RuntimeError(f"Failed to create commit with jj: {e.stderr}")
+
+    # Fall back to git
+    try:
+        subprocess.run(
+            ["git", "commit", "-a", "-m", commit_message],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        print(f"  ✓ Created commit: {commit_message}")
+    except subprocess.CalledProcessError as e:
+        raise RuntimeError(f"Failed to create commit with git: {e.stderr}")
+    except FileNotFoundError:
+        raise RuntimeError("Neither jj nor git is available")
+
+
+def create_git_tag(deck: Deck, version: str) -> None:
+    """Create a git tag for the release.
+
+    Tag format: TAG_NAME/VERSION
+    Example: EN_to_ES_625_Words/1.0.0
+    """
+    tag_name = f"{deck.tag_name}/{version}"
+
+    try:
+        subprocess.run(
+            ["git", "tag", tag_name],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        print(f"  ✓ Created tag: {tag_name}")
+    except subprocess.CalledProcessError as e:
+        raise RuntimeError(f"Failed to create tag: {e.stderr}")
+    except FileNotFoundError:
+        raise RuntimeError("git is not available")
+
+
+def create_post_release_commit(deck: Deck, next_dev_version: str) -> None:
+    """Create a post-release commit for the next dev version.
+
+    Commit message format: "chore: bump DECK_ID to VERSION"
+    Example: "chore: bump en_to_es_625 to 1.0.1-dev"
+    """
+    commit_message = f"chore: bump {deck.deck_id} to {next_dev_version}"
+
+    # Try jj first
+    try:
+        subprocess.run(
+            ["jj", "commit", "-m", commit_message],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        print(f"  ✓ Created commit: {commit_message}")
+        return
+    except FileNotFoundError:
+        pass  # jj not available, try git
+    except subprocess.CalledProcessError as e:
+        raise RuntimeError(f"Failed to create post-release commit with jj: {e.stderr}")
+
+    # Fall back to git
+    try:
+        subprocess.run(
+            ["git", "commit", "-a", "-m", commit_message],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        print(f"  ✓ Created commit: {commit_message}")
+    except subprocess.CalledProcessError as e:
+        raise RuntimeError(f"Failed to create post-release commit with git: {e.stderr}")
+    except FileNotFoundError:
+        raise RuntimeError("Neither jj nor git is available")

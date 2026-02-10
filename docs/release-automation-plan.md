@@ -613,13 +613,37 @@ Skipped the manual-first approach; went directly to generated pages.
   - Screenshot warnings
   - AnkiWeb ID warnings
 
-### Phase 6: VCS & GitHub Integration -- TODO
+### Phase 6: VCS & GitHub Integration -- DONE
 
-1. Add jj status checks
-2. Implement commit creation with `jj commit`
-3. Implement tag creation with `git tag`
-4. Add `gh` CLI wrapper for GitHub releases
-5. Implement `--finalize` to create GitHub release and generate AnkiWeb description
+1. ~~Add jj status checks~~
+2. ~~Implement commit creation with `jj commit`~~
+3. ~~Implement tag creation with `git tag`~~
+4. ~~Add `gh` CLI wrapper for GitHub releases~~
+5. ~~Implement `--finalize` to create GitHub release and generate AnkiWeb description~~
+
+**Implementation details:**
+- Added VCS functions to `al_tools/release.py`:
+  - `create_release_commit()` - creates release commit with jj/git
+  - `create_git_tag()` - creates git tag for release
+  - `create_post_release_commit()` - creates post-release dev version commit
+- Extended `run_release()` to implement full workflow:
+  - Validate release
+  - Run pre-release checks (just check-code)
+  - Update versions to release version
+  - Create release commit
+  - Create git tag
+  - Update versions to next dev version
+  - Create post-release commit
+- Added `finalize_release()` function:
+  - Validates .apkg file
+  - Creates GitHub release using gh CLI
+  - Uploads .apkg attachment
+  - Generates AnkiWeb description
+  - Shows manual next steps (push, AnkiWeb upload)
+- CLI now supports:
+  - `al-tools release <deck> --version X.Y.Z` - full release workflow
+  - `al-tools release <deck> --version X.Y.Z --dry-run` - validation only
+  - `al-tools release <deck> --finalize <apkg-path>` - create GitHub release
 
 ### Phase 7: Polish -- TODO
 
