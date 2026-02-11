@@ -39,6 +39,7 @@ of translations and more:
 
 * Alex Fedorov
 * Catarina
+* Grigorii
 * Ivi
 * Nawid
 * Niels
