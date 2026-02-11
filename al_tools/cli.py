@@ -883,7 +883,7 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
     print(f"{'=' * 70}\n")
 
     # Validate .apkg file
-    print("[1/3] Validating .apkg file...\n")
+    print("[1/4] Validating .apkg file...\n")
     if not apkg_path.exists():
         print(f"❌ Error: File not found: {apkg_path}")
         return
@@ -921,8 +921,41 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
         print(f"  ✓ Copied as: {apkg_path}")
     print()
 
+    # Push tag if needed
+    print("[2/4] Checking if tag is pushed...\n")
+    try:
+        result = subprocess.run(
+            ["git", "ls-remote", "--tags", "origin", tag_name],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        if result.stdout.strip():
+            print(f"  ✓ Tag {tag_name} already pushed")
+        else:
+            response = (
+                input(f"  Tag {tag_name} has not been pushed. Push now? [Y/n] ")
+                .strip()
+                .lower()
+            )
+            if response in ("", "y", "yes"):
+                subprocess.run(
+                    ["git", "push", "origin", f"refs/tags/{tag_name}"],
+                    check=True,
+                )
+                print(f"  ✓ Pushed tag {tag_name}")
+            else:
+                print(
+                    "❌ Aborted. The tag must be pushed before creating a GitHub release."
+                )
+                return
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Error checking/pushing tag: {e.stderr if e.stderr else e}")
+        return
+    print()
+
     # Generate release notes
-    print("[2/3] Creating GitHub release...\n")
+    print("[3/4] Creating GitHub release...\n")
 
     try:
         # Generate release notes from changelog
@@ -962,7 +995,7 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
         return
 
     # Generate AnkiWeb description
-    print("[3/3] Generating AnkiWeb description...\n")
+    print("[4/4] Generating AnkiWeb description...\n")
 
     output_dir = Path("build")
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -993,9 +1026,8 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
     print()
     print("Next steps:")
     print()
-    print("  1. Push to GitHub:")
+    print("  1. Push commits to GitHub:")
     print("     jj git push")
-    print("     git push --tags")
     print()
     print(f"  2. Update AnkiWeb deck (ID: {deck.ankiweb_id}):")
     print("     • Visit: https://ankiweb.net/shared/upload")
