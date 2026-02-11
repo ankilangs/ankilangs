@@ -687,13 +687,11 @@ def run_release(
     """
     import subprocess
     from al_tools.release import (
-        Version,
         validate_release,
         regenerate_description_file,
         update_decks_yaml_version,
         create_release_commit,
         create_git_tag,
-        create_post_release_commit,
     )
 
     # Get the deck
@@ -711,7 +709,7 @@ def run_release(
     print(f"{'=' * 70}\n")
 
     # Validate the release
-    print("[1/9] Validating release...\n")
+    print("[1/7] Validating release...\n")
     result = validate_release(deck, target_version)
 
     # Print validation results
@@ -721,10 +719,6 @@ def run_release(
     if not result.is_valid:
         print("❌ Release validation failed. Please fix the errors above.")
         return
-
-    # Calculate next dev version
-    target_ver = Version.parse(target_version)
-    next_dev_version = str(target_ver.next_minor_dev())
 
     if dry_run:
         print("\n✓ Validation passed. Here's what would be done:\n")
@@ -738,12 +732,6 @@ def run_release(
             f"  5. Create release commit: 'release: {deck.tag_name} {target_version}'"
         )
         print(f"  6. Create git tag: {deck.tag_name}/{target_version}")
-        print(f"  7. Update versions to {next_dev_version}")
-        print(f"     • {deck.description_file} (full regeneration)")
-        print("     • decks.yaml")
-        print(
-            f"  8. Create post-release commit: 'chore: bump {deck_id} to {next_dev_version}'"
-        )
         print()
         print("Run without --dry-run to perform the release.")
         return
@@ -751,7 +739,7 @@ def run_release(
     # Perform the release
     try:
         # Step 2: Run pre-release checks
-        print("[2/9] Running pre-release checks...\n")
+        print("[2/7] Running pre-release checks...\n")
         print("  • Running code checks...")
         result = subprocess.run(
             ["just", "check-code"],
@@ -766,7 +754,7 @@ def run_release(
         print()
 
         # Step 3: Update versions to release version
-        print(f"[3/9] Updating versions to {target_version}...\n")
+        print(f"[3/7] Updating versions to {target_version}...\n")
 
         description_path = Path(deck.description_file)
         print(f"  • Regenerating {description_path}...")
@@ -780,7 +768,7 @@ def run_release(
         print()
 
         # Step 4: Build
-        print("[4/9] Running build...\n")
+        print("[4/7] Running build...\n")
         print("  • Running just build...")
         result = subprocess.run(
             ["just", "build"],
@@ -795,37 +783,20 @@ def run_release(
         print()
 
         # Step 5: Generate website page (reload registry to pick up updated version)
-        print("[5/9] Generating website page...\n")
+        print("[5/7] Generating website page...\n")
         registry = DeckRegistry(registry_path)
         website_output_dir = Path("website/content/decks")
         generate_website_page_for_deck(registry, deck_id, website_output_dir)
         print()
 
         # Step 6: Create release commit
-        print("[6/9] Creating release commit...\n")
+        print("[6/7] Creating release commit...\n")
         create_release_commit(deck, target_version)
         print()
 
         # Step 7: Create git tag
-        print("[7/9] Creating git tag...\n")
+        print("[7/7] Creating git tag...\n")
         create_git_tag(deck, target_version)
-        print()
-
-        # Step 8: Update versions to next dev version
-        print(f"[8/9] Updating versions to {next_dev_version}...\n")
-
-        print(f"  • Regenerating {description_path}...")
-        regenerate_description_file(deck, next_dev_version)
-        print(f"    ✓ Regenerated with version {next_dev_version}")
-
-        print(f"  • Updating {registry_path}...")
-        update_decks_yaml_version(registry_path, deck_id, next_dev_version)
-        print(f"    ✓ Updated to {next_dev_version}")
-        print()
-
-        # Step 9: Create post-release commit
-        print("[9/9] Creating post-release commit...\n")
-        create_post_release_commit(deck, next_dev_version)
         print()
 
         print("=" * 70)
@@ -860,6 +831,13 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
     """
     import subprocess
 
+    from al_tools.release import (
+        Version,
+        regenerate_description_file,
+        update_decks_yaml_version,
+        create_post_release_commit,
+    )
+
     # Get the deck
     deck = registry.get(deck_id)
     if not deck:
@@ -883,7 +861,7 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
     print(f"{'=' * 70}\n")
 
     # Validate .apkg file
-    print("[1/4] Validating .apkg file...\n")
+    print("[1/6] Validating .apkg file...\n")
     if not apkg_path.exists():
         print(f"❌ Error: File not found: {apkg_path}")
         return
@@ -922,7 +900,7 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
     print()
 
     # Push tag if needed
-    print("[2/4] Checking if tag is pushed...\n")
+    print("[2/6] Checking if tag is pushed...\n")
     try:
         result = subprocess.run(
             ["git", "ls-remote", "--tags", "origin", tag_name],
@@ -955,7 +933,7 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
     print()
 
     # Generate release notes
-    print("[3/4] Creating GitHub release...\n")
+    print("[3/6] Creating GitHub release...\n")
 
     try:
         # Generate release notes from changelog
@@ -995,7 +973,7 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
         return
 
     # Generate AnkiWeb description
-    print("[4/4] Generating AnkiWeb description...\n")
+    print("[4/6] Generating AnkiWeb description...\n")
 
     output_dir = Path("build")
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -1020,6 +998,49 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
         print("  ⚠ Could not copy to clipboard (xclip not available)")
 
     print()
+
+    # Step 5: Update versions to next dev version
+    target_ver = Version.parse(latest_version)
+    next_dev_version = str(target_ver.next_minor_dev())
+
+    print(f"[5/6] Updating versions to {next_dev_version}...\n")
+
+    description_path = Path(deck.description_file)
+    print(f"  • Regenerating {description_path}...")
+    regenerate_description_file(deck, next_dev_version)
+    print(f"    ✓ Regenerated with version {next_dev_version}")
+
+    registry_path = registry.registry_path
+    print(f"  • Updating {registry_path}...")
+    update_decks_yaml_version(registry_path, deck_id, next_dev_version)
+    print(f"    ✓ Updated to {next_dev_version}")
+    print()
+
+    # Step 6: Build with dev version and create post-release commit
+    print("[6/6] Building and creating post-release commit...\n")
+
+    print("  • Running just build...")
+    build_result = subprocess.run(
+        ["just", "build"],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if build_result.returncode != 0:
+        print(f"❌ Build failed:\n{build_result.stdout}\n{build_result.stderr}")
+        return
+    print("  ✓ Build completed")
+
+    create_post_release_commit(deck, next_dev_version)
+    print()
+
+    # Check if ankiweb_id is set
+    if not deck.ankiweb_id:
+        print("⚠ AnkiWeb ID is not set for this deck.")
+        print("  After uploading to AnkiWeb, add the ID to decks.yaml and run:")
+        print(f"    al-tools generate-website --deck {deck_id}")
+        print()
+
     print("=" * 70)
     print("✓ Release finalized!")
     print("=" * 70)
