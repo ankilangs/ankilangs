@@ -711,7 +711,7 @@ def run_release(
     print(f"{'=' * 70}\n")
 
     # Validate the release
-    print("[1/8] Validating release...\n")
+    print("[1/9] Validating release...\n")
     result = validate_release(deck, target_version)
 
     # Print validation results
@@ -733,15 +733,16 @@ def run_release(
         print(f"     • {deck.description_file} (full regeneration)")
         print("     • decks.yaml")
         print("  3. Run build (just build)")
+        print("  4. Generate website page")
         print(
-            f"  4. Create release commit: 'release: {deck.tag_name} {target_version}'"
+            f"  5. Create release commit: 'release: {deck.tag_name} {target_version}'"
         )
-        print(f"  5. Create git tag: {deck.tag_name}/{target_version}")
-        print(f"  6. Update versions to {next_dev_version}")
+        print(f"  6. Create git tag: {deck.tag_name}/{target_version}")
+        print(f"  7. Update versions to {next_dev_version}")
         print(f"     • {deck.description_file} (full regeneration)")
         print("     • decks.yaml")
         print(
-            f"  7. Create post-release commit: 'chore: bump {deck_id} to {next_dev_version}'"
+            f"  8. Create post-release commit: 'chore: bump {deck_id} to {next_dev_version}'"
         )
         print()
         print("Run without --dry-run to perform the release.")
@@ -750,7 +751,7 @@ def run_release(
     # Perform the release
     try:
         # Step 2: Run pre-release checks
-        print("[2/8] Running pre-release checks...\n")
+        print("[2/9] Running pre-release checks...\n")
         print("  • Running code checks...")
         result = subprocess.run(
             ["just", "check-code"],
@@ -765,7 +766,7 @@ def run_release(
         print()
 
         # Step 3: Update versions to release version
-        print(f"[3/8] Updating versions to {target_version}...\n")
+        print(f"[3/9] Updating versions to {target_version}...\n")
 
         description_path = Path(deck.description_file)
         print(f"  • Regenerating {description_path}...")
@@ -779,7 +780,7 @@ def run_release(
         print()
 
         # Step 4: Build
-        print("[4/8] Running build...\n")
+        print("[4/9] Running build...\n")
         print("  • Running just build...")
         result = subprocess.run(
             ["just", "build"],
@@ -793,18 +794,25 @@ def run_release(
         print("  ✓ Build completed")
         print()
 
-        # Step 5: Create release commit
-        print("[5/8] Creating release commit...\n")
+        # Step 5: Generate website page (reload registry to pick up updated version)
+        print("[5/9] Generating website page...\n")
+        registry = DeckRegistry(registry_path)
+        website_output_dir = Path("website/content/decks")
+        generate_website_page_for_deck(registry, deck_id, website_output_dir)
+        print()
+
+        # Step 6: Create release commit
+        print("[6/9] Creating release commit...\n")
         create_release_commit(deck, target_version)
         print()
 
-        # Step 6: Create git tag
-        print("[6/8] Creating git tag...\n")
+        # Step 7: Create git tag
+        print("[7/9] Creating git tag...\n")
         create_git_tag(deck, target_version)
         print()
 
-        # Step 7: Update versions to next dev version
-        print(f"[7/8] Updating versions to {next_dev_version}...\n")
+        # Step 8: Update versions to next dev version
+        print(f"[8/9] Updating versions to {next_dev_version}...\n")
 
         print(f"  • Regenerating {description_path}...")
         regenerate_description_file(deck, next_dev_version)
@@ -815,8 +823,8 @@ def run_release(
         print(f"    ✓ Updated to {next_dev_version}")
         print()
 
-        # Step 8: Create post-release commit
-        print("[8/8] Creating post-release commit...\n")
+        # Step 9: Create post-release commit
+        print("[9/9] Creating post-release commit...\n")
         create_post_release_commit(deck, next_dev_version)
         print()
 
