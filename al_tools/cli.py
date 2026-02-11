@@ -568,7 +568,7 @@ def print_deck_list(registry: DeckRegistry, db_path: Path = Path("data.db")):
 def generate_website_page_for_deck(
     registry: DeckRegistry, deck_id: str, output_dir: Path
 ):
-    """Generate website page for a specific deck."""
+    """Generate website page for a specific deck and update the overview page."""
     deck = registry.get(deck_id)
     if not deck:
         print(f"Error: Deck '{deck_id}' not found in registry")
@@ -604,6 +604,13 @@ def generate_website_page_for_deck(
     else:
         print(f"✓ Generated {output_file}")
         print(f"⚠ No screenshots found in {screenshot_src}")
+
+    # Update overview page
+    overview_content = generate_deck_overview_page(registry)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    overview_file = output_dir / "_index.md"
+    overview_file.write_text(overview_content)
+    print(f"✓ Updated overview page: {overview_file}")
 
 
 def generate_all_website_pages(registry: DeckRegistry, output_dir: Path):

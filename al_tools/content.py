@@ -134,6 +134,8 @@ def generate_deck_overview_page(registry: DeckRegistry) -> str:
     frontmatter = [
         "---",
         'title: "Decks"',
+        "aliases:",
+        "  - /docs/decks/",
         "weight: 5",
         "bookCollapseSection: true",
         "---",
@@ -177,7 +179,10 @@ def generate_deck_overview_page(registry: DeckRegistry) -> str:
             deck_display_name = deck.name.replace(" | AnkiLangs.org", "")
 
             # Get latest release version and date
-            latest_version = registry.get_latest_release_version(deck.deck_id)
+            if not deck.is_dev_version:
+                latest_version = deck.version
+            else:
+                latest_version = registry.get_latest_release_version(deck.deck_id)
 
             if latest_version:
                 # Try to get the date from the changelog
@@ -259,10 +264,13 @@ class ContentGenerator:
         ]
 
         # Check if deck has been released and add release info banner
-        from al_tools.registry import DeckRegistry
+        if not self.deck.is_dev_version:
+            latest_version = self.deck.version
+        else:
+            from al_tools.registry import DeckRegistry
 
-        registry = DeckRegistry()
-        latest_version = registry.get_latest_release_version(self.deck.deck_id)
+            registry = DeckRegistry()
+            latest_version = registry.get_latest_release_version(self.deck.deck_id)
 
         if latest_version:
             # Try to get the date from the changelog
