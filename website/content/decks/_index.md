@@ -1,9 +1,9 @@
 ---
 title: "Decks"
-weight: 5
-bookCollapseSection: true
 aliases:
   - /docs/decks/
+weight: 5
+bookCollapseSection: true
 ---
 
 # Decks
@@ -28,7 +28,7 @@ Learn other languages if you speak English.
 - [Marathi (EN to MR) | 625 Words](en-to-mr-625) (unreleased)
 - [Norwegian (EN to NB) | 625 Words](en-to-nb-625) (unreleased)
 - [Portuguese (EN to PT) | 625 Words](en-to-pt-625) (1.0.0 - 2026-02-10)
-- [Russian (EN to RU) | 625 Words](en-to-ru-625) (unreleased)
+- [Russian (EN to RU) | 625 Words](en-to-ru-625) (1.0.0 - 2026-02-11)
 - [Spanish (EN to ES) | 625 Words](en-to-es-625) (1.0.0 - 2026-01-21)
 - [Swedish (EN to SV) | 625 Words](en-to-sv-625) (unreleased)
 - [Tamil (EN to TA) | 625 Words](en-to-ta-625) (unreleased)
