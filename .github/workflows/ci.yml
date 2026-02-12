@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v6
+      - uses: extractions/setup-just@v3
+      - run: just check-code
+      - name: Check no files were modified
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::Code formatting is out of date. Run 'just check-code' locally and commit the changes."
+            echo ""
+            git diff
+            exit 1
+          fi
+
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v6
+      - uses: extractions/setup-just@v3
+      - run: just test
+
+  check-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v6
+      - uses: extractions/setup-just@v3
+      - run: just check-data
+
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v6
+      - uses: extractions/setup-just@v3
+      - run: just build
+      - name: Check no files were modified
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::Build produced changes not committed to the repository. Run 'just build' locally and commit the changes."
+            echo ""
+            git diff --stat
+            exit 1
+          fi
