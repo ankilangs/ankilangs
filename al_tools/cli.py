@@ -819,7 +819,9 @@ def run_release(
         print("     Tools → Check Media")
         print("     Tools → Empty Cards")
         print()
-        print("  3. Export as .apkg:")
+        print("  3. Sync with AnkiWeb")
+        print()
+        print("  4. Export as .apkg:")
         print("     File → Export")
         print("     Export format: Anki Deck Package")
         print(f"     Include: {deck.name}")
@@ -829,8 +831,8 @@ def run_release(
         print("     ☐ Support older Anki versions (slower/larger files)")
         print(f"     Save as: {apkg_name}")
         print()
-        print("  4. Finalize the release:")
-        print(f"     al-tools release {deck_id} --finalize <path-to-apkg>")
+        print("  5. Finalize the release:")
+        print(f"     uv run al-tools release {deck_id} --finalize <path-to-apkg>")
         print()
 
     except Exception as e:
@@ -1054,13 +1056,6 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
     create_post_release_commit(deck, next_dev_version)
     print()
 
-    # Check if ankiweb_id is set
-    if not deck.ankiweb_id:
-        print("⚠ AnkiWeb ID is not set for this deck.")
-        print("  After uploading to AnkiWeb, add the ID to decks.yaml and run:")
-        print(f"    al-tools generate-website --deck {deck_id}")
-        print()
-
     print("=" * 70)
     print("✓ Release finalized!")
     print("=" * 70)
@@ -1071,8 +1066,9 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
     print("     jj git push")
     print()
     print(f"  2. Update AnkiWeb deck (ID: {deck.ankiweb_id}):")
-    print("     • Visit: https://ankiweb.net/shared/upload")
-    print(f"     • Upload: {apkg_path}")
+    print("     • Visit: https://ankiweb.net/decks")
+    print("     • Actions → Share")
+    print("     • Fill out the information below")
     print()
     print(f"  3. View release: {release_url}")
     print()
@@ -1093,3 +1089,10 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
     print()
     print(f"Description:\n{description}")
     print()
+
+    # Check if ankiweb_id is set
+    if not deck.ankiweb_id:
+        print("⚠ AnkiWeb ID is not set for this deck.")
+        print("  After uploading to AnkiWeb, add the ID to decks.yaml and run:")
+        print(f"    uv run al-tools generate-website --deck {deck_id}")
+        print()
