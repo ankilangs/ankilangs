@@ -102,7 +102,7 @@ _In the example above the reviewer corrected the translation of "curved", delete
 | C | Source language (e.g., English) | No |
 | D | Target translation | **Yes** — fix errors |
 | E | Target IPA pronunciation | **Yes** — fix errors |
-| F–I | [Learning hints](#learning-hints) (pronunciation, spelling, reading, listening) | **Yes** — add or fix |
+| F–I | [Learning hints](docs/learning-hints.md) (pronunciation, spelling, reading, listening) | **Yes** — add or fix |
 | J | Notes (extra info for the learner) | **Yes** — rarely needed |
 | K | Review comments | **Yes** — for issues you can't fix here (e.g., bad audio) |
 
@@ -111,17 +111,6 @@ _In the example above the reviewer corrected the translation of "curved", delete
 **Partial reviews are welcome!** Even reviewing part of a deck helps — someone else can continue where you left off.
 
 Send your edited spreadsheet to [info@ankilangs.org](mailto:info@ankilangs.org) or submit it as a pull request (see below).
-
-## Learning Hints
-
-Many words have multiple meanings. For example, English "light" can mean:
-- Brightness (opposite of dark)
-- Weight (opposite of heavy)
-
-**Learning hints** are short cues that clarify which meaning applies without revealing the translation. For example:
-- "light" with hint "brightness" → you know to say "claro" (Spanish) not "ligero"
-
-For a complete explanation with examples, see the [Learning Hints Guide](docs/learning-hints.md).
 
 ## Send a Pull Request
 
