@@ -35,9 +35,9 @@ class ChangelogEntry:
 class ChangelogParser:
     """Parses markdown changelog files."""
 
-    # Pattern: ## X.Y.Z - YYYY-MM-DD or ## X.Y.Z
+    # Pattern: ## X.Y.Z[-prerelease] - YYYY-MM-DD or ## X.Y.Z[-prerelease]
     VERSION_HEADER_PATTERN = re.compile(
-        r"^##\s+(\d+\.\d+\.\d+)(?:\s+-\s+(\d{4}-\d{2}-\d{2}))?$"
+        r"^##\s+(\d+\.\d+\.\d+(?:-[a-zA-Z0-9.]+)?)(?:\s+-\s+(\d{4}-\d{2}-\d{2}))?$"
     )
 
     @classmethod

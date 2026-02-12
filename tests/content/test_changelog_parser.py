@@ -148,6 +148,32 @@ def test_parse_empty_file(tmp_path: Path):
     assert len(entries) == 0
 
 
+def test_parse_prerelease_version(tmp_path: Path):
+    """Test parsing entries with pre-release suffixes like 0.1.0-dev."""
+    changelog = tmp_path / "changelog.md"
+    changelog.write_text("""## 1.0.0 - 2026-02-12
+
+- Complete audio and IPA for all words
+- Ready for production use
+
+## 0.1.0-dev
+
+- Initial development version
+""")
+
+    entries = ChangelogParser.parse(changelog)
+
+    assert len(entries) == 2
+    assert entries[0].version == "1.0.0"
+    assert entries[0].date == datetime(2026, 2, 12)
+    assert len(entries[0].changes) == 2
+
+    assert entries[1].version == "0.1.0-dev"
+    assert entries[1].date is None
+    assert len(entries[1].changes) == 1
+    assert entries[1].changes[0] == "Initial development version"
+
+
 def test_parse_nonexistent_file(tmp_path: Path):
     """Test parsing a file that doesn't exist."""
     changelog = tmp_path / "nonexistent.md"
