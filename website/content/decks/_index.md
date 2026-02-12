@@ -31,7 +31,7 @@ Learn other languages if you speak English.
 - [Russian (EN to RU) | 625 Words](en-to-ru-625) (1.0.0 - 2026-02-11)
 - [Spanish (EN to ES) | 625 Words](en-to-es-625) (1.0.0 - 2026-01-21)
 - [Swedish (EN to SV) | 625 Words](en-to-sv-625) (unreleased)
-- [Tamil (EN to TA) | 625 Words](en-to-ta-625) (unreleased)
+- [Tamil (EN to TA) | 625 Words](en-to-ta-625) (1.0.0 - 2026-02-12)
 
 ## Deutsche Stapel
 

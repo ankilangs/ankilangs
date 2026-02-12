@@ -174,7 +174,7 @@ decks:
     tag_name: EN_to_TA_625_Words
     description_file: src/headers/description_en_to_ta-625_words.html
     content_dir: src/deck_content/en_to_ta_625
-    version: 0.1.0-dev
+    version: 1.0.0
     ankiweb_id: null
     deck_type: '625'
     source_locale: en_us
