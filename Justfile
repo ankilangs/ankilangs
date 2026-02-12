@@ -37,3 +37,9 @@ build: sqlite2csv
     uv run brainbrew run recipes/source_to_anki_625_words.yaml
     uv run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
     uv run al-tools csv2sqlite -i src/data -d data.db --force
+
+alias b := build
+alias c := check
+alias c2q := csv2sqlite
+alias q2c := sqlite2csv
+alias t := test
