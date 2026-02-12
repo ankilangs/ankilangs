@@ -74,64 +74,41 @@ If possible, aim for:
 
 ## Systematic Deck Review
 
-If you want to review an entire deck comprehensively (checking all translations, pronunciations, and audio), we provide two files that make this easier:
+Want to review an entire deck? We'll send you an **Excel spreadsheet** and an **audio file** with all words in order.
 
-### The Two Files
+**Contact [info@ankilangs.org](mailto:info@ankilangs.org)** and tell us which deck (e.g., "EN → FR 625 words"). If you're comfortable with technical setup, you can also [generate these files yourself](docs/development.md#systematic-deck-review).
 
-1. **Excel Spreadsheet (.xlsx)** - Contains all vocabulary in a single table with columns for:
-   - Source word (English)
-   - Target translation (e.g., Spanish)
-   - Pronunciation (IPA)
-   - [Learning hints](#learning-hints) (4 columns)
-   - Comment column for your notes
+### What You Get
 
-2. **Audio File (.mp3)** - Combined audio playing all words in order:
-   - 300ms breaks between words
-   - 5-second breaks every 10 words
-   - Total duration: ~18 minutes for a 625-word deck
-   - Matches the row order in the spreadsheet
+1. **Excel Spreadsheet (.xlsx)** — All vocabulary in a single table. **Edit it directly** — we have tooling to import your changes back.
+2. **Audio File (.mp3)** — All words played in spreadsheet order (300ms between words, 5s pause every 10 words, ~18 min for 625 words).
 
-### How to Get These Files
+### Review Workflow
 
-**Option 1 (Recommended):** Contact us at [info@ankilangs.org](mailto:info@ankilangs.org) and tell us which deck you want to review (e.g., "EN → FR 625 words"). We'll generate and send you both files.
+1. Open the spreadsheet and play the audio file side by side
+2. Follow along row by row, checking translations and pronunciation
+3. **Fix things directly**: wrong translation? Fix it in the cell. Wrong IPA? Fix it. Missing hint? Add it.
+4. **Can't fix it in the spreadsheet?** (e.g., audio sounds wrong, unclear pronunciation) → describe the issue in the `review_comment` column
 
-**Option 2:** If you're comfortable with technical setup, see [technical documentation](docs/development.md#systematic-deck-review) for instructions on generating these files yourself.
+### Spreadsheet Columns
 
-### Using the Review Files
+![Example of the review spreadsheet](docs/images/review-workflow-editing.png)
+_In the example above the reviewer corrected the translation of "curved", deleted the corresponding IPA because she did not know how to type it and left a comment about the audio of "clean"._
 
-1. Open the Excel file in your spreadsheet program
-2. Play the audio file in your media player (VLC, Windows Media Player, etc.)
-3. Listen to each word while following along in the spreadsheet
-4. Make corrections directly in the spreadsheet:
-   - Fix translation errors
-   - Correct IPA pronunciation guides
-   - Add comments about audio quality issues in the `review_comment` column
-
-### Understanding the Spreadsheet Columns
-
-The Excel file contains these columns:
-
-| Column | Purpose | Can Edit? |
-|--------|---------|-----------|
-| A (hidden) | GUID | ⚠️ **NO** - Don't unhide or modify |
-| B | Clarification (English explanation of the key, for reviewers only — not shown to learners) | No |
-| C | Source language (e.g. English) | No |
-| D | Target translation | Yes |
-| E | Target IPA pronunciation | Yes |
-| F | Pronunciation hint | Yes (see [learning hints](#learning-hints)) |
-| G | Spelling hint | Yes (see [learning hints](#learning-hints)) |
-| H | Reading hint | Yes (see [learning hints](#learning-hints)) |
-| I | Listening hint | Yes (see [learning hints](#learning-hints)) |
-| J | Notes (additional nice-to-have info for the learner) | Yes, but seldomly needed |
-| K | Your review comments | **Yes** - Add all your comments here |
-
-**Why is GUID hidden?** The GUID (Globally Unique Identifier) is an internal ID that must never be modified. Changing it would break the connection between spreadsheet rows and the original data. It's hidden to prevent accidental edits.
-
-**About the Clarification column:** The clarification is an internal note to help reviewers understand which meaning the key refers to (e.g., "bank" might be clarified as "financial institution"). It does **not** appear on the final Anki cards and is not visible to learners. To help learners disambiguate ambiguous words during study, use [learning hints](#learning-hints) instead.
+| Column | What It Is | Edit? |
+|--------|-----------|-------|
+| A (hidden) | Internal ID | **No** — don't unhide or modify |
+| B | Clarification (which meaning is intended — not shown to learners) | No |
+| C | Source language (e.g., English) | No |
+| D | Target translation | **Yes** — fix errors |
+| E | Target IPA pronunciation | **Yes** — fix errors |
+| F–I | [Learning hints](#learning-hints) (pronunciation, spelling, reading, listening) | **Yes** — add or fix |
+| J | Notes (extra info for the learner) | **Yes** — rarely needed |
+| K | Review comments | **Yes** — for issues you can't fix here (e.g., bad audio) |
 
 ### After Your Review
 
-**Partial reviews welcome!** Even reviewing part of a deck is valuable. We can find someone else to continue.
+**Partial reviews are welcome!** Even reviewing part of a deck helps — someone else can continue where you left off.
 
 Send your edited spreadsheet to [info@ankilangs.org](mailto:info@ankilangs.org) or submit it as a pull request (see below).
 
