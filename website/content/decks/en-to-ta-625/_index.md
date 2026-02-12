@@ -5,7 +5,7 @@ aliases:
 deck_id: en_to_ta_625
 version: "1.0.0"
 download_url: "https://github.com/ankilangs/ankilangs/releases/download/EN_to_TA_625_Words%2F1.0.0/Tamil.EN.to.TA.-.625.Words.-.AnkiLangs.org.-.v1.0.0.apkg"
-ankiweb_url: ""
+ankiweb_url: "https://ankiweb.net/shared/info/537878667"
 weight: 10
 ---
 
@@ -16,6 +16,8 @@ weight: 10
 Learn the 625 most important Tamil words if you already speak English.
 
 [Download deck]({{< param download_url >}})
+
+Also available on [AnkiWeb]({{< param ankiweb_url >}}). If you enjoy this deck, please rate it there to help other learners find it!
 
 See [Installation Instructions]({{< ref "/installation" >}}) and [Learning Tips]({{< ref "/learning-tips" >}}).
 
