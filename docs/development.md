@@ -518,7 +518,6 @@ Releases are mostly automated using `al-tools release` commands.
 ### Prerequisites
 
 - Deck must be registered in `decks.yaml`
-- Changelog entry exists for target version in `src/deck_content/<deck>/changelog.md`
 - Clean working directory (no uncommitted changes)
 - `gh` CLI tool installed and authenticated (for finalization)
 
@@ -537,47 +536,23 @@ Releases are mostly automated using `al-tools release` commands.
    - Complete hints for ambiguous words
    ```
 
-2. **Run release automation** (validates, updates versions, creates commits/tag):
+2. Update description if necessary e.g. `src/deck_content/en_to_es_625/description.md`
+
+3. Commit
+
+4. **Run release automation** (validates, updates versions, creates commits/tag):
    ```bash
    al-tools release en_to_es_625 --version 1.0.0
    ```
 
-   This will:
-   - Validate release (changelog entry, clean working tree, etc.)
-   - Run pre-release checks (code quality)
-   - Update version to 1.0.0 (regenerates description file)
-   - Build all decks (`just build`)
-   - Create release commit and git tag `EN_to_ES_625_Words/1.0.0`
-   - Update version to 1.0.1-dev and commit
+   The command will print next steps (Anki export instructions and finalize command).
 
-3. **Export from Anki**:
-   - Open Anki
-   - File → CrowdAnki: Import from disk → select `build/EN_to_ES_625_Words`
-   - File → Export
-   - Select the deck, choose `.apkg` format
-   - Include media, support older Anki versions
-   - Save as `EN_to_ES_625_Words - 1.0.0.apkg`
-
-4. **Finalize release** (creates GitHub release, generates AnkiWeb description):
+5. **Finalize release** (creates GitHub release, generates AnkiWeb description):
    ```bash
-   al-tools release en_to_es_625 --finalize ~/Downloads/EN_to_ES_625_Words\ -\ 1.0.0.apkg
+   al-tools release en_to_es_625 --finalize ~/Downloads/Spanish.EN.to.ES.-.625.Words.-.AnkiLangs.org.-.v1.0.0.apkg
    ```
 
-   This will:
-   - Create GitHub release with changelog
-   - Upload .apkg file
-   - Generate AnkiWeb description and copy to clipboard
-
-5. **Push to GitHub**:
-   ```bash
-   jj git push
-   git push --tags
-   ```
-
-6. **Update AnkiWeb**:
-   - Visit https://ankiweb.net/shared/upload
-   - Upload the .apkg file
-   - Paste description from `build/ankiweb_description_<deck_id>.md`
+   The command will print next steps and AnkiWeb publication info (title, tags, description) for easy copy-paste.
 
 ### Dry Run
 
@@ -586,13 +561,6 @@ Validate without making changes:
 ```bash
 al-tools release en_to_es_625 --version 1.0.0 --dry-run
 ```
-
-### Troubleshooting
-
-- **Validation fails**: Fix errors shown (e.g., add changelog entry, commit changes)
-- **Wrong version**: Use proper semver format (X.Y.Z) without -dev suffix
-- **Build fails**: Run `just check-data` to validate data quality
-- **gh CLI not found**: Install from https://cli.github.com/
 
 ## Tips & Tricks
 

@@ -14,7 +14,7 @@ from al_tools.core import (
 from al_tools.registry import DeckRegistry
 from al_tools.content import ContentGenerator, generate_deck_overview_page
 from al_tools.deck_creator import create_625_deck
-from al_tools.i18n import get_apkg_filename
+from al_tools.i18n import get_apkg_filename, get_language_name
 
 
 def _locale_to_directory(locale: str) -> str:
@@ -803,13 +803,33 @@ def run_release(
         print("✓ Release complete!")
         print("=" * 70)
         print()
+        apkg_name = get_apkg_filename(
+            source_locale=deck.source_locale,
+            target_locale=deck.target_locale,
+            deck_type=deck.deck_type,
+            version=target_version,
+        )
+
         print("Next steps:")
         print()
-        print("  1. Import deck into Anki and export as .apkg:")
-        print(f"     File → Import → build/{deck.tag_name}")
-        print(f"     File → Export → {deck.tag_name} - {target_version}.apkg")
+        print("  1. Import deck into Anki:")
+        print(f"     File → CrowdAnki: Import from disk → build/{deck.tag_name}")
         print()
-        print("  2. Finalize the release:")
+        print("  2. Check deck in Anki:")
+        print("     Tools → Check Media")
+        print("     Tools → Empty Cards")
+        print()
+        print("  3. Export as .apkg:")
+        print("     File → Export")
+        print("     Export format: Anki Deck Package")
+        print(f"     Include: {deck.name}")
+        print("     ☐ Include scheduling information")
+        print("     ☐ Include deck presets")
+        print("     ☑ Include media")
+        print("     ☐ Support older Anki versions (slower/larger files)")
+        print(f"     Save as: {apkg_name}")
+        print()
+        print("  4. Finalize the release:")
         print(f"     al-tools release {deck_id} --finalize <path-to-apkg>")
         print()
 
@@ -1053,7 +1073,23 @@ def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
     print(f"  2. Update AnkiWeb deck (ID: {deck.ankiweb_id}):")
     print("     • Visit: https://ankiweb.net/shared/upload")
     print(f"     • Upload: {apkg_path}")
-    print(f"     • Paste description from: {output_file}")
     print()
     print(f"  3. View release: {release_url}")
+    print()
+
+    # Print AnkiWeb publication info for easy copy-paste
+    target_lang_name = get_language_name("en_us", deck.target_locale).lower()
+    ankiweb_title = deck.name
+
+    print("=" * 70)
+    print("AnkiWeb publication info:")
+    print("=" * 70)
+    print()
+    print(f"Title:\n{ankiweb_title}")
+    print()
+    print(f"Tags:\n{target_lang_name}")
+    print()
+    print("Support Page:\nhttps://ankilangs.org")
+    print()
+    print(f"Description:\n{description}")
     print()
