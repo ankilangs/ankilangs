@@ -1,0 +1,31 @@
+decks:
+  en_to_es_625:
+    name: "Spanish (EN to ES) | 625 Words | AnkiLangs.org"
+    tag_name: "EN_to_ES_625_Words"
+    description_file: "src/headers/description_en_to_es-625_words.html"
+    content_dir: "src/deck_content/en_to_es_625"
+    version: "0.3.0"
+    ankiweb_id: "1234567890"
+    deck_type: "625"
+    source_locale: "en_us"
+    target_locale: "es_es"
+  en_to_fr_625:
+    name: "French (EN to FR) | 625 Words | AnkiLangs.org"
+    tag_name: "EN_to_FR_625_Words"
+    description_file: "src/headers/description_en_to_fr-625_words.html"
+    content_dir: "src/deck_content/en_to_fr_625"
+    version: "0.2.0-dev"
+    ankiweb_id:
+    deck_type: "625"
+    source_locale: "en_us"
+    target_locale: "fr_fr"
+  en_to_es_mp:
+    name: "Spanish Minimal Pairs | AnkiLangs.org"
+    tag_name: "EN_to_ES_Minimal_Pairs"
+    description_file: "src/headers/description_en_to_es-mp.html"
+    content_dir: "src/deck_content/en_to_es_mp"
+    version: "0.1.0"
+    ankiweb_id:
+    deck_type: "minimal_pairs"
+    source_locale: "en_us"
+    target_locale: "es_es"
