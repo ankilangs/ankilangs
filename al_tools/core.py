@@ -281,6 +281,7 @@ def generate_audio(
     seed: int | str = 42,
     limit: int = None,
     delay: float = 1.0,
+    tts_client=None,
 ):
     """
     Generate audio via the Google Cloud TTS API.
@@ -333,7 +334,7 @@ def generate_audio(
     audio_col = _get_audio_col(df)
     audio_source_col = _get_audio_source_col(df)
 
-    client = tts.TextToSpeechClient()
+    client = tts_client if tts_client is not None else tts.TextToSpeechClient()
     audio_config = tts.AudioConfig(audio_encoding=tts.AudioEncoding.MP3)
 
     cursor = conn.cursor()
