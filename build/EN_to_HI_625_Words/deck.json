@@ -2446,8 +2446,8 @@
             "data": "",
             "fields": [
                 "God",
-                "ईश्वर",
-                "/iːʃʋər/",
+                "भगवान",
+                "/bʰəɡʋaːn/",
                 "[sound:al_hi_in_god.mp3]",
                 "",
                 "",
@@ -5712,8 +5712,8 @@
             "data": "",
             "fields": [
                 "the baby",
-                "बच्चा",
-                "/bət͡ʃt͡ʃaː/",
+                "शिशु",
+                "/ʃɪʃʊ/",
                 "[sound:al_hi_in_the_baby.mp3]",
                 "",
                 "",
@@ -5721,7 +5721,7 @@
                 "",
                 "infant",
                 "infant",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
             ],
             "flags": 0,
             "guid": "I7)b<C5A_|",
@@ -6126,8 +6126,8 @@
             "data": "",
             "fields": [
                 "the bird",
-                "पक्षी",
-                "/pəkʃiː/",
+                "चिड़िया",
+                "/t͡ʃɪɽɪjaː/",
                 "[sound:al_hi_in_the_bird.mp3]",
                 "",
                 "",
@@ -6135,7 +6135,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
             ],
             "flags": 0,
             "guid": "J&mo8~ip#Q",
@@ -12060,8 +12060,8 @@
             "data": "",
             "fields": [
                 "the train",
-                "ट्रेन",
-                "/ʈreːn/",
+                "रेलगाड़ी",
+                "/reːlɡaːɽiː/",
                 "[sound:al_hi_in_the_train.mp3]",
                 "",
                 "",
@@ -12069,7 +12069,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
             ],
             "flags": 0,
             "guid": "w]m<9VB004",
@@ -13279,8 +13279,8 @@
             "data": "",
             "fields": [
                 "to draw",
-                "खींचना",
-                "/kʰiːnt͡ʃnaː/",
+                "चित्र बनाना",
+                "/t͡ʃɪt̪r bənaːnaː/",
                 "[sound:al_hi_in_to_draw.mp3]",
                 "",
                 "",
