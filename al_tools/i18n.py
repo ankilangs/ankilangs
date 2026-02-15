@@ -1,7 +1,7 @@
 """Internationalization for AnkiLangs deck content.
 
 Loads translations from SQLite database (populated from CSV files in src/data/i18n/).
-Falls back to English (en_us) if a translation is not available.
+Raises KeyError if a requested translation is missing.
 """
 
 from pathlib import Path
@@ -28,87 +28,59 @@ def _get_db_path() -> Path:
     return _DEFAULT_DB_PATH
 
 
-def _load_language_names(db_path: Path) -> Dict[str, Dict[str, str]]:
-    """Load language names from database."""
-    result: Dict[str, Dict[str, str]] = {}
-    if not db_path.exists():
-        return result
-
+def _load_table(db_path: Path, table: str, columns: list[str]) -> list[tuple]:
+    """Load rows from a table, raising if the table is missing."""
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
-    # Check if table exists
     cursor.execute(
-        "SELECT name FROM sqlite_master WHERE type='table' AND name='i18n_language_names'"
+        f"SELECT name FROM sqlite_master WHERE type='table' AND name='{table}'"
     )
     if not cursor.fetchone():
         conn.close()
-        return result
+        raise RuntimeError(
+            f"Table '{table}' not found in {db_path}. Regenerate with: just csv2sqlite"
+        )
 
-    cursor.execute("SELECT source_locale, target_locale, name FROM i18n_language_names")
-    for row in cursor.fetchall():
-        source_locale, target_locale, name = row
+    cursor.execute(f"SELECT {', '.join(columns)} FROM {table}")
+    rows = cursor.fetchall()
+    conn.close()
+    return rows
+
+
+def _load_language_names(db_path: Path) -> Dict[str, Dict[str, str]]:
+    """Load language names from database."""
+    result: Dict[str, Dict[str, str]] = {}
+    for source_locale, target_locale, name in _load_table(
+        db_path, "i18n_language_names", ["source_locale", "target_locale", "name"]
+    ):
         if source_locale not in result:
             result[source_locale] = {}
         result[source_locale][target_locale] = name
-
-    conn.close()
     return result
 
 
 def _load_ui_strings(db_path: Path) -> Dict[str, Dict[str, str]]:
     """Load UI strings from database."""
     result: Dict[str, Dict[str, str]] = {}
-    if not db_path.exists():
-        return result
-
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-
-    # Check if table exists
-    cursor.execute(
-        "SELECT name FROM sqlite_master WHERE type='table' AND name='i18n_ui_strings'"
-    )
-    if not cursor.fetchone():
-        conn.close()
-        return result
-
-    cursor.execute("SELECT locale, key, value FROM i18n_ui_strings")
-    for row in cursor.fetchall():
-        locale, key, value = row
+    for locale, key, value in _load_table(
+        db_path, "i18n_ui_strings", ["locale", "key", "value"]
+    ):
         if locale not in result:
             result[locale] = {}
         result[locale][key] = value
-
-    conn.close()
     return result
 
 
 def _load_card_types(db_path: Path) -> Dict[str, Dict[str, str]]:
     """Load card types from database."""
     result: Dict[str, Dict[str, str]] = {}
-    if not db_path.exists():
-        return result
-
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-
-    # Check if table exists
-    cursor.execute(
-        "SELECT name FROM sqlite_master WHERE type='table' AND name='i18n_card_types'"
-    )
-    if not cursor.fetchone():
-        conn.close()
-        return result
-
-    cursor.execute("SELECT locale, card_type, name FROM i18n_card_types")
-    for row in cursor.fetchall():
-        locale, card_type, name = row
+    for locale, card_type, name in _load_table(
+        db_path, "i18n_card_types", ["locale", "card_type", "name"]
+    ):
         if locale not in result:
             result[locale] = {}
         result[locale][card_type] = name
-
-    conn.close()
     return result
 
 
@@ -118,6 +90,11 @@ def _ensure_loaded():
 
     if _language_names is None:
         db_path = _get_db_path()
+        if not db_path.exists():
+            raise FileNotFoundError(
+                f"Translation database not found at {db_path}. "
+                "Generate it with: just csv2sqlite"
+            )
         _language_names = _load_language_names(db_path)
         _ui_strings = _load_ui_strings(db_path)
         _card_types = _load_card_types(db_path)
@@ -139,8 +116,7 @@ def get_supported_locales() -> list[str]:
         List of locale codes (e.g., ["en_us", "es_es", "de_de", ...])
     """
     _ensure_loaded()
-    if _language_names is None:
-        return []
+    assert _language_names is not None
     return sorted(_language_names.keys())
 
 
@@ -151,8 +127,7 @@ def get_card_type_locales() -> list[str]:
         List of locale codes (e.g., ["en_us", "es_es", "de_de", ...])
     """
     _ensure_loaded()
-    if _card_types is None:
-        return []
+    assert _card_types is not None
     return sorted(_card_types.keys())
 
 
@@ -167,18 +142,15 @@ def get_language_name(locale: str, target_locale: str) -> str:
         Language name in source language (e.g., "Spanish" for en_us -> es_es)
     """
     _ensure_loaded()
-
-    if _language_names is None:
-        return target_locale
+    assert _language_names is not None
 
     if locale not in _language_names:
-        # Fallback to English
-        locale = "en_us"
+        raise KeyError(f"No language names found for locale '{locale}'")
 
-    if locale not in _language_names:
-        return target_locale
+    if target_locale not in _language_names[locale]:
+        raise KeyError(f"No language name for '{target_locale}' in locale '{locale}'")
 
-    return _language_names[locale].get(target_locale, target_locale)
+    return _language_names[locale][target_locale]
 
 
 def get_ui_string(locale: str, key: str, *args) -> str:
@@ -193,18 +165,15 @@ def get_ui_string(locale: str, key: str, *args) -> str:
         Localized UI string
     """
     _ensure_loaded()
-
-    if _ui_strings is None:
-        return key
+    assert _ui_strings is not None
 
     if locale not in _ui_strings:
-        # Fallback to English
-        locale = "en_us"
+        raise KeyError(f"No UI strings found for locale '{locale}'")
 
-    if locale not in _ui_strings:
-        return key
+    if key not in _ui_strings[locale]:
+        raise KeyError(f"Missing UI string '{key}' for locale '{locale}'")
 
-    string = _ui_strings[locale].get(key, key)
+    string = _ui_strings[locale][key]
 
     if args:
         return string.format(*args)
@@ -223,18 +192,15 @@ def get_card_type_name(locale: str, card_type: str) -> str:
         Localized card type name
     """
     _ensure_loaded()
-
-    if _card_types is None:
-        return card_type.capitalize()
+    assert _card_types is not None
 
     if locale not in _card_types:
-        # Fallback to English
-        locale = "en_us"
+        raise KeyError(f"No card types found for locale '{locale}'")
 
-    if locale not in _card_types:
-        return card_type.capitalize()
+    if card_type not in _card_types[locale]:
+        raise KeyError(f"Missing card type '{card_type}' for locale '{locale}'")
 
-    return _card_types[locale].get(card_type, card_type.capitalize())
+    return _card_types[locale][card_type]
 
 
 def get_apkg_filename(

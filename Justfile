@@ -3,8 +3,12 @@
 default:
     @just --list
 
+# Ensure data.db exists (created from CSV if missing, preserves existing)
+ensure-db:
+    @[ -f data.db ] || just csv2sqlite
+
 # Run all tests
-test:
+test: ensure-db
     uv run pytest
 
 # Update golden test files
