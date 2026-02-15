@@ -587,4 +587,5 @@ For significant structural changes, please [open an issue](https://github.com/an
 - [ADR-003: Sentences](adr-003-sentences.md) - Sentences for vocabulary reinforcement
 - [ADR-004: Replace BrainBrew](adr-004-replace-brainbrew.md) - Direct SQLite to CrowdAnki export
 - [ADR-005: Testing Strategy](adr-005-testing-strategy.md) - Testing strategy
+- [ADR-006: I18n CSV](adr-006-i18n-csv.md) - CSV-based internationalization
 - [Learning Hints Guide](learning-hints.md) - Complete guide to using hints
