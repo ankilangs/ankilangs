@@ -1,0 +1,5 @@
+source_locale,target_locale,name
+en_us,en_us,English
+en_us,es_es,Spanish
+es_es,en_us,Inglés
+es_es,es_es,Español

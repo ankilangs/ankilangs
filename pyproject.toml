@@ -27,7 +27,7 @@ dev = [
 al-tools = "al_tools.cli:cli"
 
 [tool.pytest.ini_options]
-addopts = "--cov=al_tools --cov-report=term-missing --cov-fail-under=40"
+addopts = "--cov=al_tools --cov-report=term-missing --cov-fail-under=50"
 
 [build-system]
 requires = ["hatchling"]
