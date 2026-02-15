@@ -1,0 +1,61 @@
+locale,card_type,name
+ar_xa,listening,Listening
+ar_xa,pronunciation,Pronunciation
+ar_xa,reading,Reading
+ar_xa,spelling,Spelling
+de_de,listening,Hörverständnis
+de_de,pronunciation,Aussprache
+de_de,reading,Leseverständnis
+de_de,spelling,Rechtschreibung
+en_us,listening,Listening
+en_us,pronunciation,Pronunciation
+en_us,reading,Reading
+en_us,spelling,Spelling
+es_es,listening,Comprensión oral
+es_es,pronunciation,Pronunciación
+es_es,reading,Comprensión escrita
+es_es,spelling,Ortografía
+fr_fr,listening,Compréhension orale
+fr_fr,pronunciation,Prononciation
+fr_fr,reading,Compréhension écrite
+fr_fr,spelling,Orthographe
+hi_in,listening,Sunna
+hi_in,pronunciation,Ucharan
+hi_in,reading,Padhna
+hi_in,spelling,Spelling
+it_it,listening,Ascolto
+it_it,pronunciation,Pronuncia
+it_it,reading,Lettura
+it_it,spelling,Ortografia
+kn_in,listening,Listening
+kn_in,pronunciation,Pronunciation
+kn_in,reading,Reading
+kn_in,spelling,Spelling
+mr_in,listening,Listening
+mr_in,pronunciation,Pronunciation
+mr_in,reading,Reading
+mr_in,spelling,Spelling
+nb_no,listening,Lytting
+nb_no,pronunciation,Uttale
+nb_no,reading,Lesing
+nb_no,spelling,Stavemåte
+nl_nl,listening,Luisteren
+nl_nl,pronunciation,Uitspraak
+nl_nl,reading,Lezen
+nl_nl,spelling,Spelling
+pt_pt,listening,Compreensão oral
+pt_pt,pronunciation,Pronúncia
+pt_pt,reading,Compreensão escrita
+pt_pt,spelling,Ortografia
+ru_ru,listening,Listening
+ru_ru,pronunciation,Pronunciation
+ru_ru,reading,Reading
+ru_ru,spelling,Spelling
+sv_se,listening,Lyssnande
+sv_se,pronunciation,Uttal
+sv_se,reading,Laesning
+sv_se,spelling,Stavning
+ta_in,listening,Listening
+ta_in,pronunciation,Pronunciation
+ta_in,reading,Reading
+ta_in,spelling,Spelling

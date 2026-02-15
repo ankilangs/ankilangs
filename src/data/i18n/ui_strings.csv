@@ -1,0 +1,272 @@
+locale,key,value
+ar_xa,changelog,Changelog
+ar_xa,decks,Decks
+ar_xa,download_deck,Download deck
+ar_xa,installation_instructions,Installation Instructions
+ar_xa,learn_other_languages_intro,Learn other languages if you speak Arabic
+ar_xa,learning_tips,Learning Tips
+ar_xa,minimal_pairs,minimal pairs
+ar_xa,notes,Notes
+ar_xa,release_date,Released
+ar_xa,screenshots,Screenshots
+ar_xa,see_x_and_y,See {} and {}.
+ar_xa,source_language_decks_header,Arabic Decks
+ar_xa,to,ila
+ar_xa,unreleased_note,This deck is not yet released and is under development.
+ar_xa,version,Version
+ar_xa,whats_new_in,What's New in {}
+ar_xa,words,kalimat
+de_de,ankiweb_also_available,"Auch auf [AnkiWeb]({}) verfügbar. Wenn dir dieser Stapel gefällt, bewerte ihn dort, um anderen Lernenden zu helfen, ihn zu finden!"
+de_de,ankiweb_rate_review,"Wenn du diesen Stapel nützlich findest, bewerte ihn bitte und hinterlasse eine Rezension, um anderen Lernenden zu helfen!"
+de_de,changelog,Änderungsprotokoll
+de_de,check_deck_page_html,"Siehe <a href=""{}"">die Seite dieses Stapels</a> für Updates, Dokumentation und um Probleme zu melden."
+de_de,check_more_decks_html,"Mehr Stapel auf <a href=""https://ankilangs.org"">AnkiLangs.org</a>."
+de_de,decks,Stapel
+de_de,download_deck,Stapel herunterladen
+de_de,installation_instructions,Installationsanleitung
+de_de,learn_other_languages_intro,"Lerne andere Sprachen, wenn du Deutsch sprichst"
+de_de,learning_tips,Lerntipps
+de_de,minimal_pairs,Minimalpaar
+de_de,notes,Hinweise
+de_de,release_date,Veröffentlicht
+de_de,screenshots,Screenshots
+de_de,see_x_and_y,Siehe {} und {}.
+de_de,source_language_decks_header,Deutsche Stapel
+de_de,to,zu
+de_de,unreleased_note,Dieses Deck ist noch nicht veröffentlicht und befindet sich in der Entwicklung.
+de_de,version,Version
+de_de,whats_new_in,Was ist neu in {}
+de_de,words,Worter
+en_us,ankiweb_also_available,"Also available on [AnkiWeb]({}). If you enjoy this deck, please rate it there to help other learners find it!"
+en_us,ankiweb_rate_review,"If you find this deck useful, please rate it and leave a review to help other learners find it!"
+en_us,changelog,Changelog
+en_us,check_deck_page_html,"Check <a href=""{}"">this deck's page</a> for updates, documentation, and to report issues."
+en_us,check_more_decks_html,"Check <a href=""https://ankilangs.org"">AnkiLangs.org</a> for more decks."
+en_us,decks,Decks
+en_us,download_deck,Download deck
+en_us,installation_instructions,Installation Instructions
+en_us,learn_other_languages_intro,Learn other languages if you speak English
+en_us,learning_tips,Learning Tips
+en_us,minimal_pairs,Minimal Pairs
+en_us,notes,Notes
+en_us,release_date,Released
+en_us,screenshots,Screenshots
+en_us,see_x_and_y,See {} and {}.
+en_us,source_language_decks_header,English Decks
+en_us,to,to
+en_us,unreleased_note,This deck is not yet released and is under development.
+en_us,version,Version
+en_us,whats_new_in,What's New in {}
+en_us,words,Words
+es_es,ankiweb_also_available,"También disponible en [AnkiWeb]({}). Si te gusta este mazo, califícalo allí para ayudar a otros estudiantes a encontrarlo."
+es_es,ankiweb_rate_review,"Si este mazo te resulta útil, califícalo y deja una reseña para ayudar a otros estudiantes."
+es_es,changelog,Registro de cambios
+es_es,check_deck_page_html,"Consulta <a href=""{}"">la página de este mazo</a> para actualizaciones, documentación y para reportar problemas."
+es_es,check_more_decks_html,"Más mazos en <a href=""https://ankilangs.org"">AnkiLangs.org</a>."
+es_es,decks,Mazos
+es_es,download_deck,Descargar mazo
+es_es,installation_instructions,Instrucciones de instalación
+es_es,learn_other_languages_intro,Aprende otros idiomas si hablas español
+es_es,learning_tips,Consejos de aprendizaje
+es_es,minimal_pairs,pares mínimos
+es_es,notes,Notas
+es_es,release_date,Publicado
+es_es,screenshots,Capturas de pantalla
+es_es,see_x_and_y,Ver {} y {}.
+es_es,source_language_decks_header,Mazos españoles
+es_es,to,a
+es_es,unreleased_note,Este mazo aún no está publicado y está en desarrollo.
+es_es,version,Versión
+es_es,whats_new_in,Novedades en {}
+es_es,words,palabras
+fr_fr,ankiweb_also_available,"Également disponible sur [AnkiWeb]({}). Si ce paquet vous plaît, notez-le pour aider d'autres apprenants à le trouver !"
+fr_fr,ankiweb_rate_review,"Si ce paquet vous est utile, notez-le et laissez un avis pour aider d'autres apprenants !"
+fr_fr,changelog,Journal des modifications
+fr_fr,check_deck_page_html,"Consultez <a href=""{}"">la page de ce paquet</a> pour les mises à jour, la documentation et pour signaler des problèmes."
+fr_fr,check_more_decks_html,"Plus de paquets sur <a href=""https://ankilangs.org"">AnkiLangs.org</a>."
+fr_fr,decks,Paquets
+fr_fr,download_deck,Télécharger le paquet
+fr_fr,installation_instructions,Instructions d'installation
+fr_fr,learn_other_languages_intro,Apprenez d'autres langues si vous parlez français
+fr_fr,learning_tips,Conseils d'apprentissage
+fr_fr,minimal_pairs,paires minimales
+fr_fr,notes,Notes
+fr_fr,release_date,Publié
+fr_fr,screenshots,Captures d'écran
+fr_fr,see_x_and_y,Voir {} et {}.
+fr_fr,source_language_decks_header,Paquets français
+fr_fr,to,à
+fr_fr,unreleased_note,Ce paquet n'est pas encore publié et est en cours de développement.
+fr_fr,version,Version
+fr_fr,whats_new_in,Nouveautés de {}
+fr_fr,words,mots
+hi_in,changelog,Parivartan log
+hi_in,decks,Decks
+hi_in,download_deck,Deck download karen
+hi_in,installation_instructions,Installation Instructions
+hi_in,learn_other_languages_intro,Agar aap Hindi bolte hain to anya bhashaen seekhen
+hi_in,learning_tips,Sikhne ke sujhav
+hi_in,minimal_pairs,minimal pairs
+hi_in,notes,Notes
+hi_in,release_date,Released
+hi_in,screenshots,Screenshots
+hi_in,see_x_and_y,{} aur {} dekhen.
+hi_in,source_language_decks_header,Hindi Decks
+hi_in,to,se
+hi_in,unreleased_note,Yeh deck abhi release nahin hua hai aur vikas mein hai.
+hi_in,version,Version
+hi_in,whats_new_in,{} mein naya kya hai
+hi_in,words,shabd
+it_it,changelog,Registro delle modifiche
+it_it,decks,Mazzi
+it_it,download_deck,Scarica mazzo
+it_it,installation_instructions,Istruzioni di installazione
+it_it,learn_other_languages_intro,Impara altre lingue se parli italiano
+it_it,learning_tips,Suggerimenti per l'apprendimento
+it_it,minimal_pairs,coppie minime
+it_it,notes,Note
+it_it,release_date,Pubblicato
+it_it,screenshots,Screenshot
+it_it,see_x_and_y,Vedi {} e {}.
+it_it,source_language_decks_header,Mazzi italiani
+it_it,to,a
+it_it,unreleased_note,Questo mazzo non è ancora stato rilasciato ed è in fase di sviluppo.
+it_it,version,Versione
+it_it,whats_new_in,Novità in {}
+it_it,words,parole
+kn_in,changelog,Changelog
+kn_in,decks,Decks
+kn_in,download_deck,Download deck
+kn_in,installation_instructions,Installation Instructions
+kn_in,learn_other_languages_intro,Learn other languages if you speak Kannada
+kn_in,learning_tips,Learning Tips
+kn_in,minimal_pairs,minimal pairs
+kn_in,notes,Notes
+kn_in,release_date,Released
+kn_in,screenshots,Screenshots
+kn_in,see_x_and_y,See {} and {}.
+kn_in,source_language_decks_header,Kannada Decks
+kn_in,to,to
+kn_in,unreleased_note,This deck is not yet released and is under development.
+kn_in,version,Version
+kn_in,whats_new_in,What's New in {}
+kn_in,words,words
+mr_in,changelog,Changelog
+mr_in,decks,Decks
+mr_in,download_deck,Download deck
+mr_in,installation_instructions,Installation Instructions
+mr_in,learn_other_languages_intro,Learn other languages if you speak Marathi
+mr_in,learning_tips,Learning Tips
+mr_in,minimal_pairs,minimal pairs
+mr_in,notes,Notes
+mr_in,release_date,Released
+mr_in,screenshots,Screenshots
+mr_in,see_x_and_y,See {} and {}.
+mr_in,source_language_decks_header,Marathi Decks
+mr_in,to,to
+mr_in,unreleased_note,This deck is not yet released and is under development.
+mr_in,version,Version
+mr_in,whats_new_in,What's New in {}
+mr_in,words,words
+nb_no,changelog,Endringslogg
+nb_no,decks,Deck
+nb_no,download_deck,Last ned deck
+nb_no,installation_instructions,Installasjonsinstruksjoner
+nb_no,learn_other_languages_intro,Laer andre sprak hvis du snakker norsk
+nb_no,learning_tips,Laeringstips
+nb_no,minimal_pairs,minimale par
+nb_no,notes,Notater
+nb_no,release_date,Utgitt
+nb_no,screenshots,Skjermbilder
+nb_no,see_x_and_y,Se {} og {}.
+nb_no,source_language_decks_header,Norske Deck
+nb_no,to,til
+nb_no,unreleased_note,Dette decket er ikke utgitt enda og er under utvikling.
+nb_no,version,Versjon
+nb_no,whats_new_in,Hva er nytt i {}
+nb_no,words,ord
+nl_nl,changelog,Wijzigingslogboek
+nl_nl,decks,Decks
+nl_nl,download_deck,Download deck
+nl_nl,installation_instructions,Installatie-instructies
+nl_nl,learn_other_languages_intro,Leer andere talen als je Nederlands spreekt
+nl_nl,learning_tips,Leertips
+nl_nl,minimal_pairs,minimale paren
+nl_nl,notes,Notities
+nl_nl,release_date,Uitgebracht
+nl_nl,screenshots,Screenshots
+nl_nl,see_x_and_y,Zie {} en {}.
+nl_nl,source_language_decks_header,Nederlandse Decks
+nl_nl,to,naar
+nl_nl,unreleased_note,Dit deck is nog niet uitgebracht en is in ontwikkeling.
+nl_nl,version,Versie
+nl_nl,whats_new_in,Wat is nieuw in {}
+nl_nl,words,woorden
+pt_pt,changelog,Registro de alterações
+pt_pt,decks,Baralhos
+pt_pt,download_deck,Baixar baralho
+pt_pt,installation_instructions,Instruções de instalação
+pt_pt,learn_other_languages_intro,Aprenda outras línguas se você fala português
+pt_pt,learning_tips,Dicas de aprendizagem
+pt_pt,minimal_pairs,pares mínimos
+pt_pt,notes,Notas
+pt_pt,release_date,Publicado
+pt_pt,screenshots,Capturas de tela
+pt_pt,see_x_and_y,Ver {} e {}.
+pt_pt,source_language_decks_header,Baralhos portugueses
+pt_pt,to,para
+pt_pt,unreleased_note,Este baralho ainda não foi lançado e está em desenvolvimento.
+pt_pt,version,Versão
+pt_pt,whats_new_in,Novidades em {}
+pt_pt,words,palavras
+ru_ru,changelog,Changelog
+ru_ru,decks,Decks
+ru_ru,download_deck,Download deck
+ru_ru,installation_instructions,Installation Instructions
+ru_ru,learn_other_languages_intro,Learn other languages if you speak Russian
+ru_ru,learning_tips,Learning Tips
+ru_ru,minimal_pairs,minimal pairs
+ru_ru,notes,Notes
+ru_ru,release_date,Released
+ru_ru,screenshots,Screenshots
+ru_ru,see_x_and_y,See {} and {}.
+ru_ru,source_language_decks_header,Russian Decks
+ru_ru,to,to
+ru_ru,unreleased_note,This deck is not yet released and is under development.
+ru_ru,version,Version
+ru_ru,whats_new_in,What's New in {}
+ru_ru,words,words
+sv_se,changelog,Aendringslogg
+sv_se,decks,Deck
+sv_se,download_deck,Ladda ner deck
+sv_se,installation_instructions,Installationsinstruktioner
+sv_se,learn_other_languages_intro,Laer dig andra sprak om du talar svenska
+sv_se,learning_tips,Laeringstips
+sv_se,minimal_pairs,minimala par
+sv_se,notes,Anteckningar
+sv_se,release_date,Utgivningsdatum
+sv_se,screenshots,Skaermdumpar
+sv_se,see_x_and_y,Se {} och {}.
+sv_se,source_language_decks_header,Svenska Deck
+sv_se,to,till
+sv_se,unreleased_note,Detta deck ar aennu inte utgivet och ar under utveckling.
+sv_se,version,Version
+sv_se,whats_new_in,Vad ar nytt i {}
+sv_se,words,ord
+ta_in,changelog,Changelog
+ta_in,decks,Decks
+ta_in,download_deck,Download deck
+ta_in,installation_instructions,Installation Instructions
+ta_in,learn_other_languages_intro,Learn other languages if you speak Tamil
+ta_in,learning_tips,Learning Tips
+ta_in,minimal_pairs,minimal pairs
+ta_in,notes,Notes
+ta_in,release_date,Released
+ta_in,screenshots,Screenshots
+ta_in,see_x_and_y,See {} and {}.
+ta_in,source_language_decks_header,Tamil Decks
+ta_in,to,to
+ta_in,unreleased_note,This deck is not yet released and is under development.
+ta_in,version,Version
+ta_in,whats_new_in,What's New in {}
+ta_in,words,words

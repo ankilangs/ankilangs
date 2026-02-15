@@ -7,8 +7,8 @@ import yaml
 
 from al_tools.content import ContentGenerator
 from al_tools.i18n import (
-    LANGUAGE_NAMES,
-    CARD_TYPES,
+    get_supported_locales,
+    get_card_type_locales,
     get_language_name,
     get_card_type_name,
     get_ui_string,
@@ -72,22 +72,25 @@ class DeckCreator:
 
     def _validate_locales(self):
         """Validate that both locales exist in i18n data."""
-        if self.source_locale not in LANGUAGE_NAMES:
+        supported_locales = get_supported_locales()
+        card_type_locales = get_card_type_locales()
+
+        if self.source_locale not in supported_locales:
             raise ValueError(
                 f"Source locale '{self.source_locale}' not found in i18n data. "
-                f"Supported locales: {', '.join(LANGUAGE_NAMES.keys())}"
+                f"Supported locales: {', '.join(supported_locales)}"
             )
 
-        if self.target_locale not in LANGUAGE_NAMES:
+        if self.target_locale not in supported_locales:
             raise ValueError(
                 f"Target locale '{self.target_locale}' not found in i18n data. "
-                f"Supported locales: {', '.join(LANGUAGE_NAMES.keys())}"
+                f"Supported locales: {', '.join(supported_locales)}"
             )
 
-        if self.source_locale not in CARD_TYPES:
+        if self.source_locale not in card_type_locales:
             raise ValueError(
                 f"Source locale '{self.source_locale}' not found in card types data. "
-                f"Supported locales: {', '.join(CARD_TYPES.keys())}"
+                f"Supported locales: {', '.join(card_type_locales)}"
             )
 
     def _render_template(self, template_path: Path) -> str:

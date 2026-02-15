@@ -29,11 +29,17 @@ def _ensure_db_exists(db_path: Path, data_dir: Path = Path("src/data")):
 
 
 def _compute_csv_hashes(data_dir: Path) -> Dict[str, str]:
-    """Compute MD5 hashes for all CSV files in data_dir."""
+    """Compute MD5 hashes for all CSV files in data_dir and subdirectories."""
     hashes = {}
     for csv_file in sorted(data_dir.glob("*.csv")):
         with open(csv_file, "rb") as f:
             hashes[csv_file.name] = hashlib.md5(f.read()).hexdigest()
+    # Include i18n subdirectory
+    i18n_dir = data_dir / "i18n"
+    if i18n_dir.exists():
+        for csv_file in sorted(i18n_dir.glob("*.csv")):
+            with open(csv_file, "rb") as f:
+                hashes[f"i18n/{csv_file.name}"] = hashlib.md5(f.read()).hexdigest()
     return hashes
 
 
@@ -1342,6 +1348,34 @@ def csv2sqlite(
         )
     """)
 
+    # I18n tables
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS i18n_language_names (
+            source_locale TEXT NOT NULL,
+            target_locale TEXT NOT NULL,
+            name TEXT NOT NULL,
+            PRIMARY KEY (source_locale, target_locale)
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS i18n_ui_strings (
+            locale TEXT NOT NULL,
+            key TEXT NOT NULL,
+            value TEXT NOT NULL,
+            PRIMARY KEY (locale, key)
+        )
+    """)
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS i18n_card_types (
+            locale TEXT NOT NULL,
+            card_type TEXT NOT NULL,
+            name TEXT NOT NULL,
+            PRIMARY KEY (locale, card_type)
+        )
+    """)
+
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS _meta (
             key TEXT PRIMARY KEY,
@@ -1373,6 +1407,9 @@ def csv2sqlite(
     cursor.execute("DELETE FROM pictures")
     cursor.execute("DELETE FROM minimal_pairs")
     cursor.execute("DELETE FROM tts_overrides")
+    cursor.execute("DELETE FROM i18n_language_names")
+    cursor.execute("DELETE FROM i18n_ui_strings")
+    cursor.execute("DELETE FROM i18n_card_types")
     cursor.execute("DELETE FROM vocabulary")
     cursor.execute("DELETE FROM _meta")
 
@@ -1532,6 +1569,57 @@ def csv2sqlite(
                             ),
                         )
             print(f"Imported {csv_file.name}")
+
+    # Import i18n files
+    i18n_dir = data_dir / "i18n"
+    if i18n_dir.exists():
+        # Import language names
+        lang_names_file = i18n_dir / "language_names.csv"
+        if lang_names_file.exists():
+            with open(lang_names_file, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    cursor.execute(
+                        """
+                        INSERT OR REPLACE INTO i18n_language_names
+                        (source_locale, target_locale, name)
+                        VALUES (?, ?, ?)
+                    """,
+                        (row["source_locale"], row["target_locale"], row["name"]),
+                    )
+            print(f"Imported {lang_names_file.name}")
+
+        # Import UI strings
+        ui_strings_file = i18n_dir / "ui_strings.csv"
+        if ui_strings_file.exists():
+            with open(ui_strings_file, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    cursor.execute(
+                        """
+                        INSERT OR REPLACE INTO i18n_ui_strings
+                        (locale, key, value)
+                        VALUES (?, ?, ?)
+                    """,
+                        (row["locale"], row["key"], row["value"]),
+                    )
+            print(f"Imported {ui_strings_file.name}")
+
+        # Import card types
+        card_types_file = i18n_dir / "card_types.csv"
+        if card_types_file.exists():
+            with open(card_types_file, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    cursor.execute(
+                        """
+                        INSERT OR REPLACE INTO i18n_card_types
+                        (locale, card_type, name)
+                        VALUES (?, ?, ?)
+                    """,
+                        (row["locale"], row["card_type"], row["name"]),
+                    )
+            print(f"Imported {card_types_file.name}")
 
     # Save sync metadata
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -1831,6 +1919,78 @@ def sqlite2csv(
                         "ipa2": row["ipa2"] or "",
                         "meaning2": row["meaning2"] or "",
                         "tags": row["tags"] or "",
+                    }
+                )
+        print(f"Exported {csv_file.name} ({len(rows)} rows)")
+
+    # Export i18n files
+    i18n_dir = data_dir / "i18n"
+    i18n_dir.mkdir(exist_ok=True)
+
+    # Export language names
+    cursor.execute(
+        "SELECT source_locale, target_locale, name FROM i18n_language_names ORDER BY source_locale, target_locale"
+    )
+    rows = cursor.fetchall()
+    if rows:
+        csv_file = i18n_dir / "language_names.csv"
+        with open(csv_file, "w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(
+                f,
+                fieldnames=["source_locale", "target_locale", "name"],
+                lineterminator="\n",
+            )
+            writer.writeheader()
+            for row in rows:
+                writer.writerow(
+                    {
+                        "source_locale": row["source_locale"],
+                        "target_locale": row["target_locale"],
+                        "name": row["name"],
+                    }
+                )
+        print(f"Exported {csv_file.name} ({len(rows)} rows)")
+
+    # Export UI strings
+    cursor.execute(
+        "SELECT locale, key, value FROM i18n_ui_strings ORDER BY locale, key"
+    )
+    rows = cursor.fetchall()
+    if rows:
+        csv_file = i18n_dir / "ui_strings.csv"
+        with open(csv_file, "w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(
+                f, fieldnames=["locale", "key", "value"], lineterminator="\n"
+            )
+            writer.writeheader()
+            for row in rows:
+                writer.writerow(
+                    {
+                        "locale": row["locale"],
+                        "key": row["key"],
+                        "value": row["value"],
+                    }
+                )
+        print(f"Exported {csv_file.name} ({len(rows)} rows)")
+
+    # Export card types
+    cursor.execute(
+        "SELECT locale, card_type, name FROM i18n_card_types ORDER BY locale, card_type"
+    )
+    rows = cursor.fetchall()
+    if rows:
+        csv_file = i18n_dir / "card_types.csv"
+        with open(csv_file, "w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(
+                f, fieldnames=["locale", "card_type", "name"], lineterminator="\n"
+            )
+            writer.writeheader()
+            for row in rows:
+                writer.writerow(
+                    {
+                        "locale": row["locale"],
+                        "card_type": row["card_type"],
+                        "name": row["name"],
                     }
                 )
         print(f"Exported {csv_file.name} ({len(rows)} rows)")
