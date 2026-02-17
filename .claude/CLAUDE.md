@@ -316,5 +316,4 @@ WHERE key = 'the bank'
 ```
 
 ## Documentation
-- `docs/adr-001-sqlite-cache.md`: SQLite schema and design
-- `README.md`: Full development setup and workflows
+- `docs/development.md`: Workflows and instructions for developers
