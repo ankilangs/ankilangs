@@ -385,10 +385,23 @@ uv run pytest
 # Or: just test
 ```
 
-Tests are in `tests/` and cover:
-- Ambiguity detection algorithms
-- Data processing and validation
-- CSV file handling and transformations
+### Writing Tests
+
+Follow these guidelines when writing or modifying tests. See [ADR-005](adr-005-testing-strategy.md) for the full rationale.
+
+**Test observable behavior through the public interface.** Call the same functions that users/callers use (e.g., `csv2sqlite()`, `generate_audio()`). Assert on observable outputs — files on disk, database state, return values — not on how the code internally arrived there. Tests that rely on implementation details break on every refactor.
+
+**Do not test private functions.** Functions prefixed with `_` are implementation details tested implicitly through the public functions that use them. Only test a private function directly when there is genuinely no practical way to cover the behavior through the public interface.
+
+**Prefer testing at the highest practical level.** When possible, exercise a meaningful workflow end-to-end rather than testing small pieces in isolation. For example, test the full CSV→SQLite→CSV round-trip rather than individual import/export helpers.
+
+**Minimize mocking.** Use real SQLite databases, real filesystems (`tmp_path`), and real CSV parsing — they're fast and deterministic. For external services (Google Cloud TTS, subprocess calls to git/gh), use simple fakes or dependency injection (`tts_client` parameter) rather than `unittest.mock.patch` on internal functions. Fakes for external boundaries live in `tests/fakes.py`.
+
+**Use `testdata_dir` and `golden_dir` fixtures** (from `tests/conftest.py`):
+- **`testdata_dir`**: Checked-in **input** files for a test. Use when input data is easier to maintain as files than inline strings (e.g., CSV files, YAML configs).
+- **`golden_dir`**: Checked-in **expected output** files. Use for complex or multi-line output that would clutter the test. Auto-updatable with `--update-golden`.
+
+Both fixtures resolve to a directory scoped to the current test function (e.g., `tests/core/testdata/test_csv_roundtrip/test_roundtrip_preserves_all_files/`).
 
 ### Update Golden Files
 

@@ -162,6 +162,9 @@ Hints disambiguate ambiguous words without revealing the translation. There are 
 - Shorter is better, but hints can be longer if necessary
 - Run `just check-data` to detect ambiguous words missing hints
 
+## Testing Guidelines
+Follow the testing guidelines in `docs/development.md`.
+
 ## Common Commands
 - `just build`: Build all decks (includes sqlite2csv + generate)
 - `just check`: Run all checks (code + data)
