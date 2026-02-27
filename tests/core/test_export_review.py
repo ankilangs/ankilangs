@@ -158,3 +158,59 @@ def test_export_review_no_audio_dir(review_db, tmp_path, capsys):
     # No audio file should exist
     mp3_files = list((tmp_path / "output").glob("*.mp3"))
     assert len(mp3_files) == 0
+
+
+def test_export_review_with_keys_filter(review_db, tmp_path):
+    """Only entries matching the given keys are exported."""
+    selected_keys = ["the cat", "the dog", "the fish"]
+    export_review(
+        review_db,
+        source_locale="en_us",
+        target_locale="es_es",
+        output_dir=tmp_path / "output",
+        media_dir=tmp_path / "nonexistent_audio",
+        data_dir=_TESTDATA_DIR,
+        keys=selected_keys,
+    )
+
+    csv_file = tmp_path / "output" / "review_en_us_to_es_es.csv"
+    with open(csv_file, encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+
+    data_rows = [r for r in rows if r["guid"]]
+    assert len(data_rows) == 3
+    exported_sources = {r["source_text"] for r in data_rows}
+    assert exported_sources == {"the cat", "the dog", "the fish"}
+
+
+def test_export_review_with_keys_filter_no_match(review_db, tmp_path, capsys):
+    """Keys that don't exist produce 'No translation pairs found' message."""
+    export_review(
+        review_db,
+        source_locale="en_us",
+        target_locale="es_es",
+        output_dir=tmp_path / "output",
+        media_dir=tmp_path / "nonexistent_audio",
+        data_dir=_TESTDATA_DIR,
+        keys=["nonexistent_key"],
+    )
+
+    captured = capsys.readouterr()
+    assert "No translation pairs found" in captured.out
+
+
+def test_export_review_with_empty_keys_list(review_db, tmp_path, capsys):
+    """Empty keys list exports nothing."""
+    export_review(
+        review_db,
+        source_locale="en_us",
+        target_locale="es_es",
+        output_dir=tmp_path / "output",
+        media_dir=tmp_path / "nonexistent_audio",
+        data_dir=_TESTDATA_DIR,
+        keys=[],
+    )
+
+    captured = capsys.readouterr()
+    assert "No translation pairs found" in captured.out

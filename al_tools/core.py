@@ -2198,6 +2198,7 @@ def export_review(
     output_dir: Path,
     media_dir: Path = Path("src/media/audio"),
     data_dir: Path = Path("src/data"),
+    keys: list[str] | None = None,
 ):
     """Export review data for native speakers.
 
@@ -2213,6 +2214,7 @@ def export_review(
         output_dir: Directory to write output files
         media_dir: Directory containing audio files
         data_dir: Directory containing CSV files (for DB freshness check)
+        keys: Optional list of keys to export (exports all if None)
     """
     _ensure_db_exists(db_path, data_dir)
     _check_db_freshness(db_path, data_dir, force=False)
@@ -2224,8 +2226,7 @@ def export_review(
     cursor = conn.cursor()
 
     # Query translation pairs with source and target text
-    cursor.execute(
-        """
+    query = """
         SELECT
             tp.key,
             tp.guid,
@@ -2246,10 +2247,21 @@ def export_review(
         JOIN base_language bl_target
             ON tp.key = bl_target.key AND bl_target.locale = tp.target_locale
         WHERE tp.source_locale = ? AND tp.target_locale = ?
-        ORDER BY tp.key COLLATE NOCASE
-        """,
-        (source_locale, target_locale),
-    )
+    """
+    params: list[str] = [source_locale, target_locale]
+
+    if keys is not None:
+        if not keys:
+            # Empty list — no keys to match, return early
+            conn.close()
+            print(f"No translation pairs found for {source_locale} -> {target_locale}")
+            return
+        placeholders = ",".join("?" for _ in keys)
+        query += f"    AND tp.key IN ({placeholders})\n"
+        params.extend(keys)
+
+    query += "    ORDER BY tp.key COLLATE NOCASE"
+    cursor.execute(query, params)
 
     rows = cursor.fetchall()
     conn.close()

@@ -191,6 +191,13 @@ def cli():
     export_review_parser.add_argument(
         "--data-dir", type=str, default="src/data", help="Data folder with CSV files"
     )
+    export_review_parser.add_argument(
+        "-k",
+        "--keys-file",
+        type=str,
+        default=None,
+        help="Text file with one key per line to export only a subset",
+    )
 
     import_review_parser = subparsers.add_parser(
         "import-review",
@@ -366,6 +373,14 @@ def cli():
             fail_if_conflict=args.fail_if_conflict,
         )
     elif args.command == "export-review":
+        keys = None
+        if args.keys_file:
+            keys_path = Path(args.keys_file)
+            keys = [
+                line.strip()
+                for line in keys_path.read_text().splitlines()
+                if line.strip()
+            ]
         export_review(
             Path(args.database),
             args.source,
@@ -373,6 +388,7 @@ def cli():
             Path(args.output),
             Path(args.media_dir),
             Path(args.data_dir),
+            keys=keys,
         )
     elif args.command == "import-review":
         import_review(
