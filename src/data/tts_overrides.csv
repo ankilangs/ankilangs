@@ -1,4 +1,5 @@
 key,locale,tts_text,is_ssml,notes
+copper,hi_in,ताम्बा,0,Emphasize m sound in ताँबा
 eight,es_es,ocho,0,Avoid reading parenthetical (8)
 eighteen,es_es,dieciocho,0,Avoid reading parenthetical (18)
 eighty,es_es,ochenta,0,Avoid reading parenthetical (80)
@@ -36,6 +37,7 @@ one hundred two,es_es,ciento dos,0,Avoid reading parenthetical (102)
 one million,es_es,un millón,0,"Avoid reading parenthetical (1,000,000)"
 one thousand,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">1000</prosody></s></speak>",1,Avoid reading parenthetical (1000)
 one thousand one,es_es,mil uno,0,Avoid reading parenthetical (1001)
+poison,hi_in,ज़ेहर,0,Reviewer reports un sound instead of zehar
 second,es_es,"<speak>segundo<break time=""300ms""/>segunda</speak>",1,Read both masculine and feminine forms with a break
 seven,es_es,siete,0,Avoid reading parenthetical (7)
 seventeen,es_es,diecisiete,0,Avoid reading parenthetical (17)

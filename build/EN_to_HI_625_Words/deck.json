@@ -4157,7 +4157,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
             ],
             "flags": 0,
             "guid": "zJ$[neJi(@",
@@ -5298,8 +5298,8 @@
             "data": "",
             "fields": [
                 "technology",
-                "प्रौद्योगिकी",
-                "/prɔːd̪joːɡɪkiː/",
+                "तकनीक",
+                "/t̪əkniːk/",
                 "[sound:al_hi_in_technology.mp3]",
                 "",
                 "",
@@ -6011,8 +6011,8 @@
             "data": "",
             "fields": [
                 "the bedroom",
-                "शयनकक्ष",
-                "/ʃəjənəkəkʃ/",
+                "कमरा",
+                "/kəmraː/",
                 "[sound:al_hi_in_the_bedroom.mp3]",
                 "",
                 "",
@@ -6020,7 +6020,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
             ],
             "flags": 0,
             "guid": "Djd?n*&JGI",
@@ -6135,7 +6135,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
             ],
             "flags": 0,
             "guid": "J&mo8~ip#Q",
@@ -6540,8 +6540,8 @@
             "data": "",
             "fields": [
                 "the car",
-                "कार",
-                "/kaːr/",
+                "गाड़ी",
+                "/ɡaːɽiː/",
                 "[sound:al_hi_in_the_car.mp3]",
                 "<img src=\"al_car_vw.jpg\">",
                 "",
@@ -10013,8 +10013,8 @@
             "data": "",
             "fields": [
                 "the pants",
-                "पैंट",
-                "/pɛːnʈ/",
+                "पतलून",
+                "/pət̪luːn/",
                 "[sound:al_hi_in_the_pants.mp3]",
                 "",
                 "",
@@ -11807,8 +11807,8 @@
             "data": "",
             "fields": [
                 "the television",
-                "टेलीविज़न",
-                "/ʈeːliːʋɪʒən/",
+                "टीवी",
+                "/ʈiːʋiː/",
                 "[sound:al_hi_in_the_television.mp3]",
                 "",
                 "",
@@ -11816,7 +11816,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
             ],
             "flags": 0,
             "guid": "c~2`P4bpc,",
@@ -12842,8 +12842,8 @@
             "data": "",
             "fields": [
                 "tight",
-                "तंग",
-                "/t̪əŋɡ/",
+                "कसा हुआ",
+                "/kəsaː hʊaː/",
                 "[sound:al_hi_in_tight.mp3]",
                 "",
                 "",

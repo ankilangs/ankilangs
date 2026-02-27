@@ -41,6 +41,7 @@ of translations and more:
 * Catarina
 * Grigorii Dorotynskii
 * Ivi
+* Madhuri Malager
 * Nawid
 * Niels
 * [Subhashini Ananthapadmanaban](https://github.com/subhaa1989)

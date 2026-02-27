@@ -140,7 +140,7 @@ pain,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 peace,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
 pink,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 plastic,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
-poison,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
+poison,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
 poor,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
 prison,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 quiet,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
@@ -221,12 +221,12 @@ the bathroom,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
 the beach,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
 the beard,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
 the bed,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
-the bedroom,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
+the bedroom,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 the beef,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
 the beverage,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 the bicycle,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 the bill [bank note],Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
-the bird,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
+the bird,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 the boat,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 the body,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 the bone,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
@@ -473,7 +473,7 @@ the teacher,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
 the team,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 the tear,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 the telephone,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
-the television,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
+the television,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 the theater,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A
 the ticket,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
 the time,Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B
