@@ -22,7 +22,7 @@ Learn other languages if you speak English.
 - [Farsi (EN to FA) | 625 Words](en-to-fa-625) (unreleased)
 - [French (EN to FR) | 625 Words](en-to-fr-625) (0.2.0 - 2025-01-22)
 - [German (EN to DE) | 625 Words](en-to-de-625) (0.2.0 - 2025-01-22)
-- [Hindi (EN to HI) | 625 Words](en-to-hi-625) (unreleased)
+- [Hindi (EN to HI) | 625 Words](en-to-hi-625) (1.0.0 - 2026-02-27)
 - [Italian (EN to IT) | 625 Words](en-to-it-625) (0.2.0 - 2025-01-22)
 - [Kannada (EN to KN) | 625 Words](en-to-kn-625) (unreleased)
 - [Marathi (EN to MR) | 625 Words](en-to-mr-625) (unreleased)
