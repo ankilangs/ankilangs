@@ -144,7 +144,7 @@ decks:
     tag_name: EN_to_HI_625_Words
     description_file: src/headers/description_en_to_hi-625_words.html
     content_dir: src/deck_content/en_to_hi_625
-    version: 1.0.0
+    version: 1.1.0-dev
     ankiweb_id: null
     deck_type: '625'
     source_locale: en_us
