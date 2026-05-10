@@ -37,6 +37,7 @@ sqlite2csv db="data.db" output="src/data":
 
 # Build all decks
 build: sqlite2csv
+    find src/media -name '.DS_Store' -delete
     uv run al-tools generate -o src/data/generated
     uv run brainbrew run recipes/source_to_anki_625_words.yaml
     uv run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
