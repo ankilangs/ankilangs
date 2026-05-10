@@ -5,13 +5,15 @@ from pathlib import Path
 
 import yaml
 
+from al_tools.content import ContentGenerator
 from al_tools.i18n import (
-    LANGUAGE_NAMES,
-    CARD_TYPES,
+    get_supported_locales,
+    get_card_type_locales,
     get_language_name,
     get_card_type_name,
     get_ui_string,
 )
+from al_tools.registry import Deck
 
 
 class DeckCreator:
@@ -70,22 +72,25 @@ class DeckCreator:
 
     def _validate_locales(self):
         """Validate that both locales exist in i18n data."""
-        if self.source_locale not in LANGUAGE_NAMES:
+        supported_locales = get_supported_locales()
+        card_type_locales = get_card_type_locales()
+
+        if self.source_locale not in supported_locales:
             raise ValueError(
                 f"Source locale '{self.source_locale}' not found in i18n data. "
-                f"Supported locales: {', '.join(LANGUAGE_NAMES.keys())}"
+                f"Supported locales: {', '.join(supported_locales)}"
             )
 
-        if self.target_locale not in LANGUAGE_NAMES:
+        if self.target_locale not in supported_locales:
             raise ValueError(
                 f"Target locale '{self.target_locale}' not found in i18n data. "
-                f"Supported locales: {', '.join(LANGUAGE_NAMES.keys())}"
+                f"Supported locales: {', '.join(supported_locales)}"
             )
 
-        if self.source_locale not in CARD_TYPES:
+        if self.source_locale not in card_type_locales:
             raise ValueError(
                 f"Source locale '{self.source_locale}' not found in card types data. "
-                f"Supported locales: {', '.join(CARD_TYPES.keys())}"
+                f"Supported locales: {', '.join(card_type_locales)}"
             )
 
     def _render_template(self, template_path: Path) -> str:
@@ -144,13 +149,28 @@ class DeckCreator:
 
         print(f"✓ Created note model in {self.note_model_dir}")
 
-    def create_description_file(self):
-        """Create deck description HTML file."""
-        description_path = (
-            Path("src/headers") / f"description_{self.deck_id}-625_words.html"
+    def _build_deck_object(self) -> Deck:
+        """Build a Deck object from the creator's state."""
+        deck_name = f"{self.target_lang_name_in_source} ({self.source_code.upper()} {self.to_word} {self.target_code.upper()}) | 625 {self.words_word.capitalize()} | AnkiLangs.org"
+        return Deck(
+            deck_id=f"{self.deck_id}_625",
+            name=deck_name,
+            tag_name=f"{self.source_code.upper()}_to_{self.target_code.upper()}_625_Words",
+            description_file=f"src/headers/description_{self.deck_id}-625_words.html",
+            content_dir=str(self.deck_content_dir),
+            version=self.version,
+            ankiweb_id=None,
+            deck_type="625",
+            source_locale=self.source_locale,
+            target_locale=self.target_locale,
         )
-        template_path = self.template_dir / "description.html"
-        content = self._render_template(template_path)
+
+    def create_description_file(self):
+        """Create deck description HTML file using ContentGenerator."""
+        deck = self._build_deck_object()
+        generator = ContentGenerator(deck)
+        content = generator.generate_description_file_content(self.version)
+        description_path = Path(deck.description_file)
         description_path.write_text(content)
 
         print(f"✓ Created description file: {description_path}")
@@ -339,23 +359,23 @@ class DeckCreator:
         with decks_path.open("r") as f:
             registry = yaml.safe_load(f)
 
-        # Create deck entry
+        deck = self._build_deck_object()
         deck_entry = {
-            f"{self.deck_id}_625": {
-                "name": f"{self.target_lang_name_in_source} ({self.source_code.upper()} {self.to_word} {self.target_code.upper()}) | 625 {self.words_word.capitalize()} | AnkiLangs.org",
-                "tag_name": f"{self.source_code.upper()}_to_{self.target_code.upper()}_625_Words",
-                "description_file": f"src/headers/description_{self.deck_id}-625_words.html",
-                "content_dir": f"src/deck_content/{self.deck_id}_625",
-                "version": self.version,
-                "ankiweb_id": None,
-                "deck_type": "625",
-                "source_locale": self.source_locale,
-                "target_locale": self.target_locale,
+            deck.deck_id: {
+                "name": deck.name,
+                "tag_name": deck.tag_name,
+                "description_file": deck.description_file,
+                "content_dir": deck.content_dir,
+                "version": deck.version,
+                "ankiweb_id": deck.ankiweb_id,
+                "deck_type": deck.deck_type,
+                "source_locale": deck.source_locale,
+                "target_locale": deck.target_locale,
             }
         }
 
         # Add to registry if not exists
-        if f"{self.deck_id}_625" not in registry["decks"]:
+        if deck.deck_id not in registry["decks"]:
             registry["decks"].update(deck_entry)
 
             # Write back to file
@@ -370,7 +390,7 @@ class DeckCreator:
 
             print(f"✓ Updated decks registry: {decks_path}")
         else:
-            print(f"⚠ Deck '{self.deck_id}_625' already exists in decks registry")
+            print(f"⚠ Deck '{deck.deck_id}' already exists in decks registry")
 
     def create_deck(self):
         """Create all files for a new 625 word deck."""
@@ -383,9 +403,9 @@ class DeckCreator:
         print()
 
         self.create_note_model()
-        self.create_description_file()
         self.create_csv_file()
         self.create_deck_content()
+        self.create_description_file()
         self.update_recipe_file()
         self.update_decks_registry()
 

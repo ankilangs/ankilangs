@@ -305,6 +305,92 @@ def test_import_review_xlsx_with_text_change(testdata_dir, tmpdir):
     assert not audio_file.exists()
 
 
+def test_import_review_partial_file(testdata_dir, tmpdir):
+    """Importing a subset of entries updates only those entries, leaving others unchanged."""
+    from al_tools.core import import_review, csv2sqlite
+
+    tmpdir = Path(tmpdir)
+
+    # Set up database (3 entries: the son, the daughter, the girl)
+    db_path = tmpdir / "test.db"
+    csv2sqlite(testdata_dir, db_path, force=True)
+
+    # Create reviewed CSV with only 1 of 3 entries changed
+    reviewed_file = tmpdir / "reviewed.csv"
+    with open(reviewed_file, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(
+            [
+                "guid",
+                "source_text",
+                "target_text",
+                "target_ipa",
+                "pronunciation_hint",
+                "spelling_hint",
+                "reading_hint",
+                "listening_hint",
+                "notes",
+                "review_comment",
+            ]
+        )
+        # Only include "the girl" with changed text
+        writer.writerow(
+            [
+                "cx}-x(|5qC",
+                "the girl",
+                "la jeune fille",
+                "/la ʒœn fij/",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+            ]
+        )
+
+    # Run import
+    import_review(
+        reviewed_file,
+        db_path,
+        source_locale="de_de",
+        target_locale="fr_fr",
+        media_dir=tmpdir / "audio",
+        data_dir=testdata_dir,
+    )
+
+    # Verify "the girl" was updated
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "SELECT text, ipa FROM base_language WHERE key = ? AND locale = ?",
+        ("the girl", "fr_fr"),
+    )
+    row = cursor.fetchone()
+    assert row[0] == "la jeune fille"
+    assert row[1] == "/la ʒœn fij/"
+
+    # Verify "the son" and "the daughter" are unchanged
+    cursor.execute(
+        "SELECT text, ipa FROM base_language WHERE key = ? AND locale = ?",
+        ("the son", "fr_fr"),
+    )
+    row = cursor.fetchone()
+    assert row[0] == "le fils"
+    assert row[1] == "/lə fis/"
+
+    cursor.execute(
+        "SELECT text, ipa FROM base_language WHERE key = ? AND locale = ?",
+        ("the daughter", "fr_fr"),
+    )
+    row = cursor.fetchone()
+    assert row[0] == "la fille"
+    assert row[1] == "/la fij/"
+
+    conn.close()
+
+
 def test_import_review_no_changes(testdata_dir, tmpdir, capsys):
     """Test that import_review reports no changes when file matches database."""
     from al_tools.core import import_review, csv2sqlite

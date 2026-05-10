@@ -1,0 +1,15 @@
+locale,key,value
+en_us,to,to
+en_us,words,Words
+en_us,minimal_pairs,Minimal Pairs
+en_us,changelog,Changelog
+en_us,download_deck,Download deck
+en_us,version,Version
+en_us,greeting,Hello {}!
+es_es,to,a
+es_es,words,palabras
+es_es,minimal_pairs,pares mínimos
+es_es,changelog,Registro de cambios
+es_es,download_deck,Descargar mazo
+es_es,version,Versión
+es_es,greeting,¡Hola {}!

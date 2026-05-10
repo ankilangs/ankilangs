@@ -2,7 +2,6 @@
 title: "Latein (DE zu LA) | 625 Wörter"
 aliases:
   - /docs/decks/de-to-la-625/
-
 deck_id: de_to_la_625
 version: "0.1.0"
 download_url: "https://github.com/ankilangs/ankilangs/releases/download/DE_to_LA_625_Words%2F0.1.0/Latein.DE.zu.LA.-.625.Worter.-.AnkiLangs.org.-.v0.1.0.apkg"

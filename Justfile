@@ -3,8 +3,12 @@
 default:
     @just --list
 
+# Ensure data.db exists (created from CSV if missing, preserves existing)
+ensure-db:
+    @[ -f data.db ] || just csv2sqlite
+
 # Run all tests
-test:
+test: ensure-db
     uv run pytest
 
 # Update golden test files
@@ -37,3 +41,9 @@ build: sqlite2csv
     uv run brainbrew run recipes/source_to_anki_625_words.yaml
     uv run brainbrew run recipes/source_to_anki_minimal_pairs.yaml
     uv run al-tools csv2sqlite -i src/data -d data.db --force
+
+alias b := build
+alias c := check
+alias c2q := csv2sqlite
+alias q2c := sqlite2csv
+alias t := test

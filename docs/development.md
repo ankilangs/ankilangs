@@ -385,10 +385,23 @@ uv run pytest
 # Or: just test
 ```
 
-Tests are in `tests/` and cover:
-- Ambiguity detection algorithms
-- Data processing and validation
-- CSV file handling and transformations
+### Writing Tests
+
+Follow these guidelines when writing or modifying tests. See [ADR-005](adr-005-testing-strategy.md) for the full rationale.
+
+**Test observable behavior through the public interface.** Call the same functions that users/callers use (e.g., `csv2sqlite()`, `generate_audio()`). Assert on observable outputs — files on disk, database state, return values — not on how the code internally arrived there. Tests that rely on implementation details break on every refactor.
+
+**Do not test private functions.** Functions prefixed with `_` are implementation details tested implicitly through the public functions that use them. Only test a private function directly when there is genuinely no practical way to cover the behavior through the public interface.
+
+**Prefer testing at the highest practical level.** When possible, exercise a meaningful workflow end-to-end rather than testing small pieces in isolation. For example, test the full CSV→SQLite→CSV round-trip rather than individual import/export helpers.
+
+**Minimize mocking.** Use real SQLite databases, real filesystems (`tmp_path`), and real CSV parsing — they're fast and deterministic. For external services (Google Cloud TTS, subprocess calls to git/gh), use simple fakes or dependency injection (`tts_client` parameter) rather than `unittest.mock.patch` on internal functions. Fakes for external boundaries live in `tests/fakes.py`.
+
+**Use `testdata_dir` and `golden_dir` fixtures** (from `tests/conftest.py`):
+- **`testdata_dir`**: Checked-in **input** files for a test. Use when input data is easier to maintain as files than inline strings (e.g., CSV files, YAML configs).
+- **`golden_dir`**: Checked-in **expected output** files. Use for complex or multi-line output that would clutter the test. Auto-updatable with `--update-golden`.
+
+Both fixtures resolve to a directory scoped to the current test function (e.g., `tests/core/testdata/test_csv_roundtrip/test_roundtrip_preserves_all_files/`).
 
 ### Update Golden Files
 
@@ -513,19 +526,54 @@ just
 
 ## Release Process
 
-To release a deck:
+Releases are mostly automated using `al-tools release` commands.
 
-1. Update version in `src/headers/description*.md`
-2. Build: `just build`
-3. Update to next dev version
-4. Import into Anki
-5. Export from Anki:
-   - Include media
-   - Support older Anki versions
-6. Rename exported deck with version (e.g., `- 0.0.1`)
-7. Create Git tag
-8. Create GitHub release with exported deck
-9. Update README and website with download links
+### Prerequisites
+
+- Deck must be registered in `decks.yaml`
+- Clean working directory (no uncommitted changes)
+- `gh` CLI tool installed and authenticated (for finalization)
+
+### Steps
+
+1. **Update changelog** with new version entry:
+   ```bash
+   vim src/deck_content/en_to_es_625/changelog.md
+   ```
+
+   Add entry like:
+   ```markdown
+   ## 1.0.0 - 2026-02-10
+
+   - Complete audio and IPA for all words
+   - Complete hints for ambiguous words
+   ```
+
+2. Update description if necessary e.g. `src/deck_content/en_to_es_625/description.md`
+
+3. Commit
+
+4. **Run release automation** (validates, updates versions, creates commits/tag):
+   ```bash
+   al-tools release en_to_es_625 --version 1.0.0
+   ```
+
+   The command will print next steps (Anki export instructions and finalize command).
+
+5. **Finalize release** (creates GitHub release, generates AnkiWeb description):
+   ```bash
+   al-tools release en_to_es_625 --finalize ~/Downloads/Spanish.EN.to.ES.-.625.Words.-.AnkiLangs.org.-.v1.0.0.apkg
+   ```
+
+   The command will print next steps and AnkiWeb publication info (title, tags, description) for easy copy-paste.
+
+### Dry Run
+
+Validate without making changes:
+
+```bash
+al-tools release en_to_es_625 --version 1.0.0 --dry-run
+```
 
 ## Tips & Tricks
 
@@ -549,4 +597,8 @@ For significant structural changes, please [open an issue](https://github.com/an
 
 - [ADR-001: SQLite Cache](adr-001-sqlite-cache.md) - Database schema and design
 - [ADR-002: Audio Filenames](adr-002-audio-filenames.md) - Audio file naming conventions
+- [ADR-003: Sentences](adr-003-sentences.md) - Sentences for vocabulary reinforcement
+- [ADR-004: Replace BrainBrew](adr-004-replace-brainbrew.md) - Direct SQLite to CrowdAnki export
+- [ADR-005: Testing Strategy](adr-005-testing-strategy.md) - Testing strategy
+- [ADR-006: I18n CSV](adr-006-i18n-csv.md) - CSV-based internationalization
 - [Learning Hints Guide](learning-hints.md) - Complete guide to using hints

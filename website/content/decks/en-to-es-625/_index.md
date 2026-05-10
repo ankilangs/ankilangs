@@ -2,11 +2,10 @@
 title: "Spanish (EN to ES) | 625 Words"
 aliases:
   - /docs/decks/en-to-es-625/
-
 deck_id: en_to_es_625
 version: "1.0.0"
 download_url: "https://github.com/ankilangs/ankilangs/releases/download/EN_to_ES_625_Words%2F1.0.0/Spanish.EN.to.ES._.625.Words._.AnkiLangs.org.apkg"
-ankiweb_url: ""
+ankiweb_url: "https://ankiweb.net/shared/info/673955494"
 weight: 10
 ---
 
@@ -17,6 +16,8 @@ weight: 10
 Learn the 625 most important Spanish words if you already speak English.
 
 [Download deck]({{< param download_url >}})
+
+Also available on [AnkiWeb]({{< param ankiweb_url >}}). If you enjoy this deck, please rate it there to help other learners find it!
 
 See [Installation Instructions]({{< ref "/installation" >}}) and [Learning Tips]({{< ref "/learning-tips" >}}).
 

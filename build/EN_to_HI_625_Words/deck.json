@@ -54,7 +54,7 @@
             "timer": 0
         }
     ],
-    "desc": "Learn the 625 most important Hindi words if you already speak English.\nNote that this deck is not finished!\nCheck <a href=\"https://ankilangs.org\">AnkiLangs.org</a> for more decks and to help improving this deck.\n<b>Version: </b>0.1.0-dev\n",
+    "desc": "Learn the 625 most important Hindi words if you already speak English.  \nCheck <a href=\"https://ankilangs.org/decks/en-to-hi-625/\">this deck's page</a> for updates, documentation, and to report issues.  \nCheck <a href=\"https://ankilangs.org\">AnkiLangs.org</a> for more decks.  \n<b>Version: </b>1.1.0-dev\n",
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
@@ -2446,8 +2446,8 @@
             "data": "",
             "fields": [
                 "God",
-                "ईश्वर",
-                "/iːʃʋər/",
+                "भगवान",
+                "/bʰəɡʋaːn/",
                 "[sound:al_hi_in_god.mp3]",
                 "",
                 "",
@@ -4157,7 +4157,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
             ],
             "flags": 0,
             "guid": "zJ$[neJi(@",
@@ -4406,7 +4406,7 @@
                 "[sound:al_hi_in_right.mp3]",
                 "",
                 "",
-                "",
+                "direction",
                 "",
                 "",
                 "",
@@ -5298,8 +5298,8 @@
             "data": "",
             "fields": [
                 "technology",
-                "प्रौद्योगिकी",
-                "/prɔːd̪joːɡɪkiː/",
+                "तकनीक",
+                "/t̪əkniːk/",
                 "[sound:al_hi_in_technology.mp3]",
                 "",
                 "",
@@ -5712,8 +5712,8 @@
             "data": "",
             "fields": [
                 "the baby",
-                "बच्चा",
-                "/bət͡ʃt͡ʃaː/",
+                "शिशु",
+                "/ʃɪʃʊ/",
                 "[sound:al_hi_in_the_baby.mp3]",
                 "",
                 "",
@@ -5721,7 +5721,7 @@
                 "",
                 "infant",
                 "infant",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
             ],
             "flags": 0,
             "guid": "I7)b<C5A_|",
@@ -6011,16 +6011,16 @@
             "data": "",
             "fields": [
                 "the bedroom",
-                "शयनकक्ष",
-                "/ʃəjənəkəkʃ/",
+                "कमरा",
+                "/kəmraː/",
                 "[sound:al_hi_in_the_bedroom.mp3]",
                 "",
                 "",
                 "",
                 "",
-                "",
-                "",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
+                "for sleeping",
+                "for sleeping",
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
             ],
             "flags": 0,
             "guid": "Djd?n*&JGI",
@@ -6126,8 +6126,8 @@
             "data": "",
             "fields": [
                 "the bird",
-                "पक्षी",
-                "/pəkʃiː/",
+                "चिड़िया",
+                "/t͡ʃɪɽɪjaː/",
                 "[sound:al_hi_in_the_bird.mp3]",
                 "",
                 "",
@@ -6540,8 +6540,8 @@
             "data": "",
             "fields": [
                 "the car",
-                "कार",
-                "/kaːr/",
+                "गाड़ी",
+                "/ɡaːɽiː/",
                 "[sound:al_hi_in_the_car.mp3]",
                 "<img src=\"al_car_vw.jpg\">",
                 "",
@@ -10013,8 +10013,8 @@
             "data": "",
             "fields": [
                 "the pants",
-                "पैंट",
-                "/pɛːnʈ/",
+                "पतलून",
+                "/pət̪luːn/",
                 "[sound:al_hi_in_the_pants.mp3]",
                 "",
                 "",
@@ -10779,8 +10779,8 @@
                 "",
                 "",
                 "",
-                "",
-                "",
+                "general",
+                "general",
                 "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
             ],
             "flags": 0,
@@ -11807,8 +11807,8 @@
             "data": "",
             "fields": [
                 "the television",
-                "टेलीविज़न",
-                "/ʈeːliːʋɪʒən/",
+                "टीवी",
+                "/ʈiːʋiː/",
                 "[sound:al_hi_in_the_television.mp3]",
                 "",
                 "",
@@ -11816,7 +11816,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
             ],
             "flags": 0,
             "guid": "c~2`P4bpc,",
@@ -12060,8 +12060,8 @@
             "data": "",
             "fields": [
                 "the train",
-                "ट्रेन",
-                "/ʈreːn/",
+                "रेलगाड़ी",
+                "/reːlɡaːɽiː/",
                 "[sound:al_hi_in_the_train.mp3]",
                 "",
                 "",
@@ -12069,7 +12069,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-B"
+                "Audio:<br>Google Cloud TTS<br>Voice: hi-IN-Standard-A"
             ],
             "flags": 0,
             "guid": "w]m<9VB004",
@@ -12842,8 +12842,8 @@
             "data": "",
             "fields": [
                 "tight",
-                "तंग",
-                "/t̪əŋɡ/",
+                "कसा हुआ",
+                "/kəsaː hʊaː/",
                 "[sound:al_hi_in_tight.mp3]",
                 "",
                 "",
@@ -13279,8 +13279,8 @@
             "data": "",
             "fields": [
                 "to draw",
-                "खींचना",
-                "/kʰiːnt͡ʃnaː/",
+                "चित्र बनाना",
+                "/t͡ʃɪt̪r bənaːnaː/",
                 "[sound:al_hi_in_to_draw.mp3]",
                 "",
                 "",

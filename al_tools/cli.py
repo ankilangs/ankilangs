@@ -14,6 +14,7 @@ from al_tools.core import (
 from al_tools.registry import DeckRegistry
 from al_tools.content import ContentGenerator, generate_deck_overview_page
 from al_tools.deck_creator import create_625_deck
+from al_tools.i18n import get_apkg_filename, get_language_name
 
 
 def _locale_to_directory(locale: str) -> str:
@@ -190,6 +191,13 @@ def cli():
     export_review_parser.add_argument(
         "--data-dir", type=str, default="src/data", help="Data folder with CSV files"
     )
+    export_review_parser.add_argument(
+        "-k",
+        "--keys-file",
+        type=str,
+        default=None,
+        help="Text file with one key per line to export only a subset",
+    )
 
     import_review_parser = subparsers.add_parser(
         "import-review",
@@ -222,6 +230,19 @@ def cli():
         "release",
         help="Release management commands",
         description="Manage deck releases and versioning. Use --list to show all registered decks with their current versions, latest release versions, and AnkiWeb upload status.",
+    )
+    release_parser.add_argument("deck_id", nargs="?", help="Deck ID to release")
+    release_parser.add_argument(
+        "--version", type=str, help="Target version (e.g., 1.0.0)"
+    )
+    release_parser.add_argument(
+        "--dry-run", action="store_true", help="Validate without making changes"
+    )
+    release_parser.add_argument(
+        "--finalize",
+        type=str,
+        metavar="APKG_PATH",
+        help="Finalize release with .apkg file",
     )
     release_parser.add_argument(
         "--list", action="store_true", help="List all decks and their status"
@@ -352,6 +373,14 @@ def cli():
             fail_if_conflict=args.fail_if_conflict,
         )
     elif args.command == "export-review":
+        keys = None
+        if args.keys_file:
+            keys_path = Path(args.keys_file)
+            keys = [
+                line.strip()
+                for line in keys_path.read_text().splitlines()
+                if line.strip()
+            ]
         export_review(
             Path(args.database),
             args.source,
@@ -359,6 +388,7 @@ def cli():
             Path(args.output),
             Path(args.media_dir),
             Path(args.data_dir),
+            keys=keys,
         )
     elif args.command == "import-review":
         import_review(
@@ -373,6 +403,22 @@ def cli():
         if args.list:
             registry = DeckRegistry(Path(args.registry))
             print_deck_list(registry, Path(args.database))
+        elif args.deck_id and args.finalize:
+            registry = DeckRegistry(Path(args.registry))
+            finalize_release(registry, args.deck_id, Path(args.finalize))
+        elif args.deck_id:
+            if not args.version:
+                print("Error: --version is required when releasing a deck")
+                release_parser.print_help()
+                return
+
+            registry = DeckRegistry(Path(args.registry))
+            run_release(
+                registry,
+                args.deck_id,
+                args.version,
+                dry_run=args.dry_run,
+            )
         else:
             release_parser.print_help()
     elif args.command == "generate-website":
@@ -538,7 +584,7 @@ def print_deck_list(registry: DeckRegistry, db_path: Path = Path("data.db")):
 def generate_website_page_for_deck(
     registry: DeckRegistry, deck_id: str, output_dir: Path
 ):
-    """Generate website page for a specific deck."""
+    """Generate website page for a specific deck and update the overview page."""
     deck = registry.get(deck_id)
     if not deck:
         print(f"Error: Deck '{deck_id}' not found in registry")
@@ -574,6 +620,13 @@ def generate_website_page_for_deck(
     else:
         print(f"✓ Generated {output_file}")
         print(f"⚠ No screenshots found in {screenshot_src}")
+
+    # Update overview page
+    overview_content = generate_deck_overview_page(registry)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    overview_file = output_dir / "_index.md"
+    overview_file.write_text(overview_content)
+    print(f"✓ Updated overview page: {overview_file}")
 
 
 def generate_all_website_pages(registry: DeckRegistry, output_dir: Path):
@@ -632,3 +685,430 @@ def generate_ankiweb_description(
             print("✓ Copied to clipboard")
         except (subprocess.CalledProcessError, FileNotFoundError):
             print("⚠ Could not copy to clipboard (xclip not available)")
+
+
+def run_release(
+    registry: DeckRegistry,
+    deck_id: str,
+    target_version: str,
+    dry_run: bool = False,
+):
+    """Run a deck release with validation.
+
+    Args:
+        registry: Deck registry
+        deck_id: ID of deck to release
+        target_version: Target version (e.g., "1.0.0")
+        dry_run: If True, only validate without making changes
+    """
+    import subprocess
+    from al_tools.release import (
+        validate_release,
+        regenerate_description_file,
+        update_decks_yaml_version,
+        create_release_commit,
+        create_git_tag,
+    )
+
+    # Get the deck
+    deck = registry.get(deck_id)
+    if not deck:
+        print(f"❌ Error: Deck '{deck_id}' not found in registry")
+        return
+
+    print(f"\n{'=' * 70}")
+    print(f"Release: {deck.name}")
+    print(f"Current version: {deck.version}")
+    print(f"Target version:  {target_version}")
+    if dry_run:
+        print("Mode: DRY RUN (no changes will be made)")
+    print(f"{'=' * 70}\n")
+
+    # Validate the release
+    print("[1/7] Validating release...\n")
+    result = validate_release(deck, target_version)
+
+    # Print validation results
+    print(result.format())
+    print()
+
+    if not result.is_valid:
+        print("❌ Release validation failed. Please fix the errors above.")
+        return
+
+    if dry_run:
+        print("\n✓ Validation passed. Here's what would be done:\n")
+        print("  1. Run pre-release checks (just check-code)")
+        print(f"  2. Update versions to {target_version}")
+        print(f"     • {deck.description_file} (full regeneration)")
+        print("     • decks.yaml")
+        print("  3. Run build (just build)")
+        print("  4. Generate website page")
+        print(
+            f"  5. Create release commit: 'release: {deck.tag_name} {target_version}'"
+        )
+        print(f"  6. Create git tag: {deck.tag_name}/{target_version}")
+        print()
+        print("Run without --dry-run to perform the release.")
+        return
+
+    # Perform the release
+    try:
+        # Step 2: Run pre-release checks
+        print("[2/7] Running pre-release checks...\n")
+        print("  • Running code checks...")
+        result = subprocess.run(
+            ["just", "check-code"],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        if result.returncode != 0:
+            print(f"❌ Code checks failed:\n{result.stderr}")
+            return
+        print("  ✓ Code checks passed")
+        print()
+
+        # Step 3: Update versions to release version
+        print(f"[3/7] Updating versions to {target_version}...\n")
+
+        description_path = Path(deck.description_file)
+        print(f"  • Regenerating {description_path}...")
+        regenerate_description_file(deck, target_version)
+        print(f"    ✓ Regenerated with version {target_version}")
+
+        registry_path = registry.registry_path
+        print(f"  • Updating {registry_path}...")
+        update_decks_yaml_version(registry_path, deck_id, target_version)
+        print(f"    ✓ Updated to {target_version}")
+        print()
+
+        # Step 4: Build
+        print("[4/7] Running build...\n")
+        print("  • Running just build...")
+        result = subprocess.run(
+            ["just", "build"],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        if result.returncode != 0:
+            print(f"❌ Build failed:\n{result.stdout}\n{result.stderr}")
+            return
+        print("  ✓ Build completed")
+        print()
+
+        # Step 5: Generate website page (reload registry to pick up updated version)
+        print("[5/7] Generating website page...\n")
+        registry = DeckRegistry(registry_path)
+        website_output_dir = Path("website/content/decks")
+        generate_website_page_for_deck(registry, deck_id, website_output_dir)
+        print()
+
+        # Step 6: Create release commit
+        print("[6/7] Creating release commit...\n")
+        create_release_commit(deck, target_version)
+        print()
+
+        # Step 7: Create git tag
+        print("[7/7] Creating git tag...\n")
+        create_git_tag(deck, target_version)
+        print()
+
+        print("=" * 70)
+        print("✓ Release complete!")
+        print("=" * 70)
+        print()
+        apkg_name = get_apkg_filename(
+            source_locale=deck.source_locale,
+            target_locale=deck.target_locale,
+            deck_type=deck.deck_type,
+            version=target_version,
+        )
+
+        print("Next steps:")
+        print()
+        print("  1. Import deck into Anki:")
+        print(f"     File → CrowdAnki: Import from disk → build/{deck.tag_name}")
+        print()
+        print("  2. Check deck in Anki:")
+        print("     Tools → Check Media")
+        print("     Tools → Empty Cards")
+        print()
+        print("  3. Sync with AnkiWeb")
+        print()
+        print("  4. Export as .apkg:")
+        print("     File → Export")
+        print("     Export format: Anki Deck Package")
+        print(f"     Include: {deck.name}")
+        print("     ☐ Include scheduling information")
+        print("     ☐ Include deck presets")
+        print("     ☑ Include media")
+        print("     ☐ Support older Anki versions (slower/larger files)")
+        print(f"     Save as: {apkg_name}")
+        print()
+        print("  5. Finalize the release:")
+        print(f"     uv run al-tools release {deck_id} --finalize <path-to-apkg>")
+        print()
+
+    except Exception as e:
+        print(f"\n❌ Error during release: {e}")
+        import traceback
+
+        traceback.print_exc()
+        return
+
+
+def finalize_release(registry: DeckRegistry, deck_id: str, apkg_path: Path):
+    """Finalize a release by creating GitHub release and AnkiWeb description.
+
+    Args:
+        registry: Deck registry
+        deck_id: ID of deck to finalize
+        apkg_path: Path to .apkg file
+    """
+    import subprocess
+
+    from al_tools.release import (
+        Version,
+        regenerate_description_file,
+        update_decks_yaml_version,
+        create_post_release_commit,
+    )
+
+    # Get the deck
+    deck = registry.get(deck_id)
+    if not deck:
+        print(f"❌ Error: Deck '{deck_id}' not found in registry")
+        return
+
+    # Find the latest tag for this deck
+    latest_version = registry.get_latest_release_version(deck_id)
+    if not latest_version:
+        print(
+            f"❌ Error: No release tag found for {deck_id}. Run 'al-tools release' first."
+        )
+        return
+
+    tag_name = f"{deck.tag_name}/{latest_version}"
+
+    print(f"\n{'=' * 70}")
+    print(f"Finalize Release: {deck.name}")
+    print(f"Version: {latest_version}")
+    print(f"Tag: {tag_name}")
+    print(f"{'=' * 70}\n")
+
+    # Validate .apkg file
+    print("[1/6] Validating .apkg file...\n")
+    if not apkg_path.exists():
+        print(f"❌ Error: File not found: {apkg_path}")
+        return
+    if not apkg_path.suffix == ".apkg":
+        print(f"❌ Error: File is not an .apkg file: {apkg_path}")
+        return
+    print(f"  ✓ Found .apkg file: {apkg_path}")
+
+    # Check naming convention
+
+    expected_name = get_apkg_filename(
+        source_locale=deck.source_locale,
+        target_locale=deck.target_locale,
+        deck_type=deck.deck_type,
+        version=latest_version,
+    )
+    actual_name = apkg_path.name
+
+    if actual_name != expected_name:
+        print("  ⚠ Filename does not match convention:")
+        print(f"    Current:  {actual_name}")
+        print(f"    Expected: {expected_name}")
+        response = input("  Rename for upload? [Y/n] ").strip().lower()
+        if response not in ("", "y", "yes"):
+            print("❌ Aborted.")
+            return
+        # Copy to temp dir with correct name for upload
+        import shutil
+        import tempfile
+
+        original_path = apkg_path
+        tmpdir = Path(tempfile.mkdtemp(prefix="ankilangs_release_"))
+        apkg_path = tmpdir / expected_name
+        shutil.copy2(original_path, apkg_path)
+        print(f"  ✓ Copied as: {apkg_path}")
+    print()
+
+    # Push tag if needed
+    print("[2/6] Checking if tag is pushed...\n")
+    try:
+        result = subprocess.run(
+            ["git", "ls-remote", "--tags", "origin", tag_name],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        if result.stdout.strip():
+            print(f"  ✓ Tag {tag_name} already pushed")
+        else:
+            response = (
+                input(f"  Tag {tag_name} has not been pushed. Push now? [Y/n] ")
+                .strip()
+                .lower()
+            )
+            if response in ("", "y", "yes"):
+                subprocess.run(
+                    ["git", "push", "origin", f"refs/tags/{tag_name}"],
+                    check=True,
+                )
+                print(f"  ✓ Pushed tag {tag_name}")
+            else:
+                print(
+                    "❌ Aborted. The tag must be pushed before creating a GitHub release."
+                )
+                return
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Error checking/pushing tag: {e.stderr if e.stderr else e}")
+        return
+    print()
+
+    # Generate release notes
+    print("[3/6] Creating GitHub release...\n")
+
+    try:
+        # Generate release notes from changelog
+        generator = ContentGenerator(deck)
+        release_notes = generator.generate_github_release_notes(latest_version)
+
+        # Create GitHub release
+        print(f"  • Creating release {tag_name}...")
+        result = subprocess.run(
+            [
+                "gh",
+                "release",
+                "create",
+                tag_name,
+                str(apkg_path),
+                "--title",
+                f"{deck.name} {latest_version}",
+                "--notes",
+                release_notes,
+            ],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        print(f"  ✓ Release created: {result.stdout.strip()}")
+        release_url = result.stdout.strip()
+        print()
+
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Error creating GitHub release: {e.stderr}")
+        return
+    except FileNotFoundError:
+        print("❌ Error: gh CLI not found. Install from: https://cli.github.com/")
+        return
+    except Exception as e:
+        print(f"❌ Error: {e}")
+        return
+
+    # Generate AnkiWeb description
+    print("[4/6] Generating AnkiWeb description...\n")
+
+    output_dir = Path("build")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    generator = ContentGenerator(deck)
+    description = generator.generate_ankiweb_description()
+
+    output_file = output_dir / f"ankiweb_description_{deck_id}.md"
+    output_file.write_text(description)
+
+    print(f"  ✓ Written to: {output_file}")
+
+    # Try to copy to clipboard
+    try:
+        subprocess.run(
+            ["xclip", "-selection", "clipboard"],
+            input=description.encode(),
+            check=True,
+        )
+        print("  ✓ Copied to clipboard")
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        print("  ⚠ Could not copy to clipboard (xclip not available)")
+
+    print()
+
+    # Step 5: Update versions to next dev version
+    target_ver = Version.parse(latest_version)
+    next_dev_version = str(target_ver.next_minor_dev())
+
+    print(f"[5/6] Updating versions to {next_dev_version}...\n")
+
+    description_path = Path(deck.description_file)
+    print(f"  • Regenerating {description_path}...")
+    regenerate_description_file(deck, next_dev_version)
+    print(f"    ✓ Regenerated with version {next_dev_version}")
+
+    registry_path = registry.registry_path
+    print(f"  • Updating {registry_path}...")
+    update_decks_yaml_version(registry_path, deck_id, next_dev_version)
+    print(f"    ✓ Updated to {next_dev_version}")
+    print()
+
+    # Step 6: Build with dev version and create post-release commit
+    print("[6/6] Building and creating post-release commit...\n")
+
+    print("  • Running just build...")
+    build_result = subprocess.run(
+        ["just", "build"],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if build_result.returncode != 0:
+        print(f"❌ Build failed:\n{build_result.stdout}\n{build_result.stderr}")
+        return
+    print("  ✓ Build completed")
+
+    create_post_release_commit(deck, next_dev_version)
+    print()
+
+    print("=" * 70)
+    print("✓ Release finalized!")
+    print("=" * 70)
+    print()
+    print("Next steps:")
+    print()
+    print("  1. Push commits to GitHub:")
+    print("     jj git push")
+    print()
+    print(f"  2. Update AnkiWeb deck (ID: {deck.ankiweb_id}):")
+    print("     • Visit: https://ankiweb.net/decks")
+    print("     • Actions → Share")
+    print("     • Fill out the information below")
+    print()
+    print(f"  3. View release: {release_url}")
+    print()
+
+    # Print AnkiWeb publication info for easy copy-paste
+    target_lang_name = get_language_name("en_us", deck.target_locale).lower()
+    ankiweb_title = deck.name
+
+    print("=" * 70)
+    print("AnkiWeb publication info:")
+    print("=" * 70)
+    print()
+    print(f"Title:\n{ankiweb_title}")
+    print()
+    print(f"Tags:\n{target_lang_name}")
+    print()
+    print("Support Page:\nhttps://ankilangs.org")
+    print()
+    print(f"Description:\n{description}")
+    print()
+
+    # Check if ankiweb_id is set
+    if not deck.ankiweb_id:
+        print("⚠ AnkiWeb ID is not set for this deck.")
+        print("  After uploading to AnkiWeb, add the ID to decks.yaml and run:")
+        print(f"    uv run al-tools generate-website --deck {deck_id}")
+        print()

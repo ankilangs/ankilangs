@@ -1,3 +1,5 @@
-## 0.1.0-dev
+## 1.0.0 - 2026-02-27
 
-- Initial development version
+- Complete audio and IPA for all words
+- Complete hints for ambiguous words
+- Ready for production use

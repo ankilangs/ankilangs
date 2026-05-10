@@ -35,9 +35,9 @@ class ChangelogEntry:
 class ChangelogParser:
     """Parses markdown changelog files."""
 
-    # Pattern: ## X.Y.Z - YYYY-MM-DD or ## X.Y.Z
+    # Pattern: ## X.Y.Z[-prerelease] - YYYY-MM-DD or ## X.Y.Z[-prerelease]
     VERSION_HEADER_PATTERN = re.compile(
-        r"^##\s+(\d+\.\d+\.\d+)(?:\s+-\s+(\d{4}-\d{2}-\d{2}))?$"
+        r"^##\s+(\d+\.\d+\.\d+(?:-[a-zA-Z0-9.]+)?)(?:\s+-\s+(\d{4}-\d{2}-\d{2}))?$"
     )
 
     @classmethod
@@ -134,6 +134,8 @@ def generate_deck_overview_page(registry: DeckRegistry) -> str:
     frontmatter = [
         "---",
         'title: "Decks"',
+        "aliases:",
+        "  - /docs/decks/",
         "weight: 5",
         "bookCollapseSection: true",
         "---",
@@ -177,7 +179,10 @@ def generate_deck_overview_page(registry: DeckRegistry) -> str:
             deck_display_name = deck.name.replace(" | AnkiLangs.org", "")
 
             # Get latest release version and date
-            latest_version = registry.get_latest_release_version(deck.deck_id)
+            if not deck.is_dev_version:
+                latest_version = deck.version
+            else:
+                latest_version = registry.get_latest_release_version(deck.deck_id)
 
             if latest_version:
                 # Try to get the date from the changelog
@@ -259,10 +264,13 @@ class ContentGenerator:
         ]
 
         # Check if deck has been released and add release info banner
-        from al_tools.registry import DeckRegistry
+        if not self.deck.is_dev_version:
+            latest_version = self.deck.version
+        else:
+            from al_tools.registry import DeckRegistry
 
-        registry = DeckRegistry()
-        latest_version = registry.get_latest_release_version(self.deck.deck_id)
+            registry = DeckRegistry()
+            latest_version = registry.get_latest_release_version(self.deck.deck_id)
 
         if latest_version:
             # Try to get the date from the changelog
@@ -292,9 +300,19 @@ class ContentGenerator:
                 [
                     f"[{download_text}]({{{{< param download_url >}}}})",
                     "",
-                    see_text,
                 ]
             )
+
+            # Add AnkiWeb link with rating encouragement if available
+            if self.deck.ankiweb_id:
+                ankiweb_text = get_ui_string(
+                    locale,
+                    "ankiweb_also_available",
+                    "{{< param ankiweb_url >}}",
+                )
+                sections.extend([ankiweb_text, ""])
+
+            sections.append(see_text)
         else:
             # Deck is unreleased - show note
             unreleased_note = get_ui_string(locale, "unreleased_note")
@@ -320,6 +338,46 @@ class ContentGenerator:
 
         return "\n".join(sections) + "\n"
 
+    def generate_description_file_content(self, version: str) -> str:
+        """Generate full HTML content for the description file shown inside Anki.
+
+        Args:
+            version: Version string to display (e.g., "1.0.0" or "1.0.1-dev")
+
+        Returns:
+            Complete HTML content for the description file.
+        """
+        description = self._read_description()
+        locale = self.deck.source_locale
+        version_label = get_ui_string(locale, "version")
+
+        # Look up release date from changelog
+        version_display = version
+        changelog_path = self.content_dir / "changelog.md"
+        if changelog_path.exists():
+            entry = ChangelogParser.get_version_entry(changelog_path, version)
+            if entry and entry.date:
+                date_str = entry.date.strftime("%Y-%m-%d")
+                release_label = get_ui_string(locale, "release_date")
+                version_display = f"{version} ({release_label}: {date_str})"
+
+        # Build deck page URL
+        deck_url = f"https://ankilangs.org/decks/{self.deck.website_slug}/"
+
+        check_deck_page = get_ui_string(locale, "check_deck_page_html", deck_url)
+        check_more_decks = get_ui_string(locale, "check_more_decks_html")
+
+        lines = [
+            description,
+            check_deck_page,
+            check_more_decks,
+            f"<b>{version_label}: </b>{version_display}",
+        ]
+
+        # End all lines but the last with 2 trailing spaces for Anki spacing
+        spaced = [line + "  " for line in lines[:-1]] + [lines[-1]]
+        return "\n".join(spaced) + "\n"
+
     def generate_ankiweb_description(self) -> str:
         """Generate AnkiWeb description from source content.
 
@@ -337,8 +395,12 @@ class ContentGenerator:
         )
         screenshots_text = get_ui_string(locale, "screenshots")
 
+        ankiweb_rate_text = get_ui_string(locale, "ankiweb_rate_review")
+
         sections = [
             description,
+            "",
+            ankiweb_rate_text,
             "",
             f"See [ankilangs.org/decks/{self.deck.website_slug}](https://ankilangs.org/decks/{self.deck.website_slug}/) for full documentation, learning tips, and to report issues.",
             "",
@@ -421,6 +483,20 @@ class ContentGenerator:
                 "## Installation",
                 "",
                 "Download the `.apkg` file below and import into Anki (File → Import).",
+            ]
+        )
+
+        if self.deck.ankiweb_id:
+            ankiweb_url = f"https://ankiweb.net/shared/info/{self.deck.ankiweb_id}"
+            sections.extend(
+                [
+                    "",
+                    f"Also available on [AnkiWeb]({ankiweb_url}). If you like this deck, please rate and review it there!",
+                ]
+            )
+
+        sections.extend(
+            [
                 "",
                 f"**Full changelog & documentation:** https://ankilangs.org/decks/{self.deck.website_slug}/",
             ]
@@ -567,6 +643,8 @@ class ContentGenerator:
         frontmatter_lines = [
             "---",
             f'title: "{title}"',
+            "aliases:",
+            f"  - /docs/decks/{self.deck.website_slug}/",
             f"deck_id: {self.deck.deck_id}",
             f'version: "{version_for_url}"',
             f'download_url: "{download_url}"',

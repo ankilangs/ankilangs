@@ -1,4 +1,5 @@
 key,locale,tts_text,is_ssml,notes
+copper,hi_in,ताम्बा,0,Emphasize m sound in ताँबा
 eight,es_es,ocho,0,Avoid reading parenthetical (8)
 eighteen,es_es,dieciocho,0,Avoid reading parenthetical (18)
 eighty,es_es,ochenta,0,Avoid reading parenthetical (80)
@@ -36,6 +37,7 @@ one hundred two,es_es,ciento dos,0,Avoid reading parenthetical (102)
 one million,es_es,un millón,0,"Avoid reading parenthetical (1,000,000)"
 one thousand,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">1000</prosody></s></speak>",1,Avoid reading parenthetical (1000)
 one thousand one,es_es,mil uno,0,Avoid reading parenthetical (1001)
+poison,hi_in,ज़ेहर,0,Reviewer reports un sound instead of zehar
 second,es_es,"<speak>segundo<break time=""300ms""/>segunda</speak>",1,Read both masculine and feminine forms with a break
 seven,es_es,siete,0,Avoid reading parenthetical (7)
 seventeen,es_es,diecisiete,0,Avoid reading parenthetical (17)
@@ -51,8 +53,10 @@ ten,es_es,diez,0,Avoid reading parenthetical (10)
 ten thousand,es_es,diez mil,0,"Avoid reading parenthetical (10,000)"
 the air,es_es,"<speak xml:lang=""es-ES""><s><prosody pitch=""-2st"">el aire</prosody></s></speak>",1,
 the direction,en_us,"<speak xml:lang=""en-US""><s><prosody rate=""slow"">the direction</prosody></s></speak>",1,
+the dot,ta_in,"<speak xml:lang=""ta-IN""><phoneme alphabet=""ipa"" ph=""puɭɭi"">புள்ளி</phoneme></speak>",1,Fix mispronunciation of retroflex ள்
 the east,pt_pt,"<speak xml:lang=""pt-PT"">o <phoneme alphabet=""ipa"" ph=""ˈɛʃtɨ"">este</phoneme></speak>",1,"Fixed wrong audio - explicit IPA for ""este"" (east)"
 the grandmother,es_es,"<speak>la<break time=""50ms""/>abuela</speak>",1,
+the lock,ru_ru,замо́к,0,Stress on second syllable (lock) not first (castle)
 the noun,pt_pt,"<speak xml:lang=""pt-PT"">o <phoneme alphabet=""ipa"" ph=""subʃtɐ̃ˈtivu"">substantivo</phoneme></speak>",1,Fixed wrong audio - explicit IPA pronunciation
 the patient,es_es,"<speak>el paciente<break time=""200ms""/>la paciente</speak>",1,
 the ship,es_es,"<speak>el barco<break time=""200ms""/>el buque</speak>",1,

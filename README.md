@@ -37,7 +37,11 @@ If you are technically more experienced and want to contribute to this project y
 Thank you to these people who have contributed with code, improvements, review
 of translations and more:
 
+* Alex Fedorov
 * Catarina
+* Grigorii Dorotynskii
 * Ivi
+* Madhuri Malager
 * Nawid
 * Niels
+* [Subhashini Ananthapadmanaban](https://github.com/subhaa1989)

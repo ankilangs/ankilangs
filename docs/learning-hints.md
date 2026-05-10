@@ -193,11 +193,11 @@ These words have clear, single meanings in both languages.
 
 ### For Non-Technical Contributors
 
-If you're reviewing a deck using the Excel spreadsheet (from the systematic deck review), you'll find hint columns:
-- Column E: `pronunciation_hint`
-- Column F: `spelling_hint`
-- Column G: `reading_hint`
-- Column H: `listening_hint`
+If you're reviewing a deck using the Excel spreadsheet (from the [systematic deck review](../CONTRIBUTING.md#systematic-deck-review)), you'll find hint columns:
+- Column F: `pronunciation_hint`
+- Column G: `spelling_hint`
+- Column H: `reading_hint`
+- Column I: `listening_hint`
 
 Simply type your hint in the appropriate column. Keep them short but clear.
 

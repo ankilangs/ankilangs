@@ -2,7 +2,6 @@
 title: "Swedish (EN to SV) | 625 Words"
 aliases:
   - /docs/decks/en-to-sv-625/
-
 deck_id: en_to_sv_625
 version: "0.1.0"
 download_url: "https://github.com/ankilangs/ankilangs/releases/download/EN_to_SV_625_Words%2F0.1.0/Swedish.EN.to.SV.-.625.Words.-.AnkiLangs.org.-.v0.1.0.apkg"

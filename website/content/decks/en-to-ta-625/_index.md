@@ -2,21 +2,29 @@
 title: "Tamil (EN to TA) | 625 Words"
 aliases:
   - /docs/decks/en-to-ta-625/
-
 deck_id: en_to_ta_625
-version: "0.1.0"
-download_url: "https://github.com/ankilangs/ankilangs/releases/download/EN_to_TA_625_Words%2F0.1.0/Tamil.EN.to.TA.-.625.Words.-.AnkiLangs.org.-.v0.1.0.apkg"
-ankiweb_url: ""
+version: "1.0.0"
+download_url: "https://github.com/ankilangs/ankilangs/releases/download/EN_to_TA_625_Words%2F1.0.0/Tamil.EN.to.TA.-.625.Words.-.AnkiLangs.org.-.v1.0.0.apkg"
+ankiweb_url: "https://ankiweb.net/shared/info/537878667"
 weight: 10
 ---
 
 # Tamil (EN to TA) | 625 Words
 
-**Status:** Unreleased
+**Latest release:** 1.0.0 (2026-02-12)
 
 Learn the 625 most important Tamil words if you already speak English.
 
-Note that this deck is not finished!
+[Download deck]({{< param download_url >}})
 
-**This deck is not yet released and is under development.**
+Also available on [AnkiWeb]({{< param ankiweb_url >}}). If you enjoy this deck, please rate it there to help other learners find it!
 
+See [Installation Instructions]({{< ref "/installation" >}}) and [Learning Tips]({{< ref "/learning-tips" >}}).
+
+## Changelog
+
+### 1.0.0 - 2026-02-12
+
+- Complete audio and IPA for all words
+- Complete hints for ambiguous words
+- Ready for production use
