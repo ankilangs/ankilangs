@@ -64,6 +64,7 @@
     "reviewLimit": null,
     "reviewLimitToday": null,
     "media_files": [
+        ".DS_Store",
         "al_car_vw.jpg",
         "al_earth.jpg",
         "al_sq_al_alive.mp3",
@@ -3260,7 +3261,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "r):.cLxjy.",
@@ -3697,7 +3698,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "e59sE%pBT+",
@@ -5376,7 +5377,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "svd*-mj~X)",
@@ -6204,7 +6205,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
             ],
             "flags": 0,
             "guid": "ElLFDC7NfF",
@@ -8251,7 +8252,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "b=,Y{jQP?c",
@@ -9585,7 +9586,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Achernar"
             ],
             "flags": 0,
             "guid": "h{5{A@p+.l",
@@ -10091,7 +10092,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "y}u7P,T|VT",
@@ -12184,7 +12185,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "QU#eg8{#X9",
@@ -12621,7 +12622,7 @@
                 "",
                 "",
                 "",
-                "Audio:<br>Google Cloud TTS<br>Voice: Achird"
+                "Audio:<br>Google Cloud TTS<br>Voice: Aoede"
             ],
             "flags": 0,
             "guid": "FM%e{s;6m#",
