@@ -6,6 +6,8 @@ updates:
       interval: "monthly"
     cooldown:
       default-days: 7
+    assignees:
+      - "omarkohl"
 
   - package-ecosystem: "gomod"
     directory: "/website/"
@@ -13,6 +15,8 @@ updates:
       interval: "monthly"
     cooldown:
       default-days: 7
+    assignees:
+      - "omarkohl"
 
   - package-ecosystem: "github-actions"
     # Workflow files stored in the default location of `.github/workflows`
@@ -21,3 +25,5 @@ updates:
       interval: "monthly"
     cooldown:
       default-days: 7
+    assignees:
+      - "omarkohl"
